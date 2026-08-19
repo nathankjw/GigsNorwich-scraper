@@ -45,6 +45,9 @@ jobs:
           print(f"Wrote {len(rows)} events to norwich_gigs.json")
           PYEOF
 
+      - name: Pull latest changes before saving
+        run: git pull --rebase origin main
+
       - name: Save the new data back to this repo
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
