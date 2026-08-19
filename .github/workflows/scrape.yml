@@ -6,7 +6,7 @@ on:
   workflow_dispatch:       # lets you also trigger it manually, for testing
 
 permissions:
-  contents: write   # needed so the workflow is allowed to save the CSV back here
+  contents: write   # needed so the workflow is allowed to save the files back here
 
 jobs:
   scrape:
@@ -31,8 +31,22 @@ jobs:
           mkdir -p scraped_data
           cp ~/norwich-scraper/scraped_data/norwich_gigs.csv scraped_data/norwich_gigs.csv
 
+      - name: Convert the CSV to JSON for the blog widget
+        run: |
+          python3 - <<'PYEOF'
+          import csv, json
+
+          with open("scraped_data/norwich_gigs.csv", newline="", encoding="utf-8") as f:
+              rows = list(csv.DictReader(f))
+
+          with open("scraped_data/norwich_gigs.json", "w", encoding="utf-8") as f:
+              json.dump(rows, f, ensure_ascii=False, indent=2)
+
+          print(f"Wrote {len(rows)} events to norwich_gigs.json")
+          PYEOF
+
       - name: Save the new data back to this repo
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated daily scrape"
-          file_pattern: scraped_data/*.csv
+          file_pattern: scraped_data/*.csv scraped_data/*.json
