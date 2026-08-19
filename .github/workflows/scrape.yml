@@ -1,0 +1,38 @@
+name: Daily Norwich Gigs Scrape
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # runs at 6:00am UTC every day
+  workflow_dispatch:       # lets you also trigger it manually, for testing
+
+permissions:
+  contents: write   # needed so the workflow is allowed to save the CSV back here
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install requests beautifulsoup4 selenium webdriver-manager lxml python-dateutil
+
+      - name: Run the scraper
+        run: python3 scrape_headless.py
+
+      - name: Copy the CSV into the repo folder
+        run: |
+          mkdir -p scraped_data
+          cp ~/norwich-scraper/scraped_data/norwich_gigs.csv scraped_data/norwich_gigs.csv
+
+      - name: Save the new data back to this repo
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automated daily scrape"
+          file_pattern: scraped_data/*.csv
