@@ -1273,15 +1273,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
     "date": "2026-09-30",
     "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
+    "date": "2026-09-30",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
   },
   {
     "venue": "Epic",
@@ -1837,15 +1837,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Jazz Sabbath",
-    "date": "2026-10-22",
-    "url": "https://norwichartscentre.co.uk/event/jazz-sabbath/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Ezra Furman @ The Halls",
     "date": "2026-10-22",
     "url": "https://norwichartscentre.co.uk/event/ezra-furman-at-the-halls/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Jazz Sabbath",
+    "date": "2026-10-22",
+    "url": "https://norwichartscentre.co.uk/event/jazz-sabbath/"
   },
   {
     "venue": "Voodoos",
@@ -2358,6 +2358,12 @@
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents Damp Matches",
+    "date": "2026-11-13",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-damp-matches/"
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Nieve Ella",
     "date": "2026-11-13",
@@ -2548,12 +2554,6 @@
     "event_name": "Intellectual Hooligans",
     "date": "2026-11-21",
     "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=48401"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Insecure Men",
-    "date": "2026-11-21",
-    "url": "https://norwichartscentre.co.uk/event/insecure-men/"
   },
   {
     "venue": "Waterfront",
@@ -2854,12 +2854,6 @@
     "event_name": "Free Monthly Wax: Stress Positions (us), Red Mar, Troilus",
     "date": "2026-12-07",
     "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax-stress-positions-red-mar-troilus"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Norwich Lanes Summer Fayre: One Love Sound & friends",
-    "date": "2026-12-07",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/norwich-lanes-summer-fayre-one-love-sound-friends"
   },
   {
     "venue": "Dead Wax",
