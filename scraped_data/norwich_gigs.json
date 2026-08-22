@@ -42,12 +42,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/reel-it-records-presents-on-deck"
   },
   {
-    "venue": "Dead Wax",
-    "event_name": "The Sickos Secret Cinema: Mystery movie night",
-    "date": "2026-07-14",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/the-sickos-secret-cinema-1"
-  },
-  {
     "venue": "Space",
     "event_name": "Circular Sequins",
     "date": "2026-07-15",
@@ -276,34 +270,10 @@
     "url": "https://www.spacestudiosnorwich.com"
   },
   {
-    "venue": "Gonzos",
-    "event_name": "Photek",
-    "date": "2026-08-21",
-    "url": "https://www.fatsoma.com/e/jsl3z8nj/photek"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Sipthesystem Presents Animal Rights charity gig",
-    "date": "2026-08-21",
-    "url": "https://thehollowaynorwich.com/events"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Gogol Bordello",
-    "date": "2026-08-21",
-    "url": "https://epic-tv.com/events/event/gogol-bordello"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "Wiggy Stardust and The Ciders From Jars",
     "date": "2026-08-21",
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Fossilization & Phobocosm + Consecration",
-    "date": "2026-08-21",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/fossilization-phobocosm-consecration/"
   },
   {
     "venue": "Dead Wax",
@@ -462,6 +432,18 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/kel4zmc57ine6mzrd1at3tz6o3ok50"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Jah Wobble & the Invaders of the Heart Play Metal",
+    "date": "2026-08-28",
+    "url": "https://www.norfolkgigguide.com/band-details/JAH+WOBBLE+%26+THE+INVADERS+OF+THE+HEART+PLAY+METAL"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Wicked Faith",
+    "date": "2026-08-28",
+    "url": "https://www.norfolkgigguide.com/band-details/Wicked+Faith"
+  },
+  {
     "venue": "Space",
     "event_name": "Elijah + Rondel Open to Close",
     "date": "2026-08-29",
@@ -544,6 +526,12 @@
     "event_name": "One Love Presents: Carnival Special",
     "date": "2026-08-30",
     "url": "https://www.deadwaxnorwich.pub/whats-on/one-love-presents-carnival-special"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Searchlight Promotions... Tribute Night",
+    "date": "2026-08-30",
+    "url": "https://www.norfolkgigguide.com/band-details/Searchlight+Promotions...+Tribute+Night"
   },
   {
     "venue": "Epic",
@@ -1279,15 +1267,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
     "date": "2026-09-30",
     "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
+    "date": "2026-09-30",
+    "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/"
   },
   {
     "venue": "Epic",
