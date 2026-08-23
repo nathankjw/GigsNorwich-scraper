@@ -49,21 +49,9 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "dreamcast: GRAD SPECIAL",
-    "date": "2026-07-16",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/dreamcast-2"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Nite Klub. (birthday special)",
     "date": "2026-07-17",
     "url": "https://www.deadwaxnorwich.pub/whats-on/nite-klub-birthday-special"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "spooky valentine (dj set)",
-    "date": "2026-07-17",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/jqn7h3h7cv4no4k32ifpzosq414sb2"
   },
   {
     "venue": "Dead Wax",
@@ -288,18 +276,6 @@
     "url": "https://www.fatsoma.com/e/1a73z57w/rift-21"
   },
   {
-    "venue": "Gonzos",
-    "event_name": "Bean b2b Tadi + Special Guest MCs",
-    "date": "2026-08-22",
-    "url": "https://www.fatsoma.com/e/3vpiwl9j/bean-b2b-tadi-special-guest-mcs"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Asinine Presents… Bullet + Subsect w/Support",
-    "date": "2026-08-22",
-    "url": "https://thehollowaynorwich.com/events"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "One Drop Vinyl Selectors – Ska And Reggie Garden Party",
     "date": "2026-08-22",
@@ -313,15 +289,15 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Know Your NME Clubnight",
-    "date": "2026-08-22",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/know-your-nme-clubnight"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "three more tunes (dj)",
     "date": "2026-08-22",
     "url": "https://www.deadwaxnorwich.pub/whats-on/three-more-tunes-dj"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "Know Your NME Clubnight",
+    "date": "2026-08-22",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/know-your-nme-clubnight"
   },
   {
     "venue": "Gonzos",
@@ -436,12 +412,6 @@
     "event_name": "Jah Wobble & the Invaders of the Heart Play Metal",
     "date": "2026-08-28",
     "url": "https://www.norfolkgigguide.com/band-details/JAH+WOBBLE+%26+THE+INVADERS+OF+THE+HEART+PLAY+METAL"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Wicked Faith",
-    "date": "2026-08-28",
-    "url": "https://www.norfolkgigguide.com/band-details/Wicked+Faith"
   },
   {
     "venue": "Space",
@@ -1702,6 +1672,12 @@
     "event_name": "Alternative Disco",
     "date": "2026-10-16",
     "url": "https://www.deadwaxnorwich.pub/whats-on/alternative-disco-1"
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "Green Diesel +  Joshua Arnold & Therine + Florence Rose Broomfield +",
+    "date": "2026-10-17",
+    "url": "https://thehollowaynorwich.com/events"
   },
   {
     "venue": "Epic",
