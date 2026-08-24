@@ -226,9 +226,10 @@ def normalise_title(name: str) -> str:
 # SCRAPER ENGINE
 # ═══════════════════════════════════════════════════════════════════════════════
 
-OUTPUT_DIR = Path.home() / "norwich-scraper" / "scraped_data"
-CSV_FILE   = OUTPUT_DIR / "norwich_gigs.csv"
-CSV_FIELDS = ["venue", "event_name", "date", "url"]
+OUTPUT_DIR     = Path.home() / "norwich-scraper" / "scraped_data"
+CSV_FILE       = OUTPUT_DIR / "norwich_gigs.csv"
+CSV_FIELDS     = ["venue", "event_name", "date", "url"]
+CSV_FLAT_FILE  = OUTPUT_DIR / "norwich_gigs_flat.csv"
 
 def _setup_driver():
     opts = Options()
@@ -1566,7 +1567,16 @@ def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
         writer.writeheader()
         writer.writerows(events)
 
+    # Second, flat-format CSV: one row per event, "Aug 16th,Venue,Event Name"
+    # (no header, no url column, date shown as "Mon Dth" via format_date()).
+    with open(CSV_FLAT_FILE, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        for e in events:
+            display_date = format_date(e.get("date", "")) or e.get("date", "")
+            writer.writerow([display_date, e.get("venue", ""), e.get("event_name", "")])
+
     log(f"\n✅  {len(events)} event(s) written to {CSV_FILE}", "ok")
+    log(f"✅  {len(events)} event(s) written to {CSV_FLAT_FILE}", "ok")
     on_complete(str(CSV_FILE))
 
 
