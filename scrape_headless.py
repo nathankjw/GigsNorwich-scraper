@@ -1461,6 +1461,68 @@ def scrape_hangar_fixr(session, log) -> list[dict]:
     return events
 
 
+def load_manual_events(log) -> list[dict]:
+    """
+    Load hand-added events from manual_events.csv, which lives in the same
+    repo folder as this script (alongside add_manual_event.py). This file
+    is never written to by the scraper — only appended to by
+    add_manual_event.py — so entries persist across every daily run.
+
+    Events whose date has already passed are silently dropped here, so
+    nobody needs to come back and delete old entries by hand.
+
+    Rows are tagged with "_manual": True so the keyword filter further
+    down (screening/bingo/quiz/etc.) skips them — an event someone
+    deliberately typed in shouldn't get auto-filtered because its title
+    happens to contain one of those words. They still go through the
+    normal duplicate check, in case a manually-added event later shows up
+    from a scraper too.
+    """
+    manual_file = Path(__file__).parent / "manual_events.csv"
+
+    log(f"\n{'─'*48}", "dim")
+    log(f"  Loading manual events", "plain")
+    log(f"{'─'*48}", "dim")
+
+    if not manual_file.exists():
+        log(f"  No manual_events.csv found — skipping", "dim")
+        return []
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    events = []
+    try:
+        with open(manual_file, newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                venue      = (row.get("venue") or "").strip()
+                event_name = (row.get("event_name") or "").strip()
+                date       = (row.get("date") or "").strip()
+                url        = (row.get("url") or "").strip()
+
+                if not venue or not event_name or not date:
+                    log(f"  ⚠  Skipping incomplete row: {row}", "warn")
+                    continue
+
+                if date < today:
+                    log(f"  –  Skipping past event: {date}  {event_name}", "dim")
+                    continue
+
+                events.append({
+                    "venue":      venue,
+                    "event_name": event_name,
+                    "date":       date,
+                    "url":        url,
+                    "_manual":    True,
+                })
+                log(f"  ✓  {date}  {venue} — {event_name}", "ok")
+
+    except Exception as e:
+        log(f"  ✗  Failed to read manual_events.csv: {e}", "err")
+
+    log(f"  → {len(events)} manual event(s)", "dim")
+    return events
+
+
 # ── Orchestrator ──────────────────────────────────────────────────────────────
 
 def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
@@ -1528,6 +1590,10 @@ def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
             except Exception:
                 pass
 
+    # Merge in hand-added events from manual_events.csv (see load_manual_events
+    # for why this lives outside the scraped `events` list up to this point).
+    events += load_manual_events(log)
+
     if stop_flag.is_set():
         log("\n⏹  Stopped — partial results discarded.", "warn")
         on_complete(None)
@@ -1549,9 +1615,11 @@ def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
     if removed_dupes:
         log(f"  ⚑  Removed {removed_dupes} duplicate event(s)", "warn")
 
-    # Drop events matching the keyword/phone-number filter
+    # Drop events matching the keyword/phone-number filter (manual events are
+    # exempt — see load_manual_events)
     before_filter = len(events)
-    events = [e for e in events if not should_filter_event(e.get("event_name", ""))]
+    events = [e for e in events
+              if e.get("_manual") or not should_filter_event(e.get("event_name", ""))]
     dropped = before_filter - len(events)
     if dropped:
         log(f"  ⚑  Filtered out {dropped} event(s) (screening/bingo/quiz/cribbage/private event/phone)", "warn")
