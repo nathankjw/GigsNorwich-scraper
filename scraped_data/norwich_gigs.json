@@ -318,12 +318,6 @@
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Kneecap",
-    "date": "2026-08-23",
-    "url": "https://www.ueaticketbookings.co.uk/event/kneecap/"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "the sickos secret cinema",
     "date": "2026-08-24",
@@ -412,6 +406,12 @@
     "event_name": "Jah Wobble & the Invaders of the Heart Play Metal",
     "date": "2026-08-28",
     "url": "https://www.norfolkgigguide.com/band-details/JAH+WOBBLE+%26+THE+INVADERS+OF+THE+HEART+PLAY+METAL"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Wicked Faith",
+    "date": "2026-08-28",
+    "url": "https://www.norfolkgigguide.com/band-details/Wicked+Faith"
   },
   {
     "venue": "Space",
@@ -1468,6 +1468,12 @@
     "event_name": "Corncutter Promotions Present: Dan Walsh",
     "date": "2026-10-09",
     "url": "https://www.deadwaxnorwich.pub/whats-on/corncutter-promotions-present-dan-walsh"
+  },
+  {
+    "venue": "Gonzos",
+    "event_name": "Delilah",
+    "date": "2026-10-10",
+    "url": "https://www.fatsoma.com/e/26hhuxg4/delilah"
   },
   {
     "venue": "Holloway",
