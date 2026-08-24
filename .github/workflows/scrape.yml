@@ -1,52 +1,44 @@
 name: Daily Norwich Gigs Scrape
-
 on:
   schedule:
     - cron: '0 6 * * *'   # runs at 6:00am UTC every day
   workflow_dispatch:       # lets you also trigger it manually, for testing
-
 permissions:
   contents: write   # needed so the workflow is allowed to save the files back here
-
 # Stops two runs (e.g. a scheduled one and a manual test) from ever executing
 # at the same time and racing each other to commit — the original cause of
 # the "non-fast-forward" push failures.
 concurrency:
   group: norwich-gigs-scrape
   cancel-in-progress: false
-
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install Python dependencies
         run: pip install requests beautifulsoup4 selenium webdriver-manager lxml python-dateutil
-
       - name: Run the scraper
         run: python3 scrape_headless.py
-
-      - name: Copy the CSV into the repo folder
+      - name: Copy the CSVs into the repo folder
         run: |
           mkdir -p scraped_data
           cp ~/norwich-scraper/scraped_data/norwich_gigs.csv scraped_data/norwich_gigs.csv
-
+          cp ~/norwich-scraper/scraped_data/norwich_gigs_flat.csv scraped_data/norwich_gigs_flat.csv
       - name: Convert the CSV to JSON for the blog widget
         run: python3 csv_to_json.py
-
       - name: Pull latest changes before saving
         run: |
-          git stash --include-untracked
+          STASHED=$(git stash --include-untracked)
           git pull --rebase origin main
-          git stash pop
-
+          if [[ "$STASHED" != *"No local changes to save"* ]]; then
+            git stash pop
+          fi
       - name: Save the new data back to this repo
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
