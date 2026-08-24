@@ -264,6 +264,12 @@
     "url": "https://lpsnorwich.co.uk/"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Norwich Jazz Jam",
+    "date": "2026-08-24",
+    "url": "https://lpsnorwich.co.uk/"
+  },
+  {
     "venue": "Space",
     "event_name": "Space 5th Birthday - House Party",
     "date": "2026-08-26",
@@ -304,6 +310,12 @@
     "event_name": "Nation of Language",
     "date": "2026-08-27",
     "url": "https://www.ueaticketbookings.co.uk/event/nation-of-language/"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "CR Smith",
+    "date": "2026-08-27",
+    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Last Pub",
@@ -361,15 +373,21 @@
   },
   {
     "venue": "Brickmakers",
+    "event_name": "Jah Wobble & the Invaders of the Heart Play Metal",
+    "date": "2026-08-28",
+    "url": "https://www.norfolkgigguide.com/band-details/JAH+WOBBLE+%26+THE+INVADERS+OF+THE+HEART+PLAY+METAL"
+  },
+  {
+    "venue": "Brickmakers",
     "event_name": "Wicked Faith",
     "date": "2026-08-28",
     "url": "https://www.norfolkgigguide.com/band-details/Wicked+Faith"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Jah Wobble & the Invaders of the Heart Play Metal",
+    "venue": "Last Pub",
+    "event_name": "Y2K.mp3",
     "date": "2026-08-28",
-    "url": "https://www.norfolkgigguide.com/band-details/JAH+WOBBLE+%26+THE+INVADERS+OF+THE+HEART+PLAY+METAL"
+    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Last Pub",
@@ -432,6 +450,12 @@
     "url": "https://lpsnorwich.co.uk/"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "MTV Spring Break: Beach Party",
+    "date": "2026-08-29",
+    "url": "https://lpsnorwich.co.uk/"
+  },
+  {
     "venue": "Space",
     "event_name": "Synthesis",
     "date": "2026-08-30",
@@ -484,6 +508,12 @@
     "event_name": "Bank Holiday 'Fiesta' w The Cuban Brothers - Sunday 30th August",
     "date": "2026-08-30",
     "url": "https://fixr.co/event/bank-holiday-fiesta-w-the-cuban-brothers-sunday-30-tickets-727244475"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Rewind",
+    "date": "2026-08-30",
+    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Last Pub",
