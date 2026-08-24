@@ -62,8 +62,8 @@ except ImportError:
 # VERSION
 # ═══════════════════════════════════════════════════════════════════════════════
 
-APP_VERSION      = "1.1"
-APP_VERSION_DATE = "2026-07-28"  # date this scraper build was last updated
+APP_VERSION      = "1.2"
+APP_VERSION_DATE = "2026-08-24"  # date this scraper build was last updated
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # SHARED HELPERS
@@ -89,6 +89,8 @@ DEFAULT_ALIASES: dict[str, str] = {
     "The Brickmakers - Norwich": "Brickmakers",
     "Madder Market Theatre":     "Maddermarket",
     "The Halls":                 "The Halls",
+    "The Hangar":                 "Hangar",
+    "The Hangar Norwich":         "Hangar",
 }
 
 # Default venue → ticket-link URL, used by the HTML Export tab to build
@@ -111,6 +113,7 @@ DEFAULT_VENUE_LINKS: dict[str, str] = {
     "First Draft":  "https://www.firstdraftkitchen.com/",
     "Maddermarket": "https://booking.maddermarket.co.uk/Events",
     "The Halls":    "https://www.norwich.gov.uk/thehalls/whats",
+    "Hangar":       "https://fixr.co/venue/the-hangar-norwich-26779",
 }
 
 
@@ -270,7 +273,17 @@ def scrape_space_studios(driver, log) -> list[dict]:
     Space Studios Norwich — Wix repeater cards (Selenium).
 
     URL : https://www.spacestudiosnorwich.com  (front page has current events)
-    The /copy-6-of-listings/upcoming-events path returns stale data.
+    The site has no fixed URL structure for "next month" pages — the team
+    running it just spins up a new Wix page with a fresh, unpredictable
+    slug each month (e.g. "copy-of-august-events") and links to it from a
+    "More Events" button on the front page. Some of those pages then have
+    their own "Month" nav link to yet another page.
+
+    Strategy: scrape the front page, then look for an <a> whose text is
+    "More Events" (front page) or "Month" (subsequent pages) and follow it,
+    repeating until no new/unvisited link is found or a safety cap of hops
+    is hit. Events are de-duplicated across pages by (title, date) since
+    later pages tend to re-list events already seen on an earlier page.
 
     Typical card structure inside div/li[role="listitem"]:
         h2/h3       → event title
@@ -282,6 +295,7 @@ def scrape_space_studios(driver, log) -> list[dict]:
     """
     VENUE = "Space Studios Norwich"
     URL   = "https://www.spacestudiosnorwich.com"
+    MAX_HOPS = 6  # front page + up to 5 "More Events"/"Month" follow-ons, as a safety cap
 
     log(f"\n{chr(9472)*48}", "dim")
     log(f"  Scraping {VENUE}", "plain")
@@ -293,32 +307,10 @@ def scrape_space_studios(driver, log) -> list[dict]:
         r"Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\b",
         re.I,
     )
+    _NEXT_LINK_LABELS = {"more events", "month"}
 
-    events = []
-    try:
-        driver.get(URL)
-
-        # Wait for any of: listitem div, listitem li, or just an h3/h2 heading —
-        # whichever Wix is currently rendering.
-        for css in (
-            '[role="listitem"]',
-            'h3',
-            'h2',
-        ):
-            try:
-                WebDriverWait(driver, 15).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, css))
-                )
-                log(f"  ✓  Page ready (matched '{css}')", "dim")
-                break
-            except Exception:
-                pass
-        time.sleep(3)   # extra settle time for Wix JS hydration
-
-        soup = BeautifulSoup(driver.page_source, "lxml")
-
-        # Card selector: try div[role=listitem] first, then li[role=listitem],
-        # then fall back to any element with role=listitem.
+    def _parse_cards(soup, page_url):
+        """Parse every event card on the page, return list of event dicts."""
         cards = (
             soup.find_all("div", attrs={"role": "listitem"})
             or soup.find_all("li",  attrs={"role": "listitem"})
@@ -334,6 +326,7 @@ def scrape_space_studios(driver, log) -> list[dict]:
                         if t.get_text(strip=True)]
             log(f"  ℹ  First card headings: {headings}", "dim")
 
+        page_events = []
         for card in cards:
             try:
                 # Title — prefer h3, fall back to h2, then h4
@@ -378,7 +371,7 @@ def scrape_space_studios(driver, log) -> list[dict]:
 
                 # Ticket URL — any <a href> in the card; prefer ones that look
                 # like ticket links, otherwise fall back to the site root.
-                event_url = URL
+                event_url = page_url
                 for a_tag in card.find_all("a", href=True):
                     href = a_tag["href"]
                     if re.search(r"ticket|book|event|wix", href, re.I):
@@ -386,21 +379,78 @@ def scrape_space_studios(driver, log) -> list[dict]:
                         break
                     event_url = href  # take the last-resort first href
 
-                events.append({
+                page_events.append({
                     "venue":      VENUE,
                     "event_name": title,
                     "date":       date_str,
                     "url":        event_url,
                 })
-                log(f"  ✓  {date_str}  {title}", "ok")
 
             except Exception as e:
                 log(f"  ⚠  Card error: {e}", "warn")
 
+        return page_events
+
+    def _find_next_page(soup, current_url, visited):
+        """Find a 'More Events' or 'Month' link not yet visited."""
+        for a_tag in soup.find_all("a", href=True):
+            label = " ".join(a_tag.get_text().split()).strip().lower()
+            if label in _NEXT_LINK_LABELS:
+                next_url = urljoin(current_url, a_tag["href"])
+                if next_url not in visited:
+                    return next_url
+        return None
+
+    events: list[dict] = []
+    seen_keys: set[tuple[str, str]] = set()  # (event_name, date) — dedupe across pages
+    visited: set[str] = set()
+
+    try:
+        current_url = URL
+        for hop in range(MAX_HOPS):
+            visited.add(current_url)
+            log(f"  → Page {hop + 1}: {current_url}", "dim")
+
+            driver.get(current_url)
+
+            # Wait for any of: listitem div, listitem li, or just an h3/h2 heading —
+            # whichever Wix is currently rendering.
+            for css in ('[role="listitem"]', 'h3', 'h2'):
+                try:
+                    WebDriverWait(driver, 15).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, css))
+                    )
+                    log(f"  ✓  Page ready (matched '{css}')", "dim")
+                    break
+                except Exception:
+                    pass
+            time.sleep(3)   # extra settle time for Wix JS hydration
+
+            soup = BeautifulSoup(driver.page_source, "lxml")
+            page_events = _parse_cards(soup, current_url)
+
+            new_on_page = 0
+            for ev in page_events:
+                key = (ev["event_name"].strip().lower(), ev["date"])
+                if key in seen_keys:
+                    continue
+                seen_keys.add(key)
+                events.append(ev)
+                new_on_page += 1
+                log(f"  ✓  {ev['date']}  {ev['event_name']}", "ok")
+
+            log(f"  → {new_on_page} new event(s) on this page ({len(page_events)} total on page)", "dim")
+
+            next_url = _find_next_page(soup, current_url, visited)
+            if not next_url:
+                log(f"  No further 'More Events'/'Month' link — done", "dim")
+                break
+            current_url = next_url
+
     except Exception as e:
         log(f"  ✗  {VENUE} failed: {e}", "err")
 
-    log(f"  → {len(events)} event(s)", "dim")
+    log(f"  → {len(events)} event(s) total", "dim")
     return events
 
 
@@ -1323,6 +1373,93 @@ def scrape_the_halls(session, log) -> list[dict]:
     return events
 
 
+def scrape_hangar_fixr(session, log) -> list[dict]:
+    """
+    The Hangar (Norwich) — fixr.co venue page (server-rendered Next.js).
+    URL: https://fixr.co/venue/the-hangar-norwich-26779
+
+    Fixr's venue page is server-rendered, so a plain requests.get() returns
+    the full event list without needing Selenium. Each event is a single
+    <a href="/event/..."> card, but Fixr doesn't mark up title/date/venue
+    as separate elements in any stable way — the card's combined text just
+    concatenates the event title (it appears twice back-to-back, once from
+    an image alt attribute and once from a heading), then a
+    "Weekday D Month" date, then "<Venue>, <Town>". So instead of relying
+    on specific child tags, this pulls everything from the anchor's full
+    text via regex, which should survive minor markup changes.
+    """
+    VENUE = "The Hangar"
+    URL   = "https://fixr.co/venue/the-hangar-norwich-26779"
+
+    log(f"\n{'─'*48}", "dim")
+    log(f"  Scraping {VENUE} (Fixr)", "plain")
+    log(f"{'─'*48}", "dim")
+
+    _DATE_RE = re.compile(
+        r"\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\s+\d{1,2}\s+"
+        r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\b",
+        re.IGNORECASE,
+    )
+
+    events = []
+    try:
+        resp = session.get(URL, timeout=15)
+        resp.raise_for_status()
+        soup  = BeautifulSoup(resp.text, "lxml")
+        links = soup.find_all("a", href=re.compile(r"/event/"))
+        log(f"  Found {len(links)} event link(s)", "dim")
+
+        seen_urls = set()
+        for a_tag in links:
+            try:
+                href = a_tag["href"]
+                link = href if href.startswith("http") else urljoin(URL, href)
+                if link in seen_urls:
+                    continue
+
+                text = " ".join(a_tag.get_text(" ", strip=True).split())
+                if not text:
+                    continue
+
+                m = _DATE_RE.search(text)
+                if not m:
+                    log(f"  ⚠  No date found in card text: {text[:60]}", "warn")
+                    continue
+
+                raw_date   = m.group(0)
+                title_part = text[:m.start()].strip()
+                if not title_part:
+                    continue
+
+                # Title is typically duplicated back-to-back in the card's
+                # combined text (once from an <img alt>, once from a
+                # heading), e.g. "Some Gig Title Some Gig Title" — collapse
+                # that down to a single "Some Gig Title".
+                dup_match = re.match(r"^(.+?)\s+\1$", title_part)
+                title = dup_match.group(1).strip() if dup_match else title_part.strip()
+
+                if not title:
+                    continue
+
+                date_str = _parse_date(raw_date)
+                if not date_str:
+                    log(f"  ⚠  Could not parse date '{raw_date}' for: {title}", "warn")
+                    continue
+
+                seen_urls.add(link)
+                events.append({"venue": VENUE, "event_name": title,
+                               "date": date_str, "url": link})
+                log(f"  ✓  {date_str}  {title}", "ok")
+            except Exception as e:
+                log(f"  ⚠  Card error: {e}", "warn")
+
+    except Exception as e:
+        log(f"  ✗  {VENUE} failed: {e}", "err")
+
+    log(f"  → {len(events)} {VENUE} event(s)", "dim")
+    return events
+
+
 # ── Orchestrator ──────────────────────────────────────────────────────────────
 
 def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
@@ -1375,6 +1512,7 @@ def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
                 scrape_dead_wax,
                 scrape_brickmakers_gig_guide,
                 scrape_the_halls,
+                scrape_hangar_fixr,
             ]:
                 if _check():
                     break
