@@ -49,18 +49,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Nite Klub. (birthday special)",
-    "date": "2026-07-17",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/nite-klub-birthday-special"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Chest + Jaded Teeth + The Bungees",
-    "date": "2026-07-18",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/chest-jaded-teeth-the-bungees"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Pride Against the Machine",
     "date": "2026-07-20",
     "url": "https://www.deadwaxnorwich.pub/whats-on/pride-against-the-machine-1"
@@ -1104,6 +1092,12 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/erotic-secrets-of-pompeii-supports"
   },
   {
+    "venue": "Holloway",
+    "event_name": "Civilian + supports (FREE SHOW)",
+    "date": "2026-09-22",
+    "url": "https://thehollowaynorwich.com/events"
+  },
+  {
     "venue": "Maddermarket",
     "event_name": "Chicago: Teen Edition",
     "date": "2026-09-22",
@@ -1120,12 +1114,6 @@
     "event_name": "PINN (ep release show) + SICKENER + KADE HATES ME",
     "date": "2026-09-22",
     "url": "https://www.deadwaxnorwich.pub/whats-on/pinn-ep-release-show-sickener-kade-hates-me"
-  },
-  {
-    "venue": "Space",
-    "event_name": "Frost D + Support",
-    "date": "2026-09-24",
-    "url": "https://www.spacestudiosnorwich.com/copy-of-august-events"
   },
   {
     "venue": "Epic",
@@ -1339,15 +1327,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
     "date": "2026-09-30",
     "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
+    "date": "2026-09-30",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
   },
   {
     "venue": "Epic",
@@ -1474,12 +1462,6 @@
     "event_name": "The Five Hundred",
     "date": "2026-10-04",
     "url": "https://www.ueaticketbookings.co.uk/event/the-five-hundred/"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Sofy",
-    "date": "2026-10-06",
-    "url": "https://www.ueaticketbookings.co.uk/event/sofy/"
   },
   {
     "venue": "Voodoos",
@@ -3358,6 +3340,12 @@
     "event_name": "Laurence Jones",
     "date": "2027-03-13",
     "url": "https://www.ueaticketbookings.co.uk/event/laurence-jones/"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Sofy",
+    "date": "2027-03-17",
+    "url": "https://www.ueaticketbookings.co.uk/event/sofy/"
   },
   {
     "venue": "Epic",
