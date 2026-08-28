@@ -42,6 +42,12 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/reel-it-records-presents-on-deck"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "Concrete Vehicles + Slag Heap + Toast",
+    "date": "2026-06-09",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/concrete-vehicles-slag-heap-toast"
+  },
+  {
     "venue": "Space",
     "event_name": "Circular Sequins",
     "date": "2026-07-15",
@@ -330,18 +336,6 @@
     "url": "https://www.revoluciondecuba.com/events/norwich/13124/case-de-cuba-bank-holiday-fiesta"
   },
   {
-    "venue": "Last Pub",
-    "event_name": "Y2K.mp3",
-    "date": "2026-08-28",
-    "url": "https://lpsnorwich.co.uk/"
-  },
-  {
-    "venue": "The Reindeer",
-    "event_name": "Black River Renegade + In Situ + Smalltown Vices",
-    "date": "2026-08-28",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
-  },
-  {
     "venue": "Space",
     "event_name": "Elijah + Rondel Open to Close",
     "date": "2026-08-29",
@@ -382,18 +376,6 @@
     "event_name": "Bone Machine",
     "date": "2026-08-29",
     "url": "https://www.deadwaxnorwich.pub/whats-on/r99gi6h8udpp7kvsj2tttfg2d8kagn"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "MTV Spring Break: Beach Party",
-    "date": "2026-08-29",
-    "url": "https://lpsnorwich.co.uk/"
-  },
-  {
-    "venue": "The Reindeer",
-    "event_name": "Lowlife",
-    "date": "2026-08-29",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
   },
   {
     "venue": "Space",
@@ -444,12 +426,6 @@
     "url": "https://www.revoluciondecuba.com/events/norwich/13126/barney-holmes"
   },
   {
-    "venue": "Last Pub",
-    "event_name": "Rewind",
-    "date": "2026-08-30",
-    "url": "https://lpsnorwich.co.uk/"
-  },
-  {
     "venue": "Epic",
     "event_name": "Arrested Development (plus Tadi The Great)",
     "date": "2026-08-31",
@@ -496,6 +472,12 @@
     "event_name": "A Place To Bury Strangers",
     "date": "2026-09-03",
     "url": "https://www.ueaticketbookings.co.uk/event/a-place-to-bury-strangers/"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Jas (DJ)",
+    "date": "2026-09-03",
+    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Space",
@@ -552,6 +534,12 @@
     "url": "https://www.norfolkgigguide.com/band-details/In+Situ"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "LPS PRESENTS: DISCO with Discofonique",
+    "date": "2026-09-04",
+    "url": "https://lpsnorwich.co.uk/"
+  },
+  {
     "venue": "Space",
     "event_name": "Phreq",
     "date": "2026-09-05",
@@ -600,6 +588,12 @@
     "url": "https://fixr.co/event/andy-c-norwich-day-party-5th-september-tickets-996522409"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "All Night Long with Nikki",
+    "date": "2026-09-05",
+    "url": "https://lpsnorwich.co.uk/"
+  },
+  {
     "venue": "Gonzos",
     "event_name": "Rooftop Sunday Sessions w Somewhere Soul",
     "date": "2026-09-06",
@@ -624,16 +618,16 @@
     "url": "https://www.norfolkgigguide.com/band-details/Searchlight+presents....Kickin+Valentino+and+more."
   },
   {
-    "venue": "The Reindeer",
-    "event_name": "Wensum Blues Band",
-    "date": "2026-09-06",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
-  },
-  {
     "venue": "Epic",
     "event_name": "The Bootleg Beatles",
     "date": "2026-09-07",
     "url": "https://epic-tv.com/events/event/the-bootleg-beatles"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Norwich Jazz Jam",
+    "date": "2026-09-07",
+    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Maddermarket",
@@ -756,6 +750,12 @@
     "url": "https://www.ueaticketbookings.co.uk/event/cam-t/"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Housekind",
+    "date": "2026-09-11",
+    "url": "https://lpsnorwich.co.uk/"
+  },
+  {
     "venue": "Space",
     "event_name": "Togetherness",
     "date": "2026-09-12",
@@ -804,6 +804,12 @@
     "url": "https://fixr.co/event/norwich-its-a-garage-thing-garage-end-of-summer-da-tickets-471966335"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "All Night Long with Cheers!",
+    "date": "2026-09-12",
+    "url": "https://lpsnorwich.co.uk/"
+  },
+  {
     "venue": "Gonzos",
     "event_name": "Rooftop Sunday Session w Dunmore Brothers (Summer Closing)",
     "date": "2026-09-13",
@@ -846,10 +852,10 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/stereo-sanctity-returns-to-norwich-with-immersion-pram-and-e-m-arson/"
   },
   {
-    "venue": "The Reindeer",
-    "event_name": "Sunday Soul with The Optics",
+    "venue": "Last Pub",
+    "event_name": "The Listening Club - Prince",
     "date": "2026-09-13",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
+    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Epic",
@@ -862,6 +868,12 @@
     "event_name": "Liana Flores",
     "date": "2026-09-14",
     "url": "https://www.ueaticketbookings.co.uk/event/liana-flores/"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Norwich Jazz Jam",
+    "date": "2026-09-14",
+    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Holloway",
@@ -990,6 +1002,12 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/tadi-the-great-dj-set-2"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Revinyl Sessions",
+    "date": "2026-09-18",
+    "url": "https://lpsnorwich.co.uk/"
+  },
+  {
     "venue": "Space",
     "event_name": "Basement Sessions",
     "date": "2026-09-19",
@@ -1038,6 +1056,12 @@
     "url": "https://fixr.co/event/norwich-mj-cole-daylight-disco-end-of-summer-day-p-tickets-949961467"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "All Night Long with AMSORRY2",
+    "date": "2026-09-19",
+    "url": "https://lpsnorwich.co.uk/"
+  },
+  {
     "venue": "Holloway",
     "event_name": "O My Stars presents hemlock + Westelaken + yer blooze",
     "date": "2026-09-20",
@@ -1066,6 +1090,18 @@
     "event_name": "Erotic Secrets of Pompeii + Supports",
     "date": "2026-09-20",
     "url": "https://www.deadwaxnorwich.pub/whats-on/erotic-secrets-of-pompeii-supports"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Chubby Jams",
+    "date": "2026-09-20",
+    "url": "https://lpsnorwich.co.uk/"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Norwich Jazz Jam",
+    "date": "2026-09-21",
+    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Holloway",
@@ -1120,6 +1156,12 @@
     "event_name": "Bone Machine (dj Set)",
     "date": "2026-09-24",
     "url": "https://www.deadwaxnorwich.pub/whats-on/bone-machine-dj-set"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "A Joint Effort",
+    "date": "2026-09-24",
+    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Space",
@@ -1200,6 +1242,12 @@
     "url": "https://fixr.co/event/norwich-red-card-comedy-club-presents-christian-or-tickets-420134290"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "All Night Long with Three More Tunes & Aoife",
+    "date": "2026-09-25",
+    "url": "https://lpsnorwich.co.uk/"
+  },
+  {
     "venue": "Gonzos",
     "event_name": "Sarah Story",
     "date": "2026-09-26",
@@ -1260,10 +1308,10 @@
     "url": "https://www.norwich.gov.uk/thehalls/emilio-santoro-elvis"
   },
   {
-    "venue": "Space",
-    "event_name": "Space's 5th Birthday Party",
+    "venue": "Last Pub",
+    "event_name": "Future Grooves",
     "date": "2026-09-26",
-    "url": "https://www.spacestudiosnorwich.com/"
+    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Epic",
@@ -1288,6 +1336,12 @@
     "event_name": "Porkys Hot Rockin",
     "date": "2026-09-27",
     "url": "https://www.norfolkgigguide.com/band-details/Porkys+Hot+Rockin"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Norwich Jazz Jam",
+    "date": "2026-09-28",
+    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Arts Centre",
@@ -1315,15 +1369,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
     "date": "2026-09-30",
     "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
+    "date": "2026-09-30",
+    "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/"
   },
   {
     "venue": "Epic",
@@ -1432,12 +1486,6 @@
     "event_name": "The Tubs + Spike & The Danphes",
     "date": "2026-10-03",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-tubs/"
-  },
-  {
-    "venue": "The Reindeer",
-    "event_name": "Devil's Cadillac",
-    "date": "2026-10-03",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
   },
   {
     "venue": "Epic",
@@ -1552,12 +1600,6 @@
     "event_name": "Corncutter Promotions Present: Dan Walsh",
     "date": "2026-10-09",
     "url": "https://www.deadwaxnorwich.pub/whats-on/corncutter-promotions-present-dan-walsh"
-  },
-  {
-    "venue": "The Reindeer",
-    "event_name": "Halo's Edge",
-    "date": "2026-10-09",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
   },
   {
     "venue": "Gonzos",
@@ -2022,12 +2064,6 @@
     "url": "https://www.norfolkgigguide.com/band-details/Sing+it+your+way+KARAOKE"
   },
   {
-    "venue": "The Reindeer",
-    "event_name": "Nikki and the Switchblades",
-    "date": "2026-10-25",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
-  },
-  {
     "venue": "Epic",
     "event_name": "Neon Moon FREAKSHOW",
     "date": "2026-10-27",
@@ -2160,12 +2196,6 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/pet-needs/"
   },
   {
-    "venue": "The Reindeer",
-    "event_name": "Mister Pink",
-    "date": "2026-10-30",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "Popestars – Ghost Tribute",
     "date": "2026-10-31",
@@ -2176,6 +2206,12 @@
     "event_name": "Bloghaus of Horrors – Halloween Special",
     "date": "2026-10-31",
     "url": "https://norwichartscentre.co.uk/event/bloghaus-of-horrors-halloween-special/"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Asinine Halloween #4 – Eahc Edition",
+    "date": "2026-10-31",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/asinine-halloween-4-eahc-edition/"
   },
   {
     "venue": "Brickmakers",
@@ -2308,12 +2344,6 @@
     "event_name": "Canned Pineapple + The Bungees, Decent Wrestlers",
     "date": "2026-11-07",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/canned-pineapple-the-bungees-decent-wrestlers/"
-  },
-  {
-    "venue": "The Reindeer",
-    "event_name": "Fictus",
-    "date": "2026-11-07",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
   },
   {
     "venue": "Epic",
@@ -2496,12 +2526,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/the-cain-pit-w-east-town-pirates"
   },
   {
-    "venue": "The Reindeer",
-    "event_name": "Lithium",
-    "date": "2026-11-13",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
-  },
-  {
     "venue": "Holloway",
     "event_name": "Sonic Cathedral presents The Early Years + Sennen + Allies of Ferns",
     "date": "2026-11-14",
@@ -2539,7 +2563,7 @@
   },
   {
     "venue": "Hangar",
-    "event_name": "Fish56octagon - Norwich - Day Party - 29th August",
+    "event_name": "Indoors & Heated: Fish56octagon - Norwich - Day Party -",
     "date": "2026-11-14",
     "url": "https://fixr.co/event/fish56octagon-norwich-day-party-26th-september-tickets-540418264"
   },
@@ -2731,15 +2755,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Round Midnight presents corto.alto @ EPIC Studios",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-cortoalto-at-epic-studios/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "PONY UP presents COWBOYY",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents corto.alto @ EPIC Studios",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-cortoalto-at-epic-studios/"
   },
   {
     "venue": "Waterfront",
@@ -2982,6 +3006,12 @@
     "url": "https://www.norfolkgigguide.com/band-details/Henry+Cluney%27s+XSLF+%2B+The+Punktures+%2B+Beef+%26+Onion"
   },
   {
+    "venue": "Hangar",
+    "event_name": "Norwich: Pat Sharp's Fun House Xmas Special - Indoors & Heated | 5th Dec",
+    "date": "2026-12-05",
+    "url": "https://fixr.co/event/norwich-mj-cole-daylight-disco-end-of-summer-day-p-tickets-108678374"
+  },
+  {
     "venue": "Waterfront",
     "event_name": "The Fell",
     "date": "2026-12-06",
@@ -3115,9 +3145,9 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "John Vigar Tribute with Anna Mudeka",
+    "event_name": "The Anna Mudeka Band",
     "date": "2026-12-18",
-    "url": "https://norwichartscentre.co.uk/event/john-vigar-tribute-with-anna-mudeka/"
+    "url": "https://norwichartscentre.co.uk/event/the-anna-mudeka-band/"
   },
   {
     "venue": "Waterfront",
