@@ -174,6 +174,12 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/8xcntg7stgjw0fbyxgq9ucxtalkogb"
   },
   {
+    "venue": "Revolucion de Cuba",
+    "event_name": "Strictly Salsa Norwich",
+    "date": "2026-08-17",
+    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich"
+  },
+  {
     "venue": "Dead Wax",
     "event_name": "the sickos secret cinema",
     "date": "2026-08-19",
@@ -318,6 +324,12 @@
     "url": "https://www.norfolkgigguide.com/band-details/Wicked+Faith"
   },
   {
+    "venue": "Revolucion de Cuba",
+    "event_name": "Case de Cuba - Bank Holiday Fiesta",
+    "date": "2026-08-28",
+    "url": "https://www.revoluciondecuba.com/events/norwich/13124/case-de-cuba-bank-holiday-fiesta"
+  },
+  {
     "venue": "Last Pub",
     "event_name": "Y2K.mp3",
     "date": "2026-08-28",
@@ -424,6 +436,12 @@
     "event_name": "One Love Presents: Carnival Special",
     "date": "2026-08-30",
     "url": "https://www.deadwaxnorwich.pub/whats-on/one-love-presents-carnival-special"
+  },
+  {
+    "venue": "Revolucion de Cuba",
+    "event_name": "Barney Holmes!",
+    "date": "2026-08-30",
+    "url": "https://www.revoluciondecuba.com/events/norwich/13126/barney-holmes"
   },
   {
     "venue": "Last Pub",
@@ -1297,15 +1315,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
     "date": "2026-09-30",
     "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
+    "date": "2026-09-30",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
   },
   {
     "venue": "Epic",
@@ -3024,6 +3042,12 @@
     "url": "https://www.ueaticketbookings.co.uk/event/zz-toppd-the-uks-no-1-tribute-to-zz-top/"
   },
   {
+    "venue": "Revolucion de Cuba",
+    "event_name": "Mambo Kings",
+    "date": "2026-12-11",
+    "url": "https://www.revoluciondecuba.com/events/norwich/12946/mambo-kings"
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Sham 69 ‘50th Anniversary’",
     "date": "2026-12-12",
@@ -3118,6 +3142,12 @@
     "event_name": "A Country Night in Nashville",
     "date": "2026-12-18",
     "url": "https://www.norwich.gov.uk/thehalls/country-night-nashville"
+  },
+  {
+    "venue": "Revolucion de Cuba",
+    "event_name": "Tuto Tribe!",
+    "date": "2026-12-18",
+    "url": "https://www.revoluciondecuba.com/events/norwich/12931/tuto-tribe"
   },
   {
     "venue": "Waterfront",
