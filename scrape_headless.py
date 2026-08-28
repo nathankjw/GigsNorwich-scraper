@@ -91,6 +91,8 @@ DEFAULT_ALIASES: dict[str, str] = {
     "The Halls":                 "The Halls",
     "The Hangar":                 "Hangar",
     "The Hangar Norwich":         "Hangar",
+    "Revolución de Cuba Norwich": "Revolucion de Cuba",
+    "Revolucion de Cuba Norwich": "Revolucion de Cuba",
 }
 
 # Default venue → ticket-link URL, used by the HTML Export tab to build
@@ -114,6 +116,7 @@ DEFAULT_VENUE_LINKS: dict[str, str] = {
     "Maddermarket": "https://booking.maddermarket.co.uk/Events",
     "The Halls":    "https://www.norwich.gov.uk/thehalls/whats",
     "Hangar":       "https://fixr.co/venue/the-hangar-norwich-26779",
+    "Revolucion de Cuba": "https://www.revoluciondecuba.com/events/?location=Norwich&type=Live+Music",
 }
 
 
@@ -1187,6 +1190,15 @@ def _is_music_event(text: str) -> bool:
     return bool(_MUSIC_KEYWORDS.search(text))
 
 
+# Phrases identifying non-gig posts (recurring deals/classes) that show up
+# mixed in with real events on Revolución de Cuba's Norwich listing.
+_NON_GIG = re.compile(
+    r"\b(salsa\s+class(es)?|cuban\s+salsa|tapas|happy\s+hour|brunch|"
+    r"lunch\s+deal|industria|good\s+sunday|good\s+time)\b",
+    re.IGNORECASE,
+)
+
+
 def scrape_madder_market(driver, log) -> list[dict]:
     """
     Madder Market Theatre — Spektrix booking system (Selenium).
@@ -1461,6 +1473,127 @@ def scrape_hangar_fixr(session, log) -> list[dict]:
     return events
 
 
+def scrape_revolucion_de_cuba(session, log) -> list[dict]:
+    """
+    Revolución de Cuba, Norwich — live music/DJ nights (requests + regex).
+    URL: https://www.revoluciondecuba.com/events/?location=Norwich&type=Live+Music
+
+    Two quirks this scraper works around:
+
+    1. The ?location=/?type= query params only drive client-side JS
+       filtering — a plain requests.get() ignores them and returns every
+       event across every Revolución de Cuba bar in the country. So this
+       scraper fetches the whole listing, then keeps only "View Event"
+       links whose URL contains "/events/norwich/" (the location is baked
+       into the URL itself, so this is reliable regardless of the page's
+       CSS/JS).
+
+    2. The listing page never shows a date at all — only the event's own
+       page does, as a heading like "From 28th Aug 2026 to 30th Aug 2026".
+       For a single one-off event that's just the one day repeated; for a
+       recurring event (checked directly: a "Barney Holmes!" event whose
+       description still lists four dates going back to April) that
+       heading only shows the *next upcoming* date — the site itself does
+       the "what's coming up" filtering, so this scraper just takes the
+       first date in that range and doesn't need to parse the recurring
+       schedule out of the description text. This does mean one extra
+       page fetch per Norwich event, but there are usually only a
+       handful.
+
+    The listing also mixes in non-gig posts under "Norwich" (weekly salsa
+    classes, the Sunday tapas deal, Happy Hour, etc.) which aren't really
+    "live music" in the way this site cares about. Unlike the Madder
+    Market/The Halls scrapers, this doesn't require a music-keyword match
+    to keep an event — RDC gig titles are often just an artist name
+    ("Barney Holmes!", "Mambo Kings") with no music-related word anywhere
+    on the page, so requiring one would drop real gigs. Instead it
+    excludes by matching known non-gig phrases (salsa class, tapas, happy
+    hour, etc.) and keeps everything else.
+    """
+    VENUE = "Revolucion de Cuba"
+    LISTING_URL = "https://www.revoluciondecuba.com/events/?location=Norwich&type=Live+Music"
+
+    log(f"\n{'─'*48}", "dim")
+    log(f"  Scraping {VENUE}", "plain")
+    log(f"{'─'*48}", "dim")
+
+    events = []
+    try:
+        resp = session.get(LISTING_URL, timeout=15)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "lxml")
+
+        norwich_links = soup.find_all("a", href=re.compile(r"/events/norwich/\d+/"))
+        # De-duplicate by resolved URL — a card can contain more than one
+        # anchor pointing at the same event (e.g. the image is often also
+        # a link).
+        by_url = {}
+        for a in norwich_links:
+            url = urljoin(LISTING_URL, a["href"])
+            by_url.setdefault(url, a)
+        log(f"  Found {len(by_url)} Norwich event link(s) on the listing page", "dim")
+
+        for event_url, a_tag in by_url.items():
+            try:
+                # Title — nearest heading above the "View Event" link, within its card.
+                title = ""
+                container = a_tag
+                for _ in range(5):
+                    container = container.find_parent(["article", "div", "li"])
+                    if container is None:
+                        break
+                    heading = container.find(["h1", "h2", "h3", "h4", "h5"])
+                    if heading and heading.get_text(strip=True):
+                        title = heading.get_text(strip=True)
+                        break
+                if not title:
+                    log(f"  ⚠  Could not find a title for {event_url}", "warn")
+                    continue
+
+                # The date only lives on the event's own page.
+                detail_resp = session.get(event_url, timeout=15)
+                detail_soup = BeautifulSoup(detail_resp.text, "lxml")
+
+                date_tag = None
+                for tag in detail_soup.find_all(["h4", "h5", "h6"]):
+                    if re.search(r"\bfrom\b.*\bto\b", tag.get_text(strip=True), re.IGNORECASE):
+                        date_tag = tag
+                        break
+                if not date_tag:
+                    log(f"  ⚠  No date range found for: {title}", "warn")
+                    continue
+
+                m = re.search(r"from\s+(.+?)\s+to\s+", date_tag.get_text(strip=True), re.IGNORECASE)
+                date_str = _parse_date(m.group(1).strip()) if m else None
+                if not date_str:
+                    log(f"  ⚠  Could not parse date '{date_tag.get_text(strip=True)}' for: {title}", "warn")
+                    continue
+
+                # Description — the paragraph right after the date heading.
+                desc_tag = date_tag.find_next("p")
+                description = desc_tag.get_text(" ", strip=True) if desc_tag else ""
+                combined = f"{title} {description}"
+
+                if _NON_GIG.search(combined):
+                    log(f"  –  Skipped (deal/class, not a gig): {title}", "dim")
+                    continue
+
+                events.append({"venue": VENUE, "event_name": title,
+                               "date": date_str, "url": event_url})
+                log(f"  ✓  {date_str}  {title}", "ok")
+
+                time.sleep(0.5)  # be polite between per-event detail-page requests
+
+            except Exception as e:
+                log(f"  ⚠  Event error ({event_url}): {e}", "warn")
+
+    except Exception as e:
+        log(f"  ✗  {VENUE} failed: {e}", "err")
+
+    log(f"  → {len(events)} {VENUE} event(s)", "dim")
+    return events
+
+
 def load_manual_events(log) -> list[dict]:
     """
     Load hand-added events from manual_events.csv, which lives in the same
@@ -1576,6 +1709,7 @@ def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
                 scrape_brickmakers_gig_guide,
                 scrape_the_halls,
                 scrape_hangar_fixr,
+                scrape_revolucion_de_cuba,
             ]:
                 if _check():
                     break
