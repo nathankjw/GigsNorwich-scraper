@@ -55,12 +55,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "The Sickos Secret Cinema (Pride special)",
-    "date": "2026-07-22",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/the-sickos-secret-cinema-pride-special"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Norwich Pride Fundraiser: Kitty Perrin, Santa Rita (solo), Flat Venus",
     "date": "2026-07-23",
     "url": "https://www.deadwaxnorwich.pub/whats-on/pride-fundraiser-kitty-perrin-santa-rita-solo-flat-venus"
@@ -276,22 +270,10 @@
     "url": "https://www.spacestudiosnorwich.com"
   },
   {
-    "venue": "Gonzos",
-    "event_name": "Kepler (Fuse) - Bank Holiday Special",
-    "date": "2026-08-28",
-    "url": "https://www.fatsoma.com/e/cxg6fhno/kepler-fuse-bank-holiday-special"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "Rust Metal",
     "date": "2026-08-28",
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "FREE monthly wax: Irked + BEN AULD BAND + the breedling",
-    "date": "2026-08-28",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax"
   },
   {
     "venue": "Dead Wax",
@@ -300,28 +282,16 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/kel4zmc57ine6mzrd1at3tz6o3ok50"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Morningstar Records & gj.promotions present Punk @",
+    "venue": "Dead Wax",
+    "event_name": "FREE monthly wax: Irked + BEN AULD BAND + the breedling",
     "date": "2026-08-28",
-    "url": "https://www.norfolkgigguide.com/band-details/Morningstar+Records+%26+gj.promotions+present+Punk+%40"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Wicked Faith",
-    "date": "2026-08-28",
-    "url": "https://www.norfolkgigguide.com/band-details/Wicked+Faith"
+    "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax"
   },
   {
     "venue": "Revolucion de Cuba",
     "event_name": "Case de Cuba - Bank Holiday Fiesta",
     "date": "2026-08-28",
     "url": "https://www.revoluciondecuba.com/events/norwich/13124/case-de-cuba-bank-holiday-fiesta"
-  },
-  {
-    "venue": "The Reindeer",
-    "event_name": "Black River Renegade + In Situ + Smalltown Vices",
-    "date": "2026-08-28",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
   },
   {
     "venue": "Space",
@@ -1984,12 +1954,6 @@
     "event_name": "Ezra Furman @ The Halls",
     "date": "2026-10-22",
     "url": "https://norwichartscentre.co.uk/event/ezra-furman-at-the-halls/"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Jazz Sabbath",
-    "date": "2026-10-22",
-    "url": "https://norwichartscentre.co.uk/event/jazz-sabbath/"
   },
   {
     "venue": "Voodoos",
