@@ -491,7 +491,12 @@ def scrape_norwich_arts_centre(session, log) -> list[dict]:
     log(f"  Scraping {VENUE}", "plain")
     log(f"{'─'*48}", "dim")
 
-    _EVENT_HREF = re.compile(r"/event/[^/]+/?", re.I)
+    # Anchored + excludes /event/category/... — the old unanchored version
+    # of this pattern also matched the genre filter sidebar links
+    # (/event/category/folk/ etc.), which polluted results with bogus
+    # "events" and duplicate entries carrying the wrong (category-archive)
+    # URL.
+    _EVENT_HREF = re.compile(r"/event/(?!category/)[a-z0-9\-]+/?(?:$|[?#])", re.I)
     _DATE_LINE = re.compile(
         r"\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\s+\d{1,2}\s+"
         r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{4}"
@@ -600,57 +605,191 @@ def scrape_norwich_arts_centre(session, log) -> list[dict]:
     return events
 
 
+# Venue display names as they appear on ueaticketbookings.co.uk event
+# cards. Ordered longest-first so a more specific name wins over a
+# shorter one it starts with when regex-matching card text (otherwise
+# "The Adrian Flux Waterfront" would match inside "...Waterfront Studio"
+# cards too, since alternation tries options in listed order and stops at
+# the first one that matches at a given position).
+_UEA_VENUE_NAMES = [
+    "The Adrian Flux Waterfront Studio",
+    "The Adrian Flux Waterfront",
+    "The Nick Rayns LCR, UEA",
+    "Voodoo Daddys Showroom",
+    "Norwich Arts Centre",
+    "Food Museum, Stowmarket",
+    "The Brickmakers",
+    "Epic Studios",
+    "Dead Wax",
+]
+_UEA_VENUE_RE = re.compile("|".join(re.escape(v) for v in _UEA_VENUE_NAMES))
+
+_UEA_DATE_RE = re.compile(
+    r"\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\s+\d{1,2}\s+"
+    r"(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|"
+    r"Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+\d{4}\b",
+    re.IGNORECASE,
+)
+
+_UEA_EVENT_HREF = re.compile(r"/event/[a-z0-9\-]+/?(?:$|[?#])", re.I)
+
+
+def _scrape_uea_whats_on(session, log,
+                          base_url="https://www.ueaticketbookings.co.uk/whats-on/",
+                          max_pages=25) -> list[dict]:
+    """
+    Shared crawler for ueaticketbookings.co.uk's "What's On" listing.
+
+    This used to be filterable server-side per venue via a
+    ?_sfm_venue=<Venue+Name> query param, which scrape_waterfront and
+    scrape_lcr each used with their own venue value. That no longer works:
+    fetching the listing with the old venue value, with the venue's
+    current slug (taken from the site's own venue-filter links, e.g.
+    ?_sfm_venue=Waterfront), and with no venue param at all, all return
+    the identical unfiltered listing — every venue mixed together. The
+    facet filtering is presumably applied client-side via JS now, which a
+    plain GET never triggers, so there's no URL-based way left to ask the
+    site for just one venue's events.
+
+    So instead this fetches the single combined, paginated listing once
+    and tags every event with whichever known venue name
+    (_UEA_VENUE_NAMES) appears on its card — scrape_waterfront/scrape_lcr
+    then just filter this combined list down to the venue(s) they want.
+    Each event card is, in order:
+
+        <a href=".../event/<slug>/">          thumbnail image link
+        "<Weekday> <day> <Month> <year>"       date line, e.g. "Sat 29 August 2026"
+        "<venue name>"                         one of _UEA_VENUE_NAMES
+        #### <title>                           event title (h4)
+        ###### <subtitle>                      optional subtitle (h6)
+        <a href="...same event url...">CTA</a> "Book tickets" / "Selling fast" / etc.
+
+    Returns {"venue", "event_name", "date", "url"} dicts, where "venue" is
+    the full name as printed on the card (not yet run through
+    DEFAULT_ALIASES).
+    """
+    events = []
+    page = 1
+    seen_urls: set[str] = set()
+
+    while page <= max_pages:
+        url = base_url if page == 1 else f"{base_url}?sf_paged={page}"
+        log(f"  Page {page}…", "dim")
+        try:
+            resp = session.get(url, timeout=15)
+            if resp.status_code == 404:
+                log(f"  404 — no more pages", "dim")
+                break
+            soup = BeautifulSoup(resp.text, "lxml")
+        except Exception as e:
+            log(f"  ✗  Page {page} failed: {e}", "err")
+            break
+
+        links = soup.find_all("a", href=_UEA_EVENT_HREF)
+        by_url: dict[str, "BeautifulSoup"] = {}
+        for a in links:
+            full_url = urljoin(url, a["href"])
+            by_url.setdefault(full_url, a)
+
+        if not by_url:
+            log(f"  No event links on page {page} — done", "dim")
+            break
+
+        new_this_page = [u for u in by_url if u not in seen_urls]
+        if not new_this_page:
+            log(f"  No new events on page {page} — done", "dim")
+            break
+
+        log(f"  Found {len(by_url)} event link(s) ({len(new_this_page)} new)", "dim")
+
+        for event_url, a_tag in by_url.items():
+            if event_url in seen_urls:
+                continue
+            seen_urls.add(event_url)
+            try:
+                # Walk up to find a card-ish container with a heading, a
+                # date, and a known venue name all present together.
+                container = a_tag
+                card = None
+                for _ in range(6):
+                    container = container.find_parent(["article", "div", "li"])
+                    if container is None:
+                        break
+                    text = container.get_text(" ", strip=True)
+                    if (container.find(["h4", "h3", "h2"])
+                            and _UEA_DATE_RE.search(text)
+                            and _UEA_VENUE_RE.search(text)):
+                        card = container
+                        break
+                if card is None:
+                    card = container or a_tag
+
+                heading = card.find(["h4", "h3", "h2"])
+                title = " ".join(heading.get_text().split()) if heading else ""
+                if not title:
+                    title = " ".join(a_tag.get_text().split())
+                if not title:
+                    log(f"  ⚠  No title for {event_url}", "warn")
+                    continue
+
+                card_text = card.get_text(" ", strip=True)
+
+                date_m = _UEA_DATE_RE.search(card_text)
+                if not date_m:
+                    log(f"  ⚠  No date for: {title}", "warn")
+                    continue
+                date_str = _parse_date(date_m.group(0))
+                if not date_str:
+                    log(f"  ⚠  Could not parse date '{date_m.group(0)}' for: {title}", "warn")
+                    continue
+
+                venue_m = _UEA_VENUE_RE.search(card_text)
+                if not venue_m:
+                    log(f"  ⚠  No recognised venue name for: {title}", "warn")
+                    continue
+                venue_name = venue_m.group(0)
+
+                events.append({"venue": venue_name, "event_name": title,
+                               "date": date_str, "url": event_url})
+                log(f"  ✓  {date_str}  [{venue_name}]  {title}", "ok")
+            except Exception as e:
+                log(f"  ⚠  Card error ({event_url}): {e}", "warn")
+
+        page += 1
+        time.sleep(1)
+
+    return events
+
+
 def scrape_waterfront(session, log) -> list[dict]:
     """
-    Waterfront + Waterfront Studio — ueaticketbookings.co.uk, paginated.
-    Both venue slugs are scraped and combined under "Waterfront".
-    """
-    VENUES = [
-        ("https://www.ueaticketbookings.co.uk/whats-on/?_sfm_venue=The+Adrian+Flux+Waterfront",
-         "Waterfront"),
-        ("https://www.ueaticketbookings.co.uk/whats-on/?_sfm_venue=The+Adrian+Flux+Waterfront+Studio",
-         "Waterfront Studio"),
-    ]
+    Waterfront + Waterfront Studio — ueaticketbookings.co.uk.
 
+    Pulls the combined listing via _scrape_uea_whats_on() (see that
+    function's docstring for why the old per-venue ?_sfm_venue= filtering
+    no longer works) and keeps only cards tagged with one of the two
+    Waterfront venue names, same output shape as before.
+
+    Note: scrape_lcr() also calls _scrape_uea_whats_on() independently, so
+    the listing gets fetched twice per full run (once per venue group).
+    That's a bit wasteful but keeps this function self-contained and
+    matches the rest of this file's one-function-per-venue structure.
+    """
     log(f"\n{'─'*48}", "dim")
     log(f"  Scraping Waterfront (UEA ticket bookings)", "plain")
     log(f"{'─'*48}", "dim")
 
-    events = []
+    all_events = _scrape_uea_whats_on(session, log)
 
-    for base_url, venue_name in VENUES:
-        log(f"  → {venue_name}", "dim")
-        for page in range(1, 16):
-            url = base_url if page == 1 else f"{base_url}&sf_paged={page}"
-            try:
-                resp = session.get(url, timeout=15)
-                soup = BeautifulSoup(resp.text, "lxml")
-                items = soup.find_all("div", class_="event_item")
-                if not items:
-                    break
-                for ev in items:
-                    try:
-                        title_el = ev.find("h4")
-                        title = title_el.get_text(strip=True) if title_el else ""
-                        if not title:
-                            continue
-                        when = ev.find("div", class_="when")
-                        raw_date = when.get_text(strip=True) if when else ""
-                        date_str = _parse_date(raw_date) if raw_date else None
-                        if not date_str:
-                            log(f"  ⚠  No date for: {title}", "warn")
-                            continue
-                        link_el = ev.find("a", href=True)
-                        link = link_el["href"] if link_el else ""
-                        events.append({"venue": venue_name, "event_name": title,
-                                       "date": date_str, "url": link})
-                        log(f"  ✓  {date_str}  {title}", "ok")
-                    except Exception:
-                        continue
-            except Exception as e:
-                log(f"  ✗  {venue_name} page {page}: {e}", "err")
-                break
-            time.sleep(1)
+    rename = {
+        "The Adrian Flux Waterfront":       "Waterfront",
+        "The Adrian Flux Waterfront Studio": "Waterfront Studio",
+    }
+    events = [
+        {**e, "venue": rename[e["venue"]]}
+        for e in all_events
+        if e["venue"] in rename
+    ]
 
     log(f"  → {len(events)} Waterfront event(s)", "dim")
     return events
@@ -658,47 +797,24 @@ def scrape_waterfront(session, log) -> list[dict]:
 
 def scrape_lcr(session, log) -> list[dict]:
     """
-    Nick Rayns LCR — ueaticketbookings.co.uk, paginated.
+    Nick Rayns LCR — ueaticketbookings.co.uk.
+
+    Same combined-listing approach as scrape_waterfront() — see
+    _scrape_uea_whats_on() for why the old ?_sfm_venue= filtering broke.
     """
-    BASE  = "https://www.ueaticketbookings.co.uk/whats-on/?_sfm_venue=The+Nick+Rayns+LCR%2C+UEA"
     VENUE = "Nick Rayns LCR"
 
     log(f"\n{'─'*48}", "dim")
     log(f"  Scraping {VENUE}", "plain")
     log(f"{'─'*48}", "dim")
 
-    events = []
-    for page in range(1, 16):
-        url = BASE if page == 1 else f"{BASE}&sf_paged={page}"
-        try:
-            resp  = session.get(url, timeout=15)
-            soup  = BeautifulSoup(resp.text, "lxml")
-            items = soup.find_all("div", class_="event_item")
-            if not items:
-                break
-            for ev in items:
-                try:
-                    title_el = ev.find("h4")
-                    title = title_el.get_text(strip=True) if title_el else ""
-                    if not title:
-                        continue
-                    when     = ev.find("div", class_="when")
-                    raw_date = when.get_text(strip=True) if when else ""
-                    date_str = _parse_date(raw_date) if raw_date else None
-                    if not date_str:
-                        log(f"  ⚠  No date for: {title}", "warn")
-                        continue
-                    link_el = ev.find("a", href=True)
-                    link    = link_el["href"] if link_el else ""
-                    events.append({"venue": VENUE, "event_name": title,
-                                   "date": date_str, "url": link})
-                    log(f"  ✓  {date_str}  {title}", "ok")
-                except Exception:
-                    continue
-        except Exception as e:
-            log(f"  ✗  LCR page {page}: {e}", "err")
-            break
-        time.sleep(1)
+    all_events = _scrape_uea_whats_on(session, log)
+
+    events = [
+        {**e, "venue": VENUE}
+        for e in all_events
+        if e["venue"] == "The Nick Rayns LCR, UEA"
+    ]
 
     log(f"  → {len(events)} LCR event(s)", "dim")
     return events
