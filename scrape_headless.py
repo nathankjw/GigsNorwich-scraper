@@ -460,20 +460,48 @@ def scrape_space_studios(driver, log) -> list[dict]:
 
 def scrape_norwich_arts_centre(session, log) -> list[dict]:
     """
-    Norwich Arts Centre — The Events Calendar WordPress plugin, paginated.
+    Norwich Arts Centre — custom-theme events grid (no longer The Events
+    Calendar / tribe-events markup — that was swapped out on the venue's
+    site at some point; see git history for the old class-based version
+    this replaced).
+
     Page 1 : https://norwichartscentre.co.uk/event/category/music/
     Page N : https://norwichartscentre.co.uk/event/category/music/page/N/
-    Stops on HTTP 404 or WordPress redirect back to base URL.
+    Stops on HTTP 404, a WordPress redirect back to base URL, or a page
+    that yields no *new* event URLs (belt-and-braces in case pagination
+    behaviour also changed).
+
+    New markup has no distinctive card/date class names. What's reliable:
+      - every event has an <a href="…/event/<slug>/…"> — appears twice per
+        card (once wrapping the thumbnail, once as the h3 title link)
+      - a plain text date line somewhere in the card, e.g.
+        "Fri 28 Aug 2026 @ 8:00 PM"
+
+    Strategy: collect all /event/ links, dedupe by resolved URL, walk up
+    from each anchor to find its card container, pull the title from a
+    heading (or the anchor text if none), and regex-search the container's
+    text for a date line. This keys off URL shape + plain text rather than
+    CSS classes, so it should be more resilient to future markup/styling
+    changes than matching specific classes.
     """
-    BASE = "https://norwichartscentre.co.uk/event/category/music/"
+    BASE  = "https://norwichartscentre.co.uk/event/category/music/"
     VENUE = "Norwich Arts Centre"
 
     log(f"\n{'─'*48}", "dim")
     log(f"  Scraping {VENUE}", "plain")
     log(f"{'─'*48}", "dim")
 
+    _EVENT_HREF = re.compile(r"/event/[^/]+/?", re.I)
+    _DATE_LINE = re.compile(
+        r"\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\s+\d{1,2}\s+"
+        r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{4}"
+        r"(\s*@\s*\d{1,2}[:.]\d{2}\s*[APap][Mm])?",
+        re.IGNORECASE,
+    )
+
     events = []
-    page   = 1
+    page = 1
+    seen_urls: set[str] = set()
 
     while True:
         url = BASE if page == 1 else f"{BASE}page/{page}/"
@@ -491,51 +519,81 @@ def scrape_norwich_arts_centre(session, log) -> list[dict]:
             log(f"  ✗  Page {page} failed: {e}", "err")
             break
 
-        els = (
-            soup.find_all("article", class_=re.compile(r"tribe[_-]events|type-tribe_events", re.I))
-            or soup.find_all("article", class_=re.compile(r"event|show|post", re.I))
-            or soup.find_all(["div","li"], class_=re.compile(r"event-item|event-card|tribe[_-]event", re.I))
-        )
-        if not els:
-            log(f"  No elements on page {page} — done", "dim")
+        links = soup.find_all("a", href=_EVENT_HREF)
+
+        # Dedupe by resolved URL — thumbnail + title anchors point at the
+        # same event.
+        by_url: dict[str, "BeautifulSoup"] = {}
+        for a in links:
+            full_url = urljoin(url, a["href"])
+            by_url.setdefault(full_url, a)
+
+        if not by_url:
+            log(f"  No event links on page {page} — done", "dim")
             break
 
-        log(f"  Found {len(els)} element(s)", "dim")
-        for el in els:
+        new_this_page = [u for u in by_url if u not in seen_urls]
+        if not new_this_page:
+            log(f"  No new events on page {page} — done", "dim")
+            break
+
+        log(f"  Found {len(by_url)} event link(s) ({len(new_this_page)} new)", "dim")
+
+        for event_url, a_tag in by_url.items():
+            if event_url in seen_urls:
+                continue
+            seen_urls.add(event_url)
             try:
-                title = link = ""
-                hd = el.find(["h1","h2","h3","h4","h5"])
-                if hd:
-                    a = hd.find("a", href=True)
-                    if a:
-                        title = a.get_text(strip=True)
-                        link  = a["href"]
-                    else:
-                        title = hd.get_text(strip=True)
+                # Walk up to find a card-ish container that holds both the
+                # title and the date text.
+                container = a_tag
+                card = None
+                for _ in range(6):
+                    container = container.find_parent(["article", "div", "li"])
+                    if container is None:
+                        break
+                    if container.find(["h2", "h3", "h4"]) and _DATE_LINE.search(
+                        container.get_text(" ", strip=True)
+                    ):
+                        card = container
+                        break
+                if card is None:
+                    # Fall back to whatever the nearest reasonable ancestor was
+                    card = container or a_tag
+
+                # Title — prefer a heading inside the card, else the anchor text
+                title = ""
+                heading = card.find(["h2", "h3", "h4"])
+                if heading:
+                    title = " ".join(heading.get_text().split())
                 if not title:
-                    a = el.find("a", href=True)
-                    if a:
-                        title = a.get_text(strip=True)
-                        link  = a["href"]
+                    title = " ".join(a_tag.get_text().split())
                 if not title:
+                    log(f"  ⚠  No title for {event_url}", "warn")
                     continue
 
-                de = (el.find("abbr") or el.find("time")
-                      or el.find(["span","div"], class_=re.compile(r"date|tribe[_-]events[_-]start", re.I)))
-                raw_date = ""
-                if de:
-                    raw_date = de.get("title") or de.get("datetime") or de.get_text(strip=True)
-                date_str = _parse_date(raw_date) if raw_date else None
+                card_text = card.get_text(" ", strip=True)
+                m = _DATE_LINE.search(card_text)
+                if not m:
+                    log(f"  ⚠  No date found for: {title}", "warn")
+                    continue
+
+                raw_date = m.group(0)
+                date_str = _parse_date(raw_date)
                 if not date_str:
-                    log(f"  ⚠  No date for: {title}", "warn")
+                    log(f"  ⚠  Could not parse date '{raw_date}' for: {title}", "warn")
                     continue
 
-                events.append({"venue": VENUE, "event_name": title, "date": date_str, "url": link})
+                events.append({"venue": VENUE, "event_name": title,
+                               "date": date_str, "url": event_url})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception as e:
-                log(f"  ⚠  Parse error: {e}", "warn")
+                log(f"  ⚠  Card error ({event_url}): {e}", "warn")
 
         page += 1
+        if page > 20:
+            log("  ⚠  Reached page limit (20) — stopping", "warn")
+            break
         time.sleep(1)
 
     log(f"  → {len(events)} event(s)", "dim")
