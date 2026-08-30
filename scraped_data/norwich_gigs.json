@@ -55,12 +55,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Norwich Pride Fundraiser: Kitty Perrin, Santa Rita (solo), Flat Venus",
-    "date": "2026-07-23",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/pride-fundraiser-kitty-perrin-santa-rita-solo-flat-venus"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "dreams from '83",
     "date": "2026-07-24",
     "url": "https://www.deadwaxnorwich.pub/whats-on/dreams-from-83"
@@ -300,46 +294,16 @@
     "url": "https://www.spacestudiosnorwich.com/event-details-registration/elijah-rondel-open-to-close"
   },
   {
-    "venue": "Gonzos",
-    "event_name": "Sounds of Summer",
-    "date": "2026-08-29",
-    "url": "https://www.fatsoma.com/e/8qhjnhtw/sounds-of-summer"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Ideal Surreal presents: Slackdaws + Cruiser Chimps + Toast",
-    "date": "2026-08-29",
-    "url": "https://thehollowaynorwich.com/events"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "The Eminem Experience",
-    "date": "2026-08-29",
-    "url": "https://epic-tv.com/events/event/the-eminem-experience"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "New Kind of Cramps",
     "date": "2026-08-29",
     "url": "https://www.ueaticketbookings.co.uk/event/new-kind-of-cramps/"
   },
   {
-    "venue": "Voodoos",
-    "event_name": "Cud",
-    "date": "2026-08-29",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/cud/"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Bone Machine",
     "date": "2026-08-29",
     "url": "https://www.deadwaxnorwich.pub/whats-on/r99gi6h8udpp7kvsj2tttfg2d8kagn"
-  },
-  {
-    "venue": "The Reindeer",
-    "event_name": "Lowlife",
-    "date": "2026-08-29",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
   },
   {
     "venue": "Space",
@@ -2785,15 +2749,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Round Midnight presents corto.alto @ EPIC Studios",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-cortoalto-at-epic-studios/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "PONY UP presents COWBOYY",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents corto.alto @ EPIC Studios",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-cortoalto-at-epic-studios/"
   },
   {
     "venue": "Waterfront",
