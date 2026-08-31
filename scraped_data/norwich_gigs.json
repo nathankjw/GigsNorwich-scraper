@@ -55,6 +55,18 @@
   },
   {
     "venue": "Dead Wax",
+    "event_name": "The Sickos Secret Cinema (Pride special)",
+    "date": "2026-07-22",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/the-sickos-secret-cinema-pride-special"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "Norwich Pride Fundraiser: Kitty Perrin, Santa Rita (solo), Flat Venus",
+    "date": "2026-07-23",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/pride-fundraiser-kitty-perrin-santa-rita-solo-flat-venus"
+  },
+  {
+    "venue": "Dead Wax",
     "event_name": "dreams from '83",
     "date": "2026-07-24",
     "url": "https://www.deadwaxnorwich.pub/whats-on/dreams-from-83"
@@ -271,15 +283,15 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "George (soul Stew)",
-    "date": "2026-08-28",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/kel4zmc57ine6mzrd1at3tz6o3ok50"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "FREE monthly wax: Irked + BEN AULD BAND + the breedling",
     "date": "2026-08-28",
     "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "George (soul Stew)",
+    "date": "2026-08-28",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/kel4zmc57ine6mzrd1at3tz6o3ok50"
   },
   {
     "venue": "Revolucion de Cuba",
@@ -312,28 +324,10 @@
     "url": "https://www.spacestudiosnorwich.com"
   },
   {
-    "venue": "Gonzos",
-    "event_name": "Rooftop Sunday Sessions w Joshua Roberts & Friends",
-    "date": "2026-08-30",
-    "url": "https://www.fatsoma.com/e/dz6ljyd3/rooftop-sunday-sessions-w-joshua-roberts-friends"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "G2 Definitive Genesis",
-    "date": "2026-08-30",
-    "url": "https://epic-tv.com/events/event/g2-definitive-genesis"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "2 Tone Mafia",
     "date": "2026-08-30",
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "This Is The Kit",
-    "date": "2026-08-30",
-    "url": "https://norwichartscentre.co.uk/event/this-is-the-kit/"
   },
   {
     "venue": "Waterfront",
@@ -1908,6 +1902,12 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/bel-cobain/"
   },
   {
+    "venue": "Holloway",
+    "event_name": "BLAND - Bizarro’ Variety Presents John Osborne + Dan \"Magic\" + Adam Maric-Cleaver + Nancy Dunnell",
+    "date": "2026-10-22",
+    "url": "https://thehollowaynorwich.com/events"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Perrl Presents –",
     "date": "2026-10-22",
@@ -1915,15 +1915,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Ezra Furman @ The Halls",
-    "date": "2026-10-22",
-    "url": "https://norwichartscentre.co.uk/event/ezra-furman-at-the-halls/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Jazz Sabbath",
     "date": "2026-10-22",
     "url": "https://norwichartscentre.co.uk/event/jazz-sabbath/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Ezra Furman @ The Halls",
+    "date": "2026-10-22",
+    "url": "https://norwichartscentre.co.uk/event/ezra-furman-at-the-halls/"
   },
   {
     "venue": "Voodoos",
@@ -2170,6 +2170,12 @@
     "event_name": "Pet Needs + Keep Flying & So Good",
     "date": "2026-10-30",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/pet-needs/"
+  },
+  {
+    "venue": "Hangar",
+    "event_name": "Norwich: Red Card Comedy Club Presents: Jeff Innocent & Friends",
+    "date": "2026-10-30",
+    "url": "https://fixr.co/event/norwich-red-card-comedy-club-presents-jeff-innocen-tickets-964756511"
   },
   {
     "venue": "The Reindeer",
@@ -2848,6 +2854,12 @@
     "event_name": "Decades Apart",
     "date": "2026-11-27",
     "url": "https://www.norfolkgigguide.com/band-details/Decades+Apart"
+  },
+  {
+    "venue": "Hangar",
+    "event_name": "Norwich: Red Card Comedy Club Presents: Stephen K Amos & Friends",
+    "date": "2026-11-27",
+    "url": "https://fixr.co/event/norwich-red-card-comedy-club-presents-stephen-k-am-tickets-140846173"
   },
   {
     "venue": "Epic",
