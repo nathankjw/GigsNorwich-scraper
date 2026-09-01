@@ -55,27 +55,9 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "The Sickos Secret Cinema (Pride special)",
-    "date": "2026-07-22",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/the-sickos-secret-cinema-pride-special"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Norwich Pride Fundraiser: Kitty Perrin, Santa Rita (solo), Flat Venus",
-    "date": "2026-07-23",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/pride-fundraiser-kitty-perrin-santa-rita-solo-flat-venus"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "dreams from '83",
     "date": "2026-07-24",
     "url": "https://www.deadwaxnorwich.pub/whats-on/dreams-from-83"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Tadi the great (DJ set)",
-    "date": "2026-07-24",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/tadi-the-great-dj-set-1"
   },
   {
     "venue": "Dead Wax",
@@ -283,15 +265,15 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "FREE monthly wax: Irked + BEN AULD BAND + the breedling",
-    "date": "2026-08-28",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "George (soul Stew)",
     "date": "2026-08-28",
     "url": "https://www.deadwaxnorwich.pub/whats-on/kel4zmc57ine6mzrd1at3tz6o3ok50"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "FREE monthly wax: Irked + BEN AULD BAND + the breedling",
+    "date": "2026-08-28",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax"
   },
   {
     "venue": "Revolucion de Cuba",
@@ -304,12 +286,6 @@
     "event_name": "Elijah + Rondel Open to Close",
     "date": "2026-08-29",
     "url": "https://www.spacestudiosnorwich.com/event-details-registration/elijah-rondel-open-to-close"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "New Kind of Cramps",
-    "date": "2026-08-29",
-    "url": "https://www.ueaticketbookings.co.uk/event/new-kind-of-cramps/"
   },
   {
     "venue": "Dead Wax",
@@ -330,12 +306,6 @@
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Dma’s",
-    "date": "2026-08-30",
-    "url": "https://www.ueaticketbookings.co.uk/event/dmas/"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "One Love Presents: Carnival Special",
     "date": "2026-08-30",
@@ -346,12 +316,6 @@
     "event_name": "Barney Holmes!",
     "date": "2026-08-30",
     "url": "https://www.revoluciondecuba.com/events/norwich/13126/barney-holmes"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Arrested Development (plus Tadi The Great)",
-    "date": "2026-08-31",
-    "url": "https://epic-tv.com/events/event/arrested-development-plus-tadi-the-great"
   },
   {
     "venue": "Brickmakers",
@@ -502,6 +466,12 @@
     "event_name": "Sharp Class",
     "date": "2026-09-05",
     "url": "https://www.ueaticketbookings.co.uk/event/sharp-class/"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Vigilantes + The Bungees, Sam Milne & The Tyrants",
+    "date": "2026-09-05",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/vigilantes-the-bungees-sam-milne-the-tyrants/"
   },
   {
     "venue": "Hangar",
@@ -1320,12 +1290,6 @@
     "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/"
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
-  },
-  {
     "venue": "Epic",
     "event_name": "Creedence Clearwater Review - Cosmo's Factory Tour",
     "date": "2026-10-01",
@@ -1668,6 +1632,12 @@
     "url": "https://epic-tv.com/events/event/crash-test-dummies"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "Phage Records & Reaper Agency present: OAKENTHRONE",
+    "date": "2026-10-12",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/phage-records-and-reaper-agency-present-oakenthrone"
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Thorpe Creative Hub presents Soundstage",
     "date": "2026-10-13",
@@ -1915,15 +1885,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Jazz Sabbath",
-    "date": "2026-10-22",
-    "url": "https://norwichartscentre.co.uk/event/jazz-sabbath/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Ezra Furman @ The Halls",
     "date": "2026-10-22",
     "url": "https://norwichartscentre.co.uk/event/ezra-furman-at-the-halls/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Jazz Sabbath",
+    "date": "2026-10-22",
+    "url": "https://norwichartscentre.co.uk/event/jazz-sabbath/"
   },
   {
     "venue": "Voodoos",
@@ -2946,6 +2916,12 @@
     "url": "https://www.norfolkgigguide.com/band-details/The+Blue+Lion+Band"
   },
   {
+    "venue": "Holloway",
+    "event_name": "Citizen Smith + Stones Throw",
+    "date": "2026-12-04",
+    "url": "https://thehollowaynorwich.com/events"
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Beans on Toast",
     "date": "2026-12-04",
@@ -3574,6 +3550,12 @@
     "event_name": "Extc",
     "date": "2027-04-30",
     "url": "https://www.ueaticketbookings.co.uk/event/extc/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Warrington Runcorn New Town Development Plan",
+    "date": "2027-05-07",
+    "url": "https://norwichartscentre.co.uk/event/warrington-runcorn-new-town-development-plan/"
   },
   {
     "venue": "Epic",
