@@ -1,15 +1,6 @@
 #!/usr/bin/env python3
 """
-Norwich Gigs — Headless Scraper (no GUI)
-
-This is the "engine" from norwich_gigs_combined.py with the tkinter desktop
-app stripped out. It runs every venue scraper in sequence and writes the
-results straight to a CSV — no windows, no clicking. This is the version
-meant to run automatically (e.g. on a schedule via GitHub Actions), while
-norwich_gigs_combined.py remains the version you run by hand on your laptop.
-
-If you fix or improve a scraper function, make the same change in both
-files until they get merged into one properly.
+Norwich Gigs — Headless Scraper 
 
 Install deps (once):
     pip install requests beautifulsoup4 selenium webdriver-manager lxml python-dateutil
@@ -233,6 +224,15 @@ OUTPUT_DIR     = Path.home() / "norwich-scraper" / "scraped_data"
 CSV_FILE       = OUTPUT_DIR / "norwich_gigs.csv"
 CSV_FIELDS     = ["venue", "event_name", "date", "url"]
 CSV_FLAT_FILE  = OUTPUT_DIR / "norwich_gigs_flat.csv"
+
+# Repo-relative path to the CSV already committed from a previous run. This
+# is different from CSV_FILE below (where *this* run writes its own fresh
+# output, under the home directory) — see run_all_scrapers() for how the
+# two get merged. Assumes the script runs with its cwd at the repo root,
+# which is how the GitHub Actions workflow invokes it (after
+# actions/checkout, before copying the home-dir output back into
+# scraped_data/).
+PREV_CSV_FILE = Path("scraped_data") / "norwich_gigs.csv"
 
 def _setup_driver():
     opts = Options()
@@ -1828,7 +1828,31 @@ def load_manual_events(log) -> list[dict]:
 
     log(f"  → {len(events)} manual event(s)", "dim")
     return events
+    
+def load_previous_events(path: Path, log) -> list[dict]:
+    """Read yesterday's already-committed CSV, if present, so a venue that
+    scrapes 0 events today can fall back to its last-known listing instead
+    of vanishing from the output entirely."""
+    if not path.exists():
+        log(f"  No previous CSV found at {path} — nothing to fall back on", "dim")
+        return []
 
+    events = []
+    try:
+        with open(path, newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                venue      = (row.get("venue") or "").strip()
+                event_name = (row.get("event_name") or "").strip()
+                date       = (row.get("date") or "").strip()
+                url        = (row.get("url") or "").strip()
+                if venue and event_name and date:
+                    events.append({"venue": venue, "event_name": event_name,
+                                    "date": date, "url": url})
+    except Exception as e:
+        log(f"  ⚠  Failed to read previous CSV: {e}", "warn")
+
+    return events
 
 # ── Orchestrator ──────────────────────────────────────────────────────────────
 
@@ -1898,9 +1922,36 @@ def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
             except Exception:
                 pass
 
-    # Merge in hand-added events from manual_events.csv (see load_manual_events
+       # Merge in hand-added events from manual_events.csv (see load_manual_events
     # for why this lives outside the scraped `events` list up to this point).
     events += load_manual_events(log)
+
+    # ── Fallback: fill gaps for venues that scraped 0 events today ──────────
+    # A venue coming back empty usually means the scrape got blocked or the
+    # site's markup changed (see the per-scraper try/except blocks above,
+    # which log "✗ ... failed" but let the whole run continue rather than
+    # crash). Rather than let that venue's listing disappear from the site
+    # for a day, carry forward its still-upcoming gigs from yesterday's CSV
+    # until it scrapes successfully again. Venues that DID return events
+    # today always use the fresh data — this only backfills true blanks.
+    scraped_venues_today = {
+        shorten_venue(e.get("venue", ""), DEFAULT_ALIASES) for e in events
+    }
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    previous_events = load_previous_events(PREV_CSV_FILE, log)
+    carried_forward = 0
+    for e in previous_events:
+        venue_short = shorten_venue(e.get("venue", ""), DEFAULT_ALIASES)
+        if venue_short in scraped_venues_today:
+            continue  # scraped fine today — trust the fresh data
+        if e.get("date", "") < today_str:
+            continue  # already in the past — don't resurrect it
+        e["venue"] = venue_short
+        events.append(e)
+        carried_forward += 1
+    if carried_forward:
+        log(f"  ↺  Carried forward {carried_forward} event(s) from yesterday's "
+            f"CSV for venue(s) that scraped 0 events today", "warn")
 
     if stop_flag.is_set():
         log("\n⏹  Stopped — partial results discarded.", "warn")
@@ -1912,6 +1963,13 @@ def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
         on_complete(None)
         return
 
+
+
+
+
+
+
+    
     # Sort, dedupe, filter, normalise venue names, then write CSV
     events.sort(key=lambda e: e.get("date", ""))
 
