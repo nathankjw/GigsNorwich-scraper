@@ -222,18 +222,6 @@
     "url": "https://www.spacestudiosnorwich.com"
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Altered Images",
-    "date": "2026-09-03",
-    "url": "https://www.ueaticketbookings.co.uk/event/altered-images/"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "A Place To Bury Strangers",
-    "date": "2026-09-03",
-    "url": "https://www.ueaticketbookings.co.uk/event/a-place-to-bury-strangers/"
-  },
-  {
     "venue": "Space",
     "event_name": "Happy Neighbours + Support",
     "date": "2026-09-04",
@@ -246,58 +234,16 @@
     "url": "https://www.spacestudiosnorwich.com/event-details-registration/blindfold-anna-b-open-to-close"
   },
   {
-    "venue": "Gonzos",
-    "event_name": "Denis Sulta - All Night Long",
-    "date": "2026-09-04",
-    "url": "https://www.fatsoma.com/e/7bomlba2/denis-sulta-all-night-long"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Kulk (Record release show!) / IAN / Hellga (Show one!)",
-    "date": "2026-09-04",
-    "url": "https://thehollowaynorwich.com/events"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "Brickmakers Battle Of The Bands Final",
     "date": "2026-09-04",
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
-    "venue": "Maddermarket",
-    "event_name": "The Alter Eagles",
-    "date": "2026-09-04",
-    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=110001"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Kazdoura",
-    "date": "2026-09-04",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-kazdoura/"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Goldie Lookin Chain",
     "date": "2026-09-04",
     "url": "https://www.ueaticketbookings.co.uk/event/goldie-lookin-chain/"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Oscar Jerome + i.am.afiya",
-    "date": "2026-09-04",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/oscar-jerome/"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "In Situ",
-    "date": "2026-09-04",
-    "url": "https://www.norfolkgigguide.com/band-details/In+Situ"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "LPS PRESENTS: DISCO with Discofonique",
-    "date": "2026-09-04",
-    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Space",
@@ -532,6 +478,12 @@
     "event_name": "Housekind",
     "date": "2026-09-11",
     "url": "https://lpsnorwich.co.uk/"
+  },
+  {
+    "venue": "Above Kerry's",
+    "event_name": "Any Excuse - Miss Moody, Hansel and Gretel, Mantas Meiz + Quinton",
+    "date": "2026-09-11",
+    "url": "https://www.eventbrite.com/e/any-excuse-tickets-1994826351316?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaej0uhRcNvQZI9cP7ZZ1Sb6DrXcYElkrnViGEn82ZlZU6guYEFtNR2ayweKgA_aem_4vS3sXIhrpxgkZGShBOyzQ"
   },
   {
     "venue": "Space",
@@ -1078,6 +1030,12 @@
     "event_name": "Erasured",
     "date": "2026-09-26",
     "url": "https://www.ueaticketbookings.co.uk/event/erasured/"
+  },
+  {
+    "venue": "LCR",
+    "event_name": "Party101",
+    "date": "2026-09-26",
+    "url": "https://www.ueaticketbookings.co.uk/event/party101/"
   },
   {
     "venue": "Voodoos",
@@ -2382,12 +2340,6 @@
     "url": "https://thehollowaynorwich.com/events"
   },
   {
-    "venue": "Epic",
-    "event_name": "Epic Darts 2026 - November 12th",
-    "date": "2026-11-12",
-    "url": "https://epic-tv.com/events/event/epic-darts-2026-november-12th"
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Gary Stewart’s Graceland",
     "date": "2026-11-12",
@@ -2719,15 +2671,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Round Midnight presents corto.alto @ EPIC Studios",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-cortoalto-at-epic-studios/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "PONY UP presents COWBOYY",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents corto.alto @ EPIC Studios",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-cortoalto-at-epic-studios/"
   },
   {
     "venue": "Waterfront",
@@ -2749,7 +2701,7 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "The Love Buzz",
+    "event_name": "The Love Buzz + Jean Pack & A Pile Fabric Primer",
     "date": "2026-11-25",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-love-buzz/"
   },
@@ -3046,6 +2998,12 @@
     "event_name": "Black Dog  Music",
     "date": "2026-12-09",
     "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Artful Dodger",
+    "date": "2026-12-10",
+    "url": "https://epic-tv.com/events/event/artful-dodger"
   },
   {
     "venue": "Arts Centre",
@@ -3490,6 +3448,12 @@
     "event_name": "The Doors Alive",
     "date": "2027-02-27",
     "url": "https://www.ueaticketbookings.co.uk/event/the-doors-alive/"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Mad Caddies",
+    "date": "2027-03-02",
+    "url": "https://www.ueaticketbookings.co.uk/event/mad-caddies/"
   },
   {
     "venue": "Waterfront",
