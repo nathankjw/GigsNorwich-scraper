@@ -55,12 +55,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Draw Some Paws: Cat Life Drawing Class",
-    "date": "2026-07-26",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/draw-some-paws-cat-life-drawing-class"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "the sickos secret cinema: mystery movie night",
     "date": "2026-07-28",
     "url": "https://www.deadwaxnorwich.pub/whats-on/the-sickos-secret-cinema-mystery-movie-night"
@@ -252,28 +246,10 @@
     "url": "https://ra.co/events/2513680"
   },
   {
-    "venue": "Gonzos",
-    "event_name": "Resident House Party",
-    "date": "2026-09-05",
-    "url": "https://www.fatsoma.com/e/mqgzcezx/resident-house-party"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Kulk (Record release show!) / Concrete Ships / HKFL (Show two!)",
-    "date": "2026-09-05",
-    "url": "https://thehollowaynorwich.com/events"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "Counterfeit Brits",
     "date": "2026-09-05",
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
-    "venue": "Maddermarket",
-    "event_name": "Intellectual Hooligans",
-    "date": "2026-09-05",
-    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=76401"
   },
   {
     "venue": "Waterfront",
@@ -286,24 +262,6 @@
     "event_name": "Sharp Class",
     "date": "2026-09-05",
     "url": "https://www.ueaticketbookings.co.uk/event/sharp-class/"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Vigilantes + The Bungees, Sam Milne & The Tyrants",
-    "date": "2026-09-05",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/vigilantes-the-bungees-sam-milne-the-tyrants/"
-  },
-  {
-    "venue": "Hangar",
-    "event_name": "Andy C - Norwich - Day Party - 5th September",
-    "date": "2026-09-05",
-    "url": "https://fixr.co/event/andy-c-norwich-day-party-5th-september-tickets-996522409"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "All Night Long with Nikki",
-    "date": "2026-09-05",
-    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Gonzos",
@@ -2671,15 +2629,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "PONY UP presents COWBOYY",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Round Midnight presents corto.alto @ EPIC Studios",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-cortoalto-at-epic-studios/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents COWBOYY",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/"
   },
   {
     "venue": "Waterfront",
