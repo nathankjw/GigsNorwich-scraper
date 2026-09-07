@@ -234,12 +234,6 @@
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Goldie Lookin Chain",
-    "date": "2026-09-04",
-    "url": "https://www.ueaticketbookings.co.uk/event/goldie-lookin-chain/"
-  },
-  {
     "venue": "Space",
     "event_name": "Phreq",
     "date": "2026-09-05",
@@ -252,46 +246,16 @@
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Dirty DC – The AC/DC Tribute",
-    "date": "2026-09-05",
-    "url": "https://www.ueaticketbookings.co.uk/event/dirty-dc-the-ac-dc-tribute/"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Sharp Class",
-    "date": "2026-09-05",
-    "url": "https://www.ueaticketbookings.co.uk/event/sharp-class/"
-  },
-  {
     "venue": "Gonzos",
     "event_name": "Rooftop Sunday Sessions w Chrome & Tadi",
     "date": "2026-09-06",
     "url": "https://www.fatsoma.com/e/1tj511kh/rooftop-sunday-sessions-w-chrome-tadi"
   },
   {
-    "venue": "Epic",
-    "event_name": "Luke Combs UK",
-    "date": "2026-09-06",
-    "url": "https://epic-tv.com/events/event/luke-combs-uk"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "Kicking Valentina + Support",
     "date": "2026-09-06",
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Searchlight presents....Kickin Valentino and more.",
-    "date": "2026-09-06",
-    "url": "https://www.norfolkgigguide.com/band-details/Searchlight+presents....Kickin+Valentino+and+more."
-  },
-  {
-    "venue": "The Reindeer",
-    "event_name": "Wensum Blues Band",
-    "date": "2026-09-06",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
   },
   {
     "venue": "Epic",
@@ -316,12 +280,6 @@
     "event_name": "As It Is",
     "date": "2026-09-08",
     "url": "https://www.ueaticketbookings.co.uk/event/as-it-is/"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Voodoo Daddy’s Open Mic",
-    "date": "2026-09-08",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/voodoo-daddys-open-mic-10/"
   },
   {
     "venue": "Dead Wax",
@@ -808,6 +766,12 @@
     "event_name": "Elephant Kind",
     "date": "2026-09-22",
     "url": "https://www.ueaticketbookings.co.uk/event/elephant-kind/"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Voodoo Daddy’s Open Mic",
+    "date": "2026-09-22",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/voodoo-daddys-open-mic-10/"
   },
   {
     "venue": "Dead Wax",
@@ -2782,6 +2746,12 @@
     "event_name": "Uncle Acid And The Deadbeats",
     "date": "2026-11-28",
     "url": "https://www.ueaticketbookings.co.uk/event/uncle-acid-and-the-deadbeats/"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Magnolia (Adam’s Farewell Show) + Troilus",
+    "date": "2026-11-28",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/magnolia-adams-farewell-show-the-scuttlers-troilus/"
   },
   {
     "venue": "Brickmakers",
