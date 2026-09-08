@@ -7,6 +7,12 @@
   },
   {
     "venue": "Dead Wax",
+    "event_name": "Stonehill Collective + Harry Ixer + Awize",
+    "date": "2026-01-10",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/stonehill-collective-harry-ixer-awize"
+  },
+  {
+    "venue": "Dead Wax",
     "event_name": "Corncutter promotions present: Newberry & Verch",
     "date": "2026-02-09",
     "url": "https://www.deadwaxnorwich.pub/whats-on/corncutter-promotions-present-newberry-verch"
@@ -52,18 +58,6 @@
     "event_name": "The Sickos Secret Cinema",
     "date": "2026-07-09",
     "url": "https://www.deadwaxnorwich.pub/whats-on/the-sickos-secret-cinema-5"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "the sickos secret cinema: mystery movie night",
-    "date": "2026-07-28",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/the-sickos-secret-cinema-mystery-movie-night"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Comb (DJ SET)",
-    "date": "2026-07-30",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/comb-dj-set"
   },
   {
     "venue": "Dead Wax",
@@ -180,12 +174,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax"
   },
   {
-    "venue": "Revolucion de Cuba",
-    "event_name": "Case de Cuba - Bank Holiday Fiesta",
-    "date": "2026-08-28",
-    "url": "https://www.revoluciondecuba.com/events/norwich/13124/case-de-cuba-bank-holiday-fiesta"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Bone Machine",
     "date": "2026-08-29",
@@ -196,12 +184,6 @@
     "event_name": "One Love Presents: Carnival Special",
     "date": "2026-08-30",
     "url": "https://www.deadwaxnorwich.pub/whats-on/one-love-presents-carnival-special"
-  },
-  {
-    "venue": "Revolucion de Cuba",
-    "event_name": "Barney Holmes!",
-    "date": "2026-08-30",
-    "url": "https://www.revoluciondecuba.com/events/norwich/13126/barney-holmes"
   },
   {
     "venue": "Space",
@@ -246,28 +228,10 @@
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
-    "venue": "Gonzos",
-    "event_name": "Rooftop Sunday Sessions w Chrome & Tadi",
-    "date": "2026-09-06",
-    "url": "https://www.fatsoma.com/e/1tj511kh/rooftop-sunday-sessions-w-chrome-tadi"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "Kicking Valentina + Support",
     "date": "2026-09-06",
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "The Bootleg Beatles",
-    "date": "2026-09-07",
-    "url": "https://epic-tv.com/events/event/the-bootleg-beatles"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Norwich Jazz Jam",
-    "date": "2026-09-07",
-    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Maddermarket",
@@ -388,6 +352,12 @@
     "event_name": "Cam T",
     "date": "2026-09-11",
     "url": "https://www.ueaticketbookings.co.uk/event/cam-t/"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Jokin' Apart",
+    "date": "2026-09-11",
+    "url": "https://www.norfolkgigguide.com/band-details/Jokin%27+Apart"
   },
   {
     "venue": "Last Pub",
@@ -678,6 +648,12 @@
     "url": "https://thehollowaynorwich.com/events"
   },
   {
+    "venue": "Epic",
+    "event_name": "Cafe Mambo Ibiza - Classics in The City - CANCELLED",
+    "date": "2026-09-19",
+    "url": "https://epic-tv.com/events/event/cafe-mambo-ibiza-classics-in-the-city-cancelled"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Britallica",
     "date": "2026-09-19",
@@ -733,7 +709,7 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Erotic Secrets of Pompeii + Supports",
+    "event_name": "EROTIC SECRETS OF POMPEII + Peer pleasure + Arthouse Horror + no.",
     "date": "2026-09-20",
     "url": "https://www.deadwaxnorwich.pub/whats-on/erotic-secrets-of-pompeii-supports"
   },
@@ -1453,7 +1429,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "Shadow World presents Reality + Thea Grant + Trace Monument",
+    "event_name": "Thea Grant +  Reality + Trace Monument (dark/drone/ambient)",
     "date": "2026-10-12",
     "url": "https://thehollowaynorwich.com/events"
   },
@@ -2203,6 +2179,12 @@
   },
   {
     "venue": "Dead Wax",
+    "event_name": "Wheel Up presents: New Gen round 2 (open Mic & cypher)",
+    "date": "2026-11-09",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/wheel-up-presents-new-gen-2-open-mic-cypher"
+  },
+  {
+    "venue": "Dead Wax",
     "event_name": "Chrome (DJ SET)",
     "date": "2026-11-09",
     "url": "https://www.deadwaxnorwich.pub/whats-on/chrome-dj-set"
@@ -2389,7 +2371,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "No Peeling + Garden Centre (Matinee Show)",
+    "event_name": "No Peeling + Garden Centre + Shelf Life (Matinee Show)",
     "date": "2026-11-15",
     "url": "https://thehollowaynorwich.com/events"
   },
@@ -2749,7 +2731,7 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "Magnolia (Adam’s Farewell Show) + Troilus",
+    "event_name": "Magnolia (Adam’s Farewell Show) + Wazlo & Troilus",
     "date": "2026-11-28",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/magnolia-adams-farewell-show-the-scuttlers-troilus/"
   },
@@ -3286,6 +3268,12 @@
     "event_name": "Old Saw (Henry Birdsey) + supports",
     "date": "2027-02-14",
     "url": "https://thehollowaynorwich.com/events"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Big Truck",
+    "date": "2027-02-14",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/big-truck/"
   },
   {
     "venue": "Arts Centre",
