@@ -108,12 +108,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/8xcntg7stgjw0fbyxgq9ucxtalkogb"
   },
   {
-    "venue": "Revolucion de Cuba",
-    "event_name": "Strictly Salsa Norwich",
-    "date": "2026-08-17",
-    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "the sickos secret cinema",
     "date": "2026-08-19",
@@ -234,16 +228,10 @@
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
-    "venue": "Maddermarket",
-    "event_name": "Paul Higgs presents: Cult TV Jazz",
-    "date": "2026-09-08",
-    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=122201"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "As It Is",
-    "date": "2026-09-08",
-    "url": "https://www.ueaticketbookings.co.uk/event/as-it-is/"
+    "venue": "Revolucion de Cuba",
+    "event_name": "Strictly Salsa Norwich",
+    "date": "2026-09-07",
+    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich"
   },
   {
     "venue": "Dead Wax",
@@ -322,6 +310,12 @@
     "event_name": "Narcolepsy + Support",
     "date": "2026-09-11",
     "url": "https://www.fatsoma.com/e/4jhmmdcl/narcolepsy-headgazer-wylt-space-studios"
+  },
+  {
+    "venue": "Space",
+    "event_name": "All Things Jungle",
+    "date": "2026-09-11",
+    "url": "https://www.spacestudiosnorwich.com/event-details-registration/all-things-jungle-3"
   },
   {
     "venue": "Gonzos",
@@ -505,9 +499,15 @@
   },
   {
     "venue": "Space",
-    "event_name": "Clothes Swap",
+    "event_name": "Norwich Art Expo",
     "date": "2026-09-16",
     "url": "https://www.spacestudiosnorwich.com"
+  },
+  {
+    "venue": "Space",
+    "event_name": "Clothes Swap",
+    "date": "2026-09-16",
+    "url": "https://www.spacestudiosnorwich.com/copy-of-august-events"
   },
   {
     "venue": "Holloway",
@@ -547,7 +547,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "Pozi + Prayer Tech + More!",
+    "event_name": "Pozi + Prayer Tech + Wazlo",
     "date": "2026-09-17",
     "url": "https://thehollowaynorwich.com/events"
   },
@@ -889,7 +889,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "Nagasaki Swim + Starter Car + more tbc",
+    "event_name": "Nagasaki Swim + Starter Car + Decent Wrestler",
     "date": "2026-09-26",
     "url": "https://thehollowaynorwich.com/events"
   },
@@ -1506,6 +1506,12 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/john-craigie-job-riccio/"
   },
   {
+    "venue": "Gonzos",
+    "event_name": "Skream - Open to Close",
+    "date": "2026-10-16",
+    "url": "https://www.fatsoma.com/e/3mosb1p5/skream-open-to-close"
+  },
+  {
     "venue": "Holloway",
     "event_name": "Boombox presents Icarus Vision + Modern Motive + Hook",
     "date": "2026-10-16",
@@ -2022,6 +2028,12 @@
     "url": "https://norwichartscentre.co.uk/event/gently-tender/"
   },
   {
+    "venue": "Holloway",
+    "event_name": "Kitty Perrin + Pamela Anderson Radio Show",
+    "date": "2026-11-04",
+    "url": "https://thehollowaynorwich.com/events"
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Breed 77",
     "date": "2026-11-04",
@@ -2242,6 +2254,12 @@
     "event_name": "J. Zunz (Lorelle Meets The Obsolete) + Domenica Diavoleria",
     "date": "2026-11-12",
     "url": "https://thehollowaynorwich.com/events"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Epic Darts 2026 - November 12th - CANCELLED",
+    "date": "2026-11-12",
+    "url": "https://epic-tv.com/events/event/epic-darts-2026-november-12th-cancelled"
   },
   {
     "venue": "Arts Centre",
@@ -3532,6 +3550,12 @@
     "event_name": "Extc",
     "date": "2027-04-30",
     "url": "https://www.ueaticketbookings.co.uk/event/extc/"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "The Makings of a Murderer - Double Jeopardy",
+    "date": "2027-05-01",
+    "url": "https://epic-tv.com/events/event/the-makings-of-a-murderer-double-jeopardy"
   },
   {
     "venue": "Arts Centre",
