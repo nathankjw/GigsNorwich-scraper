@@ -1,12 +1,6 @@
 [
   {
     "venue": "Dead Wax",
-    "event_name": "Pêche summer party",
-    "date": "2026-01-08",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/0nvsm4ta4hliho3s063kmhspahyqws"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Stonehill Collective + Harry Ixer + Awize",
     "date": "2026-01-10",
     "url": "https://www.deadwaxnorwich.pub/whats-on/stonehill-collective-harry-ixer-awize"
@@ -25,7 +19,7 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Diving Deep with Bag of Cans & Gourds",
+    "event_name": "Diving Deep with Bag of Cans & support tbc",
     "date": "2026-03-10",
     "url": "https://www.deadwaxnorwich.pub/whats-on/diving-deep-with-bag-of-cans-gourds"
   },
@@ -58,12 +52,6 @@
     "event_name": "The Sickos Secret Cinema",
     "date": "2026-07-09",
     "url": "https://www.deadwaxnorwich.pub/whats-on/the-sickos-secret-cinema-5"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Heavysun Promotions Presents: Polly (de), Yufo, Black Transistor",
-    "date": "2026-07-31",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/heavysun-promotions-presents-polly-yufo-black-transistor"
   },
   {
     "venue": "Dead Wax",
@@ -228,34 +216,16 @@
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
-    "venue": "Revolucion de Cuba",
-    "event_name": "Strictly Salsa Norwich",
-    "date": "2026-09-07",
-    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Dischav X Pogodeth Presents: Gets Worse + Supports",
     "date": "2026-09-08",
     "url": "https://www.deadwaxnorwich.pub/whats-on/ptcru3vel8g2pxrc3t5caj1uw7bbwq"
   },
   {
-    "venue": "Holloway",
-    "event_name": "Kim Fisher presents: ENJOY EVERY SANDWICH - an evening of talking and singing",
-    "date": "2026-09-09",
-    "url": "https://thehollowaynorwich.com/events"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "The Black Dog Music Project",
     "date": "2026-09-09",
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Yetii",
-    "date": "2026-09-09",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-yetii/"
   },
   {
     "venue": "Waterfront",
@@ -484,6 +454,12 @@
     "event_name": "The Sickos Secret Cinema",
     "date": "2026-09-14",
     "url": "https://www.deadwaxnorwich.pub/whats-on/3tefjb35er79bncxkm35swckmp7gbh"
+  },
+  {
+    "venue": "Revolucion de Cuba",
+    "event_name": "Strictly Salsa Norwich",
+    "date": "2026-09-14",
+    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich"
   },
   {
     "venue": "Last Pub",
@@ -889,7 +865,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "Nagasaki Swim + Starter Car + Decent Wrestler",
+    "event_name": "Nagasaki Swim + Starter Car + Decent Wrestlers",
     "date": "2026-09-26",
     "url": "https://thehollowaynorwich.com/events"
   },
@@ -1051,15 +1027,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
     "date": "2026-09-30",
     "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
+    "date": "2026-09-30",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
   },
   {
     "venue": "Epic",
@@ -1608,6 +1584,12 @@
     "url": "https://www.ueaticketbookings.co.uk/event/the-hoosiers/"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "Clownsmasheverything + Project Mork + Amongst Strangers",
+    "date": "2026-10-17",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/clownsmasheverything-project-mork-amongst-strangers"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Stars in Their Eyes Competition",
     "date": "2026-10-17",
@@ -1765,7 +1747,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "Pina Palau (CH) + yer blooze",
+    "event_name": "Pina Palau (CH) + Lou Terry (Solo) + yer blooze",
     "date": "2026-10-24",
     "url": "https://thehollowaynorwich.com/events"
   },
@@ -2844,6 +2826,12 @@
     "url": "https://www.ueaticketbookings.co.uk/event/the-hunna/"
   },
   {
+    "venue": "Voodoos",
+    "event_name": "Myopia + A Different Kitchen & Crying In Colour",
+    "date": "2026-12-04",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/myopia-a-different-kitchen-crying-in-colour/"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Nirvanher With Hell is in Chains",
     "date": "2026-12-04",
@@ -3160,6 +3148,12 @@
     "event_name": "The Gig List Book – The Waterfront",
     "date": "2027-01-03",
     "url": "https://www.ueaticketbookings.co.uk/event/the-gig-list-book-the-waterfront/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "The Pink Stones",
+    "date": "2027-01-14",
+    "url": "https://norwichartscentre.co.uk/event/the-pink-stones/"
   },
   {
     "venue": "Waterfront",
