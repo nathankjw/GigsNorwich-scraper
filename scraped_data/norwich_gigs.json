@@ -31,12 +31,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "comb (dJ Set)",
-    "date": "2026-06-08",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/udmbymcq8cqmqrddthpomb3niu5xg6"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Concrete Vehicles + Slag Heap + Toast",
     "date": "2026-06-09",
     "url": "https://www.deadwaxnorwich.pub/whats-on/concrete-vehicles-slag-heap-toast"
@@ -52,12 +46,6 @@
     "event_name": "Anna B (DJ SET)",
     "date": "2026-08-08",
     "url": "https://www.deadwaxnorwich.pub/whats-on/anna-b-dj-set"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Hangry Yeti + lara price",
-    "date": "2026-08-08",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/hangry-yeti-lara-price"
   },
   {
     "venue": "Dead Wax",
@@ -240,52 +228,10 @@
     "url": "https://www.spacestudiosnorwich.com/event-details-registration/all-things-jungle-3"
   },
   {
-    "venue": "Gonzos",
-    "event_name": "Sounds of DnB",
-    "date": "2026-09-11",
-    "url": "https://www.fatsoma.com/e/42360qis/sounds-of-dnb"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Bruise Blood (Teeth Of The Sea) + Elenwen + Ziggy Waldron",
-    "date": "2026-09-11",
-    "url": "https://thehollowaynorwich.com/events"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "Rawkas",
     "date": "2026-09-11",
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Jokin' Apart",
-    "date": "2026-09-11",
-    "url": "https://www.norfolkgigguide.com/band-details/Jokin%27+Apart"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Housekind",
-    "date": "2026-09-11",
-    "url": "https://lpsnorwich.co.uk/"
-  },
-  {
-    "venue": "Above Kerry's",
-    "event_name": "Any Excuse - Miss Moody, Hansel and Gretel, Mantas Meiz + Quinton",
-    "date": "2026-09-11",
-    "url": "https://www.eventbrite.com/e/any-excuse-tickets-1994826351316?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaej0uhRcNvQZI9cP7ZZ1Sb6DrXcYElkrnViGEn82ZlZU6guYEFtNR2ayweKgA_aem_4vS3sXIhrpxgkZGShBOyzQ"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "James Lavelle (UNKLE) DJ",
-    "date": "2026-09-11",
-    "url": "https://norwichartscentre.co.uk/event/james-lavelle-unkle-dj/"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Cam T",
-    "date": "2026-09-11",
-    "url": "https://www.ueaticketbookings.co.uk/event/cam-t/"
   },
   {
     "venue": "Space",
@@ -1320,12 +1266,6 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/gallus/"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Aethoria , Bitter Kisses , Wrex",
-    "date": "2026-10-10",
-    "url": "https://www.norfolkgigguide.com/band-details/AETHORIA+%2C+BITTER+KISSES+%2C+WREX"
-  },
-  {
     "venue": "Reindeer",
     "event_name": "Rusty Metal",
     "date": "2026-10-10",
@@ -2263,15 +2203,15 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Wheel Up presents: New Gen round 2 (open Mic & cypher)",
-    "date": "2026-11-09",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/wheel-up-presents-new-gen-2-open-mic-cypher"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Chrome (DJ SET)",
     "date": "2026-11-09",
     "url": "https://www.deadwaxnorwich.pub/whats-on/chrome-dj-set"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "Wheel Up presents: New Gen round 2 (open Mic & cypher)",
+    "date": "2026-11-09",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/wheel-up-presents-new-gen-2-open-mic-cypher"
   },
   {
     "venue": "Voodoos",
@@ -2551,7 +2491,7 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "MADELEINE + Maya Law",
+    "event_name": "MADELEINE + Maya Law – CANCELLED",
     "date": "2026-11-19",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/madeleine-maya-law/"
   },
@@ -2872,6 +2812,12 @@
     "event_name": "Sevendust",
     "date": "2026-12-02",
     "url": "https://www.ueaticketbookings.co.uk/event/sevendust/"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "The Wildhearts",
+    "date": "2026-12-03",
+    "url": "https://epic-tv.com/events/event/the-wildhearts"
   },
   {
     "venue": "Brickmakers",
