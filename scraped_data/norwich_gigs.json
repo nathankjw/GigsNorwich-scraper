@@ -258,24 +258,6 @@
     "url": "https://www.ueaticketbookings.co.uk/event/ally-venable/"
   },
   {
-    "venue": "Gonzos",
-    "event_name": "Rooftop Sunday Session w Dunmore Brothers (Summer Closing)",
-    "date": "2026-09-13",
-    "url": "https://www.fatsoma.com/e/uthzm46m/rooftop-sunday-session-w-dunmore-brothers-summer-closing"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "The East Anglian Landscape Network presents: English Heretic",
-    "date": "2026-09-13",
-    "url": "https://thehollowaynorwich.com/events"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "J-Pop, K-Pop & Anime Convention",
-    "date": "2026-09-13",
-    "url": "https://epic-tv.com/events/event/j-pop-k-pop-anime-convention"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "Southbound",
     "date": "2026-09-13",
@@ -292,24 +274,6 @@
     "event_name": "Dream State",
     "date": "2026-09-13",
     "url": "https://www.ueaticketbookings.co.uk/event/dream-state/"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Stereo Sanctity Returns to Norwich With Immersion, Pram and E.m.arson",
-    "date": "2026-09-13",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/stereo-sanctity-returns-to-norwich-with-immersion-pram-and-e-m-arson/"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "The Listening Club - Prince",
-    "date": "2026-09-13",
-    "url": "https://lpsnorwich.co.uk/"
-  },
-  {
-    "venue": "The Reindeer",
-    "event_name": "Sunday Soul with The Optics",
-    "date": "2026-09-13",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/"
   },
   {
     "venue": "Epic",
@@ -901,15 +865,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
     "date": "2026-09-30",
     "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
+    "date": "2026-09-30",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
   },
   {
     "venue": "Epic",
@@ -2442,6 +2406,12 @@
     "url": "https://www.ueaticketbookings.co.uk/event/shed-seven/"
   },
   {
+    "venue": "Voodoos",
+    "event_name": "New Noise!",
+    "date": "2026-11-17",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/new-noise/"
+  },
+  {
     "venue": "Holloway",
     "event_name": "Scott Lavene - Acoustic Songs & Stories Tour",
     "date": "2026-11-18",
@@ -2512,6 +2482,12 @@
     "event_name": "Rawkas",
     "date": "2026-11-20",
     "url": "https://www.norfolkgigguide.com/band-details/Rawkas"
+  },
+  {
+    "venue": "Gonzos",
+    "event_name": "Olive F",
+    "date": "2026-11-21",
+    "url": "https://www.fatsoma.com/e/nt63oea4/olive-f"
   },
   {
     "venue": "Holloway",
@@ -3024,6 +3000,12 @@
     "url": "https://thehollowaynorwich.com/events"
   },
   {
+    "venue": "Voodoos",
+    "event_name": "Annotations Of An Autopsy",
+    "date": "2026-12-13",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/annotations-of-an-autopsy/"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Sing it your way KARAOKE",
     "date": "2026-12-13",
@@ -3217,7 +3199,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "(IVW) Seamus Fogarty",
+    "event_name": "(IVW) An Evening with Seamus Fogarty",
     "date": "2027-01-25",
     "url": "https://thehollowaynorwich.com/events"
   },
