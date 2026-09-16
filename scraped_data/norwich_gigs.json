@@ -175,12 +175,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Dischav X Pogodeth Presents: Gets Worse + Supports",
-    "date": "2026-09-08",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/ptcru3vel8g2pxrc3t5caj1uw7bbwq"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Deviated Instinct + BirdWitch + Dismara",
     "date": "2026-09-09",
     "url": "https://www.deadwaxnorwich.pub/whats-on/deviated-instinct-bird-witch-dismara"
@@ -220,18 +214,6 @@
     "event_name": "The Sickos Secret Cinema",
     "date": "2026-09-14",
     "url": "https://www.deadwaxnorwich.pub/whats-on/3tefjb35er79bncxkm35swckmp7gbh"
-  },
-  {
-    "venue": "Revolucion de Cuba",
-    "event_name": "Strictly Salsa Norwich",
-    "date": "2026-09-14",
-    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Erode (USA) Sinister Feeling (USA) + Hour of Reprisal",
-    "date": "2026-09-15",
-    "url": "https://thehollowaynorwich.com/events"
   },
   {
     "venue": "Space",
@@ -460,6 +442,12 @@
     "event_name": "Chubby Jams",
     "date": "2026-09-20",
     "url": "https://lpsnorwich.co.uk/"
+  },
+  {
+    "venue": "Revolucion de Cuba",
+    "event_name": "Strictly Salsa Norwich",
+    "date": "2026-09-21",
+    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich"
   },
   {
     "venue": "Last Pub",
@@ -1165,7 +1153,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "DEAFKIDS (Brazil) + João Kombi (TEST) + more!",
+    "event_name": "DEAFKIDS (Brazil) + João Kombi (TEST) + MINCER",
     "date": "2026-10-11",
     "url": "https://thehollowaynorwich.com/events"
   },
@@ -1806,6 +1794,12 @@
     "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB"
   },
   {
+    "venue": "Gonzos",
+    "event_name": "Skalah & Capo Lee - Halloween Special w Wheel Up",
+    "date": "2026-10-30",
+    "url": "https://www.fatsoma.com/e/te1413k3/skalah-capo-lee-halloween-special-w-wheel-up"
+  },
+  {
     "venue": "Holloway",
     "event_name": "Gnoomes + Yufo + Blue Cinema",
     "date": "2026-10-30",
@@ -1888,6 +1882,12 @@
     "event_name": "Les Caravanes - Travelling Folk Club + Supports",
     "date": "2026-11-01",
     "url": "https://thehollowaynorwich.com/events"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "The Jury Experience: Death of Port Side",
+    "date": "2026-11-01",
+    "url": "https://epic-tv.com/events/event/the-jury-experience-death-of-port-side"
   },
   {
     "venue": "Brickmakers",
@@ -2056,12 +2056,6 @@
     "event_name": "Rosalie Cunningham",
     "date": "2026-11-08",
     "url": "https://www.ueaticketbookings.co.uk/event/rosalie-cunningham/"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "MIYO's folk & country night",
-    "date": "2026-11-08",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/miyos-folk-country-night"
   },
   {
     "venue": "Brickmakers",
@@ -2530,6 +2524,12 @@
     "event_name": "Norfolk Blues Society at the Brickmakers",
     "date": "2026-11-25",
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "The Ogretones",
+    "date": "2026-11-26",
+    "url": "https://epic-tv.com/events/event/the-ogretones"
   },
   {
     "venue": "Waterfront",
@@ -3138,6 +3138,12 @@
     "url": "https://www.ueaticketbookings.co.uk/event/alestorm/"
   },
   {
+    "venue": "Epic",
+    "event_name": "The Jury Experience: Death of Port Side",
+    "date": "2027-01-23",
+    "url": "https://epic-tv.com/events/event/the-jury-experience-death-of-port-side"
+  },
+  {
     "venue": "Holloway",
     "event_name": "(IVW) An Evening with Seamus Fogarty",
     "date": "2027-01-25",
@@ -3205,7 +3211,7 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "PONY UP presents Knitting",
+    "event_name": "PONY UP presents knitting",
     "date": "2027-02-03",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-knitting/"
   },
