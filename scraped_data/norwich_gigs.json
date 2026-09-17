@@ -228,34 +228,10 @@
     "url": "https://www.spacestudiosnorwich.com/copy-of-august-events"
   },
   {
-    "venue": "Holloway",
-    "event_name": "Sam Grassie & Friends + Fergus Nolan",
-    "date": "2026-09-16",
-    "url": "https://thehollowaynorwich.com/events"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Dom Joly - Trigger Happy TV, the 25th Anniversary Tour",
-    "date": "2026-09-16",
-    "url": "https://epic-tv.com/events/event/dom-joly-trigger-happy-tv-the-25th-anniversary-tour"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "FORM Presents: ROSA WALTON + Nadia Kadek",
-    "date": "2026-09-16",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/form-presents-rosa-walton/"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Free Monthly Wax: Iceni Green, Alecs Delarge, Kasumu, Bertinho",
     "date": "2026-09-16",
     "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax-iceni-green-alecs-delarge-kasumu-bertinho"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "The Blue Lion Band Showcase",
-    "date": "2026-09-16",
-    "url": "https://www.norfolkgigguide.com/band-details/The+Blue+Lion+Band+Showcase"
   },
   {
     "venue": "The Halls",
@@ -781,15 +757,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
     "date": "2026-09-30",
     "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
+    "date": "2026-09-30",
+    "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/"
   },
   {
     "venue": "Epic",
@@ -898,6 +874,12 @@
     "event_name": "SLAYDAY – ShredFest",
     "date": "2026-10-03",
     "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Propaganda Norwich",
+    "date": "2026-10-03",
+    "url": "https://www.ueaticketbookings.co.uk/event/propaganda-norwich/"
   },
   {
     "venue": "Waterfront",
@@ -1246,6 +1228,12 @@
     "event_name": "Hayseed Dixie",
     "date": "2026-10-14",
     "url": "https://www.ueaticketbookings.co.uk/event/hayseed-dixie/"
+  },
+  {
+    "venue": "LCR",
+    "event_name": "Jamie T",
+    "date": "2026-10-14",
+    "url": "https://www.ueaticketbookings.co.uk/event/jamie-t/"
   },
   {
     "venue": "Voodoos",
@@ -2334,12 +2322,6 @@
     "url": "https://www.ueaticketbookings.co.uk/event/shed-seven/"
   },
   {
-    "venue": "Voodoos",
-    "event_name": "New Noise!",
-    "date": "2026-11-17",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/new-noise/"
-  },
-  {
     "venue": "Holloway",
     "event_name": "Scott Lavene - Acoustic Songs & Stories Tour",
     "date": "2026-11-18",
@@ -2485,15 +2467,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Round Midnight presents corto.alto @ EPIC Studios",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-cortoalto-at-epic-studios/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "PONY UP presents COWBOYY",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents corto.alto @ EPIC Studios",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-cortoalto-at-epic-studios/"
   },
   {
     "venue": "Waterfront",
@@ -2821,12 +2803,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "the sickos secret cinema",
-    "date": "2026-12-08",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/the-sickos-secret-cinema-2"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "polyjamorous",
     "date": "2026-12-09",
     "url": "https://www.deadwaxnorwich.pub/whats-on/polyjamorous"
@@ -2974,6 +2950,12 @@
     "event_name": "Tone presents Jordan Smart",
     "date": "2026-12-17",
     "url": "https://norwichartscentre.co.uk/event/tone-presents-jordan-smart/"
+  },
+  {
+    "venue": "The Halls",
+    "event_name": "An Evening of Dickens - A Christmas Carol",
+    "date": "2026-12-17",
+    "url": "https://www.norwich.gov.uk/thehalls/evening-dickens-christmas-carol"
   },
   {
     "venue": "Holloway",
@@ -3240,6 +3222,12 @@
     "url": "https://www.ueaticketbookings.co.uk/event/admt/"
   },
   {
+    "venue": "Waterfront",
+    "event_name": "Esprit D’Air",
+    "date": "2027-02-08",
+    "url": "https://www.ueaticketbookings.co.uk/event/esprit-dair/"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Open  mic  night with Peter Turrell",
     "date": "2027-02-11",
@@ -3283,7 +3271,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "Old Saw (Henry Birdsey) + Feld + more!",
+    "event_name": "Old Saw (Henry Birdsey) + Michael Ridge + Feld",
     "date": "2027-02-14",
     "url": "https://thehollowaynorwich.com/events"
   },
@@ -3462,6 +3450,12 @@
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell"
   },
   {
+    "venue": "Voodoos",
+    "event_name": "Rowena Wise",
+    "date": "2027-03-12",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/rowena-wise/"
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "The Howlers",
     "date": "2027-03-13",
@@ -3610,12 +3604,6 @@
     "event_name": "Extc",
     "date": "2027-04-30",
     "url": "https://www.ueaticketbookings.co.uk/event/extc/"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "The Makings of a Murderer - Double Jeopardy",
-    "date": "2027-05-01",
-    "url": "https://epic-tv.com/events/event/the-makings-of-a-murderer-double-jeopardy"
   },
   {
     "venue": "Arts Centre",
