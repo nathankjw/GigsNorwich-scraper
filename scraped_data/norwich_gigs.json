@@ -234,24 +234,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax-iceni-green-alecs-delarge-kasumu-bertinho"
   },
   {
-    "venue": "The Halls",
-    "event_name": "An Evening of Dickens - a free dramatic reading",
-    "date": "2026-09-16",
-    "url": "https://www.norwich.gov.uk/thehalls/evening-dickens-free-dramatic-reading"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Pozi + Prayer Tech + Peletext Todcast (Dr Clyde)",
-    "date": "2026-09-17",
-    "url": "https://thehollowaynorwich.com/events"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Pigs Pigs Pigs Pigs Pigs Pigs Pigs",
-    "date": "2026-09-17",
-    "url": "https://norwichartscentre.co.uk/event/pigs-pigs-pigs-pigs-pigs-pigs-pigs/"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "The Urban Voodoo Machine",
     "date": "2026-09-17",
@@ -262,12 +244,6 @@
     "event_name": "Dreamcast",
     "date": "2026-09-17",
     "url": "https://www.deadwaxnorwich.pub/whats-on/dreamcast-4"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "King Parrot - Struck a Nerve - Berenice - Chaplain",
-    "date": "2026-09-17",
-    "url": "https://www.norfolkgigguide.com/band-details/KING+PARROT+-+STRUCK+A+NERVE+-+BERENICE+-+CHAPLAIN"
   },
   {
     "venue": "Space",
@@ -1036,6 +1012,12 @@
     "event_name": "T>I The Residency w Kasra + Waeys + SMG",
     "date": "2026-10-09",
     "url": "https://www.fatsoma.com/e/ywjkuc7d/t-i-the-residency-w-kasra-waeys-smg"
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "Wylt + Lone Mesa + Moochin",
+    "date": "2026-10-09",
+    "url": "https://thehollowaynorwich.com/events"
   },
   {
     "venue": "Epic",
@@ -1974,6 +1956,12 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/sego/"
   },
   {
+    "venue": "Gonzos",
+    "event_name": "La La",
+    "date": "2026-11-07",
+    "url": "https://www.fatsoma.com/e/g9wm1mgy/la-la"
+  },
+  {
     "venue": "Holloway",
     "event_name": "O My Stars presents Colin Miller (USA)",
     "date": "2026-11-07",
@@ -2467,15 +2455,15 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "PONY UP presents COWBOYY",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Round Midnight presents corto.alto @ EPIC Studios",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-cortoalto-at-epic-studios/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents COWBOYY",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/"
   },
   {
     "venue": "Waterfront",
@@ -3510,6 +3498,12 @@
     "url": "https://www.ueaticketbookings.co.uk/event/henge/"
   },
   {
+    "venue": "Voodoos",
+    "event_name": "Toria Wooff",
+    "date": "2027-03-23",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/toria-wooff/"
+  },
+  {
     "venue": "Epic",
     "event_name": "Rachel Parris: The Rachel Parris Songbook",
     "date": "2027-03-24",
@@ -3526,6 +3520,12 @@
     "event_name": "Open  mic  night with Peter Turrell",
     "date": "2027-03-25",
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell"
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "An Evening With Vikki Clayton",
+    "date": "2027-03-26",
+    "url": "https://thehollowaynorwich.com/events"
   },
   {
     "venue": "Brickmakers",
@@ -3604,6 +3604,12 @@
     "event_name": "Extc",
     "date": "2027-04-30",
     "url": "https://www.ueaticketbookings.co.uk/event/extc/"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Spoke presents Hollie McNish",
+    "date": "2027-05-06",
+    "url": "https://epic-tv.com/events/event/spoke-presents-hollie-mcnish"
   },
   {
     "venue": "Arts Centre",
