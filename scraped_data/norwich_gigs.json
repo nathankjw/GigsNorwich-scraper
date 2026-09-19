@@ -57,6 +57,13 @@
   },
   {
     "venue": "Dead Wax",
+    "event_name": "Amy Nomvula (DJ Set)",
+    "date": "2026-08-14",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/amy-nomvula-dj-set",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1785847548420-2F8V9LLXWUVPEEIFR5Z3/amy+nomvula+dj.webp"
+  },
+  {
+    "venue": "Dead Wax",
     "event_name": "Tadi the great: All evening long",
     "date": "2026-08-15",
     "url": "https://www.deadwaxnorwich.pub/whats-on/cgxdbet2agzq7yxohlpwey50tof5ob",
@@ -1075,7 +1082,7 @@
     "event_name": "Wishbone Ash",
     "date": "2026-10-08",
     "url": "https://epic-tv.com/events/event/wishbone-ash",
-    "image": ""
+    "image": "https://epicwebsite20241120.z33.web.core.windows.net/80bcb554-6160-4934-8a88-c8f8c7c4366c"
   },
   {
     "venue": "Waterfront",
@@ -2713,7 +2720,7 @@
     "event_name": "An Intimate Evening with Trevor Horn",
     "date": "2026-11-22",
     "url": "https://epic-tv.com/events/event/trevor-horn",
-    "image": ""
+    "image": "https://epicwebsite20241120.z33.web.core.windows.net/d1562a0a-9fe0-4bc8-b4c6-e34b0dd247af"
   },
   {
     "venue": "Waterfront",
