@@ -851,16 +851,19 @@ def _scrape_uea_whats_on(session, log,
                     continue
                 venue_name = venue_m.group(0)
 
-                # Poster — the thumbnail-wrapping anchor is one of the
-                # (usually two) anchors pointing at this event URL.
-                img_tag = None
-                for a in a_tags:
-                    img_tag = a.find("img")
-                    if img_tag:
-                        break
-                if img_tag is None:
-                    img_tag = card.find("img")
-                image_url = _resolve_image_url(_best_image_src(img_tag), event_url)
+                              image_url = _uea_find_poster(a_tags, card, event_url, url)
+                if not image_url:
+                    # Old approach as a last resort
+                    img_tag = None
+                    for a in a_tags:
+                        img_tag = a.find("img")
+                        if img_tag:
+                            break
+                    if img_tag is None:
+                        img_tag = card.find("img")
+                    image_url = _resolve_image_url(_best_image_src(img_tag), event_url)
+                if not image_url:
+                    log(f"  ⚠  No poster found for: {title}", "warn")
 
                 events.append({"venue": venue_name, "event_name": title,
                                "date": date_str, "url": event_url,
