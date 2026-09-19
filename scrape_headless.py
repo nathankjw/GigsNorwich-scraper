@@ -17,10 +17,11 @@ import subprocess
 import sys
 import threading
 import time
+from collections import Counter
 from difflib import SequenceMatcher
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 # ── Optional scraping imports (checked at runtime) ───────────────────────────
 try:
@@ -53,7 +54,7 @@ except ImportError:
 # VERSION
 # ═══════════════════════════════════════════════════════════════════════════════
 
-APP_VERSION      = "1.3"
+APP_VERSION      = "1.4"
 APP_VERSION_DATE = "2026-09-19"  # date this scraper build was last updated
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -129,6 +130,19 @@ def shorten_venue(venue: str, aliases: dict) -> str:
     return aliases.get(venue.strip(), venue.strip())
 
 
+# Substrings that mark an "image" URL as a tracking pixel / icon rather than
+# a real poster (e.g. Facebook's noscript pixel on Revolución de Cuba pages).
+_BAD_IMAGE_BITS = ("facebook.com/tr", "doubleclick", "/pixel", "favicon")
+
+
+def _is_usable_image(url: str | None) -> bool:
+    """Reject empty values, data: URIs and known tracking pixels."""
+    if not url or url.startswith("data:"):
+        return False
+    low = url.lower()
+    return not any(bit in low for bit in _BAD_IMAGE_BITS)
+
+
 def _best_image_src(img_tag) -> str | None:
     """
     Pull the most useful image URL off an <img> tag, in priority order.
@@ -140,17 +154,19 @@ def _best_image_src(img_tag) -> str | None:
     attributes first, then falls back to `src`, then the first URL out of
     `srcset` (srcset is "url1 1x, url2 2x" or "url1 100w, url2 300w" —
     we just want the first URL before any descriptor).
+
+    Tracking pixels and data: URIs are rejected via _is_usable_image().
     """
     if img_tag is None:
         return None
     for attr in ("data-src", "data-lazy-src", "data-original", "src"):
         val = img_tag.get(attr)
-        if val and not val.startswith("data:"):
+        if _is_usable_image(val):
             return val
     srcset = img_tag.get("srcset") or img_tag.get("data-srcset")
     if srcset:
         first = srcset.split(",")[0].strip().split(" ")[0].strip()
-        if first and not first.startswith("data:"):
+        if _is_usable_image(first):
             return first
     return None
 
@@ -160,6 +176,90 @@ def _resolve_image_url(image_url: str | None, base_url: str) -> str | None:
     if not image_url:
         return None
     return urljoin(base_url, image_url)
+
+
+# ── og:image fallback ─────────────────────────────────────────────────────────
+
+# Hosts whose event pages don't carry a per-event og:image worth fetching.
+_NO_OG_HOSTS = ("instagram.com", "norfolkgigguide.com", "lpsnorwich.co.uk")
+
+
+def fetch_og_image(session, page_url: str, cache: dict, log) -> str | None:
+    """Return the og:image (or twitter:image) of a page, cached per URL."""
+    if page_url in cache:
+        return cache[page_url]
+    result = None
+    try:
+        resp = session.get(page_url, timeout=15)
+        if resp.ok:
+            soup = BeautifulSoup(resp.text, "lxml")
+            for attrs in ({"property": "og:image"},
+                          {"property": "og:image:secure_url"},
+                          {"name": "twitter:image"}):
+                tag = soup.find("meta", attrs=attrs)
+                if tag and tag.get("content"):
+                    candidate = urljoin(page_url, tag["content"].strip())
+                    if _is_usable_image(candidate):
+                        result = candidate
+                        break
+    except Exception as e:
+        log(f"  ⚠  og:image fetch failed for {page_url}: {e}", "warn")
+    cache[page_url] = result
+    return result
+
+
+def backfill_images_from_og(events: list[dict], session, log,
+                            max_fetches: int = 80,
+                            generic_threshold: int = 3) -> None:
+    """
+    For upcoming events with no poster, fetch the event's own page and use
+    its og:image. Skips generic venue landing pages (no per-event poster
+    there) and discards any image that turns up on `generic_threshold` or
+    more backfilled events, since that's a site-wide default/logo rather
+    than a poster.
+    """
+    if session is None:
+        return
+
+    generic_urls = set(DEFAULT_VENUE_LINKS.values())
+    today = datetime.now().strftime("%Y-%m-%d")
+    cache: dict[str, str | None] = {}
+    fetched = 0
+    filled: list[dict] = []
+
+    for e in events:
+        if e.get("image"):
+            continue
+        url = (e.get("url") or "").strip()
+        if not url.startswith("http"):
+            continue
+        parsed = urlparse(url)
+        if (parsed.path in ("", "/") or url in generic_urls
+                or any(h in parsed.netloc for h in _NO_OG_HOSTS)):
+            continue
+        if e.get("date", "") < today:
+            continue
+
+        if url not in cache:
+            if fetched >= max_fetches:
+                break
+            fetched += 1
+            time.sleep(0.5)
+
+        img = fetch_og_image(session, url, cache, log)
+        if img:
+            e["image"] = img
+            filled.append(e)
+
+    counts = Counter(e["image"] for e in filled)
+    dropped = 0
+    for e in filled:
+        if counts[e["image"]] >= generic_threshold:
+            e["image"] = None
+            dropped += 1
+
+    log(f"  🖼  og:image backfill: {len(filled) - dropped} poster(s) added"
+        f"{f', {dropped} generic image(s) discarded' if dropped else ''}", "dim")
 
 
 # Phrases (case-insensitive) that flag an event for removal.
@@ -735,6 +835,7 @@ def _uea_find_poster(a_tags, card, event_url, page_url) -> str | None:
             return urljoin(page_url, candidate)
     return None
 
+
 def _scrape_uea_whats_on(session, log,
                           base_url="https://www.ueaticketbookings.co.uk/whats-on/",
                           max_pages=25) -> list[dict]:
@@ -764,6 +865,10 @@ def _scrape_uea_whats_on(session, log,
         #### <title>                           event title (h4)
         ###### <subtitle>                      optional subtitle (h6)
         <a href="...same event url...">CTA</a> "Book tickets" / "Selling fast" / etc.
+
+    Posters are located by _uea_find_poster(), which searches the raw HTML
+    for any /wp-content/uploads/ image URL rather than relying on <img>
+    tag structure.
 
     Returns {"venue", "event_name", "date", "url", "image"} dicts, where
     "venue" is the full name as printed on the card (not yet run through
@@ -851,7 +956,7 @@ def _scrape_uea_whats_on(session, log,
                     continue
                 venue_name = venue_m.group(0)
 
-                              image_url = _uea_find_poster(a_tags, card, event_url, url)
+                image_url = _uea_find_poster(a_tags, card, event_url, url)
                 if not image_url:
                     # Old approach as a last resort
                     img_tag = None
@@ -1062,6 +1167,8 @@ def scrape_gonzos(driver, log) -> list[dict]:
         log(f"  ✓  {ev['date']}  {ev['event_name']}", "ok")
     log(f"  → {len(events)} Gonzos event(s) total", "dim")
     return events
+
+
 def scrape_voodoos(session, log) -> list[dict]:
     """
     Voodoo Daddy's Showroom — Fatsoma card layout.
@@ -1851,9 +1958,14 @@ def scrape_revolucion_de_cuba(session, log) -> list[dict]:
        first date in that range and doesn't need to parse the recurring
        schedule out of the description text. This does mean one extra
        page fetch per Norwich event, but there are usually only a
-       handful — and since the poster (a hero image at the top of the
-       event's own page) is only ever findable on that same detail page,
-       we were fetching it anyway.
+       handful — and since the poster is only ever findable on that same
+       detail page, we were fetching it anyway.
+
+    Poster: the page's og:image meta tag is preferred (the old "first
+    <img> before the date heading" approach was picking up Facebook's
+    tracking pixel, https://www.facebook.com/tr?...). The old hero-image
+    search is kept as a fallback, and _best_image_src() now rejects
+    tracking pixels.
 
     The listing also mixes in non-gig posts under "Norwich" (weekly salsa
     classes, the Sunday tapas deal, Happy Hour, etc.) which aren't really
@@ -1933,19 +2045,32 @@ def scrape_revolucion_de_cuba(session, log) -> list[dict]:
                     log(f"  –  Skipped (deal/class, not a gig): {title}", "dim")
                     continue
 
-                # Poster — hero image on the event's own detail page. Take
-                # the first <img> that appears before the date heading
-                # (the hero banner), falling back to any image on the page.
+                # Poster — prefer the page's og:image (already-fetched soup,
+                # so no extra request). Fall back to the first <img> before
+                # the date heading (the hero banner), then any image at all;
+                # _best_image_src() rejects tracking pixels.
                 image_url = None
-                hero_img = None
-                for img in detail_soup.find_all("img"):
-                    if img.sourceline is not None and date_tag.sourceline is not None \
-                            and img.sourceline < date_tag.sourceline:
-                        hero_img = img
-                        break
-                if hero_img is None:
-                    hero_img = detail_soup.find("img")
-                image_url = _resolve_image_url(_best_image_src(hero_img), event_url)
+                og = detail_soup.find("meta", attrs={"property": "og:image"})
+                if og and og.get("content"):
+                    candidate = urljoin(event_url, og["content"].strip())
+                    if _is_usable_image(candidate):
+                        image_url = candidate
+
+                if not image_url:
+                    hero_img = None
+                    for img in detail_soup.find_all("img"):
+                        if not _is_usable_image(_best_image_src(img)):
+                            continue
+                        if img.sourceline is not None and date_tag.sourceline is not None \
+                                and img.sourceline < date_tag.sourceline:
+                            hero_img = img
+                            break
+                    if hero_img is None:
+                        for img in detail_soup.find_all("img"):
+                            if _is_usable_image(_best_image_src(img)):
+                                hero_img = img
+                                break
+                    image_url = _resolve_image_url(_best_image_src(hero_img), event_url)
 
                 events.append({"venue": VENUE, "event_name": title,
                                "date": date_str, "url": event_url,
@@ -2031,7 +2156,8 @@ def load_manual_events(log) -> list[dict]:
 
     log(f"  → {len(events)} manual event(s)", "dim")
     return events
-    
+
+
 def load_previous_events(path: Path, log) -> list[dict]:
     """Read yesterday's already-committed CSV, if present, so a venue that
     scrapes 0 events today can fall back to its last-known listing instead
@@ -2126,7 +2252,7 @@ def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
             except Exception:
                 pass
 
-       # Merge in hand-added events from manual_events.csv (see load_manual_events
+    # Merge in hand-added events from manual_events.csv (see load_manual_events
     # for why this lives outside the scraped `events` list up to this point).
     events += load_manual_events(log)
 
@@ -2188,6 +2314,14 @@ def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
     dropped = before_filter - len(events)
     if dropped:
         log(f"  ⚑  Filtered out {dropped} event(s) (screening/bingo/quiz/cribbage/private event/phone)", "warn")
+
+    # For events that still have no poster, try the og:image on the event's
+    # own page (skips generic venue landing pages and discards site-wide
+    # default images — see backfill_images_from_og).
+    log(f"\n{'─'*48}", "dim")
+    log(f"  Backfilling missing posters from og:image", "plain")
+    log(f"{'─'*48}", "dim")
+    backfill_images_from_og(events, session, log)
 
     # Apply venue aliases so the CSV already has short names
     for e in events:
