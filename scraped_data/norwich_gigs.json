@@ -49,12 +49,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Victor Villarreal + Yer Blooze + KiraKira",
-    "date": "2026-08-13",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/victor-villarreal-yer-blooze-kirakira"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Amy Nomvula (DJ Set)",
     "date": "2026-08-14",
     "url": "https://www.deadwaxnorwich.pub/whats-on/amy-nomvula-dj-set"
@@ -234,12 +228,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax-iceni-green-alecs-delarge-kasumu-bertinho"
   },
   {
-    "venue": "Waterfront",
-    "event_name": "The Urban Voodoo Machine",
-    "date": "2026-09-17",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-urban-voodoo-machine/"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Dreamcast",
     "date": "2026-09-17",
@@ -252,52 +240,10 @@
     "url": "https://www.skiddle.com/whats-on/Norwich/Space-Studios-Norwich/Overview-Norwich---Space-Studios--180926/42629831/"
   },
   {
-    "venue": "Gonzos",
-    "event_name": "Covert Radio Takeover",
-    "date": "2026-09-18",
-    "url": "https://www.fatsoma.com/e/ey16238w/covert-radio-takeover"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Gangsta Hippie presents Farma G + Harry Ixer + Kasumu + Skitzgerald",
-    "date": "2026-09-18",
-    "url": "https://thehollowaynorwich.com/events"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Wrong Jovi",
-    "date": "2026-09-18",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "When Rivers Meet",
-    "date": "2026-09-18",
-    "url": "https://norwichartscentre.co.uk/event/when-rivers-meet/"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Antarctic Monkeys",
-    "date": "2026-09-18",
-    "url": "https://www.ueaticketbookings.co.uk/event/antarctic-monkeys/"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Gyasi + Marc Valentine",
-    "date": "2026-09-18",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/gyasi/"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Tadi the Great (dj Set)",
     "date": "2026-09-18",
     "url": "https://www.deadwaxnorwich.pub/whats-on/tadi-the-great-dj-set-2"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Revinyl Sessions",
-    "date": "2026-09-18",
-    "url": "https://lpsnorwich.co.uk/"
   },
   {
     "venue": "Space",
@@ -324,10 +270,10 @@
     "url": "https://epic-tv.com/events/event/cafe-mambo-ibiza-classics-in-the-city-cancelled"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Britallica",
+    "venue": "Waterfront",
+    "event_name": "Gyasi",
     "date": "2026-09-19",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
+    "url": "https://www.ueaticketbookings.co.uk/event/gyasi-2/"
   },
   {
     "venue": "Waterfront",
@@ -346,6 +292,12 @@
     "event_name": "The Wattles + May Gabriels & Amber Scott",
     "date": "2026-09-19",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-wattles-may-gabriels-amber-scott/"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Britalicca",
+    "date": "2026-09-19",
+    "url": "https://www.norfolkgigguide.com/band-details/Britalicca"
   },
   {
     "venue": "Hangar",
@@ -372,12 +324,6 @@
     "url": "https://epic-tv.com/events/event/tom-arbin-live-at-the-green-room"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Nr Ska",
-    "date": "2026-09-20",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Wheels in Motion Tour",
     "date": "2026-09-20",
@@ -388,6 +334,12 @@
     "event_name": "EROTIC SECRETS OF POMPEII + Peer pleasure + Arthouse Horror + no.",
     "date": "2026-09-20",
     "url": "https://www.deadwaxnorwich.pub/whats-on/erotic-secrets-of-pompeii-supports"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Nr Ska",
+    "date": "2026-09-20",
+    "url": "https://www.norfolkgigguide.com/band-details/NR+SKA"
   },
   {
     "venue": "Last Pub",
@@ -450,12 +402,6 @@
     "url": "https://epic-tv.com/events/event/robert-macfarlane-jackie-morris-the-book-of-birds"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Open Mic with Peter T",
-    "date": "2026-09-24",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Murmurations",
     "date": "2026-09-24",
@@ -472,6 +418,12 @@
     "event_name": "Bone Machine (dj Set)",
     "date": "2026-09-24",
     "url": "https://www.deadwaxnorwich.pub/whats-on/bone-machine-dj-set"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Open  mic  night with Peter Turrell",
+    "date": "2026-09-24",
+    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell"
   },
   {
     "venue": "Last Pub",
@@ -582,18 +534,6 @@
     "url": "https://epic-tv.com/events/event/an-evening-with-chicane"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "One Drop Vinyl Selectors – Ska And Reggie Garden Party",
-    "date": "2026-09-26",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Dead Horse",
-    "date": "2026-09-26",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Maddermarket",
     "event_name": "Chemistry - a tribute to Rush",
     "date": "2026-09-26",
@@ -631,9 +571,21 @@
   },
   {
     "venue": "Brickmakers",
+    "event_name": "One drop vinyl selectors",
+    "date": "2026-09-26",
+    "url": "https://www.norfolkgigguide.com/band-details/One+drop+vinyl+selectors"
+  },
+  {
+    "venue": "Brickmakers",
     "event_name": "Apriori - Crowley - Bright Black",
     "date": "2026-09-26",
     "url": "https://www.norfolkgigguide.com/band-details/APRIORI+-+CROWLEY+-+BRIGHT+BLACK"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Dead Horse",
+    "date": "2026-09-26",
+    "url": "https://www.norfolkgigguide.com/band-details/Dead+Horse"
   },
   {
     "venue": "The Halls",
@@ -726,12 +678,6 @@
     "url": "https://epic-tv.com/events/event/round-midnight-presents-mammal-hands"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Norfolk Blues Society",
-    "date": "2026-09-30",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
     "date": "2026-09-30",
@@ -744,16 +690,16 @@
     "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Norfolk Blues Society at the Brickmakers",
+    "date": "2026-09-30",
+    "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers"
+  },
+  {
     "venue": "Epic",
     "event_name": "Creedence Clearwater Review - Cosmo's Factory Tour",
     "date": "2026-10-01",
     "url": "https://epic-tv.com/events/event/creedence-clearwater-review-cosmos-factory-tour"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Live “N” Unsigned W/ Peter Turrel",
-    "date": "2026-10-01",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Maddermarket",
@@ -780,6 +726,12 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/gaza-gig-vii/"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Live n Unsigned",
+    "date": "2026-10-01",
+    "url": "https://www.norfolkgigguide.com/band-details/Live+n+Unsigned"
+  },
+  {
     "venue": "Reindeer",
     "event_name": "Folk Night",
     "date": "2026-10-01",
@@ -796,12 +748,6 @@
     "event_name": "Socks On Records presents: The Yee-Haws + Das Kapitans + Rudimentary Paste",
     "date": "2026-10-02",
     "url": "https://thehollowaynorwich.com/events"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "After Thought",
-    "date": "2026-10-02",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Maddermarket",
@@ -834,6 +780,12 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-gaffa-tape-sandy-really-big-really-clever-rats-as-big-as-dogs/"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "After Thought Band",
+    "date": "2026-10-02",
+    "url": "https://www.norfolkgigguide.com/band-details/After+Thought+Band"
+  },
+  {
     "venue": "Reindeer",
     "event_name": "Southbound",
     "date": "2026-10-02",
@@ -844,12 +796,6 @@
     "event_name": "Elliot Schooling & Liam Palmer (Appetite)",
     "date": "2026-10-03",
     "url": "https://www.fatsoma.com/e/wc49cas6/elliot-schooling-liam-palmer-appetite"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "SLAYDAY – ShredFest",
-    "date": "2026-10-03",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Waterfront",
@@ -888,6 +834,12 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-tubs/"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Slayday Shredfest",
+    "date": "2026-10-03",
+    "url": "https://www.norfolkgigguide.com/band-details/Slayday+Shredfest"
+  },
+  {
     "venue": "The Reindeer",
     "event_name": "Devil's Cadillac",
     "date": "2026-10-03",
@@ -904,12 +856,6 @@
     "event_name": "Magnum",
     "date": "2026-10-04",
     "url": "https://epic-tv.com/events/event/magnum"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Those Deadbeat Cats",
-    "date": "2026-10-04",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Waterfront",
@@ -948,12 +894,6 @@
     "url": "https://thehollowaynorwich.com/events"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Psychedelic Circus",
-    "date": "2026-10-07",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "The Reverend Peyton’s Big Damn Band",
     "date": "2026-10-07",
@@ -972,6 +912,12 @@
     "url": "https://www.ueaticketbookings.co.uk/event/the-dunwells/"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "The Psychedelic Circus",
+    "date": "2026-10-07",
+    "url": "https://www.norfolkgigguide.com/band-details/The+Psychedelic+Circus"
+  },
+  {
     "venue": "Holloway",
     "event_name": "The Yummy Fur + Pete Fij (Ex Adorable)",
     "date": "2026-10-08",
@@ -982,12 +928,6 @@
     "event_name": "Wishbone Ash",
     "date": "2026-10-08",
     "url": "https://epic-tv.com/events/event/wishbone-ash"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Open Mic with Peter T",
-    "date": "2026-10-08",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Waterfront",
@@ -1008,6 +948,12 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/blood-wizard/"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Open  mic  night with Peter Turrell",
+    "date": "2026-10-08",
+    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell"
+  },
+  {
     "venue": "Gonzos",
     "event_name": "T>I The Residency w Kasra + Waeys + SMG",
     "date": "2026-10-09",
@@ -1026,12 +972,6 @@
     "url": "https://epic-tv.com/events/event/swiftogeddon-20-years-of-taylor-special"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Jade",
-    "date": "2026-10-09",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "The Black Charade + Fell Out Boy",
     "date": "2026-10-09",
@@ -1042,6 +982,12 @@
     "event_name": "Corncutter Promotions Present: Dan Walsh",
     "date": "2026-10-09",
     "url": "https://www.deadwaxnorwich.pub/whats-on/corncutter-promotions-present-dan-walsh"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Jade uk",
+    "date": "2026-10-09",
+    "url": "https://www.norfolkgigguide.com/band-details/Jade+uk"
   },
   {
     "venue": "The Reindeer",
@@ -1066,12 +1012,6 @@
     "event_name": "The Asteroid No.4 (USA PSYCH) + Velveteen",
     "date": "2026-10-10",
     "url": "https://thehollowaynorwich.com/events"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "The Stereotypes",
-    "date": "2026-10-10",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Arts Centre",
@@ -1110,6 +1050,12 @@
     "url": "https://www.norfolkgigguide.com/band-details/AETHORIA+%F0%9F%96%A4%2C+BITTER+KISSES+%E2%9D%A4%EF%B8%8F%2C+WREX+%F0%9F%92%9C"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "The Stereotypes",
+    "date": "2026-10-10",
+    "url": "https://www.norfolkgigguide.com/band-details/The+Stereotypes"
+  },
+  {
     "venue": "Reindeer",
     "event_name": "Rusty Metal",
     "date": "2026-10-10",
@@ -1126,12 +1072,6 @@
     "event_name": "Scott Bennett - Blood Sugar baby",
     "date": "2026-10-11",
     "url": "https://epic-tv.com/events/event/scott-bennett-blood-sugar-baby"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "The Black Dog Youth Music Project",
-    "date": "2026-10-11",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Arts Centre",
@@ -1156,6 +1096,12 @@
     "event_name": "Girl Group",
     "date": "2026-10-11",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/girl-group/"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Black Dog  Music",
+    "date": "2026-10-11",
+    "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music"
   },
   {
     "venue": "Reindeer",
@@ -1189,15 +1135,9 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "Theatre",
+    "event_name": "Theatre + SELL EVERYTHING",
     "date": "2026-10-13",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/theatre/"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "The Black Dog Music Project",
-    "date": "2026-10-14",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Maddermarket",
@@ -1222,6 +1162,12 @@
     "event_name": "Li Jin Hao: Falling from a Moon",
     "date": "2026-10-14",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/li-jin-hao-falling-from-a-moon/"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Black Dog  Music",
+    "date": "2026-10-14",
+    "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music"
   },
   {
     "venue": "Holloway",
@@ -1272,12 +1218,6 @@
     "url": "https://epic-tv.com/events/event/the-anglia-comedy-allstars-oct-26"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Infernal Racket",
-    "date": "2026-10-16",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Timba Británica",
     "date": "2026-10-16",
@@ -1314,6 +1254,12 @@
     "url": "https://www.norfolkgigguide.com/band-details/Lazy+Apollo+in+B2"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Infernal Racket",
+    "date": "2026-10-16",
+    "url": "https://www.norfolkgigguide.com/band-details/Infernal+Racket"
+  },
+  {
     "venue": "Reindeer",
     "event_name": "Jade",
     "date": "2026-10-16",
@@ -1342,12 +1288,6 @@
     "event_name": "R&B Lovers",
     "date": "2026-10-17",
     "url": "https://epic-tv.com/events/event/rb-lovers"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Mission Remission Present – STARS IN THERE EYES",
-    "date": "2026-10-17",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Waterfront",
@@ -1386,12 +1326,6 @@
     "url": "https://thehollowaynorwich.com/events"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Rusty Metal",
-    "date": "2026-10-18",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Maddermarket",
     "event_name": "Baga Chipz: Bagz to Riches",
     "date": "2026-10-18",
@@ -1408,6 +1342,12 @@
     "event_name": "Skating Polly",
     "date": "2026-10-18",
     "url": "https://www.ueaticketbookings.co.uk/event/skating-polly/"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Rusty Metal",
+    "date": "2026-10-18",
+    "url": "https://www.norfolkgigguide.com/band-details/Rusty+Metal"
   },
   {
     "venue": "Brickmakers",
@@ -1494,12 +1434,6 @@
     "url": "https://thehollowaynorwich.com/events"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Perrl Presents –",
-    "date": "2026-10-22",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Ezra Furman @ The Halls",
     "date": "2026-10-22",
@@ -1530,12 +1464,6 @@
     "url": "https://epic-tv.com/events/event/uk-foo-fighters"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Wiggy Stardust and the Ciders From Jars",
-    "date": "2026-10-23",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Maddermarket",
     "event_name": "The Fleetwood Mac Songbook",
     "date": "2026-10-23",
@@ -1552,6 +1480,12 @@
     "event_name": "Duke Special",
     "date": "2026-10-23",
     "url": "https://www.ueaticketbookings.co.uk/event/duke-special/"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Wiggy Stardust and the Ciders from Jars",
+    "date": "2026-10-23",
+    "url": "https://www.norfolkgigguide.com/band-details/Wiggy+Stardust+and+the+Ciders+from+Jars"
   },
   {
     "venue": "Reindeer",
@@ -1578,12 +1512,6 @@
     "url": "https://epic-tv.com/events/event/transvision-vamp"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Cydonia Knights – Muse Tribute",
-    "date": "2026-10-24",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "The 50th Anniversary Of Punk In The East",
     "date": "2026-10-24",
@@ -1608,6 +1536,12 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/flint-moore/"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Cydonia Knights - Muse Tribute",
+    "date": "2026-10-24",
+    "url": "https://www.norfolkgigguide.com/band-details/Cydonia+Knights+-+Muse+Tribute"
+  },
+  {
     "venue": "Reindeer",
     "event_name": "The Funky Stuff",
     "date": "2026-10-24",
@@ -1620,22 +1554,16 @@
     "url": "https://epic-tv.com/events/event/two-mr-ps-in-a-podcast-live-let-that-be-a-lesson"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Ska Face",
-    "date": "2026-10-25",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Brickies Karaoke",
-    "date": "2026-10-25",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Maddermarket",
     "event_name": "Je Suis Swing!",
     "date": "2026-10-25",
     "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=121001"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Skaface UK",
+    "date": "2026-10-25",
+    "url": "https://www.norfolkgigguide.com/band-details/Skaface+UK"
   },
   {
     "venue": "Brickmakers",
@@ -1680,12 +1608,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/stormo-believe-in-nothing-pig-vermin"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "An Evening With King – PAUL QUINN",
-    "date": "2026-10-28",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Dallahan",
     "date": "2026-10-28",
@@ -1728,12 +1650,6 @@
     "url": "https://epic-tv.com/events/event/this-flight-tonight-the-songs-of-joni-mitchell"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Open Mic with Peter T",
-    "date": "2026-10-29",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Lol Tolhurst",
     "date": "2026-10-29",
@@ -1756,6 +1672,12 @@
     "event_name": "Lust for Life Productions: San Vito Ryder + Fabergé Falls + Toast",
     "date": "2026-10-29",
     "url": "https://www.deadwaxnorwich.pub/whats-on/dz968yppp4baifx5vzhu0ox775cqo8"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Open  mic  night with Peter Turrell",
+    "date": "2026-10-29",
+    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell"
   },
   {
     "venue": "Reindeer",
@@ -1782,12 +1704,6 @@
     "url": "https://epic-tv.com/events/event/gentlemans-dub-club-20th-anniversary-tour"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Beautiful Dangerous",
-    "date": "2026-10-30",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Forever Nu!",
     "date": "2026-10-30",
@@ -1798,6 +1714,12 @@
     "event_name": "Pet Needs + Keep Flying & So Good",
     "date": "2026-10-30",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/pet-needs/"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Beautiful Dangerous",
+    "date": "2026-10-30",
+    "url": "https://www.norfolkgigguide.com/band-details/Beautiful+Dangerous"
   },
   {
     "venue": "Hangar",
@@ -1816,12 +1738,6 @@
     "event_name": "Mister Pink",
     "date": "2026-10-30",
     "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Popestars – Ghost Tribute",
-    "date": "2026-10-31",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Arts Centre",
@@ -1860,16 +1776,16 @@
     "url": "https://epic-tv.com/events/event/the-jury-experience-death-of-port-side"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "After Thought Band",
-    "date": "2026-11-01",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Will Wilde",
     "date": "2026-11-01",
     "url": "https://www.ueaticketbookings.co.uk/event/will-wilde/"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "After Thought Band",
+    "date": "2026-11-01",
+    "url": "https://www.norfolkgigguide.com/band-details/After+Thought+Band"
   },
   {
     "venue": "Arts Centre",
@@ -1884,12 +1800,6 @@
     "url": "https://thehollowaynorwich.com/events"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Live “N” Unsigned W/ Peter Turrel",
-    "date": "2026-11-04",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Breed 77",
     "date": "2026-11-04",
@@ -1900,6 +1810,12 @@
     "event_name": "Deaf Havana",
     "date": "2026-11-04",
     "url": "https://www.ueaticketbookings.co.uk/event/deaf-havana/"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Live n Unsigned",
+    "date": "2026-11-04",
+    "url": "https://www.norfolkgigguide.com/band-details/Live+n+Unsigned"
   },
   {
     "venue": "Holloway",
@@ -1938,12 +1854,6 @@
     "url": "https://thehollowaynorwich.com/events"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Generation 29",
-    "date": "2026-11-06",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Mad Dog Mcrea",
     "date": "2026-11-06",
@@ -1956,6 +1866,12 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/sego/"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Generation 29",
+    "date": "2026-11-06",
+    "url": "https://www.norfolkgigguide.com/band-details/Generation+29"
+  },
+  {
     "venue": "Gonzos",
     "event_name": "La La",
     "date": "2026-11-07",
@@ -1966,12 +1882,6 @@
     "event_name": "O My Stars presents Colin Miller (USA)",
     "date": "2026-11-07",
     "url": "https://thehollowaynorwich.com/events"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Nr Ska",
-    "date": "2026-11-07",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Arts Centre",
@@ -2004,6 +1914,12 @@
     "url": "https://www.norfolkgigguide.com/band-details/Alien+Nation+presents..+in+B2+%40The+Brickmakers"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Nr Ska",
+    "date": "2026-11-07",
+    "url": "https://www.norfolkgigguide.com/band-details/NR+SKA"
+  },
+  {
     "venue": "The Reindeer",
     "event_name": "Fictus",
     "date": "2026-11-07",
@@ -2016,12 +1932,6 @@
     "url": "https://epic-tv.com/events/event/maisie-adam-whatsherface-sold-out"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Addictive Mix",
-    "date": "2026-11-08",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Joshua Idehen",
     "date": "2026-11-08",
@@ -2032,6 +1942,12 @@
     "event_name": "Rosalie Cunningham",
     "date": "2026-11-08",
     "url": "https://www.ueaticketbookings.co.uk/event/rosalie-cunningham/"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Addictive Mix",
+    "date": "2026-11-08",
+    "url": "https://www.norfolkgigguide.com/band-details/Addictive+Mix"
   },
   {
     "venue": "Brickmakers",
@@ -2088,12 +2004,6 @@
     "url": "https://epic-tv.com/events/event/round-midnight-shabaka-plus-support"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "The Black Dog Music Project",
-    "date": "2026-11-11",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Round Midnight presents Shabaka @ EPIC Studios",
     "date": "2026-11-11",
@@ -2106,6 +2016,12 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/machukha-with-healing-wound-acceptance/"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Black Dog  Music",
+    "date": "2026-11-11",
+    "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music"
+  },
+  {
     "venue": "Holloway",
     "event_name": "J. Zunz (Lorelle Meets The Obsolete) + Domenica Diavoleria + danmo",
     "date": "2026-11-12",
@@ -2116,12 +2032,6 @@
     "event_name": "Epic Darts 2026 - November 12th - CANCELLED",
     "date": "2026-11-12",
     "url": "https://epic-tv.com/events/event/epic-darts-2026-november-12th-cancelled"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Open Mic with Peter T",
-    "date": "2026-11-12",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Arts Centre",
@@ -2148,16 +2058,16 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/girls-gays-theys-ft-glitter-gloom-djs"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Open  mic  night with Peter Turrell",
+    "date": "2026-11-12",
+    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell"
+  },
+  {
     "venue": "Epic",
     "event_name": "Dutty Moonshine Big Band's Second Distillation UK Tour",
     "date": "2026-11-13",
     "url": "https://epic-tv.com/events/event/dutty-moonshine-big-bands-second-distillation-uk-tour"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Rattus Inheritus at The Brickmakers",
-    "date": "2026-11-13",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Arts Centre",
@@ -2196,6 +2106,12 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/the-cain-pit-w-east-town-pirates"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Rattus Inheritus",
+    "date": "2026-11-13",
+    "url": "https://www.norfolkgigguide.com/band-details/Rattus+Inheritus"
+  },
+  {
     "venue": "The Reindeer",
     "event_name": "Lithium",
     "date": "2026-11-13",
@@ -2206,12 +2122,6 @@
     "event_name": "Sonic Cathedral presents The Early Years + Sennen + Allies of Ferns",
     "date": "2026-11-14",
     "url": "https://thehollowaynorwich.com/events"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Not The Story (Morning Glory?)",
-    "date": "2026-11-14",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
   },
   {
     "venue": "Arts Centre",
@@ -2244,6 +2154,12 @@
     "url": "https://www.norfolkgigguide.com/band-details/STAHLSARG+at+the+B2%2C"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "(Not The Story) ...Morning Glory?",
+    "date": "2026-11-14",
+    "url": "https://www.norfolkgigguide.com/tribute-band-details/%28Not+The+Story%29+...Morning+Glory%3F"
+  },
+  {
     "venue": "Hangar",
     "event_name": "Indoors & Heated: Fish56octagon - Norwich - Day Party -",
     "date": "2026-11-14",
@@ -2262,12 +2178,6 @@
     "url": "https://epic-tv.com/events/event/martin-mcaloon-of-prefab-sprout"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Soul Bags",
-    "date": "2026-11-15",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Kid Kapichi",
     "date": "2026-11-15",
@@ -2284,6 +2194,12 @@
     "event_name": "The North",
     "date": "2026-11-15",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-north/"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Soul Bags",
+    "date": "2026-11-15",
+    "url": "https://www.norfolkgigguide.com/band-details/Soul+Bags"
   },
   {
     "venue": "LCR",
@@ -2832,12 +2748,6 @@
     "url": "https://www.fatsoma.com/e/bfbqe1v4/a-m-c-grassroots-energy-norwich"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "The Pogue Traders",
-    "date": "2026-12-11",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Wednesday 13 + The Birthday Massacre",
     "date": "2026-12-11",
@@ -2854,6 +2764,12 @@
     "event_name": "BLAND - Bizarro’ Variety Presents: Bradley Taylor, Maxine Meixner, Abbie Neale, & Squat Lobster",
     "date": "2026-12-11",
     "url": "https://www.deadwaxnorwich.pub/whats-on/bland-bizarro-variety-presents-bradley-taylor-maxine-meixner-abbie-neale-squat-lobster"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "The Pogue Traders",
+    "date": "2026-12-11",
+    "url": "https://www.norfolkgigguide.com/band-details/The+Pogue+Traders"
   },
   {
     "venue": "Revolucion de Cuba",
@@ -3025,12 +2941,6 @@
   },
   {
     "venue": "Brickmakers",
-    "event_name": "BEAUTIFUL DANGEROUS – Christmas Eve @ The Brickmakers",
-    "date": "2026-12-24",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
-    "venue": "Brickmakers",
     "event_name": "Beautiful Dangerous",
     "date": "2026-12-24",
     "url": "https://www.norfolkgigguide.com/band-details/Beautiful+Dangerous"
@@ -3048,16 +2958,16 @@
     "url": "https://www.norfolkgigguide.com/band-details/Ska+Souls"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "New Years Eve W/ Wiggy Stardust and the Ciders From Jars",
-    "date": "2026-12-31",
-    "url": "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Channel One Sound System",
     "date": "2026-12-31",
     "url": "https://norwichartscentre.co.uk/event/channel-one-sound-system/"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Wiggy Stardust and the Ciders from Jars",
+    "date": "2026-12-31",
+    "url": "https://www.norfolkgigguide.com/band-details/Wiggy+Stardust+and+the+Ciders+from+Jars"
   },
   {
     "venue": "LCR",
@@ -3115,7 +3025,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "(IVW) An Evening with Seamus Fogarty",
+    "event_name": "(IVW) Seamus Fogarty + Support",
     "date": "2027-01-25",
     "url": "https://thehollowaynorwich.com/events"
   },
@@ -3214,6 +3124,12 @@
     "event_name": "Esprit D’Air",
     "date": "2027-02-08",
     "url": "https://www.ueaticketbookings.co.uk/event/esprit-dair/"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Eliza Carthy & The Restitution",
+    "date": "2027-02-09",
+    "url": "https://norwichartscentre.co.uk/event/eliza-carthy-the-restitution/"
   },
   {
     "venue": "Brickmakers",
@@ -3352,6 +3268,12 @@
     "event_name": "Norfolk Blues Society at the Brickmakers",
     "date": "2027-02-24",
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Dog Unit",
+    "date": "2027-02-25",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/dog-unit/"
   },
   {
     "venue": "Brickmakers",
@@ -3588,6 +3510,18 @@
     "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=120401"
   },
   {
+    "venue": "Epic",
+    "event_name": "Scott Bennett - Stuff",
+    "date": "2027-04-21",
+    "url": "https://epic-tv.com/events/event/scott-bennett-stuff"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "First Time Flyers",
+    "date": "2027-04-23",
+    "url": "https://norwichartscentre.co.uk/event/first-time-flyers/"
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Ibibio Sound Machine",
     "date": "2027-04-24",
@@ -3604,6 +3538,12 @@
     "event_name": "Extc",
     "date": "2027-04-30",
     "url": "https://www.ueaticketbookings.co.uk/event/extc/"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "The Makings of a Murderer - Fatal Mistake",
+    "date": "2027-05-01",
+    "url": "https://epic-tv.com/events/event/the-makings-of-a-murderer-fatal-mistake"
   },
   {
     "venue": "Epic",
@@ -3655,6 +3595,12 @@
   },
   {
     "venue": "Epic",
+    "event_name": "Deirdre O'Kane: All The Rage",
+    "date": "2027-05-22",
+    "url": "https://epic-tv.com/events/event/deirdre-okane-all-the-rage"
+  },
+  {
+    "venue": "Epic",
     "event_name": "Ed Byrne: No Dramas",
     "date": "2027-05-27",
     "url": "https://epic-tv.com/events/event/ed-byrne-no-dramas"
@@ -3688,6 +3634,12 @@
     "event_name": "John Lydon - I Could Be Wrong, I Could Be Right",
     "date": "2027-06-25",
     "url": "https://epic-tv.com/events/event/john-lydon-i-could-be-wrong-i-could-be-right"
+  },
+  {
+    "venue": "Maddermarket",
+    "event_name": "Tom Glover - Did you watch that reel I sent you?",
+    "date": "2027-06-27",
+    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=124201"
   },
   {
     "venue": "Maddermarket",
