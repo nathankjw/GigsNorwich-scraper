@@ -53,8 +53,8 @@ except ImportError:
 # VERSION
 # ═══════════════════════════════════════════════════════════════════════════════
 
-APP_VERSION      = "1.2"
-APP_VERSION_DATE = "2026-08-24"  # date this scraper build was last updated
+APP_VERSION      = "1.3"
+APP_VERSION_DATE = "2026-09-19"  # date this scraper build was last updated
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # SHARED HELPERS
@@ -129,6 +129,39 @@ def shorten_venue(venue: str, aliases: dict) -> str:
     return aliases.get(venue.strip(), venue.strip())
 
 
+def _best_image_src(img_tag) -> str | None:
+    """
+    Pull the most useful image URL off an <img> tag, in priority order.
+
+    Lots of the sites this scraper hits lazy-load images (the real URL
+    sits in data-src/data-lazy-src/srcset while `src` holds a placeholder
+    pixel or is missing entirely), so checking `src` alone silently misses
+    most posters on those sites. This just tries the common lazy-load
+    attributes first, then falls back to `src`, then the first URL out of
+    `srcset` (srcset is "url1 1x, url2 2x" or "url1 100w, url2 300w" —
+    we just want the first URL before any descriptor).
+    """
+    if img_tag is None:
+        return None
+    for attr in ("data-src", "data-lazy-src", "data-original", "src"):
+        val = img_tag.get(attr)
+        if val and not val.startswith("data:"):
+            return val
+    srcset = img_tag.get("srcset") or img_tag.get("data-srcset")
+    if srcset:
+        first = srcset.split(",")[0].strip().split(" ")[0].strip()
+        if first and not first.startswith("data:"):
+            return first
+    return None
+
+
+def _resolve_image_url(image_url: str | None, base_url: str) -> str | None:
+    """Turn a possibly-relative image URL into an absolute one."""
+    if not image_url:
+        return None
+    return urljoin(base_url, image_url)
+
+
 # Phrases (case-insensitive) that flag an event for removal.
 _FILTER_PHRASES = re.compile(
     r"\b(film\s+screening|screening|bingo|quiz|cribbage|private\s+event)\b",
@@ -151,7 +184,11 @@ def dedupe_events(events: list[dict], threshold: float = 0.6) -> list[dict]:
     through twice with slightly different title formatting (e.g.
     "Battle Of The Bands" vs "Brickmakers Battle Of The Bands").
 
-    Keeps the first occurrence of each duplicate group.
+    Keeps the first occurrence of each duplicate group. If the kept event
+    has no image but a later duplicate does, the image is borrowed across
+    before the duplicate is dropped — so a gig scraped first from a
+    source with no posters (e.g. the Norfolk Gig Guide) doesn't lose out
+    on a poster that a second source (e.g. the venue's own site) had.
     """
     kept: list[dict] = []
     seen: list[tuple[str, str, str]] = []  # (venue, date, normalised title)
@@ -162,11 +199,13 @@ def dedupe_events(events: list[dict], threshold: float = 0.6) -> list[dict]:
         title = _normalise_for_match(e.get("event_name", ""))
 
         is_dup = False
-        for s_venue, s_date, s_title in seen:
+        for idx, (s_venue, s_date, s_title) in enumerate(seen):
             if s_venue != venue or s_date != date:
                 continue
             if s_title == title or SequenceMatcher(None, s_title, title).ratio() >= threshold:
                 is_dup = True
+                if not kept[idx].get("image") and e.get("image"):
+                    kept[idx]["image"] = e["image"]
                 break
 
         if is_dup:
@@ -222,7 +261,7 @@ def normalise_title(name: str) -> str:
 
 OUTPUT_DIR     = Path.home() / "norwich-scraper" / "scraped_data"
 CSV_FILE       = OUTPUT_DIR / "norwich_gigs.csv"
-CSV_FIELDS     = ["venue", "event_name", "date", "url"]
+CSV_FIELDS     = ["venue", "event_name", "date", "url", "image"]
 CSV_FLAT_FILE  = OUTPUT_DIR / "norwich_gigs_flat.csv"
 
 # Repo-relative path to the CSV already committed from a previous run. This
@@ -292,6 +331,8 @@ def scrape_space_studios(driver, log) -> list[dict]:
     Typical card structure inside div/li[role="listitem"]:
         h2/h3       → event title
         h4 / p      → room, date, ticket label, genre (order can vary after Wix updates)
+        img         → Wix always renders a poster image somewhere in the card,
+                       though it's frequently lazy-loaded (see _best_image_src)
 
     Date is found positionally-independent: whichever heading/paragraph
     contains an ordinal day number (1st, 2nd … 31st) is treated as the date.
@@ -383,11 +424,16 @@ def scrape_space_studios(driver, log) -> list[dict]:
                         break
                     event_url = href  # take the last-resort first href
 
+                # Poster image — Wix cards always render one, but it's
+                # commonly lazy-loaded (real URL in a data-* attribute).
+                image_url = _resolve_image_url(_best_image_src(card.find("img")), page_url)
+
                 page_events.append({
                     "venue":      VENUE,
                     "event_name": title,
                     "date":       date_str,
                     "url":        event_url,
+                    "image":      image_url,
                 })
 
             except Exception as e:
@@ -482,7 +528,10 @@ def scrape_norwich_arts_centre(session, log) -> list[dict]:
     heading (or the anchor text if none), and regex-search the container's
     text for a date line. This keys off URL shape + plain text rather than
     CSS classes, so it should be more resilient to future markup/styling
-    changes than matching specific classes.
+    changes than matching specific classes. The poster image is the same
+    thumbnail that wraps the /event/ link — pulled from whichever anchor's
+    <img> is found first, since one of the two duplicate anchors per card
+    is always the image link.
     """
     BASE  = "https://norwichartscentre.co.uk/event/category/music/"
     VENUE = "Norwich Arts Centre"
@@ -527,11 +576,12 @@ def scrape_norwich_arts_centre(session, log) -> list[dict]:
         links = soup.find_all("a", href=_EVENT_HREF)
 
         # Dedupe by resolved URL — thumbnail + title anchors point at the
-        # same event.
-        by_url: dict[str, "BeautifulSoup"] = {}
+        # same event. Keep every anchor per URL (not just the first) since
+        # we need to check both for an <img> when hunting for the poster.
+        by_url: dict[str, list] = {}
         for a in links:
             full_url = urljoin(url, a["href"])
-            by_url.setdefault(full_url, a)
+            by_url.setdefault(full_url, []).append(a)
 
         if not by_url:
             log(f"  No event links on page {page} — done", "dim")
@@ -544,10 +594,11 @@ def scrape_norwich_arts_centre(session, log) -> list[dict]:
 
         log(f"  Found {len(by_url)} event link(s) ({len(new_this_page)} new)", "dim")
 
-        for event_url, a_tag in by_url.items():
+        for event_url, a_tags in by_url.items():
             if event_url in seen_urls:
                 continue
             seen_urls.add(event_url)
+            a_tag = a_tags[0]
             try:
                 # Walk up to find a card-ish container that holds both the
                 # title and the date text.
@@ -589,8 +640,20 @@ def scrape_norwich_arts_centre(session, log) -> list[dict]:
                     log(f"  ⚠  Could not parse date '{raw_date}' for: {title}", "warn")
                     continue
 
+                # Poster — check both duplicate anchors for the thumbnail
+                # <img> before falling back to any <img> in the card.
+                img_tag = None
+                for a in a_tags:
+                    img_tag = a.find("img")
+                    if img_tag:
+                        break
+                if img_tag is None:
+                    img_tag = card.find("img")
+                image_url = _resolve_image_url(_best_image_src(img_tag), event_url)
+
                 events.append({"venue": VENUE, "event_name": title,
-                               "date": date_str, "url": event_url})
+                               "date": date_str, "url": event_url,
+                               "image": image_url})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception as e:
                 log(f"  ⚠  Card error ({event_url}): {e}", "warn")
@@ -657,15 +720,15 @@ def _scrape_uea_whats_on(session, log,
     then just filter this combined list down to the venue(s) they want.
     Each event card is, in order:
 
-        <a href=".../event/<slug>/">          thumbnail image link
+        <a href=".../event/<slug>/">          thumbnail image link (contains the poster <img>)
         "<Weekday> <day> <Month> <year>"       date line, e.g. "Sat 29 August 2026"
         "<venue name>"                         one of _UEA_VENUE_NAMES
         #### <title>                           event title (h4)
         ###### <subtitle>                      optional subtitle (h6)
         <a href="...same event url...">CTA</a> "Book tickets" / "Selling fast" / etc.
 
-    Returns {"venue", "event_name", "date", "url"} dicts, where "venue" is
-    the full name as printed on the card (not yet run through
+    Returns {"venue", "event_name", "date", "url", "image"} dicts, where
+    "venue" is the full name as printed on the card (not yet run through
     DEFAULT_ALIASES).
     """
     events = []
@@ -686,10 +749,10 @@ def _scrape_uea_whats_on(session, log,
             break
 
         links = soup.find_all("a", href=_UEA_EVENT_HREF)
-        by_url: dict[str, "BeautifulSoup"] = {}
+        by_url: dict[str, list] = {}
         for a in links:
             full_url = urljoin(url, a["href"])
-            by_url.setdefault(full_url, a)
+            by_url.setdefault(full_url, []).append(a)
 
         if not by_url:
             log(f"  No event links on page {page} — done", "dim")
@@ -702,10 +765,11 @@ def _scrape_uea_whats_on(session, log,
 
         log(f"  Found {len(by_url)} event link(s) ({len(new_this_page)} new)", "dim")
 
-        for event_url, a_tag in by_url.items():
+        for event_url, a_tags in by_url.items():
             if event_url in seen_urls:
                 continue
             seen_urls.add(event_url)
+            a_tag = a_tags[0]
             try:
                 # Walk up to find a card-ish container with a heading, a
                 # date, and a known venue name all present together.
@@ -749,8 +813,20 @@ def _scrape_uea_whats_on(session, log,
                     continue
                 venue_name = venue_m.group(0)
 
+                # Poster — the thumbnail-wrapping anchor is one of the
+                # (usually two) anchors pointing at this event URL.
+                img_tag = None
+                for a in a_tags:
+                    img_tag = a.find("img")
+                    if img_tag:
+                        break
+                if img_tag is None:
+                    img_tag = card.find("img")
+                image_url = _resolve_image_url(_best_image_src(img_tag), event_url)
+
                 events.append({"venue": venue_name, "event_name": title,
-                               "date": date_str, "url": event_url})
+                               "date": date_str, "url": event_url,
+                               "image": image_url})
                 log(f"  ✓  {date_str}  [{venue_name}]  {title}", "ok")
             except Exception as e:
                 log(f"  ⚠  Card error ({event_url}): {e}", "warn")
@@ -833,6 +909,10 @@ def scrape_gonzos(driver, log) -> list[dict]:
        not lost.
 
     Paginates via ?page=N until a page yields zero new events.
+
+    Poster images come for free here: JSON-LD Event objects almost always
+    carry an "image" field (a string, or occasionally a list of strings —
+    handled below by just taking the first entry in that case).
     """
     import json as _json
 
@@ -863,11 +943,22 @@ def scrape_gonzos(driver, log) -> list[dict]:
             if event_url in seen:
                 continue
             date_str = start_iso[:10]          # "2026-05-22T22:…" → "2026-05-22"
+
+            raw_image = data.get("image")
+            if isinstance(raw_image, list):
+                image_url = raw_image[0] if raw_image else None
+            elif isinstance(raw_image, dict):
+                # Occasionally an ImageObject {"@type": "ImageObject", "url": "..."}
+                image_url = raw_image.get("url")
+            else:
+                image_url = raw_image or None
+
             seen[event_url] = {
                 "venue":      VENUE,
                 "event_name": name,
                 "date":       date_str,
                 "url":        event_url,
+                "image":      image_url,
             }
             added += 1
         return added
@@ -963,8 +1054,10 @@ def scrape_voodoos(session, log) -> list[dict]:
                 if not date_str:
                     log(f"  ⚠  No date for: {title}", "warn")
                     continue
+                image_url = _resolve_image_url(_best_image_src(card.find("img")), URL)
                 events.append({"venue": VENUE, "event_name": title,
-                               "date": date_str, "url": link})
+                               "date": date_str, "url": link,
+                               "image": image_url})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception:
                 continue
@@ -1005,8 +1098,10 @@ def scrape_holloway(driver, log) -> list[dict]:
                 if not date_str:
                     log(f"  ⚠  No date for: {title}", "warn")
                     continue
+                image_url = _resolve_image_url(_best_image_src(card.find("img")), URL)
                 events.append({"venue": VENUE, "event_name": title,
-                               "date": date_str, "url": URL})
+                               "date": date_str, "url": URL,
+                               "image": image_url})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception:
                 continue
@@ -1050,8 +1145,10 @@ def scrape_epic_studios(driver, log) -> list[dict]:
                 link = a.get("href", "")
                 if link and not link.startswith("http"):
                     link = "https://epic-tv.com" + link
+                image_url = _resolve_image_url(_best_image_src(a.find("img")), link)
                 events.append({"venue": VENUE, "event_name": title,
-                               "date": date_str, "url": link})
+                               "date": date_str, "url": link,
+                               "image": image_url})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception:
                 continue
@@ -1069,6 +1166,9 @@ def scrape_dead_wax(session, log) -> list[dict]:
     Each event is an <article class="eventlist-event"> with:
         h1.eventlist-title > a  → title + link
         time.event-date         → datetime attr (ISO) or text fallback
+        img (eventlist-column-thumbnail) → poster, usually Squarespace-CDN
+                                            and often lazy-loaded via
+                                            data-src (see _best_image_src)
     """
     VENUE = "Dead Wax"
     URL   = "https://www.deadwaxnorwich.pub/whats-on"
@@ -1106,8 +1206,11 @@ def scrape_dead_wax(session, log) -> list[dict]:
                     log(f"  ⚠  No date for: {title}", "warn")
                     continue
 
+                image_url = _resolve_image_url(_best_image_src(art.find("img")), link)
+
                 events.append({"venue": VENUE, "event_name": title,
-                               "date": date_str, "url": link})
+                               "date": date_str, "url": link,
+                               "image": image_url})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception as e:
                 log(f"  ⚠  Article error: {e}", "warn")
@@ -1128,6 +1231,11 @@ def scrape_brickmakers_gig_guide(session, log) -> list[dict]:
           div.large-4 col 0 → act name   (h3 > a)
           div.large-4 col 1 → date       (h3 text, e.g. "Wednesday 20 May 2026")
           div.large-4 col 2 → venue      (h3 > a)
+
+    This listing site is text-only — no per-gig artwork anywhere in
+    gig_bg — so "image" is always left as None here. dedupe_events() will
+    backfill it from scrape_brickmakers_website() if that source has a
+    poster for the same date/act.
 
     Stops paginating when a page returns no gig_bg divs.
     """
@@ -1195,6 +1303,7 @@ def scrape_brickmakers_gig_guide(session, log) -> list[dict]:
                 "event_name": act_name,
                 "date":       date_str,
                 "url":        event_url,
+                "image":      None,
             })
             log(f"  ✓  {date_str}  {act_name}", "ok")
             found_on_page += 1
@@ -1218,8 +1327,14 @@ def scrape_brickmakers_website(driver, log) -> list[dict]:
     The Brickmakers — direct scrape from their own website (Selenium).
     URL: https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/
 
-    Each gig lives in a div.wp-block-media-text__content block.
-    The first <p> inside each block holds the event info in <strong> tags:
+    Each gig lives in a div.wp-block-media-text__content block, which is
+    the *text* half of a WordPress "media + text" block — the image half
+    is a sibling div.wp-block-media-text__media containing the poster
+    <img>, not inside .content itself. So the poster is fetched from the
+    text block's parent (the outer wp-block-media-text wrapper), not from
+    inside content.
+
+    The first <p> inside .content holds the event info in <strong> tags:
 
         Variation A (separate strongs):
             <strong>Wed 3rd June:</strong>
@@ -1322,8 +1437,18 @@ def scrape_brickmakers_website(driver, log) -> list[dict]:
                         log(f"  ⚠  Could not parse block: {strongs[:3]}", "warn")
                     continue
 
+                # Poster — sibling .wp-block-media-text__media div, under
+                # the shared wp-block-media-text parent wrapper.
+                image_url = None
+                wrapper = block.find_parent(class_=re.compile(r"wp-block-media-text\b"))
+                if wrapper:
+                    media_div = wrapper.find(class_="wp-block-media-text__media")
+                    if media_div:
+                        image_url = _resolve_image_url(_best_image_src(media_div.find("img")), URL)
+
                 events.append({"venue": VENUE, "event_name": title,
-                               "date": date_str, "url": URL})
+                               "date": date_str, "url": URL,
+                               "image": image_url})
                 log(f"  ✓  {date_str}  {title}", "ok")
 
             except Exception as e:
@@ -1385,6 +1510,7 @@ def scrape_madder_market(driver, log) -> list[dict]:
         h2.MuiTypography-root  → event title
         p  (first date-like)   → date text (e.g. "Fri 05 June 2026")
         a[href*="EventId"]     → "More Info" link
+        img (MuiCardMedia-ish) → poster, usually a Spektrix-hosted asset
     """
     VENUE    = "Madder Market Theatre"
     BASE_URL = "https://booking.maddermarket.co.uk"
@@ -1463,8 +1589,11 @@ def scrape_madder_market(driver, log) -> list[dict]:
                     href = a_tag.get("href", "")
                     link = href if href.startswith("http") else BASE_URL + href
 
+                image_url = _resolve_image_url(_best_image_src(card.find("img")), link)
+
                 events.append({"venue": VENUE, "event_name": title,
-                               "date": date_str, "url": link})
+                               "date": date_str, "url": link,
+                               "image": image_url})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception as e:
                 log(f"  ⚠  Card error: {e}", "warn")
@@ -1484,6 +1613,8 @@ def scrape_the_halls(session, log) -> list[dict]:
     Each event is an <article class="box-link ..."> with:
         div.box-link__title > a  → event title + relative URL
         div.field (plain text)   → date text (e.g. "Thursday 6 August 2026")
+        img                      → thumbnail, usually elsewhere in the
+                                    article rather than inside the title div
 
     Only events with music-related keywords in the title are kept.
     """
@@ -1547,8 +1678,11 @@ def scrape_the_halls(session, log) -> list[dict]:
                     log(f"  ⚠  No date for: {title}", "warn")
                     continue
 
+                image_url = _resolve_image_url(_best_image_src(art.find("img")), link)
+
                 events.append({"venue": VENUE, "event_name": title,
-                               "date": date_str, "url": link})
+                               "date": date_str, "url": link,
+                               "image": image_url})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception as e:
                 log(f"  ⚠  Article error: {e}", "warn")
@@ -1573,7 +1707,8 @@ def scrape_hangar_fixr(session, log) -> list[dict]:
     an image alt attribute and once from a heading), then a
     "Weekday D Month" date, then "<Venue>, <Town>". So instead of relying
     on specific child tags, this pulls everything from the anchor's full
-    text via regex, which should survive minor markup changes.
+    text via regex, which should survive minor markup changes. The poster
+    is the anchor's own <img>, same one whose alt text duplicates the title.
     """
     VENUE = "The Hangar"
     URL   = "https://fixr.co/venue/the-hangar-norwich-26779"
@@ -1633,9 +1768,12 @@ def scrape_hangar_fixr(session, log) -> list[dict]:
                     log(f"  ⚠  Could not parse date '{raw_date}' for: {title}", "warn")
                     continue
 
+                image_url = _resolve_image_url(_best_image_src(a_tag.find("img")), link)
+
                 seen_urls.add(link)
                 events.append({"venue": VENUE, "event_name": title,
-                               "date": date_str, "url": link})
+                               "date": date_str, "url": link,
+                               "image": image_url})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception as e:
                 log(f"  ⚠  Card error: {e}", "warn")
@@ -1672,7 +1810,9 @@ def scrape_revolucion_de_cuba(session, log) -> list[dict]:
        first date in that range and doesn't need to parse the recurring
        schedule out of the description text. This does mean one extra
        page fetch per Norwich event, but there are usually only a
-       handful.
+       handful — and since the poster (a hero image at the top of the
+       event's own page) is only ever findable on that same detail page,
+       we were fetching it anyway.
 
     The listing also mixes in non-gig posts under "Norwich" (weekly salsa
     classes, the Sunday tapas deal, Happy Hour, etc.) which aren't really
@@ -1724,7 +1864,7 @@ def scrape_revolucion_de_cuba(session, log) -> list[dict]:
                     log(f"  ⚠  Could not find a title for {event_url}", "warn")
                     continue
 
-                # The date only lives on the event's own page.
+                # The date (and the poster) only live on the event's own page.
                 detail_resp = session.get(event_url, timeout=15)
                 detail_soup = BeautifulSoup(detail_resp.text, "lxml")
 
@@ -1752,8 +1892,23 @@ def scrape_revolucion_de_cuba(session, log) -> list[dict]:
                     log(f"  –  Skipped (deal/class, not a gig): {title}", "dim")
                     continue
 
+                # Poster — hero image on the event's own detail page. Take
+                # the first <img> that appears before the date heading
+                # (the hero banner), falling back to any image on the page.
+                image_url = None
+                hero_img = None
+                for img in detail_soup.find_all("img"):
+                    if img.sourceline is not None and date_tag.sourceline is not None \
+                            and img.sourceline < date_tag.sourceline:
+                        hero_img = img
+                        break
+                if hero_img is None:
+                    hero_img = detail_soup.find("img")
+                image_url = _resolve_image_url(_best_image_src(hero_img), event_url)
+
                 events.append({"venue": VENUE, "event_name": title,
-                               "date": date_str, "url": event_url})
+                               "date": date_str, "url": event_url,
+                               "image": image_url})
                 log(f"  ✓  {date_str}  {title}", "ok")
 
                 time.sleep(0.5)  # be polite between per-event detail-page requests
@@ -1774,6 +1929,11 @@ def load_manual_events(log) -> list[dict]:
     repo folder as this script (alongside add_manual_event.py). This file
     is never written to by the scraper — only appended to by
     add_manual_event.py — so entries persist across every daily run.
+
+    An optional "image" column is supported (add_manual_event.py can be
+    extended to prompt for a poster URL); if the column is absent or a
+    row's cell is blank, "image" is just left as None, same as any other
+    scraper that couldn't find one.
 
     Events whose date has already passed are silently dropped here, so
     nobody needs to come back and delete old entries by hand.
@@ -1805,6 +1965,7 @@ def load_manual_events(log) -> list[dict]:
                 event_name = (row.get("event_name") or "").strip()
                 date       = (row.get("date") or "").strip()
                 url        = (row.get("url") or "").strip()
+                image      = (row.get("image") or "").strip() or None
 
                 if not venue or not event_name or not date:
                     log(f"  ⚠  Skipping incomplete row: {row}", "warn")
@@ -1819,6 +1980,7 @@ def load_manual_events(log) -> list[dict]:
                     "event_name": event_name,
                     "date":       date,
                     "url":        url,
+                    "image":      image,
                     "_manual":    True,
                 })
                 log(f"  ✓  {date}  {venue} — {event_name}", "ok")
@@ -1846,9 +2008,10 @@ def load_previous_events(path: Path, log) -> list[dict]:
                 event_name = (row.get("event_name") or "").strip()
                 date       = (row.get("date") or "").strip()
                 url        = (row.get("url") or "").strip()
+                image      = (row.get("image") or "").strip() or None
                 if venue and event_name and date:
                     events.append({"venue": venue, "event_name": event_name,
-                                    "date": date, "url": url})
+                                    "date": date, "url": url, "image": image})
     except Exception as e:
         log(f"  ⚠  Failed to read previous CSV: {e}", "warn")
 
@@ -1963,18 +2126,13 @@ def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
         on_complete(None)
         return
 
-
-
-
-
-
-
-    
     # Sort, dedupe, filter, normalise venue names, then write CSV
     events.sort(key=lambda e: e.get("date", ""))
 
     # Drop duplicate events (same venue + date, similar title) — happens
-    # when a venue like Brickmakers is scraped from more than one source
+    # when a venue like Brickmakers is scraped from more than one source.
+    # (dedupe_events also backfills a missing image from a duplicate that
+    # has one — see its docstring.)
     before_dedupe = len(events)
     events = dedupe_events(events)
     removed_dupes = before_dedupe - len(events)
@@ -1994,6 +2152,10 @@ def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
     for e in events:
         e["venue"]      = shorten_venue(e.get("venue", ""), DEFAULT_ALIASES)
         e["event_name"] = normalise_title(e.get("event_name", ""))
+        e["image"]      = e.get("image") or ""   # keep the CSV column clean (no "None" strings)
+
+    no_image_count = sum(1 for e in events if not e["image"])
+    log(f"  🖼  {len(events) - no_image_count}/{len(events)} event(s) have a poster image", "dim")
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     with open(CSV_FILE, "w", newline="", encoding="utf-8") as f:
@@ -2002,7 +2164,7 @@ def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
         writer.writerows(events)
 
     # Second, flat-format CSV: one row per event, "Aug 16th,Venue,Event Name"
-    # (no header, no url column, date shown as "Mon Dth" via format_date()).
+    # (no header, no url/image columns, date shown as "Mon Dth" via format_date()).
     with open(CSV_FLAT_FILE, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         for e in events:
