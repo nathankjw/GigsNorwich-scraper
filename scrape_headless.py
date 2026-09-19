@@ -696,6 +696,44 @@ _UEA_DATE_RE = re.compile(
 
 _UEA_EVENT_HREF = re.compile(r"/event/[a-z0-9\-]+/?(?:$|[?#])", re.I)
 
+# Matches any wp-content/uploads image URL (absolute or relative), including
+# double extensions like ".jpg.webp" and URLs inside srcset / style="url(...)".
+_UEA_IMG_RE = re.compile(
+    r"[^\s\"'()<>,]*?/wp-content/uploads/[^\s\"'()<>,]+?"
+    r"\.(?:jpe?g|png|webp|gif)(?:\.webp)?",
+    re.IGNORECASE,
+)
+_UEA_IMG_SKIP = ("logo", "icon", "favicon", "placeholder")
+
+
+def _uea_find_poster(a_tags, card, event_url, page_url) -> str | None:
+    """
+    Find the poster for one UEA event card. Searches the raw HTML of, in
+    order: the event's anchors, the card, then up to 3 ancestors (only while
+    every event link inside the ancestor still points at THIS event, so we
+    never grab a neighbouring card's image).
+    """
+    scopes = list(a_tags)
+    if card is not None:
+        scopes.append(card)
+        node = card
+        for _ in range(3):
+            node = node.parent
+            if node is None or getattr(node, "name", None) in (None, "body", "html"):
+                break
+            hrefs = {urljoin(page_url, a["href"])
+                     for a in node.find_all("a", href=_UEA_EVENT_HREF)}
+            if hrefs and hrefs != {event_url}:
+                break
+            scopes.append(node)
+
+    for scope in scopes:
+        for m in _UEA_IMG_RE.finditer(str(scope)):
+            candidate = m.group(0)
+            if any(bit in candidate.lower() for bit in _UEA_IMG_SKIP):
+                continue
+            return urljoin(page_url, candidate)
+    return None
 
 def _scrape_uea_whats_on(session, log,
                           base_url="https://www.ueaticketbookings.co.uk/whats-on/",
