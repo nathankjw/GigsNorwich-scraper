@@ -291,21 +291,7 @@
     "event_name": "Basement Sessions",
     "date": "2026-09-19",
     "url": "https://www.fatsoma.com/e/l3gusfn2/basement-unlisted-ft-harry-thompson-pure-house-energy",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTcvMjEvNi81OS83MzQvUmFja011bHRpcGFydDIwMjYwOTE3LTU3LTE4NHMzNDYuanBlZyJdXQ?auto=format%2Ccompress"
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "Captain Wallop",
-    "date": "2026-09-19",
-    "url": "https://www.fatsoma.com/e/ix2bqzhe/captain-wallop",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzgvMTUvMTIvMzYvNTcvODY5L1JhY2tNdWx0aXBhcnQyMDI2MDgxNS02My0xNmprcm85LnBuZyJdXQ"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Maria Uzor ‘Fantasyland’ Album Show + Birds of Hell",
-    "date": "2026-09-19",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1785858935022-IMG_3035.jpeg?alt=media&token=c1b89f52-53e9-43c4-b30a-372d965b3cda"
+    "image": ""
   },
   {
     "venue": "Waterfront",
@@ -327,34 +313,6 @@
     "date": "2026-09-19",
     "url": "https://www.ueaticketbookings.co.uk/event/bare-jams/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Bare-Jams-sq.jpg.webp"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "The Wattles + May Gabriels & Amber Scott",
-    "date": "2026-09-19",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/the-wattles-may-gabriels-amber-scott/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvOS8xMC80OS82LzYyNy9SYWNrTXVsdGlwYXJ0MjAyNjA5MDktNjAtMWQyeHl2by5wbmciXV0?ar=16:9&fit=crop"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Britalicca",
-    "date": "2026-09-19",
-    "url": "https://www.norfolkgigguide.com/band-details/Britalicca",
-    "image": ""
-  },
-  {
-    "venue": "Hangar",
-    "event_name": "Norwich: MJ Cole – Daylight Disco - End Of Summer Day Party | Norwich 19th Sept",
-    "date": "2026-09-19",
-    "url": "https://fixr.co/event/norwich-mj-cole-daylight-disco-end-of-summer-day-p-tickets-949961467",
-    "image": "https://fixr-cdn.fixr.co/images/event/2026-07/1ceeb48bb0654355bcfbe0c2544af4c0.jpeg"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "All Night Long with AMSORRY2",
-    "date": "2026-09-19",
-    "url": "https://lpsnorwich.co.uk/",
-    "image": ""
   },
   {
     "venue": "Holloway",
@@ -792,17 +750,17 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/Mammal-Hands-Banner-6aa7f7cf051b7-800x450-c-default.jpg"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
     "date": "2026-09-30",
     "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-11.53.34-69e7573509af9-800x450-c-default.png"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
+    "date": "2026-09-30",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/Mammal-Hands-Banner-6aa7f7cf051b7-800x450-c-default.jpg"
   },
   {
     "venue": "Brickmakers",
@@ -2622,7 +2580,7 @@
     "event_name": "Daniel O'Reilly: Let's Have It",
     "date": "2026-11-19",
     "url": "https://epic-tv.com/events/event/daniel-oreilly-lets-have-it",
-    "image": "https://epicwebsite20241120.z33.web.core.windows.net/4ede6880-93b5-4439-9c51-f4f771104c21"
+    "image": ""
   },
   {
     "venue": "Brickmakers",
