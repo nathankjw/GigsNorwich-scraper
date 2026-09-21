@@ -57,20 +57,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Amy Nomvula (DJ Set)",
-    "date": "2026-08-14",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/amy-nomvula-dj-set",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1785847548420-2F8V9LLXWUVPEEIFR5Z3/amy+nomvula+dj.webp"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Tadi the great: All evening long",
-    "date": "2026-08-15",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/cgxdbet2agzq7yxohlpwey50tof5ob",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1786370409693-GS2WXT232RSSSHHFOGR3/Tadi+All+Eve.png"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "rhyme against the machine",
     "date": "2026-08-17",
     "url": "https://www.deadwaxnorwich.pub/whats-on/8xcntg7stgjw0fbyxgq9ucxtalkogb",
@@ -294,67 +280,11 @@
     "image": ""
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Gyasi",
-    "date": "2026-09-19",
-    "url": "https://www.ueaticketbookings.co.uk/event/gyasi-2/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Gyasi-UK-Sept_Sqr-1-500x500.jpg.webp"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "King King",
-    "date": "2026-09-19",
-    "url": "https://www.ueaticketbookings.co.uk/event/king-king/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/KingKing_Square-1-500x500.jpg.webp"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Bare Jams",
-    "date": "2026-09-19",
-    "url": "https://www.ueaticketbookings.co.uk/event/bare-jams/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Bare-Jams-sq.jpg.webp"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "O My Stars presents hemlock + Westelaken + yer blooze",
-    "date": "2026-09-20",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1786719776070-IMG_3099.png?alt=media&token=a688337c-308d-4de3-9b4a-1fa7d3a1a16a"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Tom Arbin - Live at The Green Room",
-    "date": "2026-09-20",
-    "url": "https://epic-tv.com/events/event/tom-arbin-live-at-the-green-room",
-    "image": ""
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Wheels in Motion Tour",
-    "date": "2026-09-20",
-    "url": "https://www.ueaticketbookings.co.uk/event/wheels-in-motion-tour/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/WheelsInMotion_Square-500x500.png.webp"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "EROTIC SECRETS OF POMPEII + Peer pleasure + Arthouse Horror + no.",
     "date": "2026-09-20",
     "url": "https://www.deadwaxnorwich.pub/whats-on/erotic-secrets-of-pompeii-supports",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1780593853960-OE7VGBKCUXT5DB15RR4H/EroticSecretsofPompeii_insta+copy+%281%29.jpg"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Nr Ska",
-    "date": "2026-09-20",
-    "url": "https://www.norfolkgigguide.com/band-details/NR+SKA",
-    "image": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Chubby Jams",
-    "date": "2026-09-20",
-    "url": "https://lpsnorwich.co.uk/",
-    "image": ""
   },
   {
     "venue": "Revolucion de Cuba",
@@ -750,17 +680,17 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-11.53.34-69e7573509af9-800x450-c-default.png"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
     "date": "2026-09-30",
     "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/Mammal-Hands-Banner-6aa7f7cf051b7-800x450-c-default.jpg"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
+    "date": "2026-09-30",
+    "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-11.53.34-69e7573509af9-800x450-c-default.png"
   },
   {
     "venue": "Brickmakers",
@@ -795,7 +725,7 @@
     "event_name": "Fletchr Fletchr",
     "date": "2026-10-01",
     "url": "https://www.ueaticketbookings.co.uk/event/fletchr-fletchr/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/FletchrFletchr_Updated-022-500x500.png.webp"
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Fletchr-Fletchr-Support-NORWICH-500x500.jpg.webp"
   },
   {
     "venue": "Voodoos",
@@ -1988,6 +1918,13 @@
     "image": ""
   },
   {
+    "venue": "Gonzos",
+    "event_name": "Halloween",
+    "date": "2026-10-31",
+    "url": "https://www.fatsoma.com/e/90pzqcby/halloween",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzkvMjAvMTQvMC8xOS8zMjUvUmFja011bHRpcGFydDIwMjYwOTIwLTYzLWNlcG05Mi5wbmciXV0"
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Bloghaus of Horrors – Halloween Special",
     "date": "2026-10-31",
@@ -2366,6 +2303,13 @@
     "image": ""
   },
   {
+    "venue": "Holloway",
+    "event_name": "Norm’s present: The Gourds + Discord Disco + more!",
+    "date": "2026-11-13",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1789909086061-IMG_3311.png?alt=media&token=15080d8c-0d85-40b1-b299-eda080c7ea00"
+  },
+  {
     "venue": "Epic",
     "event_name": "Dutty Moonshine Big Band's Second Distillation UK Tour",
     "date": "2026-11-13",
@@ -2580,7 +2524,7 @@
     "event_name": "Daniel O'Reilly: Let's Have It",
     "date": "2026-11-19",
     "url": "https://epic-tv.com/events/event/daniel-oreilly-lets-have-it",
-    "image": ""
+    "image": "https://epicwebsite20241120.z33.web.core.windows.net/4ede6880-93b5-4439-9c51-f4f771104c21"
   },
   {
     "venue": "Brickmakers",
@@ -3738,6 +3682,13 @@
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Ben-Poole-Digital_Square-1-500x500.png.webp"
   },
   {
+    "venue": "Voodoos",
+    "event_name": "Maquina.",
+    "date": "2027-02-21",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/maquina/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTYvMTEvMTUvNi82NDQvUmFja011bHRpcGFydDIwMjYwOTE2LTU1LXo1NWZoZC5qcGciXV0?ar=16:9&fit=crop"
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Scarlet Rebels",
     "date": "2027-02-22",
@@ -4057,7 +4008,7 @@
     "event_name": "First Time Flyers",
     "date": "2027-04-23",
     "url": "https://norwichartscentre.co.uk/event/first-time-flyers/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2020/02/no-image_16-9-5e4580cc5e29e-800x450-c-default.jpg"
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/FTF-NORWICH-FB-EVENT-6ab0f0b8d4b5d-800x450-c-default.jpg"
   },
   {
     "venue": "Arts Centre",
@@ -4103,6 +4054,13 @@
   },
   {
     "venue": "Epic",
+    "event_name": "Emo Fest",
+    "date": "2027-05-14",
+    "url": "https://epic-tv.com/events/event/emo-fest",
+    "image": ""
+  },
+  {
+    "venue": "Epic",
     "event_name": "The Eminem Experience - May 2027",
     "date": "2027-05-15",
     "url": "https://epic-tv.com/events/event/the-eminem-experience-may-2027",
@@ -4135,6 +4093,13 @@
     "date": "2027-05-21",
     "url": "https://epic-tv.com/events/event/the-tumbling-paddies",
     "image": ""
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Bruce Foxton",
+    "date": "2027-05-21",
+    "url": "https://www.ueaticketbookings.co.uk/event/bruce-foxton/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-33-500x500.png"
   },
   {
     "venue": "Brickmakers",
@@ -4219,5 +4184,12 @@
     "date": "2027-09-19",
     "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=99801",
     "image": "https://system.spektrix.com/themaddermarkettheatre/files/885550b0-7ee4-4a16-afe9-c2de879121a0.jpg"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "The Ruts",
+    "date": "2027-10-29",
+    "url": "https://www.ueaticketbookings.co.uk/event/the-ruts/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/The-Ruts-1080-x-1080-500x500.jpg.webp"
   }
 ]
