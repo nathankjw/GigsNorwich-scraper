@@ -294,13 +294,6 @@
     "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg"
   },
   {
-    "venue": "Last Pub",
-    "event_name": "Norwich Jazz Jam",
-    "date": "2026-09-21",
-    "url": "https://lpsnorwich.co.uk/",
-    "image": ""
-  },
-  {
     "venue": "Holloway",
     "event_name": "Civilian + Samuel Easter (FREE SHOW)",
     "date": "2026-09-22",
@@ -348,6 +341,13 @@
     "date": "2026-09-24",
     "url": "https://www.spacestudiosnorwich.com",
     "image": ""
+  },
+  {
+    "venue": "Space",
+    "event_name": "Bookmark Making + Book Swap",
+    "date": "2026-09-24",
+    "url": "https://www.eventbrite.com/e/crafty-reads-tickets-2001871569754?sg=f9f384ceed44ed724cf22b6a86c0e001e3ab4c2bcb279a30e62d1737102e83ace7f24b88f8e4733655980684aa193c25519f6239f4a4683a5380a5fb54b7ab1bc6ff00c51e6f603de46b0f55baa1&aff=ebdsshios",
+    "image": "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1193992576%252F3014898249655%252F1%252Foriginal.20260921-095317%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.05%26fp-y%3D0.056%26s%3Dda0be5a94f7caddbde38614a1204cf59&w=940&q=75"
   },
   {
     "venue": "Epic",
@@ -658,6 +658,13 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/Unknown-698b15ea91917-800x450-c-default.jpeg"
   },
   {
+    "venue": "Voodoos",
+    "event_name": "NEW NOISE! Lunavaria EP launch + Riya Lue & Niche",
+    "date": "2026-09-29",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/new-noise-lunavaria-ep-launch-riya-lue-niche/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMjEvMjAvMjAvMTgvNzU0L1JhY2tNdWx0aXBhcnQyMDI2MDkyMS01Ny1laTMzeHYuanBnIl1d?ar=16:9&fit=crop"
+  },
+  {
     "venue": "Dead Wax",
     "event_name": "Sam Russo & the Trembling Leaves + Sophie Porter + James Hull",
     "date": "2026-09-29",
@@ -830,7 +837,7 @@
     "event_name": "Toploader",
     "date": "2026-10-03",
     "url": "https://www.ueaticketbookings.co.uk/event/toploader/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2025/12/Toploader_SQUARE_imresizer-500x500.jpg.webp"
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2025/12/Toploader-Socials-Norwich-Support-500x500.jpg.webp"
   },
   {
     "venue": "Waterfront",
@@ -2066,7 +2073,7 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "Sego",
+    "event_name": "Sego + PALM & Oscar November",
     "date": "2026-11-06",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/sego/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMi8xOC80NC80My84MzAvUmFja011bHRpcGFydDIwMjYwNzAyLTU1LTE3cjN5cDEucG5nIl1d?ar=16:9&fit=crop"
@@ -2881,7 +2888,7 @@
     "event_name": "The Snuts",
     "date": "2026-11-29",
     "url": "https://www.ueaticketbookings.co.uk/event/the-snuts/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-The-Snuts-Tour-SQ-1-500x500.jpg.webp"
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/31656-500x500.jpg.webp"
   },
   {
     "venue": "Waterfront",
@@ -3136,6 +3143,13 @@
     "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg"
   },
   {
+    "venue": "Epic",
+    "event_name": "Heart Club Classics: The Christmas Bash with Toby Anstis",
+    "date": "2026-12-12",
+    "url": "https://epic-tv.com/events/event/heart-club-classics-the-christmas-bash-with-toby-anstis",
+    "image": ""
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Sham 69 ‘50th Anniversary’",
     "date": "2026-12-12",
@@ -3302,6 +3316,13 @@
     "date": "2026-12-18",
     "url": "https://www.revoluciondecuba.com/events/norwich/12931/tuto-tribe",
     "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "ReWork Christmas presents Bag of Cans",
+    "date": "2026-12-19",
+    "url": "https://norwichartscentre.co.uk/event/rework-christmas-presents-bag-of-cans/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-15-at-13.29.56-6aa93a4a6acba-800x450-c-default.png"
   },
   {
     "venue": "Waterfront",
@@ -3519,6 +3540,13 @@
     "date": "2027-02-04",
     "url": "https://epic-tv.com/events/event/robben-ford",
     "image": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Tone presents Mercy Girl",
+    "date": "2027-02-05",
+    "url": "https://norwichartscentre.co.uk/event/tone-presents-mercy-girl/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Copia-di-Mercy-Girl-Press-Pic-1-crop-6aabea8d152a7-800x450-c-default.jpg"
   },
   {
     "venue": "Waterfront",
@@ -3848,6 +3876,13 @@
     "date": "2027-03-13",
     "url": "https://www.ueaticketbookings.co.uk/event/just-radiohead/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/just-radiohead-sq.jpg.webp"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Dan Croll",
+    "date": "2027-03-14",
+    "url": "https://www.ueaticketbookings.co.uk/event/dan-croll/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-500x500.png.webp"
   },
   {
     "venue": "Waterfront",
