@@ -64,13 +64,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "the sickos secret cinema",
-    "date": "2026-08-19",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/the-sickos-secret-cinema-3",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1786373493305-SVX5RUTONAU2J68XG1QS/sickos+19th+august.png"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "dreamcast",
     "date": "2026-08-20",
     "url": "https://www.deadwaxnorwich.pub/whats-on/dreamcast-3",
@@ -312,28 +305,7 @@
     "event_name": "Bookmark Making + Book Swap",
     "date": "2026-09-24",
     "url": "https://www.eventbrite.com/e/crafty-reads-tickets-2001871569754?sg=f9f384ceed44ed724cf22b6a86c0e001e3ab4c2bcb279a30e62d1737102e83ace7f24b88f8e4733655980684aa193c25519f6239f4a4683a5380a5fb54b7ab1bc6ff00c51e6f603de46b0f55baa1&aff=ebdsshios",
-    "image": "https://www.eventbrite.com/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1193992576%252F3014898249655%252F1%252Foriginal.20260921-095317%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.05%26fp-y%3D0.056%26s%3Dda0be5a94f7caddbde38614a1204cf59&w=940&q=75"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Robert Macfarlane & Jackie Morris: The Book of Birds",
-    "date": "2026-09-24",
-    "url": "https://epic-tv.com/events/event/robert-macfarlane-jackie-morris-the-book-of-birds",
     "image": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Murmurations",
-    "date": "2026-09-24",
-    "url": "https://norwichartscentre.co.uk/event/murmurations/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/Murmurations-web-69f3715fa2d21-800x450-c-default.jpg"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Radu Isac – “Sadly Funny”",
-    "date": "2026-09-24",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/radu-isac-sadly-funny/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzUvMjQvOS8xOC85LzMyMi9SYWNrTXVsdGlwYXJ0MjAyNjA1MjQtNTktMWZjeDNrMS5wbmciXV0?ar=16:9&fit=crop"
   },
   {
     "venue": "Dead Wax",
@@ -341,20 +313,6 @@
     "date": "2026-09-24",
     "url": "https://www.deadwaxnorwich.pub/whats-on/bone-machine-dj-set",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788447975918-LZH6G0RD9KIDXOO7F009/bonemachine_SEPT.jpg"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Open  mic  night with Peter Turrell",
-    "date": "2026-09-24",
-    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
-    "image": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "A Joint Effort",
-    "date": "2026-09-24",
-    "url": "https://lpsnorwich.co.uk/",
-    "image": ""
   },
   {
     "venue": "Space",
@@ -659,17 +617,17 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-11.53.34-69e7573509af9-800x450-c-default.png"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
     "date": "2026-09-30",
     "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/Mammal-Hands-Banner-6aa7f7cf051b7-800x450-c-default.jpg"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
+    "date": "2026-09-30",
+    "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-11.53.34-69e7573509af9-800x450-c-default.png"
   },
   {
     "venue": "Brickmakers",
@@ -1911,6 +1869,20 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Screenshot-2026-07-14-at-12.38.46-6a561fcc81b32-800x450-c-default.png"
   },
   {
+    "venue": "Waterfront",
+    "event_name": "G.A.G – Halloween",
+    "date": "2026-10-31",
+    "url": "https://www.ueaticketbookings.co.uk/event/g-a-g-halloween/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/GAG_Oct31_Square-500x500.png.webp"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Nightmare On King Street",
+    "date": "2026-10-31",
+    "url": "https://www.ueaticketbookings.co.uk/event/nightmare-on-king-street/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/NightmareOnKingStreet_2026_Square-500x500.png.webp"
+  },
+  {
     "venue": "Voodoos",
     "event_name": "Asinine Halloween #4 – Eahc Edition",
     "date": "2026-10-31",
@@ -2195,7 +2167,7 @@
     "event_name": "Del Amitri",
     "date": "2026-11-10",
     "url": "https://www.ueaticketbookings.co.uk/event/del-amitri/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/DelAmitri26_1080x1080_5-500x500.jpg.webp"
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/30952-1-500x500.jpg.webp"
   },
   {
     "venue": "Voodoos",
@@ -2623,6 +2595,13 @@
     "date": "2026-11-24",
     "url": "https://epic-tv.com/events/event/round-midnight-presents-cortoalto",
     "image": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "corto.alto @ EPIC Studios",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg"
   },
   {
     "venue": "Arts Centre",
@@ -3402,6 +3381,13 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1789716201019-IMG_3289.jpeg?alt=media&token=44a63c40-9596-44a4-91bf-d28ed83181e5"
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents The New Cut",
+    "date": "2027-01-26",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-the-new-cut/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/The-New-Cut-web-6ab507c461944-800x450-c-default.jpg"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Norfolk Blues Society at the Brickmakers",
     "date": "2027-01-27",
@@ -3960,6 +3946,13 @@
     "date": "2027-04-12",
     "url": "https://www.ueaticketbookings.co.uk/event/gabrielle/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Gabrielle__socials_new-dates-solus_1080-x-10803-1-500x500.jpg.webp"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Flook",
+    "date": "2027-04-14",
+    "url": "https://norwichartscentre.co.uk/event/flook/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Flook-by-Eddie-Kavanagh-scaled-6ab12c3b922ca-800x450-c-default.jpg"
   },
   {
     "venue": "Waterfront",
