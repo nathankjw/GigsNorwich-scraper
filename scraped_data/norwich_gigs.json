@@ -64,13 +64,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "dreamcast",
-    "date": "2026-08-20",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/dreamcast-3",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1785169065459-X1DSLQLAT3PPNBOI0K4G/dream_june2.png"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "George (Soul stew)",
     "date": "2026-08-21",
     "url": "https://www.deadwaxnorwich.pub/whats-on/george-soul-stew-1",
@@ -319,42 +312,7 @@
     "event_name": "Space 5th Birthday - Sully + Support",
     "date": "2026-09-25",
     "url": "https://www.spacestudiosnorwich.com/event-details-registration/the-space-5th-birthday-sully-compound-the-mariner-of-danu-webbo",
-    "image": "https://static.wixstatic.com/media/785f98_d6f135c5131b4165b1e683911a5866b3~mv2.png/v1/fill/w_4084,h_2300,al_c/785f98_d6f135c5131b4165b1e683911a5866b3~mv2.png"
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "Richy Ahmed",
-    "date": "2026-09-25",
-    "url": "https://www.fatsoma.com/e/psbdbtzk/richy-ahmed",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzgvMTUvMTIvNDUvMTAvODgxL1JhY2tNdWx0aXBhcnQyMDI2MDgxNS01My1uY3J1bHEucG5nIl1d"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Moloch (Sludge/Doom), Grim Harvest & Undume",
-    "date": "2026-09-25",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1778525559403-moloch.jpg?alt=media&token=803973b5-0c1d-4f43-8ac0-918f544cdb40"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Daft Funk Live",
-    "date": "2026-09-25",
-    "url": "https://epic-tv.com/events/event/daft-funk-live",
     "image": ""
-  },
-  {
-    "venue": "Maddermarket",
-    "event_name": "Martin Turner (ex Wishbone Ash): TWO ERAS Tour 2026",
-    "date": "2026-09-25",
-    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=115801",
-    "image": "https://system.spektrix.com/themaddermarkettheatre/files/673a9e68-59e7-439d-a823-aed42978d977.jpg"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Random Hand + Goober Patrol",
-    "date": "2026-09-25",
-    "url": "https://norwichartscentre.co.uk/event/random-hand-goober-patrol/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/25.09-Random-Hand-45-1080-x-400-px-6a4e55d8a2866-800x450-c-default.jpg"
   },
   {
     "venue": "Waterfront",
@@ -378,39 +336,11 @@
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Kerrang-Revival-Band-1080-x-1080--500x500.jpg.webp"
   },
   {
-    "venue": "Voodoos",
-    "event_name": "The Meteors + Haunted Men",
-    "date": "2026-09-25",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/the-meteors-haunted-men/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMTAvMTQvNDEvMzAvNTIzL1JhY2tNdWx0aXBhcnQyMDI2MDQxMC01OC0xanNiYngwLnBuZyJdXQ?ar=16:9&fit=crop"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "YTP Presents: Bind’s big hardcore show",
     "date": "2026-09-25",
     "url": "https://www.deadwaxnorwich.pub/whats-on/ytp-presents-bind-how-long-you-been-driving-demeanour",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1784209222613-2NFSBUXN3HKVLE2NEY9L/WhatsApp+Image+2026-07-16+at+14.35.58.jpeg"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Ransom for a Dead Man",
-    "date": "2026-09-25",
-    "url": "https://www.norfolkgigguide.com/band-details/Ransom+for+a+Dead+Man",
-    "image": ""
-  },
-  {
-    "venue": "Hangar",
-    "event_name": "Norwich: Red Card Comedy Club Presents: Christian Reilly & Friends",
-    "date": "2026-09-25",
-    "url": "https://fixr.co/event/norwich-red-card-comedy-club-presents-christian-or-tickets-420134290",
-    "image": "https://fixr-cdn.fixr.co/images/event/2026-08/68cd3069222b4dd6abc335c7f4759146.jpeg"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "All Night Long with Three More Tunes & Aoife",
-    "date": "2026-09-25",
-    "url": "https://lpsnorwich.co.uk/",
-    "image": ""
   },
   {
     "venue": "Gonzos",
@@ -3385,7 +3315,7 @@
     "event_name": "PONY UP presents The New Cut",
     "date": "2027-01-26",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-the-new-cut/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/The-New-Cut-web-6ab507c461944-800x450-c-default.jpg"
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/The-New-Cut-IVW-6ab692e2de14e-800x450-c-default.jpg"
   },
   {
     "venue": "Brickmakers",
