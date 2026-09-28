@@ -439,9 +439,20 @@ def fetch_page_price(session, page_url: str, cache: dict, log) -> str | None:
          AND contains a £ amount or "free entry"
     Cached per URL.
     """
-    if page_url in cache:
+       if page_url in cache:
         return cache[page_url]
     result = None
+    if "ueaticketbookings.co.uk/event/" in page_url:
+        result = fetch_uea_price(session, page_url, log)
+        cache[page_url] = result
+        return result
+    try:
+        resp = session.get(page_url, timeout=15)
+        if resp.ok:
+            soup = BeautifulSoup(resp.text, "lxml")
+
+            for script in soup.find_all("script", type="application/ld+json"):
+    
     try:
         resp = session.get(page_url, timeout=15)
         if resp.ok:
@@ -473,9 +484,85 @@ def fetch_page_price(session, page_url: str, cache: dict, log) -> str | None:
         log(f"  ⚠  price fetch failed for {page_url}: {e}", "warn")
     cache[page_url] = result
     return result
+# ── UEA ticket-box prices (Waterfront / LCR) ─────────────────────────────────
+# The price isn't on the event page. Its "Book tickets" button goes to
+# /book/?show=<EventInstanceId><letters>, which just frames a Spektrix page:
+#   tickets.ueaticketbookings.co.uk/.../ChooseSeats.aspx?EventInstanceId=<id>
+# and THAT page has lines like "General Admission: @ £27.75 (inc. £2.75 cmsn)".
+
+# True  = show what people actually pay (fee included, e.g. £27.75)
+# False = show the face value without the booking fee (e.g. £25)
+UEA_PRICE_INCLUDES_FEE = True
+
+_UEA_TICKETS_URL = ("https://tickets.ueaticketbookings.co.uk/ueastudentsunion/"
+                    "website/ChooseSeats.aspx?resize=true&EventInstanceId={}")
+_UEA_PRICE_RE = re.compile(
+    r"@\s*£\s*(\d+(?:\.\d{1,2})?)"
+    r"(?:\s*\(\s*inc\.?\s*£\s*(\d+(?:\.\d{1,2})?)\s*(?:cmsn|commission|fee)[^)]*\))?",
+    re.IGNORECASE,
+)
 
 
-def backfill_prices(events: list[dict], session, log, max_fetches: int = 120) -> None:
+def _uea_price_from_ticket_page(session, url: str) -> str | None:
+    """Read every '@ £x' line on a Spektrix ChooseSeats page → price label."""
+    resp = session.get(url, timeout=15)
+    if not resp.ok:
+        return None
+    text = BeautifulSoup(resp.text, "lxml").get_text(" ", strip=True)
+    amounts: list[float] = []
+    for total, fee in _UEA_PRICE_RE.findall(text):
+        v = float(total)
+        if not UEA_PRICE_INCLUDES_FEE and fee:
+            v -= float(fee)
+        amounts.append(v)
+    amounts = [a for a in amounts if 0 <= a <= 500]
+    if not amounts:
+        return None
+    positive = [a for a in amounts if a > 0]
+    if not positive:
+        return "Free"
+    lo, hi = min(positive), max(positive)
+    return _fmt_price(lo) if lo == hi else f"{_fmt_price(lo)}–{_fmt_price(hi)}"
+
+
+def fetch_uea_price(session, event_url: str, log) -> str | None:
+    """
+    event page → find its /book/?show=… link → ticket page → price.
+    Events with no booking link (sold out, cancelled, or ticketed via Dice)
+    return None, so the website shows "Check website".
+    """
+    try:
+        resp = session.get(event_url, timeout=15)
+        if not resp.ok:
+            return None
+        soup = BeautifulSoup(resp.text, "lxml")
+
+        book_url = instance_id = None
+        for a in soup.find_all("a", href=re.compile(r"/book/", re.I)):
+            m = re.search(r"[?&]show=(\d+)", a["href"])
+            if m:
+                book_url = urljoin(event_url, a["href"])
+                instance_id = m.group(1)   # leading digits = EventInstanceId
+                break
+        if not instance_id:
+            return None
+
+        time.sleep(0.3)
+        price = _uea_price_from_ticket_page(session, _UEA_TICKETS_URL.format(instance_id))
+        if price:
+            return price
+
+        # Fallback: read the real ticket-page URL out of the /book/ page.
+        time.sleep(0.3)
+        book_resp = session.get(book_url, timeout=15)
+        m = re.search(r"https://tickets\.ueaticketbookings\.co\.uk/[^\s\"'<>]+", book_resp.text)
+        if m:
+            return _uea_price_from_ticket_page(session, html.unescape(m.group(0)))
+    except Exception as e:
+        log(f"  ⚠  UEA price fetch failed for {event_url}: {e}", "warn")
+    return None
+
+def backfill_prices(events: list[dict], session, log, max_fetches: int = 250) -> None:
     """
     For upcoming events that still have no price, visit the event's own page
     and try to find one. Skips generic venue landing pages (they'd show
