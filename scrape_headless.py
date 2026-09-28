@@ -265,7 +265,7 @@ def backfill_images_from_og(events: list[dict], session, log,
 
 # Phrases (case-insensitive) that flag an event for removal.
 _FILTER_PHRASES = re.compile(
-    r"\b(film\s+screening|screening|bingo|quiz|cribbage|clothes|comedy|Zine|KARAOKE|cancelled|Book\s+Festival|darts|Gig\s+List\s+Book|cinema|jewellery\s+making|private\s+event)\b",
+    r"\b(film\s+screening|Keyring|Book\s+Launch|Q\s+&\s+A|screening|bingo|quiz|cribbage|clothes|comedy|Zine|KARAOKE|cancelled|Book\s+Festival|darts|Gig\s+List\s+Book|cinema|jewellery\s+making|private\s+event)\b",
     re.IGNORECASE,
 )
 # Norwich-area phone numbers: 01603 followed by digits (with optional spaces/hyphens)
