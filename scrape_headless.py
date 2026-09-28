@@ -11,6 +11,7 @@ Usage:
 
 import csv
 import html
+import json
 import os
 import re
 import subprocess
@@ -306,6 +307,8 @@ def dedupe_events(events: list[dict], threshold: float = 0.6) -> list[dict]:
                 is_dup = True
                 if not kept[idx].get("image") and e.get("image"):
                     kept[idx]["image"] = e["image"]
+                if not kept[idx].get("price") and e.get("price"):
+                    kept[idx]["price"] = e["price"]
                 break
 
         if is_dup:
@@ -354,6 +357,168 @@ def normalise_title(name: str) -> str:
         result.append(titled)
     return " ".join(result)
 
+# ── Price extraction ──────────────────────────────────────────────────────────
+
+_PRICE_AMOUNT = re.compile(r"£\s?(\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?)")
+_FREE_RE = re.compile(
+    r"\bfree\s+(entry|admission|event|gig|show)\b|\bentry\s+(is\s+)?free\b|\bfree\s+to\s+enter\b",
+    re.IGNORECASE,
+)
+# Lines on an event page that are likely to be talking about the ticket price.
+_PRICE_LINE_KEYWORDS = re.compile(
+    r"ticket|admission|entry|price|advance|adv\b|on\s+the\s+door|door|from\s+£",
+    re.IGNORECASE,
+)
+
+
+def _fmt_price(v: float) -> str:
+    return f"£{v:.0f}" if float(v).is_integer() else f"£{v:.2f}"
+
+
+def _extract_price(text: str | None) -> str | None:
+    """
+    Turn free text into a short price label: "£12", "£10.50", "£10–£15",
+    or "Free". Returns None if nothing price-like is found (the website
+    then shows "Check website").
+    """
+    if not text:
+        return None
+    amounts = [float(m.replace(",", "")) for m in _PRICE_AMOUNT.findall(text)]
+    amounts = [a for a in amounts if a <= 500]
+    positive = [a for a in amounts if a > 0]
+    if positive:
+        lo, hi = min(positive), max(positive)
+        return _fmt_price(lo) if lo == hi else f"{_fmt_price(lo)}–{_fmt_price(hi)}"
+    if amounts or _FREE_RE.search(text):   # "£0" or "free entry"
+        return "Free"
+    return None
+
+
+def _price_from_offers(offers) -> str | None:
+    """schema.org `offers` (dict or list) → price label, GBP only."""
+    if isinstance(offers, dict):
+        offers = [offers]
+    if not isinstance(offers, list):
+        return None
+    vals: list[float] = []
+    for o in offers:
+        if not isinstance(o, dict):
+            continue
+        cur = (o.get("priceCurrency") or "GBP").upper()
+        if cur != "GBP":
+            continue
+        for key in ("price", "lowPrice", "highPrice"):
+            try:
+                vals.append(float(str(o.get(key)).replace(",", "")))
+            except (TypeError, ValueError):
+                pass
+    if not vals:
+        return None
+    lo, hi = min(vals), max(vals)
+    if hi == 0:
+        return "Free"
+    return _fmt_price(lo) if lo == hi else f"{_fmt_price(lo)}–{_fmt_price(hi)}"
+
+
+def _iter_ld_nodes(data):
+    """Yield every dict inside a JSON-LD blob (handles lists and @graph)."""
+    if isinstance(data, list):
+        for item in data:
+            yield from _iter_ld_nodes(item)
+    elif isinstance(data, dict):
+        yield data
+        if "@graph" in data:
+            yield from _iter_ld_nodes(data["@graph"])
+
+
+def fetch_page_price(session, page_url: str, cache: dict, log) -> str | None:
+    """
+    Look for a price on an event's own page. Order of preference:
+      1. JSON-LD `offers` (structured, most reliable)
+      2. A short line of visible text that mentions tickets/entry/price
+         AND contains a £ amount or "free entry"
+    Cached per URL.
+    """
+    if page_url in cache:
+        return cache[page_url]
+    result = None
+    try:
+        resp = session.get(page_url, timeout=15)
+        if resp.ok:
+            soup = BeautifulSoup(resp.text, "lxml")
+
+            for script in soup.find_all("script", type="application/ld+json"):
+                try:
+                    data = json.loads(script.string or "")
+                except Exception:
+                    continue
+                for node in _iter_ld_nodes(data):
+                    if "offers" in node:
+                        result = _price_from_offers(node["offers"])
+                        if result:
+                            break
+                if result:
+                    break
+
+            if not result:
+                for t in soup(["script", "style", "noscript"]):
+                    t.decompose()
+                for line in soup.get_text("\n").split("\n"):
+                    line = " ".join(line.split())
+                    if 3 < len(line) <= 160 and _PRICE_LINE_KEYWORDS.search(line):
+                        result = _extract_price(line)
+                        if result:
+                            break
+    except Exception as e:
+        log(f"  ⚠  price fetch failed for {page_url}: {e}", "warn")
+    cache[page_url] = result
+    return result
+
+
+def backfill_prices(events: list[dict], session, log, max_fetches: int = 120) -> None:
+    """
+    For upcoming events that still have no price, visit the event's own page
+    and try to find one. Skips generic venue landing pages (they'd show
+    whichever price happens to be first on the page).
+    """
+    if session is None:
+        return
+
+    generic_urls = set(DEFAULT_VENUE_LINKS.values())
+    today = datetime.now().strftime("%Y-%m-%d")
+    cache: dict[str, str | None] = {}
+    fetched = filled = 0
+
+    for e in events:
+        if e.get("price"):
+            continue
+        url = (e.get("url") or "").strip()
+        if not url.startswith("http"):
+            continue
+        parsed = urlparse(url)
+        if (parsed.path in ("", "/") or url in generic_urls
+                or any(h in parsed.netloc for h in _NO_OG_HOSTS)):
+            continue
+        if e.get("date", "") < today:
+            continue
+
+        if url not in cache:
+            if fetched >= max_fetches:
+                break
+            fetched += 1
+            time.sleep(0.5)
+
+        price = fetch_page_price(session, url, cache, log)
+        if price:
+            e["price"] = price
+            filled += 1
+
+    log(f"  £  price backfill: {filled} price(s) found from event pages", "dim")
+
+
+
+
+
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # SCRAPER ENGINE
@@ -361,7 +526,7 @@ def normalise_title(name: str) -> str:
 
 OUTPUT_DIR     = Path.home() / "norwich-scraper" / "scraped_data"
 CSV_FILE       = OUTPUT_DIR / "norwich_gigs.csv"
-CSV_FIELDS     = ["venue", "event_name", "date", "url", "image"]
+CSV_FIELDS     = ["venue", "event_name", "date", "url", "image", "price"]   # <- add "price"
 CSV_FLAT_FILE  = OUTPUT_DIR / "norwich_gigs_flat.csv"
 
 # Repo-relative path to the CSV already committed from a previous run. This
@@ -408,6 +573,17 @@ def _parse_date(text: str) -> str | None:
             pass
     return None
 
+# ─────────────────────────────────────────────────────────────────────────────
+# REPLACE RANGE
+#   Delete everything in scrape_headless.py from the line
+#       # ── Individual venue scrapers ──...
+#   down to (but NOT including) the line
+#       def load_manual_events(log) -> list[dict]:
+#   then paste everything below this comment block in its place.
+#
+# REQUIRES the price helpers (_extract_price, _price_from_offers, etc.) to
+# already be pasted into the file (Part 1, no. 2 from earlier), and `import json`.
+# ─────────────────────────────────────────────────────────────────────────────
 
 # ── Individual venue scrapers ─────────────────────────────────────────────────
 
@@ -443,6 +619,8 @@ def scrape_space_studios(driver, log) -> list[dict]:
 
     Date is found position-independently: whichever heading/paragraph
     contains an ordinal day number (1st, 2nd … 31st) is treated as the date.
+
+    Price: pulled from the card's text (e.g. "Free Entry", "£10").
     """
     VENUE     = "Space Studios Norwich"
     URL       = "https://www.spacestudiosnorwich.com"
@@ -600,6 +778,7 @@ def scrape_space_studios(driver, log) -> list[dict]:
                     event_url = href
 
                 image_url = _resolve_image_url(_best_image_src(card.find("img")), page_url)
+                price = _extract_price(card.get_text(" ", strip=True))
 
                 page_events.append({
                     "venue":      VENUE,
@@ -607,6 +786,7 @@ def scrape_space_studios(driver, log) -> list[dict]:
                     "date":       date_str,
                     "url":        event_url,
                     "image":      image_url,
+                    "price":      price,
                 })
 
             except Exception as e:
@@ -741,6 +921,9 @@ def scrape_norwich_arts_centre(session, log) -> list[dict]:
     thumbnail that wraps the /event/ link — pulled from whichever anchor's
     <img> is found first, since one of the two duplicate anchors per card
     is always the image link.
+
+    Price: taken from the card text if it shows one; otherwise the price
+    backfill visits the event page later.
     """
     BASE  = "https://norwichartscentre.co.uk/event/category/music/"
     VENUE = "Norwich Arts Centre"
@@ -860,9 +1043,11 @@ def scrape_norwich_arts_centre(session, log) -> list[dict]:
                     img_tag = card.find("img")
                 image_url = _resolve_image_url(_best_image_src(img_tag), event_url)
 
+                price = _extract_price(card_text)
+
                 events.append({"venue": VENUE, "event_name": title,
                                "date": date_str, "url": event_url,
-                               "image": image_url})
+                               "image": image_url, "price": price})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception as e:
                 log(f"  ⚠  Card error ({event_url}): {e}", "warn")
@@ -979,9 +1164,13 @@ def _scrape_uea_whats_on(session, log,
     for any /wp-content/uploads/ image URL rather than relying on <img>
     tag structure.
 
-    Returns {"venue", "event_name", "date", "url", "image"} dicts, where
-    "venue" is the full name as printed on the card (not yet run through
-    DEFAULT_ALIASES).
+    Price: taken from the card text if it shows one; otherwise the price
+    backfill visits the event page later (the UEA event pages carry
+    structured ticket data).
+
+    Returns {"venue", "event_name", "date", "url", "image", "price"} dicts,
+    where "venue" is the full name as printed on the card (not yet run
+    through DEFAULT_ALIASES).
     """
     events = []
     page = 1
@@ -1079,9 +1268,11 @@ def _scrape_uea_whats_on(session, log,
                 if not image_url:
                     log(f"  ⚠  No poster found for: {title}", "warn")
 
+                price = _extract_price(card_text)
+
                 events.append({"venue": venue_name, "event_name": title,
                                "date": date_str, "url": event_url,
-                               "image": image_url})
+                               "image": image_url, "price": price})
                 log(f"  ✓  {date_str}  [{venue_name}]  {title}", "ok")
             except Exception as e:
                 log(f"  ⚠  Card error ({event_url}): {e}", "warn")
@@ -1168,6 +1359,9 @@ def scrape_gonzos(driver, log) -> list[dict]:
     Poster images come for free here: JSON-LD Event objects almost always
     carry an "image" field (a string, or occasionally a list of strings —
     handled below by just taking the first entry in that case).
+
+    Prices come from the same JSON-LD block: the Event's "offers" field is
+    read by _price_from_offers().
     """
     import json as _json
 
@@ -1214,6 +1408,7 @@ def scrape_gonzos(driver, log) -> list[dict]:
                 "date":       date_str,
                 "url":        event_url,
                 "image":      image_url,
+                "price":      _price_from_offers(data.get("offers")),
             }
             added += 1
         return added
@@ -1312,9 +1507,10 @@ def scrape_voodoos(session, log) -> list[dict]:
                     log(f"  ⚠  No date for: {title}", "warn")
                     continue
                 image_url = _resolve_image_url(_best_image_src(card.find("img")), URL)
+                price = _extract_price(card.get_text(" ", strip=True))
                 events.append({"venue": VENUE, "event_name": title,
                                "date": date_str, "url": link,
-                               "image": image_url})
+                               "image": image_url, "price": price})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception:
                 continue
@@ -1356,9 +1552,10 @@ def scrape_holloway(driver, log) -> list[dict]:
                     log(f"  ⚠  No date for: {title}", "warn")
                     continue
                 image_url = _resolve_image_url(_best_image_src(card.find("img")), URL)
+                price = _extract_price(card.get_text(" ", strip=True))
                 events.append({"venue": VENUE, "event_name": title,
                                "date": date_str, "url": URL,
-                               "image": image_url})
+                               "image": image_url, "price": price})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception:
                 continue
@@ -1403,9 +1600,10 @@ def scrape_epic_studios(driver, log) -> list[dict]:
                 if link and not link.startswith("http"):
                     link = "https://epic-tv.com" + link
                 image_url = _resolve_image_url(_best_image_src(a.find("img")), link)
+                price = _extract_price(a.get_text(" ", strip=True))
                 events.append({"venue": VENUE, "event_name": title,
                                "date": date_str, "url": link,
-                               "image": image_url})
+                               "image": image_url, "price": price})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception:
                 continue
@@ -1464,10 +1662,11 @@ def scrape_dead_wax(session, log) -> list[dict]:
                     continue
 
                 image_url = _resolve_image_url(_best_image_src(art.find("img")), link)
+                price = _extract_price(art.get_text(" ", strip=True))
 
                 events.append({"venue": VENUE, "event_name": title,
                                "date": date_str, "url": link,
-                               "image": image_url})
+                               "image": image_url, "price": price})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception as e:
                 log(f"  ⚠  Article error: {e}", "warn")
@@ -1492,7 +1691,9 @@ def scrape_brickmakers_gig_guide(session, log) -> list[dict]:
     This listing site is text-only — no per-gig artwork anywhere in
     gig_bg — so "image" is always left as None here. dedupe_events() will
     backfill it from scrape_brickmakers_website() if that source has a
-    poster for the same date/act.
+    poster for the same date/act. The same goes for "price": the listing
+    has no prices, so it's left as None and borrowed from the website
+    scrape by dedupe_events() where available.
 
     Stops paginating when a page returns no gig_bg divs.
     """
@@ -1561,6 +1762,7 @@ def scrape_brickmakers_gig_guide(session, log) -> list[dict]:
                 "date":       date_str,
                 "url":        event_url,
                 "image":      None,
+                "price":      None,
             })
             log(f"  ✓  {date_str}  {act_name}", "ok")
             found_on_page += 1
@@ -1603,6 +1805,8 @@ def scrape_brickmakers_website(driver, log) -> list[dict]:
             <strong>8pm</strong>
 
     Junk titles (FREE ENTRY, TICKETS HERE, phone numbers, etc.) are skipped.
+
+    Price: taken from the whole text block (e.g. "Entry £5", "FREE ENTRY").
     """
     VENUE = "The Brickmakers - Norwich"
     URL   = "https://brickmakersnorwich.co.uk/home/brickmakers/brickmakers-gigs/"
@@ -1703,9 +1907,11 @@ def scrape_brickmakers_website(driver, log) -> list[dict]:
                     if media_div:
                         image_url = _resolve_image_url(_best_image_src(media_div.find("img")), URL)
 
+                price = _extract_price(block.get_text(" ", strip=True))
+
                 events.append({"venue": VENUE, "event_name": title,
                                "date": date_str, "url": URL,
-                               "image": image_url})
+                               "image": image_url, "price": price})
                 log(f"  ✓  {date_str}  {title}", "ok")
 
             except Exception as e:
@@ -1847,10 +2053,11 @@ def scrape_madder_market(driver, log) -> list[dict]:
                     link = href if href.startswith("http") else BASE_URL + href
 
                 image_url = _resolve_image_url(_best_image_src(card.find("img")), link)
+                price = _extract_price(card_text)
 
                 events.append({"venue": VENUE, "event_name": title,
                                "date": date_str, "url": link,
-                               "image": image_url})
+                               "image": image_url, "price": price})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception as e:
                 log(f"  ⚠  Card error: {e}", "warn")
@@ -1936,10 +2143,11 @@ def scrape_the_halls(session, log) -> list[dict]:
                     continue
 
                 image_url = _resolve_image_url(_best_image_src(art.find("img")), link)
+                price = _extract_price(article_text)
 
                 events.append({"venue": VENUE, "event_name": title,
                                "date": date_str, "url": link,
-                               "image": image_url})
+                               "image": image_url, "price": price})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception as e:
                 log(f"  ⚠  Article error: {e}", "warn")
@@ -2026,11 +2234,12 @@ def scrape_hangar_fixr(session, log) -> list[dict]:
                     continue
 
                 image_url = _resolve_image_url(_best_image_src(a_tag.find("img")), link)
+                price = _extract_price(text)
 
                 seen_urls.add(link)
                 events.append({"venue": VENUE, "event_name": title,
                                "date": date_str, "url": link,
-                               "image": image_url})
+                               "image": image_url, "price": price})
                 log(f"  ✓  {date_str}  {title}", "ok")
             except Exception as e:
                 log(f"  ⚠  Card error: {e}", "warn")
@@ -2075,6 +2284,11 @@ def scrape_revolucion_de_cuba(session, log) -> list[dict]:
     tracking pixel, https://www.facebook.com/tr?...). The old hero-image
     search is kept as a fallback, and _best_image_src() now rejects
     tracking pixels.
+
+    Price: the description paragraph on the detail page is checked for a
+    £ amount or "free entry". If none is found the price backfill (which
+    reads the event page's structured data) gets a second go, and after
+    that the website shows "Check website".
 
     The listing also mixes in non-gig posts under "Norwich" (weekly salsa
     classes, the Sunday tapas deal, Happy Hour, etc.) which aren't really
@@ -2181,9 +2395,15 @@ def scrape_revolucion_de_cuba(session, log) -> list[dict]:
                                 break
                     image_url = _resolve_image_url(_best_image_src(hero_img), event_url)
 
+                # Price — only look in the description paragraph, never the
+                # whole page (the page footer/menu is full of unrelated £
+                # amounts). None if there isn't one; the backfill or the
+                # site's "Check website" text covers that.
+                price = _extract_price(description)
+
                 events.append({"venue": VENUE, "event_name": title,
                                "date": date_str, "url": event_url,
-                               "image": image_url})
+                               "image": image_url, "price": price})
                 log(f"  ✓  {date_str}  {title}", "ok")
 
                 time.sleep(0.5)  # be polite between per-event detail-page requests
@@ -2196,7 +2416,6 @@ def scrape_revolucion_de_cuba(session, log) -> list[dict]:
 
     log(f"  → {len(events)} {VENUE} event(s)", "dim")
     return events
-
 
 def load_manual_events(log) -> list[dict]:
     """
@@ -2241,7 +2460,7 @@ def load_manual_events(log) -> list[dict]:
                 date       = (row.get("date") or "").strip()
                 url        = (row.get("url") or "").strip()
                 image      = (row.get("image") or "").strip() or None
-
+                price      = (row.get("price") or "").strip() or None
                 if not venue or not event_name or not date:
                     log(f"  ⚠  Skipping incomplete row: {row}", "warn")
                     continue
@@ -2285,6 +2504,11 @@ def load_previous_events(path: Path, log) -> list[dict]:
                 date       = (row.get("date") or "").strip()
                 url        = (row.get("url") or "").strip()
                 image      = (row.get("image") or "").strip() or None
+                price      = (row.get("price") or "").strip() or None
+                if venue and event_name and date:
+                    events.append({"venue": venue, "event_name": event_name,
+                                    "date": date, "url": url, "image": image,
+                                    "price": price})
                 if venue and event_name and date:
                     events.append({"venue": venue, "event_name": event_name,
                                     "date": date, "url": url, "image": image})
@@ -2428,18 +2652,21 @@ def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
     # own page (skips generic venue landing pages and discards site-wide
     # default images — see backfill_images_from_og).
     log(f"\n{'─'*48}", "dim")
-    log(f"  Backfilling missing posters from og:image", "plain")
+    log(f"  Backfilling missing prices from event pages", "plain")
     log(f"{'─'*48}", "dim")
-    backfill_images_from_og(events, session, log)
+    backfill_prices(events, session, log)
 
     # Apply venue aliases so the CSV already has short names
     for e in events:
         e["venue"]      = shorten_venue(e.get("venue", ""), DEFAULT_ALIASES)
         e["event_name"] = normalise_title(e.get("event_name", ""))
-        e["image"]      = e.get("image") or ""   # keep the CSV column clean (no "None" strings)
+        e["image"]      = e.get("image") or ""
+        e["price"]      = e.get("price") or ""   # blank → site shows "Check website"
 
     no_image_count = sum(1 for e in events if not e["image"])
     log(f"  🖼  {len(events) - no_image_count}/{len(events)} event(s) have a poster image", "dim")
+    no_price_count = sum(1 for e in events if not e["price"])
+    log(f"  £  {len(events) - no_price_count}/{len(events)} event(s) have a price", "dim")
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     with open(CSV_FILE, "w", newline="", encoding="utf-8") as f:
