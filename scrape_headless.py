@@ -417,30 +417,36 @@ def scrape_space_studios(driver, log) -> list[dict]:
 
     URL : https://www.spacestudiosnorwich.com  (front page has current events)
     The site has no fixed URL structure for "next month" pages — the team
-    running it just spins up a new Wix page with a fresh, unpredictable
-    slug each month (e.g. "copy-of-august-events") and links to it from a
-    "More Events" button on the front page. Some of those pages then have
-    their own "Month" nav link to yet another page.
+    running it spins up a new Wix page with an unpredictable slug each month
+    (e.g. "copy-of-august-events") and links to it from the front page.
 
-    Strategy: scrape the front page, then look for an <a> whose text is
-    "More Events" (front page) or "Month" (subsequent pages) and follow it,
-    repeating until no new/unvisited link is found or a safety cap of hops
-    is hit. Events are de-duplicated across pages by (title, date) since
-    later pages tend to re-list events already seen on an earlier page.
+    What changed / why this was rewritten:
+      * The front page now has TWO links to other listing pages: a
+        "More Events" link near the top (which currently points at an OLD
+        month's page) and a "Next Month" link at the bottom of the list.
+        The old code only matched the labels "more events" / "month", so it
+        (a) followed "More Events" into the stale page and (b) never
+        recognised "Next Month", so it never reached the upcoming month.
+      * Now every on-site link whose text looks like a month-navigation
+        link ("More Events", "Next Month", "Month", "October Events", …) is
+        queued and followed (breadth-first), with a visited set and a page
+        cap so it can't loop.
+      * Events already in the past are dropped (following the stale
+        "More Events" page would otherwise add a whole old month).
+      * Year is rolled forward when a date without a year lands well in the
+        past (e.g. "Friday 2nd January" scraped in December).
 
     Typical card structure inside div/li[role="listitem"]:
         h2/h3       → event title
-        h4 / p      → room, date, ticket label, genre (order can vary after Wix updates)
-        img         → Wix always renders a poster image somewhere in the card,
-                       though it's frequently lazy-loaded (see _best_image_src)
+        h4 / p      → room, date, ticket label, genre (order can vary)
+        img         → poster (often lazy-loaded, see _best_image_src)
 
-    Date is found positionally-independent: whichever heading/paragraph
+    Date is found position-independently: whichever heading/paragraph
     contains an ordinal day number (1st, 2nd … 31st) is treated as the date.
-    This survives Wix layout changes that shift h4 index positions.
     """
-    VENUE = "Space Studios Norwich"
-    URL   = "https://www.spacestudiosnorwich.com"
-    MAX_HOPS = 6  # front page + up to 5 "More Events"/"Month" follow-ons, as a safety cap
+    VENUE     = "Space Studios Norwich"
+    URL       = "https://www.spacestudiosnorwich.com"
+    MAX_PAGES = 8   # safety cap: front page + up to 7 follow-on pages
 
     log(f"\n{chr(9472)*48}", "dim")
     log(f"  Scraping {VENUE}", "plain")
@@ -452,7 +458,74 @@ def scrape_space_studios(driver, log) -> list[dict]:
         r"Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\b",
         re.I,
     )
-    _NEXT_LINK_LABELS = {"more events", "month"}
+    # Link text that means "go to another month's listing page".
+    _NEXT_LINK_RE = re.compile(
+        r"^(more events|next month|month|"
+        r"(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s+(?:events|listings))$",
+        re.I,
+    )
+    _SITE_HOST = urlparse(URL).netloc.lower().replace("www.", "")
+
+    def _norm(u: str) -> str:
+        """Comparable form of a URL (ignores www., trailing slash, #fragment, ?query)."""
+        p = urlparse(u)
+        return f"{p.netloc.lower().replace('www.', '')}{p.path.rstrip('/')}"
+
+    _WEEKDAYS = {"mon": 0, "tue": 1, "wed": 2, "thu": 3, "fri": 4, "sat": 5, "sun": 6}
+    _WEEKDAY_RE = re.compile(r"\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\b", re.I)
+
+    def _resolve_year(raw_date: str, date_str: str, title: str) -> str:
+        """
+        The site prints dates with no year ("Wednesday 2nd September"), and
+        Space copy/paste old pages, so a page's dates can belong to a
+        different year than the one we assume. The weekday name in the text
+        settles it: pick whichever of last/this/next year makes that
+        weekday match the day+month, and take the one nearest today.
+
+        If the weekday is missing, or matches in NO nearby year (i.e. the
+        site's weekday and date disagree — a typo on their side), keep the
+        date as scraped and log a warning so it can be checked by hand
+        rather than silently "fixing" it.
+        """
+        try:
+            dt = datetime.strptime(date_str, "%Y-%m-%d")
+        except ValueError:
+            return date_str
+
+        m = _WEEKDAY_RE.search(raw_date)
+        if not m:
+            return date_str
+        wd = _WEEKDAYS[m.group(1).lower()]
+
+        now = datetime.now()
+
+        def _matches(y):
+            try:
+                return datetime(y, dt.month, dt.day).weekday() == wd
+            except ValueError:   # e.g. 29 Feb in a non-leap year
+                return False
+
+        # Preference order: this year, then next year (Dec → Jan rollover),
+        # and only then last year.
+        if _matches(now.year):
+            return datetime(now.year, dt.month, dt.day).strftime("%Y-%m-%d")
+        if _matches(now.year + 1):
+            fixed = datetime(now.year + 1, dt.month, dt.day).strftime("%Y-%m-%d")
+            log(f"  ℹ  Year set to {now.year + 1} for '{title}' (weekday match)", "dim")
+            return fixed
+        if _matches(now.year - 1):
+            # Weekday only fits LAST year: either a stale page from last
+            # year, or (more likely, since Space build pages by copying
+            # old ones) a weekday they forgot to update. Losing a real gig
+            # is worse than showing one with a wrong weekday, so keep the
+            # date as scraped and flag it for a manual check.
+            log(f"  ⚠  '{title}': '{raw_date}' — weekday only fits last year; "
+                f"keeping {date_str}, please check", "warn")
+            return date_str
+
+        log(f"  ⚠  Weekday/date mismatch on site for '{title}': "
+            f"'{raw_date}' — keeping {date_str}, please check", "warn")
+        return date_str
 
     def _parse_cards(soup, page_url):
         """Parse every event card on the page, return list of event dicts."""
@@ -485,15 +558,14 @@ def scrape_space_studios(driver, log) -> list[dict]:
                 if not title:
                     continue
 
-                # Date — scan ALL h4/p/span elements; pick first one that looks
-                # like a date (contains an ordinal). This is position-independent.
+                # Date — first h4/h5/p/span containing an ordinal AND a month
                 raw_date = ""
                 for el in card.find_all(["h4", "h5", "p", "span"]):
                     txt = " ".join(el.get_text().split())
                     if _ORDINAL.search(txt) and _MONTH.search(txt):
                         raw_date = txt
                         break
-                # Fallback: ordinal alone (e.g. "Friday 1st May" without year)
+                # Fallback: ordinal alone (e.g. "Friday 1st")
                 if not raw_date:
                     for el in card.find_all(["h4", "h5", "p", "span"]):
                         txt = " ".join(el.get_text().split())
@@ -505,27 +577,28 @@ def scrape_space_studios(driver, log) -> list[dict]:
                     log(f"  ⚠  No date element for: {title}", "warn")
                     continue
 
-                # Append current year if missing
-                if not re.search(r"\d{4}", raw_date):
+                had_year = bool(re.search(r"\d{4}", raw_date))
+                if not had_year:
                     raw_date += f" {datetime.now().year}"
 
                 date_str = _parse_date(raw_date)
                 if not date_str:
                     log(f"  ⚠  Could not parse date '{raw_date}' for: {title}", "warn")
                     continue
+                if not had_year:
+                    date_str = _resolve_year(raw_date, date_str, title)
 
-                # Ticket URL — any <a href> in the card; prefer ones that look
-                # like ticket links, otherwise fall back to the site root.
-                event_url = page_url
+                # Ticket URL — prefer ticket-looking links, else any link.
+                # Fall back to the site root (NOT the month sub-page) so
+                # cards with no link (e.g. "Free Entry") get a stable URL.
+                event_url = URL
                 for a_tag in card.find_all("a", href=True):
                     href = a_tag["href"]
                     if re.search(r"ticket|book|event|wix", href, re.I):
                         event_url = href
                         break
-                    event_url = href  # take the last-resort first href
+                    event_url = href
 
-                # Poster image — Wix cards always render one, but it's
-                # commonly lazy-loaded (real URL in a data-* attribute).
                 image_url = _resolve_image_url(_best_image_src(card.find("img")), page_url)
 
                 page_events.append({
@@ -541,25 +614,35 @@ def scrape_space_studios(driver, log) -> list[dict]:
 
         return page_events
 
-    def _find_next_page(soup, current_url, visited):
-        """Find a 'More Events' or 'Month' link not yet visited."""
+    def _find_next_pages(soup, current_url):
+        """Return every on-site 'More Events' / 'Next Month' / 'Month' style link."""
+        found = []
         for a_tag in soup.find_all("a", href=True):
-            label = " ".join(a_tag.get_text().split()).strip().lower()
-            if label in _NEXT_LINK_LABELS:
-                next_url = urljoin(current_url, a_tag["href"])
-                if next_url not in visited:
-                    return next_url
-        return None
+            label = " ".join(a_tag.get_text().split()).strip()
+            if not label or not _NEXT_LINK_RE.match(label):
+                continue
+            next_url = urljoin(current_url, a_tag["href"])
+            if urlparse(next_url).netloc.lower().replace("www.", "") != _SITE_HOST:
+                continue   # ignore off-site links
+            found.append((label, next_url))
+        # "More Events" is the link Space most often leaves pointing at an
+        # old page, so try the other kinds ("Next Month" etc.) first.
+        found.sort(key=lambda lu: lu[0].lower() == "more events")
+        return found
 
     events: list[dict] = []
-    seen_keys: set[tuple[str, str]] = set()  # (event_name, date) — dedupe across pages
-    visited: set[str] = set()
+    seen_keys: set[tuple[str, str]] = set()   # (event_name, date) — dedupe across pages
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    queue: list[str] = [URL]
+    queued: set[str] = {_norm(URL)}
+    pages_done = 0
+    skipped_past = 0
 
     try:
-        current_url = URL
-        for hop in range(MAX_HOPS):
-            visited.add(current_url)
-            log(f"  → Page {hop + 1}: {current_url}", "dim")
+        while queue and pages_done < MAX_PAGES:
+            current_url = queue.pop(0)
+            pages_done += 1
+            log(f"  → Page {pages_done}: {current_url}", "dim")
 
             driver.get(current_url)
 
@@ -576,11 +659,20 @@ def scrape_space_studios(driver, log) -> list[dict]:
                     pass
             time.sleep(3)   # extra settle time for Wix JS hydration
 
+            # Scroll to the bottom so any lazy-rendered cards / the
+            # "Next Month" link (which sits below the list) are in the DOM.
+            for _ in range(4):
+                driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                time.sleep(1)
+
             soup = BeautifulSoup(driver.page_source, "lxml")
             page_events = _parse_cards(soup, current_url)
 
             new_on_page = 0
             for ev in page_events:
+                if ev["date"] < today_str:
+                    skipped_past += 1
+                    continue
                 key = (ev["event_name"].strip().lower(), ev["date"])
                 if key in seen_keys:
                     continue
@@ -589,20 +681,37 @@ def scrape_space_studios(driver, log) -> list[dict]:
                 new_on_page += 1
                 log(f"  ✓  {ev['date']}  {ev['event_name']}", "ok")
 
-            log(f"  → {new_on_page} new event(s) on this page ({len(page_events)} total on page)", "dim")
+            log(f"  → {new_on_page} new upcoming event(s) on this page "
+                f"({len(page_events)} card(s) total)", "dim")
+            if page_events:
+                dates = sorted(ev["date"] for ev in page_events)
+                log(f"  ℹ  Dates on this page span {dates[0]} → {dates[-1]}", "dim")
+            if new_on_page == 0:
+                log(f"  ⚠  Nothing new/upcoming on {current_url} — stale or "
+                    f"already-seen page?", "warn")
 
-            next_url = _find_next_page(soup, current_url, visited)
-            if not next_url:
-                log(f"  No further 'More Events'/'Month' link — done", "dim")
-                break
-            current_url = next_url
+            # Queue every month-navigation link we haven't seen yet
+            candidates = _find_next_pages(soup, current_url)
+            log(f"  ℹ  Month links on page: "
+                f"{[(l, u.rsplit('/', 1)[-1]) for l, u in candidates] or 'none'}", "dim")
+            for label, next_url in candidates:
+                key = _norm(next_url)
+                if key in queued:
+                    continue
+                queued.add(key)
+                queue.append(next_url)
+                log(f"  ↪  Queued '{label}' → {next_url}", "dim")
+
+        if queue:
+            log(f"  ⚠  Page cap ({MAX_PAGES}) reached with {len(queue)} link(s) unvisited", "warn")
 
     except Exception as e:
         log(f"  ✗  {VENUE} failed: {e}", "err")
 
+    if skipped_past:
+        log(f"  –  Skipped {skipped_past} past event(s)", "dim")
     log(f"  → {len(events)} event(s) total", "dim")
     return events
-
 
 def scrape_norwich_arts_centre(session, log) -> list[dict]:
     """
