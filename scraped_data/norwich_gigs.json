@@ -533,7 +533,7 @@
     "date": "2026-10-03",
     "url": "https://www.ueaticketbookings.co.uk/event/the-total-stone-roses/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/TTSR-Norwich-Square-500x500.png.webp",
-    "price": "Free"
+    "price": ""
   },
   {
     "venue": "LCR",
@@ -757,7 +757,7 @@
     "date": "2026-10-09",
     "url": "https://www.ueaticketbookings.co.uk/event/the-black-charade-fell-out-boy/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/01/Black-Charade-FOB-Waterfront-Square-2026-500x500.png",
-    "price": "Free"
+    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -837,7 +837,7 @@
     "date": "2026-10-10",
     "url": "https://www.ueaticketbookings.co.uk/event/ferocious-dog/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/F-Dog-Part2-2026-Norwich-Insta-square-1-500x500.jpg.webp",
-    "price": "Free"
+    "price": ""
   },
   {
     "venue": "LCR",
@@ -1237,7 +1237,7 @@
     "date": "2026-10-17",
     "url": "https://www.ueaticketbookings.co.uk/event/the-hoosiers/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Lauras-WF-LCR-IG-Template-2026-07-07T095539.460.jpg.webp",
-    "price": "Free"
+    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -1557,7 +1557,7 @@
     "date": "2026-10-24",
     "url": "https://www.ueaticketbookings.co.uk/event/huey-morgan/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/HUEY-MORGAN-2026-NORWICH-CLEAN3-500x500.jpg.webp",
-    "price": "Free"
+    "price": ""
   },
   {
     "venue": "LCR",
@@ -1861,7 +1861,7 @@
     "date": "2026-10-31",
     "url": "https://www.ueaticketbookings.co.uk/event/nightmare-on-king-street/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/NightmareOnKingStreet_2026_Square-500x500.png.webp",
-    "price": "£7–£8"
+    "price": ""
   },
   {
     "venue": "Voodoos",
@@ -2157,7 +2157,7 @@
     "date": "2026-11-09",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-genn-support-tba/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzgvMjYvMTEvMzEvMTkvNzMwL1JhY2tNdWx0aXBhcnQyMDI2MDgyNi01My0xMWhwd2ExLmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£10"
   },
   {
     "venue": "Dead Wax",
@@ -2205,7 +2205,7 @@
     "date": "2026-11-10",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/keg/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvNS8xMi8xMS8xNy83OTIvUmFja011bHRpcGFydDIwMjYwNzA1LTU1LTF1cjIwY2EucG5nIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£12.50"
   },
   {
     "venue": "Dead Wax",
@@ -2237,7 +2237,7 @@
     "date": "2026-11-11",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/machukha-with-healing-wound-acceptance/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMjYvMjAvNDkvMi81MjEvUmFja011bHRpcGFydDIwMjYwNjI2LTU5LTF4dDY0MngucG5nIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£17.50"
   },
   {
     "venue": "Brickmakers",
@@ -2277,7 +2277,7 @@
     "date": "2026-11-12",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/dermot-henry-plus-special-guests/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMi8yMS8zOC80MS8yNDMvUmFja011bHRpcGFydDIwMjYwOTAyLTU4LTFyaHQ2Ym8uanBnIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£13"
   },
   {
     "venue": "Dead Wax",
@@ -2349,7 +2349,7 @@
     "date": "2026-11-13",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/electric-eel-shock/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMjEvMTcvMzAvMzMvOTA0L1JhY2tNdWx0aXBhcnQyMDI2MDQyMS01OS0xdHFkM2JmLnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£12"
   },
   {
     "venue": "Dead Wax",
@@ -2421,7 +2421,7 @@
     "date": "2026-11-14",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-rabbitts/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMTAvMTQvMTMvMjQvMTM1L1JhY2tNdWx0aXBhcnQyMDI2MDQxMC02NS0xY2EzOG52LnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£10.36–£13.06"
   },
   {
     "venue": "Brickmakers",
@@ -2445,7 +2445,7 @@
     "date": "2026-11-14",
     "url": "https://fixr.co/event/fish56octagon-norwich-day-party-26th-september-tickets-540418264",
     "image": "https://fixr-cdn.fixr.co/images/event/2026-01/882b52bd7fc04e7fa1ad6a61fd7720fd.jpeg",
-    "price": ""
+    "price": "£10"
   },
   {
     "venue": "Holloway",
@@ -2713,19 +2713,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "PONY UP presents COWBOYY",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
-    "price": "£10–£12"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "corto.alto @ EPIC Studios",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
     "price": "£22–£25"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents COWBOYY",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
+    "price": "£10–£12"
   },
   {
     "venue": "Waterfront",
@@ -2757,7 +2757,7 @@
     "date": "2026-11-25",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-love-buzz/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMjUvMTAvMTcvNS84NTEvUmFja011bHRpcGFydDIwMjYwNzI1LTU4LXVxbjR2My5qcGciXV0?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£10"
   },
   {
     "venue": "Brickmakers",
@@ -2885,7 +2885,7 @@
     "date": "2026-11-28",
     "url": "https://epic-tv.com/events/event/big-fish-little-fish-norwich-family-rave-xmas-special-2-bad-mice",
     "image": "",
-    "price": ""
+    "price": "£9–£11"
   },
   {
     "venue": "Epic",
@@ -2925,7 +2925,7 @@
     "date": "2026-11-28",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/magnolia-adams-farewell-show-the-scuttlers-troilus/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvNC8xNC82LzU1LzQ2Ny9SYWNrTXVsdGlwYXJ0MjAyNjA5MDQtNTYtOTdrd3gyLmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£9"
   },
   {
     "venue": "Brickmakers",
@@ -3053,7 +3053,7 @@
     "date": "2026-12-04",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/myopia-a-different-kitchen-crying-in-colour/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzgvMTkvMTAvMTEvMjAvMjE4L1JhY2tNdWx0aXBhcnQyMDI2MDgxOS01OS0xZGJiYWF3LmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£6"
   },
   {
     "venue": "Brickmakers",
@@ -3109,7 +3109,7 @@
     "date": "2026-12-05",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/dad-manners/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzMvMjIvMTEvMjMvNTEvMzIvUmFja011bHRpcGFydDIwMjYwMzIyLTU3LWszeXd2bC5qcGciXV0?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£15"
   },
   {
     "venue": "Brickmakers",
@@ -3133,7 +3133,7 @@
     "date": "2026-12-05",
     "url": "https://fixr.co/event/norwich-mj-cole-daylight-disco-end-of-summer-day-p-tickets-108678374",
     "image": "https://fixr-cdn.fixr.co/images/event/2026-08/f8bab281d33242bdbc2f63bf7f3238e0.jpeg",
-    "price": ""
+    "price": "£7.50"
   },
   {
     "venue": "Waterfront",
@@ -3189,7 +3189,7 @@
     "date": "2026-12-10",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/unsigned-live-2/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMS8xMC85LzI5Lzg3NS9SYWNrTXVsdGlwYXJ0MjAyNjA5MDEtNTQtNzRnMGdhLmpwZWciXV0?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£6–£8"
   },
   {
     "venue": "Dead Wax",
@@ -3301,7 +3301,7 @@
     "date": "2026-12-12",
     "url": "https://fixr.co/event/bank-holiday-fiesta-w-the-cuban-brothers-sunday-30-tickets-727244475",
     "image": "https://fixr-cdn.fixr.co/images/event/2026-06/df5bb64196a04047a3c2d41cc1633046.jpeg",
-    "price": ""
+    "price": "£10"
   },
   {
     "venue": "Voodoos",
@@ -3309,7 +3309,7 @@
     "date": "2026-12-13",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/annotations-of-an-autopsy/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTIvMTkvNDAvMzUvMzQwL1JhY2tNdWx0aXBhcnQyMDI2MDkxMi02NC00em9zYzYuanBnIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£14"
   },
   {
     "venue": "Epic",
@@ -3413,7 +3413,7 @@
     "date": "2026-12-18",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/pilot-the-dune-master-charger-erronaut/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMTQvMTAvNTkvNDgvMjkvUmFja011bHRpcGFydDIwMjYwNjE0LTU5LTE4ams0b2QuanBnIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£10"
   },
   {
     "venue": "Brickmakers",
@@ -3797,7 +3797,7 @@
     "date": "2027-02-14",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/big-truck/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMS8xMC81OC8zMi82MDAvUmFja011bHRpcGFydDIwMjYwOTAxLTY3LW9ydGlpMC5qcGciXV0?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£15"
   },
   {
     "venue": "Arts Centre",
@@ -3885,7 +3885,7 @@
     "date": "2027-02-21",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/maquina/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTYvMTEvMTUvNi82NDQvUmFja011bHRpcGFydDIwMjYwOTE2LTU1LXo1NWZoZC5qcGciXV0?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£15"
   },
   {
     "venue": "Waterfront",
@@ -3925,7 +3925,7 @@
     "date": "2027-02-25",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/dog-unit/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTYvOS8yMi8yOS85MjIvUmFja011bHRpcGFydDIwMjYwOTE2LTYwLWVvejNoNy5qcGciXV0?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£10"
   },
   {
     "venue": "Brickmakers",
