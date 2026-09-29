@@ -89,14 +89,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "three more tunes (dj)",
-    "date": "2026-08-22",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/three-more-tunes-dj",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1786374819455-D9OU79FHY14CM5FP0GRU/threemoretunes_aug.jpg",
-    "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Soapy (dj Set)",
     "date": "2026-08-26",
     "url": "https://www.deadwaxnorwich.pub/whats-on/j79rxwax5136g23x9qvaaipw09cxly",
@@ -240,14 +232,6 @@
     "price": "Free"
   },
   {
-    "venue": "Last Pub",
-    "event_name": "Norwich Jazz Jam",
-    "date": "2026-09-28",
-    "url": "https://lpsnorwich.co.uk/",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Tone presents Claudio Constantini",
     "date": "2026-09-29",
@@ -297,19 +281,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-11.53.34-69e7573509af9-800x450-c-default.png",
-    "price": "£19–£23"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
     "date": "2026-09-30",
     "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/Mammal-Hands-Banner-6aa7f7cf051b7-800x450-c-default.jpg",
     "price": "£24–£27"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
+    "date": "2026-09-30",
+    "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-11.53.34-69e7573509af9-800x450-c-default.png",
+    "price": "£19–£23"
   },
   {
     "venue": "Brickmakers",
@@ -461,7 +445,7 @@
     "date": "2026-10-02",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-gaffa-tape-sandy-really-big-really-clever-rats-as-big-as-dogs/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzUvMTgvNy81LzEzLzk4OC9SYWNrTXVsdGlwYXJ0MjAyNjA1MTgtNTgtbTR6MHUzLnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": "£10"
+    "price": ""
   },
   {
     "venue": "Brickmakers",
@@ -597,6 +581,14 @@
     "date": "2026-10-06",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1788347485852-image.webp?alt=media&token=0bc342b4-3ac5-482a-873b-a9387700a21c",
+    "price": ""
+  },
+  {
+    "venue": "Maddermarket",
+    "event_name": "Tommaso Starace with the NJC Trio",
+    "date": "2026-10-06",
+    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=124801",
+    "image": "https://system.spektrix.com/themaddermarkettheatre/files/9dad1832-786c-4505-a0f6-ae0fef9cd98e.jpeg",
     "price": ""
   },
   {
@@ -1747,7 +1739,7 @@
     "venue": "Space",
     "event_name": "Nightjar w/ Ellie Stokes + YSL",
     "date": "2026-10-30",
-    "url": "https://www.spacestudiosnorwich.com",
+    "url": "https://www.tickettailor.com/events/kestrelheights/2438024?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAUod8dleHRuA2FlbQIxMQBwZG9mAmZkaWQWUPW9SIL9MRxM3UfxtOZPYdg31Xl_DXNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp_0LSBstWBhsrLcrr6UOqjDtIOP0e1hFVIU7zfKOyIq-APV4rROYz6ib0vRI_aem_eC-ii6fAsADw9yneLkT87w",
     "image": "",
     "price": ""
   },
@@ -2697,19 +2689,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "corto.alto @ EPIC Studios",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
-    "price": "£22–£25"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "PONY UP presents COWBOYY",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
     "price": "£10–£12"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "corto.alto @ EPIC Studios",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
+    "price": "£22–£25"
   },
   {
     "venue": "Waterfront",
