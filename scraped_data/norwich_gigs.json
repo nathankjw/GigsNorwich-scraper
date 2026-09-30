@@ -232,35 +232,11 @@
     "price": "Free"
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "Tone presents Claudio Constantini",
-    "date": "2026-09-29",
-    "url": "https://norwichartscentre.co.uk/event/tone-presents-claudio-constantini/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/Unknown-698b15ea91917-800x450-c-default.jpeg",
-    "price": "£21–£24"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "NEW NOISE! Lunavaria EP launch + Riya Lue & Niche",
-    "date": "2026-09-29",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/new-noise-lunavaria-ep-launch-riya-lue-niche/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMjEvMjAvMjAvMTgvNzU0L1JhY2tNdWx0aXBhcnQyMDI2MDkyMS01Ny1laTMzeHYuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£5"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Sam Russo & the Trembling Leaves + Sophie Porter + James Hull",
     "date": "2026-09-29",
     "url": "https://www.deadwaxnorwich.pub/whats-on/sam-russo-the-trembling-leaves-sophie-porter-james-hull",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1787935968990-HLPEXZLE7X0806W7RNZZ/sam+russo.jpeg",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Fifi G",
-    "date": "2026-09-29",
-    "url": "https://lpsnorwich.co.uk/",
-    "image": "",
     "price": ""
   },
   {
@@ -281,19 +257,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/Mammal-Hands-Banner-6aa7f7cf051b7-800x450-c-default.jpg",
-    "price": "£24–£27"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
     "date": "2026-09-30",
     "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-11.53.34-69e7573509af9-800x450-c-default.png",
     "price": "£19–£23"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
+    "date": "2026-09-30",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/Mammal-Hands-Banner-6aa7f7cf051b7-800x450-c-default.jpg",
+    "price": "£24–£27"
   },
   {
     "venue": "Brickmakers",
@@ -572,6 +548,14 @@
     "event_name": "Sammy-Jo and the Redflames",
     "date": "2026-10-04",
     "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Ribs of Beef",
+    "event_name": "Stonesthrow",
+    "date": "2026-10-04",
+    "url": "",
     "image": "",
     "price": ""
   },
@@ -1241,7 +1225,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "Tiny Vipers (USA) + Chantal Acda (BE/NL) + astridDrift.",
+    "event_name": "Tiny Vipers (USA) + Chantal Acda (BE/NL) + astridDrift. (Matinee Show)",
     "date": "2026-10-18",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1775495685492-IMG_1702.jpeg?alt=media&token=feb03d95-6d07-4b96-be28-1f0bf6213194",
@@ -1377,7 +1361,7 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "Bel Cobain + Nayana Ab & Maya Law",
+    "event_name": "Bel Cobain + Nayana Ab",
     "date": "2026-10-21",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/bel-cobain/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMTkvMTIvNC8zNi83NTQvUmFja011bHRpcGFydDIwMjYwNDE5LTYwLTFiOHY3bGoucG5nIl1d?ar=16:9&fit=crop",
@@ -1409,7 +1393,7 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "King No-One",
+    "event_name": "King No-One + The Portland",
     "date": "2026-10-22",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/king-no-one/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMjIvMTYvMjMvNTYvMTM4L1JhY2tNdWx0aXBhcnQyMDI2MDQyMi02MS0xcTU1MTU2LnBuZyJdXQ?ar=16:9&fit=crop",
@@ -1430,6 +1414,14 @@
     "url": "https://ra.co/events/2538221",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Gonzos",
+    "event_name": "Hardline w DJ Cosworth - All Night Long",
+    "date": "2026-10-23",
+    "url": "https://www.fatsoma.com/e/ymka3y64/hardline-w-dj-cosworth-all-night-long",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzkvMjkvMTcvNDYvMjUvNTE1L1JhY2tNdWx0aXBhcnQyMDI2MDkyOS01OC1hMDdxYzAuanBnIl1d",
+    "price": "£3–£5"
   },
   {
     "venue": "Holloway",
@@ -1565,6 +1557,14 @@
     "date": "2026-10-24",
     "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
     "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "Eastern Ear presents: Phil Archer + Alex Sanders + Leo Thornley",
+    "date": "2026-10-25",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790702577518-oct25th%20flyer.jpg?alt=media&token=4c42ad03-f064-472c-9982-7c839480a837",
     "price": ""
   },
   {
@@ -1741,7 +1741,7 @@
     "date": "2026-10-30",
     "url": "https://www.tickettailor.com/events/kestrelheights/2438024?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAUod8dleHRuA2FlbQIxMQBwZG9mAmZkaWQWUPW9SIL9MRxM3UfxtOZPYdg31Xl_DXNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp_0LSBstWBhsrLcrr6UOqjDtIOP0e1hFVIU7zfKOyIq-APV4rROYz6ib0vRI_aem_eC-ii6fAsADw9yneLkT87w",
     "image": "",
-    "price": ""
+    "price": "£11–£16"
   },
   {
     "venue": "Gonzos",
@@ -1860,6 +1860,14 @@
     "event_name": "Boston Tea Party + Halloween Party",
     "date": "2026-10-31",
     "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "HMV",
+    "event_name": "Bodysnatchers",
+    "date": "2026-10-31",
+    "url": "",
     "image": "",
     "price": ""
   },
@@ -2128,6 +2136,14 @@
     "price": ""
   },
   {
+    "venue": "Ribs of Beef",
+    "event_name": "HillBilly Goats Gruff",
+    "date": "2026-11-08",
+    "url": "",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Voodoos",
     "event_name": "Pica pica, Pica pica! presents ĠENN + support TBA",
     "date": "2026-11-09",
@@ -2150,6 +2166,14 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/wheel-up-presents-new-gen-2-open-mic-cypher",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788805777642-CW5DBLHIJOJEX3TNWMFI/wheel+up+new+gen+sep.jpeg",
     "price": "Free"
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "Asinine Corp Presents: Pillow Fort, Mountain Peaks, Dogboy + Never 💥",
+    "date": "2026-11-10",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790750726820-IMG_3357.jpeg?alt=media&token=2a6771b1-d72b-4bd5-80b3-0bf746382f35",
+    "price": "£7–£9"
   },
   {
     "venue": "Arts Centre",
@@ -2856,6 +2880,14 @@
     "price": ""
   },
   {
+    "venue": "Holloway",
+    "event_name": "Blanktalk + Dog At The Opera + Like Optimists",
+    "date": "2026-11-28",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790708561970-IMG_3356.webp?alt=media&token=951baf0c-fce2-4473-8d2c-1351b2a730e1",
+    "price": ""
+  },
+  {
     "venue": "Epic",
     "event_name": "Big Fish Little Fish - Norwich Family Rave Xmas Special (2 Bad Mice)",
     "date": "2026-11-28",
@@ -3184,6 +3216,14 @@
     "price": ""
   },
   {
+    "venue": "HMV",
+    "event_name": "Sakura Soundsystem",
+    "date": "2026-12-10",
+    "url": "",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Gonzos",
     "event_name": "A.M.C Grassroots Energy: Norwich",
     "date": "2026-12-11",
@@ -3302,6 +3342,14 @@
     "url": "https://norwichartscentre.co.uk/event/the-unthanks-in-winter-at-epic-studios/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/The-Unthanks-In-Winter-Photo-2-_-COLOUR-_-RGB-16x9-6a2fd7592b2e4-scaled-800x450-c-default.jpg",
     "price": "£35–£39.50"
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "Norwich Mysteries Festival 2027 - Festive Fundraiser",
+    "date": "2026-12-16",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790686847482-2ff2d605-e43a-4cde-b8a5-64d5283cfe79.jpeg?alt=media&token=e0720d5b-7e59-4fd1-a74b-a5d2d2564e9a",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -3448,6 +3496,22 @@
     "price": ""
   },
   {
+    "venue": "Ribs of Beef",
+    "event_name": "Those Deadbeat Cats",
+    "date": "2026-12-20",
+    "url": "",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "The Santa Show",
+    "date": "2026-12-21",
+    "url": "https://epic-tv.com/events/event/the-santa-show",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Beautiful Dangerous",
     "date": "2026-12-24",
@@ -3494,6 +3558,14 @@
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "John Otway & Wild Willy Barrett",
+    "date": "2027-01-08",
+    "url": "https://norwichartscentre.co.uk/event/john-otway-wild-willy-barrett/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-29-at-15.03.17-6abbc52a8cf39-800x450-c-default.png",
+    "price": "£20–£23"
   },
   {
     "venue": "Arts Centre",
@@ -3782,6 +3854,14 @@
     "url": "https://norwichartscentre.co.uk/event/hayden-thorpe-performs-the-songs-of-wild-beasts/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Screenshot-2026-07-07-at-11.09.45-6a4cd0915807c-800x450-c-default.png",
     "price": "£26–£28.50"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Corella",
+    "date": "2027-02-17",
+    "url": "https://norwichartscentre.co.uk/event/corella/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Screenshot-2026-09-25-at-14.28.18-6ab676ffb560c-800x450-c-default.png",
+    "price": "£23–£26"
   },
   {
     "venue": "LCR",
@@ -4142,6 +4222,14 @@
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1789658610792-IMG_3285.jpeg?alt=media&token=55b50da7-8c4d-4e54-af8f-1390d52fe866",
     "price": "£15"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Dinosaur Pile-Up",
+    "date": "2027-03-31",
+    "url": "https://www.ueaticketbookings.co.uk/event/dinosaur-pile-up/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DPU_UKTour_2027_1x1-500x500.png.webp",
+    "price": ""
   },
   {
     "venue": "Brickmakers",
