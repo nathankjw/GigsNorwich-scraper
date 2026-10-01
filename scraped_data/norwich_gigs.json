@@ -184,14 +184,6 @@
     "price": ""
   },
   {
-    "venue": "Revolucion de Cuba",
-    "event_name": "Strictly Salsa Norwich",
-    "date": "2026-09-21",
-    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
-    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
-    "price": "£5–£7"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "PINN (ep release show) + SICKENER + KADE HATES ME",
     "date": "2026-09-22",
@@ -237,62 +229,6 @@
     "date": "2026-09-29",
     "url": "https://www.deadwaxnorwich.pub/whats-on/sam-russo-the-trembling-leaves-sophie-porter-james-hull",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1787935968990-HLPEXZLE7X0806W7RNZZ/sam+russo.jpeg",
-    "price": ""
-  },
-  {
-    "venue": "Space",
-    "event_name": "Ziggarettes + Support",
-    "date": "2026-09-30",
-    "url": "https://www.fatsoma.com/e/781ghbbd/ziggarettes-support-space-studios",
-    "image": "",
-    "price": "£6"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Round Midnight presents Mammal Hands",
-    "date": "2026-09-30",
-    "url": "https://epic-tv.com/events/event/round-midnight-presents-mammal-hands",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Sam Kelly & The Lost Boys and Honey & The Bear",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/sam-kelly-the-lost-boys-and-honey-the-bear/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-11.53.34-69e7573509af9-800x450-c-default.png",
-    "price": "£19–£23"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Mammal Hands @ EPIC Studios",
-    "date": "2026-09-30",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-mammal-hands-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/Mammal-Hands-Banner-6aa7f7cf051b7-800x450-c-default.jpg",
-    "price": "£24–£27"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Norfolk Blues Society at the Brickmakers",
-    "date": "2026-09-30",
-    "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Haus of Brat",
-    "date": "2026-09-30",
-    "url": "https://lpsnorwich.co.uk/",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Halloween Bash",
-    "date": "2026-09-31",
-    "url": "https://lpsnorwich.co.uk/",
-    "image": "",
     "price": ""
   },
   {
@@ -558,6 +494,14 @@
     "url": "",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Revolucion de Cuba",
+    "event_name": "Strictly Salsa Norwich",
+    "date": "2026-10-05",
+    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
+    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
+    "price": "£5–£7"
   },
   {
     "venue": "Holloway",
@@ -1108,7 +1052,7 @@
     "event_name": "Demonhound Doomfest: Gurt + Sleeping Giant,  Famyne + more!",
     "date": "2026-10-16",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/demonhound-doomfest-gurt-sleeping-giant-famyne-more-2/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzMvMTcvMTUvMS8wLzY3Ny9SYWNrTXVsdGlwYXJ0MjAyNjAzMTctNjAtMzNhZ3JvLnBuZyJdXQ?ar=16:9&fit=crop",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEvOS8yNi8yNS82MTEvUmFja011bHRpcGFydDIwMjYxMDAxLTYxLTdscXpkLmpwZyJdXQ?ar=16:9&fit=crop",
     "price": "£16.50–£35"
   },
   {
@@ -1561,10 +1505,10 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "Eastern Ear presents: Phil Archer + Alex Sanders + Leo Thornley",
+    "event_name": "Phil Archer + Alex Peverett + Leo Thornley",
     "date": "2026-10-25",
     "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790702577518-oct25th%20flyer.jpg?alt=media&token=4c42ad03-f064-472c-9982-7c839480a837",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790842942321-oct25th%20flyer2.jpg?alt=media&token=0bcf8434-5440-4d4a-86e0-7afe69ba2e27",
     "price": ""
   },
   {
@@ -2713,19 +2657,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "corto.alto @ EPIC Studios",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
-    "price": "£22–£25"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "PONY UP presents COWBOYY",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
     "price": "£10–£12"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "corto.alto @ EPIC Studios",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
+    "price": "£22–£25"
   },
   {
     "venue": "Waterfront",
@@ -3486,6 +3430,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/day-fever/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Norwich-19_12-1080x1080--500x500.png.webp",
     "price": ""
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Tripl3 B & the Troubl3makers Xmas Party + DJ Dubious, DJ Tritt, Ethobeat",
+    "date": "2026-12-19",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/tripl3-b-the-troubl3makers-xmas-party-dj-dubious-dj-tritt-ethobeat/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMzAvMTYvMTAvMTcvNDc2L1JhY2tNdWx0aXBhcnQyMDI2MDkzMC02My13ZjhlNWsucG5nIl1d?ar=16:9&fit=crop",
+    "price": "£13"
   },
   {
     "venue": "Brickmakers",
@@ -4278,6 +4230,14 @@
     "url": "https://norwichartscentre.co.uk/event/jazz-sabbath/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2025/12/Jazz-Sabbath-WEB-photo-Jason-Gilchrist-693ae8ab620ee-800x450-c-default.jpg",
     "price": "£28.50–£34"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Daoirí Farrell",
+    "date": "2027-04-07",
+    "url": "https://norwichartscentre.co.uk/event/daoiri-farrell/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Daoiri-Farrell-_2_photo-credit-Eddie-Cavanagh-6ab1398132c31-scaled-800x450-c-default.jpg",
+    "price": "£16–£18.50"
   },
   {
     "venue": "Waterfront",
