@@ -475,17 +475,18 @@ def fetch_page_price(session, page_url: str, cache: dict, log) -> str | None:
                         result = _extract_price(line)
                         if result:
                             break
-
-            if ("voodoodaddysshowroom.co.uk/event/" in page_url
-            or "fatsoma.com/e/" in page_url):
-        result = fetch_fatsoma_linked_price(session, page_url, log)
-        cache[page_url] = result
-        return result
         
     except Exception as e:
         log(f"  ⚠  price fetch failed for {page_url}: {e}", "warn")
     cache[page_url] = result
     return result
+
+    if ("voodoodaddysshowroom.co.uk/event/" in page_url
+            or "fatsoma.com/e/" in page_url):
+        result = fetch_fatsoma_linked_price(session, page_url, log)
+        cache[page_url] = result
+        return result
+                
 # ── UEA ticket-box prices (Waterfront / LCR) ─────────────────────────────────
 # The price isn't on the event page. Its "Book tickets" button goes to
 # /book/?show=<EventInstanceId><letters>, which just frames a Spektrix page:
