@@ -1454,7 +1454,7 @@ def _scrape_uea_whats_on(session, log,
                 if not image_url:
                     log(f"  ⚠  No poster found for: {title}", "warn")
 
-                price = _extract_price(card_text)
+                price = _extract_price(card_text, allow_free=False)
 
                 events.append({"venue": venue_name, "event_name": title,
                                "date": date_str, "url": event_url,
