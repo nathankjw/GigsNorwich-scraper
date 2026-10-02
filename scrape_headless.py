@@ -476,7 +476,7 @@ def fetch_page_price(session, page_url: str, cache: dict, log) -> str | None:
                         if result:
                             break
 
-        if ("voodoodaddysshowroom.co.uk/event/" in page_url
+            if ("voodoodaddysshowroom.co.uk/event/" in page_url
             or "fatsoma.com/e/" in page_url):
         result = fetch_fatsoma_linked_price(session, page_url, log)
         cache[page_url] = result
