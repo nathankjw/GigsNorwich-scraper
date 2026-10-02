@@ -527,6 +527,53 @@ def _uea_note(log, kind: str, msg: str) -> None:
         log(f"  ℹ  UEA price [{kind}]: {msg}", "warn")
 
 
+def fetch_uea_price(session, event_page_url: str, log) -> str | None:
+    """
+    UEA ticket-box event page -> "Book tickets" link -> Spektrix
+    ChooseSeats page -> price lines like "@ £27.75 (inc. £2.75 cmsn)".
+    Never raises: any failure is logged (max 3 per kind) and returns None.
+    """
+    try:
+        resp = session.get(event_page_url, timeout=20, headers=_UEA_HEADERS)
+        if not resp.ok:
+            _uea_note(log, "event-http", f"HTTP {resp.status_code} for {event_page_url}")
+            return None
+
+        # Find the EventInstanceId in the /book/?show=<id><letters> link.
+        m = re.search(r"/book/\?show=(\d+)", resp.text)
+        if not m:
+            _uea_note(log, "no-book-link", f"no /book/?show= link on {event_page_url}")
+            return None
+
+        time.sleep(0.3)
+        tix = session.get(_UEA_TICKETS_URL.format(m.group(1)),
+                          timeout=20, headers=_UEA_HEADERS)
+        if not tix.ok:
+            _uea_note(log, "tickets-http", f"HTTP {tix.status_code} for instance {m.group(1)}")
+            return None
+
+        text = BeautifulSoup(tix.text, "lxml").get_text(" ", strip=True)
+
+        amounts: list[float] = []
+        for base, fee in _UEA_PRICE_RE.findall(text):
+            v = float(base)
+            # The regex's "@ £X" figure is already the total when a fee is
+            # shown "inc."; subtract the fee for face value if wanted.
+            if fee and not UEA_PRICE_INCLUDES_FEE:
+                v -= float(fee)
+            amounts.append(v)
+
+        if not amounts:
+            _uea_note(log, "no-price", f"{event_page_url} - page text starts: {text[:200]!r}")
+            return None
+
+        lo, hi = min(amounts), max(amounts)
+        return _fmt_price(lo) if lo == hi else f"{_fmt_price(lo)}–{_fmt_price(hi)}"
+
+    except Exception as e:
+        _uea_note(log, "exception", f"{event_page_url}: {e}")
+        return None
+
 # ── Fatsoma-backed venues
 
 # ── Fatsoma-backed venues (Voodoo Daddy's) ───────────────────────────────────
