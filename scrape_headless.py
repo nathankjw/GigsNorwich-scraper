@@ -475,6 +475,13 @@ def fetch_page_price(session, page_url: str, cache: dict, log) -> str | None:
                         result = _extract_price(line)
                         if result:
                             break
+
+        if ("voodoodaddysshowroom.co.uk/event/" in page_url
+            or "fatsoma.com/e/" in page_url):
+        result = fetch_fatsoma_linked_price(session, page_url, log)
+        cache[page_url] = result
+        return result
+        
     except Exception as e:
         log(f"  ⚠  price fetch failed for {page_url}: {e}", "warn")
     cache[page_url] = result
@@ -632,6 +639,82 @@ def fetch_uea_price(session, event_url: str, log) -> str | None:
     except Exception as e:
         _uea_note(log, "exception", f"{event_url}: {e}")
     return None
+
+# ── Fatsoma-backed venues (Voodoo Daddy's) ───────────────────────────────────
+# Voodoo's own event pages carry no price. Their title links to a Fatsoma
+# page (fatsoma.com/e/...) listing tickets like:
+#   "General Admission  £14.00 + £1.54 booking fee"
+# Uses the same UEA_PRICE_INCLUDES_FEE switch as the UEA block, so both
+# venues show prices the same way.
+
+_FATSOMA_HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-GB,en;q=0.9",
+}
+_FATSOMA_ROW_RE = re.compile(
+    r"£\s*(\d+(?:\.\d{1,2})?)\s*\+\s*£\s*(\d+(?:\.\d{1,2})?)\s*booking\s*fee",
+    re.IGNORECASE,
+)
+
+
+def _fatsoma_price_from_page(session, url: str, log) -> str | None:
+    resp = session.get(url, timeout=20, headers=_FATSOMA_HEADERS)
+    if not resp.ok:
+        _uea_note(log, "fatsoma-http", f"HTTP {resp.status_code} for {url}")
+        return None
+    soup = BeautifulSoup(resp.text, "lxml")
+    text = soup.get_text(" ", strip=True)
+
+    amounts: list[float] = []
+    for base, fee in _FATSOMA_ROW_RE.findall(text):
+        v = float(base)
+        if UEA_PRICE_INCLUDES_FEE:
+            v += float(fee)
+        amounts.append(v)
+
+    if not amounts:
+        # Fallback: structured data on the page, if there is any.
+        for script in soup.find_all("script", type="application/ld+json"):
+            try:
+                data = json.loads(script.string or "")
+            except Exception:
+                continue
+            for node in _iter_ld_nodes(data):
+                if "offers" in node:
+                    label = _price_from_offers(node["offers"])
+                    if label:
+                        return label
+        _uea_note(log, "fatsoma-no-price", f"{url} — page text starts: {text[:200]!r}")
+        return None
+
+    lo, hi = min(amounts), max(amounts)
+    return _fmt_price(lo) if lo == hi else f"{_fmt_price(lo)}–{_fmt_price(hi)}"
+
+
+def fetch_fatsoma_linked_price(session, page_url: str, log) -> str | None:
+    """Voodoo's event page → its Fatsoma link → price."""
+    try:
+        if "fatsoma.com/e/" in page_url:
+            return _fatsoma_price_from_page(session, page_url, log)
+        resp = session.get(page_url, timeout=20, headers=_FATSOMA_HEADERS)
+        if not resp.ok:
+            _uea_note(log, "fatsoma-http", f"HTTP {resp.status_code} for {page_url}")
+            return None
+        m = re.search(r"https://www\.fatsoma\.com/e/[A-Za-z0-9]+(?:/[^\s\"'<>]*)?", resp.text)
+        if not m:
+            _uea_note(log, "fatsoma-no-link", f"no Fatsoma link on {page_url}")
+            return None
+        time.sleep(0.3)
+        return _fatsoma_price_from_page(session, html.unescape(m.group(0)), log)
+    except Exception as e:
+        _uea_note(log, "fatsoma-exception", f"{page_url}: {e}")
+    return None
+
+
+
+
 def backfill_prices(events: list[dict], session, log, max_fetches: int = 400) -> None:
     """
     For upcoming events that still have no price, visit the event's own page
