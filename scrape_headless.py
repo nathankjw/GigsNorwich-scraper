@@ -519,13 +519,52 @@ def _uea_note(log, kind: str, msg: str) -> None:
         log(f"  ℹ  UEA price [{kind}]: {msg}", "warn")
 
 
+# One shared headless Chrome for the UEA ticket pages (started on first use,
+# closed after the price backfill). The ticket site returns 403 to plain
+# `requests` but serves a real browser.
+_UEA_DRIVER = None
+
+
+def _get_uea_driver():
+    global _UEA_DRIVER
+    if _UEA_DRIVER is None:
+        opts = Options()
+        for a in ("--headless=new", "--no-sandbox", "--disable-dev-shm-usage",
+                  "--disable-gpu", "--window-size=1280,900"):
+            opts.add_argument(a)
+        opts.add_argument("user-agent=" + _UEA_HEADERS["User-Agent"])
+        _UEA_DRIVER = webdriver.Chrome(
+            service=Service(ChromeDriverManager().install()), options=opts)
+        _UEA_DRIVER.set_page_load_timeout(30)
+    return _UEA_DRIVER
+
+
+def close_uea_driver() -> None:
+    global _UEA_DRIVER
+    if _UEA_DRIVER is not None:
+        try:
+            _UEA_DRIVER.quit()
+        except Exception:
+            pass
+        _UEA_DRIVER = None
+
+
 def _uea_price_from_ticket_page(session, url: str, referer: str, log) -> str | None:
-    """Read the prices on a Spektrix ChooseSeats page → price label."""
-    resp = session.get(url, timeout=20, headers={**_UEA_HEADERS, "Referer": referer})
-    if not resp.ok:
-        _uea_note(log, "ticket-page-http", f"HTTP {resp.status_code} for {url}")
+    """Load a Spektrix ChooseSeats page in headless Chrome → price label.
+    (`session` and `referer` are unused now; kept so the callers don't change.)"""
+    try:
+        driver = _get_uea_driver()
+        driver.get(url)
+        text = ""
+        for _ in range(12):                       # wait up to ~6s for the prices
+            text = driver.find_element(By.TAG_NAME, "body").text
+            if "£" in text:
+                break
+            time.sleep(0.5)
+    except Exception as e:
+        close_uea_driver()                        # start fresh next time
+        _uea_note(log, "selenium", f"{url}: {e}")
         return None
-    text = BeautifulSoup(resp.text, "lxml").get_text(" ", strip=True)
 
     amounts: list[float] = []
     for total, fee in _UEA_PRICE_RE.findall(text):
