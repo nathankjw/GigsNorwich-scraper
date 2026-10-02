@@ -229,7 +229,7 @@
     "date": "2026-10-02",
     "url": "https://www.eventbrite.co.uk/e/dog-at-the-opera-portrait-generation-yufo-tickets-1995155292187",
     "image": "",
-    "price": "£10"
+    "price": ""
   },
   {
     "venue": "Space",
@@ -246,30 +246,6 @@
     "url": "https://www.fatsoma.com/e/87yal2np/mozey",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzcvMTkvMTYvNC81Mi84ODMvUmFja011bHRpcGFydDIwMjYwNzE5LTYyLTI3M2x5ci5wbmciXV0",
     "price": "£10–£15"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "(SOLD OUT) Socks On Records presents: The Yee-Haws + Das Kapitans + Rudimentary Paste",
-    "date": "2026-10-02",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1787935778454-IMG_3191.jpeg?alt=media&token=9d970e23-f3bd-4926-9282-339e191fc462",
-    "price": ""
-  },
-  {
-    "venue": "Maddermarket",
-    "event_name": "DS:UK...in Tribute to Dire Straits - ON anoTHEr NIGHT tour",
-    "date": "2026-10-02",
-    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=102401",
-    "image": "https://system.spektrix.com/themaddermarkettheatre/files/c95a4c95-1e14-4d84-817e-6a0a63f4218f.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Takeda",
-    "date": "2026-10-02",
-    "url": "https://norwichartscentre.co.uk/event/takeda/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/IMG_0919-6a798eafb0573-scaled-800x450-c-default.jpg",
-    "price": "£11–£13"
   },
   {
     "venue": "Waterfront",
@@ -913,7 +889,7 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "John Craigie + Jobi Riccio, Holly Lerski",
+    "event_name": "John Craigie + Jobi Riccio",
     "date": "2026-10-15",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/john-craigie-job-riccio/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzUvMS83LzMwLzkvOTEzL1JhY2tNdWx0aXBhcnQyMDI2MDUwMS02MS0xYWtkZjdxLnBuZyJdXQ?ar=16:9&fit=crop",
@@ -1233,7 +1209,7 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "Bel Cobain + Nayana Ab",
+    "event_name": "Bel Cobain + Nayana Ab & Alice-Lily",
     "date": "2026-10-21",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/bel-cobain/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMTkvMTIvNC8zNi83NTQvUmFja011bHRpcGFydDIwMjYwNDE5LTYwLTFiOHY3bGoucG5nIl1d?ar=16:9&fit=crop",
@@ -2414,6 +2390,14 @@
     "url": "https://norwichartscentre.co.uk/event/martin-harley/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/Martin-harley-Press-shot-Extra-698b32dcac1bf-scaled-800x450-c-default.jpg",
     "price": "£21–£24"
+  },
+  {
+    "venue": "LCR",
+    "event_name": "Chase & Status",
+    "date": "2026-11-18",
+    "url": "https://www.ueaticketbookings.co.uk/event/chase-status/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/WF-AND-LCR-MASTERS-USE-THESE-52.jpg.webp",
+    "price": ""
   },
   {
     "venue": "Voodoos",
