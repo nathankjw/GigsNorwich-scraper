@@ -264,14 +264,6 @@
     "price": ""
   },
   {
-    "venue": "Voodoos",
-    "event_name": "Pica pica, Pica pica! presents Gaffa Tape Sandy, really big really clever, Rats As Big As Dogs",
-    "date": "2026-10-02",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-gaffa-tape-sandy-really-big-really-clever-rats-as-big-as-dogs/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzUvMTgvNy81LzEzLzk4OC9SYWNrTXVsdGlwYXJ0MjAyNjA1MTgtNTgtbTR6MHUzLnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": ""
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "After Thought Band",
     "date": "2026-10-02",
@@ -333,7 +325,7 @@
     "date": "2026-10-03",
     "url": "https://www.ueaticketbookings.co.uk/event/the-total-stone-roses/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/TTSR-Norwich-Square-500x500.png.webp",
-    "price": ""
+    "price": "Free"
   },
   {
     "venue": "LCR",
@@ -573,7 +565,7 @@
     "date": "2026-10-09",
     "url": "https://www.ueaticketbookings.co.uk/event/the-black-charade-fell-out-boy/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/01/Black-Charade-FOB-Waterfront-Square-2026-500x500.png",
-    "price": ""
+    "price": "Free"
   },
   {
     "venue": "Dead Wax",
@@ -653,7 +645,7 @@
     "date": "2026-10-10",
     "url": "https://www.ueaticketbookings.co.uk/event/ferocious-dog/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/F-Dog-Part2-2026-Norwich-Insta-square-1-500x500.jpg.webp",
-    "price": ""
+    "price": "Free"
   },
   {
     "venue": "LCR",
@@ -1045,7 +1037,7 @@
     "date": "2026-10-17",
     "url": "https://www.ueaticketbookings.co.uk/event/the-hoosiers/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Lauras-WF-LCR-IG-Template-2026-07-07T095539.460.jpg.webp",
-    "price": ""
+    "price": "Free"
   },
   {
     "venue": "Dead Wax",
@@ -1373,7 +1365,7 @@
     "date": "2026-10-24",
     "url": "https://www.ueaticketbookings.co.uk/event/huey-morgan/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/HUEY-MORGAN-2026-NORWICH-CLEAN3-500x500.jpg.webp",
-    "price": ""
+    "price": "Free"
   },
   {
     "venue": "LCR",
@@ -1685,7 +1677,7 @@
     "date": "2026-10-31",
     "url": "https://www.ueaticketbookings.co.uk/event/nightmare-on-king-street/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/NightmareOnKingStreet_2026_Square-500x500.png.webp",
-    "price": ""
+    "price": "£7–£8"
   },
   {
     "venue": "Voodoos",
@@ -2261,7 +2253,7 @@
     "date": "2026-11-14",
     "url": "https://www.ueaticketbookings.co.uk/event/dutch-graft-the-manor/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Dianas-WF-AND-LCR-MASTERS-USE-THESE-35-500x500.jpg.webp",
-    "price": ""
+    "price": "Free"
   },
   {
     "venue": "Voodoos",
@@ -2509,7 +2501,7 @@
     "date": "2026-11-21",
     "url": "https://www.ueaticketbookings.co.uk/event/skids-theatre-of-hate/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Skids-x-TOH-Norwich-SQ-500x500.jpg.webp",
-    "price": ""
+    "price": "Free"
   },
   {
     "venue": "Waterfront",
@@ -2569,19 +2561,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "PONY UP presents COWBOYY",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
-    "price": "£10–£12"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "corto.alto @ EPIC Studios",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
     "price": "£22–£25"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents COWBOYY",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
+    "price": "£10–£12"
   },
   {
     "venue": "Waterfront",
@@ -2749,7 +2741,7 @@
     "date": "2026-11-28",
     "url": "https://epic-tv.com/events/event/big-fish-little-fish-norwich-family-rave-xmas-special-2-bad-mice",
     "image": "",
-    "price": ""
+    "price": "£9–£11"
   },
   {
     "venue": "Epic",
@@ -2957,7 +2949,7 @@
     "date": "2026-12-05",
     "url": "https://www.ueaticketbookings.co.uk/event/the-entitled-sons/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/entitled-sons-sq.jpg.webp",
-    "price": ""
+    "price": "Free"
   },
   {
     "venue": "LCR",
@@ -4021,7 +4013,7 @@
     "date": "2027-03-13",
     "url": "https://www.ueaticketbookings.co.uk/event/just-radiohead/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/just-radiohead-sq.jpg.webp",
-    "price": ""
+    "price": "Free"
   },
   {
     "venue": "Waterfront",
