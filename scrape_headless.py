@@ -544,7 +544,11 @@ def fetch_uea_price(session, event_page_url: str, log) -> str | None:
         # Find the EventInstanceId in the /book/?show=<id><letters> link.
         m = re.search(r"/book/\?show=(\d+)", resp.text)
         if not m:
-            _uea_note(log, "no-book-link", f"no /book/?show= link on {event_page_url}")
+            hints = sorted(set(re.findall(
+                r"[^\s\"'<>]*(?:show=|EventInstanceId|spektrix|/book/)[^\s\"'<>]*",
+                resp.text)))[:5]
+            _uea_note(log, "no-book-link",
+                      f"{event_page_url} len={len(resp.text)} hints={hints}")
             return None
 
         time.sleep(0.3)
