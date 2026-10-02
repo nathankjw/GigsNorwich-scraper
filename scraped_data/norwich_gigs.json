@@ -1,19 +1,19 @@
 [
   {
     "venue": "Dead Wax",
-    "event_name": "Stonehill Collective + Harry Ixer + Awize",
-    "date": "2026-01-10",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/stonehill-collective-harry-ixer-awize",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788805800902-DXONNISJKJO5GYA3E8XU/stonehill_collective.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Joel (small Universe)",
     "date": "2026-01-10",
     "url": "https://www.deadwaxnorwich.pub/whats-on/joel-small-universe",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790619299012-RUV3WJSBZUQC2KPCVLAN/JOEL_OCT.jpg",
     "price": "Free"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "Stonehill Collective + Harry Ixer + Awize",
+    "date": "2026-01-10",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/stonehill-collective-harry-ixer-awize",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788805800902-DXONNISJKJO5GYA3E8XU/stonehill_collective.jpg",
+    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -86,14 +86,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/ront5io1jbiq28u5oy3powea4c5j2m",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790621181558-7H48SNADAFL6OB94KURV/Screenshot+2026-09-28+at+19.43.25.png",
     "price": ""
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Soapy (dj Set)",
-    "date": "2026-08-26",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/j79rxwax5136g23x9qvaaipw09cxly",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1786377257169-AQ6V2JJK2LJYUYK3246L/soapy_AUG.jpg",
-    "price": "Free"
   },
   {
     "venue": "Dead Wax",
@@ -229,62 +221,6 @@
     "date": "2026-09-29",
     "url": "https://www.deadwaxnorwich.pub/whats-on/sam-russo-the-trembling-leaves-sophie-porter-james-hull",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1787935968990-HLPEXZLE7X0806W7RNZZ/sam+russo.jpeg",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Creedence Clearwater Review - Cosmo's Factory Tour",
-    "date": "2026-10-01",
-    "url": "https://epic-tv.com/events/event/creedence-clearwater-review-cosmos-factory-tour",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Maddermarket",
-    "event_name": "The Upbeat Beatles",
-    "date": "2026-10-01",
-    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=113001",
-    "image": "https://system.spektrix.com/themaddermarkettheatre/files/a1a54e89-db81-49a0-96f6-44c7bf7c011b.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Ballads and Songs: Sam Carter sings Nic Jones",
-    "date": "2026-10-01",
-    "url": "https://norwichartscentre.co.uk/event/ballads-and-songs-sam-carter-sings-nic-jones/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/Sam-Carter-and-Nic-Jones-Web-Res-LANDSCAPE-69fa0ef1d773d-scaled-800x450-c-default.jpg",
-    "price": "£14–£16"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Fletchr Fletchr",
-    "date": "2026-10-01",
-    "url": "https://www.ueaticketbookings.co.uk/event/fletchr-fletchr/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Fletchr-Fletchr-Support-NORWICH-500x500.jpg.webp",
-    "price": ""
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Gaza Gig VII",
-    "date": "2026-10-01",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/gaza-gig-vii/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMS8xNy8xMy8xMS8yOTUvUmFja011bHRpcGFydDIwMjYwOTAxLTU4LTF2Y2F6dmYuanBlZyJdXQ?ar=16:9&fit=crop",
-    "price": "£12"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Live n Unsigned",
-    "date": "2026-10-01",
-    "url": "https://www.norfolkgigguide.com/band-details/Live+n+Unsigned",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Reindeer",
-    "event_name": "Folk Night",
-    "date": "2026-10-01",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
     "price": ""
   },
   {
@@ -753,7 +689,7 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "Gallus + The Sankaras",
+    "event_name": "Gallus + Alfie Bowles",
     "date": "2026-10-10",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/gallus/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMi8xOC80Mi8zNC8zMzAvUmFja011bHRpcGFydDIwMjYwNzAyLTU1LWU1M2hzLnBuZyJdXQ?ar=16:9&fit=crop",
@@ -829,14 +765,6 @@
     "date": "2026-10-11",
     "url": "https://www.ueaticketbookings.co.uk/event/the-hu/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Hu-SQ-500x500.jpg.webp",
-    "price": ""
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Girl Group",
-    "date": "2026-10-11",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/girl-group/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMi8xOC80My8zOC81OTUvUmFja011bHRpcGFydDIwMjYwNzAyLTU3LTFlcDR4N2cucG5nIl1d?ar=16:9&fit=crop",
     "price": ""
   },
   {
@@ -985,7 +913,7 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "John Craigie with special guest Jobi Riccio",
+    "event_name": "John Craigie + Jobi Riccio, Holly Lerski",
     "date": "2026-10-15",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/john-craigie-job-riccio/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzUvMS83LzMwLzkvOTEzL1JhY2tNdWx0aXBhcnQyMDI2MDUwMS02MS0xYWtkZjdxLnBuZyJdXQ?ar=16:9&fit=crop",
@@ -2724,7 +2652,7 @@
     "event_name": "Parker Barrow",
     "date": "2026-11-26",
     "url": "https://www.ueaticketbookings.co.uk/event/parker-barrow/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Parker-Barrow-1080-x-1080-Norwich-1-500x500.jpg.webp",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/31354-500x500.jpg.webp",
     "price": ""
   },
   {
@@ -3134,6 +3062,14 @@
     "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-ancient-infinity-orchestra/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Ancient-Infinity-Orchestra-web-6a5f8e0c75efc-800x450-c-default.jpg",
     "price": "£21–£23"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Sumo Cyco",
+    "date": "2026-12-10",
+    "url": "https://www.ueaticketbookings.co.uk/event/sumo-cyco/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/SumoCyco-SQ-tour-500x500.png.webp",
+    "price": ""
   },
   {
     "venue": "Voodoos",
@@ -3582,6 +3518,14 @@
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-the-new-cut/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/The-New-Cut-IVW-6ab692e2de14e-800x450-c-default.jpg",
     "price": "£10–£11"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Girl Group",
+    "date": "2027-01-27",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/girl-group/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMi8xOC80My8zOC81OTUvUmFja011bHRpcGFydDIwMjYwNzAyLTU3LTFlcDR4N2cucG5nIl1d?ar=16:9&fit=crop",
+    "price": "£13"
   },
   {
     "venue": "Brickmakers",
