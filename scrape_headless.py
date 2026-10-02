@@ -443,7 +443,7 @@ def fetch_page_price(session, page_url: str, cache: dict, log) -> str | None:
         return cache[page_url]
     result = None
 
-       if "ueaticketbookings.co.uk/event/" in page_url:
+    if "ueaticketbookings.co.uk/event/" in page_url:
         result = fetch_uea_price(session, page_url, log)
         if result:
             cache[page_url] = result
