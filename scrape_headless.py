@@ -549,7 +549,11 @@ def fetch_uea_price(session, event_page_url: str, log) -> str | None:
         tix = session.get(_UEA_TICKETS_URL.format(m.group(1)),
                           timeout=20, headers=_UEA_HEADERS)
         if not tix.ok:
-            _uea_note(log, "tickets-http", f"HTTP {tix.status_code} for instance {m.group(1)}")
+            _uea_note(log, "tickets-http",
+                      f"HTTP {tix.status_code} instance {m.group(1)} "
+                      f"server={tix.headers.get('server')!r} "
+                      f"cf-ray={tix.headers.get('cf-ray')!r} "
+                      f"body={tix.text[:150]!r}")
             return None
 
         text = BeautifulSoup(tix.text, "lxml").get_text(" ", strip=True)
