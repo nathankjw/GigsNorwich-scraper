@@ -697,9 +697,9 @@ def backfill_prices(events: list[dict], session, log, max_fetches: int = 400) ->
 
     for e in events:
         if "ueaticketbookings.co.uk" in (e.get("url") or ""):
-            p = lookup_uea_price(e, uea_cache)
-        if p:
-                e["price"] = p
+            cached = lookup_uea_price(e, uea_cache)
+            if cached:
+                e["price"] = cached
                 filled += 1
                 continue
         if e.get("price"):
