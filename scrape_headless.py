@@ -659,6 +659,10 @@ def fetch_fatsoma_linked_price(session, page_url: str, log) -> str | None:
         _uea_note(log, "fatsoma-exception", f"{page_url}: {e}")
     return None
 
+# Venues whose gigs are also sold through UEA/Spektrix, so the cache can price them.
+UEA_TICKETED_VENUES = ("epic", "brickmakers", "dead wax", "voodoo", "arts centre")
+
+
 def load_uea_price_cache() -> list[dict]:
     p = Path(__file__).parent / "scraped_data" / "uea_prices.json"
     try:
@@ -696,7 +700,10 @@ def backfill_prices(events: list[dict], session, log, max_fetches: int = 400) ->
     fetched = filled = 0
 
     for e in events:
-        if "ueaticketbookings.co.uk" in (e.get("url") or ""):
+        venue_l = (e.get("venue") or "").lower()
+        if ("ueaticketbookings.co.uk" in (e.get("url") or "")
+                or (not e.get("price")
+                    and any(k in venue_l for k in UEA_TICKETED_VENUES))):
             cached = lookup_uea_price(e, uea_cache)
             if cached:
                 e["price"] = cached
