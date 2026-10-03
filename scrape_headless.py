@@ -375,7 +375,7 @@ def _fmt_price(v: float) -> str:
     return f"£{v:.0f}" if float(v).is_integer() else f"£{v:.2f}"
 
 
-def _extract_price(text: str | None) -> str | None:
+def _extract_price(text: str | None, allow_free: bool = True) -> str | None:
     """
     Turn free text into a short price label: "£12", "£10.50", "£10–£15",
     or "Free". Returns None if nothing price-like is found (the website
@@ -389,12 +389,12 @@ def _extract_price(text: str | None) -> str | None:
     if positive:
         lo, hi = min(positive), max(positive)
         return _fmt_price(lo) if lo == hi else f"{_fmt_price(lo)}–{_fmt_price(hi)}"
-    if amounts or _FREE_RE.search(text):   # "£0" or "free entry"
+    if allow_free and (amounts or _FREE_RE.search(text)):   # "£0" or "free entry"
         return "Free"
     return None
 
 
-def _price_from_offers(offers) -> str | None:
+def _price_from_offers(offers, allow_free: bool = True) -> str | None:
     """schema.org `offers` (dict or list) → price label, GBP only."""
     if isinstance(offers, dict):
         offers = [offers]
@@ -414,9 +414,10 @@ def _price_from_offers(offers) -> str | None:
                 pass
     if not vals:
         return None
-    lo, hi = min(vals), max(vals)
-    if hi == 0:
-        return "Free"
+    positive = [v for v in vals if v > 0]
+    if not positive:
+        return "Free" if allow_free else None
+    lo, hi = min(positive), max(positive)
     return _fmt_price(lo) if lo == hi else f"{_fmt_price(lo)}–{_fmt_price(hi)}"
 
 
@@ -462,7 +463,7 @@ def fetch_page_price(session, page_url: str, cache: dict, log) -> str | None:
                     continue
                 for node in _iter_ld_nodes(data):
                     if "offers" in node:
-                        result = _price_from_offers(node["offers"])
+                        result = _price_from_offers(node["offers"], allow_free=False)
                         if result:
                             break
                 if result:
@@ -474,7 +475,7 @@ def fetch_page_price(session, page_url: str, cache: dict, log) -> str | None:
                 for line in soup.get_text("\n").split("\n"):
                     line = " ".join(line.split())
                     if 3 < len(line) <= 160 and _PRICE_LINE_KEYWORDS.search(line):
-                        result = _extract_price(line)
+                        result = _extract_price(line, allow_free=False)
                         if result:
                             break
         
