@@ -658,7 +658,25 @@ def fetch_fatsoma_linked_price(session, page_url: str, log) -> str | None:
         _uea_note(log, "fatsoma-exception", f"{page_url}: {e}")
     return None
 
+def load_uea_price_cache() -> list[dict]:
+    p = Path(__file__).parent / "scraped_data" / "uea_prices.json"
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return []
 
+
+def lookup_uea_price(event: dict, cache: list[dict]) -> str | None:
+    date = event.get("date", "")
+    title = _normalise_for_match(event.get("event_name", ""))
+    best, best_r = None, 0.0
+    for c in cache:
+        if c.get("date") != date:
+            continue
+        r = SequenceMatcher(None, title, _normalise_for_match(c.get("name", ""))).ratio()
+        if r > best_r:
+            best, best_r = c, r
+    return best["price"] if best and best_r >= 0.75 else None
 
 
 def backfill_prices(events: list[dict], session, log, max_fetches: int = 400) -> None:
@@ -673,9 +691,16 @@ def backfill_prices(events: list[dict], session, log, max_fetches: int = 400) ->
     generic_urls = set(DEFAULT_VENUE_LINKS.values())
     today = datetime.now().strftime("%Y-%m-%d")
     cache: dict[str, str | None] = {}
+    uea_cache = load_uea_price_cache()
     fetched = filled = 0
 
     for e in events:
+        if "ueaticketbookings.co.uk" in (e.get("url") or ""):
+            p = lookup_uea_price(e, uea_cache)
+        if p:
+                e["price"] = p
+                filled += 1
+                continue
         if e.get("price"):
             continue
         url = (e.get("url") or "").strip()
