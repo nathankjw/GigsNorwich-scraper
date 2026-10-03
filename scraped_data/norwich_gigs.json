@@ -568,14 +568,6 @@
     "price": ""
   },
   {
-    "venue": "Epic",
-    "event_name": "WAW Fightmare 8 (Matinee & Evening)",
-    "date": "2026-10-10",
-    "url": "https://epic-tv.com/events/event/waw-fightmare-8-matinee-evening",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Cut Capers",
     "date": "2026-10-10",
@@ -750,14 +742,6 @@
     "url": "https://www.fatsoma.com/e/ph78xy7g/toast-palm-estate-space-studios",
     "image": "",
     "price": "£3"
-  },
-  {
-    "venue": "Maddermarket",
-    "event_name": "ADHD Unfiltered",
-    "date": "2026-10-14",
-    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=117401",
-    "image": "https://system.spektrix.com/themaddermarkettheatre/files/00db219c-3067-4d14-a49c-4fd1d4ea2cc9.jpg",
-    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -961,14 +945,6 @@
   },
   {
     "venue": "Epic",
-    "event_name": "Inspires Greatest Show",
-    "date": "2026-10-17",
-    "url": "https://epic-tv.com/events/event/inspires-greatest-show",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
     "event_name": "R&B Lovers",
     "date": "2026-10-17",
     "url": "https://epic-tv.com/events/event/rb-lovers",
@@ -1088,14 +1064,6 @@
     "price": ""
   },
   {
-    "venue": "Epic",
-    "event_name": "Keeping Abreast 'More than just Fashion' Show: The 10th Show",
-    "date": "2026-10-20",
-    "url": "https://epic-tv.com/events/event/keeping-abreast-more-than-just-fashion-show-the-10th-show",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Jake Vaadeland & The Sturgeon River Boys",
     "date": "2026-10-20",
@@ -1136,14 +1104,6 @@
     "price": ""
   },
   {
-    "venue": "Epic",
-    "event_name": "Keeping Abreast 'More than just Fashion' Show: The 10th Show",
-    "date": "2026-10-21",
-    "url": "https://epic-tv.com/events/event/keeping-abreast-more-than-just-fashion-show-the-10th-show",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Beth Orton",
     "date": "2026-10-21",
@@ -1158,14 +1118,6 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/bel-cobain/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMTkvMTIvNC8zNi83NTQvUmFja011bHRpcGFydDIwMjYwNDE5LTYwLTFiOHY3bGoucG5nIl1d?ar=16:9&fit=crop",
     "price": "£16"
-  },
-  {
-    "venue": "Space",
-    "event_name": "Poetica - Poetry Night",
-    "date": "2026-10-22",
-    "url": "https://www.spacestudiosnorwich.com",
-    "image": "",
-    "price": "Free"
   },
   {
     "venue": "Holloway",
@@ -1360,14 +1312,6 @@
     "price": ""
   },
   {
-    "venue": "Epic",
-    "event_name": "Two Mr Ps in a Podcast: Live - Let That Be A Lesson...",
-    "date": "2026-10-25",
-    "url": "https://epic-tv.com/events/event/two-mr-ps-in-a-podcast-live-let-that-be-a-lesson",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Maddermarket",
     "event_name": "Je Suis Swing!",
     "date": "2026-10-25",
@@ -1398,14 +1342,6 @@
     "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
     "image": "",
     "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Neon Moon FREAKSHOW",
-    "date": "2026-10-27",
-    "url": "https://epic-tv.com/events/event/neon-moon-freakshow",
-    "image": "",
-    "price": "£16–£300"
   },
   {
     "venue": "Arts Centre",
@@ -1672,14 +1608,6 @@
     "price": ""
   },
   {
-    "venue": "Epic",
-    "event_name": "The Jury Experience: Death of Port Side",
-    "date": "2026-11-01",
-    "url": "https://epic-tv.com/events/event/the-jury-experience-death-of-port-side",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Will Wilde",
     "date": "2026-11-01",
@@ -1741,14 +1669,6 @@
     "date": "2026-11-05",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1776865994679-IMG_1854.jpeg?alt=media&token=1233b8d1-0627-4222-96aa-f98e1c09310e",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Josh Pugh: Ha Ha, Yeah Sound",
-    "date": "2026-11-05",
-    "url": "https://epic-tv.com/events/event/josh-pugh-ha-ha-yeah-sound",
-    "image": "",
     "price": ""
   },
   {
@@ -2513,19 +2433,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "corto.alto @ EPIC Studios",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
-    "price": "£22–£25"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "PONY UP presents COWBOYY",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
     "price": "£10–£12"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "corto.alto @ EPIC Studios",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
+    "price": "£22–£25"
   },
   {
     "venue": "Waterfront",
@@ -2685,14 +2605,6 @@
     "date": "2026-11-28",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790708561970-IMG_3356.webp?alt=media&token=951baf0c-fce2-4473-8d2c-1351b2a730e1",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Big Fish Little Fish - Norwich Family Rave Xmas Special (2 Bad Mice)",
-    "date": "2026-11-28",
-    "url": "https://epic-tv.com/events/event/big-fish-little-fish-norwich-family-rave-xmas-special-2-bad-mice",
-    "image": "",
     "price": ""
   },
   {
@@ -3422,14 +3334,6 @@
     "url": "https://www.ueaticketbookings.co.uk/event/alestorm/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Alestorm-2027-full-tour-1x1-1-500x500.jpg.webp",
     "price": "£36.40"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "The Jury Experience: Death of Port Side",
-    "date": "2027-01-23",
-    "url": "https://epic-tv.com/events/event/the-jury-experience-death-of-port-side",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Holloway",
@@ -4225,14 +4129,6 @@
   },
   {
     "venue": "Epic",
-    "event_name": "Spoke presents Hollie McNish",
-    "date": "2027-05-06",
-    "url": "https://epic-tv.com/events/event/spoke-presents-hollie-mcnish",
-    "image": "",
-    "price": "£18"
-  },
-  {
-    "venue": "Epic",
     "event_name": "An Acoustic Evening with Ward Thomas",
     "date": "2027-05-07",
     "url": "https://epic-tv.com/events/event/an-acoustic-evening-with-ward-thomas",
@@ -4321,14 +4217,6 @@
   },
   {
     "venue": "Epic",
-    "event_name": "Ed Byrne: No Dramas",
-    "date": "2027-05-27",
-    "url": "https://epic-tv.com/events/event/ed-byrne-no-dramas",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
     "event_name": "Tom Meighan - The Original Voice of Kasabian",
     "date": "2027-05-28",
     "url": "https://epic-tv.com/events/event/tom-meighan-the-original-voice-of-kasabian",
@@ -4364,14 +4252,6 @@
     "event_name": "Man In The Mirror – A Tribute To Michael Jackson - 2027",
     "date": "2027-06-12",
     "url": "https://epic-tv.com/events/event/man-in-the-mirror-a-tribute-to-michael-jackson-2027",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "John Lydon - I Could Be Wrong, I Could Be Right",
-    "date": "2027-06-25",
-    "url": "https://epic-tv.com/events/event/john-lydon-i-could-be-wrong-i-could-be-right",
     "image": "",
     "price": ""
   },
