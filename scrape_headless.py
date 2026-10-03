@@ -684,6 +684,71 @@ def lookup_uea_price(event: dict, cache: list[dict]) -> str | None:
     return best["price"] if best and best_r >= 0.75 else None
 
 
+_EPIC_HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"),
+    "Accept-Language": "en-GB,en;q=0.9",
+}
+_EPIC_SKIP_TICKETS = re.compile(r"access|companion|carer|wheelchair", re.I)
+
+
+def fetch_epic_universe_price(session, event_url: str, log) -> str | None:
+    """
+    Epic Studios event page -> Universe event code (data-target-id) ->
+    widget page, whose embedded data lists each ticket type with its price.
+    Prices there are all-in (all_in_pricing is true). Never raises.
+    """
+    try:
+        r = None
+        for _ in range(2):
+            r = session.get(event_url, timeout=20, headers=_EPIC_HEADERS)
+            if r.ok:
+                break
+            time.sleep(1)
+        if r is None or not r.ok:
+            _uea_note(log, "epic-http", f"HTTP {getattr(r, 'status_code', '?')} for {event_url}")
+            return None
+
+        m = re.search(r'data-target-id="([^"]+)"', r.text)
+        if not m:
+            return None   # no Universe widget on this page
+
+        time.sleep(0.3)
+        w = session.get(f"https://widgets.universe.com/{m.group(1)}",
+                        timeout=20, headers=_EPIC_HEADERS)
+        if not w.ok:
+            _uea_note(log, "epic-widget-http", f"HTTP {w.status_code} for {m.group(1)}")
+            return None
+
+        soup = BeautifulSoup(w.text, "lxml")
+        chunks = []
+        for sc in soup.find_all("script"):
+            for mm in re.finditer(r'self\.__next_f\.push\(\[1,"(.*)"\]\)', sc.string or "", re.S):
+                try:
+                    chunks.append(json.loads('"' + mm.group(1) + '"'))
+                except Exception:
+                    pass
+        data = "".join(chunks)
+
+        tickets = re.findall(
+            r'"name":"([^"]*)","price":(\d+(?:\.\d+)?),[^{}]*?"state":"active","type":"Rate"',
+            data)
+        main = [float(p) for n, p in tickets
+                if not _EPIC_SKIP_TICKETS.search(n) and float(p) > 0]
+        if not main:
+            main = [float(p) for n, p in tickets if float(p) > 0]
+        if not main:
+            _uea_note(log, "epic-no-price",
+                      f"{m.group(1)}: widget has {len(tickets)} ticket(s), none priced")
+            return None
+
+        lo, hi = min(main), max(main)
+        return _fmt_price(lo) if lo == hi else f"{_fmt_price(lo)}–{_fmt_price(hi)}"
+    except Exception as e:
+        _uea_note(log, "epic-exception", f"{event_url}: {e}")
+        return None
+
+
 def backfill_prices(events: list[dict], session, log, max_fetches: int = 400) -> None:
     """
     For upcoming events that still have no price, visit the event's own page
@@ -727,7 +792,12 @@ def backfill_prices(events: list[dict], session, log, max_fetches: int = 400) ->
             fetched += 1
             time.sleep(0.5)
 
-        price = fetch_page_price(session, url, cache, log)
+        if "epic-tv.com/events/event/" in url:
+            if url not in cache:
+                cache[url] = fetch_epic_universe_price(session, url, log)
+            price = cache[url]
+        else:
+            price = fetch_page_price(session, url, cache, log)
         if price:
             e["price"] = price
             filled += 1
