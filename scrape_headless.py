@@ -106,7 +106,7 @@ DEFAULT_VENUE_LINKS: dict[str, str] = {
     "HMV":          "https://www.instagram.com/hmv_norwich/?hl=en",
     "Dead Wax":     "https://www.deadwaxnorwich.pub/whats-on",
     "First Draft":  "https://www.firstdraftkitchen.com/",
-    "Maddermarket": "https://booking.maddermarket.co.uk/Events",
+    "Maddermarket": "https://ing.maddermarket.co.uk/Events",
     "The Halls":    "https://www.norwich.gov.uk/thehalls/whats",
     "Hangar":       "https://fixr.co/venue/the-hangar-norwich-26779",
     "Revolucion de Cuba": "https://www.revoluciondecuba.com/events/?location=Norwich&type=Live+Music",
@@ -265,7 +265,7 @@ def backfill_images_from_og(events: list[dict], session, log,
 
 # Phrases (case-insensitive) that flag an event for removal.
 _FILTER_PHRASES = re.compile(
-    r"\b(film\s+screening|Keyring|Book\s+Launch|Q\s+&\s+A|screening|bingo|quiz|cribbage|clothes|comedy|Zine|KARAOKE|cancelled|Book\s+Festival|darts|Gig\s+List\s+Book|cinema|jewellery\s+making|private\s+event)\b",
+    r"\b(film\s+screening|Keyring|Book\s+Launch|Q\s+&\s+A|screening|bingo|quiz|cribbage|family\s+rave|clothes|comedy|Zine|KARAOKE|podcast|ADHD|poetry\s+night|josh\s+pugh|inspires|jury|fightmare|abreast|freakshow|ed\s+byrne|john\s+lydon|hollie\s+mcnish| cancelled|Book\s+Festival|darts|Gig\s+List\s+Book|cinema|jewellery\s+making|private\s+event)\b",
     re.IGNORECASE,
 )
 # Norwich-area phone numbers: 01603 followed by digits (with optional spaces/hyphens)
