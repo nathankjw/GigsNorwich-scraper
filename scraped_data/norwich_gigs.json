@@ -97,14 +97,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "FREE monthly wax: Irked + BEN AULD BAND + the breedling",
-    "date": "2026-08-28",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1786376210558-5AEY9VV3HJH59EL3DFI0/Freemonthlywax_IRKEDA3.jpg",
-    "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Bone Machine",
     "date": "2026-08-29",
     "url": "https://www.deadwaxnorwich.pub/whats-on/r99gi6h8udpp7kvsj2tttfg2d8kagn",
@@ -224,30 +216,6 @@
     "price": ""
   },
   {
-    "venue": "Space",
-    "event_name": "Dog At The Opera",
-    "date": "2026-10-02",
-    "url": "https://www.eventbrite.co.uk/e/dog-at-the-opera-portrait-generation-yufo-tickets-1995155292187",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Space",
-    "event_name": "Audio Scientists",
-    "date": "2026-10-02",
-    "url": "https://www.fatsoma.com/e/95pciqkj/audio-scientists-006?fbclid=PAdGRleAUgvtpwZG9mAmZkaWQWUO8z-RX3Pq6P-_tx0gEYdh38t9aiwWV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABpwxOtPEcOgu8LKnGgy-bTKhyZHvbBvBXthGBdRI9OV-mt0kR0l-7SDwvV_W2_aem_BKNbaVvjyLokp0MV1p1G_g",
-    "image": "",
-    "price": "Free"
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "Mozey",
-    "date": "2026-10-02",
-    "url": "https://www.fatsoma.com/e/87yal2np/mozey",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzcvMTkvMTYvNC81Mi84ODMvUmFja011bHRpcGFydDIwMjYwNzE5LTYyLTI3M2x5ci5wbmciXV0",
-    "price": "£10–£15"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Rhythm Of The 90s",
     "date": "2026-10-02",
@@ -261,22 +229,6 @@
     "date": "2026-10-02",
     "url": "https://www.ueaticketbookings.co.uk/event/arkayla/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/17769-500x500.jpg.webp",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "After Thought Band",
-    "date": "2026-10-02",
-    "url": "https://www.norfolkgigguide.com/band-details/After+Thought+Band",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Reindeer",
-    "event_name": "Southbound",
-    "date": "2026-10-02",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
     "price": ""
   },
   {
@@ -309,7 +261,7 @@
     "date": "2026-10-03",
     "url": "https://www.ueaticketbookings.co.uk/event/propaganda-norwich/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/imresizer-resize-Propaganda-Norwich-Ocr-Square-500x500.jpg.webp",
-    "price": ""
+    "price": "£7"
   },
   {
     "venue": "Waterfront",
@@ -325,7 +277,7 @@
     "date": "2026-10-03",
     "url": "https://www.ueaticketbookings.co.uk/event/the-total-stone-roses/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/TTSR-Norwich-Square-500x500.png.webp",
-    "price": "Free"
+    "price": "£27.75"
   },
   {
     "venue": "LCR",
@@ -453,7 +405,7 @@
     "date": "2026-10-07",
     "url": "https://www.ueaticketbookings.co.uk/event/hed-pe-cold/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/HED-PE_-COLD-SQ-500x500.png.webp",
-    "price": ""
+    "price": "£30.53"
   },
   {
     "venue": "Waterfront",
@@ -461,7 +413,7 @@
     "date": "2026-10-07",
     "url": "https://www.ueaticketbookings.co.uk/event/the-dunwells/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/TheDunwells_Square-500x500.png.webp",
-    "price": ""
+    "price": "£17.60"
   },
   {
     "venue": "Brickmakers",
@@ -533,7 +485,7 @@
     "date": "2026-10-09",
     "url": "https://www.fatsoma.com/e/i9pmepbq/motion-october",
     "image": "",
-    "price": "Free"
+    "price": ""
   },
   {
     "venue": "Gonzos",
@@ -565,7 +517,7 @@
     "date": "2026-10-09",
     "url": "https://www.ueaticketbookings.co.uk/event/the-black-charade-fell-out-boy/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/01/Black-Charade-FOB-Waterfront-Square-2026-500x500.png",
-    "price": "Free"
+    "price": "£22.20"
   },
   {
     "venue": "Dead Wax",
@@ -637,7 +589,7 @@
     "date": "2026-10-10",
     "url": "https://www.ueaticketbookings.co.uk/event/hannah-wicklund/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-Hannah-Wicklund-Square-500x500.jpg.webp",
-    "price": ""
+    "price": "£24.42"
   },
   {
     "venue": "Waterfront",
@@ -645,7 +597,7 @@
     "date": "2026-10-10",
     "url": "https://www.ueaticketbookings.co.uk/event/ferocious-dog/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/F-Dog-Part2-2026-Norwich-Insta-square-1-500x500.jpg.webp",
-    "price": "Free"
+    "price": "£30.53"
   },
   {
     "venue": "LCR",
@@ -653,7 +605,7 @@
     "date": "2026-10-10",
     "url": "https://www.ueaticketbookings.co.uk/event/don-broco/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/1x1-Square-1080x1080-1-1-500x500.jpg.webp",
-    "price": ""
+    "price": "£47.81"
   },
   {
     "venue": "Voodoos",
@@ -725,7 +677,7 @@
     "date": "2026-10-11",
     "url": "https://www.ueaticketbookings.co.uk/event/walter-trout/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2025/11/Walter-Trout-1080-x-1080-Norwich-500x500.jpg.webp",
-    "price": ""
+    "price": "£33.60"
   },
   {
     "venue": "LCR",
@@ -813,7 +765,7 @@
     "date": "2026-10-14",
     "url": "https://www.ueaticketbookings.co.uk/event/hayseed-dixie/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Untitled-design-2026-03-18T090927.909-500x500.jpg.webp",
-    "price": ""
+    "price": "£28.86"
   },
   {
     "venue": "LCR",
@@ -933,7 +885,7 @@
     "date": "2026-10-16",
     "url": "https://www.ueaticketbookings.co.uk/event/lady-leshurr/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/LL-Sq-500x500.jpg.webp",
-    "price": ""
+    "price": "£24.98"
   },
   {
     "venue": "Waterfront",
@@ -941,7 +893,7 @@
     "date": "2026-10-16",
     "url": "https://www.ueaticketbookings.co.uk/event/the-luke-combs-experience/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2025/12/Luke-Square-500x500.jpg.webp",
-    "price": ""
+    "price": "£24.98"
   },
   {
     "venue": "Voodoos",
@@ -1029,7 +981,7 @@
     "date": "2026-10-17",
     "url": "https://www.ueaticketbookings.co.uk/event/black-water-county/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/01/BlackWaterCounty-03-500x500.png.webp",
-    "price": ""
+    "price": "£19.80"
   },
   {
     "venue": "Waterfront",
@@ -1037,7 +989,7 @@
     "date": "2026-10-17",
     "url": "https://www.ueaticketbookings.co.uk/event/the-hoosiers/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Lauras-WF-LCR-IG-Template-2026-07-07T095539.460.jpg.webp",
-    "price": "Free"
+    "price": "£31.08–£55.50"
   },
   {
     "venue": "Dead Wax",
@@ -1093,7 +1045,7 @@
     "date": "2026-10-18",
     "url": "https://www.ueaticketbookings.co.uk/event/skating-polly/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/SkatingPolly_Poster-01-500x500.png.webp",
-    "price": ""
+    "price": "£16.50"
   },
   {
     "venue": "Brickmakers",
@@ -1125,7 +1077,7 @@
     "date": "2026-10-19",
     "url": "https://www.ueaticketbookings.co.uk/event/heaven-17/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Heaven-17-SQ-500x500.png.webp",
-    "price": ""
+    "price": "£38.64–£128.80"
   },
   {
     "venue": "Holloway",
@@ -1157,7 +1109,7 @@
     "date": "2026-10-20",
     "url": "https://www.ueaticketbookings.co.uk/event/gurriers/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Gurriers-2026-NORWICH-1080X10801-500x500.jpg.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "Voodoos",
@@ -1165,7 +1117,7 @@
     "date": "2026-10-20",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/voodoo-daddys-open-mic-12/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvOS8yMC8xMi8zNy82MjQvUmFja011bHRpcGFydDIwMjYwMzAzLTU4LTFlenE4cXEucG5nIl1d?ar=16:9&fit=crop",
-    "price": "Free"
+    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -1301,7 +1253,7 @@
     "date": "2026-10-23",
     "url": "https://www.ueaticketbookings.co.uk/event/duke-special/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/DukeSpecial-02-500x500.png.webp",
-    "price": ""
+    "price": "£27.50"
   },
   {
     "venue": "Brickmakers",
@@ -1365,7 +1317,7 @@
     "date": "2026-10-24",
     "url": "https://www.ueaticketbookings.co.uk/event/huey-morgan/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/HUEY-MORGAN-2026-NORWICH-CLEAN3-500x500.jpg.webp",
-    "price": "Free"
+    "price": "£33.60"
   },
   {
     "venue": "LCR",
@@ -1373,7 +1325,7 @@
     "date": "2026-10-24",
     "url": "https://www.ueaticketbookings.co.uk/event/the-wonder-stuff/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/The-Wonder-Stuff-x-Insprial-Carpets-2026-Norwich-1080x1080-1-500x500.jpg.webp",
-    "price": ""
+    "price": "£45"
   },
   {
     "venue": "Voodoos",
@@ -1541,7 +1493,7 @@
     "date": "2026-10-29",
     "url": "https://www.ueaticketbookings.co.uk/event/captain-accident-and-the-disasters/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/CaptainAccidentAndTheDisasters_captainaccident_square-500x500.png.webp",
-    "price": ""
+    "price": "£14.30"
   },
   {
     "venue": "Voodoos",
@@ -1605,7 +1557,7 @@
     "date": "2026-10-30",
     "url": "https://www.ueaticketbookings.co.uk/event/forever-nu/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Dianas-WF-AND-LCR-MASTERS-USE-THESE-4-500x500.jpg.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "Waterfront",
@@ -1613,7 +1565,7 @@
     "date": "2026-10-30",
     "url": "https://www.ueaticketbookings.co.uk/event/pams-house-halloween/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/275706572_10160513107674363_9011255592496007541_n-500x500.jpg.webp",
-    "price": ""
+    "price": "£16.50–£19.25"
   },
   {
     "venue": "Voodoos",
@@ -1677,7 +1629,7 @@
     "date": "2026-10-31",
     "url": "https://www.ueaticketbookings.co.uk/event/nightmare-on-king-street/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/NightmareOnKingStreet_2026_Square-500x500.png.webp",
-    "price": "£7–£8"
+    "price": "£8.50–£9.50"
   },
   {
     "venue": "Voodoos",
@@ -1733,7 +1685,7 @@
     "date": "2026-11-01",
     "url": "https://www.ueaticketbookings.co.uk/event/will-wilde/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/WillWilde-02-500x500.png.webp",
-    "price": ""
+    "price": "£19.80"
   },
   {
     "venue": "Brickmakers",
@@ -1765,7 +1717,7 @@
     "date": "2026-11-04",
     "url": "https://www.ueaticketbookings.co.uk/event/breed-77/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Breed77_Square-500x500.png.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "LCR",
@@ -1773,7 +1725,7 @@
     "date": "2026-11-04",
     "url": "https://www.ueaticketbookings.co.uk/event/deaf-havana/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/1x1-NoLinkSquare-1080x1080-1-500x500.jpg.webp",
-    "price": ""
+    "price": "£32.75"
   },
   {
     "venue": "Brickmakers",
@@ -1845,7 +1797,7 @@
     "date": "2026-11-06",
     "url": "https://www.ueaticketbookings.co.uk/event/mad-dog-mcrea/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Dianas-WF-AND-LCR-MASTERS-USE-THESE-500x500.jpg.webp",
-    "price": ""
+    "price": "£24.42"
   },
   {
     "venue": "Voodoos",
@@ -1893,7 +1845,7 @@
     "date": "2026-11-07",
     "url": "https://www.ueaticketbookings.co.uk/event/propaganda/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-39-500x500.png.webp",
-    "price": ""
+    "price": "£6.60"
   },
   {
     "venue": "Waterfront",
@@ -1901,7 +1853,7 @@
     "date": "2026-11-07",
     "url": "https://www.ueaticketbookings.co.uk/event/chloe-slater/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/CS-SQ-500x500.jpg.webp",
-    "price": ""
+    "price": "£16.72"
   },
   {
     "venue": "Waterfront",
@@ -1909,7 +1861,7 @@
     "date": "2026-11-07",
     "url": "https://www.ueaticketbookings.co.uk/event/republica/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/imresizer-Republica_Square_Norwich_Waterfront-500x500.png.webp",
-    "price": ""
+    "price": "£33.60"
   },
   {
     "venue": "Voodoos",
@@ -1957,7 +1909,7 @@
     "date": "2026-11-08",
     "url": "https://www.ueaticketbookings.co.uk/event/joshua-idehen/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/1080x1080-500x500.jpg.webp",
-    "price": ""
+    "price": "£24.75"
   },
   {
     "venue": "Waterfront",
@@ -1965,7 +1917,7 @@
     "date": "2026-11-08",
     "url": "https://www.ueaticketbookings.co.uk/event/rosalie-cunningham/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/01/Rosalie-Cunningham-N._imresizer-500x500.jpg.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "Brickmakers",
@@ -2029,7 +1981,7 @@
     "date": "2026-11-10",
     "url": "https://www.ueaticketbookings.co.uk/event/ashley-singh/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Ashley-Singh-Tour-Nov-26-SQR-500x500.jpg.webp",
-    "price": ""
+    "price": "£16.50"
   },
   {
     "venue": "LCR",
@@ -2037,7 +1989,7 @@
     "date": "2026-11-10",
     "url": "https://www.ueaticketbookings.co.uk/event/del-amitri/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/30952-1-500x500.jpg.webp",
-    "price": ""
+    "price": "£44.24"
   },
   {
     "venue": "Voodoos",
@@ -2109,7 +2061,7 @@
     "date": "2026-11-12",
     "url": "https://www.ueaticketbookings.co.uk/event/young-knives/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/YoungKnives_Square-500x500.png.webp",
-    "price": ""
+    "price": "£27.75"
   },
   {
     "venue": "Voodoos",
@@ -2165,7 +2117,7 @@
     "date": "2026-11-13",
     "url": "https://www.ueaticketbookings.co.uk/event/nieve-ella/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Nieve-Ella-sq-1-500x500.jpg.webp",
-    "price": ""
+    "price": "£21.45"
   },
   {
     "venue": "Waterfront",
@@ -2173,7 +2125,7 @@
     "date": "2026-11-13",
     "url": "https://www.ueaticketbookings.co.uk/event/the-zac-schulze-gang/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/sQF-500x500.png.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "LCR",
@@ -2181,7 +2133,7 @@
     "date": "2026-11-13",
     "url": "https://www.ueaticketbookings.co.uk/event/dizzee-rascal/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-DIZZEE-RASCAL-INSTA-NORWICH-2026-500x500.jpg.webp",
-    "price": ""
+    "price": "£48.03"
   },
   {
     "venue": "Voodoos",
@@ -2245,7 +2197,7 @@
     "date": "2026-11-14",
     "url": "https://www.ueaticketbookings.co.uk/event/deptford-northern-soul-club/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-Deptford-Digital_Square-500x500.jpg.webp",
-    "price": ""
+    "price": "£13.20"
   },
   {
     "venue": "Waterfront",
@@ -2253,7 +2205,7 @@
     "date": "2026-11-14",
     "url": "https://www.ueaticketbookings.co.uk/event/dutch-graft-the-manor/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Dianas-WF-AND-LCR-MASTERS-USE-THESE-35-500x500.jpg.webp",
-    "price": "Free"
+    "price": "£24.98"
   },
   {
     "venue": "Voodoos",
@@ -2309,7 +2261,7 @@
     "date": "2026-11-15",
     "url": "https://www.ueaticketbookings.co.uk/event/kid-kapichi/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Kid-Kapichi-sq-support.jpg.webp",
-    "price": ""
+    "price": "£26.09"
   },
   {
     "venue": "Waterfront",
@@ -2317,7 +2269,7 @@
     "date": "2026-11-15",
     "url": "https://www.ueaticketbookings.co.uk/event/hail-the-sun/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/HailTheSun_Square-500x500.png.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "Voodoos",
@@ -2341,7 +2293,7 @@
     "date": "2026-11-16",
     "url": "https://www.ueaticketbookings.co.uk/event/little-angels/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/WF-AND-LCR-MASTERS-USE-THESE-41-500x500.jpg.webp",
-    "price": ""
+    "price": "£50.63"
   },
   {
     "venue": "Arts Centre",
@@ -2357,7 +2309,7 @@
     "date": "2026-11-17",
     "url": "https://www.ueaticketbookings.co.uk/event/the-commoners/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/imresizer-TheCommoners-Norwich-Square-500x500.jpg.webp",
-    "price": ""
+    "price": "£25.53"
   },
   {
     "venue": "LCR",
@@ -2413,7 +2365,7 @@
     "date": "2026-11-19",
     "url": "https://www.ueaticketbookings.co.uk/event/hang-massive/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Hang-Massive-Norwich-SQ-500x500.png.webp",
-    "price": ""
+    "price": "£24.98–£38.85"
   },
   {
     "venue": "Brickmakers",
@@ -2445,7 +2397,7 @@
     "date": "2026-11-20",
     "url": "https://www.ueaticketbookings.co.uk/event/the-high-points/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/The-High-Points_UK-Tour_Square-500x500.jpg.webp",
-    "price": ""
+    "price": "£16.50"
   },
   {
     "venue": "Waterfront",
@@ -2453,7 +2405,7 @@
     "date": "2026-11-20",
     "url": "https://www.ueaticketbookings.co.uk/event/ricky-warwick-the-fighting-hearts/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Ricky-Warwicj-support-sq-500x500.png.webp",
-    "price": ""
+    "price": "£24.98"
   },
   {
     "venue": "Brickmakers",
@@ -2501,7 +2453,7 @@
     "date": "2026-11-21",
     "url": "https://www.ueaticketbookings.co.uk/event/skids-theatre-of-hate/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Skids-x-TOH-Norwich-SQ-500x500.jpg.webp",
-    "price": "Free"
+    "price": "£33.60"
   },
   {
     "venue": "Waterfront",
@@ -2509,7 +2461,7 @@
     "date": "2026-11-21",
     "url": "https://www.ueaticketbookings.co.uk/event/portrayal-of-guilt/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Lauras-WF-LCR-IG-Template-500x500.png.webp",
-    "price": ""
+    "price": "£16.50"
   },
   {
     "venue": "The Halls",
@@ -2533,7 +2485,7 @@
     "date": "2026-11-22",
     "url": "https://www.ueaticketbookings.co.uk/event/good-health-good-wealth/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Good-Health-Good-Wealth-SQ-500x500.jpg.webp",
-    "price": ""
+    "price": "£16.50"
   },
   {
     "venue": "Brickmakers",
@@ -2549,7 +2501,7 @@
     "date": "2026-11-23",
     "url": "https://www.ueaticketbookings.co.uk/event/getdown-services/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/GetdownServices_LCR_Square-1-500x500.png.webp",
-    "price": ""
+    "price": "£24.42"
   },
   {
     "venue": "Epic",
@@ -2581,7 +2533,7 @@
     "date": "2026-11-24",
     "url": "https://www.ueaticketbookings.co.uk/event/reverend-and-the-makers/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/18687-500x500.jpg.webp",
-    "price": ""
+    "price": "£27.75"
   },
   {
     "venue": "Voodoos",
@@ -2597,7 +2549,7 @@
     "date": "2026-11-25",
     "url": "https://www.ueaticketbookings.co.uk/event/the-boys-are-back-again-east-17/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/Boys-Are-Back-Again-Norwich-1080x1080-1-500x500.jpg.webp",
-    "price": ""
+    "price": "£36.40–£112"
   },
   {
     "venue": "Voodoos",
@@ -2629,7 +2581,7 @@
     "date": "2026-11-26",
     "url": "https://www.ueaticketbookings.co.uk/event/parker-barrow/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/31354-500x500.jpg.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "Brickmakers",
@@ -2693,7 +2645,7 @@
     "date": "2026-11-27",
     "url": "https://www.ueaticketbookings.co.uk/event/london-calling-play-the-clash/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/London-Calling-SQ-1080-x-1080-Norwich-500x500.jpg.webp",
-    "price": ""
+    "price": "£24.98"
   },
   {
     "venue": "Waterfront",
@@ -2701,7 +2653,7 @@
     "date": "2026-11-27",
     "url": "https://www.ueaticketbookings.co.uk/event/discharge/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Dianas-WF-AND-LCR-MASTERS-USE-THESE-7-500x500.jpg.webp",
-    "price": ""
+    "price": "£24.42"
   },
   {
     "venue": "LCR",
@@ -2709,7 +2661,7 @@
     "date": "2026-11-27",
     "url": "https://www.ueaticketbookings.co.uk/event/avatar/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Lauras-WF-LCR-IG-Template-2026-05-22T120058.929.jpg.webp",
-    "price": ""
+    "price": "£37.52"
   },
   {
     "venue": "Brickmakers",
@@ -2765,7 +2717,7 @@
     "date": "2026-11-28",
     "url": "https://www.ueaticketbookings.co.uk/event/atlasi/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Dianas-WF-AND-LCR-MASTERS-USE-THESE-28-500x500.jpg.webp",
-    "price": ""
+    "price": "£12.10"
   },
   {
     "venue": "Waterfront",
@@ -2773,7 +2725,7 @@
     "date": "2026-11-28",
     "url": "https://www.ueaticketbookings.co.uk/event/uncle-acid-and-the-deadbeats/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Lauras-WF-LCR-IG-Template-81.jpg.webp",
-    "price": ""
+    "price": "£25.53"
   },
   {
     "venue": "Voodoos",
@@ -2813,7 +2765,7 @@
     "date": "2026-11-29",
     "url": "https://www.ueaticketbookings.co.uk/event/the-snuts/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/31656-500x500.jpg.webp",
-    "price": ""
+    "price": "£36.40"
   },
   {
     "venue": "Waterfront",
@@ -2821,7 +2773,7 @@
     "date": "2026-11-30",
     "url": "https://www.ueaticketbookings.co.uk/event/the-temperance-movement/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/TTM-SQ-1-500x500.jpg.webp",
-    "price": ""
+    "price": "£33.60"
   },
   {
     "venue": "Arts Centre",
@@ -2837,7 +2789,7 @@
     "date": "2026-12-02",
     "url": "https://www.ueaticketbookings.co.uk/event/sevendust/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Sevendust-support-sq.jpg.webp",
-    "price": ""
+    "price": "£33.60"
   },
   {
     "venue": "Epic",
@@ -2885,7 +2837,7 @@
     "date": "2026-12-04",
     "url": "https://www.ueaticketbookings.co.uk/event/dr-feelgood/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Dr-Feelgood_Square-500x500.png.webp",
-    "price": ""
+    "price": "£28.86"
   },
   {
     "venue": "Waterfront",
@@ -2901,7 +2853,7 @@
     "date": "2026-12-04",
     "url": "https://www.ueaticketbookings.co.uk/event/the-hunna/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/31862-500x500.jpg.webp",
-    "price": ""
+    "price": "£33.60"
   },
   {
     "venue": "Voodoos",
@@ -2933,7 +2885,7 @@
     "date": "2026-12-05",
     "url": "https://www.ueaticketbookings.co.uk/event/propaganda-2/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-40-500x500.png.webp",
-    "price": ""
+    "price": "£6.60"
   },
   {
     "venue": "Waterfront",
@@ -2941,7 +2893,7 @@
     "date": "2026-12-05",
     "url": "https://www.ueaticketbookings.co.uk/event/the-bon-jovi-experience-motley-crue-tribute-motley-crude/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2025/12/BONJOVIMOTLEYsquare-500x500.png.webp",
-    "price": ""
+    "price": "£24.98"
   },
   {
     "venue": "Waterfront",
@@ -2949,7 +2901,7 @@
     "date": "2026-12-05",
     "url": "https://www.ueaticketbookings.co.uk/event/the-entitled-sons/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/entitled-sons-sq.jpg.webp",
-    "price": "Free"
+    "price": "£17.60"
   },
   {
     "venue": "LCR",
@@ -2957,7 +2909,7 @@
     "date": "2026-12-05",
     "url": "https://www.ueaticketbookings.co.uk/event/ash/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/ash-sq.jpg.webp",
-    "price": ""
+    "price": "£33"
   },
   {
     "venue": "Voodoos",
@@ -2997,7 +2949,7 @@
     "date": "2026-12-06",
     "url": "https://www.ueaticketbookings.co.uk/event/the-fell/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/The-Fell_thefell_squareG-500x500.png.webp",
-    "price": ""
+    "price": "£27.75"
   },
   {
     "venue": "Brickmakers",
@@ -3093,7 +3045,7 @@
     "date": "2026-12-11",
     "url": "https://www.ueaticketbookings.co.uk/event/wednesday-13-the-birthday-massacre/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Wed-13-Bday-Mass.-SQ-500x500.png.webp",
-    "price": ""
+    "price": "£27.75"
   },
   {
     "venue": "Waterfront",
@@ -3101,7 +3053,7 @@
     "date": "2026-12-11",
     "url": "https://www.ueaticketbookings.co.uk/event/zz-toppd-the-uks-no-1-tribute-to-zz-top/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Dianas-WF-AND-LCR-MASTERS-USE-THESE-3-500x500.jpg.webp",
-    "price": ""
+    "price": "£16.50"
   },
   {
     "venue": "Dead Wax",
@@ -3141,7 +3093,7 @@
     "date": "2026-12-12",
     "url": "https://www.ueaticketbookings.co.uk/event/sham-69-50th-anniversary/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Sham-69-SQ-500x500.jpg.webp",
-    "price": ""
+    "price": "£35.84"
   },
   {
     "venue": "LCR",
@@ -3149,7 +3101,7 @@
     "date": "2026-12-12",
     "url": "https://www.ueaticketbookings.co.uk/event/belle-sebastian/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Belle-Sebastian-2026-Full-Tour-1080x1080-1-500x500.jpg.webp",
-    "price": ""
+    "price": "£50.85"
   },
   {
     "venue": "Brickmakers",
@@ -3277,7 +3229,7 @@
     "date": "2026-12-18",
     "url": "https://www.ueaticketbookings.co.uk/event/the-9075-the-worlds-first-tribute-to-the-1975/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/The9075-Norwich-Square-500x500.png.webp",
-    "price": ""
+    "price": "£19.80"
   },
   {
     "venue": "Waterfront",
@@ -3333,7 +3285,7 @@
     "date": "2026-12-19",
     "url": "https://www.ueaticketbookings.co.uk/event/pleasureinc/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/imresizer-Party-of-the-Year-2026-poster-1-square-copy-500x500.jpg.webp",
-    "price": ""
+    "price": "£13.20"
   },
   {
     "venue": "LCR",
@@ -3341,7 +3293,7 @@
     "date": "2026-12-19",
     "url": "https://www.ueaticketbookings.co.uk/event/day-fever/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Norwich-19_12-1080x1080--500x500.png.webp",
-    "price": ""
+    "price": "£13.20"
   },
   {
     "venue": "Voodoos",
@@ -3453,7 +3405,7 @@
     "date": "2027-01-16",
     "url": "https://www.ueaticketbookings.co.uk/event/r-e-m-by-stipe-the-definitive-tribute/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/REM-by-Stipe-SQ.jpg.webp",
-    "price": ""
+    "price": "£19.25"
   },
   {
     "venue": "Voodoos",
@@ -3469,7 +3421,7 @@
     "date": "2027-01-22",
     "url": "https://www.ueaticketbookings.co.uk/event/alestorm/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Alestorm-2027-full-tour-1x1-1-500x500.jpg.webp",
-    "price": ""
+    "price": "£36.40"
   },
   {
     "venue": "Epic",
@@ -3517,7 +3469,7 @@
     "date": "2027-01-28",
     "url": "https://www.ueaticketbookings.co.uk/event/fat-dog/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DP-WF-LCR-12-500x500.jpg.webp",
-    "price": ""
+    "price": "£27.75"
   },
   {
     "venue": "Brickmakers",
@@ -3557,7 +3509,7 @@
     "date": "2027-01-30",
     "url": "https://www.ueaticketbookings.co.uk/event/simulation-muse-sucker-love/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Simulation-Muse_Square-500x500.png",
-    "price": ""
+    "price": "£17.60"
   },
   {
     "venue": "Waterfront",
@@ -3565,7 +3517,7 @@
     "date": "2027-01-30",
     "url": "https://www.ueaticketbookings.co.uk/event/noasis/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Noasis-Norwich-SQ-500x500.png.webp",
-    "price": ""
+    "price": "£18.15"
   },
   {
     "venue": "Epic",
@@ -3589,7 +3541,7 @@
     "date": "2027-02-03",
     "url": "https://www.ueaticketbookings.co.uk/event/black-stone-cherry/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2025/12/Dianas-WF-AND-LCR-MASTERS-USE-THESE-43-500x500.jpg.webp",
-    "price": ""
+    "price": "£44.24"
   },
   {
     "venue": "Epic",
@@ -3605,7 +3557,7 @@
     "date": "2027-02-04",
     "url": "https://www.ueaticketbookings.co.uk/event/split-dogs/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/SPLOT-DOGS-SQ-500x500.png.webp",
-    "price": ""
+    "price": "£18.15"
   },
   {
     "venue": "Waterfront",
@@ -3613,7 +3565,7 @@
     "date": "2027-02-04",
     "url": "https://www.ueaticketbookings.co.uk/event/nubiyan-twist/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Nubiyan-Twist-SQ-500x500.png.webp",
-    "price": ""
+    "price": "£28.60"
   },
   {
     "venue": "Arts Centre",
@@ -3629,7 +3581,7 @@
     "date": "2027-02-06",
     "url": "https://www.ueaticketbookings.co.uk/event/bywater-call/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Bywater-Call-1080-x-1080-Onsale-500x500.jpg.webp",
-    "price": ""
+    "price": "£28.86"
   },
   {
     "venue": "Waterfront",
@@ -3637,7 +3589,7 @@
     "date": "2027-02-07",
     "url": "https://www.ueaticketbookings.co.uk/event/admt/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/ADMT-WATERFRONT-1080X1080-500x500.jpg.webp",
-    "price": ""
+    "price": "£33.60"
   },
   {
     "venue": "Waterfront",
@@ -3645,7 +3597,7 @@
     "date": "2027-02-08",
     "url": "https://www.ueaticketbookings.co.uk/event/esprit-dair/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/imresizer-resize-Esprit-DAir-Tour-Square-500x500.jpg.webp",
-    "price": ""
+    "price": "£22.20–£27.75"
   },
   {
     "venue": "Arts Centre",
@@ -3701,7 +3653,7 @@
     "date": "2027-02-13",
     "url": "https://www.ueaticketbookings.co.uk/event/the-karma-effect/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/imresizer-TheKarmaEffect-02-500x500.jpg.webp",
-    "price": ""
+    "price": "£19.79"
   },
   {
     "venue": "Waterfront",
@@ -3709,7 +3661,7 @@
     "date": "2027-02-13",
     "url": "https://www.ueaticketbookings.co.uk/event/the-devout/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/The-Devout-Norwich-SQ-500x500.png.webp",
-    "price": ""
+    "price": "£19.98–£22.20"
   },
   {
     "venue": "Holloway",
@@ -3749,7 +3701,7 @@
     "date": "2027-02-17",
     "url": "https://www.ueaticketbookings.co.uk/event/basement/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Basement-Socials-SQ-500x500.jpg.webp",
-    "price": ""
+    "price": "£36.40"
   },
   {
     "venue": "Epic",
@@ -3773,7 +3725,7 @@
     "date": "2027-02-18",
     "url": "https://www.ueaticketbookings.co.uk/event/as-everything-unfolds/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-AsEverythingUnfolds-02-500x500.jpg.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "Epic",
@@ -3789,7 +3741,7 @@
     "date": "2027-02-19",
     "url": "https://www.ueaticketbookings.co.uk/event/beux-gris-gris-the-apocalypse/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-Beaux-Gris-and-the-Apocalypse-Digital_Square-500x500.jpg.webp",
-    "price": ""
+    "price": "£24.98"
   },
   {
     "venue": "LCR",
@@ -3821,7 +3773,7 @@
     "date": "2027-02-21",
     "url": "https://www.ueaticketbookings.co.uk/event/ben-poole/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Ben-Poole-Digital_Square-1-500x500.png.webp",
-    "price": ""
+    "price": "£17.60"
   },
   {
     "venue": "Voodoos",
@@ -3837,7 +3789,7 @@
     "date": "2027-02-22",
     "url": "https://www.ueaticketbookings.co.uk/event/scarlet-rebels/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DP-WF-LCR-8.jpg.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "Arts Centre",
@@ -3853,7 +3805,7 @@
     "date": "2027-02-23",
     "url": "https://www.ueaticketbookings.co.uk/event/florence-black/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Florence-Black-SQ-500x500.png.webp",
-    "price": ""
+    "price": "£31.08"
   },
   {
     "venue": "Brickmakers",
@@ -3901,7 +3853,7 @@
     "date": "2027-02-27",
     "url": "https://www.ueaticketbookings.co.uk/event/the-doors-alive/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Doors-Alive-2027-Norwich-1x1-UEA-500x500.jpg.webp",
-    "price": ""
+    "price": "£23.87"
   },
   {
     "venue": "Brickmakers",
@@ -3917,7 +3869,7 @@
     "date": "2027-03-02",
     "url": "https://www.ueaticketbookings.co.uk/event/mad-caddies/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Mad-Caddies-Square-Norwich.png.webp",
-    "price": ""
+    "price": "£31.36"
   },
   {
     "venue": "Waterfront",
@@ -3925,7 +3877,7 @@
     "date": "2027-03-05",
     "url": "https://www.ueaticketbookings.co.uk/event/the-blockheads/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/The-Blockheads_Square-500x500.png.webp",
-    "price": ""
+    "price": "£31.08"
   },
   {
     "venue": "Waterfront",
@@ -3933,7 +3885,7 @@
     "date": "2027-03-07",
     "url": "https://www.ueaticketbookings.co.uk/event/nouvelle-vague/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/NouvelleVague-03-500x500.png.webp",
-    "price": ""
+    "price": "£36.40"
   },
   {
     "venue": "Epic",
@@ -3965,7 +3917,7 @@
     "date": "2027-03-11",
     "url": "https://www.ueaticketbookings.co.uk/event/the-view/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/The-View-1080x1080-Norwich-500x500.jpg.webp",
-    "price": ""
+    "price": "£33.60"
   },
   {
     "venue": "LCR",
@@ -4005,7 +3957,7 @@
     "date": "2027-03-13",
     "url": "https://www.ueaticketbookings.co.uk/event/laurence-jones/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/LaurenceJones-Square-500x500.png.webp",
-    "price": ""
+    "price": "£21.65"
   },
   {
     "venue": "Waterfront",
@@ -4013,7 +3965,7 @@
     "date": "2027-03-13",
     "url": "https://www.ueaticketbookings.co.uk/event/just-radiohead/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/just-radiohead-sq.jpg.webp",
-    "price": "Free"
+    "price": "£22.20"
   },
   {
     "venue": "Waterfront",
@@ -4021,7 +3973,7 @@
     "date": "2027-03-14",
     "url": "https://www.ueaticketbookings.co.uk/event/dan-croll/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-500x500.png.webp",
-    "price": ""
+    "price": "£17.60"
   },
   {
     "venue": "Waterfront",
@@ -4029,7 +3981,7 @@
     "date": "2027-03-17",
     "url": "https://www.ueaticketbookings.co.uk/event/sofy/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/sofy-02-2-500x500.png.webp",
-    "price": ""
+    "price": "£16.50"
   },
   {
     "venue": "Epic",
@@ -4053,7 +4005,7 @@
     "date": "2027-03-20",
     "url": "https://www.ueaticketbookings.co.uk/event/the-specials-ltd/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/18122-002-500x500.jpg.webp",
-    "price": ""
+    "price": "£27.75"
   },
   {
     "venue": "LCR",
@@ -4061,7 +4013,7 @@
     "date": "2027-03-20",
     "url": "https://www.ueaticketbookings.co.uk/event/indiepalooza-festival/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/WF-AND-LCR-MASTERS-USE-THESE-2-500x500.png.webp",
-    "price": ""
+    "price": "£33"
   },
   {
     "venue": "Waterfront",
@@ -4069,7 +4021,7 @@
     "date": "2027-03-21",
     "url": "https://www.ueaticketbookings.co.uk/event/henge/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-Henge-Poster-A3-500x500.jpg.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "Voodoos",
@@ -4117,7 +4069,7 @@
     "date": "2027-03-31",
     "url": "https://www.ueaticketbookings.co.uk/event/dinosaur-pile-up/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DPU_UKTour_2027_1x1-500x500.png.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "Brickmakers",
@@ -4133,7 +4085,7 @@
     "date": "2027-04-01",
     "url": "https://www.ueaticketbookings.co.uk/event/the-lilacs/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Lilacs-UK-Socials-SQ-500x500.jpg.webp",
-    "price": ""
+    "price": "£19.80"
   },
   {
     "venue": "LCR",
@@ -4141,7 +4093,7 @@
     "date": "2027-04-02",
     "url": "https://www.ueaticketbookings.co.uk/event/sleeper/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/themes/uea/images/fallback.jpg",
-    "price": ""
+    "price": "£44.24"
   },
   {
     "venue": "Arts Centre",
@@ -4165,7 +4117,7 @@
     "date": "2027-04-09",
     "url": "https://www.ueaticketbookings.co.uk/event/martin-stephenson-the-daintees/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/MSTD-SQ-1080-x-1080-Norwich-500x500.jpg.webp",
-    "price": ""
+    "price": "£27.75"
   },
   {
     "venue": "Brickmakers",
@@ -4181,7 +4133,7 @@
     "date": "2027-04-12",
     "url": "https://www.ueaticketbookings.co.uk/event/gabrielle/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Gabrielle__socials_new-dates-solus_1080-x-10803-1-500x500.jpg.webp",
-    "price": ""
+    "price": "£44.24–£110.88"
   },
   {
     "venue": "Arts Centre",
@@ -4197,7 +4149,7 @@
     "date": "2027-04-15",
     "url": "https://www.ueaticketbookings.co.uk/event/uk-subs/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/UK-Subs-Norwich-Sq-500x500.jpg.webp",
-    "price": ""
+    "price": "£35.84"
   },
   {
     "venue": "Maddermarket",
@@ -4253,7 +4205,7 @@
     "date": "2027-04-24",
     "url": "https://www.ueaticketbookings.co.uk/event/downloaded/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Downloaded-Norwich-square-500x500.jpg.webp",
-    "price": ""
+    "price": "£19.80"
   },
   {
     "venue": "Waterfront",
@@ -4261,7 +4213,7 @@
     "date": "2027-04-30",
     "url": "https://www.ueaticketbookings.co.uk/event/extc/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/EXTC_Square-500x500.png.webp",
-    "price": ""
+    "price": "£28.86"
   },
   {
     "venue": "Epic",
@@ -4317,7 +4269,7 @@
     "date": "2027-05-15",
     "url": "https://www.ueaticketbookings.co.uk/event/ultimate-coldplay/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Ultimate-Coldplay-Waterfront-Norwich-Square-2026-500x500.jpg.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "Epic",
@@ -4349,7 +4301,7 @@
     "date": "2027-05-21",
     "url": "https://www.ueaticketbookings.co.uk/event/bruce-foxton/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-33-500x500.png",
-    "price": ""
+    "price": "£36.40"
   },
   {
     "venue": "Brickmakers",
@@ -4389,7 +4341,7 @@
     "date": "2027-05-29",
     "url": "https://www.ueaticketbookings.co.uk/event/the-smyths/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/The-Smyths-Norwich-SQ-500x500.jpg.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "Epic",
@@ -4405,7 +4357,7 @@
     "date": "2027-06-11",
     "url": "https://www.ueaticketbookings.co.uk/event/nic-cage-against-the-machine/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/270611-Core.-Presents-Nic-Cage-Against-The-Machine-Adrian-Flux-Waterfront-Studio-Norwich-Event-Image-500x500.jpg.webp",
-    "price": ""
+    "price": "£18.15"
   },
   {
     "venue": "Epic",
@@ -4461,6 +4413,6 @@
     "date": "2027-10-29",
     "url": "https://www.ueaticketbookings.co.uk/event/the-ruts/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/The-Ruts-1080-x-1080-500x500.jpg.webp",
-    "price": ""
+    "price": "£30.53"
   }
 ]
