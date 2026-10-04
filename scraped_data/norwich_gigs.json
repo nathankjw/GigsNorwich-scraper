@@ -41,19 +41,19 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Hips (soul Stew)",
-    "date": "2026-03-10",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/hips-soul-stew",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790619551698-1RVRY208GTDWZS3CWHI3/george_oct.jpg",
-    "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Diving Deep with Bag of Cans & THEO SAYERS",
     "date": "2026-03-10",
     "url": "https://www.deadwaxnorwich.pub/whats-on/diving-deep-with-bag-of-cans-gourds",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1789217230602-G1XYV61AM1LRDYK8TDFL/799600703_1619115789739114_1980701051528545758_n.jpg",
     "price": ""
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "Hips (soul Stew)",
+    "date": "2026-03-10",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/hips-soul-stew",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790619551698-1RVRY208GTDWZS3CWHI3/george_oct.jpg",
+    "price": "Free"
   },
   {
     "venue": "Dead Wax",
@@ -86,22 +86,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/ront5io1jbiq28u5oy3powea4c5j2m",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790621181558-7H48SNADAFL6OB94KURV/Screenshot+2026-09-28+at+19.43.25.png",
     "price": ""
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "George (soul Stew)",
-    "date": "2026-08-28",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/kel4zmc57ine6mzrd1at3tz6o3ok50",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1786376391224-DU7W7QTC2D9EZIJ9HPNS/george_template.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Bone Machine",
-    "date": "2026-08-29",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/r99gi6h8udpp7kvsj2tttfg2d8kagn",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1786376703777-JVKDD6QB5YN4OAZAPT7I/bonemachine_august+%281%29.jpg",
-    "price": "Free"
   },
   {
     "venue": "Dead Wax",
@@ -232,30 +216,6 @@
     "price": ""
   },
   {
-    "venue": "Space",
-    "event_name": "Test Circuit Day Party",
-    "date": "2026-10-03",
-    "url": "https://www.spacestudiosnorwich.com",
-    "image": "",
-    "price": "Free"
-  },
-  {
-    "venue": "Space",
-    "event_name": "Rift Sessions",
-    "date": "2026-10-03",
-    "url": "https://www.fatsoma.com/e/22gr1gtc/rift-22",
-    "image": "",
-    "price": "£4–£5"
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "Elliot Schooling & Liam Palmer (Appetite)",
-    "date": "2026-10-03",
-    "url": "https://www.fatsoma.com/e/wc49cas6/elliot-schooling-liam-palmer-appetite",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzgvMTkvNi8zNi8xNi80NzEvUmFja011bHRpcGFydDIwMjYwODE5LTU5LTFnZXpwcS5wbmciXV0",
-    "price": "£5–£10"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Propaganda Norwich",
     "date": "2026-10-03",
@@ -296,36 +256,12 @@
     "price": ""
   },
   {
-    "venue": "Voodoos",
-    "event_name": "The Tubs + Spike & The Danphes",
-    "date": "2026-10-03",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/the-tubs/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMTAvMTUvNTQvMS8yOTUvUmFja011bHRpcGFydDIwMjYwNDEwLTU2LTF1dm90bTMucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£15"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Slayday Shredfest",
-    "date": "2026-10-03",
-    "url": "https://www.norfolkgigguide.com/band-details/Slayday+Shredfest",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Reindeer",
-    "event_name": "The Devils Cadillac",
-    "date": "2026-10-03",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Epic",
     "event_name": "Magnum",
     "date": "2026-10-04",
     "url": "https://epic-tv.com/events/event/magnum",
     "image": "",
-    "price": ""
+    "price": "£32.50"
   },
   {
     "venue": "Waterfront",
@@ -445,7 +381,7 @@
     "date": "2026-10-08",
     "url": "https://epic-tv.com/events/event/wishbone-ash",
     "image": "",
-    "price": ""
+    "price": "£32.50"
   },
   {
     "venue": "Waterfront",
@@ -509,7 +445,7 @@
     "date": "2026-10-09",
     "url": "https://epic-tv.com/events/event/swiftogeddon-20-years-of-taylor-special",
     "image": "",
-    "price": ""
+    "price": "£8–£10"
   },
   {
     "venue": "Waterfront",
@@ -601,7 +537,7 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "Gallus + Alfie Bowles",
+    "event_name": "Gallus + Toast, Alfie Bowles",
     "date": "2026-10-10",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/gallus/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMi8xOC80Mi8zNC8zMzAvUmFja011bHRpcGFydDIwMjYwNzAyLTU1LWU1M2hzLnBuZyJdXQ?ar=16:9&fit=crop",
@@ -805,7 +741,7 @@
     "date": "2026-10-15",
     "url": "https://epic-tv.com/events/event/the-undertones-special-guests-the-beat-ft-ranking-jr",
     "image": "",
-    "price": ""
+    "price": "£32.50"
   },
   {
     "venue": "Waterfront",
@@ -1413,7 +1349,7 @@
     "date": "2026-10-29",
     "url": "https://epic-tv.com/events/event/this-flight-tonight-the-songs-of-joni-mitchell",
     "image": "",
-    "price": ""
+    "price": "£25"
   },
   {
     "venue": "Arts Centre",
@@ -1485,7 +1421,7 @@
     "date": "2026-10-30",
     "url": "https://epic-tv.com/events/event/gentlemans-dub-club-20th-anniversary-tour",
     "image": "",
-    "price": ""
+    "price": "£25"
   },
   {
     "venue": "Waterfront",
@@ -1821,7 +1757,7 @@
     "date": "2026-11-08",
     "url": "https://epic-tv.com/events/event/maisie-adam-whatsherface-sold-out",
     "image": "",
-    "price": ""
+    "price": "£25"
   },
   {
     "venue": "Waterfront",
@@ -1933,7 +1869,7 @@
     "date": "2026-11-11",
     "url": "https://epic-tv.com/events/event/round-midnight-shabaka-plus-support",
     "image": "",
-    "price": ""
+    "price": "£30"
   },
   {
     "venue": "Arts Centre",
@@ -2021,7 +1957,7 @@
     "date": "2026-11-13",
     "url": "https://epic-tv.com/events/event/dutty-moonshine-big-bands-second-distillation-uk-tour",
     "image": "",
-    "price": ""
+    "price": "£30"
   },
   {
     "venue": "Arts Centre",
@@ -2173,7 +2109,7 @@
     "date": "2026-11-15",
     "url": "https://epic-tv.com/events/event/martin-mcaloon-of-prefab-sprout",
     "image": "",
-    "price": ""
+    "price": "£24.50"
   },
   {
     "venue": "Waterfront",
@@ -2397,7 +2333,7 @@
     "date": "2026-11-22",
     "url": "https://epic-tv.com/events/event/trevor-horn",
     "image": "",
-    "price": ""
+    "price": "£30–£80"
   },
   {
     "venue": "Waterfront",
@@ -2433,19 +2369,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "PONY UP presents COWBOYY",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
-    "price": "£10–£12"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "corto.alto @ EPIC Studios",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
     "price": "£22–£25"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents COWBOYY",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
+    "price": "£10–£12"
   },
   {
     "venue": "Waterfront",
@@ -2485,6 +2421,14 @@
     "date": "2026-11-25",
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
     "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "The Danphes + Decent Wrestlers + Are You Succeed?",
+    "date": "2026-11-26",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1791098272999-IMG_3383.jpeg?alt=media&token=442ae0c7-6897-4cbc-a125-58f6ab2bbc66",
     "price": ""
   },
   {
@@ -2541,7 +2485,7 @@
     "date": "2026-11-27",
     "url": "https://epic-tv.com/events/event/martin-kemp-back-to-the-80s",
     "image": "",
-    "price": ""
+    "price": "£24.50–£32"
   },
   {
     "venue": "Maddermarket",
@@ -2613,7 +2557,7 @@
     "date": "2026-11-28",
     "url": "https://epic-tv.com/events/event/groove-armada-dj-set-support",
     "image": "",
-    "price": ""
+    "price": "£25.50–£32.50"
   },
   {
     "venue": "Arts Centre",
@@ -3093,7 +3037,7 @@
     "date": "2026-12-17",
     "url": "https://epic-tv.com/events/event/massaoke-christmas",
     "image": "",
-    "price": ""
+    "price": "£20–£22"
   },
   {
     "venue": "Arts Centre",
@@ -3541,7 +3485,7 @@
     "date": "2027-02-13",
     "url": "https://epic-tv.com/events/event/sophie-mccartney-back-in-the-day-rave",
     "image": "",
-    "price": ""
+    "price": "£30"
   },
   {
     "venue": "Maddermarket",
@@ -3613,7 +3557,7 @@
     "date": "2027-02-18",
     "url": "https://epic-tv.com/events/event/maisie-adam-whatsherface",
     "image": "",
-    "price": ""
+    "price": "£25"
   },
   {
     "venue": "Arts Centre",
@@ -3669,7 +3613,7 @@
     "date": "2027-02-20",
     "url": "https://epic-tv.com/events/event/absolute-bowie",
     "image": "",
-    "price": ""
+    "price": "£20"
   },
   {
     "venue": "Waterfront",
@@ -3741,7 +3685,7 @@
     "date": "2027-02-26",
     "url": "https://epic-tv.com/events/event/the-rasmus-support",
     "image": "",
-    "price": ""
+    "price": "£27.50"
   },
   {
     "venue": "Epic",
@@ -3749,7 +3693,7 @@
     "date": "2027-02-27",
     "url": "https://epic-tv.com/events/event/rob-lamberti-presents-perfectly-george",
     "image": "",
-    "price": ""
+    "price": "£33.50"
   },
   {
     "venue": "Waterfront",
@@ -3797,7 +3741,7 @@
     "date": "2027-03-10",
     "url": "https://epic-tv.com/events/event/an-evening-with-nik-kershaw-musings-and-lyrics",
     "image": "",
-    "price": ""
+    "price": "£35–£85"
   },
   {
     "venue": "Arts Centre",
@@ -3893,7 +3837,7 @@
     "date": "2027-03-18",
     "url": "https://epic-tv.com/events/event/uk-pink-floyd-experience",
     "image": "",
-    "price": ""
+    "price": "£29"
   },
   {
     "venue": "The Halls",
@@ -3941,7 +3885,7 @@
     "date": "2027-03-24",
     "url": "https://epic-tv.com/events/event/rachel-parris-the-rachel-parris-songbook",
     "image": "",
-    "price": ""
+    "price": "£20"
   },
   {
     "venue": "Brickmakers",
@@ -4157,7 +4101,7 @@
     "date": "2027-05-15",
     "url": "https://epic-tv.com/events/event/the-eminem-experience-may-2027",
     "image": "",
-    "price": ""
+    "price": "£18–£21"
   },
   {
     "venue": "Waterfront",
@@ -4173,7 +4117,7 @@
     "date": "2027-05-16",
     "url": "https://epic-tv.com/events/event/lindisfarne",
     "image": "",
-    "price": ""
+    "price": "£32"
   },
   {
     "venue": "Epic",
@@ -4181,7 +4125,7 @@
     "date": "2027-05-20",
     "url": "https://epic-tv.com/events/event/thomas-green",
     "image": "",
-    "price": ""
+    "price": "£20"
   },
   {
     "venue": "Epic",
@@ -4189,7 +4133,7 @@
     "date": "2027-05-21",
     "url": "https://epic-tv.com/events/event/the-tumbling-paddies",
     "image": "",
-    "price": ""
+    "price": "£25"
   },
   {
     "venue": "Waterfront",
@@ -4221,7 +4165,7 @@
     "date": "2027-05-28",
     "url": "https://epic-tv.com/events/event/tom-meighan-the-original-voice-of-kasabian",
     "image": "",
-    "price": ""
+    "price": "£30–£75"
   },
   {
     "venue": "Waterfront",
@@ -4237,7 +4181,7 @@
     "date": "2027-06-11",
     "url": "https://epic-tv.com/events/event/the-beat-ft-ranking-jr",
     "image": "",
-    "price": ""
+    "price": "£29"
   },
   {
     "venue": "Waterfront",
@@ -4253,7 +4197,7 @@
     "date": "2027-06-12",
     "url": "https://epic-tv.com/events/event/man-in-the-mirror-a-tribute-to-michael-jackson-2027",
     "image": "",
-    "price": ""
+    "price": "£33"
   },
   {
     "venue": "Maddermarket",
