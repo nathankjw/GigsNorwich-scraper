@@ -261,7 +261,7 @@
     "date": "2026-10-04",
     "url": "https://epic-tv.com/events/event/magnum",
     "image": "",
-    "price": "£32.50"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -288,12 +288,28 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Improv Mafia Jam",
+    "date": "2026-10-04",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Revolucion de Cuba",
     "event_name": "Strictly Salsa Norwich",
     "date": "2026-10-05",
     "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
     "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
     "price": "£5–£7"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Jazz Jam",
+    "date": "2026-10-05",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Holloway",
@@ -324,6 +340,14 @@
     "event_name": "El Reno Open Mic",
     "date": "2026-10-06",
     "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Radish Open Decks",
+    "date": "2026-10-06",
+    "url": "lpsnorwich.co.uk",
     "image": "",
     "price": ""
   },
@@ -381,7 +405,7 @@
     "date": "2026-10-08",
     "url": "https://epic-tv.com/events/event/wishbone-ash",
     "image": "",
-    "price": "£32.50"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -416,6 +440,14 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Wurds in Progress",
+    "date": "2026-10-08",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Space",
     "event_name": "Motion",
     "date": "2026-10-09",
@@ -445,7 +477,7 @@
     "date": "2026-10-09",
     "url": "https://epic-tv.com/events/event/swiftogeddon-20-years-of-taylor-special",
     "image": "",
-    "price": "£8–£10"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -476,6 +508,14 @@
     "event_name": "Halo's Edge",
     "date": "2026-10-09",
     "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "All night Long with Amy Nomvula",
+    "date": "2026-10-09",
+    "url": "lpsnorwich.co.uk",
     "image": "",
     "price": ""
   },
@@ -576,6 +616,22 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Slap Happy State of Mind",
+    "date": "2026-10-10",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "HMV",
+    "event_name": "Jess Davey Band",
+    "date": "2026-10-10",
+    "url": "",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Holloway",
     "event_name": "DEAFKIDS (Brazil) + João Kombi (TEST) + MINCER",
     "date": "2026-10-11",
@@ -653,6 +709,22 @@
     "date": "2026-10-12",
     "url": "https://www.deadwaxnorwich.pub/whats-on/phage-records-and-reaper-agency-present-oakenthrone",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788194660933-UU04GHQKG5E75J39TXRK/Oakenthrone+Poster.png",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Jazz Jam",
+    "date": "2026-10-12",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Artichoke",
+    "event_name": "Folk by the fire",
+    "date": "2026-10-12",
+    "url": "https://www.facebook.com/artichokepub",
+    "image": "",
     "price": ""
   },
   {
@@ -741,7 +813,7 @@
     "date": "2026-10-15",
     "url": "https://epic-tv.com/events/event/the-undertones-special-guests-the-beat-ft-ranking-jr",
     "image": "",
-    "price": "£32.50"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -764,6 +836,22 @@
     "event_name": "Folk Night",
     "date": "2026-10-15",
     "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "All Night Long with Ahno",
+    "date": "2026-10-15",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Artichoke",
+    "event_name": "Fine city blues club",
+    "date": "2026-10-15",
+    "url": "https://www.facebook.com/artichokepub",
     "image": "",
     "price": ""
   },
@@ -856,6 +944,14 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Revinyl Sessions",
+    "date": "2026-10-16",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Space",
     "event_name": "Basement Sessions",
     "date": "2026-10-17",
@@ -928,6 +1024,22 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "All Night Long with Michael Gyapong",
+    "date": "2026-10-17",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "HMV",
+    "event_name": "Sakura Soundsystem",
+    "date": "2026-10-17",
+    "url": "",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Holloway",
     "event_name": "Tiny Vipers (USA) + Chantal Acda (BE/NL) + astridDrift. (Matinee Show)",
     "date": "2026-10-18",
@@ -984,12 +1096,36 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Chubby Jams",
+    "date": "2026-10-18",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Heaven 17",
     "date": "2026-10-19",
     "url": "https://www.ueaticketbookings.co.uk/event/heaven-17/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Heaven-17-SQ-500x500.png.webp",
     "price": "£38.64–£128.80"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Jazz Jam",
+    "date": "2026-10-19",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Artichoke",
+    "event_name": "Reel Connections",
+    "date": "2026-10-19",
+    "url": "https://www.facebook.com/artichokepub",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Holloway",
@@ -1088,6 +1224,14 @@
     "price": "£27.75"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "All Night Long with ThreeMoreTunes",
+    "date": "2026-10-22",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Space",
     "event_name": "Phreq",
     "date": "2026-10-23",
@@ -1168,6 +1312,22 @@
     "price": "£3.96"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "LPS Presents: STEP ON (Indie Anthems)",
+    "date": "2026-10-23",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Artichoke",
+    "event_name": "We are 2! Celebration",
+    "date": "2026-10-23",
+    "url": "https://www.facebook.com/artichokepub",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Space",
     "event_name": "Rebel Lion",
     "date": "2026-10-24",
@@ -1240,6 +1400,14 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "The High Points",
+    "date": "2026-10-24",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Holloway",
     "event_name": "Phil Archer + Alex Peverett + Leo Thornley",
     "date": "2026-10-25",
@@ -1276,6 +1444,30 @@
     "event_name": "Penguins go Pop",
     "date": "2026-10-25",
     "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Reely",
+    "date": "2026-10-25",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Jazz Jam",
+    "date": "2026-10-26",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Artichoke",
+    "event_name": "Folk by the fire",
+    "date": "2026-10-26",
+    "url": "https://www.facebook.com/artichokepub",
     "image": "",
     "price": ""
   },
@@ -1349,7 +1541,7 @@
     "date": "2026-10-29",
     "url": "https://epic-tv.com/events/event/this-flight-tonight-the-songs-of-joni-mitchell",
     "image": "",
-    "price": "£25"
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -1400,6 +1592,14 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "FIFI G (DJ Set)",
+    "date": "2026-10-29",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Space",
     "event_name": "Nightjar w/ Ellie Stokes + YSL",
     "date": "2026-10-30",
@@ -1421,7 +1621,7 @@
     "date": "2026-10-30",
     "url": "https://epic-tv.com/events/event/gentlemans-dub-club-20th-anniversary-tour",
     "image": "",
-    "price": "£25"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -1460,6 +1660,14 @@
     "event_name": "Mister Pink",
     "date": "2026-10-30",
     "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Haus of Brat",
+    "date": "2026-10-30",
+    "url": "lpsnorwich.co.uk",
     "image": "",
     "price": ""
   },
@@ -1532,6 +1740,22 @@
     "event_name": "Bodysnatchers",
     "date": "2026-10-31",
     "url": "",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Halloween Bash",
+    "date": "2026-10-31",
+    "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Artichoke",
+    "event_name": "Halloween Hoedown with Feral Mouth",
+    "date": "2026-10-31",
+    "url": "https://www.facebook.com/artichokepub",
     "image": "",
     "price": ""
   },
@@ -1757,7 +1981,7 @@
     "date": "2026-11-08",
     "url": "https://epic-tv.com/events/event/maisie-adam-whatsherface-sold-out",
     "image": "",
-    "price": "£25"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -1869,7 +2093,7 @@
     "date": "2026-11-11",
     "url": "https://epic-tv.com/events/event/round-midnight-shabaka-plus-support",
     "image": "",
-    "price": "£30"
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -1957,7 +2181,7 @@
     "date": "2026-11-13",
     "url": "https://epic-tv.com/events/event/dutty-moonshine-big-bands-second-distillation-uk-tour",
     "image": "",
-    "price": "£30"
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -2109,7 +2333,7 @@
     "date": "2026-11-15",
     "url": "https://epic-tv.com/events/event/martin-mcaloon-of-prefab-sprout",
     "image": "",
-    "price": "£24.50"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -2333,7 +2557,7 @@
     "date": "2026-11-22",
     "url": "https://epic-tv.com/events/event/trevor-horn",
     "image": "",
-    "price": "£30–£80"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -2485,7 +2709,7 @@
     "date": "2026-11-27",
     "url": "https://epic-tv.com/events/event/martin-kemp-back-to-the-80s",
     "image": "",
-    "price": "£24.50–£32"
+    "price": ""
   },
   {
     "venue": "Maddermarket",
@@ -2557,7 +2781,7 @@
     "date": "2026-11-28",
     "url": "https://epic-tv.com/events/event/groove-armada-dj-set-support",
     "image": "",
-    "price": "£25.50–£32.50"
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -2880,14 +3104,6 @@
     "price": ""
   },
   {
-    "venue": "HMV",
-    "event_name": "Sakura Soundsystem",
-    "date": "2026-12-10",
-    "url": "",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Gonzos",
     "event_name": "A.M.C Grassroots Energy: Norwich",
     "date": "2026-12-11",
@@ -3037,7 +3253,7 @@
     "date": "2026-12-17",
     "url": "https://epic-tv.com/events/event/massaoke-christmas",
     "image": "",
-    "price": "£20–£22"
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -3485,7 +3701,7 @@
     "date": "2027-02-13",
     "url": "https://epic-tv.com/events/event/sophie-mccartney-back-in-the-day-rave",
     "image": "",
-    "price": "£30"
+    "price": ""
   },
   {
     "venue": "Maddermarket",
@@ -3557,7 +3773,7 @@
     "date": "2027-02-18",
     "url": "https://epic-tv.com/events/event/maisie-adam-whatsherface",
     "image": "",
-    "price": "£25"
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -3613,7 +3829,7 @@
     "date": "2027-02-20",
     "url": "https://epic-tv.com/events/event/absolute-bowie",
     "image": "",
-    "price": "£20"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -3685,7 +3901,7 @@
     "date": "2027-02-26",
     "url": "https://epic-tv.com/events/event/the-rasmus-support",
     "image": "",
-    "price": "£27.50"
+    "price": ""
   },
   {
     "venue": "Epic",
@@ -3693,7 +3909,7 @@
     "date": "2027-02-27",
     "url": "https://epic-tv.com/events/event/rob-lamberti-presents-perfectly-george",
     "image": "",
-    "price": "£33.50"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -3741,7 +3957,7 @@
     "date": "2027-03-10",
     "url": "https://epic-tv.com/events/event/an-evening-with-nik-kershaw-musings-and-lyrics",
     "image": "",
-    "price": "£35–£85"
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -3837,7 +4053,7 @@
     "date": "2027-03-18",
     "url": "https://epic-tv.com/events/event/uk-pink-floyd-experience",
     "image": "",
-    "price": "£29"
+    "price": ""
   },
   {
     "venue": "The Halls",
@@ -3885,7 +4101,7 @@
     "date": "2027-03-24",
     "url": "https://epic-tv.com/events/event/rachel-parris-the-rachel-parris-songbook",
     "image": "",
-    "price": "£20"
+    "price": ""
   },
   {
     "venue": "Brickmakers",
@@ -4101,7 +4317,7 @@
     "date": "2027-05-15",
     "url": "https://epic-tv.com/events/event/the-eminem-experience-may-2027",
     "image": "",
-    "price": "£18–£21"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -4117,7 +4333,7 @@
     "date": "2027-05-16",
     "url": "https://epic-tv.com/events/event/lindisfarne",
     "image": "",
-    "price": "£32"
+    "price": ""
   },
   {
     "venue": "Epic",
@@ -4125,7 +4341,7 @@
     "date": "2027-05-20",
     "url": "https://epic-tv.com/events/event/thomas-green",
     "image": "",
-    "price": "£20"
+    "price": ""
   },
   {
     "venue": "Epic",
@@ -4133,7 +4349,7 @@
     "date": "2027-05-21",
     "url": "https://epic-tv.com/events/event/the-tumbling-paddies",
     "image": "",
-    "price": "£25"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -4165,7 +4381,7 @@
     "date": "2027-05-28",
     "url": "https://epic-tv.com/events/event/tom-meighan-the-original-voice-of-kasabian",
     "image": "",
-    "price": "£30–£75"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -4181,7 +4397,7 @@
     "date": "2027-06-11",
     "url": "https://epic-tv.com/events/event/the-beat-ft-ranking-jr",
     "image": "",
-    "price": "£29"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -4197,7 +4413,7 @@
     "date": "2027-06-12",
     "url": "https://epic-tv.com/events/event/man-in-the-mirror-a-tribute-to-michael-jackson-2027",
     "image": "",
-    "price": "£33"
+    "price": ""
   },
   {
     "venue": "Maddermarket",
