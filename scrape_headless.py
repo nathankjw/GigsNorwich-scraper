@@ -2805,7 +2805,228 @@ def load_previous_events(path: Path, log) -> list[dict]:
         log(f"  ⚠  Failed to read previous CSV: {e}", "warn")
 
     return events
+# ─────────────────────────────────────────────────────────────────────────────
+# ARCHIVE + CHANGE REPORT
+#
+# PASTE this whole block into scrape_headless.py directly ABOVE the line
+#       # ── Orchestrator ──...
+# (i.e. after load_previous_events). Then make the two small edits listed at
+# the bottom of this file.
+# ─────────────────────────────────────────────────────────────────────────────
 
+from collections import defaultdict
+
+ARCHIVE_FIELDS    = CSV_FIELDS + ["first_seen", "last_seen", "status"]
+ARCHIVE_FILE      = OUTPUT_DIR / "norwich_gigs_archive.csv"         # written by this run
+PREV_ARCHIVE_FILE = Path("scraped_data") / "norwich_gigs_archive.csv"  # committed copy
+CHANGES_FILE      = OUTPUT_DIR / "changes_latest.md"               # overwritten each run
+CHANGES_LOG_FILE  = OUTPUT_DIR / "changes_log.csv"                 # appended each run
+
+# status values:
+#   upcoming - currently listed, date today or later
+#   happened - was listed, and its date has passed
+#   removed  - vanished from the listings BEFORE its date (cancelled? sold out? delisted?)
+
+_ARCHIVE_MATCH_RATIO = 0.75
+
+
+def _read_archive(path: Path) -> list[dict]:
+    rows = []
+    with open(path, newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            if row.get("venue") and row.get("event_name") and row.get("date"):
+                rows.append({k: (row.get(k) or "") for k in ARCHIVE_FIELDS})
+    return rows
+
+
+def _same_event(title_a: str, title_b: str) -> bool:
+    a, b = _normalise_for_match(title_a), _normalise_for_match(title_b)
+    return a == b or SequenceMatcher(None, a, b).ratio() >= _ARCHIVE_MATCH_RATIO
+
+
+def update_archive_and_report(events: list[dict], log) -> None:
+    """
+    Merge this run's events into the permanent archive and write a report of
+    what's new / lost / back since the last run. Call AFTER venue aliases and
+    title normalisation have been applied, so names match the stored ones.
+    Never raises - a problem here must not stop the main CSV being written.
+    """
+    try:
+        today = datetime.now().strftime("%Y-%m-%d")
+        now_s = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+        # ── Load the existing archive (repo copy first, then local) ──
+        archive: list[dict] = []
+        for p in (PREV_ARCHIVE_FILE, ARCHIVE_FILE):
+            if p.exists():
+                archive = _read_archive(p)
+                log(f"  📚  Loaded archive: {len(archive)} event(s) from {p}", "dim")
+                break
+
+        baseline = not archive
+        if baseline:
+            # First ever run: seed from yesterday's live CSV so nothing is lost.
+            for e in load_previous_events(PREV_CSV_FILE, log):
+                archive.append({
+                    "venue": e["venue"], "event_name": e["event_name"],
+                    "date": e["date"], "url": e.get("url") or "",
+                    "image": e.get("image") or "", "price": e.get("price") or "",
+                    "first_seen": today, "last_seen": today,
+                    "status": "upcoming" if e["date"] >= today else "happened",
+                })
+            log(f"  📚  No archive yet - seeded with {len(archive)} event(s) from the previous CSV", "warn")
+
+        # Snapshot for the "lost" safeguard below
+        prev_upcoming_by_venue = Counter(a["venue"] for a in archive if a["status"] == "upcoming")
+
+        index: dict[tuple[str, str], list[int]] = defaultdict(list)
+        for i, a in enumerate(archive):
+            index[(a["venue"], a["date"])].append(i)
+
+        matched: set[int] = set()
+        added, reinstated = [], []
+
+        # ── Merge today's events ──
+        for ev in events:
+            venue, date = ev.get("venue", ""), ev.get("date", "")
+            name = ev.get("event_name", "")
+            carried = ev.get("_carried", False)   # copied from yesterday, not freshly scraped
+            hit = None
+            for i in index.get((venue, date), []):
+                if i not in matched and _same_event(archive[i]["event_name"], name):
+                    hit = i
+                    break
+
+            if hit is not None:
+                matched.add(hit)
+                row = archive[hit]
+                was_removed = row["status"] == "removed"
+                row["event_name"] = name or row["event_name"]
+                for k in ("url", "image", "price"):          # refresh, but never blank out
+                    if ev.get(k):
+                        row[k] = ev[k]
+                if not carried:
+                    row["last_seen"] = today
+                row["status"] = "upcoming" if date >= today else "happened"
+                if was_removed and date >= today:
+                    reinstated.append(row)
+            else:
+                row = {
+                    "venue": venue, "event_name": name, "date": date,
+                    "url": ev.get("url") or "", "image": ev.get("image") or "",
+                    "price": ev.get("price") or "",
+                    "first_seen": today, "last_seen": today,
+                    "status": "upcoming" if date >= today else "happened",
+                }
+                archive.append(row)
+                index[(venue, date)].append(len(archive) - 1)
+                matched.add(len(archive) - 1)
+                if date >= today:
+                    added.append(row)
+
+        # ── Anything listed last time but not today ──
+        removed = []
+        for i, row in enumerate(archive):
+            if i in matched or row["status"] != "upcoming":
+                continue
+            if row["date"] < today:
+                row["status"] = "happened"      # natural: the gig date passed
+            else:
+                row["status"] = "removed"       # vanished early
+                removed.append(row)
+
+        # ── Safeguard: a venue losing most of its listings is probably a broken scraper ──
+        suspect = []
+        lost_by_venue = Counter(r["venue"] for r in removed)
+        for v, n in lost_by_venue.items():
+            before = prev_upcoming_by_venue.get(v, 0)
+            if n >= 5 and before and n / before >= 0.6:
+                suspect.append((v, n, before))
+
+        # ── Write the archive ──
+        archive.sort(key=lambda r: (r["date"], r["venue"], r["event_name"]))
+        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+        with open(ARCHIVE_FILE, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=ARCHIVE_FIELDS, extrasaction="ignore")
+            w.writeheader()
+            w.writerows(archive)
+
+        # ── Write the change report ──
+        def _lines(rows):
+            rows = sorted(rows, key=lambda r: (r["date"], r["venue"]))
+            return [f"- {r['date']}  **{r['venue']}** - {r['event_name']}" for r in rows] or ["- (none)"]
+
+        report = [f"# Changes - {now_s}", ""]
+        if baseline:
+            report += ["_First archive run - baseline created from the previous CSV; "
+                       "'new' and 'lost' lists below are relative to that._", ""]
+        if suspect:
+            report += ["## ⚠ Possible scrape problems", ""]
+            report += [f"- **{v}**: {n} of {b} upcoming events vanished at once - "
+                       f"check the scraper before trusting this" for v, n, b in suspect]
+            report.append("")
+        report += [f"## 🆕 New ({len(added)})", "", *_lines(added), ""]
+        report += [f"## ❌ Lost before their date ({len(removed)})", "", *_lines(removed), ""]
+        if reinstated:
+            report += [f"## ↩ Back again ({len(reinstated)})", "", *_lines(reinstated), ""]
+        CHANGES_FILE.write_text("\n".join(report), encoding="utf-8")
+
+        # cumulative log of every change ever detected
+        new_log = not CHANGES_LOG_FILE.exists()
+        prev_log = PREV_ARCHIVE_FILE.parent / CHANGES_LOG_FILE.name
+        if new_log and prev_log.exists():
+            CHANGES_LOG_FILE.write_text(prev_log.read_text(encoding="utf-8"), encoding="utf-8")
+            new_log = False
+        with open(CHANGES_LOG_FILE, "a", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            if new_log:
+                w.writerow(["detected", "change", "venue", "event_name", "event_date"])
+            for label, rows in (("new", added), ("lost", removed), ("back", reinstated)):
+                for r in rows:
+                    w.writerow([now_s, label, r["venue"], r["event_name"], r["date"]])
+
+        # ── Console summary ──
+        log(f"\n{'─'*48}", "dim")
+        log(f"  📚  Archive: {len(archive)} event(s) total "
+            f"({sum(1 for r in archive if r['status'] == 'happened')} happened, "
+            f"{sum(1 for r in archive if r['status'] == 'upcoming')} upcoming, "
+            f"{sum(1 for r in archive if r['status'] == 'removed')} removed early)", "ok")
+        log(f"  🆕  {len(added)} new   ❌  {len(removed)} lost   ↩  {len(reinstated)} back", "ok")
+        for v, n, b in suspect:
+            log(f"  ⚠  {v}: {n}/{b} events vanished - scraper may be broken", "warn")
+        for r in sorted(added, key=lambda r: r["date"])[:30]:
+            log(f"     + {r['date']}  {r['venue']} - {r['event_name']}", "ok")
+        for r in sorted(removed, key=lambda r: r["date"])[:30]:
+            log(f"     - {r['date']}  {r['venue']} - {r['event_name']}", "warn")
+        log(f"  📝  Report: {CHANGES_FILE}", "dim")
+
+    except Exception as e:
+        log(f"  ⚠  Archive/report step failed (main CSV unaffected): {e}", "warn")
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# EDIT 1 - in run_all_scrapers(), in the carry-forward loop, tag carried events
+# so the archive doesn't pretend they were freshly seen:
+#
+#         e["venue"] = venue_short
+#         e["_carried"] = True          # <-- add this line
+#         events.append(e)
+#
+# EDIT 2 - in run_all_scrapers(), right after the loop that applies aliases /
+# normalise_title / blank image+price, and BEFORE "OUTPUT_DIR.mkdir(...)":
+#
+#     update_archive_and_report(events, log)
+#
+# ALSO (small bug I spotted): in load_previous_events(), the rows get appended
+# twice - the second `if venue and event_name and date:` block (the one without
+# "price") should be deleted. Otherwise every carried-forward event is doubled
+# and the duplicate loses its price.
+#
+# GITHUB ACTIONS: make sure the step that copies output back into scraped_data/
+# copies the new files too: norwich_gigs_archive.csv, changes_latest.md and
+# changes_log.csv - and that they're included in your `git add`. The archive
+# only persists between runs if it gets committed.
+# ─────────────────────────────────────────────────────────────────────────────
 # ── Orchestrator ──────────────────────────────────────────────────────────────
 
 def run_all_scrapers(log, on_complete, stop_flag: threading.Event):
