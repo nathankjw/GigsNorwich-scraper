@@ -30,6 +30,16 @@ jobs:
           mkdir -p scraped_data
           cp ~/norwich-scraper/scraped_data/norwich_gigs.csv scraped_data/norwich_gigs.csv
           cp ~/norwich-scraper/scraped_data/norwich_gigs_flat.csv scraped_data/norwich_gigs_flat.csv
+          # Archive + change report (guarded so a hiccup there can't block the main CSVs being saved)
+          for f in norwich_gigs_archive.csv changes_latest.md changes_log.csv; do
+            [ -f ~/norwich-scraper/scraped_data/$f ] && cp ~/norwich-scraper/scraped_data/$f scraped_data/$f
+          done
+          exit 0
+      - name: Show what changed in the run summary
+        run: |
+          if [ -f scraped_data/changes_latest.md ]; then
+            cat scraped_data/changes_latest.md >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Convert the CSV to JSON for the blog widget
         run: python3 csv_to_json.py
       - name: Pull latest changes before saving
@@ -43,4 +53,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated daily scrape"
-          file_pattern: scraped_data/*.csv scraped_data/*.json
+          file_pattern: scraped_data/*.csv scraped_data/*.json scraped_data/*.md
