@@ -53,4 +53,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated daily scrape"
-          file_pattern: scraped_data/*.csv scraped_data/*.json scraped_data/*.md
+          file_pattern: scraped_data
+          
