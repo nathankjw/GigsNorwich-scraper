@@ -330,11 +330,6 @@
   "price": "£38.64–£128.80"
  },
  {
-  "name": "Hed PE & Cold",
-  "date": "2026-10-07",
-  "price": "£30.53"
- },
- {
   "name": "Henge",
   "date": "2027-03-21",
   "price": "£22.20"
@@ -530,11 +525,6 @@
   "price": "£6.60"
  },
  {
-  "name": "Propaganda Norwich",
-  "date": "2026-10-03",
-  "price": "£7"
- },
- {
   "name": "R.E.M By Stipe - The Definitive Tribute",
   "date": "2027-01-16",
   "price": "£19.25"
@@ -695,11 +685,6 @@
   "price": "£23.87"
  },
  {
-  "name": "The Dunwells",
-  "date": "2026-10-07",
-  "price": "£17.60"
- },
- {
   "name": "The Entitled Sons",
   "date": "2026-12-05",
   "price": "£17.60"
@@ -800,11 +785,6 @@
   "price": "£33.60"
  },
  {
-  "name": "The Total Stone Roses",
-  "date": "2026-10-03",
-  "price": "£27.75"
- },
- {
   "name": "The Unthanks In Winter",
   "date": "2026-12-14",
   "price": "£39.20"
@@ -893,5 +873,40 @@
   "name": "ZZ TOPPD ‘The UK’s No.1 Tribute To ZZ Top’",
   "date": "2026-12-11",
   "price": "£16.50"
+ },
+ {
+  "name": "Faintest Idea",
+  "date": "2026-12-19",
+  "price": "£22.20"
+ },
+ {
+  "name": "G.A.G",
+  "date": "2026-11-28",
+  "price": "£2.20–£5.50"
+ },
+ {
+  "name": "Keo",
+  "date": "2027-02-26",
+  "price": "£30.53"
+ },
+ {
+  "name": "Lime Garden",
+  "date": "2026-10-18",
+  "price": "£16.50"
+ },
+ {
+  "name": "Sumo Cyco",
+  "date": "2026-12-10",
+  "price": "£19.80"
+ },
+ {
+  "name": "The Cheap Thrills",
+  "date": "2027-02-01",
+  "price": "£15.40"
+ },
+ {
+  "name": "The Rabbitts",
+  "date": "2026-11-14",
+  "price": "£15.95"
  }
 ]
