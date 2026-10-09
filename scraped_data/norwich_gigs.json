@@ -217,62 +217,6 @@
   },
   {
     "venue": "Space",
-    "event_name": "Lunavera Jam Night",
-    "date": "2026-10-08",
-    "url": "https://www.spacestudiosnorwich.com",
-    "image": "",
-    "price": "Free"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "The Yummy Fur + Pete Fij (Ex Adorable)",
-    "date": "2026-10-08",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1779370884650-IMG_2108.webp?alt=media&token=a1367348-4057-48d2-b681-f5ab8b0775ef",
-    "price": ""
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Omega Nebula",
-    "date": "2026-10-08",
-    "url": "https://www.ueaticketbookings.co.uk/event/omega-nebula/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/WF-AND-LCR-MASTERS-USE-THESE-49-500x500.jpg.webp",
-    "price": ""
-  },
-  {
-    "venue": "LCR",
-    "event_name": "Nothing But Thieves",
-    "date": "2026-10-08",
-    "url": "https://www.ueaticketbookings.co.uk/event/nothing-but-thieves/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DP-WF-LCR-13-500x500.jpg.webp",
-    "price": ""
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "BLOOD WIZARD + Sickener & Twelve Atlas",
-    "date": "2026-10-08",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/blood-wizard/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMi8xOC80MS8zNy81NTcvUmFja011bHRpcGFydDIwMjYwNzAyLTU5LTRwcnZ5My5wbmciXV0?ar=16:9&fit=crop",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Open  mic  night with Peter Turrell",
-    "date": "2026-10-08",
-    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Wurds in Progress",
-    "date": "2026-10-08",
-    "url": "lpsnorwich.co.uk",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Space",
     "event_name": "Motion",
     "date": "2026-10-09",
     "url": "https://www.fatsoma.com/e/i9pmepbq/motion-october",
@@ -1573,7 +1517,7 @@
     "date": "2026-10-31",
     "url": "https://www.spacestudiosnorwich.com/event-details-registration/the-haunted-house-party-halloween-2026",
     "image": "",
-    "price": "£4.10–£8.20"
+    "price": ""
   },
   {
     "venue": "Gonzos",
@@ -3117,7 +3061,7 @@
     "date": "2026-12-12",
     "url": "https://epic-tv.com/events/event/heart-club-classics-the-christmas-bash-with-toby-anstis",
     "image": "",
-    "price": "£16"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -4286,6 +4230,14 @@
     "url": "https://norwichartscentre.co.uk/event/first-time-flyers/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/FTF-NORWICH-FB-EVENT-6ab0f0b8d4b5d-800x450-c-default.jpg",
     "price": "£23–£26"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Moving Pictures – A Tribute To Rush",
+    "date": "2027-04-23",
+    "url": "https://www.ueaticketbookings.co.uk/event/moving-pictures-a-tribute-to-rush/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/M-Pictures-2027-Norwich-1x1-UEA-500x500.jpg.webp",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
