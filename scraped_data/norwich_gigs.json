@@ -25,27 +25,11 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Corncutter promotions present: Newberry & Verch",
-    "date": "2026-02-09",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/corncutter-promotions-present-newberry-verch",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1786989847746-ZIK0SFCVTCK0832ETI3N/newberryandverch.jpeg",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Hxc Gaza Charity Gig",
     "date": "2026-02-10",
     "url": "https://www.deadwaxnorwich.pub/whats-on/hxc-gaza-charity-gig",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790232682385-R58DMZZKTMZ409V0U3AY/19B3D933-B3DC-4482-81F1-1BA90327A324.jpeg",
     "price": "£8–£10"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Asinine Corp Presents: Sans Froid + Supports",
-    "date": "2026-03-09",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/asinine-corp-presents-sans-froid-supports",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1774511032075-75Y5VJCY5RSZZADR4PFC/1485073a-5eb9-4bfe-bb9a-6db3e7033351.jpeg",
-    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -62,14 +46,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/hips-soul-stew",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790619551698-1RVRY208GTDWZS3CWHI3/george_oct.jpg",
     "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "sabaka promo: toil + supports",
-    "date": "2026-05-09",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/sabaka-promo-toil-supports",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1786990288283-IHMSIHU5E11UNWOVWOGS/sabaka_toil.jpeg",
-    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -121,18 +97,18 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Bitchn' Kitschn'",
-    "date": "2026-09-10",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/bitchn-kitschn",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788362756236-5IPRVQBNAQVKWMBT1BEQ/Kitsch+A5+Leaflet_PRESS.jpg",
-    "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "martin martin martin (dj set)",
     "date": "2026-09-10",
     "url": "https://www.deadwaxnorwich.pub/whats-on/martin-martin-martin-dj-set",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790621617308-L16H97LEPV7ATKQ7N8LS/Martin+Promo+001+%282%29.jpg",
+    "price": "Free"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "Bitchn' Kitschn'",
+    "date": "2026-09-10",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/bitchn-kitschn",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788362756236-5IPRVQBNAQVKWMBT1BEQ/Kitsch+A5+Leaflet_PRESS.jpg",
     "price": "Free"
   },
   {
@@ -216,83 +192,11 @@
     "price": ""
   },
   {
-    "venue": "Space",
-    "event_name": "Motion",
-    "date": "2026-10-09",
-    "url": "https://www.fatsoma.com/e/i9pmepbq/motion-october",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "T>I The Residency w Kasra + Waeys + SMG",
-    "date": "2026-10-09",
-    "url": "https://www.fatsoma.com/e/ywjkuc7d/t-i-the-residency-w-kasra-waeys-smg",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzkvMy8xMS8yNS80Lzg1Mi9SYWNrTXVsdGlwYXJ0MjAyNjA5MDMtNjQtMTB6ODJqMy5wbmciXV0",
-    "price": "£10–£15"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Wylt + Lone Mesa + Moochin",
-    "date": "2026-10-09",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1789636103097-IMG_3283.webp?alt=media&token=a5134a46-b3ca-4f5c-bee6-711160a75dbb",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Swiftogeddon - 20 years of Taylor special",
-    "date": "2026-10-09",
-    "url": "https://epic-tv.com/events/event/swiftogeddon-20-years-of-taylor-special",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Madra Salach",
-    "date": "2026-10-09",
-    "url": "https://norwichartscentre.co.uk/event/madra-salach/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/MadraSalach-crop-web-69c25c7728f33-800x450-c-default.jpg",
-    "price": "£18.50–£21"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "The Black Charade + Fell Out Boy",
-    "date": "2026-10-09",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-black-charade-fell-out-boy/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/01/Black-Charade-FOB-Waterfront-Square-2026-500x500.png",
-    "price": "£22.20"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Corncutter Promotions Present: Dan Walsh",
     "date": "2026-10-09",
     "url": "https://www.deadwaxnorwich.pub/whats-on/corncutter-promotions-present-dan-walsh",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1781021082923-9JSFVA5SOQ21U6MZTGKG/DAN+WALSH.jpeg",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Jade uk",
-    "date": "2026-10-09",
-    "url": "https://www.norfolkgigguide.com/band-details/Jade+uk",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Reindeer",
-    "event_name": "Halo's Edge",
-    "date": "2026-10-09",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "All night Long with Amy Nomvula",
-    "date": "2026-10-09",
-    "url": "lpsnorwich.co.uk",
-    "image": "",
     "price": ""
   },
   {
@@ -309,7 +213,7 @@
     "date": "2026-10-10",
     "url": "https://www.fatsoma.com/e/26hhuxg4/delilah",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzgvMTkvMTgvOS81NC8xMzcvUmFja011bHRpcGFydDIwMjYwODE5LTY0LTRuZndwYi5wbmciXV0",
-    "price": "£5"
+    "price": "£5–£7"
   },
   {
     "venue": "Holloway",
@@ -1517,7 +1421,7 @@
     "date": "2026-10-31",
     "url": "https://www.spacestudiosnorwich.com/event-details-registration/the-haunted-house-party-halloween-2026",
     "image": "",
-    "price": ""
+    "price": "£4.10–£10.25"
   },
   {
     "venue": "Gonzos",
@@ -2541,7 +2445,7 @@
     "date": "2026-11-26",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/ihs-indie-film-showcase-norwich-2/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzUvMTYvMi8xNi82NTIvUmFja011bHRpcGFydDIwMjYxMDA1LTY2LTFtYzl6OXcucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£6–£13"
+    "price": "£8–£13"
   },
   {
     "venue": "Brickmakers",
@@ -3061,7 +2965,7 @@
     "date": "2026-12-12",
     "url": "https://epic-tv.com/events/event/heart-club-classics-the-christmas-bash-with-toby-anstis",
     "image": "",
-    "price": ""
+    "price": "£16"
   },
   {
     "venue": "Waterfront",
@@ -3645,7 +3549,7 @@
     "date": "2027-02-13",
     "url": "https://epic-tv.com/events/event/sophie-mccartney-back-in-the-day-rave",
     "image": "",
-    "price": ""
+    "price": "£30"
   },
   {
     "venue": "Maddermarket",
