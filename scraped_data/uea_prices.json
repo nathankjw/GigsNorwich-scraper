@@ -650,11 +650,6 @@
   "price": "£27.20"
  },
  {
-  "name": "The Black Charade + Fell Out Boy",
-  "date": "2026-10-09",
-  "price": "£22.20"
- },
- {
   "name": "The Blockheads",
   "date": "2027-03-05",
   "price": "£31.08"
@@ -908,5 +903,15 @@
   "name": "The Rabbitts",
   "date": "2026-11-14",
   "price": "£15.95"
+ },
+ {
+  "name": "Moving Pictures - A Tribute To Rush",
+  "date": "2027-04-23",
+  "price": "£23.87"
+ },
+ {
+  "name": "Professor Green",
+  "date": "2027-06-05",
+  "price": "£32.75"
  }
 ]
