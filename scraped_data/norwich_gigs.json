@@ -49,14 +49,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Concrete Vehicles + Slag Heap + Toast",
-    "date": "2026-06-09",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/concrete-vehicles-slag-heap-toast",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1787913736229-6WPKDRHU4XX96AW1I7A6/1000159670.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Bim Skala Bim + Rebelation",
     "date": "2026-06-11",
     "url": "https://www.deadwaxnorwich.pub/whats-on/bim-skala-bim-rebelation",
@@ -200,38 +192,6 @@
     "price": ""
   },
   {
-    "venue": "Space",
-    "event_name": "Soul Stew 10th Birthday",
-    "date": "2026-10-10",
-    "url": "https://ra.co/events/2515669",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "Delilah",
-    "date": "2026-10-10",
-    "url": "https://www.fatsoma.com/e/26hhuxg4/delilah",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzgvMTkvMTgvOS81NC8xMzcvUmFja011bHRpcGFydDIwMjYwODE5LTY0LTRuZndwYi5wbmciXV0",
-    "price": "£5–£7"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "The Asteroid No.4 (USA PSYCH) + Velveteen",
-    "date": "2026-10-10",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1774506891485-IMG_1588.jpeg?alt=media&token=6e02ac38-5c99-4073-9575-c0dc2eb41b38",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Cut Capers",
-    "date": "2026-10-10",
-    "url": "https://norwichartscentre.co.uk/event/cut-capers/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/04/073A2636-69e75072396bf-800x450-c-default.jpg",
-    "price": "£15–£17"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Hannah Wicklund",
     "date": "2026-10-10",
@@ -256,60 +216,12 @@
     "price": "£47.81"
   },
   {
-    "venue": "Voodoos",
-    "event_name": "Gallus + Toast, Alfie Bowles",
-    "date": "2026-10-10",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/gallus/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMi8xOC80Mi8zNC8zMzAvUmFja011bHRpcGFydDIwMjYwNzAyLTU1LWU1M2hzLnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": "£14"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "sweet gemini",
     "date": "2026-10-10",
     "url": "https://www.deadwaxnorwich.pub/whats-on/sweet-gemini-1",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790622002209-21A29NYAPRRQHE0W995V/Screenshot+2026-09-28+at+19.57.43.png",
     "price": "Free"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Searchlight presents....Aethoria and more",
-    "date": "2026-10-10",
-    "url": "https://www.norfolkgigguide.com/band-details/Searchlight+presents....Aethoria+and+more",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "The Stereotypes",
-    "date": "2026-10-10",
-    "url": "https://www.norfolkgigguide.com/band-details/The+Stereotypes",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Reindeer",
-    "event_name": "Rusty Metal",
-    "date": "2026-10-10",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Slap Happy State of Mind",
-    "date": "2026-10-10",
-    "url": "lpsnorwich.co.uk",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "HMV",
-    "event_name": "Jess Davey Band",
-    "date": "2026-10-10",
-    "url": "",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Holloway",
@@ -4141,7 +4053,7 @@
     "date": "2027-04-23",
     "url": "https://www.ueaticketbookings.co.uk/event/moving-pictures-a-tribute-to-rush/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/M-Pictures-2027-Norwich-1x1-UEA-500x500.jpg.webp",
-    "price": ""
+    "price": "£23.87"
   },
   {
     "venue": "Arts Centre",
@@ -4317,7 +4229,7 @@
     "date": "2027-06-05",
     "url": "https://www.ueaticketbookings.co.uk/event/professor-green/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Prof-Green-2027-Tour-Artwork-1080x1080-1-500x500.jpg.webp",
-    "price": ""
+    "price": "£32.75"
   },
   {
     "venue": "Epic",
