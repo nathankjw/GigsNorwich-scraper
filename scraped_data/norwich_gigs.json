@@ -192,30 +192,6 @@
     "price": ""
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Hannah Wicklund",
-    "date": "2026-10-10",
-    "url": "https://www.ueaticketbookings.co.uk/event/hannah-wicklund/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-Hannah-Wicklund-Square-500x500.jpg.webp",
-    "price": "£24.42"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Ferocious Dog",
-    "date": "2026-10-10",
-    "url": "https://www.ueaticketbookings.co.uk/event/ferocious-dog/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/F-Dog-Part2-2026-Norwich-Insta-square-1-500x500.jpg.webp",
-    "price": "£30.53"
-  },
-  {
-    "venue": "LCR",
-    "event_name": "Don Broco",
-    "date": "2026-10-10",
-    "url": "https://www.ueaticketbookings.co.uk/event/don-broco/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/1x1-Square-1080x1080-1-1-500x500.jpg.webp",
-    "price": "£47.81"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "sweet gemini",
     "date": "2026-10-10",
@@ -225,66 +201,10 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "DEAFKIDS (Brazil) + João Kombi (TEST) + MINCER",
-    "date": "2026-10-11",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1785150133717-IMG_2933.jpeg?alt=media&token=d26c7acf-8b14-4fc5-bcd5-3229d5652b20",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Scott Bennett - Blood Sugar baby",
-    "date": "2026-10-11",
-    "url": "https://epic-tv.com/events/event/scott-bennett-blood-sugar-baby",
-    "image": "",
-    "price": "£24.98"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Myles Sanko",
-    "date": "2026-10-11",
-    "url": "https://norwichartscentre.co.uk/event/myles-sanko/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/04/Screenshot-2026-04-08-at-16.26.46-69d673bab050c-800x450-c-default.png",
-    "price": "£23–£26"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Walter Trout",
-    "date": "2026-10-11",
-    "url": "https://www.ueaticketbookings.co.uk/event/walter-trout/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2025/11/Walter-Trout-1080-x-1080-Norwich-500x500.jpg.webp",
-    "price": "£33.60"
-  },
-  {
-    "venue": "LCR",
-    "event_name": "The Hu",
-    "date": "2026-10-11",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-hu/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Hu-SQ-500x500.jpg.webp",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Black Dog  Music",
-    "date": "2026-10-11",
-    "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Reindeer",
-    "event_name": "Wyld Folk",
-    "date": "2026-10-11",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Holloway",
     "event_name": "Reality + Thea Grant + The World Is An Ashtray (ambient sound design/drone/noise)",
     "date": "2026-10-12",
     "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1788784335249-357559.jpg?alt=media&token=32c406a7-44be-4ded-8b8d-4e1bfb59b722",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1791796671622-Screenshot_20261005-155954.jpg?alt=media&token=ea05f617-ff49-416c-af3f-d2e4632667ad",
     "price": ""
   },
   {
@@ -1333,7 +1253,7 @@
     "date": "2026-10-31",
     "url": "https://www.spacestudiosnorwich.com/event-details-registration/the-haunted-house-party-halloween-2026",
     "image": "",
-    "price": "£4.10–£10.25"
+    "price": "£4.10–£12.81"
   },
   {
     "venue": "Gonzos",
@@ -2456,6 +2376,14 @@
     "price": ""
   },
   {
+    "venue": "Gonzos",
+    "event_name": "Storm Mollison",
+    "date": "2026-11-28",
+    "url": "https://www.fatsoma.com/e/qleyqdip/storm-mollison",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEwLzgvMjEvNDgvNDYvUmFja011bHRpcGFydDIwMjYxMDEwLTYxLTE5bjFrdzYucG5nIl1d",
+    "price": "£3–£5"
+  },
+  {
     "venue": "Holloway",
     "event_name": "Blanktalk + Dog At The Opera + Like Optimists",
     "date": "2026-11-28",
@@ -2558,14 +2486,6 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/birdwitch-forlorn/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMTUvMTIvMjIvNDgvODQwL1JhY2tNdWx0aXBhcnQyMDI2MDcxNS02NC0xeHg0c2E2LnBuZyJdXQ?ar=16:9&fit=crop",
     "price": "£12"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "The Temperance Movement",
-    "date": "2026-11-30",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-temperance-movement/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/TTM-SQ-1-500x500.jpg.webp",
-    "price": "£33.60"
   },
   {
     "venue": "Arts Centre",
@@ -3241,7 +3161,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "(IVW) Seamus Fogarty + Dr Clyde",
+    "event_name": "(IVW) Seamus Fogarty",
     "date": "2027-01-25",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1789716201019-IMG_3289.jpeg?alt=media&token=44a63c40-9596-44a4-91bf-d28ed83181e5",
