@@ -49,6 +49,14 @@
   },
   {
     "venue": "Dead Wax",
+    "event_name": "SØWT x With Teeth double-headliner + Hellga",
+    "date": "2026-04-11",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/swt-x-with-teeth-double-headliner-hellga",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791823907250-ZI9F1GLR8MG7UTLLJ94Y/Screenshot+2026-10-12+at+17.47.57.png",
+    "price": ""
+  },
+  {
+    "venue": "Dead Wax",
     "event_name": "Bim Skala Bim + Rebelation",
     "date": "2026-06-11",
     "url": "https://www.deadwaxnorwich.pub/whats-on/bim-skala-bim-rebelation",
@@ -65,18 +73,18 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Johnny Foreigner + supports",
-    "date": "2026-08-09",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/johnny-foreigner-supports",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1783342599254-KWWTK28QJJMXZA040E0N/Johnny+Foreigner+Tour.jpeg",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Antematterz + Pamela Anderson Radio Show + Liv Lee",
     "date": "2026-08-10",
     "url": "https://www.deadwaxnorwich.pub/whats-on/ront5io1jbiq28u5oy3powea4c5j2m",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790621181558-7H48SNADAFL6OB94KURV/Screenshot+2026-09-28+at+19.43.25.png",
+    "price": ""
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "THe wameki + police cops + more tba",
+    "date": "2026-08-11",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/the-wameki-police-cops-more-tba",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791824732473-XL3U1VSBNT75I63TQXPQ/THE_WAMEKI_insta+copy.jpg",
     "price": ""
   },
   {
@@ -200,22 +208,6 @@
     "price": "Free"
   },
   {
-    "venue": "Holloway",
-    "event_name": "Reality + Thea Grant + The World Is An Ashtray (ambient sound design/drone/noise)",
-    "date": "2026-10-12",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1791796671622-Screenshot_20261005-155954.jpg?alt=media&token=ea05f617-ff49-416c-af3f-d2e4632667ad",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Crash Test Dummies",
-    "date": "2026-10-12",
-    "url": "https://epic-tv.com/events/event/crash-test-dummies",
-    "image": "",
-    "price": "£42"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Phage Records & Reaper Agency present: OAKENTHRONE",
     "date": "2026-10-12",
@@ -230,22 +222,6 @@
     "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
     "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
     "price": "£5–£7"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Jazz Jam",
-    "date": "2026-10-12",
-    "url": "lpsnorwich.co.uk",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Artichoke",
-    "event_name": "Folk by the fire",
-    "date": "2026-10-12",
-    "url": "https://www.facebook.com/artichokepub",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -293,7 +269,7 @@
     "date": "2026-10-14",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/li-jin-hao-falling-from-a-moon/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzMvMjQvMTcvMjMvNTMvNzk5L1JhY2tNdWx0aXBhcnQyMDI2MDMyNC01NS0ya2ltdjAuanBnIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£15"
   },
   {
     "venue": "Brickmakers",
@@ -373,7 +349,7 @@
     "date": "2026-10-16",
     "url": "https://www.fatsoma.com/e/j616k5f9/deepside-presents-blueless-capture-records-dream-dancing-at-space",
     "image": "",
-    "price": "£5"
+    "price": "£7"
   },
   {
     "venue": "Gonzos",
@@ -822,6 +798,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/laura-t-kristie22-seasonz-ewan-martin/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzgvNS8xOC8zNC80MS80NTAvUmFja011bHRpcGFydDIwMjYwODA1LTU4LTE3Y3Q0N3EuanBnIl1d?ar=16:9&fit=crop",
     "price": "£10–£12"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "boiling point",
+    "date": "2026-10-23",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/t05dsg054ta2k3zzkupbth71o5kr7e",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791821781099-DBTTZ14QNZU9YC1R0ZV1/WhatsApp+Image+2026-10-12+at+10.09.34.jpeg",
+    "price": "Free"
   },
   {
     "venue": "Brickmakers",
@@ -1296,6 +1280,14 @@
     "price": "£7"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "star children invites: soul stew",
+    "date": "2026-10-31",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/star-children-invites-soul-stew",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791823441855-Z1ADJ4CE7PHYWPYAZBXK/SC_A3_FORPRINT_0011.jpg",
+    "price": ""
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Popestars - A Tribute To Ghost with BYOB - SOAD tr",
     "date": "2026-10-31",
@@ -1737,7 +1729,7 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Girls, Gays & Theys Ft Glitter & Gloom Djs",
+    "event_name": "(postponed) GIRLS, GAYS & THEYS FT GLITTER & GLOOM DJS",
     "date": "2026-11-12",
     "url": "https://www.deadwaxnorwich.pub/whats-on/girls-gays-theys-ft-glitter-gloom-djs",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1787079682395-OHWVIFYINQ235XX51F1D/Screenshot+2026-08-18+at+19.21.52.png",
@@ -1750,6 +1742,14 @@
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Gonzos",
+    "event_name": "Ranger Trucco & Tommy Gold",
+    "date": "2026-11-13",
+    "url": "https://www.fatsoma.com/e/6xyiflyw/ranger-trucco-tommy-gold",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEyLzE2LzQ2LzMzLzkzNi9SYWNrTXVsdGlwYXJ0MjAyNjEwMTItNjktMXdzZjhvZy5wbmciXV0",
+    "price": "£5–£10"
   },
   {
     "venue": "Holloway",
@@ -1878,6 +1878,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-rabbitts/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMTAvMTQvMTMvMjQvMTM1L1JhY2tNdWx0aXBhcnQyMDI2MDQxMC02NS0xY2EzOG52LnBuZyJdXQ?ar=16:9&fit=crop",
     "price": "£15.95"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "Free Monthly Wax: Soot Sprite + Suds + Reno Dakota",
+    "date": "2026-11-14",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax-sootsprite-suds-reno-dakota",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791827410179-TO4NYZ2TI2CP2JEFTU2F/Freemonthlywax_SOOTSPRITEa3.jpg",
+    "price": ""
   },
   {
     "venue": "Brickmakers",
@@ -2038,6 +2046,14 @@
     "url": "https://www.norfolkgigguide.com/band-details/Acid+reign+and+Regicide",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Gonzos",
+    "event_name": "Twisted Skunk presents Stanton Warriors",
+    "date": "2026-11-20",
+    "url": "https://www.fatsoma.com/e/8zm0r0mh/twisted-skunk-presents-stanton-warriors",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEzLzgvNTgvNDYvNjA1L1JhY2tNdWx0aXBhcnQyMDI2MTAxMy03OS0xdWZncmR3LmpwZWciXV0",
+    "price": "£10"
   },
   {
     "venue": "Holloway",
@@ -2486,6 +2502,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/birdwitch-forlorn/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMTUvMTIvMjIvNDgvODQwL1JhY2tNdWx0aXBhcnQyMDI2MDcxNS02NC0xeHg0c2E2LnBuZyJdXQ?ar=16:9&fit=crop",
     "price": "£12"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "The Temperance Movement",
+    "date": "2026-11-30",
+    "url": "https://www.ueaticketbookings.co.uk/event/the-temperance-movement/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/TTM-SQ-1-1-500x500.jpg.webp",
+    "price": "£33.60"
   },
   {
     "venue": "Arts Centre",
@@ -3064,6 +3088,14 @@
     "price": "£15"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "Ben Wegg + Lydia Cass",
+    "date": "2026-12-22",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/ben-wegg-lydia-cass",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791823274345-7LAPYY3VYZQICUA3KEUH/IMG_9936.jpeg",
+    "price": ""
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Beautiful Dangerous",
     "date": "2026-12-24",
@@ -3560,6 +3592,14 @@
     "price": ""
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents Caoilfhoinn Rose",
+    "date": "2027-02-25",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-caoilfhoinn-rose/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/7-Caoilfhionn-Rose-Press-Shot-Wide-Credit-Rich-Williams-WEB-RES-6acdef1009b04-800x450-c-default.webp",
+    "price": "£16–£18.50"
+  },
+  {
     "venue": "Voodoos",
     "event_name": "Dog Unit",
     "date": "2027-02-25",
@@ -4037,6 +4077,14 @@
     "date": "2027-05-15",
     "url": "https://epic-tv.com/events/event/the-eminem-experience-may-2027",
     "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Moments of Pleasure: The Music Of Kate Bush",
+    "date": "2027-05-15",
+    "url": "https://www.ueaticketbookings.co.uk/event/moments-of-pleasure-the-music-of-kate-bush/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Moments-Of-Pleasure-1080-x-1080-Norwich-500x500.jpg.webp",
     "price": ""
   },
   {
