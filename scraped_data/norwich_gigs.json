@@ -216,30 +216,6 @@
     "price": ""
   },
   {
-    "venue": "Revolucion de Cuba",
-    "event_name": "Strictly Salsa Norwich",
-    "date": "2026-10-12",
-    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
-    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
-    "price": "£5–£7"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Thorpe Creative Hub presents Soundstage",
-    "date": "2026-10-13",
-    "url": "https://norwichartscentre.co.uk/event/thorpe-creative-hub-presents-soundstage/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/TCH-at-NAC-6a56227a909be-scaled-800x450-c-default.jpg",
-    "price": "£12–£14"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Theatre + SELL EVERYTHING",
-    "date": "2026-10-13",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/theatre/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzUvNy8xMi8xNi8xMy8xMS9SYWNrTXVsdGlwYXJ0MjAyNjA1MDctNjQtN2FkcmJrLnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": "£10"
-  },
-  {
     "venue": "Space",
     "event_name": "Toast + Support",
     "date": "2026-10-14",
@@ -451,9 +427,9 @@
     "venue": "Space",
     "event_name": "Basement Sessions",
     "date": "2026-10-17",
-    "url": "https://www.spacestudiosnorwich.com",
+    "url": "https://www.fatsoma.com/e/39ivbjg4/basement-unlisted-ft-waypoint-x-ash-c-multi-genre",
     "image": "",
-    "price": ""
+    "price": "£3–£6"
   },
   {
     "venue": "Gonzos",
@@ -606,6 +582,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/heaven-17/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Heaven-17-SQ-500x500.png.webp",
     "price": "£38.64–£128.80"
+  },
+  {
+    "venue": "Revolucion de Cuba",
+    "event_name": "Strictly Salsa Norwich",
+    "date": "2026-10-19",
+    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
+    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
+    "price": "£5–£7"
   },
   {
     "venue": "Last Pub",
@@ -854,6 +838,14 @@
     "url": "https://www.spacestudiosnorwich.com",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Gonzos",
+    "event_name": "H3r",
+    "date": "2026-10-24",
+    "url": "https://www.fatsoma.com/e/khzlxjmw/h3r",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEzLzE2LzI2LzUyLzg4My9SYWNrTXVsdGlwYXJ0MjAyNjEwMTMtNjQtMXU0NHprai5wbmciXV0",
+    "price": "£3–£7"
   },
   {
     "venue": "Holloway",
@@ -2140,7 +2132,7 @@
     "event_name": "Portrayal Of Guilt",
     "date": "2026-11-21",
     "url": "https://www.ueaticketbookings.co.uk/event/portrayal-of-guilt/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Lauras-WF-LCR-IG-Template-500x500.png.webp",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Portrayal-Of-Guilt-sq-2-500x500.png.webp",
     "price": "£16.50"
   },
   {
@@ -2350,6 +2342,14 @@
     "url": "https://norwichartscentre.co.uk/event/an-evening-with-the-magic-numbers/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/TMN-Cobbled-street-x-4-res--6a1d49c518d0a-scaled-800x450-c-default.jpg",
     "price": "£27–£30.50"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Drum & Bass Classics",
+    "date": "2026-11-27",
+    "url": "https://www.ueaticketbookings.co.uk/event/drum-bass-classics/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/DnB-Classics-Norwich-27nov26-v1-1x1-1-500x500.png.webp",
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -3200,6 +3200,14 @@
     "price": ""
   },
   {
+    "venue": "Voodoos",
+    "event_name": "Tummyache",
+    "date": "2027-01-25",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/tummyache/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEzLzEyLzEzLzcvODkvUmFja011bHRpcGFydDIwMjYxMDEzLTYzLTFkZzE0bTMuanBnIl1d?ar=16:9&fit=crop",
+    "price": "£12"
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "PONY UP presents The New Cut",
     "date": "2027-01-26",
@@ -3229,6 +3237,14 @@
     "date": "2027-01-27",
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
     "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "(IVW) Elenwen (Album Launch Party) + Support",
+    "date": "2027-01-28",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1791975093390-0041532414_10.jpg?alt=media&token=cc9db4ff-7e93-45c5-8808-92a65a2da17b",
     "price": ""
   },
   {
