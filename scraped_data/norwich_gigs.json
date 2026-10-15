@@ -217,46 +217,6 @@
   },
   {
     "venue": "Space",
-    "event_name": "Toast + Support",
-    "date": "2026-10-14",
-    "url": "https://www.fatsoma.com/e/ph78xy7g/toast-palm-estate-space-studios",
-    "image": "",
-    "price": "£3"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Hayseed Dixie",
-    "date": "2026-10-14",
-    "url": "https://www.ueaticketbookings.co.uk/event/hayseed-dixie/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Untitled-design-2026-03-18T090927.909-500x500.jpg.webp",
-    "price": "£28.86"
-  },
-  {
-    "venue": "LCR",
-    "event_name": "Jamie T",
-    "date": "2026-10-14",
-    "url": "https://www.ueaticketbookings.co.uk/event/jamie-t/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/JamieT_Event_Square_1080x1080-500x500.jpg.webp",
-    "price": ""
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Li Jin Hao: Falling from a Moon",
-    "date": "2026-10-14",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/li-jin-hao-falling-from-a-moon/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzMvMjQvMTcvMjMvNTMvNzk5L1JhY2tNdWx0aXBhcnQyMDI2MDMyNC01NS0ya2ltdjAuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£15"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Black Dog  Music",
-    "date": "2026-10-14",
-    "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Space",
     "event_name": "Flat Venus + Support",
     "date": "2026-10-15",
     "url": "https://allevents.in/norwich/flat-venus-support-space-studios/3600030680473515",
@@ -584,14 +544,6 @@
     "price": "£38.64–£128.80"
   },
   {
-    "venue": "Revolucion de Cuba",
-    "event_name": "Strictly Salsa Norwich",
-    "date": "2026-10-19",
-    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
-    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
-    "price": "£5–£7"
-  },
-  {
     "venue": "Last Pub",
     "event_name": "Jazz Jam",
     "date": "2026-10-19",
@@ -606,6 +558,14 @@
     "url": "https://www.facebook.com/artichokepub",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Revolucion de Cuba",
+    "event_name": "Strictly Salsa Norwich",
+    "date": "2026-10-19",
+    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
+    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
+    "price": "£5–£7"
   },
   {
     "venue": "Holloway",
@@ -1237,7 +1197,7 @@
     "date": "2026-10-31",
     "url": "https://www.fatsoma.com/e/90pzqcby/halloween",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzkvMjAvMTQvMC8xOS8zMjUvUmFja011bHRpcGFydDIwMjYwOTIwLTYzLWNlcG05Mi5wbmciXV0",
-    "price": "£10–£15"
+    "price": "£10–£20"
   },
   {
     "venue": "Arts Centre",
@@ -1830,6 +1790,14 @@
     "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Gonzos",
+    "event_name": "Ewan McVicar",
+    "date": "2026-11-14",
+    "url": "https://www.fatsoma.com/e/ne6zxbca/ewan-mcvicar",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEzLzgvNDgvNDAvMzAwL1JhY2tNdWx0aXBhcnQyMDI2MTAxMy01OC01Zmltd28ucG5nIl1d",
+    "price": "£10–£20"
   },
   {
     "venue": "Holloway",
@@ -3152,6 +3120,14 @@
     "price": "£20–£23"
   },
   {
+    "venue": "The Halls",
+    "event_name": "The Music of Luther Vandross - The Candlelight Concert",
+    "date": "2027-01-09",
+    "url": "https://www.norwich.gov.uk/thehalls/music-luther-vandross-candlelight-concert",
+    "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-10/Luther-Vandross.jpg?h=3031d7b2&itok=EkwUOSwf",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "The Pink Stones",
     "date": "2027-01-14",
@@ -3261,6 +3237,14 @@
     "date": "2027-01-28",
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "(IVW) Ravenous Hounds + Rats As Big As Dogs",
+    "date": "2027-01-29",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1792055304339-IMG_3428.jpeg?alt=media&token=084408c0-338f-4d0c-b690-d1b3416a4b08",
     "price": ""
   },
   {
@@ -3830,6 +3814,14 @@
     "url": "https://www.norwich.gov.uk/thehalls/fleetwood-mac-songbook-ultimate-tribute-fleetwood-mac",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-09/Horizontal%20Website%20Hero%20Banner%20-%20The%20FM%20Songbook%20-%20V1.png?h=e85cf720&itok=7htkZb5c",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Konkolo Orchestra",
+    "date": "2027-03-20",
+    "url": "https://norwichartscentre.co.uk/event/konkolo-orchestra/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/KONKOLO_ORCHESTRA_credits_Dylan_Moore-6acdf93f59da6-scaled-800x450-c-default.jpg",
+    "price": "£14–£16"
   },
   {
     "venue": "Waterfront",
