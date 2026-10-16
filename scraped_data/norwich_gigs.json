@@ -216,67 +216,11 @@
     "price": ""
   },
   {
-    "venue": "Space",
-    "event_name": "Flat Venus + Support",
-    "date": "2026-10-15",
-    "url": "https://allevents.in/norwich/flat-venus-support-space-studios/3600030680473515",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Lucy Grubb & Luke James Williams (Co-Headline)",
-    "date": "2026-10-15",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1786693008410-IMG_3095.png?alt=media&token=a5c7da82-fa97-4f66-bfc9-61cc4800907d",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "The Undertones + Special Guests The Beat ft Ranking Jr",
-    "date": "2026-10-15",
-    "url": "https://epic-tv.com/events/event/the-undertones-special-guests-the-beat-ft-ranking-jr",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Big Horizon",
     "date": "2026-10-15",
     "url": "https://www.ueaticketbookings.co.uk/event/big-horizon/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Big-Horizon-Insta-Sq-1080x1080-1-500x500.png.webp",
-    "price": ""
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "John Craigie + Jobi Riccio",
-    "date": "2026-10-15",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/john-craigie-job-riccio/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzUvMS83LzMwLzkvOTEzL1JhY2tNdWx0aXBhcnQyMDI2MDUwMS02MS0xYWtkZjdxLnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": "£20"
-  },
-  {
-    "venue": "Reindeer",
-    "event_name": "Folk Night",
-    "date": "2026-10-15",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "All Night Long with Ahno",
-    "date": "2026-10-15",
-    "url": "lpsnorwich.co.uk",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Artichoke",
-    "event_name": "Fine city blues club",
-    "date": "2026-10-15",
-    "url": "https://www.facebook.com/artichokepub",
-    "image": "",
     "price": ""
   },
   {
@@ -544,6 +488,14 @@
     "price": "£38.64–£128.80"
   },
   {
+    "venue": "Revolucion de Cuba",
+    "event_name": "Strictly Salsa Norwich",
+    "date": "2026-10-19",
+    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
+    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
+    "price": "£5–£7"
+  },
+  {
     "venue": "Last Pub",
     "event_name": "Jazz Jam",
     "date": "2026-10-19",
@@ -558,14 +510,6 @@
     "url": "https://www.facebook.com/artichokepub",
     "image": "",
     "price": ""
-  },
-  {
-    "venue": "Revolucion de Cuba",
-    "event_name": "Strictly Salsa Norwich",
-    "date": "2026-10-19",
-    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
-    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
-    "price": "£5–£7"
   },
   {
     "venue": "Holloway",
@@ -1301,6 +1245,14 @@
     "date": "2026-11-01",
     "url": "https://www.norfolkgigguide.com/band-details/After+Thought+Band",
     "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Maddermarket",
+    "event_name": "Sam Miles & The Sound of Sonny",
+    "date": "2026-11-03",
+    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=125601",
+    "image": "https://booking.maddermarket.co.uk/assets/no-image-Bvi6f0j_.jpg",
     "price": ""
   },
   {
@@ -2512,6 +2464,14 @@
     "price": "£21–£24"
   },
   {
+    "venue": "Waterfront",
+    "event_name": "The Alehouse Sessions",
+    "date": "2026-12-03",
+    "url": "https://www.ueaticketbookings.co.uk/event/the-alehouse-sessions/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/The-Alehouse-Sessions-norwich-1080x1080-1-500x500.jpg.webp",
+    "price": ""
+  },
+  {
     "venue": "Voodoos",
     "event_name": "Ormella",
     "date": "2026-12-03",
@@ -3248,6 +3208,14 @@
     "price": ""
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents Do Nothing",
+    "date": "2027-01-29",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-do-nothing/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Do-Nothing-IVW-logo-6acdfe833b6d9-scaled-800x450-c-default.jpg",
+    "price": "£16–£18.50"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Chemistry - A Tribute to Rush",
     "date": "2027-01-29",
@@ -3593,9 +3561,9 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Caoilfhoinn Rose",
+    "event_name": "Round Midnight presents Caoilfhionn Rose",
     "date": "2027-02-25",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-caoilfhoinn-rose/",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-caoilfhionn-rose/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/7-Caoilfhionn-Rose-Press-Shot-Wide-Credit-Rich-Williams-WEB-RES-6acdef1009b04-800x450-c-default.webp",
     "price": "£16–£18.50"
   },
@@ -3888,6 +3856,14 @@
     "price": "£15"
   },
   {
+    "venue": "Epic",
+    "event_name": "Gok Wan - Isolation Nation",
+    "date": "2027-03-27",
+    "url": "https://epic-tv.com/events/event/gok-wan-isolation-nation",
+    "image": "",
+    "price": "£25.50"
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Dinosaur Pile-Up",
     "date": "2027-03-31",
@@ -3902,6 +3878,14 @@
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Letz Zep - Greatest Hits Show",
+    "date": "2027-04-01",
+    "url": "https://epic-tv.com/events/event/letz-zep-greatest-hits-show",
+    "image": "",
+    "price": "£20"
   },
   {
     "venue": "Waterfront",
