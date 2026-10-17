@@ -89,14 +89,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Deviated Instinct + BirdWitch + Dismara",
-    "date": "2026-09-09",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/deviated-instinct-bird-witch-dismara",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1786367468662-AKPZR2HR0MW9BH3JV7DX/09092026-2.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "martin martin martin (dj set)",
     "date": "2026-09-10",
     "url": "https://www.deadwaxnorwich.pub/whats-on/martin-martin-martin-dj-set",
@@ -216,76 +208,12 @@
     "price": ""
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Big Horizon",
-    "date": "2026-10-15",
-    "url": "https://www.ueaticketbookings.co.uk/event/big-horizon/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Big-Horizon-Insta-Sq-1080x1080-1-500x500.png.webp",
-    "price": ""
-  },
-  {
-    "venue": "Space",
-    "event_name": "deepside presents: BLUELESS",
-    "date": "2026-10-16",
-    "url": "https://www.fatsoma.com/e/j616k5f9/deepside-presents-blueless-capture-records-dream-dancing-at-space",
-    "image": "",
-    "price": "£7"
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "Skream - Open to Close",
-    "date": "2026-10-16",
-    "url": "https://www.fatsoma.com/e/3mosb1p5/skream-open-to-close",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzkvNy8xOC8zNC8yLzcyNi9SYWNrTXVsdGlwYXJ0MjAyNjA5MDctNTgtZDM5cnB0LnBuZyJdXQ",
-    "price": "£10–£15"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Boombox presents Icarus Vision + Modern Motive + Hook",
-    "date": "2026-10-16",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1781882060550-IMG_2289.png?alt=media&token=b6a8a4a2-d8ac-4d29-8ba1-19d1ea6a7187",
-    "price": "Free"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Timba Británica",
-    "date": "2026-10-16",
-    "url": "https://norwichartscentre.co.uk/event/timba-britanica/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/GROUP-PIC-WITH-FILTER-6a3a5f09e4a60-800x450-c-default.png",
-    "price": "£18–£20.50"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Lady Leshurr",
-    "date": "2026-10-16",
-    "url": "https://www.ueaticketbookings.co.uk/event/lady-leshurr/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/LL-Sq-500x500.jpg.webp",
-    "price": "£24.98"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "The Luke Combs Experience",
-    "date": "2026-10-16",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-luke-combs-experience/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2025/12/Luke-Square-500x500.jpg.webp",
-    "price": "£24.98"
-  },
-  {
-    "venue": "LCR",
-    "event_name": "Bryan Adams",
-    "date": "2026-10-16",
-    "url": "https://www.ueaticketbookings.co.uk/event/bryan-adams/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Bryan-Adams-HMV-Norwich-Square-2026-500x500.jpg.webp",
-    "price": ""
-  },
-  {
     "venue": "Voodoos",
     "event_name": "Demonhound Doomfest: Gurt + Sleeping Giant,  Famyne + more!",
     "date": "2026-10-16",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/demonhound-doomfest-gurt-sleeping-giant-famyne-more-2/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEvOS8yNi8yNS82MTEvUmFja011bHRpcGFydDIwMjYxMDAxLTYxLTdscXpkLmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": "£16.50–£35"
+    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -294,38 +222,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/alternative-disco-1",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791225520557-WVZB4SSLDP6PGTYUUGYL/ALTERNATIVEDISCO_octa3.jpg",
     "price": "Free"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Lazy Apollo in B2",
-    "date": "2026-10-16",
-    "url": "https://www.norfolkgigguide.com/band-details/Lazy+Apollo+in+B2",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Infernal Racket",
-    "date": "2026-10-16",
-    "url": "https://www.norfolkgigguide.com/band-details/Infernal+Racket",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Reindeer",
-    "event_name": "Jade",
-    "date": "2026-10-16",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Revinyl Sessions",
-    "date": "2026-10-16",
-    "url": "lpsnorwich.co.uk",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Space",
@@ -1129,6 +1025,14 @@
   },
   {
     "venue": "Space",
+    "event_name": "The Halloween Costume Contest",
+    "date": "2026-10-31",
+    "url": "https://www.spacestudiosnorwich.com/event-details-registration/the-halloween-costume-contest",
+    "image": "",
+    "price": "Free"
+  },
+  {
+    "venue": "Space",
     "event_name": "The Haunted House Party",
     "date": "2026-10-31",
     "url": "https://www.spacestudiosnorwich.com/event-details-registration/the-haunted-house-party-halloween-2026",
@@ -1444,8 +1348,8 @@
     "event_name": "Norwich: Save the 90's Ft. N-Trance DJ | The Big Indoors 90's Fest (Indoor & Heated) - Sat 7th Nov",
     "date": "2026-11-07",
     "url": "https://fixr.co/event/norwich-save-the-90s-ft-n-trance-dj-the-big-indoor-tickets-116013121",
-    "image": "https://fixr-cdn.fixr.co/images/event/2026-10/db7a85294ef4444da339a46b27f4879d.jpg",
-    "price": "£10"
+    "image": "https://fixr-cdn.fixr.co/images/event/2026-10/cd054a486a114e8fabd8269bb6e81072.jpg",
+    "price": "£5"
   },
   {
     "venue": "The Reindeer",
@@ -1817,19 +1721,11 @@
   },
   {
     "venue": "Hangar",
-    "event_name": "Indoors & Heated: Fish56octagon - Norwich - Day Party -",
+    "event_name": "Indoors & Heated: Fish56octagon - Norwich - Day Party - 14th Nov",
     "date": "2026-11-14",
     "url": "https://fixr.co/event/fish56octagon-norwich-day-party-26th-september-tickets-540418264",
-    "image": "https://fixr-cdn.fixr.co/images/event/2026-01/882b52bd7fc04e7fa1ad6a61fd7720fd.jpeg",
+    "image": "https://fixr-cdn.fixr.co/images/event/2026-10/77982b4777234bcdafd1e5581dedf521.jpg",
     "price": "£10"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "No Peeling + Garden Centre + Shelf Life (Matinee Show)",
-    "date": "2026-11-15",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1786537369664-IMG_3083.jpeg?alt=media&token=b6265a0d-6bc6-49be-bbe3-1664918eb6c3",
-    "price": ""
   },
   {
     "venue": "Epic",
@@ -2121,19 +2017,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "corto.alto @ EPIC Studios",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
-    "price": "£22–£25"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "PONY UP presents COWBOYY",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
     "price": "£10–£12"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "corto.alto @ EPIC Studios",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
+    "price": "£22–£25"
   },
   {
     "venue": "Waterfront",
@@ -2404,8 +2300,8 @@
     "event_name": "Norwich: DJ Luck & MC Neat - Garage Brunch Day Party (Indoor & Heated) - Saturday 28th November",
     "date": "2026-11-28",
     "url": "https://fixr.co/event/norwich-dj-luck-mc-neat-garage-brunch-day-party-in-tickets-734094727",
-    "image": "https://fixr-cdn.fixr.co/images/event/2026-10/04c446613bdc459daa6400ab5af0c08b.jpeg",
-    "price": "£10"
+    "image": "https://fixr-cdn.fixr.co/images/event/2026-10/2e0c2afcd60a4386976bb5785945a2da.jpeg",
+    "price": "£5"
   },
   {
     "venue": "LCR",
@@ -2612,7 +2508,7 @@
     "event_name": "Norwich: Pat Sharp's Fun House Xmas Special - Indoors & Heated | 5th Dec",
     "date": "2026-12-05",
     "url": "https://fixr.co/event/norwich-mj-cole-daylight-disco-end-of-summer-day-p-tickets-108678374",
-    "image": "https://fixr-cdn.fixr.co/images/event/2026-08/f8bab281d33242bdbc2f63bf7f3238e0.jpeg",
+    "image": "https://fixr-cdn.fixr.co/images/event/2026-10/2d386dbbe26d4a6785871274693d086e.jpeg",
     "price": "£7.50"
   },
   {
