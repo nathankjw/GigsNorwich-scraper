@@ -185,14 +185,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Corncutter Promotions Present: Dan Walsh",
-    "date": "2026-10-09",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/corncutter-promotions-present-dan-walsh",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1781021082923-9JSFVA5SOQ21U6MZTGKG/DAN+WALSH.jpeg",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "sweet gemini",
     "date": "2026-10-10",
     "url": "https://www.deadwaxnorwich.pub/whats-on/sweet-gemini-1",
@@ -208,52 +200,12 @@
     "price": ""
   },
   {
-    "venue": "Voodoos",
-    "event_name": "Demonhound Doomfest: Gurt + Sleeping Giant,  Famyne + more!",
-    "date": "2026-10-16",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/demonhound-doomfest-gurt-sleeping-giant-famyne-more-2/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEvOS8yNi8yNS82MTEvUmFja011bHRpcGFydDIwMjYxMDAxLTYxLTdscXpkLmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": ""
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Alternative Disco",
     "date": "2026-10-16",
     "url": "https://www.deadwaxnorwich.pub/whats-on/alternative-disco-1",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791225520557-WVZB4SSLDP6PGTYUUGYL/ALTERNATIVEDISCO_octa3.jpg",
     "price": "Free"
-  },
-  {
-    "venue": "Space",
-    "event_name": "Basement Sessions",
-    "date": "2026-10-17",
-    "url": "https://www.fatsoma.com/e/39ivbjg4/basement-unlisted-ft-waypoint-x-ash-c-multi-genre",
-    "image": "",
-    "price": "£3–£6"
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "Prozak - All Night Long",
-    "date": "2026-10-17",
-    "url": "https://www.fatsoma.com/e/5rtatac7/prozak-all-night-long",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzkvMi8xNy8xOS81NC83NzQvUmFja011bHRpcGFydDIwMjYwOTAyLTUzLTk1eHo4eS5wbmciXV0",
-    "price": "£5–£10"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Green Diesel +  Joshua Arnold & Therine + Florence Rose Broomfield",
-    "date": "2026-10-17",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1787415573496-IMG_3142.webp?alt=media&token=d6b351da-778f-41ae-8e0b-b4bebedbb0d0",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "R&B Lovers",
-    "date": "2026-10-17",
-    "url": "https://epic-tv.com/events/event/rb-lovers",
-    "image": "",
-    "price": "£18–£30"
   },
   {
     "venue": "Waterfront",
@@ -277,38 +229,6 @@
     "date": "2026-10-17",
     "url": "https://www.deadwaxnorwich.pub/whats-on/clownsmasheverything-project-mork-amongst-strangers",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788968624321-CP0MNZEPXTZ6SWLUTZG7/2026_09_05_0me_Kleki.png",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Stars in Their Eyes Competition",
-    "date": "2026-10-17",
-    "url": "https://www.norfolkgigguide.com/band-details/Stars+in+Their+Eyes+Competition",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Reindeer",
-    "event_name": "Cherry Bomb",
-    "date": "2026-10-17",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "All Night Long with Michael Gyapong",
-    "date": "2026-10-17",
-    "url": "lpsnorwich.co.uk",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "HMV",
-    "event_name": "Sakura Soundsystem",
-    "date": "2026-10-17",
-    "url": "",
-    "image": "",
     "price": ""
   },
   {
@@ -1037,7 +957,7 @@
     "date": "2026-10-31",
     "url": "https://www.spacestudiosnorwich.com/event-details-registration/the-haunted-house-party-halloween-2026",
     "image": "",
-    "price": "£4.10–£12.81"
+    "price": ""
   },
   {
     "venue": "Gonzos",
@@ -2510,6 +2430,14 @@
     "url": "https://fixr.co/event/norwich-mj-cole-daylight-disco-end-of-summer-day-p-tickets-108678374",
     "image": "https://fixr-cdn.fixr.co/images/event/2026-10/2d386dbbe26d4a6785871274693d086e.jpeg",
     "price": "£7.50"
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "Operation Julie: The Conspiracy To Flood The World With LSD - Talk & Q&A",
+    "date": "2026-12-06",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1792244990141-Operation%20Julie%20Aberystwyth%20website%20web_4.jpg?alt=media&token=99272666-5421-4b9d-a846-da0828afb444",
+    "price": ""
   },
   {
     "venue": "Waterfront",
