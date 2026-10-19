@@ -57,6 +57,14 @@
   },
   {
     "venue": "Dead Wax",
+    "event_name": "Diving Deep with Rad Pitt + With Teeth",
+    "date": "2026-05-12",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/diving-deep-with-rad-pitt-with-teeth",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792346199461-3HOMBYC6CFYOPLDUBQHZ/11929.png",
+    "price": ""
+  },
+  {
+    "venue": "Dead Wax",
     "event_name": "Bim Skala Bim + Rebelation",
     "date": "2026-06-11",
     "url": "https://www.deadwaxnorwich.pub/whats-on/bim-skala-bim-rebelation",
@@ -208,91 +216,11 @@
     "price": "Free"
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Black Water County",
-    "date": "2026-10-17",
-    "url": "https://www.ueaticketbookings.co.uk/event/black-water-county/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/01/BlackWaterCounty-03-500x500.png.webp",
-    "price": "£19.80"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "The Hoosiers",
-    "date": "2026-10-17",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-hoosiers/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Lauras-WF-LCR-IG-Template-2026-07-07T095539.460.jpg.webp",
-    "price": "£31.08–£55.50"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Clownsmasheverything + Project Mork + Amongst Strangers",
     "date": "2026-10-17",
     "url": "https://www.deadwaxnorwich.pub/whats-on/clownsmasheverything-project-mork-amongst-strangers",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788968624321-CP0MNZEPXTZ6SWLUTZG7/2026_09_05_0me_Kleki.png",
-    "price": ""
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Tiny Vipers (USA) + Chantal Acda (BE/NL) + astridDrift. (Matinee Show)",
-    "date": "2026-10-18",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1775495685492-IMG_1702.jpeg?alt=media&token=feb03d95-6d07-4b96-be28-1f0bf6213194",
-    "price": ""
-  },
-  {
-    "venue": "Maddermarket",
-    "event_name": "Baga Chipz: Bagz to Riches",
-    "date": "2026-10-18",
-    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=119001",
-    "image": "https://system.spektrix.com/themaddermarkettheatre/files/0642faf0-a10f-45e0-81b7-c9f736fb068a.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Lime Garden",
-    "date": "2026-10-18",
-    "url": "https://www.ueaticketbookings.co.uk/event/lime-garden/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/01/LimeGarden_Square-1-500x500.png.webp",
-    "price": "£16.50"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Skating Polly",
-    "date": "2026-10-18",
-    "url": "https://www.ueaticketbookings.co.uk/event/skating-polly/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/SkatingPolly_Poster-01-500x500.png.webp",
-    "price": "£16.50"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Rusty Metal",
-    "date": "2026-10-18",
-    "url": "https://www.norfolkgigguide.com/band-details/Rusty+Metal",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Fine City Strummers Ukulele Jam",
-    "date": "2026-10-18",
-    "url": "https://www.norfolkgigguide.com/band-details/Fine+City+Strummers+Ukulele+Jam",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Reindeer",
-    "event_name": "OffBeat Collective Soul Band",
-    "date": "2026-10-18",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Chubby Jams",
-    "date": "2026-10-18",
-    "url": "lpsnorwich.co.uk",
-    "image": "",
     "price": ""
   },
   {
@@ -957,7 +885,7 @@
     "date": "2026-10-31",
     "url": "https://www.spacestudiosnorwich.com/event-details-registration/the-haunted-house-party-halloween-2026",
     "image": "",
-    "price": ""
+    "price": "£4.10–£12.81"
   },
   {
     "venue": "Gonzos",
@@ -1904,6 +1832,14 @@
     "price": "£16.50"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "Draw Some Paws",
+    "date": "2026-11-22",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/draw-some-paws-2",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792345891072-2B92BG9UYSK8BZ1Z9HNW/pet+life+drawing.png",
+    "price": ""
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Maiden Anglia - A Tribute To Iron Maiden",
     "date": "2026-11-22",
@@ -1937,19 +1873,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "PONY UP presents COWBOYY",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
-    "price": "£10–£12"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "corto.alto @ EPIC Studios",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
     "price": "£22–£25"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents COWBOYY",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
+    "price": "£10–£12"
   },
   {
     "venue": "Waterfront",
@@ -3685,7 +3621,7 @@
     "date": "2027-03-27",
     "url": "https://epic-tv.com/events/event/gok-wan-isolation-nation",
     "image": "",
-    "price": "£25.50"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -3752,6 +3688,14 @@
     "price": "£27.75"
   },
   {
+    "venue": "Voodoos",
+    "event_name": "Vic Allen",
+    "date": "2027-04-09",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/vic-allen/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzIvMTMvMjYvNS8zNDQvUmFja011bHRpcGFydDIwMjYxMDAyLTYwLXpuNjhxbC5qcGciXV0?ar=16:9&fit=crop",
+    "price": ""
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Motorheadache",
     "date": "2027-04-09",
@@ -3814,6 +3758,14 @@
     "url": "https://epic-tv.com/events/event/scott-bennett-stuff",
     "image": "",
     "price": "£25"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Prince Tribute - Endorphinmachine Feat Jolan  Greatest Hits Show",
+    "date": "2027-04-23",
+    "url": "https://epic-tv.com/events/event/prince-tribute-endorphinmachine-feat-jolan-greatest-hits-show",
+    "image": "",
+    "price": "£21.50"
   },
   {
     "venue": "Arts Centre",
