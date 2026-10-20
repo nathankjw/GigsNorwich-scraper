@@ -90,11 +90,6 @@
   "price": "£44.24"
  },
  {
-  "name": "Black Water County",
-  "date": "2026-10-17",
-  "price": "£19.80"
- },
- {
   "name": "Blaze Bayley",
   "date": "2026-10-22",
   "price": "£27.75"
@@ -143,11 +138,6 @@
   "name": "Cinema Stereo",
   "date": "2026-12-03",
   "price": "£19.25"
- },
- {
-  "name": "Crash Test Dummies",
-  "date": "2026-10-12",
-  "price": "£42"
  },
  {
   "name": "Cydonia Knights",
@@ -295,16 +285,6 @@
   "price": "£24.98–£38.85"
  },
  {
-  "name": "Hayseed Dixie",
-  "date": "2026-10-14",
-  "price": "£28.86"
- },
- {
-  "name": "Heaven 17",
-  "date": "2026-10-19",
-  "price": "£38.64–£128.80"
- },
- {
   "name": "Henge",
   "date": "2027-03-21",
   "price": "£22.20"
@@ -323,11 +303,6 @@
   "name": "Indiepalooza Festival",
   "date": "2027-03-20",
   "price": "£33"
- },
- {
-  "name": "John Craigie",
-  "date": "2026-10-15",
-  "price": "£22.20"
  },
  {
   "name": "Josh Pugh",
@@ -358,11 +333,6 @@
   "name": "King No-One",
   "date": "2026-10-22",
   "price": "£16.50"
- },
- {
-  "name": "Lady Leshurr",
-  "date": "2026-10-16",
-  "price": "£24.98"
  },
  {
   "name": "Laurence Jones",
@@ -575,11 +545,6 @@
   "price": "£17.60"
  },
  {
-  "name": "Skating Polly",
-  "date": "2026-10-18",
-  "price": "£16.50"
- },
- {
   "name": "Skids + Theatre of Hate",
   "date": "2026-11-21",
   "price": "£33.60"
@@ -675,11 +640,6 @@
   "price": "£16.50"
  },
  {
-  "name": "The Hoosiers",
-  "date": "2026-10-17",
-  "price": "£31.08–£55.50"
- },
- {
   "name": "The Hunna",
   "date": "2026-12-04",
   "price": "£33.60"
@@ -703,11 +663,6 @@
   "name": "The Love Buzz",
   "date": "2026-11-25",
   "price": "£11"
- },
- {
-  "name": "The Luke Combs Experience",
-  "date": "2026-10-16",
-  "price": "£24.98"
  },
  {
   "name": "The Pogue Traders",
@@ -773,11 +728,6 @@
   "name": "The Zac Schulze Gang",
   "date": "2026-11-13",
   "price": "£22.20"
- },
- {
-  "name": "Theatre",
-  "date": "2026-10-13",
-  "price": "£11"
  },
  {
   "name": "These Wicked Rivers",
@@ -850,11 +800,6 @@
   "price": "£30.53"
  },
  {
-  "name": "Lime Garden",
-  "date": "2026-10-18",
-  "price": "£16.50"
- },
- {
   "name": "Sumo Cyco",
   "date": "2026-12-10",
   "price": "£19.80"
@@ -878,5 +823,35 @@
   "name": "Professor Green",
   "date": "2027-06-05",
   "price": "£32.75"
+ },
+ {
+  "name": "Drum & Bass Classics",
+  "date": "2026-11-27",
+  "price": "£16.50–£19.80"
+ },
+ {
+  "name": "Moments of Pleasure: The Music Of Kate Bush",
+  "date": "2027-05-15",
+  "price": "£22.40"
+ },
+ {
+  "name": "Nontaines D.C.",
+  "date": "2027-04-17",
+  "price": "£11–£16.50"
+ },
+ {
+  "name": "The Alehouse Sessions",
+  "date": "2026-12-03",
+  "price": "£23.31"
+ },
+ {
+  "name": "The Hot One Two + AETHORIA",
+  "date": "2027-02-19",
+  "price": "£13.20"
+ },
+ {
+  "name": "Tummyache",
+  "date": "2027-01-25",
+  "price": "£13.20"
  }
 ]
