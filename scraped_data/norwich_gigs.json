@@ -224,36 +224,12 @@
     "price": ""
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Heaven 17",
-    "date": "2026-10-19",
-    "url": "https://www.ueaticketbookings.co.uk/event/heaven-17/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Heaven-17-SQ-500x500.png.webp",
-    "price": "£38.64–£128.80"
-  },
-  {
     "venue": "Revolucion de Cuba",
     "event_name": "Strictly Salsa Norwich",
     "date": "2026-10-19",
     "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
     "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
     "price": "£5–£7"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Jazz Jam",
-    "date": "2026-10-19",
-    "url": "lpsnorwich.co.uk",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Artichoke",
-    "event_name": "Reel Connections",
-    "date": "2026-10-19",
-    "url": "https://www.facebook.com/artichokepub",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Holloway",
@@ -345,7 +321,7 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Poppy Moore's iPod",
+    "event_name": "(Postponed) Poppy Moore's iPod",
     "date": "2026-10-22",
     "url": "https://www.deadwaxnorwich.pub/whats-on/poppy-moores-ipod-2",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791227102781-OSJKCY2KOROCKGDPWWED/Screenshot+2026-10-05+at+20.04.22.png",
@@ -553,9 +529,9 @@
   },
   {
     "venue": "Brickmakers",
-    "event_name": "Cydonia Knights - Muse Tribute",
+    "event_name": "Cydonia Knights MUSE Tribute",
     "date": "2026-10-24",
-    "url": "https://www.norfolkgigguide.com/band-details/Cydonia+Knights+-+Muse+Tribute",
+    "url": "https://www.norfolkgigguide.com/band-details/Cydonia+Knights+MUSE+Tribute",
     "image": "",
     "price": ""
   },
@@ -661,7 +637,7 @@
     "date": "2026-10-27",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-jump-cuts-harry-jordan-gavin-bowers/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMjAvMTgvMjcvMzQvMjM1L1JhY2tNdWx0aXBhcnQyMDI2MDcyMC01Ny02Z3owb3QuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£12"
+    "price": "£8–£12"
   },
   {
     "venue": "Dead Wax",
@@ -1256,22 +1232,6 @@
     "price": "£10"
   },
   {
-    "venue": "Dead Wax",
-    "event_name": "Chrome (DJ SET)",
-    "date": "2026-11-09",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/chrome-dj-set",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788448541871-JKHPGKODXHBWVALHYYXR/chrome_sept.jpg",
-    "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Wheel Up presents: New Gen round 2 (open Mic & cypher)",
-    "date": "2026-11-09",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/wheel-up-presents-new-gen-2-open-mic-cypher",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788805777642-CW5DBLHIJOJEX3TNWMFI/wheel+up+new+gen+sep.jpeg",
-    "price": "Free"
-  },
-  {
     "venue": "Holloway",
     "event_name": "Asinine Corp Presents: Pillow Fort, Mountain Peaks, Dogboy + Never 💥",
     "date": "2026-11-10",
@@ -1377,7 +1337,7 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "Dermot Henry Plus Special Guests",
+    "event_name": "Dermot Henry + Alfie Bowles",
     "date": "2026-11-12",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/dermot-henry-plus-special-guests/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMi8yMS8zOC80MS8yNDMvUmFja011bHRpcGFydDIwMjYwOTAyLTU4LTFyaHQ2Ym8uanBnIl1d?ar=16:9&fit=crop",
@@ -1624,6 +1584,14 @@
     "price": "£50.63"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "Rhyme Against The Machine",
+    "date": "2026-11-16",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/rhyme-against-the-machine-5",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792427974327-N81YB8OWPHSX6FMWBL9G/RHYME_MONTHLY+%281%29+%281%29.jpg",
+    "price": "Free"
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Mississippi Records presents: A People’s History of Music",
     "date": "2026-11-17",
@@ -1696,6 +1664,14 @@
     "price": "£24.98–£38.85"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "Dreamcast",
+    "date": "2026-11-19",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/dreamcast-5",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792428368269-8S2D45CIWNCA4OSNY7YG/dream_june2.png",
+    "price": "Free"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Acid reign and Regicide",
     "date": "2026-11-19",
@@ -1716,7 +1692,7 @@
     "event_name": "Katz Mulk + Germ Lattice + Phil Julian",
     "date": "2026-11-20",
     "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1775724566798-a0616330791_16.jpg?alt=media&token=5137b32a-56d6-4a82-ae26-c378bf77255f",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1792484806880-5294a948-9972-400a-a249-84d031fad823.jpeg?alt=media&token=a723d974-b50f-42b9-871e-cd7ad2189789",
     "price": ""
   },
   {
@@ -1873,19 +1849,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "corto.alto @ EPIC Studios",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
-    "price": "£22–£25"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "PONY UP presents COWBOYY",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
     "price": "£10–£12"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "corto.alto @ EPIC Studios",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
+    "price": "£22–£25"
   },
   {
     "venue": "Waterfront",
@@ -2372,7 +2348,7 @@
     "event_name": "Operation Julie: The Conspiracy To Flood The World With LSD - Talk & Q&A",
     "date": "2026-12-06",
     "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1792244990141-Operation%20Julie%20Aberystwyth%20website%20web_4.jpg?alt=media&token=99272666-5421-4b9d-a846-da0828afb444",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1792485036978-IMG_3450.jpeg?alt=media&token=1083d195-063d-489d-8ea4-82c3f2177d31",
     "price": ""
   },
   {
@@ -2557,7 +2533,7 @@
     "date": "2026-12-12",
     "url": "https://fixr.co/event/bank-holiday-fiesta-w-the-cuban-brothers-sunday-30-tickets-727244475",
     "image": "https://fixr-cdn.fixr.co/images/event/2026-06/df5bb64196a04047a3c2d41cc1633046.jpeg",
-    "price": "£10"
+    "price": ""
   },
   {
     "venue": "Voodoos",
@@ -2889,6 +2865,14 @@
   },
   {
     "venue": "Holloway",
+    "event_name": "Offbeat presents BREAK THEM + HeelTurn + LivingSpite",
+    "date": "2027-01-23",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1792449080287-IMG_3448.jpeg?alt=media&token=6bb6d171-a366-4f1d-81f0-2907eceae1f8",
+    "price": ""
+  },
+  {
+    "venue": "Holloway",
     "event_name": "(IVW) Seamus Fogarty",
     "date": "2027-01-25",
     "url": "https://thehollowaynorwich.com/events",
@@ -2933,14 +2917,6 @@
     "date": "2027-01-27",
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
     "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "(IVW) Elenwen (Album Launch Party) + Support",
-    "date": "2027-01-28",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1791975093390-0041532414_10.jpg?alt=media&token=cc9db4ff-7e93-45c5-8808-92a65a2da17b",
     "price": ""
   },
   {
@@ -2996,7 +2972,7 @@
     "event_name": "Pigeon",
     "date": "2027-01-30",
     "url": "https://norwichartscentre.co.uk/event/pigeon/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/26c6228b_29-Pigeon-Miami-andreiaartt-6a1d8c26ad69d-scaled-800x450-c-default.jpg",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/Pigeon-with-IVW-logo-6ad637fddc66d-800x450-c-default.jpg",
     "price": "£17–£19.50"
   },
   {
@@ -3752,6 +3728,14 @@
     "price": ""
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "Halina Rice",
+    "date": "2027-04-17",
+    "url": "https://norwichartscentre.co.uk/event/halina-rice/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Halina-Rice-live-HERE-at-Outernet-London-UK-7430-6ad61b65545d9-scaled-800x450-c-default.jpg",
+    "price": "£21–£24"
+  },
+  {
     "venue": "Epic",
     "event_name": "Scott Bennett - Stuff",
     "date": "2027-04-21",
@@ -3950,6 +3934,14 @@
     "url": "https://epic-tv.com/events/event/tom-meighan-the-original-voice-of-kasabian",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Cream Classics - Norwich",
+    "date": "2027-05-29",
+    "url": "https://epic-tv.com/events/event/cream-classics-norwich",
+    "image": "",
+    "price": "£26–£45"
   },
   {
     "venue": "Waterfront",
