@@ -120,11 +120,6 @@
   "price": "£14.30"
  },
  {
-  "name": "Ceremonial Bloodbath & Cryptworm",
-  "date": "2026-10-20",
-  "price": "£16.50"
- },
- {
   "name": "Chloe Slater",
   "date": "2026-11-07",
   "price": "£16.72"
@@ -263,11 +258,6 @@
   "name": "Good Health Good Wealth",
   "date": "2026-11-22",
   "price": "£16.50"
- },
- {
-  "name": "Gurriers",
-  "date": "2026-10-20",
-  "price": "£22.20"
  },
  {
   "name": "Hail The Sun",
@@ -853,5 +843,15 @@
   "name": "Tummyache",
   "date": "2027-01-25",
   "price": "£13.20"
+ },
+ {
+  "name": "ĠENN",
+  "date": "2026-11-09",
+  "price": "£11"
+ },
+ {
+  "name": "Sleep Broken",
+  "date": "2027-03-19",
+  "price": "£18.70"
  }
 ]
