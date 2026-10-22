@@ -232,22 +232,6 @@
     "price": "£15"
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "Beth Orton",
-    "date": "2026-10-21",
-    "url": "https://norwichartscentre.co.uk/event/beth-orton/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/04/1.-TGA-STANDALONE-SINGLE-KasiaWozniak_Beth_Orton_006-69e6226f341fb-800x450-c-default.jpg",
-    "price": "£37.50–£42"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Bel Cobain + Nayana Ab, Alice-Lily",
-    "date": "2026-10-21",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/bel-cobain/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMTkvMTIvNC8zNi83NTQvUmFja011bHRpcGFydDIwMjYwNDE5LTYwLTFiOHY3bGoucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£16"
-  },
-  {
     "venue": "Holloway",
     "event_name": "BLAND - Bizarro’ Variety Presents John Osborne + Dan \"Magic\" + Adam Maric-Cleaver + Nancy Dunnell",
     "date": "2026-10-22",
@@ -376,20 +360,20 @@
     "price": ""
   },
   {
-    "venue": "Reindeer",
-    "event_name": "Night Train",
-    "date": "2026-10-23",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Above Kerry's",
     "event_name": "Goodlife Norwich",
     "date": "2026-10-23",
     "url": "https://www.eventbrite.com/e/goodlife-norwich-tickets-1998178750432?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=wsa&aff=ebdsshwebmobile",
     "image": "",
     "price": "£3.96"
+  },
+  {
+    "venue": "Artichoke",
+    "event_name": "We are 2! Celebration",
+    "date": "2026-10-23",
+    "url": "https://www.facebook.com/artichokepub",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Last Pub",
@@ -400,10 +384,10 @@
     "price": ""
   },
   {
-    "venue": "Artichoke",
-    "event_name": "We are 2! Celebration",
+    "venue": "Reindeer",
+    "event_name": "Night Train",
     "date": "2026-10-23",
-    "url": "https://www.facebook.com/artichokepub",
+    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
     "image": "",
     "price": ""
   },
@@ -488,18 +472,18 @@
     "price": ""
   },
   {
-    "venue": "Reindeer",
-    "event_name": "The Funky Stuff",
-    "date": "2026-10-24",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Last Pub",
     "event_name": "The High Points",
     "date": "2026-10-24",
     "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Reindeer",
+    "event_name": "The Funky Stuff",
+    "date": "2026-10-24",
+    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
     "image": "",
     "price": ""
   },
@@ -536,10 +520,10 @@
     "price": ""
   },
   {
-    "venue": "The Reindeer",
-    "event_name": "Nikki and the Switchblades",
+    "venue": "Last Pub",
+    "event_name": "Reely",
     "date": "2026-10-25",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/",
+    "url": "lpsnorwich.co.uk",
     "image": "",
     "price": ""
   },
@@ -552,10 +536,10 @@
     "price": ""
   },
   {
-    "venue": "Last Pub",
-    "event_name": "Reely",
+    "venue": "The Reindeer",
+    "event_name": "Nikki and the Switchblades",
     "date": "2026-10-25",
-    "url": "lpsnorwich.co.uk",
+    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/",
     "image": "",
     "price": ""
   },
@@ -568,18 +552,18 @@
     "price": "£5–£7"
   },
   {
-    "venue": "Last Pub",
-    "event_name": "Jazz Jam",
-    "date": "2026-10-26",
-    "url": "lpsnorwich.co.uk",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Artichoke",
     "event_name": "Folk by the fire",
     "date": "2026-10-26",
     "url": "https://www.facebook.com/artichokepub",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Jazz Jam",
+    "date": "2026-10-26",
+    "url": "lpsnorwich.co.uk",
     "image": "",
     "price": ""
   },
@@ -597,7 +581,7 @@
     "date": "2026-10-27",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-jump-cuts-harry-jordan-gavin-bowers/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMjAvMTgvMjcvMzQvMjM1L1JhY2tNdWx0aXBhcnQyMDI2MDcyMC01Ny02Z3owb3QuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£8–£12"
+    "price": "£12"
   },
   {
     "venue": "Dead Wax",
@@ -712,18 +696,18 @@
     "price": ""
   },
   {
-    "venue": "Reindeer",
-    "event_name": "Fine City Blues",
-    "date": "2026-10-29",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Last Pub",
     "event_name": "FIFI G (DJ Set)",
     "date": "2026-10-29",
     "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Reindeer",
+    "event_name": "Fine City Blues",
+    "date": "2026-10-29",
+    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
     "image": "",
     "price": ""
   },
@@ -792,18 +776,18 @@
     "price": ""
   },
   {
-    "venue": "The Reindeer",
-    "event_name": "Mister Pink",
-    "date": "2026-10-30",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Last Pub",
     "event_name": "Haus of Brat",
     "date": "2026-10-30",
     "url": "lpsnorwich.co.uk",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "The Reindeer",
+    "event_name": "Mister Pink",
+    "date": "2026-10-30",
+    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/",
     "image": "",
     "price": ""
   },
@@ -880,10 +864,10 @@
     "price": ""
   },
   {
-    "venue": "Reindeer",
-    "event_name": "Boston Tea Party + Halloween Party",
+    "venue": "Artichoke",
+    "event_name": "Halloween Hoedown with Feral Mouth",
     "date": "2026-10-31",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
+    "url": "https://www.facebook.com/artichokepub",
     "image": "",
     "price": ""
   },
@@ -904,10 +888,10 @@
     "price": ""
   },
   {
-    "venue": "Artichoke",
-    "event_name": "Halloween Hoedown with Feral Mouth",
+    "venue": "Reindeer",
+    "event_name": "Boston Tea Party + Halloween Party",
     "date": "2026-10-31",
-    "url": "https://www.facebook.com/artichokepub",
+    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
     "image": "",
     "price": ""
   },
@@ -1457,11 +1441,11 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "The Rabbitts",
+    "event_name": "The Rabbitts + Dean Frost",
     "date": "2026-11-14",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-rabbitts/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMTAvMTQvMTMvMjQvMTM1L1JhY2tNdWx0aXBhcnQyMDI2MDQxMC02NS0xY2EzOG52LnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": "£15.95"
+    "price": "£10.36–£13.06"
   },
   {
     "venue": "Dead Wax",
@@ -1817,19 +1801,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "PONY UP presents COWBOYY",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
-    "price": "£10–£12"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "corto.alto @ EPIC Studios",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
     "price": "£22–£25"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents COWBOYY",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
+    "price": "£10–£12"
   },
   {
     "venue": "Waterfront",
@@ -2312,14 +2296,6 @@
     "price": "£7.50"
   },
   {
-    "venue": "Holloway",
-    "event_name": "Operation Julie: The Conspiracy To Flood The World With LSD - Talk & Q&A",
-    "date": "2026-12-06",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1792485036978-IMG_3450.jpeg?alt=media&token=1083d195-063d-489d-8ea4-82c3f2177d31",
-    "price": ""
-  },
-  {
     "venue": "Waterfront",
     "event_name": "The Fell",
     "date": "2026-12-06",
@@ -2510,6 +2486,14 @@
     "url": "https://fixr.co/event/bank-holiday-fiesta-w-the-cuban-brothers-sunday-30-tickets-727244475",
     "image": "https://fixr-cdn.fixr.co/images/event/2026-06/df5bb64196a04047a3c2d41cc1633046.jpeg",
     "price": "£10"
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "Operation Julie: The Conspiracy To Flood The World With LSD - Talk & Q&A",
+    "date": "2026-12-13",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1792485036978-IMG_3450.jpeg?alt=media&token=1083d195-063d-489d-8ea4-82c3f2177d31",
+    "price": ""
   },
   {
     "venue": "Voodoos",
@@ -3320,6 +3304,14 @@
     "price": ""
   },
   {
+    "venue": "Waterfront",
+    "event_name": "Dick & Dom – DnB Rave",
+    "date": "2027-02-26",
+    "url": "https://www.ueaticketbookings.co.uk/event/dick-dom-dnb-rave/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/DicknDom_2027-SQ-500x500.png.webp",
+    "price": ""
+  },
+  {
     "venue": "LCR",
     "event_name": "Keo",
     "date": "2027-02-26",
@@ -3680,6 +3672,14 @@
     "price": "£20–£23"
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "Willie J Healey",
+    "date": "2027-04-15",
+    "url": "https://norwichartscentre.co.uk/event/willie-j-healey/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-15.18.45-6ad626ca6a7aa-800x450-c-default.png",
+    "price": "£19–£21.50"
+  },
+  {
     "venue": "Waterfront",
     "event_name": "UK Subs",
     "date": "2027-04-15",
@@ -3782,6 +3782,14 @@
     "url": "https://epic-tv.com/events/event/the-makings-of-a-murderer-fatal-mistake",
     "image": "",
     "price": "£32–£34"
+  },
+  {
+    "venue": "LCR",
+    "event_name": "Chvrches",
+    "date": "2027-05-05",
+    "url": "https://www.ueaticketbookings.co.uk/event/chvrches/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Image-500x500.jpeg.webp",
+    "price": ""
   },
   {
     "venue": "Epic",
