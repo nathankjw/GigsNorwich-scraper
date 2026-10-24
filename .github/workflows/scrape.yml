@@ -66,5 +66,5 @@ jobs:
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
           BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
           BLOGGER_PAGE_ID: ${{ secrets.BLOGGER_PAGE_ID }}
-          BLOGGER_KIND: ${{ vars.BLOGGER_KIND || 'pages' }}
+          BLOGGER_KIND: posts
         run: python3 blogger/publish_to_blogger.py
