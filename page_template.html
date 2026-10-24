@@ -1,0 +1,1619 @@
+<!-- Site-level structured data. Individual gigs are added to the page as
+     MusicEvent markup by the script at the bottom of the page. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.norwichgigs.com/#website",
+      "url": "https://www.norwichgigs.com/",
+      "name": "Norwich Gigs",
+      "description": "A guide to live music and gigs in Norwich, listing upcoming events at venues across the city.",
+      "inLanguage": "en-GB",
+      "publisher": { "@id": "https://www.norwichgigs.com/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.norwichgigs.com/#organization",
+      "name": "Norwich Gigs",
+      "url": "https://www.norwichgigs.com/",
+      "email": "norwichgigs@gmail.com",
+      "areaServed": { "@type": "City", "name": "Norwich" },
+      "sameAs": [
+        "https://instagram.com/gigsnorwich",
+        "https://www.facebook.com/people/Norwich-Gig-List/61580696011167/"
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- Fonts and icons load as <link>s (not CSS @imports) so they download in parallel. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://blogger.googleusercontent.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+:root {
+    --brand-green: #256e24;
+    --brand-yellow: #FFF500;
+    --brand-black: #0E0E0E;
+}
+
+body, input, button, select, textarea, 
+.events-container, .search-label, .search-box, 
+.counter, .events-table, .ticket-btn {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}.events-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.events-container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    border: none;
+    width: 100%; 
+    overflow: hidden;
+}
+/* Screen-reader / search-engine heading. Uses the standard visually-hidden
+   technique instead of transparent 0-size text. */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.contact-section {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    padding: 30px 20px;
+    background: rgba(255, 255, 255, 0.95);
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.contact-section h2 {
+    color: var(--brand-black);
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+}
+
+.contact-section p {
+    color: #5a5a5a;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.contact-section .email {
+    color: var(--brand-black);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.social-links {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    background: var(--brand-green);
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.social-links a,
+.social-links a:link,
+.social-links a:visited,
+.social-links a:hover,
+.social-links a:active {
+    color: #fff !important;
+}
+
+.social-links a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(46, 139, 61, 0.4);
+}
+
+/* ===== About / venues section (crawlable text for search engines) ===== */
+.about-section {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 30px 20px;
+    background: rgba(255, 255, 255, 0.95);
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.about-section h2 {
+    color: var(--brand-black);
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.about-section p {
+    color: #5a5a5a;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    max-width: 75ch;
+}
+
+.about-section p:last-child {
+    margin-bottom: 0;
+}
+
+.about-section a,
+.about-section a:link,
+.about-section a:visited {
+    color: var(--brand-green);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.search-label {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #5a5a5a;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.search-box {
+    width: 100%;
+    padding: 18px 25px 18px 60px;
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    border: 4px solid var(--brand-green);
+    border-radius: 50px;
+    background: white;
+    position: left;
+    transition: all 0.3s ease;
+}
+
+.search-wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 768px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--brand-green);
+    font-size: 20px;
+    z-index: 2;
+}
+
+.search-box:focus {
+    outline: none;
+    border-color: var(--brand-green);
+    transform: translateY(-2px);
+}
+
+/* ===== View toggle (Compact / Detailed) =====
+   Sits under the search box. Hidden on phones, where the card layout is
+   always used because four table columns don't fit. */
+.view-toggle {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 3px solid var(--brand-green);
+    border-radius: 50px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.view-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 22px;
+    border: none;
+    background: transparent;
+    color: var(--brand-green);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.view-btn:hover {
+    background: rgba(46, 139, 61, 0.1);
+}
+
+.view-btn[aria-pressed="true"] {
+    background: var(--brand-green);
+    color: #fff;
+}
+
+.view-btn:focus-visible {
+    outline: 3px solid var(--brand-black);
+    outline-offset: -3px;
+}
+
+@media (max-width: 480px) {
+    .view-toggle {
+        display: none;
+    }
+}
+
+.counters {
+    margin-top: 25px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.counter {
+    background: var(--brand-green);
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 13px;
+    border: 3px solid white;
+    transition: all 0.3s ease;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    white-space: nowrap;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.counter:hover {
+    transform: translateY(-3px);
+}
+
+.events-table-container {
+    background: transparent;
+    border-radius: 0px;
+    padding: 0px 0;
+    overflow-x: auto;
+    border: none;
+}
+
+.events-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.events-table th {
+    background: var(--brand-green) !important;
+    color: #fff !important;
+    padding: 0px 15px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    border: none;
+    white-space: nowrap;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.events-table th i {
+    margin-right: 8px;
+    color: #fff !important;
+}
+
+.events-table th:first-child {
+    border-radius: 15px 0 0 15px;
+}
+
+.events-table th:last-child {
+    border-radius: 0 15px 15px 0;
+}
+
+.events-table td {
+    padding: 10px 0px;
+    border: none;
+    font-weight: 500;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.events-table tbody tr {
+    transition: all 0.3s ease;
+}
+
+.events-table tbody tr:nth-child(odd) td {
+    background: #ffffff;
+}
+
+.events-table tbody tr:nth-child(even) td {
+    background: #f5f5f5;
+}
+
+.events-table tbody tr td:first-child {
+    border-radius: 15px 0 0 15px;
+}
+
+.events-table tbody tr td:last-child {
+    border-radius: 0 15px 15px 0;
+}
+
+.events-table tbody tr:hover td {
+    background: var(--brand-green);
+    color: #fff;
+}
+
+.events-table tbody tr.month-divider td {
+    background: var(--brand-black);
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 15px;
+    letter-spacing: 0.03em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.events-table tbody tr.month-divider:hover td {
+    background: var(--brand-black);
+    color: #fff;
+}
+      
+.venue-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: white;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+.events-table tbody tr:hover .venue-logo {
+    transform: scale(1.1);
+}
+
+.poster-cell {
+    display: none;
+}
+
+.event-poster {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ticket-btn {
+    background: var(--brand-green);
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    text-align: center;
+    font-size: 13px;
+}
+         .ticket-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        white-space: normal;
+        word-break: break-word;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px 6px;
+        line-height: 1.3;
+        font-size: 16px;
+    }
+
+    .ticket-btn:visited,
+    .ticket-btn:link,
+    .ticket-btn:hover,
+    .ticket-btn:active {
+        color: #fff !important;
+    }
+
+.ticket-btn:hover {
+    transform: translateY(-2px);
+    border-color: var(--brand-black);
+}
+
+/* ===== Actions cell: ticket + add-to-calendar buttons side by side ===== */
+.events-table td.actions-cell {
+    padding-right: 10px;
+}
+
+.row-actions {
+    display: flex;
+    gap: 6px;
+    align-items: stretch;
+}
+
+.row-actions .ticket-btn {
+    flex: 1 1 0;
+    width: auto;
+    min-width: 44px;
+}
+
+.calendar-btn {
+    flex: 1 1 0;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--brand-black);
+    color: var(--brand-yellow);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px 6px;
+    font-size: 16px;
+    line-height: 1.3;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.calendar-btn:hover {
+    transform: translateY(-2px);
+    border-color: var(--brand-yellow);
+}
+
+.calendar-btn:focus-visible {
+    outline: 3px solid var(--brand-yellow);
+    outline-offset: 2px;
+}
+
+.no-results {
+    text-align: center;
+    padding: 60px 20px;
+    color: #666;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: none;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 25px;
+    margin: 20px 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.no-results i {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.highlight {
+    background: var(--brand-yellow);
+    padding: 2px 6px;
+    border-radius: 8px;
+    font-weight: 700;
+    color: var(--brand-black);
+    box-shadow: 0 2px 5px rgba(14, 14, 14, 0.25);
+}
+
+.hidden {
+    display: none !important;
+}
+
+.spotify-link,
+.spotify-link:visited,
+.spotify-link:link,
+.spotify-link:hover,
+.spotify-link:active {
+    color: #1DB954 !important;
+    text-decoration: none;
+}
+
+.soundcloud-link,
+.soundcloud-link:visited,
+.soundcloud-link:link,
+.soundcloud-link:hover,
+.soundcloud-link:active {
+    color: #FF7700 !important;
+    text-decoration: none;
+}
+
+.banner-container {
+    display: inline-block;
+    max-width: 100%;
+    position: center;
+}
+
+.banner-link {
+    display: block;
+    text-decoration: none;
+}
+
+.month-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+}
+      
+.month-container {
+    display: inline-block;
+    max-width: 100%;
+    position: center;
+}
+
+.month-link {
+    display: block;
+    text-decoration: none;
+}
+
+.banner-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .search-container {
+        padding: 20px;
+    }
+    
+    .counters {
+        justify-content: center;
+        gap: 6px;
+    }
+    
+    .counter {
+        font-size: 12px;
+        padding: 8px 10px;
+        flex: 1 1 calc(50% - 6px);
+    }
+    
+    .events-table {
+        font-size: 14px;
+    }
+    
+    .events-table th,
+    .events-table td {
+        padding: 15px 10px;
+    }
+    
+    .search-box {
+        max-width: 100%;
+        font-size: 16px;
+        padding: 15px 20px 15px 50px;
+    }
+}
+
+/* ===== Detailed view =====
+   Poster-forward cards instead of table rows. The .view-detailed class is
+   put on .events-table-container by the script at the bottom of the page:
+     - on phones (<= 480px) it is ALWAYS on, because four table columns
+       don't fit (this is the original mobile design, unchanged);
+     - on larger screens it is on when the visitor picks "Detailed" with
+       the Compact / Detailed toggle under the search box.
+
+   Each card: a square poster thumbnail on the left, then date, venue,
+   artist and the action buttons stacked one-per-line to its right. Date
+   and venue used to sit side by side sharing the leftover space next to
+   the poster; on narrow phones that squeezed both into a column only a
+   few pixels wide and forced the browser to wrap every single character
+   onto its own line. Stacking them instead means each line only ever
+   needs to fit its own text against the full card width, so there's no
+   narrow column for the browser to fight over. On wider screens the
+   cards flow into as many columns as fit; on phones that's one. */
+
+.events-table-container.view-detailed {
+    overflow-x: visible;
+}
+
+.view-detailed .events-table {
+    display: block;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.view-detailed .events-table thead {
+    display: none;
+}
+
+.view-detailed .events-table tbody {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr));
+    gap: 10px;
+    width: 100%;
+}
+
+/* Month banners span the full width of the grid. */
+.view-detailed .events-table tbody tr.month-divider {
+    display: block;
+    grid-column: 1 / -1;
+    width: 100% !important;
+}
+
+.view-detailed .events-table tbody tr.month-divider td {
+    display: block;
+    width: 100% !important;
+}
+
+.view-detailed .events-table tbody tr.month-divider img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.view-detailed .events-table tbody tr:not(.month-divider) {
+    display: grid;
+    /* poster | everything else, stacked one line per row */
+    grid-template-columns: 96px 1fr;
+    grid-template-rows: auto auto auto;
+    column-gap: 14px;
+    row-gap: 4px;
+    align-items: start;
+    padding: 12px 14px;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  grid-template-rows: auto auto auto auto auto;
+}
+
+/* Phones: keep the original alternating white / grey cards.
+   (In a multi-column grid that striping would turn into a checkerboard,
+   so larger screens use plain white cards with a light outline instead.) */
+@media (min-width: 481px) {
+    .view-detailed .events-table tbody tr:not(.month-divider) {
+        border: 1px solid #ececec;
+    }
+}
+
+@media (max-width: 480px) {
+    .view-detailed .events-table tbody tr:not(.month-divider):nth-child(even) {
+        background: #f5f5f5;
+    }
+}
+
+/* Hover turns the whole card green with white text. The colour
+   has to live on the card itself because the cells are transparent. */
+.view-detailed .events-table tbody tr:not(.month-divider):hover {
+    background: var(--brand-green);
+}
+
+.view-detailed .events-table tbody tr:not(.month-divider) td {
+    display: block;
+    background: transparent;
+    padding: 0;
+    border: none;
+    font-size: 14px;
+}
+
+/* Poster thumbnail: spans all three content rows in the first column. */
+.view-detailed .events-table tbody tr:not(.month-divider) td.poster-cell {
+    display: block !important;
+    position: relative;
+    width: 96px !important;
+    min-width: 96px !important;
+    max-width: 96px !important;
+    height: 96px !important;
+    padding: 0 !important;
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--brand-green);
+    grid-column: 1;
+    grid-row: 1 / span 4;
+  
+}
+
+.view-detailed .events-table 
+      .event-poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+/* The music-note fallback icon, centred in the tile. */
+.view-detailed .events-table td.poster-cell > i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: #fff;
+}
+
+/* Date and venue: each gets its own full-width line next to the poster,
+   instead of squeezing into a shared column. white-space stays "normal"
+   (the default) because each line now has the full card width to work
+   with, so wrapping is never forced. */
+.view-detailed .events-table td.date-cell {
+    grid-column: 2;
+    grid-row: 1;
+    font-weight: 700;
+    color: var(--brand-green);
+}
+
+.view-detailed .events-table tbody tr:not(.month-divider):hover td.date-cell {
+    color: #fff;
+}
+
+.view-detailed .events-table td.venue-cell {
+    grid-column: 2;
+    grid-row: 2;
+    font-weight: 700;
+    font-size: 13px;
+    opacity: 0.75;
+}
+
+.view-detailed .events-table td.event-cell {
+    grid-column: 2;
+    grid-row: 3;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+/* The actions cell (ticket + calendar buttons) goes along the bottom,
+   spanning the full card width below the poster. */
+.view-detailed .events-table td.actions-cell {
+    grid-column: 1 / -1;
+    grid-row: 4;
+    margin-top: 8px;
+  grid-row: 5;
+}
+
+.view-detailed .events-table td .ticket-btn,
+.view-detailed .events-table td .calendar-btn {
+    padding: 8px 14px;
+    font-size: 14px;
+    min-width: 44px;
+}
+
+.view-detailed .row-actions .ticket-btn {
+    flex: 1 1 auto;
+}
+
+.view-detailed .row-actions .calendar-btn {
+    flex: 0 0 auto;
+}
+
+/* Venue-logo fallback: show the whole logo (not cropped) on a white tile. */
+.view-detailed .event-poster.is-logo {
+    object-fit: contain;
+    background: #fff;
+    padding: 0;
+}
+      
+ .view-detailed .events-table td.venue-cell,
+.view-detailed .events-table td.date-cell {
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    word-wrap: normal !important;
+    hyphens: manual !important;
+}     
+      
+ .view-detailed .events-table tbody tr:not(.month-divider) td.actions-cell {
+    padding: 0 !important;
+    margin: 8px 0 0 0 !important;
+    width: 100%;
+    justify-self: stretch;
+}
+
+.view-detailed .row-actions {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.view-detailed .row-actions .ticket-btn,
+.view-detailed .row-actions .calendar-btn {
+    margin: 0;
+}     
+      /* ===== Price column ===== */
+.events-table td.price-cell {
+    padding: 10px 12px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.price-cell.price-unknown {
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+/* Detailed view: price sits on its own line under the artist,
+   and the buttons move down one row. */
+.view-detailed .events-table td.price-cell {
+    grid-column: 2;
+    grid-row: 4;
+    font-size: 13px;
+    white-space: normal;
+  
+}
+      
+      /* Detailed view only: longer wording when no price is known */
+.view-detailed .price-cell.price-unknown::after {
+    content: " for ticket info";
+}
+      
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+      
+    
+      
+      
+      /* Detailed view: poster on top-left, buttons underneath it in the same
+   column, level with the price line. No gap above the buttons. */
+.view-detailed .events-table tbody tr:not(.month-divider) {
+    grid-template-rows: auto auto auto auto;
+}
+
+.view-detailed .events-table tbody tr:not(.month-divider) td.poster-cell {
+    grid-row: 1 / span 3;
+}
+
+.view-detailed .events-table tbody tr:not(.month-divider) td.actions-cell {
+    grid-column: 1;
+    grid-row: 4;
+    align-self: center;
+    justify-self: start;
+    width: auto;
+    margin: 0 !important;
+}
+
+.view-detailed .row-actions {
+    width: auto;
+    gap: 6px;
+}
+
+.view-detailed .row-actions .ticket-btn,
+.view-detailed .row-actions .calendar-btn {
+    flex: 0 0 44px;
+    width: 44px;
+    min-width: 0;
+    padding: 8px 0;
+}
+      
+      .view-detailed .events-table td.date-cell,
+.view-detailed .events-table td.venue-cell {
+    white-space: nowrap !important;
+}
+      
+      /* ===== Mobile bottom nav ===== */
+.bottom-nav {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .bottom-nav {
+        display: flex;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1000;
+        background: var(--brand-black);
+        border-top: 2px solid var(--brand-green);
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+        box-shadow: 0 -4px 14px rgba(0, 0, 0, 0.25);
+    }
+
+    .bottom-nav a {
+        flex: 1 1 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        padding: 10px 4px;
+        color: #fff !important;
+        text-decoration: none;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .bottom-nav a i {
+        font-size: 20px;
+        color: #fff;
+        transition: color 0.2s ease, transform 0.2s ease;
+    }
+
+    .bottom-nav a:active i,
+    .bottom-nav a:hover i {
+        color: var(--brand-yellow);
+        transform: translateY(-2px);
+    }
+
+    .bottom-nav a:active,
+    .bottom-nav a:hover {
+        color: var(--brand-yellow) !important;
+    }
+
+    /* Stops the bar covering the disclaimer at the bottom of the page */
+    body {
+        padding-bottom: calc(70px + env(safe-area-inset-bottom, 0px));
+    }
+}
+      
+
+    </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DVR3H0T1TK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DVR3H0T1TK');
+  </script>
+<h1 class="sr-only" id="pageTitle">Norwich Gigs - %%MONTH_LABEL%% Live Music Events</h1>
+
+   
+    <div class="month-container">
+        
+            <div class="month-container">
+        
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8c-mMrjW32DJs0E6VKTVJPKJMpbKUsWVMON3y7V06xCqNWcCZ-IdGQi9CiTh4zhWAOkl4ZURbBLRIOi5m-e-WjG6UmCN-rcqXG13t0GvAZJb5kek1k6aL_U4-wR5uE8rpmOaaTpFLtcpxalRgkFuE14GNhBzEOQ0aGIu6d5tmJ6MKdeD58CqExlQzAmY/s1400/10.jpg" alt="Norwich Gigs - live music listings for Norwich" class="month-image" width="1199" height="957" fetchpriority="high">
+   
+  
+   </div>
+          
+   </div>
+
+   
+    <div class="events-container">
+    <div class="events-container">
+        <div class="search-container">
+            <label for="searchInput" class="search-label">
+                <i class="fas fa-magic"></i>
+                Find an event here:
+            </label>
+            
+            <div class="search-wrapper">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="searchInput" class="search-box" placeholder="Search by date, venue, or artist..." autocomplete="off">
+            </div>
+
+            <div class="view-toggle" role="group" aria-label="Choose how events are displayed">
+                <button type="button" class="view-btn" data-view="compact" aria-pressed="true">
+                    <i class="fas fa-list"></i> Compact
+                </button>
+                <button type="button" class="view-btn" data-view="detailed" aria-pressed="false">
+                    <i class="fas fa-th-large"></i> Detailed
+                </button>
+            </div>
+            
+            <div class="counters">
+                <div class="counter" id="eventCounter">
+                    <i class="fas fa-calendar-alt"></i> Events: %%EVENT_COUNT%%
+                </div>
+                <div class="counter" id="venueCounter">
+                    <i class="fas fa-map-marker-alt"></i> Venues: %%VENUE_COUNT%%
+                </div>
+                <div class="counter" id="visibleCounter">
+                    <i class="fas fa-eye"></i> Showing: %%EVENT_COUNT%%
+                </div>
+            </div>
+        </div>
+        
+        <div class="no-results" id="noResults">
+            <i class="fas fa-search"></i>
+            <div>No events found matching your search criteria.</div>
+            <div style="font-size: 16px; margin-top: 10px; opacity: 0.7;">Try a different search term!</div>
+        </div>
+        
+        <div class="events-table-container" id="eventsTableContainer">
+            
+            <table class="events-table" id="eventsTable">
+               <thead>
+    <tr>
+        <th>Date</th>
+        <th>Venue</th>
+        <th>Artist/Event</th>
+        <th>Price</th>      
+        <th>Tickets</th>
+    </tr>
+</thead>
+                <tbody id="eventsTableBody">
+                    %%ROWS%%
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <img alt="Norwich Gigs live music event calendar" loading="lazy" border="0" width="0" data-original-height="957" data-original-width="1199" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcjiPKn1djBqX0g-yCLuUQUfRnqHA9vqkq15ipjMieE0oBXxJr5YYRl252BWWPaqLrd6uUNYxsoP1tKyOa2zatE-cgv51q98IahAkrHS7ECaXh61x26gkEPs6f3yTK1_QU625vk9_yqh4jeLlwwEDi6WfwjJU-JUKg9phDgtFH_GVj1tmzr7AW_bYFV4o/s1400/9.jpg"/>
+
+    %%EVENTS_JSONLD%%
+    <script>
+// Venue logos + names are injected at build time from blogger/site_config.json.
+// Fallback order for a poster: event image -> venue logo -> music-note icon.
+const VENUE_LOGOS = %%VENUE_LOGOS_JSON%%;
+
+// Full venue names, used for calendar files and event structured data.
+// Add or correct entries here if a venue name is wrong.
+const VENUE_NAMES = %%VENUE_NAMES_JSON%%;
+
+const MONTH_NAMES = ['January','February','March','April','May','June',
+                      'July','August','September','October','November','December'];
+
+// Abbreviated month names for the Date column, so long month names don't
+// push mobile rows wide (Sept kept as "Sept" rather than "Sep" per house style).
+const MONTH_NAMES_SHORT = ['Jan','Feb','Mar','Apr','May','June',
+                            'July','Aug','Sept','Oct','Nov','Dec'];
+
+
+// Rows, month banners and Event markup are rendered into the page HTML by
+// blogger/build_blogger_page.py, so this script only adds behaviour.
+function initEventsWidget() {
+const table = document.getElementById('eventsTable');
+const rows = Array.from(table.getElementsByTagName('tbody')[0].getElementsByTagName('tr')).filter(r => !r.classList.contains('ad-row') && !r.classList.contains('month-divider'));
+const searchInput = document.getElementById('searchInput');
+const eventCounter = document.getElementById('eventCounter');
+const venueCounter = document.getElementById('venueCounter');
+const visibleCounter = document.getElementById('visibleCounter');
+const noResults = document.getElementById('noResults');
+
+function generateSpotifySearchUrl(artistName) {
+    return `https://open.spotify.com/search/${encodeURIComponent(artistName)}`;
+}
+
+function getRowDate(row) {
+    const iso = row.dataset.isoDate;
+    if (!iso) return null;
+    const [y, m, d] = iso.split('-').map(Number);
+    if (!y || !m || !d) return null;
+    return new Date(y, m - 1, d);
+}
+
+function isRowVisible(row) {
+    return row.style.display !== 'none' && !row.classList.contains('hidden');
+}
+
+function updateDividerVisibility() {
+    const allRows = Array.from(table.getElementsByTagName('tbody')[0].children);
+    let currentDivider = null;
+    let anyVisibleForCurrent = false;
+
+    function closeCurrentDivider() {
+        if (!currentDivider) return;
+        if (currentDivider.dataset.suppressBanner === 'true') {
+            currentDivider.style.display = 'none';
+        } else {
+            currentDivider.style.display = anyVisibleForCurrent ? '' : 'none';
+        }
+    }
+
+    allRows.forEach(row => {
+        if (row.classList.contains('month-divider')) {
+            closeCurrentDivider();
+            currentDivider = row;
+            anyVisibleForCurrent = false;
+        } else if (!row.classList.contains('ad-row')) {
+            if (isRowVisible(row)) anyVisibleForCurrent = true;
+        }
+    });
+    closeCurrentDivider();
+}
+
+function formatDateForCalendar(date) {
+    const y = date.getFullYear();
+    const m = String(date.getMonth() + 1).padStart(2, '0');
+    const d = String(date.getDate()).padStart(2, '0');
+    return `${y}${m}${d}`;
+}
+
+// Reads everything we need about one event from its table row.
+function getEventData(row) {
+    const ticketLink = row.querySelector('.ticket-btn');
+    const artistCell = row.querySelector('.event-cell');
+    const artistName = artistCell.textContent.replace(/\s+/g, ' ').trim();
+    const spotifyLink = artistCell.querySelector('.spotify-link');
+    return {
+        date: row.querySelector('.date-cell').textContent.trim(),
+        isoDate: row.dataset.isoDate || null,
+        venue: row.querySelector('.venue-cell').textContent.trim(),
+        artist: artistName,
+        ticketUrl: ticketLink ? ticketLink.href : null,
+                spotifyUrl: spotifyLink ? spotifyLink.href : generateSpotifySearchUrl(artistName),
+        price: row.querySelector('.price-cell.price-unknown') ? '' : (row.querySelector('.price-cell')?.textContent.trim() || '')
+    };
+
+}
+
+// ----- Add to calendar (.ics) -----
+function icsEscape(text) {
+    return String(text)
+        .replace(/\\/g, '\\\\')
+        .replace(/;/g, '\\;')
+        .replace(/,/g, '\\,')
+        .replace(/\r?\n/g, '\\n');
+}
+
+// Calendar apps expect lines of 75 characters or fewer; longer ones are folded.
+function icsFold(line) {
+    const parts = [];
+    while (line.length > 72) {
+        parts.push(line.slice(0, 72));
+        line = ' ' + line.slice(72);
+    }
+    parts.push(line);
+    return parts.join('\r\n');
+}
+
+function slugify(text) {
+    return String(text).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60) || 'gig';
+}
+
+function buildICS(events) {
+    const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+    const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Norwich Gigs//Gig Agenda//EN', 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH'];
+
+    events.forEach(event => {
+        if (!event.isoDate) return;
+        const [y, m, d] = event.isoDate.split('-').map(Number);
+        if (!y || !m || !d) return;
+        const eventDate = new Date(y, m - 1, d);
+        const dateStr = formatDateForCalendar(eventDate);
+        const endDate = new Date(eventDate);
+        endDate.setDate(endDate.getDate() + 1);
+        const venueName = VENUE_NAMES[event.venue] || event.venue;
+
+        let description = `${event.artist} at ${venueName}\n\n`;
+        description += 'Please check with the venue regarding times for the events. ';
+        description += 'This is a calendar hold to remind you of the date of the event! ';
+        description += 'For more info on the gig, head back to Norwichgigs.com';
+        if (event.spotifyUrl) description += `\n\nListen on Spotify: ${event.spotifyUrl}`;
+              if (event.price) description += `\n\nPrice: ${event.price}`;
+        if (event.ticketUrl) description += `\n\nTickets: ${event.ticketUrl}`;
+
+        lines.push(
+            'BEGIN:VEVENT',
+            `UID:${dateStr}-${slugify(event.artist)}@norwichgigs.com`,
+            `DTSTAMP:${stamp}`,
+            `DTSTART:${dateStr}T180000`,
+            `DTEND:${formatDateForCalendar(endDate)}T000000`,
+            `SUMMARY:${icsEscape(event.artist)}`,
+            `LOCATION:${icsEscape(/norwich/i.test(venueName) ? venueName : venueName + ', Norwich')}`,
+            `DESCRIPTION:${icsEscape(description)}`,
+            'STATUS:CONFIRMED',
+            'END:VEVENT'
+        );
+    });
+
+    lines.push('END:VCALENDAR');
+    return lines.map(icsFold).join('\r\n') + '\r\n';
+}
+
+function downloadICS(events) {
+    const valid = events.filter(e => e && e.isoDate);
+    if (!valid.length) return;
+    const blob = new Blob([buildICS(valid)], { type: 'text/calendar;charset=utf-8' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = `norwichgigs-${slugify(valid[0].artist)}.ics`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+}
+
+// Brief tick on the button so people know the calendar file was created.
+function flashCalendarButton(btn) {
+    const icon = btn.querySelector('i');
+    if (!icon) return;
+    icon.className = 'fas fa-check';
+    setTimeout(() => { icon.className = 'fas fa-calendar-plus'; }, 1600);
+}
+
+function addSpotifyLinksToTable() {
+    rows.forEach(row => {
+        const artistCell = row.querySelector('.event-cell');
+        const artistName = artistCell.textContent.trim();
+        if (artistCell.querySelector('.spotify-link') || row.dataset.noSpotify) return;
+
+        const soundcloudMatch = artistName.match(/\(SC:(https?:\/\/[^\)]+)\)\s*$/i);
+        if (soundcloudMatch) {
+            const url = soundcloudMatch[1];
+            const cleanName = artistName.replace(/\(SC:https?:\/\/[^\)]+\)\s*$/i, '').trim();
+            const icon = document.createElement('a');
+            icon.href = url; icon.className = 'soundcloud-link'; icon.target = '_blank';
+            icon.title = 'Listen on SoundCloud'; icon.innerHTML = '<i class="fab fa-soundcloud"></i>';
+            artistCell.textContent = cleanName;
+            artistCell.appendChild(document.createTextNode(' '));
+            artistCell.appendChild(icon);
+            return;
+        }
+
+        if (/\(X\)\s*$/i.test(artistName)) {
+            artistCell.textContent = artistName.replace(/\(X\)\s*$/i, '').trim();
+            return;
+        }
+
+        const button = row.querySelector('.ticket-btn');
+        if (button && button.getAttribute('aria-label') === 'Get Info') return;
+
+        let cleanedName = artistName.replace(/^.+?\s+presents\s+/i, '');
+        const firstArtist = cleanedName.split(/\+|\bwith\b/i)[0].trim();
+        const spotifyUrl = generateSpotifySearchUrl(firstArtist);
+
+        const spotifyIcon = document.createElement('a');
+        spotifyIcon.href = spotifyUrl; spotifyIcon.className = 'spotify-link'; spotifyIcon.target = '_blank';
+        spotifyIcon.title = `Search for ${firstArtist} on Spotify`;
+        spotifyIcon.innerHTML = '<i class="fab fa-spotify"></i>';
+
+        const presentsMatch = artistName.match(/^(.+?\s+presents\s+)/i);
+        const presentsPrefix = presentsMatch ? presentsMatch[1] : '';
+
+        if (/\+|\bwith\b/i.test(cleanedName)) {
+            const parts = cleanedName.split(/(\+|\bwith\b)/i);
+            artistCell.textContent = presentsPrefix + parts[0].trim();
+            artistCell.appendChild(document.createTextNode(' '));
+            artistCell.appendChild(spotifyIcon);
+            artistCell.appendChild(document.createTextNode(' ' + parts.slice(1).join('').trim()));
+        } else {
+            artistCell.textContent = presentsPrefix + cleanedName;
+            artistCell.appendChild(document.createTextNode(' '));
+            artistCell.appendChild(spotifyIcon);
+        }
+    });
+}
+
+function filterPastEvents() {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    let allPast = true;
+    let hasAnyEvents = false;
+
+    rows.forEach(row => {
+        const eventDate = getRowDate(row);
+        if (eventDate) {
+            hasAnyEvents = true;
+            if (eventDate >= today) allPast = false;
+        }
+    });
+
+    if (allPast && hasAnyEvents) {
+        rows.forEach(row => { row.style.display = ''; row.classList.remove('past-event'); });
+        updateDividerVisibility();
+        return;
+    }
+
+    rows.forEach(row => {
+        const eventDate = getRowDate(row);
+        if (eventDate && eventDate < today) {
+            row.style.display = 'none';
+            row.classList.add('past-event');
+        } else {
+            row.style.display = '';
+            row.classList.remove('past-event');
+        }
+    });
+
+    updateDividerVisibility();
+}
+
+function countUniqueVenues() {
+    const venues = new Set();
+    rows.forEach(row => {
+        if (!row.classList.contains('hidden') && row.style.display !== 'none') {
+            venues.add(row.querySelector('.venue-cell').textContent.trim());
+        }
+    });
+    return venues.size;
+}
+
+function updateCounters() {
+    const visibleRows = rows.filter(r => !r.classList.contains('hidden') && r.style.display !== 'none');
+    const totalEvents = rows.filter(r => r.style.display !== 'none').length;
+    eventCounter.innerHTML = `<i class="fas fa-calendar-alt"></i> Events: ${totalEvents}`;
+    venueCounter.innerHTML = `<i class="fas fa-map-marker-alt"></i> Venues: ${countUniqueVenues()}`;
+    visibleCounter.innerHTML = `<i class="fas fa-eye"></i> Showing: ${visibleRows.length}`;
+
+    if (visibleRows.length === 0 && searchInput.value.trim() !== '') {
+        noResults.style.display = 'block';
+        document.querySelector('.events-table-container').style.display = 'none';
+    } else {
+        noResults.style.display = 'none';
+        document.querySelector('.events-table-container').style.display = 'block';
+    }
+}
+
+function highlightText(text, term) {
+    if (!term) return text;
+    return text.replace(new RegExp(`(${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'), '<span class="highlight">$1</span>');
+}
+
+function removeHighlights() {
+    rows.forEach(row => {
+        row.querySelector('.date-cell').innerHTML = row.querySelector('.date-cell').textContent;
+        row.querySelector('.venue-cell').innerHTML = row.querySelector('.venue-cell').textContent;
+        row.querySelector('.event-cell').innerHTML = row.querySelector('.event-cell').textContent;
+    });
+}
+
+function performSearch() {
+    const term = searchInput.value.toLowerCase().trim();
+    removeHighlights();
+    rows.forEach(row => {
+        if (row.classList.contains('past-event')) return;
+        const dateText = row.querySelector('.date-cell').textContent.toLowerCase();
+        const venueText = row.querySelector('.venue-cell').textContent.toLowerCase();
+        const eventText = row.querySelector('.event-cell').textContent.toLowerCase();
+        const priceText = row.querySelector('.price-cell').textContent.toLowerCase();
+        const matches = !term ||
+            dateText.includes(term) ||
+            venueText.includes(term) ||
+            eventText.includes(term) ||
+            priceText.includes(term);
+        if (matches) {
+            row.classList.remove('hidden');
+            if (term) {
+                row.querySelector('.date-cell').innerHTML = highlightText(row.querySelector('.date-cell').textContent, term);
+                row.querySelector('.venue-cell').innerHTML = highlightText(row.querySelector('.venue-cell').textContent, term);
+                row.querySelector('.event-cell').innerHTML = highlightText(row.querySelector('.event-cell').textContent, term);
+            }
+        } else {
+            row.classList.add('hidden');
+        }
+    });
+    updateDividerVisibility();
+    updateCounters();
+}
+
+// Rows are no longer clickable/selectable; only the ticket and
+// add-to-calendar buttons inside each row do anything.
+rows.forEach(row => {
+    const calendarBtn = row.querySelector('.calendar-btn');
+    if (calendarBtn) {
+        calendarBtn.addEventListener('click', e => {
+            e.stopPropagation();
+            downloadICS([getEventData(row)]);
+            flashCalendarButton(calendarBtn);
+        });
+    }
+});
+
+searchInput.addEventListener('input', performSearch);
+searchInput.addEventListener('keyup', performSearch);
+
+filterPastEvents();
+updateCounters();
+
+// GA4: log each ticket-button click with gig details before the browser
+// follows the link. transport_type: 'beacon' makes sure the hit is sent
+// even though the page navigates away immediately after.
+document.getElementById('eventsTableBody').addEventListener('click', function(e) {
+    const link = e.target.closest('.ticket-btn');
+    if (!link) return;
+
+    const row = link.closest('tr');
+    if (!row || typeof gtag === 'undefined') return;
+
+    gtag('event', 'ticket_click', {
+        event_category: 'Ticket',
+        event_label: row.querySelector('.event-cell')?.textContent.replace(/\s+/g, ' ').trim() || '',
+        venue: row.querySelector('.venue-cell')?.textContent.trim() || '',
+        gig_date: row.dataset.isoDate || '',
+        transport_type: 'beacon'
+    });
+});
+
+setTimeout(() => {
+    addSpotifyLinksToTable();
+}, 100);
+
+const now = new Date();
+const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+setTimeout(() => {
+    filterPastEvents(); updateCounters();
+    setInterval(() => { filterPastEvents(); updateCounters(); }, 86400000);
+}, tomorrow - now);
+} // end initEventsWidget
+
+// ===== Compact / Detailed view toggle =====
+// Compact = the original table. Detailed = poster cards (the mobile design).
+// Phones (<= 480px) always get Detailed, so the toggle is hidden there.
+// The visitor's choice is remembered for next time where the browser allows it.
+(function initViewToggle() {
+    const container = document.getElementById('eventsTableContainer');
+    const buttons = document.querySelectorAll('.view-btn');
+    if (!container || !buttons.length) return;
+
+    const STORAGE_KEY = 'norwichgigs-view';
+    const phoneQuery = window.matchMedia('(max-width: 480px)');
+    let preferred = 'compact';
+
+    try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (saved === 'compact' || saved === 'detailed') preferred = saved;
+    } catch (e) { /* storage unavailable — fall back to Compact */ }
+
+    function applyView() {
+        const detailed = phoneQuery.matches || preferred === 'detailed';
+        container.classList.toggle('view-detailed', detailed);
+        buttons.forEach(btn => {
+            const isActive = btn.dataset.view === (detailed ? 'detailed' : 'compact');
+            btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        });
+    }
+
+    buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            preferred = btn.dataset.view;
+            try { localStorage.setItem(STORAGE_KEY, preferred); } catch (e) {}
+            applyView();
+        });
+    });
+
+    if (phoneQuery.addEventListener) phoneQuery.addEventListener('change', applyView);
+    else if (phoneQuery.addListener) phoneQuery.addListener(applyView);
+
+    applyView();
+})();
+
+// ===== SEO: keep the title and main heading in step with the current month =====
+// (The static text in the HTML is a fallback for crawlers that don't run scripts.)
+(function updateSeoForCurrentMonth() {
+    const now = new Date();
+    const label = `${MONTH_NAMES[now.getMonth()]} ${now.getFullYear()}`;
+    document.title = `Norwich Gigs ${label} - Live Music Events & Concerts Guide`;
+    const heading = document.getElementById('pageTitle');
+    if (heading) heading.textContent = `Norwich Gigs - ${label} Live Music Events`;
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute('content', `Norwich Gigs - Live Music Events ${label}`);
+    const twTitle = document.querySelector('meta[name="twitter:title"]');
+    if (twTitle) twTitle.setAttribute('content', `Norwich Gigs - Live Music Events ${label}`);
+})();
+
+// ===== Poster fallback handler =====
+// If a poster image fails to load: try the venue logo once, then fall back
+// to the music-note tile. Image "error" events don't bubble, so this
+// listens in the capture phase on the table body.
+document.getElementById('eventsTableBody').addEventListener('error', function(e) {
+    const img = e.target;
+    if (!img || !img.classList || !img.classList.contains('event-poster')) return;
+
+    const cell = img.parentElement;
+    const venue = cell.parentElement.querySelector('.venue-cell')?.textContent.trim() || '';
+    const logo = VENUE_LOGOS[venue] || '';
+
+    if (img.dataset.fallback !== 'logo' && logo) {
+        img.dataset.fallback = 'logo';
+        img.classList.add('is-logo');
+        img.src = logo;
+    } else {
+        cell.innerHTML = '<i class="fas fa-music"></i>';
+    }
+}, true);
+
+initEventsWidget();
+    </script>
+
+    <section class="about-section" aria-labelledby="aboutHeading">
+        <h2 id="aboutHeading">Live music and gigs in Norwich</h2>
+        <p>Norwich Gigs is a guide to live music in Norwich, bringing upcoming gigs from venues across the city into one searchable list. Search by artist, date or venue, switch between the compact list and the detailed poster view, and add any gig straight to your calendar.</p>
+        <p>Venues we list include
+            <a href="https://www.ueaticketbookings.co.uk/adrian-flux-waterfront/" rel="noopener">Adrian Flux Waterfront</a>,
+            <a href="https://www.ueaticketbookings.co.uk/uea-lcr/" rel="noopener">UEA LCR</a>,
+            <a href="https://www.voodoodaddysshowroom.co.uk/events/" rel="noopener">Voodoo Daddys Showroom</a>,
+            <a href="https://norwichartscentre.co.uk/event/category/music/" rel="noopener">Norwich Arts Centre</a>,
+            <a href="https://epic-tv.com/events" rel="noopener">Epic Studios</a>,
+            <a href="https://www.fatsoma.com/p/gonzostworoom" rel="noopener">Gonzo's Tea Room</a>,
+            <a href="https://thehollowaynorwich.com/events" rel="noopener">The Holloway</a>,
+            <a href="https://www.yalm.co.uk/events" rel="noopener">Yalm</a>,
+            <a href="https://www.deadwaxnorwich.pub/whats-on" rel="noopener">Dead Wax</a>,
+            <a href="https://booking.maddermarket.co.uk/Events" rel="noopener">Maddermarket Theatre</a>
+            and <a href="https://www.norwich.gov.uk/thehalls/whats" rel="noopener">The Halls</a>, plus pubs and bars across the city.</p>
+    </section>
+      
+    <div class="contact-section">
+        <h2> Contact Norwich Gigs</h2>
+        <p>Have an event to list or questions about gigs in Norwich?</p>
+        <p class="email">norwichgigs@gmail.com</p>
+        <p style="color: #5a5a5a; margin-top: 15px;">Serving the Norwich music community</p>
+        <div class="social-links">
+            <a href="https://instagram.com/gigsnorwich" target="_blank" rel="noopener"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.facebook.com/people/Norwich-Gig-List/61580696011167/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i> Facebook</a>
+        </div>
+      
+      
+    </div>
+   </div>
+  <section><p> Disclaimer:</p>
+<p>
+Event information: We do our best to keep listings accurate, but event details (including dates, times, line-ups, venues, prices and age restrictions) are supplied by promoters, venues and third parties and can change without notice. Please check with the venue or ticket seller before making plans. We are not responsible for cancelled, postponed or changed events, or for any loss arising from reliance on information on this site.</p>
+
+<p>Tickets: We do not sell tickets unless stated. Tickets are sold by third parties and any purchase is a contract between you and the seller. Some links on this site are affiliate links, which means we may earn a commission if you buy, at no extra cost to you.</p>
+
+<p>Third-party content and links: Images, artwork and logos remain the property of their respective owners and are used with permission or for the purpose of promoting the relevant event. We are not responsible for the content of external sites we link to.</p>
+<p>
+Copyright: Original content on this site, including text, design and branding, is © Norwich Gigs and may not be copied or reproduced without permission. If you believe your work has been used incorrectly, or you'd like something removed or credited, please email norwichgigs@gmail.com and we'll deal with it ASAP!! </p>
+    
+    <p> Norwich Gigs (norwichgigs.com and @gigsnorwich) is operated by Nathan Wyatt, trading as Norwich Gigs.</p>
+      </section>
+  
+ <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="https://www.norwichgigs.com/" class="active" aria-current="page">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+    </a>
+    <a href="https://www.norwichgigs.com/p/music-venues-in-our-city.html">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Venues</span>
+    </a>
+    <a href="#searchInput" id="navSearchBtn">
+        <i class="fas fa-search"></i>
+        <span>Search</span>
+    </a>
+    <a href="https://www.norwichgigs.com/p/advertise.html">
+        <i class="fas fa-bullhorn"></i>
+        <span>Ads</span>
+    </a>
+    <a href="https://www.norwichgigs.com/p/aboutus.html">
+        <i class="fas fa-info-circle"></i>
+        <span>About Us</span>
+    </a>
+</nav><script>
+// Search button: scroll back up to the search bar and focus it
+document.getElementById('navSearchBtn').addEventListener('click', function (e) {
+    e.preventDefault();
+    const input = document.getElementById('searchInput');
+    const box = document.querySelector('.search-container');
+    (box || input).scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setTimeout(() => input.focus({ preventScroll: true }), 400);
+});
+</script>
