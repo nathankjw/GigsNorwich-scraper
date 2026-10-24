@@ -54,4 +54,17 @@ jobs:
         with:
           commit_message: "Automated daily scrape"
           file_pattern: scraped_data
-          
+      # The steps below rebuild the home page with the gig rows baked into the
+      # HTML (so Google sees them without running JavaScript) and push it to Blogger.
+      # They run after the data is saved, so a Blogger problem can't lose a scrape.
+      - name: Build the home page HTML (events included)
+        run: python3 blogger/build_blogger_page.py
+      - name: Publish the page to Blogger
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
+          BLOGGER_PAGE_ID: ${{ secrets.BLOGGER_PAGE_ID }}
+          BLOGGER_KIND: ${{ vars.BLOGGER_KIND || 'pages' }}
+        run: python3 blogger/publish_to_blogger.py
