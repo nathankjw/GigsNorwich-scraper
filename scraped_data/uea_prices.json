@@ -60,11 +60,6 @@
   "price": "£36.40"
  },
  {
-  "name": "Bel Cobain",
-  "date": "2026-10-21",
-  "price": "£17.60"
- },
- {
   "name": "Belle & Sebastian",
   "date": "2026-12-12",
   "price": "£50.85"
@@ -88,11 +83,6 @@
   "name": "Black Stone Cherry",
   "date": "2027-02-03",
   "price": "£44.24"
- },
- {
-  "name": "Blaze Bayley",
-  "date": "2026-10-22",
-  "price": "£27.75"
  },
  {
   "name": "Breed 77",
@@ -198,11 +188,6 @@
   "name": "Dr. Feelgood",
   "date": "2026-12-04",
   "price": "£28.86"
- },
- {
-  "name": "Duke Special",
-  "date": "2026-10-23",
-  "price": "£27.50"
  },
  {
   "name": "Dutch & Graft (The Manor)",
@@ -318,11 +303,6 @@
   "name": "Kid Kapichi",
   "date": "2026-11-15",
   "price": "£26.09"
- },
- {
-  "name": "King No-One",
-  "date": "2026-10-22",
-  "price": "£16.50"
  },
  {
   "name": "Laurence Jones",
@@ -735,11 +715,6 @@
   "price": "£36.40"
  },
  {
-  "name": "UK Foo Fighters",
-  "date": "2026-10-23",
-  "price": "£23.87"
- },
- {
   "name": "UK Subs",
   "date": "2027-04-15",
   "price": "£35.84"
@@ -853,5 +828,15 @@
   "name": "Sleep Broken",
   "date": "2027-03-19",
   "price": "£18.70"
+ },
+ {
+  "name": "Dick & Dom - DnB Rave",
+  "date": "2027-02-26",
+  "price": "£16.50"
+ },
+ {
+  "name": "Family Stereo",
+  "date": "2027-03-04",
+  "price": "£13.20"
  }
 ]
