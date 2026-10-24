@@ -42,6 +42,8 @@ jobs:
           fi
       - name: Convert the CSV to JSON for the blog widget
         run: python3 csv_to_json.py
+      - name: Split upcoming gigs into Instagram pages of 11
+        run: python3 instagram_pages.py
       - name: Pull latest changes before saving
         run: |
           STASHED=$(git stash --include-untracked)
