@@ -113,14 +113,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Tadi the Great (dj Set)",
-    "date": "2026-09-18",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/tadi-the-great-dj-set-2",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1786992183188-JE2G8MYPAWQWTMJN3PV4/tadi.gif",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "EROTIC SECRETS OF POMPEII + Peer pleasure + Arthouse Horror + no.",
     "date": "2026-09-20",
     "url": "https://www.deadwaxnorwich.pub/whats-on/erotic-secrets-of-pompeii-supports",
@@ -232,22 +224,6 @@
     "price": ""
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Huey Morgan",
-    "date": "2026-10-24",
-    "url": "https://www.ueaticketbookings.co.uk/event/huey-morgan/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/HUEY-MORGAN-2026-NORWICH-CLEAN3-500x500.jpg.webp",
-    "price": "£33.60"
-  },
-  {
-    "venue": "LCR",
-    "event_name": "The Wonder Stuff & Inspiral Carpets",
-    "date": "2026-10-24",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-wonder-stuff/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/The-Wonder-Stuff-x-Insprial-Carpets-2026-Norwich-1080x1080-1-500x500.jpg.webp",
-    "price": "£45"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "free monthly wax #10: dead wax turns one",
     "date": "2026-10-24",
@@ -256,59 +232,11 @@
     "price": ""
   },
   {
-    "venue": "Holloway",
-    "event_name": "Phil Archer + Alex Peverett + Leo Thornley",
-    "date": "2026-10-25",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790842942321-oct25th%20flyer2.jpg?alt=media&token=0bcf8434-5440-4d4a-86e0-7afe69ba2e27",
-    "price": ""
-  },
-  {
-    "venue": "Maddermarket",
-    "event_name": "Je Suis Swing!",
-    "date": "2026-10-25",
-    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=121001",
-    "image": "https://system.spektrix.com/themaddermarkettheatre/files/eb980dc2-0a25-4b9e-be11-4110df32da46.jpg",
-    "price": ""
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "YTP Presents: Masquerader + Nerve Peel + Get Fucked",
     "date": "2026-10-25",
     "url": "https://www.deadwaxnorwich.pub/whats-on/masquerader-nerve-peel-get-fucked",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791228129780-RWEYSHMFGBPI8QD6ULRT/WhatsApp+Image+2026-10-05+at+19.29.01.jpeg",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Skaface UK",
-    "date": "2026-10-25",
-    "url": "https://www.norfolkgigguide.com/band-details/Skaface+UK",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Reely",
-    "date": "2026-10-25",
-    "url": "lpsnorwich.co.uk",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Reindeer",
-    "event_name": "Penguins go Pop",
-    "date": "2026-10-25",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/?locale=en_GB",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "The Reindeer",
-    "event_name": "Nikki and the Switchblades",
-    "date": "2026-10-25",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/",
-    "image": "",
     "price": ""
   },
   {
@@ -716,7 +644,7 @@
     "event_name": "Breed 77",
     "date": "2026-11-04",
     "url": "https://www.ueaticketbookings.co.uk/event/breed-77/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Breed77_Square-500x500.png.webp",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Breed77_Square-1-500x500.png.webp",
     "price": "£22.20"
   },
   {
@@ -1064,6 +992,14 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "Pangaea",
+    "date": "2026-11-12",
+    "url": "https://epic-tv.com/events/event/pangaea",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Gary Stewart’s Graceland",
     "date": "2026-11-12",
@@ -1085,7 +1021,7 @@
     "date": "2026-11-12",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/dermot-henry-plus-special-guests/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMi8yMS8zOC80MS8yNDMvUmFja011bHRpcGFydDIwMjYwOTAyLTU4LTFyaHQ2Ym8uanBnIl1d?ar=16:9&fit=crop",
-    "price": "£13"
+    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -3320,6 +3256,14 @@
     "price": "£33.60"
   },
   {
+    "venue": "Waterfront",
+    "event_name": "happydaze",
+    "date": "2027-03-11",
+    "url": "https://www.ueaticketbookings.co.uk/event/happydaze/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/imresizer-resize-Happydaze_Square_-Norwich-500x500.jpg.webp",
+    "price": ""
+  },
+  {
     "venue": "LCR",
     "event_name": "The Fratellis",
     "date": "2027-03-11",
@@ -3446,6 +3390,14 @@
     "url": "https://epic-tv.com/events/event/rachel-parris-the-rachel-parris-songbook",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "FORM presents GANS",
+    "date": "2027-03-24",
+    "url": "https://norwichartscentre.co.uk/event/form-presents-gans/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/GANS-crop-6ada16f73319f-800x450-c-default.jpg",
+    "price": "£19"
   },
   {
     "venue": "Brickmakers",
@@ -3912,11 +3864,27 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "Sophie McCartney - Queenage Dirtbag",
+    "date": "2027-09-26",
+    "url": "https://epic-tv.com/events/event/sophie-mccartney-queenage-dirtbag",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Waterfront",
     "event_name": "The Ruts",
     "date": "2027-10-29",
     "url": "https://www.ueaticketbookings.co.uk/event/the-ruts/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/The-Ruts-1080-x-1080-500x500.jpg.webp",
     "price": "£30.53"
+  },
+  {
+    "venue": "LCR",
+    "event_name": "The Lightning Seeds",
+    "date": "2027-12-03",
+    "url": "https://www.ueaticketbookings.co.uk/event/the-lightning-seeds/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/LightningSeeds_National_socials_x3_V4_1080-x-1080-500x500.jpg.webp",
+    "price": ""
   }
 ]
