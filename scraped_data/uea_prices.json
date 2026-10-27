@@ -125,11 +125,6 @@
   "price": "£19.25"
  },
  {
-  "name": "Cydonia Knights",
-  "date": "2026-10-24",
-  "price": "£15.40"
- },
- {
   "name": "Dan Croll",
   "date": "2027-03-14",
   "price": "£17.60"
@@ -268,11 +263,6 @@
   "name": "Hue and Cry",
   "date": "2027-09-03",
   "price": "£27.75"
- },
- {
-  "name": "Huey Morgan",
-  "date": "2026-10-24",
-  "price": "£33.60"
  },
  {
   "name": "Indiepalooza Festival",
@@ -690,11 +680,6 @@
   "price": "£33.60"
  },
  {
-  "name": "The Wonder Stuff & Inspiral Carpets",
-  "date": "2026-10-24",
-  "price": "£45"
- },
- {
   "name": "The Zac Schulze Gang",
   "date": "2026-11-13",
   "price": "£22.20"
@@ -708,11 +693,6 @@
   "name": "Toria Wooff",
   "date": "2027-03-23",
   "price": "£13.20"
- },
- {
-  "name": "Transvision Vamp",
-  "date": "2026-10-24",
-  "price": "£36.40"
  },
  {
   "name": "UK Subs",
@@ -838,5 +818,10 @@
   "name": "Family Stereo",
   "date": "2027-03-04",
   "price": "£13.20"
+ },
+ {
+  "name": "Meltdown Presents Jingle Bell Rock",
+  "date": "2026-12-12",
+  "price": "£5–£7"
  }
 ]
