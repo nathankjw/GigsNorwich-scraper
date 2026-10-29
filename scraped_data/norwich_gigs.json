@@ -113,14 +113,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Bone Machine (dj Set)",
-    "date": "2026-09-24",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/bone-machine-dj-set",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788447975918-LZH6G0RD9KIDXOO7F009/bonemachine_SEPT.jpg",
-    "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "YTP Presents: Bind’s big hardcore show",
     "date": "2026-09-25",
     "url": "https://www.deadwaxnorwich.pub/whats-on/ytp-presents-bind-how-long-you-been-driving-demeanour",
@@ -240,51 +232,11 @@
     "price": ""
   },
   {
-    "venue": "Space",
-    "event_name": "Feast Your Eyes Art Expo",
-    "date": "2026-10-28",
-    "url": "https://www.spacestudiosnorwich.com",
-    "image": "",
-    "price": "Free"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Dallahan",
-    "date": "2026-10-28",
-    "url": "https://norwichartscentre.co.uk/event/dallahan/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/Dallahan-by-Elly-Lucas-6-69b03e7d83b02-scaled-800x450-c-default.jpg",
-    "price": "£17–£19.50"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Collapse The Sky + Karybdis, Skinchanger",
-    "date": "2026-10-28",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/collapse-the-sky-karybdis-skinchanger/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMTgvMTAvNDAvNDQvNTMvUmFja011bHRpcGFydDIwMjYwNzE4LTU3LWdxZHYweS5wbmciXV0?ar=16:9&fit=crop",
-    "price": "£10"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Qwälen + A Horse Called War + Shelf Life",
     "date": "2026-10-28",
     "url": "https://www.deadwaxnorwich.pub/whats-on/qwlen-a-horse-called-war-shelf-life",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791229558112-S2D4H023NQRW9XT530ZT/Qwalen_a3edit.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Adam and the Hellcats",
-    "date": "2026-10-28",
-    "url": "https://www.norfolkgigguide.com/band-details/Adam+and+the+Hellcats",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Paul Quinn",
-    "date": "2026-10-28",
-    "url": "https://www.norfolkgigguide.com/band-details/Paul+Quinn",
-    "image": "",
     "price": ""
   },
   {
@@ -844,7 +796,7 @@
     "event_name": "Joshua Idehen",
     "date": "2026-11-08",
     "url": "https://www.ueaticketbookings.co.uk/event/joshua-idehen/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/1080x1080-500x500.jpg.webp",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Joshua-Idehen-SQ-support-500x500.png.webp",
     "price": "£24.75"
   },
   {
@@ -1593,19 +1545,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "PONY UP presents COWBOYY",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
-    "price": "£10–£12"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "corto.alto @ EPIC Studios",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
     "price": "£22–£25"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents COWBOYY",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
+    "price": "£10–£12"
   },
   {
     "venue": "Waterfront",
@@ -2256,6 +2208,14 @@
     "price": ""
   },
   {
+    "venue": "Gonzos",
+    "event_name": "System Olympia",
+    "date": "2026-12-12",
+    "url": "https://www.fatsoma.com/e/gnwpq6jj/system-olympia",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI4LzE1LzE3LzI0LzIyMC9SYWNrTXVsdGlwYXJ0MjAyNjEwMjgtNTktMTlpeDZtYS5wbmciXV0",
+    "price": "£3–£7"
+  },
+  {
     "venue": "Epic",
     "event_name": "Heart Club Classics: The Christmas Bash with Toby Anstis",
     "date": "2026-12-12",
@@ -2653,7 +2613,7 @@
     "date": "2027-01-21",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/perrl-presents-chuck-ragan-plus-special-guests/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMjMvMTcvMjMvMTgvNjA1L1JhY2tNdWx0aXBhcnQyMDI2MDYyMy02Ni1qY2p1ZTAucG5nIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£25"
   },
   {
     "venue": "LCR",
@@ -3236,7 +3196,7 @@
     "event_name": "Mad Caddies",
     "date": "2027-03-02",
     "url": "https://www.ueaticketbookings.co.uk/event/mad-caddies/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Mad-Caddies-Square-Norwich.png.webp",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/imresizer-resize-MadCaddies-02-500x500.jpg.webp",
     "price": "£31.36"
   },
   {
@@ -3342,6 +3302,14 @@
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Swiftogeddon - The Reputation Special",
+    "date": "2027-03-12",
+    "url": "https://epic-tv.com/events/event/swiftogeddon-the-reputation-special",
+    "image": "",
+    "price": "£10"
   },
   {
     "venue": "Voodoos",
@@ -3649,11 +3617,27 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Halina Rice",
+    "event_name": "Tone presents Halina Rice",
     "date": "2027-04-17",
-    "url": "https://norwichartscentre.co.uk/event/halina-rice/",
+    "url": "https://norwichartscentre.co.uk/event/tone-presents-halina-rice/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Halina-Rice-live-HERE-at-Outernet-London-UK-7430-6ad61b65545d9-scaled-800x450-c-default.jpg",
     "price": "£21–£24"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Dave Finnegan’s The Commitments",
+    "date": "2027-04-17",
+    "url": "https://www.ueaticketbookings.co.uk/event/dave-finnegans-the-commitments/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Dave-Finnegan-the-commitments-SQ-NORWICH-500x500.png.webp",
+    "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "The Curlews Call: An evening with David Gray and Mary Colwell",
+    "date": "2027-04-20",
+    "url": "https://norwichartscentre.co.uk/event/the-curlews-call-an-evening-with-david-gray-and-mary-colwell/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/The-Curlews-6ae32a7f3a074-800x450-c-default.jpg",
+    "price": "£26–£29.50"
   },
   {
     "venue": "Epic",
@@ -3880,6 +3864,14 @@
     "price": "£22.20"
   },
   {
+    "venue": "Waterfront",
+    "event_name": "When Waterfront Was Young",
+    "date": "2027-06-05",
+    "url": "https://www.ueaticketbookings.co.uk/event/when-waterfront-was-young/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/WWWY27_Square-500x500.png.webp",
+    "price": ""
+  },
+  {
     "venue": "LCR",
     "event_name": "Professor Green",
     "date": "2027-06-05",
@@ -3949,7 +3941,7 @@
     "date": "2027-09-26",
     "url": "https://epic-tv.com/events/event/sophie-mccartney-queenage-dirtbag",
     "image": "",
-    "price": ""
+    "price": "£23.50"
   },
   {
     "venue": "Waterfront",
