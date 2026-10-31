@@ -113,14 +113,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Big Time Open Mic",
-    "date": "2026-09-27",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/big-time-open-mic-1",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790086880974-0NEQG9FOU4ZY7JG6W7ZH/BIGTIMEseptember.jpg",
-    "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Sam Russo & the Trembling Leaves + Sophie Porter + James Hull",
     "date": "2026-09-29",
     "url": "https://www.deadwaxnorwich.pub/whats-on/sam-russo-the-trembling-leaves-sophie-porter-james-hull",
@@ -240,70 +232,6 @@
     "price": ""
   },
   {
-    "venue": "Space",
-    "event_name": "The Traitors Watchalong",
-    "date": "2026-10-30",
-    "url": "https://www.spacestudiosnorwich.com/event-details-registration/the-traitors-finale-watch-along-30th-october",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Space",
-    "event_name": "Nightjar w/ Ellie Stokes + YSL",
-    "date": "2026-10-30",
-    "url": "https://www.tickettailor.com/events/kestrelheights/2438024?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAUod8dleHRuA2FlbQIxMQBwZG9mAmZkaWQWUPW9SIL9MRxM3UfxtOZPYdg31Xl_DXNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp_0LSBstWBhsrLcrr6UOqjDtIOP0e1hFVIU7zfKOyIq-APV4rROYz6ib0vRI_aem_eC-ii6fAsADw9yneLkT87w",
-    "image": "",
-    "price": "£11–£16"
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "Skalah & Capo Lee - Halloween Special w Wheel Up",
-    "date": "2026-10-30",
-    "url": "https://www.fatsoma.com/e/te1413k3/skalah-capo-lee-halloween-special-w-wheel-up",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzkvMTMvOS8yLzQwLzUzMC9SYWNrTXVsdGlwYXJ0MjAyNjA5MTMtNjQtMTdpcW8zbi5wbmciXV0",
-    "price": "£5–£10"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Gentleman's Dub Club - 20th Anniversary Tour",
-    "date": "2026-10-30",
-    "url": "https://epic-tv.com/events/event/gentlemans-dub-club-20th-anniversary-tour",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Forever Nu!",
-    "date": "2026-10-30",
-    "url": "https://www.ueaticketbookings.co.uk/event/forever-nu/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Dianas-WF-AND-LCR-MASTERS-USE-THESE-4-500x500.jpg.webp",
-    "price": "£22.20"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Pam’s House Halloween",
-    "date": "2026-10-30",
-    "url": "https://www.ueaticketbookings.co.uk/event/pams-house-halloween/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/275706572_10160513107674363_9011255592496007541_n-500x500.jpg.webp",
-    "price": "£16.50–£19.25"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Pet Needs + Keep Flying & So Good",
-    "date": "2026-10-30",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/pet-needs/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMjkvNi8yOS81Ny8zMzEvUmFja011bHRpcGFydDIwMjYwNDI5LTU4LTFvdG13cDUuanBlZyJdXQ?ar=16:9&fit=crop",
-    "price": "£17.50"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "chrome (Dj set)",
-    "date": "2026-10-30",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/l9c1dlja4c353m9sr8qc06zdxrpon8",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791229903132-BXTLALXJ2JOWRX5AZBNL/chrome_OCT.jpg",
-    "price": "Free"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Spooky Valentine",
     "date": "2026-10-30",
@@ -312,28 +240,12 @@
     "price": ""
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Beautiful Dangerous",
+    "venue": "Dead Wax",
+    "event_name": "chrome (Dj set)",
     "date": "2026-10-30",
-    "url": "https://www.norfolkgigguide.com/band-details/Beautiful+Dangerous",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Haus of Brat",
-    "date": "2026-10-30",
-    "url": "lpsnorwich.co.uk",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "The Reindeer",
-    "event_name": "Mister Pink",
-    "date": "2026-10-30",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/",
-    "image": "",
-    "price": ""
+    "url": "https://www.deadwaxnorwich.pub/whats-on/l9c1dlja4c353m9sr8qc06zdxrpon8",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791229903132-BXTLALXJ2JOWRX5AZBNL/chrome_OCT.jpg",
+    "price": "Free"
   },
   {
     "venue": "Space",
@@ -358,30 +270,6 @@
     "url": "https://www.fatsoma.com/e/90pzqcby/halloween",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzkvMjAvMTQvMC8xOS8zMjUvUmFja011bHRpcGFydDIwMjYwOTIwLTYzLWNlcG05Mi5wbmciXV0",
     "price": "£10–£20"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Bloghaus of Horrors – Halloween Special",
-    "date": "2026-10-31",
-    "url": "https://norwichartscentre.co.uk/event/bloghaus-of-horrors-halloween-special/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Screenshot-2026-07-14-at-12.38.46-6a561fcc81b32-800x450-c-default.png",
-    "price": "£14–£16"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "G.A.G – Halloween",
-    "date": "2026-10-31",
-    "url": "https://www.ueaticketbookings.co.uk/event/g-a-g-halloween/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/GAG_Oct31_Square-500x500.png.webp",
-    "price": ""
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Nightmare On King Street",
-    "date": "2026-10-31",
-    "url": "https://www.ueaticketbookings.co.uk/event/nightmare-on-king-street/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/NightmareOnKingStreet_2026_Square-500x500.png.webp",
-    "price": "£8.50–£9.50"
   },
   {
     "venue": "Voodoos",
@@ -440,11 +328,43 @@
     "price": ""
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "Bloghaus of Horrors – Halloween Special",
+    "date": "2026-10-31",
+    "url": "https://norwichartscentre.co.uk/event/bloghaus-of-horrors-halloween-special/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Screenshot-2026-07-14-at-12.38.46-6a561fcc81b32-800x450-c-default.png",
+    "price": "£14–£16"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "G.A.G – Halloween",
+    "date": "2026-10-31",
+    "url": "https://www.ueaticketbookings.co.uk/event/g-a-g-halloween/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/GAG_Oct31_Square-500x500.png.webp",
+    "price": ""
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Nightmare On King Street",
+    "date": "2026-10-31",
+    "url": "https://www.ueaticketbookings.co.uk/event/nightmare-on-king-street/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/NightmareOnKingStreet_2026_Square-500x500.png.webp",
+    "price": "£8.50–£9.50"
+  },
+  {
     "venue": "Holloway",
     "event_name": "Medieval Deep Listening - Laura Cannell + Simon Nunn (Visuals)  - The Octagon Chapel",
     "date": "2026-11-01",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790449403191-IMG_3337.jpeg?alt=media&token=014bebc8-6f3b-4ba0-a568-bb82f55e19dd",
+    "price": ""
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "After Thought Band",
+    "date": "2026-11-01",
+    "url": "https://www.norfolkgigguide.com/band-details/After+Thought+Band",
+    "image": "",
     "price": ""
   },
   {
@@ -454,14 +374,6 @@
     "url": "https://www.ueaticketbookings.co.uk/event/will-wilde/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/WillWilde-02-500x500.png.webp",
     "price": "£19.80"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "After Thought Band",
-    "date": "2026-11-01",
-    "url": "https://www.norfolkgigguide.com/band-details/After+Thought+Band",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Maddermarket",
@@ -488,22 +400,6 @@
     "price": ""
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Breed 77",
-    "date": "2026-11-04",
-    "url": "https://www.ueaticketbookings.co.uk/event/breed-77/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Breed77_Square-1-500x500.png.webp",
-    "price": "£22.20"
-  },
-  {
-    "venue": "LCR",
-    "event_name": "Deaf Havana",
-    "date": "2026-11-04",
-    "url": "https://www.ueaticketbookings.co.uk/event/deaf-havana/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/1x1-NoLinkSquare-1080x1080-1-500x500.jpg.webp",
-    "price": "£32.75"
-  },
-  {
     "venue": "Voodoos",
     "event_name": "Suli Breaks Live at Voodoo Daddys",
     "date": "2026-11-04",
@@ -518,6 +414,22 @@
     "url": "https://www.norfolkgigguide.com/band-details/Live+n+Unsigned",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Breed 77",
+    "date": "2026-11-04",
+    "url": "https://www.ueaticketbookings.co.uk/event/breed-77/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Breed77_Square-1-500x500.png.webp",
+    "price": "£22.20"
+  },
+  {
+    "venue": "LCR",
+    "event_name": "Deaf Havana",
+    "date": "2026-11-04",
+    "url": "https://www.ueaticketbookings.co.uk/event/deaf-havana/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/1x1-NoLinkSquare-1080x1080-1-500x500.jpg.webp",
+    "price": "£32.75"
   },
   {
     "venue": "Space",
@@ -576,22 +488,6 @@
     "price": ""
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "Floral Image & The Heavenly Bodes",
-    "date": "2026-11-06",
-    "url": "https://norwichartscentre.co.uk/event/floral-image-the-heavenly-bodes/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/f00af26f_6D0363FC-376D-417C-9E01-F0032A911116-6ab12dee50867-800x450-c-default.jpg",
-    "price": "£14–£16"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Mad Dog Mcrea",
-    "date": "2026-11-06",
-    "url": "https://www.ueaticketbookings.co.uk/event/mad-dog-mcrea/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Dianas-WF-AND-LCR-MASTERS-USE-THESE-500x500.jpg.webp",
-    "price": "£24.42"
-  },
-  {
     "venue": "Voodoos",
     "event_name": "Sego + PALM & Oscar November",
     "date": "2026-11-06",
@@ -606,6 +502,22 @@
     "url": "https://www.norfolkgigguide.com/band-details/Generation+29",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Floral Image & The Heavenly Bodes",
+    "date": "2026-11-06",
+    "url": "https://norwichartscentre.co.uk/event/floral-image-the-heavenly-bodes/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/f00af26f_6D0363FC-376D-417C-9E01-F0032A911116-6ab12dee50867-800x450-c-default.jpg",
+    "price": "£14–£16"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Mad Dog Mcrea",
+    "date": "2026-11-06",
+    "url": "https://www.ueaticketbookings.co.uk/event/mad-dog-mcrea/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Dianas-WF-AND-LCR-MASTERS-USE-THESE-500x500.jpg.webp",
+    "price": "£24.42"
   },
   {
     "venue": "Space",
@@ -630,38 +542,6 @@
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1780582249541-OIP.webp?alt=media&token=0f1af6e8-c3c2-4f16-bd98-e61f18748ed0",
     "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "The Hanging Stars",
-    "date": "2026-11-07",
-    "url": "https://norwichartscentre.co.uk/event/the-hanging-stars/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/260211_The_Hanging_Stars_S03_0338_col_h_web-69c3f46740842-800x450-c-default.jpg",
-    "price": "£17–£19.50"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Propaganda",
-    "date": "2026-11-07",
-    "url": "https://www.ueaticketbookings.co.uk/event/propaganda/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-39-500x500.png.webp",
-    "price": "£6.60"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Chloe Slater",
-    "date": "2026-11-07",
-    "url": "https://www.ueaticketbookings.co.uk/event/chloe-slater/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Chloe-Slater-SQ-support-500x500.png.webp",
-    "price": "£16.72"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Republica",
-    "date": "2026-11-07",
-    "url": "https://www.ueaticketbookings.co.uk/event/republica/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/imresizer-Republica_Square_Norwich_Waterfront-500x500.png.webp",
-    "price": "£33.60"
   },
   {
     "venue": "Voodoos",
@@ -704,10 +584,58 @@
     "price": ""
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "The Hanging Stars",
+    "date": "2026-11-07",
+    "url": "https://norwichartscentre.co.uk/event/the-hanging-stars/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/260211_The_Hanging_Stars_S03_0338_col_h_web-69c3f46740842-800x450-c-default.jpg",
+    "price": "£17–£19.50"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Propaganda",
+    "date": "2026-11-07",
+    "url": "https://www.ueaticketbookings.co.uk/event/propaganda/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-39-500x500.png.webp",
+    "price": "£6.60"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Chloe Slater",
+    "date": "2026-11-07",
+    "url": "https://www.ueaticketbookings.co.uk/event/chloe-slater/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Chloe-Slater-SQ-support-500x500.png.webp",
+    "price": "£16.72"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Republica",
+    "date": "2026-11-07",
+    "url": "https://www.ueaticketbookings.co.uk/event/republica/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/imresizer-Republica_Square_Norwich_Waterfront-500x500.png.webp",
+    "price": "£33.60"
+  },
+  {
     "venue": "Epic",
     "event_name": "Maisie Adam: Whatsherface | SOLD OUT",
     "date": "2026-11-08",
     "url": "https://epic-tv.com/events/event/maisie-adam-whatsherface-sold-out",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Addictive Mix",
+    "date": "2026-11-08",
+    "url": "https://www.norfolkgigguide.com/band-details/Addictive+Mix",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Ribs of Beef",
+    "event_name": "HillBilly Goats Gruff",
+    "date": "2026-11-08",
+    "url": "",
     "image": "",
     "price": ""
   },
@@ -728,22 +656,6 @@
     "price": "£22.20"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Addictive Mix",
-    "date": "2026-11-08",
-    "url": "https://www.norfolkgigguide.com/band-details/Addictive+Mix",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Ribs of Beef",
-    "event_name": "HillBilly Goats Gruff",
-    "date": "2026-11-08",
-    "url": "",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Voodoos",
     "event_name": "Pica pica, Pica pica! presents ĠENN + Marla & Crying In Colour",
     "date": "2026-11-09",
@@ -758,6 +670,22 @@
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790750726820-IMG_3357.jpeg?alt=media&token=2a6771b1-d72b-4bd5-80b3-0bf746382f35",
     "price": "£7–£9"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Keg + Other Half",
+    "date": "2026-11-10",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/keg/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvNS8xMi8xMS8xNy83OTIvUmFja011bHRpcGFydDIwMjYwNzA1LTU1LTF1cjIwY2EucG5nIl1d?ar=16:9&fit=crop",
+    "price": "£12.50"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "Draw Some Paws",
+    "date": "2026-11-10",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/draw-some-paws-1",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790619041634-VOG0SELACIZAGCHK05BP/643940468_17852574918681645_1518060599079001872_n.jpg",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -784,36 +712,12 @@
     "price": "£44.24"
   },
   {
-    "venue": "Voodoos",
-    "event_name": "Keg + Other Half",
-    "date": "2026-11-10",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/keg/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvNS8xMi8xMS8xNy83OTIvUmFja011bHRpcGFydDIwMjYwNzA1LTU1LTF1cjIwY2EucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£12.50"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Draw Some Paws",
-    "date": "2026-11-10",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/draw-some-paws-1",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790619041634-VOG0SELACIZAGCHK05BP/643940468_17852574918681645_1518060599079001872_n.jpg",
-    "price": ""
-  },
-  {
     "venue": "Epic",
     "event_name": "Round Midnight: Shabaka plus support",
     "date": "2026-11-11",
     "url": "https://epic-tv.com/events/event/round-midnight-shabaka-plus-support",
     "image": "",
     "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Shabaka @ EPIC Studios",
-    "date": "2026-11-11",
-    "url": "https://norwichartscentre.co.uk/event/shabaka-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/SHABAKA-2026-PRESS-SHOT-69a9989533d1d-800x450-c-default.jpg",
-    "price": "£30–£34"
   },
   {
     "venue": "Voodoos",
@@ -840,6 +744,14 @@
     "price": ""
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "Shabaka @ EPIC Studios",
+    "date": "2026-11-11",
+    "url": "https://norwichartscentre.co.uk/event/shabaka-at-epic-studios/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/SHABAKA-2026-PRESS-SHOT-69a9989533d1d-800x450-c-default.jpg",
+    "price": "£30–£34"
+  },
+  {
     "venue": "Space",
     "event_name": "Lust For Life Promotions",
     "date": "2026-11-12",
@@ -864,22 +776,6 @@
     "price": ""
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "Gary Stewart’s Graceland",
-    "date": "2026-11-12",
-    "url": "https://norwichartscentre.co.uk/event/gary-stewarts-graceland/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2025/12/GSGLA-Banner-6aa6f2db9e522-scaled-800x450-c-default.png",
-    "price": "£22–£25"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Young Knives",
-    "date": "2026-11-12",
-    "url": "https://www.ueaticketbookings.co.uk/event/young-knives/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/YoungKnives_Square-500x500.png.webp",
-    "price": "£27.75"
-  },
-  {
     "venue": "Voodoos",
     "event_name": "Dermot Henry + Alfie Bowles",
     "date": "2026-11-12",
@@ -902,6 +798,22 @@
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Gary Stewart’s Graceland",
+    "date": "2026-11-12",
+    "url": "https://norwichartscentre.co.uk/event/gary-stewarts-graceland/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2025/12/GSGLA-Banner-6aa6f2db9e522-scaled-800x450-c-default.png",
+    "price": "£22–£25"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Young Knives",
+    "date": "2026-11-12",
+    "url": "https://www.ueaticketbookings.co.uk/event/young-knives/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/YoungKnives_Square-500x500.png.webp",
+    "price": "£27.75"
   },
   {
     "venue": "Space",
@@ -934,38 +846,6 @@
     "url": "https://epic-tv.com/events/event/dutty-moonshine-big-bands-second-distillation-uk-tour",
     "image": "",
     "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "PONY UP presents Damp Matches",
-    "date": "2026-11-13",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-damp-matches/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/IMG_5009-6a8c1652b21b9-800x450-c-default.webp",
-    "price": "£10–£12"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Nieve Ella",
-    "date": "2026-11-13",
-    "url": "https://www.ueaticketbookings.co.uk/event/nieve-ella/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Nieve-Ella-sq-1-500x500.jpg.webp",
-    "price": "£21.45"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "The Zac Schulze Gang",
-    "date": "2026-11-13",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-zac-schulze-gang/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/sQF-500x500.png.webp",
-    "price": "£22.20"
-  },
-  {
-    "venue": "LCR",
-    "event_name": "Dizzee Rascal",
-    "date": "2026-11-13",
-    "url": "https://www.ueaticketbookings.co.uk/event/dizzee-rascal/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-DIZZEE-RASCAL-INSTA-NORWICH-2026-500x500.jpg.webp",
-    "price": "£48.03"
   },
   {
     "venue": "Voodoos",
@@ -1008,6 +888,38 @@
     "price": ""
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents Damp Matches",
+    "date": "2026-11-13",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-damp-matches/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/IMG_5009-6a8c1652b21b9-800x450-c-default.webp",
+    "price": "£10–£12"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Nieve Ella",
+    "date": "2026-11-13",
+    "url": "https://www.ueaticketbookings.co.uk/event/nieve-ella/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Nieve-Ella-sq-1-500x500.jpg.webp",
+    "price": "£21.45"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "The Zac Schulze Gang",
+    "date": "2026-11-13",
+    "url": "https://www.ueaticketbookings.co.uk/event/the-zac-schulze-gang/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/sQF-500x500.png.webp",
+    "price": "£22.20"
+  },
+  {
+    "venue": "LCR",
+    "event_name": "Dizzee Rascal",
+    "date": "2026-11-13",
+    "url": "https://www.ueaticketbookings.co.uk/event/dizzee-rascal/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-DIZZEE-RASCAL-INSTA-NORWICH-2026-500x500.jpg.webp",
+    "price": "£48.03"
+  },
+  {
     "venue": "Space",
     "event_name": "Sabaka Presents - XcrucibleX",
     "date": "2026-11-14",
@@ -1038,30 +950,6 @@
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1781799521128-IMG_2285.jpeg?alt=media&token=b6bffb29-c8f7-4682-8d6b-c0bed79372e0",
     "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Daddy G (The Wild Bunch / Massive Attack) DJ",
-    "date": "2026-11-14",
-    "url": "https://norwichartscentre.co.uk/event/daddy-g-the-wild-bunch-massive-attack-dj/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/Screenshot-2026-06-08-at-12.56.02-6a26ade246bfa-800x450-c-default.png",
-    "price": "£22–£25"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Deptford Northern Soul Club",
-    "date": "2026-11-14",
-    "url": "https://www.ueaticketbookings.co.uk/event/deptford-northern-soul-club/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-Deptford-Digital_Square-500x500.jpg.webp",
-    "price": "£13.20"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Dutch & Graft (The Manor)",
-    "date": "2026-11-14",
-    "url": "https://www.ueaticketbookings.co.uk/event/dutch-graft-the-manor/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Dianas-WF-AND-LCR-MASTERS-USE-THESE-35-500x500.jpg.webp",
-    "price": "£24.98"
   },
   {
     "venue": "Voodoos",
@@ -1104,10 +992,50 @@
     "price": "£10"
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "Daddy G (The Wild Bunch / Massive Attack) DJ",
+    "date": "2026-11-14",
+    "url": "https://norwichartscentre.co.uk/event/daddy-g-the-wild-bunch-massive-attack-dj/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/Screenshot-2026-06-08-at-12.56.02-6a26ade246bfa-800x450-c-default.png",
+    "price": "£22–£25"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Deptford Northern Soul Club",
+    "date": "2026-11-14",
+    "url": "https://www.ueaticketbookings.co.uk/event/deptford-northern-soul-club/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-Deptford-Digital_Square-500x500.jpg.webp",
+    "price": "£13.20"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Dutch & Graft (The Manor)",
+    "date": "2026-11-14",
+    "url": "https://www.ueaticketbookings.co.uk/event/dutch-graft-the-manor/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Dianas-WF-AND-LCR-MASTERS-USE-THESE-35-500x500.jpg.webp",
+    "price": "£24.98"
+  },
+  {
     "venue": "Epic",
     "event_name": "Martin McAloon of Prefab Sprout",
     "date": "2026-11-15",
     "url": "https://epic-tv.com/events/event/martin-mcaloon-of-prefab-sprout",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "The North",
+    "date": "2026-11-15",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/the-north/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMjgvMTgvNDkvMTIvODQwL1JhY2tNdWx0aXBhcnQyMDI2MDcyOC02NC0xcHc3NDExLnBuZyJdXQ?ar=16:9&fit=crop",
+    "price": ""
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Soul Bags",
+    "date": "2026-11-15",
+    "url": "https://www.norfolkgigguide.com/band-details/Soul+Bags",
     "image": "",
     "price": ""
   },
@@ -1128,20 +1056,12 @@
     "price": "£22.20"
   },
   {
-    "venue": "Voodoos",
-    "event_name": "The North",
-    "date": "2026-11-15",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/the-north/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMjgvMTgvNDkvMTIvODQwL1JhY2tNdWx0aXBhcnQyMDI2MDcyOC02NC0xcHc3NDExLnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Soul Bags",
-    "date": "2026-11-15",
-    "url": "https://www.norfolkgigguide.com/band-details/Soul+Bags",
-    "image": "",
-    "price": ""
+    "venue": "Dead Wax",
+    "event_name": "Rhyme Against The Machine",
+    "date": "2026-11-16",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/rhyme-against-the-machine-5",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792427974327-N81YB8OWPHSX6FMWBL9G/RHYME_MONTHLY+%281%29+%281%29.jpg",
+    "price": "Free"
   },
   {
     "venue": "LCR",
@@ -1152,12 +1072,12 @@
     "price": "£50.63"
   },
   {
-    "venue": "Dead Wax",
-    "event_name": "Rhyme Against The Machine",
-    "date": "2026-11-16",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/rhyme-against-the-machine-5",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792427974327-N81YB8OWPHSX6FMWBL9G/RHYME_MONTHLY+%281%29+%281%29.jpg",
-    "price": "Free"
+    "venue": "Voodoos",
+    "event_name": "NEW NOISE! Tiny Vessels + kirakira + Scarlett Hogg",
+    "date": "2026-11-17",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/new-noise/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI2LzEwLzIzLzExLzM4L1JhY2tNdWx0aXBhcnQyMDI2MTAyNi01Ny00d3kxenguanBnIl1d?ar=16:9&fit=crop",
+    "price": "£5"
   },
   {
     "venue": "Arts Centre",
@@ -1184,19 +1104,19 @@
     "price": ""
   },
   {
-    "venue": "Voodoos",
-    "event_name": "NEW NOISE! Tiny Vessels + kirakira + Scarlett Hogg",
-    "date": "2026-11-17",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/new-noise/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI2LzEwLzIzLzExLzM4L1JhY2tNdWx0aXBhcnQyMDI2MTAyNi01Ny00d3kxenguanBnIl1d?ar=16:9&fit=crop",
-    "price": "£5"
-  },
-  {
     "venue": "Holloway",
     "event_name": "Scott Lavene - Acoustic Songs & Stories Tour",
     "date": "2026-11-18",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1776329819321-IMG_1801.webp?alt=media&token=16ca4c42-a839-4479-9272-0a89344d0e83",
+    "price": ""
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Red Richardson",
+    "date": "2026-11-18",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/red-richardson/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvNi8xNi81NC8zMi84MDUvUmFja011bHRpcGFydDIwMjYwNzA2LTY0LTFkNTc1bXEucG5nIl1d?ar=16:9&fit=crop",
     "price": ""
   },
   {
@@ -1216,14 +1136,6 @@
     "price": ""
   },
   {
-    "venue": "Voodoos",
-    "event_name": "Red Richardson",
-    "date": "2026-11-18",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/red-richardson/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvNi8xNi81NC8zMi84MDUvUmFja011bHRpcGFydDIwMjYwNzA2LTY0LTFkNTc1bXEucG5nIl1d?ar=16:9&fit=crop",
-    "price": ""
-  },
-  {
     "venue": "Space",
     "event_name": "Sinkhole, Smalltown Vices, Skinny Lizzards + The Ted Lake Band",
     "date": "2026-11-19",
@@ -1240,14 +1152,6 @@
     "price": ""
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Hang Massive",
-    "date": "2026-11-19",
-    "url": "https://www.ueaticketbookings.co.uk/event/hang-massive/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Hang-Massive-Norwich-SQ-500x500.png.webp",
-    "price": "£24.98–£38.85"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Dreamcast",
     "date": "2026-11-19",
@@ -1262,6 +1166,14 @@
     "url": "https://www.norfolkgigguide.com/band-details/Acid+reign+and+Regicide",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Hang Massive",
+    "date": "2026-11-19",
+    "url": "https://www.ueaticketbookings.co.uk/event/hang-massive/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Hang-Massive-Norwich-SQ-500x500.png.webp",
+    "price": "£24.98–£38.85"
   },
   {
     "venue": "Space",
@@ -1288,6 +1200,22 @@
     "price": ""
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Searchlight Promotions presents... in B2",
+    "date": "2026-11-20",
+    "url": "https://www.norfolkgigguide.com/band-details/Searchlight+Promotions+presents...+in+B2",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Rawkas",
+    "date": "2026-11-20",
+    "url": "https://www.norfolkgigguide.com/band-details/Rawkas",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Stone Foundation",
     "date": "2026-11-20",
@@ -1310,22 +1238,6 @@
     "url": "https://www.ueaticketbookings.co.uk/event/ricky-warwick-the-fighting-hearts/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Ricky-Warwicj-support-sq-500x500.png.webp",
     "price": "£24.98"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Searchlight Promotions presents... in B2",
-    "date": "2026-11-20",
-    "url": "https://www.norfolkgigguide.com/band-details/Searchlight+Promotions+presents...+in+B2",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Rawkas",
-    "date": "2026-11-20",
-    "url": "https://www.norfolkgigguide.com/band-details/Rawkas",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Space",
@@ -1368,6 +1280,22 @@
     "price": ""
   },
   {
+    "venue": "Voodoos",
+    "event_name": "Flat Moon",
+    "date": "2026-11-21",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/flat-moon/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvNi8xNS80OC81Ni82NDcvUmFja011bHRpcGFydDIwMjYwNjA2LTU1LTFxanR3ZnUucG5nIl1d?ar=16:9&fit=crop",
+    "price": "£10"
+  },
+  {
+    "venue": "The Halls",
+    "event_name": "Songs of the Wild: Sam Lee",
+    "date": "2026-11-21",
+    "url": "https://www.norwich.gov.uk/thehalls/songs-wild-sam-lee-live-norwich",
+    "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-05/Screenshot%202026-05-22%20152935.jpg?h=e5f526eb&itok=dMVhHtNU",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Pop-Up World Beer Sale",
     "date": "2026-11-21",
@@ -1392,36 +1320,12 @@
     "price": "£16.50"
   },
   {
-    "venue": "Voodoos",
-    "event_name": "Flat Moon",
-    "date": "2026-11-21",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/flat-moon/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvNi8xNS80OC81Ni82NDcvUmFja011bHRpcGFydDIwMjYwNjA2LTU1LTFxanR3ZnUucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£10"
-  },
-  {
-    "venue": "The Halls",
-    "event_name": "Songs of the Wild: Sam Lee",
-    "date": "2026-11-21",
-    "url": "https://www.norwich.gov.uk/thehalls/songs-wild-sam-lee-live-norwich",
-    "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-05/Screenshot%202026-05-22%20152935.jpg?h=e5f526eb&itok=dMVhHtNU",
-    "price": ""
-  },
-  {
     "venue": "Epic",
     "event_name": "An Intimate Evening with Trevor Horn",
     "date": "2026-11-22",
     "url": "https://epic-tv.com/events/event/trevor-horn",
     "image": "",
     "price": "£30–£80"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Good Health Good Wealth",
-    "date": "2026-11-22",
-    "url": "https://www.ueaticketbookings.co.uk/event/good-health-good-wealth/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Good-Health-Good-Wealth-SQ-500x500.jpg.webp",
-    "price": "£16.50"
   },
   {
     "venue": "Dead Wax",
@@ -1440,12 +1344,12 @@
     "price": ""
   },
   {
-    "venue": "LCR",
-    "event_name": "Getdown Services",
-    "date": "2026-11-23",
-    "url": "https://www.ueaticketbookings.co.uk/event/getdown-services/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/GetdownServices_LCR_Square-1-500x500.png.webp",
-    "price": "£24.42"
+    "venue": "Waterfront",
+    "event_name": "Good Health Good Wealth",
+    "date": "2026-11-22",
+    "url": "https://www.ueaticketbookings.co.uk/event/good-health-good-wealth/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Good-Health-Good-Wealth-SQ-500x500.jpg.webp",
+    "price": "£16.50"
   },
   {
     "venue": "Voodoos",
@@ -1456,12 +1360,28 @@
     "price": "£13"
   },
   {
+    "venue": "LCR",
+    "event_name": "Getdown Services",
+    "date": "2026-11-23",
+    "url": "https://www.ueaticketbookings.co.uk/event/getdown-services/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/GetdownServices_LCR_Square-1-500x500.png.webp",
+    "price": "£24.42"
+  },
+  {
     "venue": "Epic",
     "event_name": "Round Midnight presents corto.alto",
     "date": "2026-11-24",
     "url": "https://epic-tv.com/events/event/round-midnight-presents-cortoalto",
     "image": "",
     "price": "£25.53"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Parviz + Wiffeney",
+    "date": "2026-11-24",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/parviz-wiffeney/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMjYvMjEvMi81MC85MzcvUmFja011bHRpcGFydDIwMjYwNjI2LTU3LTE3N2p5dzIucG5nIl1d?ar=16:9&fit=crop",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -1489,22 +1409,6 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "Parviz + Wiffeney",
-    "date": "2026-11-24",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/parviz-wiffeney/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMjYvMjEvMi81MC85MzcvUmFja011bHRpcGFydDIwMjYwNjI2LTU3LTE3N2p5dzIucG5nIl1d?ar=16:9&fit=crop",
-    "price": ""
-  },
-  {
-    "venue": "LCR",
-    "event_name": "The Boys Are Back Again – East 17",
-    "date": "2026-11-25",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-boys-are-back-again-east-17/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/Boys-Are-Back-Again-Norwich-1080x1080-1-500x500.jpg.webp",
-    "price": "£36.40–£112"
-  },
-  {
-    "venue": "Voodoos",
     "event_name": "The Love Buzz + A Pile Fabric Primer",
     "date": "2026-11-25",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-love-buzz/",
@@ -1528,6 +1432,14 @@
     "price": ""
   },
   {
+    "venue": "LCR",
+    "event_name": "The Boys Are Back Again – East 17",
+    "date": "2026-11-25",
+    "url": "https://www.ueaticketbookings.co.uk/event/the-boys-are-back-again-east-17/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/Boys-Are-Back-Again-Norwich-1080x1080-1-500x500.jpg.webp",
+    "price": "£36.40–£112"
+  },
+  {
     "venue": "Holloway",
     "event_name": "The Danphes + Decent Wrestlers + Are You Succeed?",
     "date": "2026-11-26",
@@ -1542,14 +1454,6 @@
     "url": "https://epic-tv.com/events/event/the-ogretones",
     "image": "",
     "price": "£18"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Parker Barrow",
-    "date": "2026-11-26",
-    "url": "https://www.ueaticketbookings.co.uk/event/parker-barrow/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/31354-500x500.jpg.webp",
-    "price": "£22.20"
   },
   {
     "venue": "Voodoos",
@@ -1574,6 +1478,14 @@
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Parker Barrow",
+    "date": "2026-11-26",
+    "url": "https://www.ueaticketbookings.co.uk/event/parker-barrow/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/31354-500x500.jpg.webp",
+    "price": "£22.20"
   },
   {
     "venue": "Space",
@@ -1624,6 +1536,22 @@
     "price": ""
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Future Radio-Sounds of Norwich",
+    "date": "2026-11-27",
+    "url": "https://www.norfolkgigguide.com/band-details/Future+Radio-Sounds+of+Norwich",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Decades Apart",
+    "date": "2026-11-27",
+    "url": "https://www.norfolkgigguide.com/band-details/Decades+Apart",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "An Evening with The Magic Numbers",
     "date": "2026-11-27",
@@ -1664,28 +1592,12 @@
     "price": "£37.52"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Future Radio-Sounds of Norwich",
-    "date": "2026-11-27",
-    "url": "https://www.norfolkgigguide.com/band-details/Future+Radio-Sounds+of+Norwich",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Decades Apart",
-    "date": "2026-11-27",
-    "url": "https://www.norfolkgigguide.com/band-details/Decades+Apart",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Space",
     "event_name": "Grl Dem",
     "date": "2026-11-28",
     "url": "https://ticketlab.app/event/39955-GRLDEM-Presents-Feel-the-Bass-tickets#/",
     "image": "",
-    "price": "£6"
+    "price": ""
   },
   {
     "venue": "Gonzos",
@@ -1710,38 +1622,6 @@
     "url": "https://epic-tv.com/events/event/groove-armada-dj-set-support",
     "image": "",
     "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "These Wicked Rivers",
-    "date": "2026-11-28",
-    "url": "https://norwichartscentre.co.uk/event/these-wicked-rivers/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/These-Wicked-Rivers-web-69c2c2a6f250e-800x450-c-default.jpg",
-    "price": "£21–£24"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "G.a.g",
-    "date": "2026-11-28",
-    "url": "https://www.ueaticketbookings.co.uk/event/g-a-g/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/GAG_Nov28_Square-500x500.png.webp",
-    "price": "£2.20–£5.50"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Atlas&i",
-    "date": "2026-11-28",
-    "url": "https://www.ueaticketbookings.co.uk/event/atlasi/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Dianas-WF-AND-LCR-MASTERS-USE-THESE-28-500x500.jpg.webp",
-    "price": "£12.10"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Uncle Acid And The Deadbeats",
-    "date": "2026-11-28",
-    "url": "https://www.ueaticketbookings.co.uk/event/uncle-acid-and-the-deadbeats/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Lauras-WF-LCR-IG-Template-81.jpg.webp",
-    "price": "£25.53"
   },
   {
     "venue": "Voodoos",
@@ -1784,12 +1664,36 @@
     "price": "£5"
   },
   {
-    "venue": "LCR",
-    "event_name": "The Snuts",
-    "date": "2026-11-29",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-snuts/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/31656-500x500.jpg.webp",
-    "price": "£36.40"
+    "venue": "Arts Centre",
+    "event_name": "These Wicked Rivers",
+    "date": "2026-11-28",
+    "url": "https://norwichartscentre.co.uk/event/these-wicked-rivers/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/These-Wicked-Rivers-web-69c2c2a6f250e-800x450-c-default.jpg",
+    "price": "£21–£24"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "G.a.g",
+    "date": "2026-11-28",
+    "url": "https://www.ueaticketbookings.co.uk/event/g-a-g/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/GAG_Nov28_Square-500x500.png.webp",
+    "price": "£2.20–£5.50"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Atlas&i",
+    "date": "2026-11-28",
+    "url": "https://www.ueaticketbookings.co.uk/event/atlasi/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Dianas-WF-AND-LCR-MASTERS-USE-THESE-28-500x500.jpg.webp",
+    "price": "£12.10"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Uncle Acid And The Deadbeats",
+    "date": "2026-11-28",
+    "url": "https://www.ueaticketbookings.co.uk/event/uncle-acid-and-the-deadbeats/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Lauras-WF-LCR-IG-Template-81.jpg.webp",
+    "price": "£25.53"
   },
   {
     "venue": "Voodoos",
@@ -1798,6 +1702,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/birdwitch-forlorn/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMTUvMTIvMjIvNDgvODQwL1JhY2tNdWx0aXBhcnQyMDI2MDcxNS02NC0xeHg0c2E2LnBuZyJdXQ?ar=16:9&fit=crop",
     "price": "£12"
+  },
+  {
+    "venue": "LCR",
+    "event_name": "The Snuts",
+    "date": "2026-11-29",
+    "url": "https://www.ueaticketbookings.co.uk/event/the-snuts/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/31656-500x500.jpg.webp",
+    "price": "£36.40"
   },
   {
     "venue": "Waterfront",
@@ -1832,22 +1744,6 @@
     "price": "£33.60"
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "The Allergies (Live)",
-    "date": "2026-12-03",
-    "url": "https://norwichartscentre.co.uk/event/the-allergies-live/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-17.07.35-69b838df62cac-800x450-c-default.png",
-    "price": "£21–£24"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "The Alehouse Sessions",
-    "date": "2026-12-03",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-alehouse-sessions/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/The-Alehouse-Sessions-norwich-1080x1080-1-500x500.jpg.webp",
-    "price": "£23.31"
-  },
-  {
     "venue": "Voodoos",
     "event_name": "Ormella",
     "date": "2026-12-03",
@@ -1864,12 +1760,44 @@
     "price": ""
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "The Allergies (Live)",
+    "date": "2026-12-03",
+    "url": "https://norwichartscentre.co.uk/event/the-allergies-live/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-17.07.35-69b838df62cac-800x450-c-default.png",
+    "price": "£21–£24"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "The Alehouse Sessions",
+    "date": "2026-12-03",
+    "url": "https://www.ueaticketbookings.co.uk/event/the-alehouse-sessions/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/The-Alehouse-Sessions-norwich-1080x1080-1-500x500.jpg.webp",
+    "price": "£23.31"
+  },
+  {
     "venue": "Holloway",
     "event_name": "Citizen Smith + Stones Throw",
     "date": "2026-12-04",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1788183878204-IMG_3202.jpeg?alt=media&token=ae2c1570-f5ff-478e-a9fc-6adf422544f1",
     "price": ""
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Myopia + A Different Kitchen & Crying In Colour",
+    "date": "2026-12-04",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/myopia-a-different-kitchen-crying-in-colour/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzgvMTkvMTAvMTEvMjAvMjE4L1JhY2tNdWx0aXBhcnQyMDI2MDgxOS01OS0xZGJiYWF3LmpwZyJdXQ?ar=16:9&fit=crop",
+    "price": "£6"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Nirvanher With Hell is in Chains",
+    "date": "2026-12-04",
+    "url": "https://www.norfolkgigguide.com/band-details/NIRVANHER+with+HELL+IS+IN+CHAINS",
+    "image": "",
+    "price": "£16.50"
   },
   {
     "venue": "Arts Centre",
@@ -1904,28 +1832,44 @@
     "price": "£33.60"
   },
   {
-    "venue": "Voodoos",
-    "event_name": "Myopia + A Different Kitchen & Crying In Colour",
-    "date": "2026-12-04",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/myopia-a-different-kitchen-crying-in-colour/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzgvMTkvMTAvMTEvMjAvMjE4L1JhY2tNdWx0aXBhcnQyMDI2MDgxOS01OS0xZGJiYWF3LmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": "£6"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Nirvanher With Hell is in Chains",
-    "date": "2026-12-04",
-    "url": "https://www.norfolkgigguide.com/band-details/NIRVANHER+with+HELL+IS+IN+CHAINS",
-    "image": "",
-    "price": "£16.50"
-  },
-  {
     "venue": "Gonzos",
     "event_name": "T>I: The Residency - Clipz",
     "date": "2026-12-05",
     "url": "https://www.fatsoma.com/e/8l08hndq/t-i-the-residency-clipz",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI5LzE1LzIyLzI3LzE2L1JhY2tNdWx0aXBhcnQyMDI2MTAyOS01Ni1ic3Rnc2cucG5nIl1d",
     "price": "£7–£12"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Dad Manners",
+    "date": "2026-12-05",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/dad-manners/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzMvMjIvMTEvMjMvNTEvMzIvUmFja011bHRpcGFydDIwMjYwMzIyLTU3LWszeXd2bC5qcGciXV0?ar=16:9&fit=crop",
+    "price": "£15"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Henry Cluney's XSLF + The Punktures + Beef & Onion",
+    "date": "2026-12-05",
+    "url": "https://www.norfolkgigguide.com/band-details/Henry+Cluney%27s+XSLF+%2B+The+Punktures+%2B+Beef+%26+Onion",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Dirty Havana",
+    "date": "2026-12-05",
+    "url": "https://www.norfolkgigguide.com/band-details/Dirty+Havana",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Hangar",
+    "event_name": "Norwich: Pat Sharp's Fun House Xmas Special - Indoors & Heated | 5th Dec",
+    "date": "2026-12-05",
+    "url": "https://fixr.co/event/norwich-mj-cole-daylight-disco-end-of-summer-day-p-tickets-108678374",
+    "image": "https://fixr-cdn.fixr.co/images/event/2026-10/2d386dbbe26d4a6785871274693d086e.jpeg",
+    "price": "£7.50"
   },
   {
     "venue": "Arts Centre",
@@ -1968,36 +1912,12 @@
     "price": "£33"
   },
   {
-    "venue": "Voodoos",
-    "event_name": "Dad Manners",
-    "date": "2026-12-05",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/dad-manners/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzMvMjIvMTEvMjMvNTEvMzIvUmFja011bHRpcGFydDIwMjYwMzIyLTU3LWszeXd2bC5qcGciXV0?ar=16:9&fit=crop",
-    "price": "£15"
-  },
-  {
     "venue": "Brickmakers",
-    "event_name": "Henry Cluney's XSLF + The Punktures + Beef & Onion",
-    "date": "2026-12-05",
-    "url": "https://www.norfolkgigguide.com/band-details/Henry+Cluney%27s+XSLF+%2B+The+Punktures+%2B+Beef+%26+Onion",
+    "event_name": "Southbound",
+    "date": "2026-12-06",
+    "url": "https://www.norfolkgigguide.com/band-details/Southbound",
     "image": "",
     "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Dirty Havana",
-    "date": "2026-12-05",
-    "url": "https://www.norfolkgigguide.com/band-details/Dirty+Havana",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Hangar",
-    "event_name": "Norwich: Pat Sharp's Fun House Xmas Special - Indoors & Heated | 5th Dec",
-    "date": "2026-12-05",
-    "url": "https://fixr.co/event/norwich-mj-cole-daylight-disco-end-of-summer-day-p-tickets-108678374",
-    "image": "https://fixr-cdn.fixr.co/images/event/2026-10/2d386dbbe26d4a6785871274693d086e.jpeg",
-    "price": "£7.50"
   },
   {
     "venue": "Waterfront",
@@ -2006,14 +1926,6 @@
     "url": "https://www.ueaticketbookings.co.uk/event/the-fell/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/The-Fell_thefell_squareG-500x500.png.webp",
     "price": "£27.75"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Southbound",
-    "date": "2026-12-06",
-    "url": "https://www.norfolkgigguide.com/band-details/Southbound",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Voodoos",
@@ -2040,22 +1952,6 @@
     "price": "£22–£25"
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Ancient Infinity Orchestra",
-    "date": "2026-12-10",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-ancient-infinity-orchestra/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Ancient-Infinity-Orchestra-web-6a5f8e0c75efc-800x450-c-default.jpg",
-    "price": "£21–£23"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Sumo Cyco",
-    "date": "2026-12-10",
-    "url": "https://www.ueaticketbookings.co.uk/event/sumo-cyco/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/SumoCyco_Square-500x500.png.webp",
-    "price": "£19.80"
-  },
-  {
     "venue": "Voodoos",
     "event_name": "UNSIGNED Live 2",
     "date": "2026-12-10",
@@ -2080,36 +1976,28 @@
     "price": ""
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents Ancient Infinity Orchestra",
+    "date": "2026-12-10",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-ancient-infinity-orchestra/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Ancient-Infinity-Orchestra-web-6a5f8e0c75efc-800x450-c-default.jpg",
+    "price": "£21–£23"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Sumo Cyco",
+    "date": "2026-12-10",
+    "url": "https://www.ueaticketbookings.co.uk/event/sumo-cyco/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/SumoCyco_Square-500x500.png.webp",
+    "price": "£19.80"
+  },
+  {
     "venue": "Gonzos",
     "event_name": "A.M.C Grassroots Energy: Norwich",
     "date": "2026-12-11",
     "url": "https://www.fatsoma.com/e/bfbqe1v4/a-m-c-grassroots-energy-norwich",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzYvMjQvOS8xMC8yMC84NjQvUmFja011bHRpcGFydDIwMjYwNjI0LTU1LTF2bDYyZzcucG5nIl1d",
     "price": "£10"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "ZWA presents Ni Maxine",
-    "date": "2026-12-11",
-    "url": "https://norwichartscentre.co.uk/event/zwa-presents-ni-maxine/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/NI_MAXINE_ARTWORKALT_2000px-6acfa05c00b6a-800x450-c-default.jpg",
-    "price": "£15–£15.50"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Wednesday 13 + The Birthday Massacre",
-    "date": "2026-12-11",
-    "url": "https://www.ueaticketbookings.co.uk/event/wednesday-13-the-birthday-massacre/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Wed-13-Bday-Mass.-SQ-500x500.png.webp",
-    "price": "£27.75"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "ZZ TOPPD ‘The UK’s No.1 Tribute To ZZ Top’",
-    "date": "2026-12-11",
-    "url": "https://www.ueaticketbookings.co.uk/event/zz-toppd-the-uks-no-1-tribute-to-zz-top/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Dianas-WF-AND-LCR-MASTERS-USE-THESE-3-500x500.jpg.webp",
-    "price": "£16.50"
   },
   {
     "venue": "Dead Wax",
@@ -2136,6 +2024,30 @@
     "price": ""
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "ZWA presents Ni Maxine",
+    "date": "2026-12-11",
+    "url": "https://norwichartscentre.co.uk/event/zwa-presents-ni-maxine/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/NI_MAXINE_ARTWORKALT_2000px-6acfa05c00b6a-800x450-c-default.jpg",
+    "price": "£15–£15.50"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Wednesday 13 + The Birthday Massacre",
+    "date": "2026-12-11",
+    "url": "https://www.ueaticketbookings.co.uk/event/wednesday-13-the-birthday-massacre/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Wed-13-Bday-Mass.-SQ-500x500.png.webp",
+    "price": "£27.75"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "ZZ TOPPD ‘The UK’s No.1 Tribute To ZZ Top’",
+    "date": "2026-12-11",
+    "url": "https://www.ueaticketbookings.co.uk/event/zz-toppd-the-uks-no-1-tribute-to-zz-top/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Dianas-WF-AND-LCR-MASTERS-USE-THESE-3-500x500.jpg.webp",
+    "price": "£16.50"
+  },
+  {
     "venue": "Gonzos",
     "event_name": "System Olympia",
     "date": "2026-12-12",
@@ -2150,6 +2062,38 @@
     "url": "https://epic-tv.com/events/event/heart-club-classics-the-christmas-bash-with-toby-anstis",
     "image": "",
     "price": "£16"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Candy Cane Cabaret",
+    "date": "2026-12-12",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/candy-cane-cabaret/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzYvOC8xMC8zOC84MjkvUmFja011bHRpcGFydDIwMjYxMDA2LTU4LTFvcnV2bmYuanBnIl1d?ar=16:9&fit=crop",
+    "price": "£10"
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Rattlesnakes - Regional One - Chaos Principal",
+    "date": "2026-12-12",
+    "url": "https://www.norfolkgigguide.com/band-details/RATTLESNAKES+-+REGIONAL+ONE+-+CHAOS+PRINCIPAL",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Skatopia",
+    "date": "2026-12-12",
+    "url": "https://www.norfolkgigguide.com/band-details/Skatopia",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Hangar",
+    "event_name": "Bank Holiday 'Fiesta' w The Cuban Brothers - Sunday 30th August",
+    "date": "2026-12-12",
+    "url": "https://fixr.co/event/bank-holiday-fiesta-w-the-cuban-brothers-sunday-30-tickets-727244475",
+    "image": "https://fixr-cdn.fixr.co/images/event/2026-06/df5bb64196a04047a3c2d41cc1633046.jpeg",
+    "price": "£10"
   },
   {
     "venue": "Arts Centre",
@@ -2185,38 +2129,6 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "Candy Cane Cabaret",
-    "date": "2026-12-12",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/candy-cane-cabaret/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzYvOC8xMC8zOC84MjkvUmFja011bHRpcGFydDIwMjYxMDA2LTU4LTFvcnV2bmYuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£10"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Rattlesnakes - Regional One - Chaos Principal",
-    "date": "2026-12-12",
-    "url": "https://www.norfolkgigguide.com/band-details/RATTLESNAKES+-+REGIONAL+ONE+-+CHAOS+PRINCIPAL",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Skatopia",
-    "date": "2026-12-12",
-    "url": "https://www.norfolkgigguide.com/band-details/Skatopia",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Hangar",
-    "event_name": "Bank Holiday 'Fiesta' w The Cuban Brothers - Sunday 30th August",
-    "date": "2026-12-12",
-    "url": "https://fixr.co/event/bank-holiday-fiesta-w-the-cuban-brothers-sunday-30-tickets-727244475",
-    "image": "https://fixr-cdn.fixr.co/images/event/2026-06/df5bb64196a04047a3c2d41cc1633046.jpeg",
-    "price": "£10"
-  },
-  {
-    "venue": "Voodoos",
     "event_name": "Annotations Of An Autopsy",
     "date": "2026-12-13",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/annotations-of-an-autopsy/",
@@ -2240,14 +2152,6 @@
     "price": "£35–£39.50"
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Laura Misch",
-    "date": "2026-12-16",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-laura-misch/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-22-at-14.28.49-6ab282961471a-800x450-c-default.png",
-    "price": "£26–£29.50"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "The Psychedelic Circus",
     "date": "2026-12-16",
@@ -2256,20 +2160,20 @@
     "price": ""
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents Laura Misch",
+    "date": "2026-12-16",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-laura-misch/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-22-at-14.28.49-6ab282961471a-800x450-c-default.png",
+    "price": "£26–£29.50"
+  },
+  {
     "venue": "Epic",
     "event_name": "Massaoke Christmas!",
     "date": "2026-12-17",
     "url": "https://epic-tv.com/events/event/massaoke-christmas",
     "image": "",
     "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Tone presents Jordan Smart",
-    "date": "2026-12-17",
-    "url": "https://norwichartscentre.co.uk/event/tone-presents-jordan-smart/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/DSC08599-6a79b0785ca43-scaled-800x450-c-default.jpg",
-    "price": "£10–£12"
   },
   {
     "venue": "Voodoos",
@@ -2288,6 +2192,14 @@
     "price": ""
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "Tone presents Jordan Smart",
+    "date": "2026-12-17",
+    "url": "https://norwichartscentre.co.uk/event/tone-presents-jordan-smart/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/DSC08599-6a79b0785ca43-scaled-800x450-c-default.jpg",
+    "price": "£10–£12"
+  },
+  {
     "venue": "Holloway",
     "event_name": "Intruder + Bloodkreig + Rate Of Decay",
     "date": "2026-12-18",
@@ -2302,30 +2214,6 @@
     "url": "https://epic-tv.com/events/event/too-much-too-young-a-night-of-2-tone-ska-and-beyond",
     "image": "",
     "price": "£25"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "The Anna Mudeka Band",
-    "date": "2026-12-18",
-    "url": "https://norwichartscentre.co.uk/event/the-anna-mudeka-band/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Screenshot-2026-08-21-at-10.13.54-6a8816daa7aeb-800x450-c-default.png",
-    "price": "£16–£18.50"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "The 9075 – The World’s First Tribute To The 1975",
-    "date": "2026-12-18",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-9075-the-worlds-first-tribute-to-the-1975/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/The9075-Norwich-Square-500x500.png.webp",
-    "price": "£19.80"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "The 900 – Tony Hawk’s Pro Skater Cover Band",
-    "date": "2026-12-18",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-900/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/The-900_Square-500x500.png.webp",
-    "price": ""
   },
   {
     "venue": "Voodoos",
@@ -2361,6 +2249,46 @@
   },
   {
     "venue": "Arts Centre",
+    "event_name": "The Anna Mudeka Band",
+    "date": "2026-12-18",
+    "url": "https://norwichartscentre.co.uk/event/the-anna-mudeka-band/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Screenshot-2026-08-21-at-10.13.54-6a8816daa7aeb-800x450-c-default.png",
+    "price": "£16–£18.50"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "The 9075 – The World’s First Tribute To The 1975",
+    "date": "2026-12-18",
+    "url": "https://www.ueaticketbookings.co.uk/event/the-9075-the-worlds-first-tribute-to-the-1975/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/The9075-Norwich-Square-500x500.png.webp",
+    "price": "£19.80"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "The 900 – Tony Hawk’s Pro Skater Cover Band",
+    "date": "2026-12-18",
+    "url": "https://www.ueaticketbookings.co.uk/event/the-900/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/The-900_Square-500x500.png.webp",
+    "price": ""
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Tripl3 B & the Troubl3makers Xmas Party + DJ Dubious, DJ Tritt, Ethobeat",
+    "date": "2026-12-19",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/tripl3-b-the-troubl3makers-xmas-party-dj-dubious-dj-tritt-ethobeat/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMzAvMTYvMTAvMTcvNDc2L1JhY2tNdWx0aXBhcnQyMDI2MDkzMC02My13ZjhlNWsucG5nIl1d?ar=16:9&fit=crop",
+    "price": ""
+  },
+  {
+    "venue": "Brickmakers",
+    "event_name": "Xmas Rox Off",
+    "date": "2026-12-19",
+    "url": "https://www.norfolkgigguide.com/band-details/Xmas+Rox+Off",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Arts Centre",
     "event_name": "ReWork Christmas presents Bag of Cans",
     "date": "2026-12-19",
     "url": "https://norwichartscentre.co.uk/event/rework-christmas-presents-bag-of-cans/",
@@ -2390,22 +2318,6 @@
     "url": "https://www.ueaticketbookings.co.uk/event/day-fever/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Norwich-19_12-1080x1080--500x500.png.webp",
     "price": "£13.20"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Tripl3 B & the Troubl3makers Xmas Party + DJ Dubious, DJ Tritt, Ethobeat",
-    "date": "2026-12-19",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/tripl3-b-the-troubl3makers-xmas-party-dj-dubious-dj-tritt-ethobeat/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMzAvMTYvMTAvMTcvNDc2L1JhY2tNdWx0aXBhcnQyMDI2MDkzMC02My13ZjhlNWsucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£13"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Xmas Rox Off",
-    "date": "2026-12-19",
-    "url": "https://www.norfolkgigguide.com/band-details/Xmas+Rox+Off",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Ribs of Beef",
@@ -2456,20 +2368,20 @@
     "price": ""
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "Channel One Sound System",
-    "date": "2026-12-31",
-    "url": "https://norwichartscentre.co.uk/event/channel-one-sound-system/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2025/07/Channel-One-25-crop-6877ba2e1e105-800x450-c-default.png",
-    "price": "£30–£40"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "Wiggy Stardust and the Ciders from Jars",
     "date": "2026-12-31",
     "url": "https://www.norfolkgigguide.com/band-details/Wiggy+Stardust+and+the+Ciders+from+Jars",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Channel One Sound System",
+    "date": "2026-12-31",
+    "url": "https://norwichartscentre.co.uk/event/channel-one-sound-system/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2025/07/Channel-One-25-crop-6877ba2e1e105-800x450-c-default.png",
+    "price": "£30–£40"
   },
   {
     "venue": "Brickmakers",
@@ -2496,20 +2408,20 @@
     "price": ""
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "The Pink Stones",
-    "date": "2027-01-14",
-    "url": "https://norwichartscentre.co.uk/event/the-pink-stones/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Band-promo-1-6a82e18485692-scaled-800x450-c-default.jpg",
-    "price": "£15–£17.50"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "Open  mic  night with Peter Turrell",
     "date": "2027-01-14",
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "The Pink Stones",
+    "date": "2027-01-14",
+    "url": "https://norwichartscentre.co.uk/event/the-pink-stones/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Band-promo-1-6a82e18485692-scaled-800x450-c-default.jpg",
+    "price": "£15–£17.50"
   },
   {
     "venue": "Arts Centre",
@@ -2569,11 +2481,11 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "Tummyache",
+    "event_name": "Tummyache + Prom & Takeda",
     "date": "2027-01-25",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/tummyache/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEzLzEyLzEzLzcvODkvUmFja011bHRpcGFydDIwMjYxMDEzLTYzLTFkZzE0bTMuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£13.20"
+    "price": "£12"
   },
   {
     "venue": "Arts Centre",
@@ -2608,6 +2520,14 @@
     "price": ""
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Open  mic  night with Peter Turrell",
+    "date": "2027-01-28",
+    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Slap Rash",
     "date": "2027-01-28",
@@ -2624,14 +2544,6 @@
     "price": "£27.75"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Open  mic  night with Peter Turrell",
-    "date": "2027-01-28",
-    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Holloway",
     "event_name": "(IVW) Ravenous Hounds + Rats As Big As Dogs",
     "date": "2027-01-29",
@@ -2640,16 +2552,8 @@
     "price": ""
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "PONY UP presents Do Nothing",
-    "date": "2027-01-29",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-do-nothing/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Do-Nothing-IVW-logo-6acdfe833b6d9-scaled-800x450-c-default.jpg",
-    "price": "£16–£18.50"
-  },
-  {
     "venue": "Voodoos",
-    "event_name": "Martial Arts + Goodbye, The Portland",
+    "event_name": "Martial Arts + The Portland",
     "date": "2027-01-29",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/martial-arts-goodbye/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI3LzExLzE0LzU0LzExOC9SYWNrTXVsdGlwYXJ0MjAyNjEwMjctNTQtMXJzdm1vdy5qcGciXV0?ar=16:9&fit=crop",
@@ -2662,6 +2566,14 @@
     "url": "https://www.norfolkgigguide.com/band-details/Chemistry+-+A+Tribute+to+Rush",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents Do Nothing",
+    "date": "2027-01-29",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-do-nothing/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Do-Nothing-IVW-logo-6acdfe833b6d9-scaled-800x450-c-default.jpg",
+    "price": "£16–£18.50"
   },
   {
     "venue": "Holloway",
@@ -2809,7 +2721,7 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "Wonk Unit + Project Mork, Gourds",
+    "event_name": "Wonk Unit + Project Mork & Gourds",
     "date": "2027-02-11",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/wonk-unit-project-mork-gourds/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI2LzEwLzM2LzQxLzIzMC9SYWNrTXVsdGlwYXJ0MjAyNjEwMjYtNjQtMWV6dXh1Zy5qcGciXV0?ar=16:9&fit=crop",
@@ -2832,19 +2744,19 @@
     "price": ""
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Ingested",
-    "date": "2027-02-12",
-    "url": "https://www.ueaticketbookings.co.uk/event/ingested/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Ingested-SQ-500x500.png.webp",
-    "price": ""
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "ADTR - A Day to Remember UK",
     "date": "2027-02-12",
     "url": "https://www.norfolkgigguide.com/band-details/ADTR+-+A+Day+to+Remember+UK",
     "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Ingested",
+    "date": "2027-02-12",
+    "url": "https://www.ueaticketbookings.co.uk/event/ingested/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Ingested-SQ-500x500.png.webp",
     "price": ""
   },
   {
@@ -2952,6 +2864,14 @@
     "price": "£30.50"
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Power Promotions Present...  @the Brickmaker",
+    "date": "2027-02-19",
+    "url": "https://www.norfolkgigguide.com/band-details/Power+Promotions+Present...++%40the+Brickmaker",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Beux Gris Gris & The Apocalypse",
     "date": "2027-02-19",
@@ -2968,14 +2888,6 @@
     "price": ""
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Power Promotions Present...  @the Brickmaker",
-    "date": "2027-02-19",
-    "url": "https://www.norfolkgigguide.com/band-details/Power+Promotions+Present...++%40the+Brickmaker",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Epic",
     "event_name": "Absolute Bowie",
     "date": "2027-02-20",
@@ -2984,20 +2896,20 @@
     "price": ""
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Ben Poole",
-    "date": "2027-02-21",
-    "url": "https://www.ueaticketbookings.co.uk/event/ben-poole/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Ben-Poole-Digital_Square-1-500x500.png.webp",
-    "price": "£17.60"
-  },
-  {
     "venue": "Voodoos",
     "event_name": "Maquina.",
     "date": "2027-02-21",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/maquina/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTYvMTEvMTUvNi82NDQvUmFja011bHRpcGFydDIwMjYwOTE2LTU1LXo1NWZoZC5qcGciXV0?ar=16:9&fit=crop",
     "price": "£16.50"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Ben Poole",
+    "date": "2027-02-21",
+    "url": "https://www.ueaticketbookings.co.uk/event/ben-poole/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Ben-Poole-Digital_Square-1-500x500.png.webp",
+    "price": "£17.60"
   },
   {
     "venue": "Waterfront",
@@ -3032,14 +2944,6 @@
     "price": ""
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "Round Midnight presents Caoilfhionn Rose",
-    "date": "2027-02-25",
-    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-caoilfhionn-rose/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/7-Caoilfhionn-Rose-Press-Shot-Wide-Credit-Rich-Williams-WEB-RES-6acdef1009b04-800x450-c-default.webp",
-    "price": "£16–£18.50"
-  },
-  {
     "venue": "Voodoos",
     "event_name": "Dog Unit",
     "date": "2027-02-25",
@@ -3054,6 +2958,14 @@
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Round Midnight presents Caoilfhionn Rose",
+    "date": "2027-02-25",
+    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-caoilfhionn-rose/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/7-Caoilfhionn-Rose-Press-Shot-Wide-Credit-Rich-Williams-WEB-RES-6acdef1009b04-800x450-c-default.webp",
+    "price": "£16–£18.50"
   },
   {
     "venue": "Holloway",
@@ -3096,20 +3008,20 @@
     "price": ""
   },
   {
-    "venue": "Waterfront",
-    "event_name": "The Doors Alive",
-    "date": "2027-02-27",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-doors-alive/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Doors-Alive-2027-Norwich-1x1-UEA-500x500.jpg.webp",
-    "price": "£23.87"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "Bootleg Boss",
     "date": "2027-02-27",
     "url": "https://www.norfolkgigguide.com/band-details/Bootleg+Boss",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "The Doors Alive",
+    "date": "2027-02-27",
+    "url": "https://www.ueaticketbookings.co.uk/event/the-doors-alive/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Doors-Alive-2027-Norwich-1x1-UEA-500x500.jpg.webp",
+    "price": "£23.87"
   },
   {
     "venue": "Voodoos",
@@ -3136,20 +3048,20 @@
     "price": "£24"
   },
   {
+    "venue": "Voodoos",
+    "event_name": "Castle + Commoner & Pilot The Dune",
+    "date": "2027-03-04",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/castle/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzUvMTcvMjgvNTAvODM1L1JhY2tNdWx0aXBhcnQyMDI2MTAwNS03MS1rcTF1NHMuanBnIl1d?ar=16:9&fit=crop",
+    "price": "£14"
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Family Stereo",
     "date": "2027-03-04",
     "url": "https://www.ueaticketbookings.co.uk/event/family-stereo/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/SQUARE-2-500x500.png.webp",
     "price": "£13.20"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Castle + Commoner, Pilot The Dune",
-    "date": "2027-03-04",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/castle/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzUvMTcvMjgvNTAvODM1L1JhY2tNdWx0aXBhcnQyMDI2MTAwNS03MS1rcTF1NHMuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£14"
   },
   {
     "venue": "Epic",
@@ -3184,6 +3096,14 @@
     "price": ""
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Black Dog  Music",
+    "date": "2027-03-10",
+    "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Round Midnight presents Matt Carmichael",
     "date": "2027-03-10",
@@ -3193,9 +3113,9 @@
   },
   {
     "venue": "Brickmakers",
-    "event_name": "Black Dog  Music",
-    "date": "2027-03-10",
-    "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music",
+    "event_name": "Open  mic  night with Peter Turrell",
+    "date": "2027-03-11",
+    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
     "price": ""
   },
@@ -3221,14 +3141,6 @@
     "date": "2027-03-11",
     "url": "https://www.ueaticketbookings.co.uk/event/the-fratellis/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/The-Fratellis-2027-Costello-Music-Norwich3-002-500x500.jpg.webp",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Open  mic  night with Peter Turrell",
-    "date": "2027-03-11",
-    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
-    "image": "",
     "price": ""
   },
   {
@@ -3296,20 +3208,20 @@
     "price": ""
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Sleep Broken",
-    "date": "2027-03-19",
-    "url": "https://www.ueaticketbookings.co.uk/event/sleep-broken/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/34463-500x500.png.webp",
-    "price": "£18.70"
-  },
-  {
     "venue": "The Halls",
     "event_name": "The Fleetwood Mac Songbook",
     "date": "2027-03-19",
     "url": "https://www.norwich.gov.uk/thehalls/fleetwood-mac-songbook-ultimate-tribute-fleetwood-mac",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-09/Horizontal%20Website%20Hero%20Banner%20-%20The%20FM%20Songbook%20-%20V1.png?h=e85cf720&itok=7htkZb5c",
     "price": ""
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Sleep Broken",
+    "date": "2027-03-19",
+    "url": "https://www.ueaticketbookings.co.uk/event/sleep-broken/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/34463-500x500.png.webp",
+    "price": "£18.70"
   },
   {
     "venue": "Arts Centre",
@@ -3360,20 +3272,20 @@
     "price": ""
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "FORM presents GANS",
-    "date": "2027-03-24",
-    "url": "https://norwichartscentre.co.uk/event/form-presents-gans/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/GANS-crop-6ada16f73319f-800x450-c-default.jpg",
-    "price": "£19"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "The Psychedelic Circus",
     "date": "2027-03-24",
     "url": "https://www.norfolkgigguide.com/band-details/The+Psychedelic+Circus",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "FORM presents GANS",
+    "date": "2027-03-24",
+    "url": "https://norwichartscentre.co.uk/event/form-presents-gans/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/GANS-crop-6ada16f73319f-800x450-c-default.jpg",
+    "price": "£19"
   },
   {
     "venue": "Brickmakers",
@@ -3400,20 +3312,20 @@
     "price": "£25.50"
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Dinosaur Pile-Up",
-    "date": "2027-03-31",
-    "url": "https://www.ueaticketbookings.co.uk/event/dinosaur-pile-up/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DPU_UKTour_2027_1x1-500x500.png.webp",
-    "price": "£22.20"
-  },
-  {
     "venue": "Brickmakers",
     "event_name": "Norfolk Blues Society at the Brickmakers",
     "date": "2027-03-31",
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Dinosaur Pile-Up",
+    "date": "2027-03-31",
+    "url": "https://www.ueaticketbookings.co.uk/event/dinosaur-pile-up/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DPU_UKTour_2027_1x1-500x500.png.webp",
+    "price": "£22.20"
   },
   {
     "venue": "Epic",
@@ -3440,20 +3352,20 @@
     "price": "£25"
   },
   {
-    "venue": "LCR",
-    "event_name": "Sleeper",
-    "date": "2027-04-02",
-    "url": "https://www.ueaticketbookings.co.uk/event/sleeper/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Sleeper-2027-Norwich-1080x1080-1-500x500.jpg.webp",
-    "price": "£44.24"
-  },
-  {
     "venue": "The Halls",
     "event_name": "Let the Music Play: A Celebration of Barry White",
     "date": "2027-04-02",
     "url": "https://www.norwich.gov.uk/thehalls/let-music-play-celebration-barry-white",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-10/Barry%20White%201630x1051%20.png?itok=8Hd1jMKk",
     "price": ""
+  },
+  {
+    "venue": "LCR",
+    "event_name": "Sleeper",
+    "date": "2027-04-02",
+    "url": "https://www.ueaticketbookings.co.uk/event/sleeper/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Sleeper-2027-Norwich-1080x1080-1-500x500.jpg.webp",
+    "price": "£44.24"
   },
   {
     "venue": "Arts Centre",
@@ -3472,14 +3384,6 @@
     "price": "£16–£18.50"
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Martin Stephenson & The Daintees",
-    "date": "2027-04-09",
-    "url": "https://www.ueaticketbookings.co.uk/event/martin-stephenson-the-daintees/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/MSTD-SQ-1080-x-1080-Norwich-500x500.jpg.webp",
-    "price": "£27.75"
-  },
-  {
     "venue": "Voodoos",
     "event_name": "Vic Allen",
     "date": "2027-04-09",
@@ -3494,6 +3398,14 @@
     "url": "https://www.norfolkgigguide.com/band-details/Motorheadache",
     "image": "",
     "price": "£17.60"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Martin Stephenson & The Daintees",
+    "date": "2027-04-09",
+    "url": "https://www.ueaticketbookings.co.uk/event/martin-stephenson-the-daintees/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/MSTD-SQ-1080-x-1080-Norwich-500x500.jpg.webp",
+    "price": "£27.75"
   },
   {
     "venue": "LCR",
@@ -3752,6 +3664,14 @@
     "price": ""
   },
   {
+    "venue": "Brickmakers",
+    "event_name": "Mosh Spice",
+    "date": "2027-05-21",
+    "url": "https://www.norfolkgigguide.com/band-details/Mosh+Spice",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Norwich Jazz Festival: Knats",
     "date": "2027-05-21",
@@ -3766,14 +3686,6 @@
     "url": "https://www.ueaticketbookings.co.uk/event/bruce-foxton/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-33-500x500.png",
     "price": "£36.40"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Mosh Spice",
-    "date": "2027-05-21",
-    "url": "https://www.norfolkgigguide.com/band-details/Mosh+Spice",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Epic",
