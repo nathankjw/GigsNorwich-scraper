@@ -52,8 +52,16 @@
     "event_name": "SØWT x With Teeth double-headliner + Hellga",
     "date": "2026-04-11",
     "url": "https://www.deadwaxnorwich.pub/whats-on/swt-x-with-teeth-double-headliner-hellga",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791823907250-ZI9F1GLR8MG7UTLLJ94Y/Screenshot+2026-10-12+at+17.47.57.png",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793547194880-09NMSCP6RJ51NHFODX2T/SOWT+TEETH+Socials.jpeg",
     "price": ""
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "EMS On a mission",
+    "date": "2026-05-11",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/ems-on-a-mission",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793546525045-OGZVO87HJO7BTXEX6CPV/Screenshot+2026-11-01+at+15.16.50.png",
+    "price": "Free"
   },
   {
     "venue": "Dead Wax",
@@ -78,6 +86,14 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/hemiptera-supports",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791230717089-F7N8UURU4O0CWFSRMY0Q/hemiptera.webp",
     "price": ""
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "Ad infinitum (DJ)",
+    "date": "2026-07-11",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/ad-infinitum-dj",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793546799018-N67XR06HEE8KJUYV7SEM/adinfinitum.jpg",
+    "price": "Free"
   },
   {
     "venue": "Dead Wax",
@@ -277,14 +293,6 @@
     "date": "2026-10-31",
     "url": "https://www.deadwaxnorwich.pub/whats-on/star-children-invites-soul-stew",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791823441855-Z1ADJ4CE7PHYWPYAZBXK/SC_A3_FORPRINT_0011.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Medieval Deep Listening - Laura Cannell + Simon Nunn (Visuals)  - The Octagon Chapel",
-    "date": "2026-11-01",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790449403191-IMG_3337.jpeg?alt=media&token=014bebc8-6f3b-4ba0-a568-bb82f55e19dd",
     "price": ""
   },
   {
@@ -662,14 +670,6 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/machukha-with-healing-wound-acceptance/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMjYvMjAvNDkvMi81MjEvUmFja011bHRpcGFydDIwMjYwNjI2LTU5LTF4dDY0MngucG5nIl1d?ar=16:9&fit=crop",
     "price": "£17.50"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "MIYO Presents: Intruder + Skinny Lizards + GBZ",
-    "date": "2026-11-11",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/miyo-presents-intruder-skinny-lizards-gbz",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793031015475-CWUMGPCO4MBDR4XGSC0I/INTRUDER+poster+A4+%284%29.png",
-    "price": ""
   },
   {
     "venue": "Brickmakers",
@@ -3245,7 +3245,7 @@
     "date": "2027-03-27",
     "url": "https://epic-tv.com/events/event/gok-wan-isolation-nation",
     "image": "",
-    "price": "£25.50"
+    "price": ""
   },
   {
     "venue": "Waterfront",
