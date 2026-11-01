@@ -312,6 +312,22 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Improv Mafia Jam",
+    "date": "2026-11-01",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Jazz Jam",
+    "date": "2026-11-02",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Maddermarket",
     "event_name": "Sam Miles & The Sound of Sonny",
     "date": "2026-11-03",
@@ -326,6 +342,14 @@
     "url": "https://norwichartscentre.co.uk/event/gently-tender/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/9881e0eb_Gently-Tender-Press-Photo-2026-6a0c50e15da27-scaled-800x450-c-default.jpg",
     "price": "£15–£17.50"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Radish Open Decks",
+    "date": "2026-11-03",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Holloway",
@@ -400,6 +424,14 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Scannell",
+    "date": "2026-11-05",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Space",
     "event_name": "Sweet Gemeni",
     "date": "2026-11-06",
@@ -452,6 +484,14 @@
     "event_name": "Generation 29",
     "date": "2026-11-06",
     "url": "https://www.norfolkgigguide.com/band-details/Generation+29",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Cheeba Cheeba Y'all",
+    "date": "2026-11-06",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
     "image": "",
     "price": ""
   },
@@ -544,6 +584,14 @@
     "price": "£5"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "All Shapes",
+    "date": "2026-11-07",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "The Reindeer",
     "event_name": "Fictus",
     "date": "2026-11-07",
@@ -598,6 +646,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-genn-support-tba/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzgvMjYvMTEvMzEvMTkvNzMwL1JhY2tNdWx0aXBhcnQyMDI2MDgyNi01My0xMWhwd2ExLmpwZyJdXQ?ar=16:9&fit=crop",
     "price": "£10"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Jazz Jam",
+    "date": "2026-11-09",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Holloway",
@@ -744,6 +800,14 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Nikki",
+    "date": "2026-11-12",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Space",
     "event_name": "Peche",
     "date": "2026-11-13",
@@ -836,6 +900,14 @@
     "event_name": "Rattus Inheritus",
     "date": "2026-11-13",
     "url": "https://www.norfolkgigguide.com/band-details/Rattus+Inheritus",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Anna B2B Blindfold",
+    "date": "2026-11-13",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
     "image": "",
     "price": ""
   },
@@ -944,6 +1016,14 @@
     "price": "£10"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Afronaut",
+    "date": "2026-11-14",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Epic",
     "event_name": "Martin McAloon of Prefab Sprout",
     "date": "2026-11-15",
@@ -984,6 +1064,14 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Chubby Jams",
+    "date": "2026-11-15",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "LCR",
     "event_name": "Little Angels",
     "date": "2026-11-16",
@@ -998,6 +1086,14 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/rhyme-against-the-machine-5",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792427974327-N81YB8OWPHSX6FMWBL9G/RHYME_MONTHLY+%281%29+%281%29.jpg",
     "price": "Free"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Jazz Jam",
+    "date": "2026-11-16",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -1104,6 +1200,14 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Uea Ems",
+    "date": "2026-11-19",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Space",
     "event_name": "Togetherness",
     "date": "2026-11-20",
@@ -1164,6 +1268,14 @@
     "event_name": "Rawkas",
     "date": "2026-11-20",
     "url": "https://www.norfolkgigguide.com/band-details/Rawkas",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Revinyl Sessions",
+    "date": "2026-11-20",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
     "image": "",
     "price": ""
   },
@@ -1248,6 +1360,14 @@
     "price": ""
   },
   {
+    "venue": "Last Pub",
+    "event_name": "AD.BRK presents B2B",
+    "date": "2026-11-21",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Epic",
     "event_name": "An Intimate Evening with Trevor Horn",
     "date": "2026-11-22",
@@ -1296,6 +1416,14 @@
     "price": "£13"
   },
   {
+    "venue": "Last Pub",
+    "event_name": "Jazz Jam",
+    "date": "2026-11-23",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Epic",
     "event_name": "Round Midnight presents corto.alto",
     "date": "2026-11-24",
@@ -1305,19 +1433,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "corto.alto @ EPIC Studios",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
-    "price": "£22–£25"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "PONY UP presents COWBOYY",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
     "price": "£10–£12"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "corto.alto @ EPIC Studios",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
+    "price": "£22–£25"
   },
   {
     "venue": "Waterfront",
@@ -1412,6 +1540,14 @@
     "event_name": "Open  mic  night with Peter Turrell",
     "date": "2026-11-26",
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "All Night Long with  AMSORRY2",
+    "date": "2026-11-26",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
     "image": "",
     "price": ""
   },
@@ -1516,6 +1652,14 @@
     "event_name": "Decades Apart",
     "date": "2026-11-27",
     "url": "https://www.norfolkgigguide.com/band-details/Decades+Apart",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Disco with Discofonique",
+    "date": "2026-11-27",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
     "image": "",
     "price": ""
   },
@@ -1646,6 +1790,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/the-temperance-movement/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/TTM-SQ-1-1-500x500.jpg.webp",
     "price": "£33.60"
+  },
+  {
+    "venue": "Last Pub",
+    "event_name": "Jazz Jam",
+    "date": "2026-11-30",
+    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -3245,7 +3397,7 @@
     "date": "2027-03-27",
     "url": "https://epic-tv.com/events/event/gok-wan-isolation-nation",
     "image": "",
-    "price": ""
+    "price": "£25.50"
   },
   {
     "venue": "Waterfront",
