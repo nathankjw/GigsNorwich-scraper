@@ -9,14 +9,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Stonehill Collective + Harry Ixer + Awize",
-    "date": "2026-01-10",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/stonehill-collective-harry-ixer-awize",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788805800902-DXONNISJKJO5GYA3E8XU/stonehill_collective.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "big time open mic",
     "date": "2026-01-11",
     "url": "https://www.deadwaxnorwich.pub/whats-on/big-time-open-mic-2",
@@ -52,7 +44,7 @@
     "event_name": "SØWT x With Teeth double-headliner + Hellga",
     "date": "2026-04-11",
     "url": "https://www.deadwaxnorwich.pub/whats-on/swt-x-with-teeth-double-headliner-hellga",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793547194880-09NMSCP6RJ51NHFODX2T/SOWT+TEETH+Socials.jpeg",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793625591301-CYAUFYI2VE9BFVCKP7ZC/SOWT+TEETH+Socials.jpeg",
     "price": ""
   },
   {
@@ -60,7 +52,7 @@
     "event_name": "EMS On a mission",
     "date": "2026-05-11",
     "url": "https://www.deadwaxnorwich.pub/whats-on/ems-on-a-mission",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793546525045-OGZVO87HJO7BTXEX6CPV/Screenshot+2026-11-01+at+15.16.50.png",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793625628685-C615E9GT8MJSWLTAPU4Z/Screenshot+2026-11-01+at+15.16.50.png",
     "price": "Free"
   },
   {
@@ -240,22 +232,6 @@
     "price": ""
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Forever Nu!",
-    "date": "2026-10-30",
-    "url": "https://www.ueaticketbookings.co.uk/event/forever-nu/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Dianas-WF-AND-LCR-MASTERS-USE-THESE-4-500x500.jpg.webp",
-    "price": "£22.20"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Pam’s House Halloween",
-    "date": "2026-10-30",
-    "url": "https://www.ueaticketbookings.co.uk/event/pams-house-halloween/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/275706572_10160513107674363_9011255592496007541_n-500x500.jpg.webp",
-    "price": "£16.50–£19.25"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Spooky Valentine",
     "date": "2026-10-30",
@@ -272,51 +248,11 @@
     "price": "Free"
   },
   {
-    "venue": "Waterfront",
-    "event_name": "G.A.G – Halloween",
-    "date": "2026-10-31",
-    "url": "https://www.ueaticketbookings.co.uk/event/g-a-g-halloween/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/GAG_Oct31_Square-500x500.png.webp",
-    "price": ""
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Nightmare On King Street",
-    "date": "2026-10-31",
-    "url": "https://www.ueaticketbookings.co.uk/event/nightmare-on-king-street/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/NightmareOnKingStreet_2026_Square-500x500.png.webp",
-    "price": "£8.50–£9.50"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "star children invites: soul stew",
     "date": "2026-10-31",
     "url": "https://www.deadwaxnorwich.pub/whats-on/star-children-invites-soul-stew",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791823441855-Z1ADJ4CE7PHYWPYAZBXK/SC_A3_FORPRINT_0011.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Will Wilde",
-    "date": "2026-11-01",
-    "url": "https://www.ueaticketbookings.co.uk/event/will-wilde/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/WillWilde-02-500x500.png.webp",
-    "price": "£19.80"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "After Thought Band",
-    "date": "2026-11-01",
-    "url": "https://www.norfolkgigguide.com/band-details/After+Thought+Band",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Improv Mafia Jam",
-    "date": "2026-11-01",
-    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
-    "image": "",
     "price": ""
   },
   {
@@ -734,6 +670,14 @@
     "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Space",
+    "event_name": "The Winonas, Yasha96 + Twelve Atlas",
+    "date": "2026-11-12",
+    "url": "https://www.eventbrite.co.uk/e/the-winonas-yasha96-twelve-atlas-tickets-2003478688690",
+    "image": "",
+    "price": "£9.38"
   },
   {
     "venue": "Space",
@@ -1211,7 +1155,7 @@
     "venue": "Space",
     "event_name": "Togetherness",
     "date": "2026-11-20",
-    "url": "https://www.spacestudiosnorwich.com",
+    "url": "http://www.astralproj.club/tickets",
     "image": "",
     "price": ""
   },
@@ -2448,6 +2392,22 @@
     "price": ""
   },
   {
+    "venue": "Gonzos",
+    "event_name": "NYE House Party - Two Room",
+    "date": "2026-12-31",
+    "url": "https://www.fatsoma.com/e/qou6tsr5/nye-house-party-two-room",
+    "image": "",
+    "price": "£10–£20"
+  },
+  {
+    "venue": "Gonzos",
+    "event_name": "NYE w Josh Roberts & Tim Zee - Tea Room",
+    "date": "2026-12-31",
+    "url": "https://www.fatsoma.com/e/oyq3ii63/nye-w-josh-roberts-tim-zee-tea-room",
+    "image": "",
+    "price": "£10–£20"
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Channel One Sound System",
     "date": "2026-12-31",
@@ -2549,6 +2509,14 @@
     "date": "2027-01-23",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1792449080287-IMG_3448.jpeg?alt=media&token=6bb6d171-a366-4f1d-81f0-2907eceae1f8",
+    "price": ""
+  },
+  {
+    "venue": "Maddermarket",
+    "event_name": "The Jive Aces presents: The Roots of the King",
+    "date": "2027-01-23",
+    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=125801",
+    "image": "https://system.spektrix.com/themaddermarkettheatre/files/df0ebd8f-8862-4b56-9cdc-a6897dfefaa1.jpg",
     "price": ""
   },
   {
@@ -3390,6 +3358,14 @@
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1789658610792-IMG_3285.jpeg?alt=media&token=55b50da7-8c4d-4e54-af8f-1390d52fe866",
     "price": "£15"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Liqueur – A Tribute To The Cure",
+    "date": "2027-03-26",
+    "url": "https://norwichartscentre.co.uk/event/liqueur-a-tribute-to-the-cure/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/fullbandlive-6ae07c24bfb5a-scaled-800x450-c-default.jpg",
+    "price": "£18–£20.50"
   },
   {
     "venue": "Epic",
