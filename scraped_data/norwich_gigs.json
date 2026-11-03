@@ -41,6 +41,14 @@
   },
   {
     "venue": "Dead Wax",
+    "event_name": "Rondel (DJ)",
+    "date": "2026-03-12",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/rondell-dj",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793644015641-KFXUE13PIU5YXL5N3XYL/rondel_DEC.jpg",
+    "price": "Free"
+  },
+  {
+    "venue": "Dead Wax",
     "event_name": "SØWT x With Teeth double-headliner + Hellga",
     "date": "2026-04-11",
     "url": "https://www.deadwaxnorwich.pub/whats-on/swt-x-with-teeth-double-headliner-hellga",
@@ -62,6 +70,14 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/diving-deep-with-rad-pitt-with-teeth",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792346199461-3HOMBYC6CFYOPLDUBQHZ/11929.png",
     "price": ""
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "martin martin (dj)",
+    "date": "2026-05-12",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/martin-martin-dj",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793641691258-EB07T5RUEPM2XASRTGM4/Martin+Promo+001+%282%29.jpg",
+    "price": "Free"
   },
   {
     "venue": "Dead Wax",
@@ -256,14 +272,6 @@
     "price": ""
   },
   {
-    "venue": "Last Pub",
-    "event_name": "Jazz Jam",
-    "date": "2026-11-02",
-    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Maddermarket",
     "event_name": "Sam Miles & The Sound of Sonny",
     "date": "2026-11-03",
@@ -413,7 +421,7 @@
     "date": "2026-11-06",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/sego/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMi8xOC80NC80My84MzAvUmFja011bHRpcGFydDIwMjYwNzAyLTU1LTE3cjN5cDEucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£9–£11"
+    "price": "£11"
   },
   {
     "venue": "Brickmakers",
@@ -697,9 +705,9 @@
   },
   {
     "venue": "Epic",
-    "event_name": "Pangaea",
+    "event_name": "Pangaea (The Green Room)",
     "date": "2026-11-12",
-    "url": "https://epic-tv.com/events/event/pangaea",
+    "url": "https://epic-tv.com/events/event/pangaea-the-green-room",
     "image": "",
     "price": ""
   },
@@ -1040,6 +1048,14 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "The Lazy I (The Green Room)",
+    "date": "2026-11-17",
+    "url": "https://epic-tv.com/events/event/the-lazy-i-the-green-room",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Mississippi Records presents: A People’s History of Music",
     "date": "2026-11-17",
@@ -1132,7 +1148,7 @@
     "event_name": "Dreamcast",
     "date": "2026-11-19",
     "url": "https://www.deadwaxnorwich.pub/whats-on/dreamcast-5",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792428368269-8S2D45CIWNCA4OSNY7YG/dream_june2.png",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793643670685-5TZCGALW5ELC8BAAHMBW/dreamcast_FIRSTBIRTHDAYcollage.jpg",
     "price": "Free"
   },
   {
@@ -1377,19 +1393,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "PONY UP presents COWBOYY",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
-    "price": "£10–£12"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "corto.alto @ EPIC Studios",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
     "price": "£22–£25"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents COWBOYY",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
+    "price": "£10–£12"
   },
   {
     "venue": "Waterfront",
@@ -1758,6 +1774,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/sevendust/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Sevendust-support-sq.jpg.webp",
     "price": "£33.60"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "UEA Burlesque Society",
+    "date": "2026-12-02",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/uea-burlesque-society/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzMvMTEvMzIvMzIvNTA1L1JhY2tNdWx0aXBhcnQyMDI2MTEwMy02My02cjFqdWguanBnIl1d?ar=16:9&fit=crop",
+    "price": "£7.50"
   },
   {
     "venue": "Epic",
@@ -2478,6 +2502,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/r-e-m-by-stipe-the-definitive-tribute/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/REM-by-Stipe-SQ.jpg.webp",
     "price": "£19.25"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Grooving In Green + The Glass House Museum, Velocette",
+    "date": "2027-01-16",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/grooving-in-green-the-glass-house-museum-velocette/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzIvMTUvMzYvMjUvOTQyL1JhY2tNdWx0aXBhcnQyMDI2MTEwMi02Mi0xcDI0MG4zLnBuZyJdXQ?ar=16:9&fit=crop",
+    "price": ""
   },
   {
     "venue": "Voodoos",
