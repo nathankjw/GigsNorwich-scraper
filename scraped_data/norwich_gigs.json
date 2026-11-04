@@ -272,30 +272,6 @@
     "price": ""
   },
   {
-    "venue": "Maddermarket",
-    "event_name": "Sam Miles & The Sound of Sonny",
-    "date": "2026-11-03",
-    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=125601",
-    "image": "https://system.spektrix.com/themaddermarkettheatre/files/48913b5d-4311-443b-964b-51f3eb38a5bb.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Gently Tender",
-    "date": "2026-11-03",
-    "url": "https://norwichartscentre.co.uk/event/gently-tender/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/9881e0eb_Gently-Tender-Press-Photo-2026-6a0c50e15da27-scaled-800x450-c-default.jpg",
-    "price": "£15–£17.50"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Radish Open Decks",
-    "date": "2026-11-03",
-    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Holloway",
     "event_name": "Kitty Perrin + Pamela Anderson Radio Show",
     "date": "2026-11-04",
@@ -1333,7 +1309,7 @@
     "date": "2026-11-22",
     "url": "https://epic-tv.com/events/event/trevor-horn",
     "image": "",
-    "price": "£30–£80"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -1393,19 +1369,19 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "corto.alto @ EPIC Studios",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
-    "price": "£22–£25"
-  },
-  {
-    "venue": "Arts Centre",
     "event_name": "PONY UP presents COWBOYY",
     "date": "2026-11-24",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
     "price": "£10–£12"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "corto.alto @ EPIC Studios",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
+    "price": "£22–£25"
   },
   {
     "venue": "Waterfront",
@@ -1469,7 +1445,7 @@
     "date": "2026-11-26",
     "url": "https://epic-tv.com/events/event/the-ogretones",
     "image": "",
-    "price": "£18"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -1777,11 +1753,11 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "UEA Burlesque Society",
+    "event_name": "Scarfs, Stocking and Showbabes",
     "date": "2026-12-02",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/uea-burlesque-society/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzMvMTEvMzIvMzIvNTA1L1JhY2tNdWx0aXBhcnQyMDI2MTEwMy02My02cjFqdWguanBnIl1d?ar=16:9&fit=crop",
-    "price": "£7.50"
+    "price": ""
   },
   {
     "venue": "Epic",
@@ -1997,7 +1973,7 @@
     "date": "2026-12-10",
     "url": "https://epic-tv.com/events/event/artful-dodger",
     "image": "",
-    "price": "£22–£25"
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -2109,7 +2085,7 @@
     "date": "2026-12-12",
     "url": "https://epic-tv.com/events/event/heart-club-classics-the-christmas-bash-with-toby-anstis",
     "image": "",
-    "price": "£16"
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -2261,7 +2237,7 @@
     "date": "2026-12-18",
     "url": "https://epic-tv.com/events/event/too-much-too-young-a-night-of-2-tone-ska-and-beyond",
     "image": "",
-    "price": "£25"
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -2381,7 +2357,7 @@
     "date": "2026-12-21",
     "url": "https://epic-tv.com/events/event/the-santa-show",
     "image": "",
-    "price": "£15"
+    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -2472,6 +2448,14 @@
     "price": ""
   },
   {
+    "venue": "Waterfront",
+    "event_name": "Matt Embree & Vinnie Caruana",
+    "date": "2027-01-10",
+    "url": "https://www.ueaticketbookings.co.uk/event/matt-embree-vinnie-caruana/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/EMBREE-CARUANA-SQ-500x500.png.webp",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "The Pink Stones",
     "date": "2027-01-14",
@@ -2509,7 +2493,7 @@
     "date": "2027-01-16",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/grooving-in-green-the-glass-house-museum-velocette/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzIvMTUvMzYvMjUvOTQyL1JhY2tNdWx0aXBhcnQyMDI2MTEwMi02Mi0xcDI0MG4zLnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£12"
   },
   {
     "venue": "Voodoos",
@@ -2545,10 +2529,10 @@
   },
   {
     "venue": "Maddermarket",
-    "event_name": "The Jive Aces presents: The Roots of the King",
+    "event_name": "The Jive Aces 'Roots of the King' show",
     "date": "2027-01-23",
     "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=125801",
-    "image": "https://system.spektrix.com/themaddermarkettheatre/files/df0ebd8f-8862-4b56-9cdc-a6897dfefaa1.jpg",
+    "image": "https://system.spektrix.com/themaddermarkettheatre/files/9a7a9479-f9d1-49a9-a15f-94375a2b0bb7.jpeg",
     "price": ""
   },
   {
@@ -2701,7 +2685,7 @@
     "date": "2027-02-02",
     "url": "https://epic-tv.com/events/event/tangerine-dream-level-tour-2027",
     "image": "",
-    "price": "£35"
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -2725,7 +2709,7 @@
     "date": "2027-02-04",
     "url": "https://epic-tv.com/events/event/robben-ford",
     "image": "",
-    "price": "£32.50"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -2789,7 +2773,7 @@
     "date": "2027-02-10",
     "url": "https://epic-tv.com/events/event/malevolence-united-kingdom-of-chaos-27",
     "image": "",
-    "price": "£32.50"
+    "price": ""
   },
   {
     "venue": "Epic",
@@ -2797,7 +2781,7 @@
     "date": "2027-02-11",
     "url": "https://epic-tv.com/events/event/4am-kru-from-the-ground-up-tour-27",
     "image": "",
-    "price": "£22.50"
+    "price": ""
   },
   {
     "venue": "Voodoos",
@@ -2845,7 +2829,7 @@
     "date": "2027-02-13",
     "url": "https://epic-tv.com/events/event/sophie-mccartney-back-in-the-day-rave",
     "image": "",
-    "price": "£30"
+    "price": ""
   },
   {
     "venue": "Maddermarket",
@@ -2940,7 +2924,7 @@
     "event_name": "As Everything Unfolds",
     "date": "2027-02-18",
     "url": "https://www.ueaticketbookings.co.uk/event/as-everything-unfolds/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/As-Everything-Unfolds-Updated-SQ-500x500.jpg.webp",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-resize-AEU_Square-500x500.jpg.webp",
     "price": "£22.20"
   },
   {
@@ -2949,7 +2933,7 @@
     "date": "2027-02-19",
     "url": "https://epic-tv.com/events/event/elvana-elvis-fronted-nirvana",
     "image": "",
-    "price": "£30.50"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -3133,7 +3117,7 @@
     "date": "2027-03-04",
     "url": "https://epic-tv.com/events/event/queenz-battle-of-the-divas",
     "image": "",
-    "price": "£24"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -3157,7 +3141,7 @@
     "date": "2027-03-05",
     "url": "https://epic-tv.com/events/event/bay-city-rollers",
     "image": "",
-    "price": "£25"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -3237,7 +3221,7 @@
     "date": "2027-03-12",
     "url": "https://epic-tv.com/events/event/swiftogeddon-the-reputation-special",
     "image": "",
-    "price": "£10"
+    "price": ""
   },
   {
     "venue": "Voodoos",
@@ -3405,7 +3389,7 @@
     "date": "2027-03-27",
     "url": "https://epic-tv.com/events/event/gok-wan-isolation-nation",
     "image": "",
-    "price": "£25.50"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -3429,7 +3413,7 @@
     "date": "2027-04-01",
     "url": "https://epic-tv.com/events/event/letz-zep-greatest-hits-show",
     "image": "",
-    "price": "£20"
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -3445,7 +3429,7 @@
     "date": "2027-04-02",
     "url": "https://epic-tv.com/events/event/rhythm-of-the-90s",
     "image": "",
-    "price": "£25"
+    "price": ""
   },
   {
     "venue": "LCR",
@@ -3597,7 +3581,7 @@
     "date": "2027-04-21",
     "url": "https://epic-tv.com/events/event/scott-bennett-stuff",
     "image": "",
-    "price": "£25"
+    "price": ""
   },
   {
     "venue": "Epic",
@@ -3605,7 +3589,7 @@
     "date": "2027-04-23",
     "url": "https://epic-tv.com/events/event/prince-tribute-endorphinmachine-feat-jolan-greatest-hits-show",
     "image": "",
-    "price": "£21.50"
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -3648,14 +3632,6 @@
     "price": "£28.86"
   },
   {
-    "venue": "Epic",
-    "event_name": "The Makings of a Murderer - Fatal Mistake",
-    "date": "2027-05-01",
-    "url": "https://epic-tv.com/events/event/the-makings-of-a-murderer-fatal-mistake",
-    "image": "",
-    "price": "£32–£34"
-  },
-  {
     "venue": "LCR",
     "event_name": "Chvrches",
     "date": "2027-05-05",
@@ -3685,7 +3661,7 @@
     "date": "2027-05-14",
     "url": "https://epic-tv.com/events/event/emo-fest",
     "image": "",
-    "price": "£18–£21"
+    "price": ""
   },
   {
     "venue": "Epic",
@@ -3789,7 +3765,15 @@
     "date": "2027-05-22",
     "url": "https://epic-tv.com/events/event/deirdre-okane-all-the-rage",
     "image": "",
-    "price": "£25"
+    "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "The Makings of a Murderer - Fatal Mistake",
+    "date": "2027-05-23",
+    "url": "https://epic-tv.com/events/event/the-makings-of-a-murderer-fatal-mistake",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Epic",
@@ -3901,7 +3885,7 @@
     "date": "2027-09-26",
     "url": "https://epic-tv.com/events/event/sophie-mccartney-queenage-dirtbag",
     "image": "",
-    "price": "£23.50"
+    "price": ""
   },
   {
     "venue": "Waterfront",
