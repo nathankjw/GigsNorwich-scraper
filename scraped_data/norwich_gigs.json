@@ -272,22 +272,6 @@
     "price": ""
   },
   {
-    "venue": "Holloway",
-    "event_name": "Firestations + Minor Poets + Animals In The Form Of Spheres",
-    "date": "2026-11-05",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1776865994679-IMG_1854.jpeg?alt=media&token=1233b8d1-0627-4222-96aa-f98e1c09310e",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "PONY UP presents Dogshow",
-    "date": "2026-11-05",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-dogshow/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2025/08/Dogshow-Photo-2-crop-web-6895ca0ab43fe-800x450-c-default.jpg",
-    "price": "£9–£10.50"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Orgy",
     "date": "2026-11-05",
@@ -2392,6 +2376,14 @@
     "price": "£20–£23"
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "Phoebe Troup",
+    "date": "2027-01-09",
+    "url": "https://norwichartscentre.co.uk/event/phoebe-troup/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/PT-Album-Launch-2-6aec5d1f1ab35-800x450-c-default.jpg",
+    "price": "£10–£12"
+  },
+  {
     "venue": "The Halls",
     "event_name": "The Music of Luther Vandross - The Candlelight Concert",
     "date": "2027-01-09",
@@ -2533,6 +2525,14 @@
     "date": "2027-01-27",
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
     "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "(IVW) YUFO + Support",
+    "date": "2027-01-28",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1793909561313-IMG_3591.jpeg?alt=media&token=ae2792b5-b721-44b2-aa81-ab63085f3b30",
     "price": ""
   },
   {
@@ -3072,6 +3072,14 @@
     "price": ""
   },
   {
+    "venue": "Holloway",
+    "event_name": "Niamh Bury + Joe Potter",
+    "date": "2027-02-28",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1793900039277-IMG_3638.jpeg?alt=media&token=c57263c9-3e28-41e9-897f-bac3723e0c84",
+    "price": ""
+  },
+  {
     "venue": "Voodoos",
     "event_name": "Citizen Smith + Lassie",
     "date": "2027-02-28",
@@ -3353,7 +3361,7 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Liqueur – A Tribute To The Cure",
+    "event_name": "Liqueur: A Tribute To The Cure",
     "date": "2027-03-26",
     "url": "https://norwichartscentre.co.uk/event/liqueur-a-tribute-to-the-cure/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/fullbandlive-6ae07c24bfb5a-scaled-800x450-c-default.jpg",
@@ -3557,6 +3565,14 @@
     "date": "2027-04-21",
     "url": "https://epic-tv.com/events/event/scott-bennett-stuff",
     "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "Pictish Trail + support",
+    "date": "2027-04-23",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1793894369938-IMG_3637.jpeg?alt=media&token=566916f3-cd83-465d-b3f6-9178b399069b",
     "price": ""
   },
   {
