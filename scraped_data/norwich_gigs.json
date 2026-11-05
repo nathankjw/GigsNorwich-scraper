@@ -1,14 +1,6 @@
 [
   {
     "venue": "Dead Wax",
-    "event_name": "Joel (small Universe)",
-    "date": "2026-01-10",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/joel-small-universe",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790619299012-RUV3WJSBZUQC2KPCVLAN/JOEL_OCT.jpg",
-    "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "big time open mic",
     "date": "2026-01-11",
     "url": "https://www.deadwaxnorwich.pub/whats-on/big-time-open-mic-2",
@@ -272,46 +264,6 @@
     "price": ""
   },
   {
-    "venue": "Holloway",
-    "event_name": "Kitty Perrin + Pamela Anderson Radio Show",
-    "date": "2026-11-04",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1788891226537-IMG_3240.jpeg?alt=media&token=7b0289ec-5e87-4df3-9a09-45097cd725b0",
-    "price": ""
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Breed 77",
-    "date": "2026-11-04",
-    "url": "https://www.ueaticketbookings.co.uk/event/breed-77/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Breed77_Square-1-500x500.png.webp",
-    "price": "£22.20"
-  },
-  {
-    "venue": "LCR",
-    "event_name": "Deaf Havana",
-    "date": "2026-11-04",
-    "url": "https://www.ueaticketbookings.co.uk/event/deaf-havana/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/1x1-NoLinkSquare-1080x1080-1-500x500.jpg.webp",
-    "price": "£32.75"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Suli Breaks Live at Voodoo Daddys",
-    "date": "2026-11-04",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/suli-breaks-live-at-voodoo-daddys/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI5LzE3LzYvNDIvOTU4L1JhY2tNdWx0aXBhcnQyMDI2MTAyOS02Mi1uajI1bWIuanBnIl1d?ar=16:9&fit=crop",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Live n Unsigned",
-    "date": "2026-11-04",
-    "url": "https://www.norfolkgigguide.com/band-details/Live+n+Unsigned",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Space",
     "event_name": "Lunavaria Jam Night",
     "date": "2026-11-05",
@@ -428,7 +380,7 @@
     "event_name": "La La",
     "date": "2026-11-07",
     "url": "https://www.fatsoma.com/e/g9wm1mgy/la-la",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzkvMTMvOS83LzI0LzU4Ni9SYWNrTXVsdGlwYXJ0MjAyNjA5MTMtNjAtbGNxNmZoLnBuZyJdXQ",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzQvMTYvMjkvNDMvMC9SYWNrTXVsdGlwYXJ0MjAyNjExMDQtNTYtMXM1b2l2Ny5wbmciXV0",
     "price": "£5–£10"
   },
   {
@@ -709,7 +661,7 @@
     "date": "2026-11-12",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/dermot-henry-plus-special-guests/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMi8yMS8zOC80MS8yNDMvUmFja011bHRpcGFydDIwMjYwOTAyLTU4LTFyaHQ2Ym8uanBnIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£13"
   },
   {
     "venue": "Dead Wax",
@@ -805,7 +757,7 @@
     "date": "2026-11-13",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/electric-eel-shock/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMjEvMTcvMzAvMzMvOTA0L1JhY2tNdWx0aXBhcnQyMDI2MDQyMS01OS0xdHFkM2JmLnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": "£12"
+    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -1241,7 +1193,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "Shaki Tavi (LA Grunge/Shoegaze) + Twelve Atlas",
+    "event_name": "Shaki Tavi (LA Grunge/Shoegaze) + Twelve Atlas + Branches for Teeth",
     "date": "2026-11-21",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1771942526296-FLT111-Shaki-Tavi-Minor-Slip.webp?alt=media&token=f2898463-fb03-4784-a578-cf79d670d600",
@@ -2396,7 +2348,7 @@
     "event_name": "NYE House Party - Two Room",
     "date": "2026-12-31",
     "url": "https://www.fatsoma.com/e/qou6tsr5/nye-house-party-two-room",
-    "image": "",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzUvOC81OC8xNS83NjMvUmFja011bHRpcGFydDIwMjYxMTA1LTU3LTFuZG90Nm4ucG5nIl1d",
     "price": "£10–£20"
   },
   {
@@ -2404,7 +2356,7 @@
     "event_name": "NYE w Josh Roberts & Tim Zee - Tea Room",
     "date": "2026-12-31",
     "url": "https://www.fatsoma.com/e/oyq3ii63/nye-w-josh-roberts-tim-zee-tea-room",
-    "image": "",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzUvOC81OC8zOS81NzEvUmFja011bHRpcGFydDIwMjYxMTA1LTU3LTFkaXRweXMucG5nIl1d",
     "price": "£10–£20"
   },
   {
@@ -2753,6 +2705,14 @@
   },
   {
     "venue": "Waterfront",
+    "event_name": "Jonah Matranga (onelinedrawing)",
+    "date": "2027-02-07",
+    "url": "https://www.ueaticketbookings.co.uk/event/jonah-matranga-onelinedrawing/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Jonah-Matranga-SQ-500x500.jpg.webp",
+    "price": ""
+  },
+  {
+    "venue": "Waterfront",
     "event_name": "Esprit D’Air",
     "date": "2027-02-08",
     "url": "https://www.ueaticketbookings.co.uk/event/esprit-dair/",
@@ -2966,6 +2926,22 @@
     "url": "https://epic-tv.com/events/event/absolute-bowie",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Synth East: Factory Floor | Immersion",
+    "date": "2027-02-20",
+    "url": "https://norwichartscentre.co.uk/event/synth-east-factory-floor-immersion/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-15.32.10-6ae9fe82375c7-800x450-c-default.png",
+    "price": "£26–£29.50"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Synth East: Electronic Cabaret",
+    "date": "2027-02-21",
+    "url": "https://norwichartscentre.co.uk/event/synth-east-electronic-cabaret/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-15.32.10-6ae9fe82375c7-800x450-c-default.png",
+    "price": "£8.50–£10"
   },
   {
     "venue": "Waterfront",
