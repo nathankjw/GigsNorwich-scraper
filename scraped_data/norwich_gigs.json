@@ -9,14 +9,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Hxc Gaza Charity Gig",
-    "date": "2026-02-10",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/hxc-gaza-charity-gig",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790232682385-R58DMZZKTMZ409V0U3AY/19B3D933-B3DC-4482-81F1-1BA90327A324.jpeg",
-    "price": "£8–£10"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Diving Deep with Bag of Cans & THEO SAYERS",
     "date": "2026-03-10",
     "url": "https://www.deadwaxnorwich.pub/whats-on/diving-deep-with-bag-of-cans-gourds",
@@ -261,30 +253,6 @@
     "date": "2026-10-31",
     "url": "https://www.deadwaxnorwich.pub/whats-on/star-children-invites-soul-stew",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791823441855-Z1ADJ4CE7PHYWPYAZBXK/SC_A3_FORPRINT_0011.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Space",
-    "event_name": "Lunavaria Jam Night",
-    "date": "2026-11-05",
-    "url": "https://www.spacestudiosnorwich.com/event-details-registration/lunavaria-co-blues-and-soul-jam-night",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Orgy",
-    "date": "2026-11-05",
-    "url": "https://www.ueaticketbookings.co.uk/event/orgy/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Lauras-WF-LCR-IG-Template-98.jpg.webp",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Scannell",
-    "date": "2026-11-05",
-    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
-    "image": "",
     "price": ""
   },
   {
@@ -1229,6 +1197,14 @@
     "date": "2026-11-21",
     "url": "https://www.norwich.gov.uk/thehalls/songs-wild-sam-lee-live-norwich",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-05/Screenshot%202026-05-22%20152935.jpg?h=e5f526eb&itok=dMVhHtNU",
+    "price": ""
+  },
+  {
+    "venue": "HMV",
+    "event_name": "Fool’s Moon",
+    "date": "2026-11-21",
+    "url": "https://www.instagram.com/hmv_norwich/?hl=en",
+    "image": "",
     "price": ""
   },
   {
@@ -3277,6 +3253,14 @@
     "date": "2027-03-19",
     "url": "https://www.norwich.gov.uk/thehalls/fleetwood-mac-songbook-ultimate-tribute-fleetwood-mac",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-09/Horizontal%20Website%20Hero%20Banner%20-%20The%20FM%20Songbook%20-%20V1.png?h=e85cf720&itok=7htkZb5c",
+    "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "The Buzzcocks - 50th Anniversary",
+    "date": "2027-03-20",
+    "url": "https://epic-tv.com/events/event/the-buzzcocks-50th-anniversary",
+    "image": "",
     "price": ""
   },
   {
