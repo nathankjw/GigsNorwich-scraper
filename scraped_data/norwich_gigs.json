@@ -17,14 +17,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Hips (soul Stew)",
-    "date": "2026-03-10",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/hips-soul-stew",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790619551698-1RVRY208GTDWZS3CWHI3/george_oct.jpg",
-    "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Rondel (DJ)",
     "date": "2026-03-12",
     "url": "https://www.deadwaxnorwich.pub/whats-on/rondell-dj",
@@ -192,14 +184,6 @@
     "price": ""
   },
   {
-    "venue": "Revolucion de Cuba",
-    "event_name": "Strictly Salsa Norwich",
-    "date": "2026-10-26",
-    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
-    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
-    "price": "£5–£7"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "ytp presents: Stormo + Believe In Nothing + Pigg + Vermin",
     "date": "2026-10-27",
@@ -253,70 +237,6 @@
     "date": "2026-10-31",
     "url": "https://www.deadwaxnorwich.pub/whats-on/star-children-invites-soul-stew",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791823441855-Z1ADJ4CE7PHYWPYAZBXK/SC_A3_FORPRINT_0011.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Space",
-    "event_name": "Sweet Gemeni",
-    "date": "2026-11-06",
-    "url": "https://ra.co/events/2558031",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "Rupture 20th Anniversary w Mantra, Double O & Digital",
-    "date": "2026-11-06",
-    "url": "https://www.fatsoma.com/e/t50zz733/rupture-20th-anniversary-w-mantra-double-o-digital",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzkvOC82LzkvNDgvMjU2L1JhY2tNdWx0aXBhcnQyMDI2MDkwOC01OC0zZGk0NXcucG5nIl1d",
-    "price": "£7–£12"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Wendy Eisenberg (USA) + e.m.arson + Patsy Delve",
-    "date": "2026-11-06",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1776068145614-IMG_1763.jpeg?alt=media&token=3aafe8ff-b6f7-46c9-b6a7-aa4f9a21890d",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Floral Image & The Heavenly Bodes",
-    "date": "2026-11-06",
-    "url": "https://norwichartscentre.co.uk/event/floral-image-the-heavenly-bodes/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/f00af26f_6D0363FC-376D-417C-9E01-F0032A911116-6ab12dee50867-800x450-c-default.jpg",
-    "price": "£14–£16"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Mad Dog Mcrea",
-    "date": "2026-11-06",
-    "url": "https://www.ueaticketbookings.co.uk/event/mad-dog-mcrea/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Dianas-WF-AND-LCR-MASTERS-USE-THESE-500x500.jpg.webp",
-    "price": "£24.42"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Sego + PALM & Oscar November",
-    "date": "2026-11-06",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/sego/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMi8xOC80NC80My84MzAvUmFja011bHRpcGFydDIwMjYwNzAyLTU1LTE3cjN5cDEucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£11"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Generation 29",
-    "date": "2026-11-06",
-    "url": "https://www.norfolkgigguide.com/band-details/Generation+29",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Cheeba Cheeba Y'all",
-    "date": "2026-11-06",
-    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
-    "image": "",
     "price": ""
   },
   {
@@ -401,7 +321,7 @@
   },
   {
     "venue": "Hangar",
-    "event_name": "Norwich: Save the 90's Ft. N-Trance DJ | The Big Indoors 90's Fest (Indoor & Heated) - Sat 7th Nov",
+    "event_name": "Postponed: Norwich: Save the 90's Ft. N-Trance DJ | The Big Indoors 90's Fest (Indoor & Heated) - Sat 7th Nov",
     "date": "2026-11-07",
     "url": "https://fixr.co/event/norwich-save-the-90s-ft-n-trance-dj-the-big-indoor-tickets-116013121",
     "image": "https://fixr-cdn.fixr.co/images/event/2026-10/cd054a486a114e8fabd8269bb6e81072.jpg",
@@ -470,6 +390,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-genn-support-tba/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzgvMjYvMTEvMzEvMTkvNzMwL1JhY2tNdWx0aXBhcnQyMDI2MDgyNi01My0xMWhwd2ExLmpwZyJdXQ?ar=16:9&fit=crop",
     "price": "£10"
+  },
+  {
+    "venue": "Revolucion de Cuba",
+    "event_name": "Strictly Salsa Norwich",
+    "date": "2026-11-09",
+    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
+    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
+    "price": "£5–£7"
   },
   {
     "venue": "Last Pub",
@@ -3608,6 +3536,14 @@
     "price": "£28.86"
   },
   {
+    "venue": "Waterfront",
+    "event_name": "The Wedding Present",
+    "date": "2027-05-03",
+    "url": "https://www.ueaticketbookings.co.uk/event/the-wedding-present/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/TWP-SQUARE-NORWICH-500x500.png.webp",
+    "price": ""
+  },
+  {
     "venue": "LCR",
     "event_name": "Chvrches",
     "date": "2027-05-05",
@@ -3782,6 +3718,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-rattlebacks/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzE5LzE1LzkvNy80NDUvUmFja011bHRpcGFydDIwMjYxMDE5LTU5LTFtMnk4cGYuanBnIl1d?ar=16:9&fit=crop",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents Black Doldrums",
+    "date": "2027-06-05",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-black-doldrums/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Horiz-1-6aedf27e9fc83-scaled-800x450-c-default.jpg",
+    "price": "£15–£17.50"
   },
   {
     "venue": "Waterfront",
