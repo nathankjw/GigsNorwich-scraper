@@ -9,14 +9,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Diving Deep with Bag of Cans & THEO SAYERS",
-    "date": "2026-03-10",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/diving-deep-with-bag-of-cans-gourds",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1789217230602-G1XYV61AM1LRDYK8TDFL/799600703_1619115789739114_1980701051528545758_n.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Rondel (DJ)",
     "date": "2026-03-12",
     "url": "https://www.deadwaxnorwich.pub/whats-on/rondell-dj",
@@ -65,19 +57,19 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "hemiptera + supports",
-    "date": "2026-07-11",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/hemiptera-supports",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791230717089-F7N8UURU4O0CWFSRMY0Q/hemiptera.webp",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Ad infinitum (DJ)",
     "date": "2026-07-11",
     "url": "https://www.deadwaxnorwich.pub/whats-on/ad-infinitum-dj",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793546799018-N67XR06HEE8KJUYV7SEM/adinfinitum.jpg",
     "price": "Free"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "hemiptera + supports",
+    "date": "2026-07-11",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/hemiptera-supports",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791230717089-F7N8UURU4O0CWFSRMY0Q/hemiptera.webp",
+    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -240,38 +232,6 @@
     "price": ""
   },
   {
-    "venue": "Space",
-    "event_name": "Origin",
-    "date": "2026-11-07",
-    "url": "https://www.fatsoma.com/e/c1xxsviu/origin-events-presents-wilman",
-    "image": "",
-    "price": "£5–£8.50"
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "La La",
-    "date": "2026-11-07",
-    "url": "https://www.fatsoma.com/e/g9wm1mgy/la-la",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzQvMTYvMjkvNDMvMC9SYWNrTXVsdGlwYXJ0MjAyNjExMDQtNTYtMXM1b2l2Ny5wbmciXV0",
-    "price": "£5–£10"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "O My Stars presents Colin Miller (USA) + Brown Horse",
-    "date": "2026-11-07",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1780582249541-OIP.webp?alt=media&token=0f1af6e8-c3c2-4f16-bd98-e61f18748ed0",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "The Hanging Stars",
-    "date": "2026-11-07",
-    "url": "https://norwichartscentre.co.uk/event/the-hanging-stars/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/260211_The_Hanging_Stars_S03_0338_col_h_web-69c3f46740842-800x450-c-default.jpg",
-    "price": "£17–£19.50"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Propaganda",
     "date": "2026-11-07",
@@ -294,54 +254,6 @@
     "url": "https://www.ueaticketbookings.co.uk/event/republica/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/imresizer-Republica_Square_Norwich_Waterfront-500x500.png.webp",
     "price": "£33.60"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Canned Pineapple + The Bungees, Decent Wrestlers",
-    "date": "2026-11-07",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/canned-pineapple-the-bungees-decent-wrestlers/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMjcvMjEvNS80My8xOTUvUmFja011bHRpcGFydDIwMjYwNjI3LTUxLWw1OG5vdC5wbmciXV0?ar=16:9&fit=crop",
-    "price": "£8"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "AlienNation  presents.... in B2",
-    "date": "2026-11-07",
-    "url": "https://www.norfolkgigguide.com/band-details/AlienNation++presents....+in+B2",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Nr Ska",
-    "date": "2026-11-07",
-    "url": "https://www.norfolkgigguide.com/band-details/NR+SKA",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Hangar",
-    "event_name": "Postponed: Norwich: Save the 90's Ft. N-Trance DJ | The Big Indoors 90's Fest (Indoor & Heated) - Sat 7th Nov",
-    "date": "2026-11-07",
-    "url": "https://fixr.co/event/norwich-save-the-90s-ft-n-trance-dj-the-big-indoor-tickets-116013121",
-    "image": "https://fixr-cdn.fixr.co/images/event/2026-10/cd054a486a114e8fabd8269bb6e81072.jpg",
-    "price": "£5"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "All Shapes",
-    "date": "2026-11-07",
-    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "The Reindeer",
-    "event_name": "Fictus",
-    "date": "2026-11-07",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Epic",
@@ -2729,7 +2641,7 @@
   },
   {
     "venue": "Holloway",
-    "event_name": "Old Saw (Henry Birdsey) + Michael Ridge + Feld",
+    "event_name": "Old Saw (Henry Birdsey) + Michael Ridge",
     "date": "2027-02-14",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1785586531565-IMG_3007.jpeg?alt=media&token=8fb0def1-704d-4ddc-a4b5-481727f6881e",
@@ -3598,6 +3510,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/ultimate-coldplay/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Ultimate-Coldplay-Waterfront-Norwich-Square-2026-500x500.jpg.webp",
     "price": "£22.20"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Chimer",
+    "date": "2027-05-15",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/chimer/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzcvMTAvMzkvMzMvNjYvUmFja011bHRpcGFydDIwMjYxMTA3LTU5LTFteG1uNHkuanBnIl1d?ar=16:9&fit=crop",
+    "price": ""
   },
   {
     "venue": "Epic",
