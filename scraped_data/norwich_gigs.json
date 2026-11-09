@@ -73,14 +73,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Antematterz + Pamela Anderson Radio Show + Liv Lee",
-    "date": "2026-08-10",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/ront5io1jbiq28u5oy3powea4c5j2m",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790621181558-7H48SNADAFL6OB94KURV/Screenshot+2026-09-28+at+19.43.25.png",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "THe wameki + police cops + more tba",
     "date": "2026-08-11",
     "url": "https://www.deadwaxnorwich.pub/whats-on/the-wameki-police-cops-more-tba",
@@ -232,70 +224,6 @@
     "price": ""
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Propaganda",
-    "date": "2026-11-07",
-    "url": "https://www.ueaticketbookings.co.uk/event/propaganda/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-39-500x500.png.webp",
-    "price": "£6.60"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Chloe Slater",
-    "date": "2026-11-07",
-    "url": "https://www.ueaticketbookings.co.uk/event/chloe-slater/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Chloe-Slater-SQ-support-500x500.png.webp",
-    "price": "£16.72"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Republica",
-    "date": "2026-11-07",
-    "url": "https://www.ueaticketbookings.co.uk/event/republica/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/imresizer-Republica_Square_Norwich_Waterfront-500x500.png.webp",
-    "price": "£33.60"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Maisie Adam: Whatsherface | SOLD OUT",
-    "date": "2026-11-08",
-    "url": "https://epic-tv.com/events/event/maisie-adam-whatsherface-sold-out",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Joshua Idehen",
-    "date": "2026-11-08",
-    "url": "https://www.ueaticketbookings.co.uk/event/joshua-idehen/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Joshua-Idehen-SQ-support-500x500.png.webp",
-    "price": "£24.75"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Rosalie Cunningham",
-    "date": "2026-11-08",
-    "url": "https://www.ueaticketbookings.co.uk/event/rosalie-cunningham/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/01/Rosalie-Cunningham-N._imresizer-500x500.jpg.webp",
-    "price": "£22.20"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Addictive Mix",
-    "date": "2026-11-08",
-    "url": "https://www.norfolkgigguide.com/band-details/Addictive+Mix",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Ribs of Beef",
-    "event_name": "HillBilly Goats Gruff",
-    "date": "2026-11-08",
-    "url": "",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Voodoos",
     "event_name": "Pica pica, Pica pica! presents ĠENN + Marla & Crying In Colour",
     "date": "2026-11-09",
@@ -406,6 +334,14 @@
     "url": "https://www.eventbrite.co.uk/e/the-winonas-yasha96-twelve-atlas-tickets-2003478688690",
     "image": "",
     "price": "£9.38"
+  },
+  {
+    "venue": "Space",
+    "event_name": "Sip and Sew - Tote Bag Making",
+    "date": "2026-11-12",
+    "url": "https://www.eventbrite.co.uk/e/sip-sew-tickets-2003815077839",
+    "image": "",
+    "price": "£8.30"
   },
   {
     "venue": "Space",
@@ -806,6 +742,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/new-noise/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI2LzEwLzIzLzExLzM4L1JhY2tNdWx0aXBhcnQyMDI2MTAyNi01Ny00d3kxenguanBnIl1d?ar=16:9&fit=crop",
     "price": "£5"
+  },
+  {
+    "venue": "Space",
+    "event_name": "Super Space Bros - Tournament",
+    "date": "2026-11-18",
+    "url": "https://www.spacestudiosnorwich.com/event-details-registration/super-space-bros-18th-november",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Holloway",
@@ -1616,6 +1560,14 @@
     "price": "£7–£12"
   },
   {
+    "venue": "Holloway",
+    "event_name": "BLAND - Bizarro’ Variety Presents Bland's retelling The Nativity + Cai Draper + Wazlo + A Very Special Guest",
+    "date": "2026-12-05",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1794166767666-IMG_3200.jpeg?alt=media&token=ad02b725-43c6-4bf2-896a-0304c189bb84",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "The Electric Swing Circus",
     "date": "2026-12-05",
@@ -2096,6 +2048,14 @@
     "price": ""
   },
   {
+    "venue": "Holloway",
+    "event_name": "Chu Presents Karaokpen-Mic Christmas Special",
+    "date": "2026-12-20",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1794217767461-IMG_3654.jpeg?alt=media&token=bb73ac4f-086a-478e-a95d-14bfd2311649",
+    "price": ""
+  },
+  {
     "venue": "Ribs of Beef",
     "event_name": "Those Deadbeat Cats",
     "date": "2026-12-20",
@@ -2153,11 +2113,11 @@
   },
   {
     "venue": "Gonzos",
-    "event_name": "NYE w Josh Roberts & Tim Zee - Tea Room",
+    "event_name": "NYE Special - Tea Room, Lounge & Voodoo Daddy's",
     "date": "2026-12-31",
-    "url": "https://www.fatsoma.com/e/oyq3ii63/nye-w-josh-roberts-tim-zee-tea-room",
+    "url": "https://www.fatsoma.com/e/oyq3ii63/nye-special-tea-room-lounge-voodoo-daddy-s",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzUvOC81OC8zOS81NzEvUmFja011bHRpcGFydDIwMjYxMTA1LTU3LTFkaXRweXMucG5nIl1d",
-    "price": "£10–£20"
+    "price": "£10–£300"
   },
   {
     "venue": "Arts Centre",
@@ -2318,6 +2278,14 @@
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-the-new-cut/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/The-New-Cut-IVW-6ab692e2de14e-800x450-c-default.jpg",
     "price": "£10–£11"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Marla Kether",
+    "date": "2027-01-26",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/marla-kether/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzMvMTcvMzgvNy8xNjUvUmFja011bHRpcGFydDIwMjYxMTAzLTU4LTFhdzFheTAuanBnIl1d?ar=16:9&fit=crop",
+    "price": ""
   },
   {
     "venue": "Epic",
@@ -2816,6 +2784,14 @@
     "price": "£16–£18.50"
   },
   {
+    "venue": "Waterfront",
+    "event_name": "Mallory Knox",
+    "date": "2027-02-25",
+    "url": "https://www.ueaticketbookings.co.uk/event/mallory-knox/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/DP-WF-LCR-16-500x500.jpg.webp",
+    "price": ""
+  },
+  {
     "venue": "Voodoos",
     "event_name": "Dog Unit",
     "date": "2027-02-25",
@@ -3097,9 +3073,9 @@
   },
   {
     "venue": "Epic",
-    "event_name": "The Buzzcocks - 50th Anniversary",
+    "event_name": "Buzzcocks - 50th Anniversary",
     "date": "2027-03-20",
-    "url": "https://epic-tv.com/events/event/the-buzzcocks-50th-anniversary",
+    "url": "https://epic-tv.com/events/event/buzzcocks-50th-anniversary",
     "image": "",
     "price": ""
   },
@@ -3273,6 +3249,14 @@
   },
   {
     "venue": "Waterfront",
+    "event_name": "Basht.",
+    "date": "2027-04-08",
+    "url": "https://www.ueaticketbookings.co.uk/event/basht/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Lauras-WF-LCR-IG-Template-67-500x500.png.webp",
+    "price": ""
+  },
+  {
+    "venue": "Waterfront",
     "event_name": "Martin Stephenson & The Daintees",
     "date": "2027-04-09",
     "url": "https://www.ueaticketbookings.co.uk/event/martin-stephenson-the-daintees/",
@@ -3438,6 +3422,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/downloaded/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Downloaded-Norwich-square-500x500.jpg.webp",
     "price": "£19.80"
+  },
+  {
+    "venue": "LCR",
+    "event_name": "Cody Pennington",
+    "date": "2027-04-24",
+    "url": "https://www.ueaticketbookings.co.uk/event/cody-pennington-country-show/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Cody-Pennington-Norwich-Square-500x500.jpeg.webp",
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -3734,6 +3726,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/the-ruts/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/The-Ruts-1080-x-1080-500x500.jpg.webp",
     "price": "£30.53"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Newton Faulkner - 20th Anniversary Tour",
+    "date": "2027-11-02",
+    "url": "https://epic-tv.com/events/event/newton-faulkner-20th-anniversary-tour",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "LCR",
