@@ -224,28 +224,12 @@
     "price": ""
   },
   {
-    "venue": "Voodoos",
-    "event_name": "Pica pica, Pica pica! presents ĠENN + Marla & Crying In Colour",
-    "date": "2026-11-09",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-genn-support-tba/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzgvMjYvMTEvMzEvMTkvNzMwL1JhY2tNdWx0aXBhcnQyMDI2MDgyNi01My0xMWhwd2ExLmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": "£10"
-  },
-  {
     "venue": "Revolucion de Cuba",
     "event_name": "Strictly Salsa Norwich",
     "date": "2026-11-09",
     "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
     "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
     "price": "£5–£7"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Jazz Jam",
-    "date": "2026-11-09",
-    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Holloway",
@@ -313,10 +297,10 @@
   },
   {
     "venue": "Voodoos",
-    "event_name": "Machukha with Healing Wound + Acceptance",
+    "event_name": "Machukha with Kulk + Acceptance",
     "date": "2026-11-11",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/machukha-with-healing-wound-acceptance/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMjYvMjAvNDkvMi81MjEvUmFja011bHRpcGFydDIwMjYwNjI2LTU5LTF4dDY0MngucG5nIl1d?ar=16:9&fit=crop",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzEwLzEwLzMwLzQvNTA3L1JhY2tNdWx0aXBhcnQyMDI2MTExMC01Ny02b3h2YTkuanBnIl1d?ar=16:9&fit=crop",
     "price": "£17.50"
   },
   {
@@ -333,7 +317,7 @@
     "date": "2026-11-12",
     "url": "https://www.eventbrite.co.uk/e/the-winonas-yasha96-twelve-atlas-tickets-2003478688690",
     "image": "",
-    "price": "£9.38"
+    "price": ""
   },
   {
     "venue": "Space",
@@ -1752,6 +1736,14 @@
     "price": "£16.50"
   },
   {
+    "venue": "Voodoos",
+    "event_name": "Mama Oh No",
+    "date": "2026-12-11",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/mama-oh-no/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzkvMTgvMzUvMzgvOTgxL1JhY2tNdWx0aXBhcnQyMDI2MTEwOS01Ny11a2gzNXMuanBnIl1d?ar=16:9&fit=crop",
+    "price": ""
+  },
+  {
     "venue": "Dead Wax",
     "event_name": "BLAND - Bizarro’ Variety Presents: Bradley Taylor, Maxine Meixner, Abbie Neale, & Squat Lobster",
     "date": "2026-12-11",
@@ -2153,9 +2145,9 @@
   },
   {
     "venue": "Arts Centre",
-    "event_name": "Phoebe Troup",
+    "event_name": "Phoebe Troup Album Launch",
     "date": "2027-01-09",
-    "url": "https://norwichartscentre.co.uk/event/phoebe-troup/",
+    "url": "https://norwichartscentre.co.uk/event/phoebe-troup-album-launch/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/PT-Album-Launch-2-6aec5d1f1ab35-800x450-c-default.jpg",
     "price": "£10–£12"
   },
@@ -2253,6 +2245,14 @@
     "date": "2027-01-23",
     "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=125801",
     "image": "https://system.spektrix.com/themaddermarkettheatre/files/9a7a9479-f9d1-49a9-a15f-94375a2b0bb7.jpeg",
+    "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Little Lifts Fitness Festival w/ Tribe Collective",
+    "date": "2027-01-24",
+    "url": "https://epic-tv.com/events/event/little-lifts-fitness-festival-w-tribe-collective",
+    "image": "",
     "price": ""
   },
   {
@@ -2526,6 +2526,14 @@
     "url": "https://epic-tv.com/events/event/4am-kru-from-the-ground-up-tour-27",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Ben & Tom Waters",
+    "date": "2027-02-11",
+    "url": "https://norwichartscentre.co.uk/event/ben-tom-waters/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Ben-and-Tom-colour-6af1f49dadda8-scaled-800x450-c-default.jpg",
+    "price": "£31–£35"
   },
   {
     "venue": "Voodoos",
@@ -2920,6 +2928,14 @@
     "price": ""
   },
   {
+    "venue": "Arts Centre",
+    "event_name": "Tara Clerkin Trio",
+    "date": "2027-03-05",
+    "url": "https://norwichartscentre.co.uk/event/tara-clerkin-trio/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/TCT-WEB-Press-Shot-2026-credit-Peter-Eason-Daniels-6aec9f8167b86-800x450-c-default.jpg",
+    "price": "£17–£18"
+  },
+  {
     "venue": "Waterfront",
     "event_name": "The Blockheads",
     "date": "2027-03-05",
@@ -3000,6 +3016,14 @@
     "price": ""
   },
   {
+    "venue": "Waterfront",
+    "event_name": "Opus Kink",
+    "date": "2027-03-12",
+    "url": "https://www.ueaticketbookings.co.uk/event/opus-kink/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/OPUS-KINK-1X1-500x500.png.webp",
+    "price": ""
+  },
+  {
     "venue": "Voodoos",
     "event_name": "Rowena Wise",
     "date": "2027-03-12",
@@ -3038,6 +3062,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/dan-croll/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-500x500.png.webp",
     "price": "£17.60"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Seth Lakeman",
+    "date": "2027-03-16",
+    "url": "https://norwichartscentre.co.uk/event/seth-lakeman/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2020/02/no-image_16-9-5e4580cc5e29e-800x450-c-default.jpg",
+    "price": "£26–£29.50"
   },
   {
     "venue": "Waterfront",
