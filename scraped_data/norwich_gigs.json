@@ -232,46 +232,6 @@
     "price": "£5–£7"
   },
   {
-    "venue": "Holloway",
-    "event_name": "Asinine Corp Presents: Pillow Fort, Mountain Peaks, Dogboy + Never 💥",
-    "date": "2026-11-10",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790750726820-IMG_3357.jpeg?alt=media&token=2a6771b1-d72b-4bd5-80b3-0bf746382f35",
-    "price": "£7–£9"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Ugly",
-    "date": "2026-11-10",
-    "url": "https://norwichartscentre.co.uk/event/ugly/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/LANDSCAPE-PRESS-2026-TEMP-6a686f8155e89-800x450-c-default.jpg",
-    "price": "£15–£17.50"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Ashley Singh",
-    "date": "2026-11-10",
-    "url": "https://www.ueaticketbookings.co.uk/event/ashley-singh/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Ashley-Singh-Tour-Nov-26-SQR-500x500.jpg.webp",
-    "price": "£16.50"
-  },
-  {
-    "venue": "LCR",
-    "event_name": "Del Amitri",
-    "date": "2026-11-10",
-    "url": "https://www.ueaticketbookings.co.uk/event/del-amitri/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/30952-1-500x500.jpg.webp",
-    "price": "£44.24"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Keg + Other Half",
-    "date": "2026-11-10",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/keg/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvNS8xMi8xMS8xNy83OTIvUmFja011bHRpcGFydDIwMjYwNzA1LTU1LTF1cjIwY2EucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£12.50"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Draw Some Paws",
     "date": "2026-11-10",
@@ -523,9 +483,9 @@
     "venue": "Space",
     "event_name": "Cryptic",
     "date": "2026-11-14",
-    "url": "https://www.fatsoma.com/e/i9pmepbq/motion-october",
+    "url": "https://www.fatsoma.com/e/j5ii0rbc/cryptic15",
     "image": "",
-    "price": ""
+    "price": "£5–£7"
   },
   {
     "venue": "Gonzos",
@@ -899,9 +859,9 @@
     "venue": "Space",
     "event_name": "Rebel Lion - Jamaica Aid",
     "date": "2026-11-21",
-    "url": "https://www.spacestudiosnorwich.com",
+    "url": "https://www.fatsoma.com/e/ol7gt1ey/norwich-jamaica-aid-fundraiser",
     "image": "",
-    "price": ""
+    "price": "£10–£20"
   },
   {
     "venue": "Gonzos",
@@ -1170,6 +1130,14 @@
   {
     "venue": "Space",
     "event_name": "Chubaby",
+    "date": "2026-11-27",
+    "url": "https://www.spacestudiosnorwich.com",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Space",
+    "event_name": "All Things Jungle",
     "date": "2026-11-27",
     "url": "https://www.spacestudiosnorwich.com",
     "image": "",
@@ -2040,6 +2008,14 @@
     "price": ""
   },
   {
+    "venue": "Gonzos",
+    "event_name": "T'was The Last Dance Before Christmas - Day Party",
+    "date": "2026-12-20",
+    "url": "https://www.fatsoma.com/e/9kl2h394/t-was-the-last-dance-before-christmas-day-party",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzIvMTEvOS81Ni84NzIvUmFja011bHRpcGFydDIwMjYxMTAyLTU2LTRvb2c5LnBuZyJdXQ",
+    "price": "£3–£7"
+  },
+  {
     "venue": "Holloway",
     "event_name": "Chu Presents Karaokpen-Mic Christmas Special",
     "date": "2026-12-20",
@@ -2304,6 +2280,14 @@
     "price": "£14.30"
   },
   {
+    "venue": "Voodoos",
+    "event_name": "Sandhouse",
+    "date": "2027-01-27",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/sandhouse/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzExLzkvMTUvMTIvNjg4L1JhY2tNdWx0aXBhcnQyMDI2MTExMS01OC0xZGN3NzU1LmpwZyJdXQ?ar=16:9&fit=crop",
+    "price": ""
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Norfolk Blues Society at the Brickmakers",
     "date": "2027-01-27",
@@ -2470,6 +2454,14 @@
     "url": "https://norwichartscentre.co.uk/event/tone-presents-mercy-girl/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Copia-di-Mercy-Girl-Press-Pic-1-crop-6aabea8d152a7-800x450-c-default.jpg",
     "price": "£13–£15"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Transmission: The Sound of Joy Division",
+    "date": "2027-02-06",
+    "url": "https://norwichartscentre.co.uk/event/transmission-the-sound-of-joy-division/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-14.58.45-6aec9a258bbe2-800x450-c-default.png",
+    "price": "£17–£18"
   },
   {
     "venue": "Waterfront",
@@ -2758,6 +2750,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/scarlet-rebels/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DP-WF-LCR-8.jpg.webp",
     "price": "£22.20"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Zebrahead",
+    "date": "2027-02-22",
+    "url": "https://www.ueaticketbookings.co.uk/event/zebrahead/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/ZEBRAHEAD-SQ-NORWICH.png.webp",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -3068,7 +3068,7 @@
     "event_name": "Seth Lakeman",
     "date": "2027-03-16",
     "url": "https://norwichartscentre.co.uk/event/seth-lakeman/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2020/02/no-image_16-9-5e4580cc5e29e-800x450-c-default.jpg",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Seth-Lakeman-2026-c-Dom-Moore-1-6af32b083f8be-scaled-e1794321220636-800x450-c-default.jpg",
     "price": "£26–£29.50"
   },
   {
@@ -3360,6 +3360,14 @@
     "price": "£13–£15"
   },
   {
+    "venue": "Waterfront",
+    "event_name": "Slomosa",
+    "date": "2027-04-16",
+    "url": "https://www.ueaticketbookings.co.uk/event/slomosa/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/SLOMOSA-SQ-500x500.png.webp",
+    "price": ""
+  },
+  {
     "venue": "Maddermarket",
     "event_name": "The UK Bee Gees",
     "date": "2027-04-17",
@@ -3438,6 +3446,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/moving-pictures-a-tribute-to-rush/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/M-Pictures-2027-Norwich-1x1-UEA-500x500.jpg.webp",
     "price": "£23.87"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "999",
+    "date": "2027-04-23",
+    "url": "https://www.ueaticketbookings.co.uk/event/999/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/999-SQ.png.webp",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
