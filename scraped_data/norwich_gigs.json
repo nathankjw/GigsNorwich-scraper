@@ -240,38 +240,6 @@
     "price": ""
   },
   {
-    "venue": "Epic",
-    "event_name": "Round Midnight: Shabaka plus support",
-    "date": "2026-11-11",
-    "url": "https://epic-tv.com/events/event/round-midnight-shabaka-plus-support",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Shabaka @ EPIC Studios",
-    "date": "2026-11-11",
-    "url": "https://norwichartscentre.co.uk/event/shabaka-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/SHABAKA-2026-PRESS-SHOT-69a9989533d1d-800x450-c-default.jpg",
-    "price": "£30–£34"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Machukha with Kulk + Acceptance",
-    "date": "2026-11-11",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/machukha-with-healing-wound-acceptance/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzEwLzEwLzMwLzQvNTA3L1JhY2tNdWx0aXBhcnQyMDI2MTExMC01Ny02b3h2YTkuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£17.50"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Black Dog  Music",
-    "date": "2026-11-11",
-    "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Space",
     "event_name": "The Winonas, Yasha96 + Twelve Atlas",
     "date": "2026-11-12",
@@ -286,14 +254,6 @@
     "url": "https://www.eventbrite.co.uk/e/sip-sew-tickets-2003815077839",
     "image": "",
     "price": "£8.30"
-  },
-  {
-    "venue": "Space",
-    "event_name": "Lust For Life Promotions",
-    "date": "2026-11-12",
-    "url": "https://www.spacestudiosnorwich.com",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Holloway",
@@ -849,11 +809,11 @@
   },
   {
     "venue": "Space",
-    "event_name": "Our Old Life",
+    "event_name": "Super Sad Saturday Shakedown",
     "date": "2026-11-21",
-    "url": "https://www.spacestudiosnorwich.com",
+    "url": "https://www.tickettailor.com/events/ouroldlife/2401256?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAVhkn1leHRuA2FlbQIxMQBwZG9mAmZkaWQWUSD3VnsSyC5MZSPvgd5CB0oOm5GxUHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp16Yb4OU-q-iwjDZlTK5g7jRSFpTF0iwSBqSGRp_naV9q8QjXyB2nsfktc95_aem_XMNLn1CqF8KVyiQc5jbF3Q",
     "image": "",
-    "price": ""
+    "price": "£9"
   },
   {
     "venue": "Space",
@@ -1131,25 +1091,17 @@
     "venue": "Space",
     "event_name": "Chubaby",
     "date": "2026-11-27",
-    "url": "https://www.spacestudiosnorwich.com",
+    "url": "https://www.tickettailor.com/events/lethalchupresents/2447332?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAVhkrpleHRuA2FlbQExAHBkb2YCZmRpZBZRIHCQbfwpVLOFiDhyvK9l95KbOKgNc3J0YwZhcHBfaWQPMTI0MDI0NTc0Mjg3NDE0AAGnTbgG2ntesOuWywoirywSCbSJkPR_HXFMQgAGULaZqVEE6NToGXoRiUqOt9E_aem_x05fmcPR8GXW37npQkhOow",
     "image": "",
-    "price": ""
+    "price": "£8.93"
   },
   {
     "venue": "Space",
-    "event_name": "All Things Jungle",
+    "event_name": "All Things Jungle x Central Rhythms",
     "date": "2026-11-27",
-    "url": "https://www.spacestudiosnorwich.com",
+    "url": "https://www.spacestudiosnorwich.com/event-details-registration/all-things-jungle-x-central-rhythms-w-webbo-nulify-blindfold",
     "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Space",
-    "event_name": "Bring Back House",
-    "date": "2026-11-27",
-    "url": "https://www.spacestudiosnorwich.com",
-    "image": "",
-    "price": ""
+    "price": "£5.13"
   },
   {
     "venue": "Gonzos",
@@ -1608,6 +1560,14 @@
     "price": ""
   },
   {
+    "venue": "Maddermarket",
+    "event_name": "The Colin Wilsher Quintet",
+    "date": "2026-12-08",
+    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=130001",
+    "image": "https://system.spektrix.com/themaddermarkettheatre/files/150da03f-7fca-43a7-b47b-81f3c52cb464.jpeg",
+    "price": ""
+  },
+  {
     "venue": "Voodoos",
     "event_name": "Essa & J-Felix Present: The Fifth Foundation + Ryan Skillit, Amy Nomvula",
     "date": "2026-12-09",
@@ -1686,6 +1646,14 @@
     "url": "https://norwichartscentre.co.uk/event/zwa-presents-ni-maxine/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/NI_MAXINE_ARTWORKALT_2000px-6acfa05c00b6a-800x450-c-default.jpg",
     "price": "£15–£15.50"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Chains on Velvet",
+    "date": "2026-12-11",
+    "url": "https://www.ueaticketbookings.co.uk/event/chains-on-velvet/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/CoV-Dec-26-square-500x500.jpg.webp",
+    "price": "£4.40–£5.50"
   },
   {
     "venue": "Waterfront",
@@ -1925,7 +1893,7 @@
     "date": "2026-12-18",
     "url": "https://www.ueaticketbookings.co.uk/event/the-900/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/The-900_Square-500x500.png.webp",
-    "price": ""
+    "price": "£17.60"
   },
   {
     "venue": "Voodoos",
@@ -1980,7 +1948,7 @@
     "event_name": "PleasureInc.",
     "date": "2026-12-19",
     "url": "https://www.ueaticketbookings.co.uk/event/pleasureinc/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/imresizer-Party-of-the-Year-2026-poster-1-square-copy-500x500.jpg.webp",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/POTY-SQ-Sebbuku.png.webp",
     "price": "£13.20"
   },
   {
@@ -2141,7 +2109,7 @@
     "date": "2027-01-10",
     "url": "https://www.ueaticketbookings.co.uk/event/matt-embree-vinnie-caruana/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/EMBREE-CARUANA-SQ-500x500.png.webp",
-    "price": ""
+    "price": "£22"
   },
   {
     "venue": "Arts Centre",
@@ -2182,6 +2150,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/grooving-in-green-the-glass-house-museum-velocette/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzIvMTUvMzYvMjUvOTQyL1JhY2tNdWx0aXBhcnQyMDI2MTEwMi02Mi0xcDI0MG4zLnBuZyJdXQ?ar=16:9&fit=crop",
     "price": "£12"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Kezia Gill (solo acoustic)",
+    "date": "2027-01-19",
+    "url": "https://norwichartscentre.co.uk/event/kezia-gill-solo-acoustic/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2020/02/no-image_16-9-5e4580cc5e29e-800x450-c-default.jpg",
+    "price": "£26–£29.50"
   },
   {
     "venue": "Voodoos",
@@ -2309,7 +2285,7 @@
     "date": "2027-01-28",
     "url": "https://www.ueaticketbookings.co.uk/event/slap-rash/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Lauras-WF-LCR-IG-Template-61-1-500x500.png.webp",
-    "price": ""
+    "price": "£12.10"
   },
   {
     "venue": "LCR",
@@ -2448,6 +2424,14 @@
     "price": "£28.60"
   },
   {
+    "venue": "Epic",
+    "event_name": "Shy Fx",
+    "date": "2027-02-05",
+    "url": "https://epic-tv.com/events/event/shy-fx",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Tone presents Mercy Girl",
     "date": "2027-02-05",
@@ -2485,7 +2469,7 @@
     "date": "2027-02-07",
     "url": "https://www.ueaticketbookings.co.uk/event/jonah-matranga-onelinedrawing/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Jonah-Matranga-SQ-500x500.jpg.webp",
-    "price": ""
+    "price": "£16.50"
   },
   {
     "venue": "Waterfront",
@@ -2557,7 +2541,7 @@
     "date": "2027-02-12",
     "url": "https://www.ueaticketbookings.co.uk/event/ingested/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Ingested-SQ-500x500.png.webp",
-    "price": ""
+    "price": "£25.53"
   },
   {
     "venue": "Brickmakers",
@@ -2757,7 +2741,7 @@
     "date": "2027-02-22",
     "url": "https://www.ueaticketbookings.co.uk/event/zebrahead/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/ZEBRAHEAD-SQ-NORWICH.png.webp",
-    "price": ""
+    "price": "£27.75"
   },
   {
     "venue": "Arts Centre",
@@ -2989,7 +2973,7 @@
     "date": "2027-03-11",
     "url": "https://www.ueaticketbookings.co.uk/event/happydaze/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/imresizer-resize-Happydaze_Square_-Norwich-500x500.jpg.webp",
-    "price": ""
+    "price": "£13.20"
   },
   {
     "venue": "LCR",
@@ -3397,7 +3381,7 @@
     "date": "2027-04-17",
     "url": "https://www.ueaticketbookings.co.uk/event/dave-finnegans-the-commitments/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Dave-Finnegan-the-commitments-SQ-NORWICH-500x500.png.webp",
-    "price": ""
+    "price": "£22.20"
   },
   {
     "venue": "Arts Centre",
@@ -3453,7 +3437,7 @@
     "date": "2027-04-23",
     "url": "https://www.ueaticketbookings.co.uk/event/999/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/999-SQ.png.webp",
-    "price": ""
+    "price": "£24.42"
   },
   {
     "venue": "Arts Centre",
@@ -3477,7 +3461,7 @@
     "date": "2027-04-24",
     "url": "https://www.ueaticketbookings.co.uk/event/cody-pennington-country-show/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Cody-Pennington-Norwich-Square-500x500.jpeg.webp",
-    "price": ""
+    "price": "£22.76–£26.09"
   },
   {
     "venue": "Waterfront",
@@ -3493,7 +3477,7 @@
     "date": "2027-05-03",
     "url": "https://www.ueaticketbookings.co.uk/event/the-wedding-present/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/TWP-SQUARE-NORWICH-500x500.png.webp",
-    "price": ""
+    "price": "£33.60"
   },
   {
     "venue": "LCR",
@@ -3501,7 +3485,7 @@
     "date": "2027-05-05",
     "url": "https://www.ueaticketbookings.co.uk/event/chvrches/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Image-500x500.jpeg.webp",
-    "price": ""
+    "price": "£39.20"
   },
   {
     "venue": "Epic",
@@ -3693,7 +3677,7 @@
     "date": "2027-06-05",
     "url": "https://www.ueaticketbookings.co.uk/event/when-waterfront-was-young/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/WWWY27_Square-500x500.png.webp",
-    "price": ""
+    "price": "£27.75"
   },
   {
     "venue": "LCR",
@@ -3789,6 +3773,6 @@
     "date": "2027-12-03",
     "url": "https://www.ueaticketbookings.co.uk/event/the-lightning-seeds/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/LightningSeeds_National_socials_x3_V4_1080-x-1080-500x500.jpg.webp",
-    "price": ""
+    "price": "£37.52"
   }
 ]
