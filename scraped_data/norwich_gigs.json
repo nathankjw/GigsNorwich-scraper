@@ -89,14 +89,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Bitchn' Kitschn'",
-    "date": "2026-09-10",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/bitchn-kitschn",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788362756236-5IPRVQBNAQVKWMBT1BEQ/Kitsch+A5+Leaflet_PRESS.jpg",
-    "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "sweet gemini",
     "date": "2026-10-10",
     "url": "https://www.deadwaxnorwich.pub/whats-on/sweet-gemini-1",
@@ -240,83 +232,11 @@
     "price": ""
   },
   {
-    "venue": "Space",
-    "event_name": "The Winonas, Yasha96 + Twelve Atlas",
-    "date": "2026-11-12",
-    "url": "https://www.eventbrite.co.uk/e/the-winonas-yasha96-twelve-atlas-tickets-2003478688690",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Space",
-    "event_name": "Sip and Sew - Tote Bag Making",
-    "date": "2026-11-12",
-    "url": "https://www.eventbrite.co.uk/e/sip-sew-tickets-2003815077839",
-    "image": "",
-    "price": "£8.30"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "J. Zunz (Lorelle Meets The Obsolete) + Domenica Diavoleria + danmo",
-    "date": "2026-11-12",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1786528377606-unnamed.jpg?alt=media&token=3810d19f-cf1f-4c0f-8d9c-5645d0108804",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Pangaea (The Green Room)",
-    "date": "2026-11-12",
-    "url": "https://epic-tv.com/events/event/pangaea-the-green-room",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Gary Stewart’s Graceland",
-    "date": "2026-11-12",
-    "url": "https://norwichartscentre.co.uk/event/gary-stewarts-graceland/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2025/12/GSGLA-Banner-6aa6f2db9e522-scaled-800x450-c-default.png",
-    "price": "£22–£25"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Young Knives",
-    "date": "2026-11-12",
-    "url": "https://www.ueaticketbookings.co.uk/event/young-knives/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/YoungKnives_Square-500x500.png.webp",
-    "price": "£27.75"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Dermot Henry + Alfie Bowles",
-    "date": "2026-11-12",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/dermot-henry-plus-special-guests/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMi8yMS8zOC80MS8yNDMvUmFja011bHRpcGFydDIwMjYwOTAyLTU4LTFyaHQ2Ym8uanBnIl1d?ar=16:9&fit=crop",
-    "price": "£13"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "(postponed) GIRLS, GAYS & THEYS FT GLITTER & GLOOM DJS",
     "date": "2026-11-12",
     "url": "https://www.deadwaxnorwich.pub/whats-on/girls-gays-theys-ft-glitter-gloom-djs",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1787079682395-OHWVIFYINQ235XX51F1D/Screenshot+2026-08-18+at+19.21.52.png",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Open  mic  night with Peter Turrell",
-    "date": "2026-11-12",
-    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Nikki",
-    "date": "2026-11-12",
-    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
-    "image": "",
     "price": ""
   },
   {
@@ -389,7 +309,7 @@
     "date": "2026-11-13",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/electric-eel-shock/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMjEvMTcvMzAvMzMvOTA0L1JhY2tNdWx0aXBhcnQyMDI2MDQyMS01OS0xdHFkM2JmLnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£12"
   },
   {
     "venue": "Dead Wax",
@@ -525,7 +445,7 @@
     "date": "2026-11-14",
     "url": "https://fixr.co/event/fish56octagon-norwich-day-party-26th-september-tickets-540418264",
     "image": "https://fixr-cdn.fixr.co/images/event/2026-10/77982b4777234bcdafd1e5581dedf521.jpg",
-    "price": "£10"
+    "price": ""
   },
   {
     "venue": "Last Pub",
@@ -1301,7 +1221,7 @@
     "date": "2026-11-28",
     "url": "https://fixr.co/event/norwich-dj-luck-mc-neat-garage-brunch-day-party-in-tickets-734094727",
     "image": "https://fixr-cdn.fixr.co/images/event/2026-10/2e0c2afcd60a4386976bb5785945a2da.jpeg",
-    "price": "£5"
+    "price": "£10"
   },
   {
     "venue": "LCR",
@@ -1541,7 +1461,7 @@
     "date": "2026-12-05",
     "url": "https://fixr.co/event/norwich-mj-cole-daylight-disco-end-of-summer-day-p-tickets-108678374",
     "image": "https://fixr-cdn.fixr.co/images/event/2026-10/2d386dbbe26d4a6785871274693d086e.jpeg",
-    "price": "£7.50"
+    "price": "£10"
   },
   {
     "venue": "Waterfront",
@@ -2156,7 +2076,7 @@
     "event_name": "Kezia Gill (solo acoustic)",
     "date": "2027-01-19",
     "url": "https://norwichartscentre.co.uk/event/kezia-gill-solo-acoustic/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2020/02/no-image_16-9-5e4580cc5e29e-800x450-c-default.jpg",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/KEZIA-GILL-FB-EVENT-NORWICH-6af5e4a6e31aa-800x450-c-default.jpg",
     "price": "£26–£29.50"
   },
   {
@@ -2237,7 +2157,7 @@
     "date": "2027-01-26",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/marla-kether/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzMvMTcvMzgvNy8xNjUvUmFja011bHRpcGFydDIwMjYxMTAzLTU4LTFhdzFheTAuanBnIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£14"
   },
   {
     "venue": "Epic",
@@ -2261,7 +2181,7 @@
     "date": "2027-01-27",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/sandhouse/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzExLzkvMTUvMTIvNjg4L1JhY2tNdWx0aXBhcnQyMDI2MTExMS01OC0xZGN3NzU1LmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£10"
   },
   {
     "venue": "Brickmakers",
@@ -2544,6 +2464,14 @@
     "price": "£25.53"
   },
   {
+    "venue": "Waterfront",
+    "event_name": "Big Wett",
+    "date": "2027-02-12",
+    "url": "https://www.ueaticketbookings.co.uk/event/big-wett/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/BIgWett_Poster-SQ-500x500.png.webp",
+    "price": "£15.40"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "ADTR - A Day to Remember UK",
     "date": "2027-02-12",
@@ -2781,7 +2709,7 @@
     "date": "2027-02-25",
     "url": "https://www.ueaticketbookings.co.uk/event/mallory-knox/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/DP-WF-LCR-16-500x500.jpg.webp",
-    "price": ""
+    "price": "£33.60"
   },
   {
     "venue": "Voodoos",
@@ -3005,7 +2933,7 @@
     "date": "2027-03-12",
     "url": "https://www.ueaticketbookings.co.uk/event/opus-kink/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/OPUS-KINK-1X1-500x500.png.webp",
-    "price": ""
+    "price": "£18.15"
   },
   {
     "venue": "Voodoos",
@@ -3269,7 +3197,7 @@
     "date": "2027-04-08",
     "url": "https://www.ueaticketbookings.co.uk/event/basht/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Lauras-WF-LCR-IG-Template-67-500x500.png.webp",
-    "price": ""
+    "price": "£19.80"
   },
   {
     "venue": "Waterfront",
@@ -3349,7 +3277,7 @@
     "date": "2027-04-16",
     "url": "https://www.ueaticketbookings.co.uk/event/slomosa/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/SLOMOSA-SQ-500x500.png.webp",
-    "price": ""
+    "price": "£24.98"
   },
   {
     "venue": "Maddermarket",
@@ -3534,14 +3462,6 @@
     "url": "https://www.ueaticketbookings.co.uk/event/ultimate-coldplay/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Ultimate-Coldplay-Waterfront-Norwich-Square-2026-500x500.jpg.webp",
     "price": "£22.20"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Chimer",
-    "date": "2027-05-15",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/chimer/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzcvMTAvMzkvMzMvNjYvUmFja011bHRpcGFydDIwMjYxMTA3LTU5LTFteG1uNHkuanBnIl1d?ar=16:9&fit=crop",
-    "price": ""
   },
   {
     "venue": "Epic",
@@ -3741,6 +3661,14 @@
     "date": "2027-09-19",
     "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=99801",
     "image": "https://system.spektrix.com/themaddermarkettheatre/files/885550b0-7ee4-4a16-afe9-c2de879121a0.jpg",
+    "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "A Night of Sade in Norwich",
+    "date": "2027-09-25",
+    "url": "https://epic-tv.com/events/event/a-night-of-sade-in-norwich",
+    "image": "",
     "price": ""
   },
   {
