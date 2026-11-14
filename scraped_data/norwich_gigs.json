@@ -81,14 +81,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "martin martin martin (dj set)",
-    "date": "2026-09-10",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/martin-martin-martin-dj-set",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790621617308-L16H97LEPV7ATKQ7N8LS/Martin+Promo+001+%282%29.jpg",
-    "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "sweet gemini",
     "date": "2026-10-10",
     "url": "https://www.deadwaxnorwich.pub/whats-on/sweet-gemini-1",
@@ -240,115 +232,11 @@
     "price": ""
   },
   {
-    "venue": "Space",
-    "event_name": "Peche",
-    "date": "2026-11-13",
-    "url": "https://www.fatsoma.com/e/qph6cady/p%C3%AAche-presents-n4tee",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "Ranger Trucco & Tommy Gold",
-    "date": "2026-11-13",
-    "url": "https://www.fatsoma.com/e/6xyiflyw/ranger-trucco-tommy-gold",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEyLzE2LzQ2LzMzLzkzNi9SYWNrTXVsdGlwYXJ0MjAyNjEwMTItNjktMXdzZjhvZy5wbmciXV0",
-    "price": "£5–£10"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Norm’s present: The Gourds + Discord Disco + more!",
-    "date": "2026-11-13",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1789909086061-IMG_3311.png?alt=media&token=15080d8c-0d85-40b1-b299-eda080c7ea00",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Dutty Moonshine Big Band's Second Distillation UK Tour",
-    "date": "2026-11-13",
-    "url": "https://epic-tv.com/events/event/dutty-moonshine-big-bands-second-distillation-uk-tour",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "PONY UP presents Damp Matches",
-    "date": "2026-11-13",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-damp-matches/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/IMG_5009-6a8c1652b21b9-800x450-c-default.webp",
-    "price": "£10–£12"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Nieve Ella",
-    "date": "2026-11-13",
-    "url": "https://www.ueaticketbookings.co.uk/event/nieve-ella/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Nieve-Ella-sq-1-500x500.jpg.webp",
-    "price": "£21.45"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "The Zac Schulze Gang",
-    "date": "2026-11-13",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-zac-schulze-gang/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/sQF-500x500.png.webp",
-    "price": "£22.20"
-  },
-  {
-    "venue": "LCR",
-    "event_name": "Dizzee Rascal",
-    "date": "2026-11-13",
-    "url": "https://www.ueaticketbookings.co.uk/event/dizzee-rascal/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-DIZZEE-RASCAL-INSTA-NORWICH-2026-500x500.jpg.webp",
-    "price": "£48.03"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Electric Eel Shock",
-    "date": "2026-11-13",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/electric-eel-shock/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzQvMjEvMTcvMzAvMzMvOTA0L1JhY2tNdWx0aXBhcnQyMDI2MDQyMS01OS0xdHFkM2JmLnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": "£12"
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "The Cain Pit W/ East Town Pirates",
     "date": "2026-11-13",
     "url": "https://www.deadwaxnorwich.pub/whats-on/the-cain-pit-w-east-town-pirates",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1780401532334-PA6G1NOJGENJG7QN88ZC/Cain+Pit+deadwaxsquare.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Steve Stock in B2",
-    "date": "2026-11-13",
-    "url": "https://www.norfolkgigguide.com/band-details/Steve+Stock+in+B2",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Rattus Inheritus",
-    "date": "2026-11-13",
-    "url": "https://www.norfolkgigguide.com/band-details/Rattus+Inheritus",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Anna B2B Blindfold",
-    "date": "2026-11-13",
-    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "The Reindeer",
-    "event_name": "Lithium",
-    "date": "2026-11-13",
-    "url": "https://www.facebook.com/p/The-Reindeer-Pub-Music-Entertainment-100093050854779/",
-    "image": "",
     "price": ""
   },
   {
@@ -510,6 +398,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/little-angels/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/WF-AND-LCR-MASTERS-USE-THESE-41-500x500.jpg.webp",
     "price": "£50.63"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Voodoo Daddy’s Open Mic",
+    "date": "2026-11-16",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/voodoo-daddys-open-mic-13/",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -1262,6 +1158,14 @@
     "url": "https://norwichartscentre.co.uk/event/tom-moore-quartet/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/TMQ-Promo-sept-26-6ac4bc0af0663-scaled-800x450-c-default.jpg",
     "price": "£12–£14"
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "Rudimentary Paste / The Yee-Haws + friends",
+    "date": "2026-12-02",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1794591588805-IMG_3708.png?alt=media&token=71a4bc26-a90f-4b53-ae9b-80c0cbe40910",
+    "price": ""
   },
   {
     "venue": "Waterfront",
@@ -2144,6 +2048,14 @@
     "price": "£12"
   },
   {
+    "venue": "Epic",
+    "event_name": "Sleemo - IVW 2027",
+    "date": "2027-01-26",
+    "url": "https://epic-tv.com/events/event/sleemo-ivw-2027",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "PONY UP presents The New Cut",
     "date": "2027-01-26",
@@ -2161,11 +2073,11 @@
   },
   {
     "venue": "Epic",
-    "event_name": "Girl Group",
+    "event_name": "Girl Group - IVW 2027",
     "date": "2027-01-27",
-    "url": "https://epic-tv.com/events/event/girl-group",
+    "url": "https://epic-tv.com/events/event/girl-group-ivw-2027",
     "image": "",
-    "price": "£14.30"
+    "price": ""
   },
   {
     "venue": "Voodoos",
@@ -3654,6 +3566,14 @@
     "url": "https://norwichartscentre.co.uk/event/bootleg-blondie/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2023/02/Bootleg-BlondieDebbie-Harris-stage-crop-2-2023-63f78b403defb-800x450-c-default.jpg",
     "price": "£18–£20.50"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Tom Robinson Band",
+    "date": "2027-08-08",
+    "url": "https://norwichartscentre.co.uk/event/tom-robinson-band/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/TRB-Norwich-Square-6af735e307288-800x450-c-default.jpg",
+    "price": "£27.50–£31"
   },
   {
     "venue": "Maddermarket",
