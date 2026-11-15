@@ -25,11 +25,6 @@
   "price": "£33.60"
  },
  {
-  "name": "An Evening With The King - Paul Quinn",
-  "date": "2026-10-28",
-  "price": "£19.25"
- },
- {
   "name": "As Everything Unfolds",
   "date": "2027-02-18",
   "price": "£22.20"
@@ -38,11 +33,6 @@
   "name": "Ash",
   "date": "2026-12-05",
   "price": "£33"
- },
- {
-  "name": "Ashley Singh",
-  "date": "2026-11-10",
-  "price": "£16.50"
  },
  {
   "name": "Atlas&i",
@@ -85,11 +75,6 @@
   "price": "£44.24"
  },
  {
-  "name": "Breed 77",
-  "date": "2026-11-04",
-  "price": "£22.20"
- },
- {
   "name": "Bruce Foxton",
   "date": "2027-05-21",
   "price": "£36.40"
@@ -98,21 +83,6 @@
   "name": "Bywater Call",
   "date": "2027-02-06",
   "price": "£28.86"
- },
- {
-  "name": "Canned Pineapple",
-  "date": "2026-11-07",
-  "price": "£9"
- },
- {
-  "name": "Captain Accident and the Disasters",
-  "date": "2026-10-29",
-  "price": "£14.30"
- },
- {
-  "name": "Chloe Slater",
-  "date": "2026-11-07",
-  "price": "£16.72"
  },
  {
   "name": "Chuck Ragan",
@@ -140,21 +110,6 @@
   "price": "£13.20"
  },
  {
-  "name": "Deaf Havana",
-  "date": "2026-11-04",
-  "price": "£32.75"
- },
- {
-  "name": "Del Amitri",
-  "date": "2026-11-10",
-  "price": "£44.24"
- },
- {
-  "name": "Deptford Northern Soul Club",
-  "date": "2026-11-14",
-  "price": "£13.20"
- },
- {
   "name": "Dinosaur Pile-Up",
   "date": "2027-03-31",
   "price": "£22.20"
@@ -163,11 +118,6 @@
   "name": "Discharge",
   "date": "2026-11-27",
   "price": "£24.42"
- },
- {
-  "name": "Dizzee Rascal",
-  "date": "2026-11-13",
-  "price": "£48.03"
  },
  {
   "name": "Dog Unit",
@@ -183,11 +133,6 @@
   "name": "Dr. Feelgood",
   "date": "2026-12-04",
   "price": "£28.86"
- },
- {
-  "name": "Dutch & Graft (The Manor)",
-  "date": "2026-11-14",
-  "price": "£24.98"
  },
  {
   "name": "Esprit D'Air",
@@ -213,11 +158,6 @@
   "name": "Florence Black",
   "date": "2027-02-23",
   "price": "£31.08"
- },
- {
-  "name": "Forever Nu!",
-  "date": "2026-10-30",
-  "price": "£22.20"
  },
  {
   "name": "Gabrielle",
@@ -270,24 +210,9 @@
   "price": "£33"
  },
  {
-  "name": "Josh Pugh",
-  "date": "2026-11-05",
-  "price": "£27.75"
- },
- {
-  "name": "Joshua Idehen",
-  "date": "2026-11-08",
-  "price": "£24.75"
- },
- {
   "name": "Just Radiohead",
   "date": "2027-03-13",
   "price": "£22.20"
- },
- {
-  "name": "Keg",
-  "date": "2026-11-10",
-  "price": "£13.75"
  },
  {
   "name": "Kid Kapichi",
@@ -305,11 +230,6 @@
   "price": "£50.63"
  },
  {
-  "name": "Lol Tolhurst",
-  "date": "2026-10-29",
-  "price": "£22.20"
- },
- {
   "name": "London Calling Play The Clash",
   "date": "2026-11-27",
   "price": "£24.98"
@@ -318,11 +238,6 @@
   "name": "Mad Caddies",
   "date": "2027-03-02",
   "price": "£31.36"
- },
- {
-  "name": "Mad Dog Mcrea",
-  "date": "2026-11-06",
-  "price": "£24.42"
  },
  {
   "name": "Magnolia",
@@ -355,16 +270,6 @@
   "price": "£18.15"
  },
  {
-  "name": "Nieve Ella",
-  "date": "2026-11-13",
-  "price": "£21.45"
- },
- {
-  "name": "Nightmare On King Street",
-  "date": "2026-10-31",
-  "price": "£8.50–£9.50"
- },
- {
   "name": "NIRVANHER + HELL IS IN CHAINS",
   "date": "2026-12-04",
   "price": "£16.50"
@@ -373,11 +278,6 @@
   "name": "Noasis",
   "date": "2027-01-30",
   "price": "£18.15"
- },
- {
-  "name": "Norwich Book Festival: Paul Sexton",
-  "date": "2026-10-28",
-  "price": "£16.50"
  },
  {
   "name": "Nouvelle Vague",
@@ -390,19 +290,9 @@
   "price": "£28.60"
  },
  {
-  "name": "Pam’s House Halloween",
-  "date": "2026-10-30",
-  "price": "£16.50–£19.25"
- },
- {
   "name": "Parker Barrow",
   "date": "2026-11-26",
   "price": "£22.20"
- },
- {
-  "name": "Pet Needs",
-  "date": "2026-10-30",
-  "price": "£19.25"
  },
  {
   "name": "Peter Hook & The Light",
@@ -425,24 +315,9 @@
   "price": "£6.60"
  },
  {
-  "name": "Propaganda",
-  "date": "2026-11-07",
-  "price": "£6.60"
- },
- {
   "name": "R.E.M By Stipe - The Definitive Tribute",
   "date": "2027-01-16",
   "price": "£19.25"
- },
- {
-  "name": "Rattus",
-  "date": "2026-11-13",
-  "price": "£13.20"
- },
- {
-  "name": "Republica",
-  "date": "2026-11-07",
-  "price": "£33.60"
  },
  {
   "name": "Reverend & The Makers",
@@ -455,19 +330,9 @@
   "price": "£24.98"
  },
  {
-  "name": "Rosalie Cunningham",
-  "date": "2026-11-08",
-  "price": "£22.20"
- },
- {
   "name": "Round Midnight presents corto.alto",
   "date": "2026-11-24",
   "price": "£25.53"
- },
- {
-  "name": "Round Midnight presents Shabaka",
-  "date": "2026-11-11",
-  "price": "£34.72"
  },
  {
   "name": "Rowena Wise",
@@ -483,11 +348,6 @@
   "name": "Scarlet Rebels",
   "date": "2027-02-22",
   "price": "£22.20"
- },
- {
-  "name": "SEGO",
-  "date": "2026-11-06",
-  "price": "£12.10"
  },
  {
   "name": "Sevendust",
@@ -523,11 +383,6 @@
   "name": "Split Dogs",
   "date": "2027-02-04",
   "price": "£18.15"
- },
- {
-  "name": "Stahlsarg",
-  "date": "2026-11-14",
-  "price": "£12.10"
  },
  {
   "name": "The 900",
@@ -590,11 +445,6 @@
   "price": "£19.42"
  },
  {
-  "name": "The Hanging Stars",
-  "date": "2026-11-07",
-  "price": "£17.60"
- },
- {
   "name": "The High Points",
   "date": "2026-11-20",
   "price": "£16.50"
@@ -603,11 +453,6 @@
   "name": "The Hunna",
   "date": "2026-12-04",
   "price": "£33.60"
- },
- {
-  "name": "The Jump Cuts",
-  "date": "2026-10-27",
-  "price": "£13.20"
  },
  {
   "name": "The Karma Effect",
@@ -680,11 +525,6 @@
   "price": "£33.60"
  },
  {
-  "name": "The Zac Schulze Gang",
-  "date": "2026-11-13",
-  "price": "£22.20"
- },
- {
   "name": "These Wicked Rivers",
   "date": "2026-11-28",
   "price": "£23.31"
@@ -712,16 +552,6 @@
  {
   "name": "Wednesday 13 + The Birthday Massacre",
   "date": "2026-12-11",
-  "price": "£27.75"
- },
- {
-  "name": "Will Wilde",
-  "date": "2026-11-01",
-  "price": "£19.80"
- },
- {
-  "name": "Young Knives",
-  "date": "2026-11-12",
   "price": "£27.75"
  },
  {
@@ -753,11 +583,6 @@
   "name": "The Cheap Thrills",
   "date": "2027-02-01",
   "price": "£15.40"
- },
- {
-  "name": "The Rabbitts",
-  "date": "2026-11-14",
-  "price": "£15.95"
  },
  {
   "name": "Moving Pictures - A Tribute To Rush",
@@ -800,11 +625,6 @@
   "price": "£13.20"
  },
  {
-  "name": "ĠENN",
-  "date": "2026-11-09",
-  "price": "£11"
- },
- {
   "name": "Sleep Broken",
   "date": "2027-03-19",
   "price": "£18.70"
@@ -823,5 +643,130 @@
   "name": "Meltdown Presents Jingle Bell Rock",
   "date": "2026-12-12",
   "price": "£5–£7"
+ },
+ {
+  "name": "999",
+  "date": "2027-04-23",
+  "price": "£24.42"
+ },
+ {
+  "name": "Basht.",
+  "date": "2027-04-08",
+  "price": "£19.80"
+ },
+ {
+  "name": "Big Wett",
+  "date": "2027-02-12",
+  "price": "£15.40"
+ },
+ {
+  "name": "Chains on Velvet",
+  "date": "2026-12-11",
+  "price": "£4.40–£5.50"
+ },
+ {
+  "name": "CHVRCHES",
+  "date": "2027-05-05",
+  "price": "£39.20"
+ },
+ {
+  "name": "Cody Pennington Country Show",
+  "date": "2027-04-24",
+  "price": "£22.76–£26.09"
+ },
+ {
+  "name": "Dave Finnegan’s The Commitments",
+  "date": "2027-04-17",
+  "price": "£22.20"
+ },
+ {
+  "name": "happydaze",
+  "date": "2027-03-11",
+  "price": "£13.20"
+ },
+ {
+  "name": "Ingested",
+  "date": "2027-02-12",
+  "price": "£25.53"
+ },
+ {
+  "name": "Jonah Matranga (Onelinedrawing)",
+  "date": "2027-02-07",
+  "price": "£16.50"
+ },
+ {
+  "name": "Latitude Festival 2027",
+  "date": "2027-07-22",
+  "price": "£18–£320"
+ },
+ {
+  "name": "LETZ ZEP",
+  "date": "2027-04-01",
+  "price": "£22.20"
+ },
+ {
+  "name": "Mallory Knox",
+  "date": "2027-02-25",
+  "price": "£33.60"
+ },
+ {
+  "name": "Martial Arts",
+  "date": "2027-01-29",
+  "price": "£13.20"
+ },
+ {
+  "name": "Matt Embree & Vinnie Caruana",
+  "date": "2027-01-10",
+  "price": "£22"
+ },
+ {
+  "name": "Nirvana Tribute",
+  "date": "2027-04-03",
+  "price": "£22.20"
+ },
+ {
+  "name": "Opus Kink",
+  "date": "2027-03-12",
+  "price": "£18.15"
+ },
+ {
+  "name": "PRINCE TRIBUTE - Endorphinemachine Feat Jaylen",
+  "date": "2027-04-23",
+  "price": "£23.87"
+ },
+ {
+  "name": "Slap Rash",
+  "date": "2027-01-28",
+  "price": "£12.10"
+ },
+ {
+  "name": "Slomosa",
+  "date": "2027-04-16",
+  "price": "£24.98"
+ },
+ {
+  "name": "The Gig List Book - 60 Years of Live Music",
+  "date": "2028-01-01",
+  "price": "£19.50"
+ },
+ {
+  "name": "The Lightning Seeds",
+  "date": "2027-12-03",
+  "price": "£37.52"
+ },
+ {
+  "name": "The Wedding Present",
+  "date": "2027-05-03",
+  "price": "£33.60"
+ },
+ {
+  "name": "When Waterfront Was Young",
+  "date": "2027-06-05",
+  "price": "£27.75"
+ },
+ {
+  "name": "Zebrahead",
+  "date": "2027-02-22",
+  "price": "£27.75"
  }
 ]
