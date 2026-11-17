@@ -209,14 +209,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Draw Some Paws",
-    "date": "2026-11-10",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/draw-some-paws-1",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1790619041634-VOG0SELACIZAGCHK05BP/643940468_17852574918681645_1518060599079001872_n.jpg",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "(postponed) GIRLS, GAYS & THEYS FT GLITTER & GLOOM DJS",
     "date": "2026-11-12",
     "url": "https://www.deadwaxnorwich.pub/whats-on/girls-gays-theys-ft-glitter-gloom-djs",
@@ -240,36 +232,12 @@
     "price": ""
   },
   {
-    "venue": "LCR",
-    "event_name": "Little Angels",
-    "date": "2026-11-16",
-    "url": "https://www.ueaticketbookings.co.uk/event/little-angels/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/WF-AND-LCR-MASTERS-USE-THESE-41-500x500.jpg.webp",
-    "price": "£50.63"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Voodoo Daddy’s Open Mic",
-    "date": "2026-11-16",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/voodoo-daddys-open-mic-13/",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Rhyme Against The Machine",
     "date": "2026-11-16",
     "url": "https://www.deadwaxnorwich.pub/whats-on/rhyme-against-the-machine-5",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792427974327-N81YB8OWPHSX6FMWBL9G/RHYME_MONTHLY+%281%29+%281%29.jpg",
     "price": "Free"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Jazz Jam",
-    "date": "2026-11-16",
-    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Epic",
@@ -357,7 +325,7 @@
     "date": "2026-11-19",
     "url": "https://www.eventbrite.co.uk/e/sinkhole-smalltown-vices-skinny-lizzards-the-ted-lake-band-tickets-2001248148083?aff=erelpanelorg",
     "image": "",
-    "price": "£7"
+    "price": "£7–£9"
   },
   {
     "venue": "Epic",
@@ -421,6 +389,14 @@
     "date": "2026-11-20",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1792484806880-5294a948-9972-400a-a249-84d031fad823.jpeg?alt=media&token=a723d974-b50f-42b9-871e-cd7ad2189789",
+    "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "ULTRA White Collar Boxing",
+    "date": "2026-11-20",
+    "url": "https://epic-tv.com/events/event/ultra-white-collar-boxing-nov",
+    "image": "",
     "price": ""
   },
   {
@@ -501,6 +477,14 @@
     "date": "2026-11-21",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1771942526296-FLT111-Shaki-Tavi-Minor-Slip.webp?alt=media&token=f2898463-fb03-4784-a578-cf79d670d600",
+    "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "ULTRA White Collar Boxing",
+    "date": "2026-11-21",
+    "url": "https://epic-tv.com/events/event/ultra-white-collar-boxing-nov-2",
+    "image": "",
     "price": ""
   },
   {
@@ -976,6 +960,14 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "Wilder Fight Night",
+    "date": "2026-11-29",
+    "url": "https://epic-tv.com/events/event/wilder-fight-night",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "LCR",
     "event_name": "The Snuts",
     "date": "2026-11-29",
@@ -1272,6 +1264,14 @@
     "price": ""
   },
   {
+    "venue": "Holloway",
+    "event_name": "Tiny Little Robots (EP Launch) + yer blooze + Molly Willis",
+    "date": "2026-12-10",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1794844861075-IMG_3723.png?alt=media&token=08215046-3894-4af1-9103-41cb5f8d3844",
+    "price": ""
+  },
+  {
     "venue": "Epic",
     "event_name": "Artful Dodger",
     "date": "2026-12-10",
@@ -1552,14 +1552,6 @@
     "price": "£3–£7"
   },
   {
-    "venue": "Holloway",
-    "event_name": "Intruder + Bloodkreig + Rate Of Decay",
-    "date": "2026-12-18",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1789381787636-image%20(1).webp?alt=media&token=4b08c2f4-5fbb-4eed-8901-cee6e9a424f1",
-    "price": ""
-  },
-  {
     "venue": "Epic",
     "event_name": "Too Much Too Young - A Night of 2 Tone, Ska and Beyond",
     "date": "2026-12-18",
@@ -1785,6 +1777,14 @@
   },
   {
     "venue": "Arts Centre",
+    "event_name": "We are closed 23 Dec – 4 Jan",
+    "date": "2027-01-04",
+    "url": "https://norwichartscentre.co.uk/event/we-are-closed-friday-3-april/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2022/06/We-are-closed-2022-62a8665c70827-800x450-c-default.jpg",
+    "price": ""
+  },
+  {
+    "venue": "Arts Centre",
     "event_name": "John Otway & Wild Willy Barrett",
     "date": "2027-01-08",
     "url": "https://norwichartscentre.co.uk/event/john-otway-wild-willy-barrett/",
@@ -1862,6 +1862,14 @@
     "url": "https://norwichartscentre.co.uk/event/kezia-gill-solo-acoustic/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/KEZIA-GILL-FB-EVENT-NORWICH-6af5e4a6e31aa-800x450-c-default.jpg",
     "price": "£26–£29.50"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Billy Lubach",
+    "date": "2027-01-21",
+    "url": "https://norwichartscentre.co.uk/event/billy-lubach/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Press6-6afc1d6513951-scaled-800x450-c-default.jpg",
+    "price": "£10–£12"
   },
   {
     "venue": "Voodoos",
@@ -2788,7 +2796,7 @@
     "event_name": "Sofy",
     "date": "2027-03-17",
     "url": "https://www.ueaticketbookings.co.uk/event/sofy/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/sofy-02-2-500x500.png.webp",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/sofy-0-sq-500x500.png.webp",
     "price": "£16.50"
   },
   {
@@ -2982,6 +2990,14 @@
     "url": "https://www.norwich.gov.uk/thehalls/let-music-play-celebration-barry-white",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-10/Barry%20White%201630x1051%20.png?itok=8Hd1jMKk",
     "price": ""
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "The Ultimate Nirvana Tribute",
+    "date": "2027-04-03",
+    "url": "https://www.ueaticketbookings.co.uk/event/nirvana-tribute/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Nirvana-Tribute-SQ.png.webp",
+    "price": "£22.20"
   },
   {
     "venue": "Arts Centre",
