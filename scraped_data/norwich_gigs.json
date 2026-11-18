@@ -33,14 +33,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Diving Deep with Rad Pitt + With Teeth",
-    "date": "2026-05-12",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/diving-deep-with-rad-pitt-with-teeth",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792346199461-3HOMBYC6CFYOPLDUBQHZ/11929.png",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "martin martin (dj)",
     "date": "2026-05-12",
     "url": "https://www.deadwaxnorwich.pub/whats-on/martin-martin-dj",
@@ -238,46 +230,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/rhyme-against-the-machine-5",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792427974327-N81YB8OWPHSX6FMWBL9G/RHYME_MONTHLY+%281%29+%281%29.jpg",
     "price": "Free"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "The Lazy I (The Green Room)",
-    "date": "2026-11-17",
-    "url": "https://epic-tv.com/events/event/the-lazy-i-the-green-room",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Mississippi Records presents: A People’s History of Music",
-    "date": "2026-11-17",
-    "url": "https://norwichartscentre.co.uk/event/mississippi-records-presents-a-peoples-history-of-music/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Screenshot-2026-08-26-at-14.41.24-6a8eed0b66b5c-800x450-c-default.png",
-    "price": "£10–£12"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "The Commoners",
-    "date": "2026-11-17",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-commoners/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/imresizer-TheCommoners-Norwich-Square-500x500.jpg.webp",
-    "price": "£25.53"
-  },
-  {
-    "venue": "LCR",
-    "event_name": "Shed Seven",
-    "date": "2026-11-17",
-    "url": "https://www.ueaticketbookings.co.uk/event/shed-seven/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Shed7_Norwich_Socials_1080-x-1080-500x500.jpg.webp",
-    "price": ""
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "NEW NOISE! Tiny Vessels + kirakira + Scarlett Hogg",
-    "date": "2026-11-17",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/new-noise/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI2LzEwLzIzLzExLzM4L1JhY2tNdWx0aXBhcnQyMDI2MTAyNi01Ny00d3kxenguanBnIl1d?ar=16:9&fit=crop",
-    "price": "£5"
   },
   {
     "venue": "Space",
@@ -1140,7 +1092,7 @@
     "event_name": "T>I: The Residency - Clipz",
     "date": "2026-12-05",
     "url": "https://www.fatsoma.com/e/8l08hndq/t-i-the-residency-clipz",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI5LzE1LzIyLzI3LzE2L1JhY2tNdWx0aXBhcnQyMDI2MTAyOS01Ni1ic3Rnc2cucG5nIl1d",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzE4LzE0LzIzLzI1LzIxMC9SYWNrTXVsdGlwYXJ0MjAyNjExMTgtNjMtMWVvbzc0LnBuZyJdXQ",
     "price": "£7–£12"
   },
   {
@@ -1624,6 +1576,14 @@
     "price": "£3–£7"
   },
   {
+    "venue": "Holloway",
+    "event_name": "Holloway Xmas Party",
+    "date": "2026-12-19",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1795001039492-0E7D0C3C-CD02-4059-AE83-96D07A1E92D5.jpeg?alt=media&token=a3ca8ca9-bcad-4b2d-8163-2cd118a9bc30",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "ReWork Christmas presents Bag of Cans",
     "date": "2026-12-19",
@@ -1652,7 +1612,7 @@
     "event_name": "Day Fever",
     "date": "2026-12-19",
     "url": "https://www.ueaticketbookings.co.uk/event/day-fever/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Norwich-19_12-1080x1080--500x500.png.webp",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Day-Fever-SQ-Sleigh-Fever-500x500.png.webp",
     "price": "£13.20"
   },
   {
@@ -3261,7 +3221,7 @@
     "date": "2027-05-08",
     "url": "https://www.ueaticketbookings.co.uk/event/jonny-morgan-the-moral-support/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/DP-WF-LCR-17.jpg.webp",
-    "price": ""
+    "price": "£16.50"
   },
   {
     "venue": "Epic",
@@ -3422,6 +3382,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-rattlebacks/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzE5LzE1LzkvNy80NDUvUmFja011bHRpcGFydDIwMjYxMDE5LTU5LTFtMnk4cGYuanBnIl1d?ar=16:9&fit=crop",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Personal Trainer",
+    "date": "2027-05-30",
+    "url": "https://norwichartscentre.co.uk/event/personal-trainer/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-16-at-11.27.12-6afae8a85b94f-800x450-c-default.png",
+    "price": "£18.50–£21"
   },
   {
     "venue": "Arts Centre",
