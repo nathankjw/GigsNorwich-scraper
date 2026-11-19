@@ -201,6 +201,14 @@
   },
   {
     "venue": "Dead Wax",
+    "event_name": "Dub, Sweat & Beers presents: Lionpulse + dub Cavern + DSB Selectas",
+    "date": "2026-11-12",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/dub-sweat-beers-presents-lionpulse-dub-cavern-dsb-selectas",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795025527267-C3QIYLIKNHZJB9BO8011/Screenshot+2026-11-18+at+18.08.11.png",
+    "price": "£5"
+  },
+  {
+    "venue": "Dead Wax",
     "event_name": "(postponed) GIRLS, GAYS & THEYS FT GLITTER & GLOOM DJS",
     "date": "2026-11-12",
     "url": "https://www.deadwaxnorwich.pub/whats-on/girls-gays-theys-ft-glitter-gloom-djs",
@@ -230,46 +238,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/rhyme-against-the-machine-5",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792427974327-N81YB8OWPHSX6FMWBL9G/RHYME_MONTHLY+%281%29+%281%29.jpg",
     "price": "Free"
-  },
-  {
-    "venue": "Space",
-    "event_name": "Super Space Bros - Tournament",
-    "date": "2026-11-18",
-    "url": "https://www.spacestudiosnorwich.com/event-details-registration/super-space-bros-18th-november",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Scott Lavene - Acoustic Songs & Stories Tour",
-    "date": "2026-11-18",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1776329819321-IMG_1801.webp?alt=media&token=16ca4c42-a839-4479-9272-0a89344d0e83",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Martin Harley",
-    "date": "2026-11-18",
-    "url": "https://norwichartscentre.co.uk/event/martin-harley/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/Martin-harley-Press-shot-Extra-698b32dcac1bf-scaled-800x450-c-default.jpg",
-    "price": "£21–£24"
-  },
-  {
-    "venue": "LCR",
-    "event_name": "Chase & Status",
-    "date": "2026-11-18",
-    "url": "https://www.ueaticketbookings.co.uk/event/chase-status/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/WF-AND-LCR-MASTERS-USE-THESE-52.jpg.webp",
-    "price": ""
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Red Richardson",
-    "date": "2026-11-18",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/red-richardson/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvNi8xNi81NC8zMi84MDUvUmFja011bHRpcGFydDIwMjYwNzA2LTY0LTFkNTc1bXEucG5nIl1d?ar=16:9&fit=crop",
-    "price": ""
   },
   {
     "venue": "Space",
@@ -376,6 +344,22 @@
     "price": "£24.98"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "Chrome (Dj set)",
+    "date": "2026-11-20",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/chrome-dj-set-1",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795022672788-AAMDTY8RLJR5SU85GMF1/chrome_20thnov.jpg",
+    "price": "Free"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "Bone machine: a proper indie disco",
+    "date": "2026-11-20",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/bone-machine-a-proper-indie-disco",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795018397541-ER7B6IY9JQGK4R7ENBGH/bonemachine-NOV2.jpg",
+    "price": "Free"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Searchlight Promotions presents... in B2",
     "date": "2026-11-20",
@@ -478,6 +462,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/flat-moon/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvNi8xNS80OC81Ni82NDcvUmFja011bHRpcGFydDIwMjYwNjA2LTU1LTFxanR3ZnUucG5nIl1d?ar=16:9&fit=crop",
     "price": "£10"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "Dreams from '83",
+    "date": "2026-11-21",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/dreams-from-83-1",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795019105863-422YYYD7YJNK0FP0AXGA/Screenshot+2026-11-18+at+16.18.10.png",
+    "price": ""
   },
   {
     "venue": "The Halls",
@@ -776,6 +768,14 @@
     "price": "£37.52"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "Pocket + Sam Russo + Self Torque + Hello Pedro",
+    "date": "2026-11-27",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/pocket-sam-russo-self-torque-hello-pedro",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795023158882-PBW650JTC0QKT6980IQF/POCKET_DW_A4_Poster.jpg",
+    "price": "£10"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Future Radio-Sounds of Norwich",
     "date": "2026-11-27",
@@ -872,6 +872,14 @@
     "price": "£9"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "Star Children Invites: Darby + Tadi the great",
+    "date": "2026-11-28",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/star-children",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795023506649-30DSK9B2DIZ5TIJTXIH3/star+children+november.jpeg",
+    "price": ""
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Punk Up City 2 at B2",
     "date": "2026-11-28",
@@ -900,7 +908,7 @@
     "event_name": "Norwich: DJ Luck & MC Neat - Garage Brunch Day Party (Indoor & Heated) - Saturday 28th November",
     "date": "2026-11-28",
     "url": "https://fixr.co/event/norwich-dj-luck-mc-neat-garage-brunch-day-party-in-tickets-734094727",
-    "image": "https://fixr-cdn.fixr.co/images/event/2026-10/2e0c2afcd60a4386976bb5785945a2da.jpeg",
+    "image": "https://fixr-cdn.fixr.co/images/event/2026-11/f892f16e65784d71a75331d01777486d.jpg",
     "price": "£10"
   },
   {
@@ -934,6 +942,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/birdwitch-forlorn/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMTUvMTIvMjIvNDgvODQwL1JhY2tNdWx0aXBhcnQyMDI2MDcxNS02NC0xeHg0c2E2LnBuZyJdXQ?ar=16:9&fit=crop",
     "price": "£12"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "big time open mic",
+    "date": "2026-11-29",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/raqoiqjzzydoju4sf5t1c43yswlvws",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795024343742-PGQN1VR0UXGA60YNIJVL/BIGTIME+generic.jpg",
+    "price": "Free"
   },
   {
     "venue": "Waterfront",
@@ -1140,7 +1156,7 @@
     "event_name": "Ash",
     "date": "2026-12-05",
     "url": "https://www.ueaticketbookings.co.uk/event/ash/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/ash-sq.jpg.webp",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/ASH-SQ-SUPPORT.png.webp",
     "price": "£33"
   },
   {
@@ -1400,6 +1416,14 @@
     "price": "£10"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "Punk rock stars in their eyes 2026",
+    "date": "2026-12-12",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/punk-rock-stars-in-their-eyes",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795025212480-OOE166WSB5ERJOG4TIIQ/punkrockstars_A3EDIT.jpg",
+    "price": "£5"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Rattlesnakes - Regional One - Chaos Principal",
     "date": "2026-12-12",
@@ -1488,6 +1512,14 @@
     "price": "£20"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "dreamcast",
+    "date": "2026-12-17",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/wwetybmsb5te2ccpkzf7fy2fjr8dxe",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795026224536-EZAIHA8JON2L02RILZJ6/dream_june2.png",
+    "price": "Free"
+  },
+  {
     "venue": "The Halls",
     "event_name": "An Evening of Dickens - A Christmas Carol",
     "date": "2026-12-17",
@@ -1542,6 +1574,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/pilot-the-dune-master-charger-erronaut/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMTQvMTAvNTkvNDgvMjkvUmFja011bHRpcGFydDIwMjYwNjE0LTU5LTE4ams0b2QuanBnIl1d?ar=16:9&fit=crop",
     "price": "£10"
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "A Klubhaus Christmas",
+    "date": "2026-12-18",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/qi0aahbv8pgv422767q94lbajjiwb1",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795026814992-Z6HO5NSRCXECUX0LVUJ8/Screenshot+2026-11-18+at+18.31.14.png",
+    "price": ""
   },
   {
     "venue": "Brickmakers",
@@ -1624,6 +1664,14 @@
     "price": ""
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "star children invites: love break",
+    "date": "2026-12-19",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/nivmsenb9umrx1cevv9qjdxe10ccc9",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795023657198-J89V44CL2NKQ6SNMQUG6/star+children+december.jpeg",
+    "price": ""
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Xmas Rox Off",
     "date": "2026-12-19",
@@ -1648,6 +1696,14 @@
     "price": ""
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "Festive Cat Life Drawing workshop",
+    "date": "2026-12-20",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/festive-cat-life-drawing-class",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795027245773-LEBEZ7N3GCRFKSG2S602/draw+some+paws.jpg",
+    "price": ""
+  },
+  {
     "venue": "Ribs of Beef",
     "event_name": "Those Deadbeat Cats",
     "date": "2026-12-20",
@@ -1662,6 +1718,14 @@
     "url": "https://epic-tv.com/events/event/the-santa-show",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Dead Wax",
+    "event_name": "Rhyme against the machine",
+    "date": "2026-12-21",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/m7gwtclwcndfadx4d25ymbzesgbllb",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795027600552-DRGK2B15STH7DKLOB6MW/RHYME_MONTHLY+%281%29.jpg",
+    "price": "Free"
   },
   {
     "venue": "Dead Wax",
@@ -1838,6 +1902,14 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/perrl-presents-chuck-ragan-plus-special-guests/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMjMvMTcvMjMvMTgvNjA1L1JhY2tNdWx0aXBhcnQyMDI2MDYyMy02Ni1qY2p1ZTAucG5nIl1d?ar=16:9&fit=crop",
     "price": "£25"
+  },
+  {
+    "venue": "Gonzos",
+    "event_name": "Eats Everything",
+    "date": "2027-01-22",
+    "url": "https://www.fatsoma.com/e/4d4n7x0f/eats-everything",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzE4LzE0LzExLzQwLzEwMy9SYWNrTXVsdGlwYXJ0MjAyNjExMTgtNTktajc1ZjRuLnBuZyJdXQ",
+    "price": "£10–£15"
   },
   {
     "venue": "Arts Centre",
@@ -2168,6 +2240,14 @@
     "price": "£22.20–£27.75"
   },
   {
+    "venue": "Holloway",
+    "event_name": "Nadeem Din-Gabisi + Maria Uzor + Tadi the Great",
+    "date": "2027-02-09",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1795016501459-IMG_3733.png?alt=media&token=c7e888a6-9734-45c9-bdd9-95c32d841e0d",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Eliza Carthy & The Restitution",
     "date": "2027-02-09",
@@ -2350,6 +2430,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/as-everything-unfolds/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-resize-AEU_Square-500x500.jpg.webp",
     "price": "£22.20"
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Jamie Lenman",
+    "date": "2027-02-18",
+    "url": "https://www.ueaticketbookings.co.uk/event/jamie-lenman/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/JamieLenman_SQ-500x500.png.webp",
+    "price": ""
   },
   {
     "venue": "Epic",
@@ -2622,6 +2710,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/the-blockheads/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/The-Blockheads_Square-500x500.png.webp",
     "price": "£31.08"
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Heavy Wild",
+    "date": "2027-03-05",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/heavy-wild/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzMvMTQvNDAvMjkvNDcwL1JhY2tNdWx0aXBhcnQyMDI2MTEwMy02MS0xZDlpamcxLmpwZyJdXQ?ar=16:9&fit=crop",
+    "price": "£10"
   },
   {
     "venue": "Waterfront",
@@ -3510,14 +3606,6 @@
     "url": "https://www.ueaticketbookings.co.uk/event/the-ruts/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/The-Ruts-1080-x-1080-500x500.jpg.webp",
     "price": "£30.53"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Newton Faulkner - 20th Anniversary Tour",
-    "date": "2027-11-02",
-    "url": "https://epic-tv.com/events/event/newton-faulkner-20th-anniversary-tour",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "LCR",
