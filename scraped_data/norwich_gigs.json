@@ -81,22 +81,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Alternative Disco",
-    "date": "2026-10-16",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/alternative-disco-1",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791225520557-WVZB4SSLDP6PGTYUUGYL/ALTERNATIVEDISCO_octa3.jpg",
-    "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
-    "event_name": "Clownsmasheverything + Project Mork + Amongst Strangers",
-    "date": "2026-10-17",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/clownsmasheverything-project-mork-amongst-strangers",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788968624321-CP0MNZEPXTZ6SWLUTZG7/2026_09_05_0me_Kleki.png",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "phage records & killtown present: ceremonial bloodbath, cryptworm, plagued",
     "date": "2026-10-20",
     "url": "https://www.deadwaxnorwich.pub/whats-on/0y5pf68y7b2yqq5v03sqhh3oo8lbau",
@@ -248,38 +232,6 @@
     "price": "Free"
   },
   {
-    "venue": "Space",
-    "event_name": "Togetherness",
-    "date": "2026-11-20",
-    "url": "http://www.astralproj.club/tickets",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "Twisted Skunk presents Stanton Warriors",
-    "date": "2026-11-20",
-    "url": "https://www.fatsoma.com/e/8zm0r0mh/twisted-skunk-presents-stanton-warriors",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEzLzgvNTgvNDYvNjA1L1JhY2tNdWx0aXBhcnQyMDI2MTAxMy03OS0xdWZncmR3LmpwZWciXV0",
-    "price": "£10"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Katz Mulk + Germ Lattice + Phil Julian",
-    "date": "2026-11-20",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1792484806880-5294a948-9972-400a-a249-84d031fad823.jpeg?alt=media&token=a723d974-b50f-42b9-871e-cd7ad2189789",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Stone Foundation",
-    "date": "2026-11-20",
-    "url": "https://norwichartscentre.co.uk/event/stone-foundation/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/Unknown-698089a3bb625-800x450-c-default.png",
-    "price": "£26–£29.50"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "The High Points",
     "date": "2026-11-20",
@@ -297,14 +249,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "Chrome (Dj set)",
-    "date": "2026-11-20",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/chrome-dj-set-1",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795022672788-AAMDTY8RLJR5SU85GMF1/chrome_20thnov.jpg",
-    "price": "Free"
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "Bone machine: a proper indie disco",
     "date": "2026-11-20",
     "url": "https://www.deadwaxnorwich.pub/whats-on/bone-machine-a-proper-indie-disco",
@@ -312,28 +256,12 @@
     "price": "Free"
   },
   {
-    "venue": "Brickmakers",
-    "event_name": "Searchlight Promotions presents... in B2",
+    "venue": "Dead Wax",
+    "event_name": "Chrome (Dj set)",
     "date": "2026-11-20",
-    "url": "https://www.norfolkgigguide.com/band-details/Searchlight+Promotions+presents...+in+B2",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Rawkas",
-    "date": "2026-11-20",
-    "url": "https://www.norfolkgigguide.com/band-details/Rawkas",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Revinyl Sessions",
-    "date": "2026-11-20",
-    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
-    "image": "",
-    "price": ""
+    "url": "https://www.deadwaxnorwich.pub/whats-on/chrome-dj-set-1",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795022672788-AAMDTY8RLJR5SU85GMF1/chrome_20thnov.jpg",
+    "price": "Free"
   },
   {
     "venue": "Space",
@@ -368,28 +296,12 @@
     "price": ""
   },
   {
-    "venue": "Epic",
-    "event_name": "ULTRA White Collar Boxing",
-    "date": "2026-11-21",
-    "url": "https://epic-tv.com/events/event/ultra-white-collar-boxing-nov-2",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Maddermarket",
     "event_name": "Intellectual Hooligans",
     "date": "2026-11-21",
     "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=48401",
     "image": "https://system.spektrix.com/themaddermarkettheatre/files/6bc762d0-8b04-474a-ade5-1d31b221f932.jpg",
     "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "Pop-Up World Beer Sale",
-    "date": "2026-11-21",
-    "url": "https://norwichartscentre.co.uk/event/world-beer-sale/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2021/03/World-Beer-Sale-6064e86f40e82-800x450-c-default.jpg",
-    "price": "Free"
   },
   {
     "venue": "Waterfront",
@@ -413,7 +325,7 @@
     "date": "2026-11-21",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/flat-moon/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvNi8xNS80OC81Ni82NDcvUmFja011bHRpcGFydDIwMjYwNjA2LTU1LTFxanR3ZnUucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£10"
+    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -3528,20 +3440,20 @@
     "price": "£18–£20.50"
   },
   {
+    "venue": "Maddermarket",
+    "event_name": "This Is Floyd",
+    "date": "2027-08-07",
+    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=131801",
+    "image": "https://system.spektrix.com/themaddermarkettheatre/files/4d702727-5ea6-4eb7-8951-bde1e874c06a.jpg",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Tom Robinson Band",
     "date": "2027-08-08",
     "url": "https://norwichartscentre.co.uk/event/tom-robinson-band/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/TRB-Norwich-Square-6af735e307288-800x450-c-default.jpg",
     "price": "£27.50–£31"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Rock N Roll Circus – Blossoms",
-    "date": "2027-08-20",
-    "url": "https://www.ueaticketbookings.co.uk/event/rock-n-roll-circus-blossoms/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/RNRC27_Norwich_Fri_20_JAugust_1080x1080-500x500.png.webp",
-    "price": "£0–£108.90"
   },
   {
     "venue": "Maddermarket",
