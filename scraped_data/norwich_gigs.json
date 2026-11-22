@@ -264,46 +264,6 @@
     "price": "Free"
   },
   {
-    "venue": "Space",
-    "event_name": "Super Sad Saturday Shakedown",
-    "date": "2026-11-21",
-    "url": "https://www.tickettailor.com/events/ouroldlife/2401256?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAVhkn1leHRuA2FlbQIxMQBwZG9mAmZkaWQWUSD3VnsSyC5MZSPvgd5CB0oOm5GxUHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp16Yb4OU-q-iwjDZlTK5g7jRSFpTF0iwSBqSGRp_naV9q8QjXyB2nsfktc95_aem_XMNLn1CqF8KVyiQc5jbF3Q",
-    "image": "",
-    "price": "£9"
-  },
-  {
-    "venue": "Space",
-    "event_name": "Rebel Lion - Jamaica Aid",
-    "date": "2026-11-21",
-    "url": "https://www.fatsoma.com/e/ol7gt1ey/norwich-jamaica-aid-fundraiser",
-    "image": "",
-    "price": "£10–£20"
-  },
-  {
-    "venue": "Gonzos",
-    "event_name": "Olive F",
-    "date": "2026-11-21",
-    "url": "https://www.fatsoma.com/e/nt63oea4/olive-f",
-    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzkvMTEvNi8xLzMwLzgxNy9SYWNrTXVsdGlwYXJ0MjAyNjA5MTEtNTUtMWl2cjcxYi5wbmciXV0",
-    "price": "£5–£10"
-  },
-  {
-    "venue": "Holloway",
-    "event_name": "Shaki Tavi (LA Grunge/Shoegaze) + Twelve Atlas + Branches for Teeth",
-    "date": "2026-11-21",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1771942526296-FLT111-Shaki-Tavi-Minor-Slip.webp?alt=media&token=f2898463-fb03-4784-a578-cf79d670d600",
-    "price": ""
-  },
-  {
-    "venue": "Maddermarket",
-    "event_name": "Intellectual Hooligans",
-    "date": "2026-11-21",
-    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=48401",
-    "image": "https://system.spektrix.com/themaddermarkettheatre/files/6bc762d0-8b04-474a-ade5-1d31b221f932.jpg",
-    "price": ""
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Skids + Theatre of Hate (co-headline)",
     "date": "2026-11-21",
@@ -320,14 +280,6 @@
     "price": "£16.50"
   },
   {
-    "venue": "Voodoos",
-    "event_name": "Flat Moon",
-    "date": "2026-11-21",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/flat-moon/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvNi8xNS80OC81Ni82NDcvUmFja011bHRpcGFydDIwMjYwNjA2LTU1LTFxanR3ZnUucG5nIl1d?ar=16:9&fit=crop",
-    "price": ""
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Dreams from '83",
     "date": "2026-11-21",
@@ -341,22 +293,6 @@
     "date": "2026-11-21",
     "url": "https://www.norwich.gov.uk/thehalls/songs-wild-sam-lee-live-norwich",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-05/Screenshot%202026-05-22%20152935.jpg?h=e5f526eb&itok=dMVhHtNU",
-    "price": ""
-  },
-  {
-    "venue": "HMV",
-    "event_name": "Fool’s Moon",
-    "date": "2026-11-21",
-    "url": "https://www.instagram.com/hmv_norwich/?hl=en",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "AD.BRK presents B2B",
-    "date": "2026-11-21",
-    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
-    "image": "",
     "price": ""
   },
   {
