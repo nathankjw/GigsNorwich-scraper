@@ -248,44 +248,12 @@
     "price": ""
   },
   {
-    "venue": "LCR",
-    "event_name": "Getdown Services",
-    "date": "2026-11-23",
-    "url": "https://www.ueaticketbookings.co.uk/event/getdown-services/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/GetdownServices_LCR_Square-1-500x500.png.webp",
-    "price": "£24.42"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Kasador + The Bungees + DH Temple",
-    "date": "2026-11-23",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/kasador-the-bungees/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzgvNy85LzEwLzQ3Lzk2MC9SYWNrTXVsdGlwYXJ0MjAyNjA4MDctNTgtMWw0cXRtdy5qcGciXV0?ar=16:9&fit=crop",
-    "price": "£13"
-  },
-  {
-    "venue": "Revolucion de Cuba",
-    "event_name": "Strictly Salsa Norwich",
-    "date": "2026-11-23",
-    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
-    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
-    "price": "£5–£7"
-  },
-  {
-    "venue": "Last Pub",
-    "event_name": "Jazz Jam",
-    "date": "2026-11-23",
-    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "PONY UP presents COWBOYY",
+    "venue": "Epic",
+    "event_name": "Round Midnight presents corto.alto",
     "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
-    "price": "£10–£12"
+    "url": "https://epic-tv.com/events/event/round-midnight-presents-cortoalto",
+    "image": "",
+    "price": "£25.53"
   },
   {
     "venue": "Arts Centre",
@@ -294,6 +262,14 @@
     "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
     "price": "£22–£25"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "PONY UP presents COWBOYY",
+    "date": "2026-11-24",
+    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
+    "price": "£10–£12"
   },
   {
     "venue": "Waterfront",
@@ -310,14 +286,6 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/parviz-wiffeney/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMjYvMjEvMi81MC85MzcvUmFja011bHRpcGFydDIwMjYwNjI2LTU3LTE3N2p5dzIucG5nIl1d?ar=16:9&fit=crop",
     "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Round Midnight presents corto.alto",
-    "date": "2026-11-24",
-    "url": "https://epic-tv.com/events/event/round-midnight-presents-cortoalto",
-    "image": "",
-    "price": "£25.53"
   },
   {
     "venue": "LCR",
@@ -357,6 +325,14 @@
     "date": "2026-11-26",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1791098272999-IMG_3383.jpeg?alt=media&token=442ae0c7-6897-4cbc-a125-58f6ab2bbc66",
+    "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "The Ogretones",
+    "date": "2026-11-26",
+    "url": "https://epic-tv.com/events/event/the-ogretones",
+    "image": "",
     "price": ""
   },
   {
@@ -400,14 +376,6 @@
     "price": ""
   },
   {
-    "venue": "Epic",
-    "event_name": "The Ogretones",
-    "date": "2026-11-26",
-    "url": "https://epic-tv.com/events/event/the-ogretones",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Space",
     "event_name": "Chubaby",
     "date": "2026-11-27",
@@ -437,6 +405,14 @@
     "date": "2026-11-27",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1788298335920-IMG_3205.jpeg?alt=media&token=d39eb71d-9802-4c4a-9bb3-b67fbcd39516",
+    "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Martin Kemp - Back to the 80s",
+    "date": "2026-11-27",
+    "url": "https://epic-tv.com/events/event/martin-kemp-back-to-the-80s",
+    "image": "",
     "price": ""
   },
   {
@@ -520,14 +496,6 @@
     "price": ""
   },
   {
-    "venue": "Epic",
-    "event_name": "Martin Kemp - Back to the 80s",
-    "date": "2026-11-27",
-    "url": "https://epic-tv.com/events/event/martin-kemp-back-to-the-80s",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Space",
     "event_name": "Grl Dem",
     "date": "2026-11-28",
@@ -549,6 +517,14 @@
     "date": "2026-11-28",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790708561970-IMG_3356.webp?alt=media&token=951baf0c-fce2-4473-8d2c-1351b2a730e1",
+    "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Groove Armada DJ Set + Support",
+    "date": "2026-11-28",
+    "url": "https://epic-tv.com/events/event/groove-armada-dj-set-support",
+    "image": "",
     "price": ""
   },
   {
@@ -641,9 +617,9 @@
   },
   {
     "venue": "Epic",
-    "event_name": "Groove Armada DJ Set + Support",
-    "date": "2026-11-28",
-    "url": "https://epic-tv.com/events/event/groove-armada-dj-set-support",
+    "event_name": "Wilder Fight Night",
+    "date": "2026-11-29",
+    "url": "https://epic-tv.com/events/event/wilder-fight-night",
     "image": "",
     "price": ""
   },
@@ -672,20 +648,20 @@
     "price": "Free"
   },
   {
-    "venue": "Epic",
-    "event_name": "Wilder Fight Night",
-    "date": "2026-11-29",
-    "url": "https://epic-tv.com/events/event/wilder-fight-night",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Waterfront",
     "event_name": "The Temperance Movement",
     "date": "2026-11-30",
     "url": "https://www.ueaticketbookings.co.uk/event/the-temperance-movement/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/TTM-SQ-1-1-500x500.jpg.webp",
     "price": "£33.60"
+  },
+  {
+    "venue": "Revolucion de Cuba",
+    "event_name": "Strictly Salsa Norwich",
+    "date": "2026-11-30",
+    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
+    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
+    "price": "£5–£7"
   },
   {
     "venue": "Last Pub",
@@ -728,6 +704,14 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "The Wildhearts",
+    "date": "2026-12-03",
+    "url": "https://epic-tv.com/events/event/the-wildhearts",
+    "image": "",
+    "price": "£33.60"
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "The Allergies (Live)",
     "date": "2026-12-03",
@@ -758,14 +742,6 @@
     "url": "https://www.norfolkgigguide.com/band-details/The+Blue+Lion+Band",
     "image": "",
     "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "The Wildhearts",
-    "date": "2026-12-03",
-    "url": "https://epic-tv.com/events/event/the-wildhearts",
-    "image": "",
-    "price": "£33.60"
   },
   {
     "venue": "Gonzos",
@@ -960,6 +936,14 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "Artful Dodger",
+    "date": "2026-12-10",
+    "url": "https://epic-tv.com/events/event/artful-dodger",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Round Midnight presents Ancient Infinity Orchestra",
     "date": "2026-12-10",
@@ -988,14 +972,6 @@
     "event_name": "Open Mic with Peter T",
     "date": "2026-12-10",
     "url": "https://www.norfolkgigguide.com/band-details/Open+Mic+with+Peter+T",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Artful Dodger",
-    "date": "2026-12-10",
-    "url": "https://epic-tv.com/events/event/artful-dodger",
     "image": "",
     "price": ""
   },
@@ -1080,6 +1056,14 @@
     "price": "£3–£7"
   },
   {
+    "venue": "Epic",
+    "event_name": "Heart Club Classics: The Christmas Bash with Toby Anstis",
+    "date": "2026-12-12",
+    "url": "https://epic-tv.com/events/event/heart-club-classics-the-christmas-bash-with-toby-anstis",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "ZWA presents Dennis Bovell X Rebel Lion Sound System",
     "date": "2026-12-12",
@@ -1152,14 +1136,6 @@
     "price": "£10"
   },
   {
-    "venue": "Epic",
-    "event_name": "Heart Club Classics: The Christmas Bash with Toby Anstis",
-    "date": "2026-12-12",
-    "url": "https://epic-tv.com/events/event/heart-club-classics-the-christmas-bash-with-toby-anstis",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Voodoos",
     "event_name": "Annotations Of An Autopsy",
     "date": "2026-12-13",
@@ -1168,20 +1144,20 @@
     "price": ""
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "The Unthanks In Winter at EPIC Studios",
-    "date": "2026-12-14",
-    "url": "https://norwichartscentre.co.uk/event/the-unthanks-in-winter-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/The-Unthanks-In-Winter-Photo-2-_-COLOUR-_-RGB-16x9-6a2fd7592b2e4-scaled-800x450-c-default.jpg",
-    "price": "£35–£39.50"
-  },
-  {
     "venue": "Epic",
     "event_name": "The Unthanks In Winter",
     "date": "2026-12-14",
     "url": "https://epic-tv.com/events/event/the-unthanks-in-winter",
     "image": "",
     "price": "£39.20"
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "The Unthanks In Winter at EPIC Studios",
+    "date": "2026-12-14",
+    "url": "https://norwichartscentre.co.uk/event/the-unthanks-in-winter-at-epic-studios/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/The-Unthanks-In-Winter-Photo-2-_-COLOUR-_-RGB-16x9-6a2fd7592b2e4-scaled-800x450-c-default.jpg",
+    "price": "£35–£39.50"
   },
   {
     "venue": "Arts Centre",
@@ -1196,6 +1172,14 @@
     "event_name": "The Psychedelic Circus",
     "date": "2026-12-16",
     "url": "https://www.norfolkgigguide.com/band-details/The+Psychedelic+Circus",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Massaoke Christmas!",
+    "date": "2026-12-17",
+    "url": "https://epic-tv.com/events/event/massaoke-christmas",
     "image": "",
     "price": ""
   },
@@ -1232,20 +1216,20 @@
     "price": ""
   },
   {
-    "venue": "Epic",
-    "event_name": "Massaoke Christmas!",
-    "date": "2026-12-17",
-    "url": "https://epic-tv.com/events/event/massaoke-christmas",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Gonzos",
     "event_name": "Resident Rave",
     "date": "2026-12-18",
     "url": "https://www.fatsoma.com/e/3y8joozg/resident-rave",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI5LzE3LzIzLzU3Lzg4Mi9SYWNrTXVsdGlwYXJ0MjAyNjEwMjktNTUtMWZiMjg5di5wbmciXV0",
     "price": "£3–£7"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Too Much Too Young - A Night of 2 Tone, Ska and Beyond",
+    "date": "2026-12-18",
+    "url": "https://epic-tv.com/events/event/too-much-too-young-a-night-of-2-tone-ska-and-beyond",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -1309,14 +1293,6 @@
     "date": "2026-12-18",
     "url": "https://www.revoluciondecuba.com/events/norwich/12931/tuto-tribe",
     "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Too Much Too Young - A Night of 2 Tone, Ska and Beyond",
-    "date": "2026-12-18",
-    "url": "https://epic-tv.com/events/event/too-much-too-young-a-night-of-2-tone-ska-and-beyond",
-    "image": "",
     "price": ""
   },
   {
@@ -1424,6 +1400,14 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "The Santa Show",
+    "date": "2026-12-21",
+    "url": "https://epic-tv.com/events/event/the-santa-show",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Voodoos",
     "event_name": "The High Points (Christmas Show)",
     "date": "2026-12-21",
@@ -1438,14 +1422,6 @@
     "url": "https://www.deadwaxnorwich.pub/whats-on/m7gwtclwcndfadx4d25ymbzesgbllb",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795027600552-DRGK2B15STH7DKLOB6MW/RHYME_MONTHLY+%281%29.jpg",
     "price": "Free"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "The Santa Show",
-    "date": "2026-12-21",
-    "url": "https://epic-tv.com/events/event/the-santa-show",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Dead Wax",
@@ -1688,6 +1664,14 @@
     "price": "£12"
   },
   {
+    "venue": "Epic",
+    "event_name": "Sleemo - IVW 2027",
+    "date": "2027-01-26",
+    "url": "https://epic-tv.com/events/event/sleemo-ivw-2027",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "PONY UP presents The New Cut",
     "date": "2027-01-26",
@@ -1705,9 +1689,9 @@
   },
   {
     "venue": "Epic",
-    "event_name": "Sleemo - IVW 2027",
-    "date": "2027-01-26",
-    "url": "https://epic-tv.com/events/event/sleemo-ivw-2027",
+    "event_name": "Girl Group - IVW 2027",
+    "date": "2027-01-27",
+    "url": "https://epic-tv.com/events/event/girl-group-ivw-2027",
     "image": "",
     "price": ""
   },
@@ -1748,14 +1732,6 @@
     "event_name": "Norfolk Blues Society at the Brickmakers",
     "date": "2027-01-27",
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Girl Group - IVW 2027",
-    "date": "2027-01-27",
-    "url": "https://epic-tv.com/events/event/girl-group-ivw-2027",
     "image": "",
     "price": ""
   },
@@ -1896,6 +1872,14 @@
     "price": "£44.24"
   },
   {
+    "venue": "Epic",
+    "event_name": "Robben Ford",
+    "date": "2027-02-04",
+    "url": "https://epic-tv.com/events/event/robben-ford",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Split Dogs",
     "date": "2027-02-04",
@@ -1913,9 +1897,9 @@
   },
   {
     "venue": "Epic",
-    "event_name": "Robben Ford",
-    "date": "2027-02-04",
-    "url": "https://epic-tv.com/events/event/robben-ford",
+    "event_name": "Shy Fx",
+    "date": "2027-02-05",
+    "url": "https://epic-tv.com/events/event/shy-fx",
     "image": "",
     "price": ""
   },
@@ -1926,14 +1910,6 @@
     "url": "https://norwichartscentre.co.uk/event/tone-presents-mercy-girl/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Copia-di-Mercy-Girl-Press-Pic-1-crop-6aabea8d152a7-800x450-c-default.jpg",
     "price": "£13–£15"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Shy Fx",
-    "date": "2027-02-05",
-    "url": "https://epic-tv.com/events/event/shy-fx",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -2000,6 +1976,14 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "4AM Kru - From The Ground Up Tour '27",
+    "date": "2027-02-11",
+    "url": "https://epic-tv.com/events/event/4am-kru-from-the-ground-up-tour-27",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Ben & Tom Waters",
     "date": "2027-02-11",
@@ -2020,14 +2004,6 @@
     "event_name": "Open  mic  night with Peter Turrell",
     "date": "2027-02-11",
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "4AM Kru - From The Ground Up Tour '27",
-    "date": "2027-02-11",
-    "url": "https://epic-tv.com/events/event/4am-kru-from-the-ground-up-tour-27",
     "image": "",
     "price": ""
   },
@@ -2064,6 +2040,14 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "Sophie McCartney - Back in the Day Rave",
+    "date": "2027-02-13",
+    "url": "https://epic-tv.com/events/event/sophie-mccartney-back-in-the-day-rave",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Maddermarket",
     "event_name": "Women In Rock",
     "date": "2027-02-13",
@@ -2092,14 +2076,6 @@
     "event_name": "Damage",
     "date": "2027-02-13",
     "url": "https://www.norfolkgigguide.com/band-details/Damage",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Sophie McCartney - Back in the Day Rave",
-    "date": "2027-02-13",
-    "url": "https://epic-tv.com/events/event/sophie-mccartney-back-in-the-day-rave",
     "image": "",
     "price": ""
   },
@@ -2144,6 +2120,14 @@
     "price": "£36.40"
   },
   {
+    "venue": "Epic",
+    "event_name": "Maisie Adam: Whatsherface",
+    "date": "2027-02-18",
+    "url": "https://epic-tv.com/events/event/maisie-adam-whatsherface",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "The Bones of J.R. Jones",
     "date": "2027-02-18",
@@ -2169,9 +2153,9 @@
   },
   {
     "venue": "Epic",
-    "event_name": "Maisie Adam: Whatsherface",
-    "date": "2027-02-18",
-    "url": "https://epic-tv.com/events/event/maisie-adam-whatsherface",
+    "event_name": "Elvana: Elvis Fronted Nirvana",
+    "date": "2027-02-19",
+    "url": "https://epic-tv.com/events/event/elvana-elvis-fronted-nirvana",
     "image": "",
     "price": ""
   },
@@ -2201,9 +2185,9 @@
   },
   {
     "venue": "Epic",
-    "event_name": "Elvana: Elvis Fronted Nirvana",
-    "date": "2027-02-19",
-    "url": "https://epic-tv.com/events/event/elvana-elvis-fronted-nirvana",
+    "event_name": "Absolute Bowie",
+    "date": "2027-02-20",
+    "url": "https://epic-tv.com/events/event/absolute-bowie",
     "image": "",
     "price": ""
   },
@@ -2216,12 +2200,12 @@
     "price": "£26–£29.50"
   },
   {
-    "venue": "Epic",
-    "event_name": "Absolute Bowie",
+    "venue": "Voodoos",
+    "event_name": "Green shuck presents MonkeyFist, Triple B & Dub, Sweat and Beers",
     "date": "2027-02-20",
-    "url": "https://epic-tv.com/events/event/absolute-bowie",
-    "image": "",
-    "price": ""
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/green-shuck-presents-monkeyfist-triple-b-dub-sweat-and-beers/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzEwLzQwLzUwLzUyNy9SYWNrTXVsdGlwYXJ0MjAyNjExMjQtNTktbHBuYmc2LmpwZWciXV0?ar=16:9&fit=crop",
+    "price": "£10"
   },
   {
     "venue": "Arts Centre",
@@ -2344,6 +2328,14 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "The Rasmus + Support",
+    "date": "2027-02-26",
+    "url": "https://epic-tv.com/events/event/the-rasmus-support",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Dick & Dom – DnB Rave",
     "date": "2027-02-26",
@@ -2361,9 +2353,9 @@
   },
   {
     "venue": "Epic",
-    "event_name": "The Rasmus + Support",
-    "date": "2027-02-26",
-    "url": "https://epic-tv.com/events/event/the-rasmus-support",
+    "event_name": "Rob Lamberti presents Perfectly George",
+    "date": "2027-02-27",
+    "url": "https://epic-tv.com/events/event/rob-lamberti-presents-perfectly-george",
     "image": "",
     "price": ""
   },
@@ -2380,14 +2372,6 @@
     "event_name": "Bootleg Boss",
     "date": "2027-02-27",
     "url": "https://www.norfolkgigguide.com/band-details/Bootleg+Boss",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Rob Lamberti presents Perfectly George",
-    "date": "2027-02-27",
-    "url": "https://epic-tv.com/events/event/rob-lamberti-presents-perfectly-george",
     "image": "",
     "price": ""
   },
@@ -2416,6 +2400,14 @@
     "price": "£31.36"
   },
   {
+    "venue": "Epic",
+    "event_name": "Queenz - Battle Of The Divas!",
+    "date": "2027-03-04",
+    "url": "https://epic-tv.com/events/event/queenz-battle-of-the-divas",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Family Stereo",
     "date": "2027-03-04",
@@ -2433,9 +2425,9 @@
   },
   {
     "venue": "Epic",
-    "event_name": "Queenz - Battle Of The Divas!",
-    "date": "2027-03-04",
-    "url": "https://epic-tv.com/events/event/queenz-battle-of-the-divas",
+    "event_name": "Bay City Rollers",
+    "date": "2027-03-05",
+    "url": "https://epic-tv.com/events/event/bay-city-rollers",
     "image": "",
     "price": ""
   },
@@ -2464,20 +2456,20 @@
     "price": "£10"
   },
   {
-    "venue": "Epic",
-    "event_name": "Bay City Rollers",
-    "date": "2027-03-05",
-    "url": "https://epic-tv.com/events/event/bay-city-rollers",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Nouvelle Vague",
     "date": "2027-03-07",
     "url": "https://www.ueaticketbookings.co.uk/event/nouvelle-vague/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/NouvelleVague-03-500x500.png.webp",
     "price": "£36.40"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "An Evening with Nik Kershaw: Musings and Lyrics",
+    "date": "2027-03-10",
+    "url": "https://epic-tv.com/events/event/an-evening-with-nik-kershaw-musings-and-lyrics",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -2492,14 +2484,6 @@
     "event_name": "Black Dog  Music",
     "date": "2027-03-10",
     "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "An Evening with Nik Kershaw: Musings and Lyrics",
-    "date": "2027-03-10",
-    "url": "https://epic-tv.com/events/event/an-evening-with-nik-kershaw-musings-and-lyrics",
     "image": "",
     "price": ""
   },
@@ -2536,6 +2520,14 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "Swiftogeddon - The Reputation Special",
+    "date": "2027-03-12",
+    "url": "https://epic-tv.com/events/event/swiftogeddon-the-reputation-special",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Waterfront",
     "event_name": "Opus Kink",
     "date": "2027-03-12",
@@ -2550,14 +2542,6 @@
     "url": "https://www.voodoodaddysshowroom.co.uk/event/rowena-wise/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTYvOS8yMi81Ni80OS9SYWNrTXVsdGlwYXJ0MjAyNjA5MTYtNjItMWh0aDhvZy5qcGciXV0?ar=16:9&fit=crop",
     "price": "£13.20"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Swiftogeddon - The Reputation Special",
-    "date": "2027-03-12",
-    "url": "https://epic-tv.com/events/event/swiftogeddon-the-reputation-special",
-    "image": "",
-    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -2590,6 +2574,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/dan-croll/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-500x500.png.webp",
     "price": "£17.60"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "David Cross: Fake Joy World Tour",
+    "date": "2027-03-16",
+    "url": "https://epic-tv.com/events/event/david-cross-fake-joy-world-tour",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -2632,6 +2624,14 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "Buzzcocks - 50th Anniversary",
+    "date": "2027-03-20",
+    "url": "https://epic-tv.com/events/event/buzzcocks-50th-anniversary",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Konkolo Orchestra",
     "date": "2027-03-20",
@@ -2656,14 +2656,6 @@
     "price": "£33"
   },
   {
-    "venue": "Epic",
-    "event_name": "Buzzcocks - 50th Anniversary",
-    "date": "2027-03-20",
-    "url": "https://epic-tv.com/events/event/buzzcocks-50th-anniversary",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Henge",
     "date": "2027-03-21",
@@ -2680,6 +2672,14 @@
     "price": "£13.20"
   },
   {
+    "venue": "Epic",
+    "event_name": "Rachel Parris: The Rachel Parris Songbook *Date & Venue Change*",
+    "date": "2027-03-24",
+    "url": "https://epic-tv.com/events/event/rachel-parris-the-rachel-parris-songbook-date-venue-change",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "FORM presents GANS",
     "date": "2027-03-24",
@@ -2692,14 +2692,6 @@
     "event_name": "The Psychedelic Circus",
     "date": "2027-03-24",
     "url": "https://www.norfolkgigguide.com/band-details/The+Psychedelic+Circus",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Rachel Parris: The Rachel Parris Songbook *Date & Venue Change*",
-    "date": "2027-03-24",
-    "url": "https://epic-tv.com/events/event/rachel-parris-the-rachel-parris-songbook-date-venue-change",
     "image": "",
     "price": ""
   },
@@ -2768,6 +2760,14 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "Letz Zep - Greatest Hits Show",
+    "date": "2027-04-01",
+    "url": "https://epic-tv.com/events/event/letz-zep-greatest-hits-show",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Waterfront",
     "event_name": "The Lilacs",
     "date": "2027-04-01",
@@ -2777,9 +2777,9 @@
   },
   {
     "venue": "Epic",
-    "event_name": "Letz Zep - Greatest Hits Show",
-    "date": "2027-04-01",
-    "url": "https://epic-tv.com/events/event/letz-zep-greatest-hits-show",
+    "event_name": "Rhythm of the 90's",
+    "date": "2027-04-02",
+    "url": "https://epic-tv.com/events/event/rhythm-of-the-90s",
     "image": "",
     "price": ""
   },
@@ -2797,14 +2797,6 @@
     "date": "2027-04-02",
     "url": "https://www.norwich.gov.uk/thehalls/let-music-play-celebration-barry-white",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-10/Barry%20White%201630x1051%20.png?itok=8Hd1jMKk",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Rhythm of the 90's",
-    "date": "2027-04-02",
-    "url": "https://epic-tv.com/events/event/rhythm-of-the-90s",
-    "image": "",
     "price": ""
   },
   {
@@ -2960,11 +2952,11 @@
     "price": "£26–£29.50"
   },
   {
-    "venue": "Voodoos",
-    "event_name": "Pica pica, Pica pica! presents Bureau De Change + supports TBA",
-    "date": "2027-04-21",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-bureau-de-change-supports-tba/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzIxLzExLzI5LzUzLzQ2My9SYWNrTXVsdGlwYXJ0MjAyNjExMjEtNjAtMXYyOXFsZS5qcGciXV0?ar=16:9&fit=crop",
+    "venue": "Dead Wax",
+    "event_name": "Phaseshifter x Dead Wax present: Rhododendron + Kulk",
+    "date": "2027-04-20",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/phaseshifter-x-dead-wax-presents-rhododendron-kulk",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795525831293-8PJT4L44TRDT29FCMDXJ/WhatsApp+Image+2026-11-24+at+11.40.15.jpeg",
     "price": ""
   },
   {
@@ -2976,12 +2968,28 @@
     "price": ""
   },
   {
+    "venue": "Voodoos",
+    "event_name": "Pica pica, Pica pica! presents Bureau De Change + supports TBA",
+    "date": "2027-04-21",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-bureau-de-change-supports-tba/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzIxLzExLzI5LzUzLzQ2My9SYWNrTXVsdGlwYXJ0MjAyNjExMjEtNjAtMXYyOXFsZS5qcGciXV0?ar=16:9&fit=crop",
+    "price": ""
+  },
+  {
     "venue": "Holloway",
     "event_name": "Pictish Trail + support",
     "date": "2027-04-23",
     "url": "https://thehollowaynorwich.com/events",
     "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1793894369938-IMG_3637.jpeg?alt=media&token=566916f3-cd83-465d-b3f6-9178b399069b",
     "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Prince Tribute - Endorphinmachine Feat Jolan  Greatest Hits Show",
+    "date": "2027-04-23",
+    "url": "https://epic-tv.com/events/event/prince-tribute-endorphinmachine-feat-jolan-greatest-hits-show",
+    "image": "",
+    "price": "£23.87"
   },
   {
     "venue": "Arts Centre",
@@ -3006,14 +3014,6 @@
     "url": "https://www.ueaticketbookings.co.uk/event/999/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/999-SQ.png.webp",
     "price": "£24.42"
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Prince Tribute - Endorphinmachine Feat Jolan  Greatest Hits Show",
-    "date": "2027-04-23",
-    "url": "https://epic-tv.com/events/event/prince-tribute-endorphinmachine-feat-jolan-greatest-hits-show",
-    "image": "",
-    "price": "£23.87"
   },
   {
     "venue": "Arts Centre",
@@ -3056,6 +3056,14 @@
     "price": "£28.86"
   },
   {
+    "venue": "Holloway",
+    "event_name": "The Sprigs + TBA + TBA",
+    "date": "2027-05-01",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1795513573180-IMG_3751.jpeg?alt=media&token=2f9674dd-e7c6-4cfc-95a9-1f7bc75602ed",
+    "price": ""
+  },
+  {
     "venue": "Waterfront",
     "event_name": "The Wedding Present",
     "date": "2027-05-03",
@@ -3072,20 +3080,20 @@
     "price": "£39.20"
   },
   {
-    "venue": "Arts Centre",
-    "event_name": "Warrington Runcorn New Town Development Plan",
-    "date": "2027-05-07",
-    "url": "https://norwichartscentre.co.uk/event/warrington-runcorn-new-town-development-plan/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/portrait-2026.jpg-6a917af662b5a-800x450-c-default.webp",
-    "price": "£17–£19.50"
-  },
-  {
     "venue": "Epic",
     "event_name": "An Acoustic Evening with Ward Thomas",
     "date": "2027-05-07",
     "url": "https://epic-tv.com/events/event/an-acoustic-evening-with-ward-thomas",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Arts Centre",
+    "event_name": "Warrington Runcorn New Town Development Plan",
+    "date": "2027-05-07",
+    "url": "https://norwichartscentre.co.uk/event/warrington-runcorn-new-town-development-plan/",
+    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/portrait-2026.jpg-6a917af662b5a-800x450-c-default.webp",
+    "price": "£17–£19.50"
   },
   {
     "venue": "Waterfront",
@@ -3100,6 +3108,14 @@
     "event_name": "Emo Fest",
     "date": "2027-05-14",
     "url": "https://epic-tv.com/events/event/emo-fest",
+    "image": "",
+    "price": ""
+  },
+  {
+    "venue": "Epic",
+    "event_name": "The Eminem Experience - May 2027",
+    "date": "2027-05-15",
+    "url": "https://epic-tv.com/events/event/the-eminem-experience-may-2027",
     "image": "",
     "price": ""
   },
@@ -3121,9 +3137,9 @@
   },
   {
     "venue": "Epic",
-    "event_name": "The Eminem Experience - May 2027",
-    "date": "2027-05-15",
-    "url": "https://epic-tv.com/events/event/the-eminem-experience-may-2027",
+    "event_name": "Lindisfarne",
+    "date": "2027-05-16",
+    "url": "https://epic-tv.com/events/event/lindisfarne",
     "image": "",
     "price": ""
   },
@@ -3136,20 +3152,20 @@
     "price": "£20–£23"
   },
   {
-    "venue": "Epic",
-    "event_name": "Lindisfarne",
-    "date": "2027-05-16",
-    "url": "https://epic-tv.com/events/event/lindisfarne",
-    "image": "",
-    "price": ""
-  },
-  {
     "venue": "Arts Centre",
     "event_name": "Norwich Jazz Festival: Emma Rawicz",
     "date": "2027-05-18",
     "url": "https://norwichartscentre.co.uk/event/norwich-jazz-festival-emma-rawicz/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Emma-Rawicz-with-logo-6ac4c10aa586a-e1791298985335-800x450-c-default.jpg",
     "price": "£21–£24"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Thomas Green",
+    "date": "2027-05-20",
+    "url": "https://epic-tv.com/events/event/thomas-green",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -3161,9 +3177,9 @@
   },
   {
     "venue": "Epic",
-    "event_name": "Thomas Green",
-    "date": "2027-05-20",
-    "url": "https://epic-tv.com/events/event/thomas-green",
+    "event_name": "The Tumbling Paddies",
+    "date": "2027-05-21",
+    "url": "https://epic-tv.com/events/event/the-tumbling-paddies",
     "image": "",
     "price": ""
   },
@@ -3188,14 +3204,6 @@
     "event_name": "Mosh Spice",
     "date": "2027-05-21",
     "url": "https://www.norfolkgigguide.com/band-details/Mosh+Spice",
-    "image": "",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "The Tumbling Paddies",
-    "date": "2027-05-21",
-    "url": "https://epic-tv.com/events/event/the-tumbling-paddies",
     "image": "",
     "price": ""
   },
@@ -3232,6 +3240,14 @@
     "price": ""
   },
   {
+    "venue": "Epic",
+    "event_name": "Cream Classics - Norwich",
+    "date": "2027-05-29",
+    "url": "https://epic-tv.com/events/event/cream-classics-norwich",
+    "image": "",
+    "price": ""
+  },
+  {
     "venue": "Waterfront",
     "event_name": "The Smyths",
     "date": "2027-05-29",
@@ -3245,14 +3261,6 @@
     "date": "2027-05-29",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-rattlebacks/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzE5LzE1LzkvNy80NDUvUmFja011bHRpcGFydDIwMjYxMDE5LTU5LTFtMnk4cGYuanBnIl1d?ar=16:9&fit=crop",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "Cream Classics - Norwich",
-    "date": "2027-05-29",
-    "url": "https://epic-tv.com/events/event/cream-classics-norwich",
-    "image": "",
     "price": ""
   },
   {
@@ -3288,20 +3296,20 @@
     "price": "£32.75"
   },
   {
-    "venue": "Waterfront",
-    "event_name": "Nic Cage Against The Machine",
-    "date": "2027-06-11",
-    "url": "https://www.ueaticketbookings.co.uk/event/nic-cage-against-the-machine/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/270611-Core.-Presents-Nic-Cage-Against-The-Machine-Adrian-Flux-Waterfront-Studio-Norwich-Event-Image-500x500.jpg.webp",
-    "price": "£18.15"
-  },
-  {
     "venue": "Epic",
     "event_name": "The Beat ft Ranking Jr",
     "date": "2027-06-11",
     "url": "https://epic-tv.com/events/event/the-beat-ft-ranking-jr",
     "image": "",
     "price": ""
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Nic Cage Against The Machine",
+    "date": "2027-06-11",
+    "url": "https://www.ueaticketbookings.co.uk/event/nic-cage-against-the-machine/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/270611-Core.-Presents-Nic-Cage-Against-The-Machine-Adrian-Flux-Waterfront-Studio-Norwich-Event-Image-500x500.jpg.webp",
+    "price": "£18.15"
   },
   {
     "venue": "Epic",
@@ -3398,5 +3406,13 @@
     "url": "https://www.ueaticketbookings.co.uk/event/the-lightning-seeds/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/LightningSeeds_National_socials_x3_V4_1080-x-1080-500x500.jpg.webp",
     "price": "£37.52"
+  },
+  {
+    "venue": "LCR",
+    "event_name": "Peter Hook & The Light",
+    "date": "2027-12-04",
+    "url": "https://www.ueaticketbookings.co.uk/event/peter-hook-the-light/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Peter-Hook-Light-2027-Norwich_1x1_Grey-500x500.png.webp",
+    "price": "£53.44"
   }
 ]
