@@ -222,6 +222,30 @@ class RealPageStructures(unittest.TestCase):
         d = ed.extract_details(html, "https://example.com/event/x/")
         self.assertTrue(d["description"].startswith("Sample are a Birmingham-based duo"))
 
+    def test_description_inside_block_named_like_page_furniture(self):
+        # The gig sits inside a wrapper whose class contains "sidebar".
+        html = f"""<html><body><div class="content-with-sidebar"><div class="event-head">
+          <h1>FORM presents Sample</h1><strong>Wed 24 Mar 2027</strong></div>
+          <div class="event-body"><p><strong>+ special guests</strong></p><p>{LOREM}</p></div>
+          <div class="booking"><div><strong>Venue</strong> Open from 7.30pm</div></div></div>
+          <div class="site-sidebar"><p>Sign up to our newsletter and never miss a gig again, it is free forever.</p></div>
+          </body></html>"""
+        d = ed.extract_details(html, "https://norwichartscentre.co.uk/event/x/")
+        self.assertTrue(d["description"].startswith("Sample Band are a four-piece"), d.get("description"))
+        self.assertEqual(d["doors"], "19:30")
+
+    def test_description_fallback_after_title(self):
+        # Even if the write-up's own block is removed, the paragraph after the title is used.
+        html = f"""<html><body><main><h1>Sample</h1>
+          <div class="share-and-details"><p>{LOREM}</p></div></main></body></html>"""
+        d = ed.extract_details(html, "https://example.com/event/x/")
+        self.assertTrue(d["description"].startswith("Sample Band are a four-piece"), d.get("description"))
+
+    def test_old_parser_version_is_refetched(self):
+        today = date(2026, 11, 25)
+        self.assertTrue(ed.needs_fetch({"checked": "2026-11-25"}, "2027-03-24", today))
+        self.assertFalse(ed.needs_fetch({"checked": "2026-11-25", "v": ed.PARSER_VERSION}, "2027-03-24", today))
+
     def test_no_description_from_norfolk_gig_guide(self):
         html = page(f"<main><h1>Sample Band</h1><p>Doors 8pm</p><p>{LOREM}</p></main>")
         d = ed.extract_details(html, "https://www.norfolkgigguide.com/band-details/Sample+Band")
@@ -259,14 +283,14 @@ class Refresh(unittest.TestCase):
     def test_rules(self):
         today = date(2026, 11, 25)
         self.assertTrue(ed.needs_fetch(None, "2026-12-20", today))
-        self.assertFalse(ed.needs_fetch({"checked": "2026-11-20"}, "2026-12-20", today))
+        self.assertFalse(ed.needs_fetch({"checked": "2026-11-20", "v": ed.PARSER_VERSION}, "2026-12-20", today))
         self.assertTrue(ed.needs_fetch({"checked": "2026-11-10"}, "2026-12-20", today))
         # gig in 2 days with no time yet: checked again after 2 days
         self.assertTrue(ed.needs_fetch({"checked": "2026-11-23"}, "2026-11-27", today))
-        self.assertFalse(ed.needs_fetch({"checked": "2026-11-23", "time": "19:30"}, "2026-11-27", today))
+        self.assertFalse(ed.needs_fetch({"checked": "2026-11-23", "time": "19:30", "v": ed.PARSER_VERSION}, "2026-11-27", today))
         # a failed fetch is retried the next day
         self.assertTrue(ed.needs_fetch({"checked": "2026-11-24", "error": "HTTP 503"}, "2026-12-20", today))
-        self.assertFalse(ed.needs_fetch({"checked": "2026-11-25", "error": "HTTP 503"}, "2026-12-20", today))
+        self.assertFalse(ed.needs_fetch({"checked": "2026-11-25", "error": "HTTP 503", "v": ed.PARSER_VERSION}, "2026-12-20", today))
 
     def test_skip_listing_pages(self):
         skip = ed.load_skip_urls()

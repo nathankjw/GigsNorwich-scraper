@@ -60,6 +60,10 @@ SITE_CONFIG = ROOT / "blogger" / "site_config.json"
 
 FIELDS = ("time", "doors", "end", "age", "description", "support")
 
+# Bump this when the extraction improves: every saved page is then re-read
+# once (nearest gigs first) instead of waiting for its normal refresh.
+PARSER_VERSION = 2
+
 # ── Refresh rules ─────────────────────────────────────────────────────────────
 REFRESH_DAYS = 10          # re-check every page this often
 SOON_DAYS = 4              # ...but gigs this close get re-checked more often,
@@ -507,10 +511,14 @@ def main_content(soup):
     for tag in soup(["header", "footer"]):
         if not tag.find_parent(["main", "article"]):
             tag.decompose()
+    # Never remove a block that holds the gig's title: on some sites the whole
+    # event sits inside something called e.g. "content-with-sidebar".
+    title = soup.find("h1")
+    protected = set(id(t) for t in title.parents) if title else set()
     for tag in soup.find_all(True):
         if getattr(tag, "decomposed", False) or tag.attrs is None:
             continue
-        if tag.name in ("html", "body", "main", "article"):
+        if tag.name in ("html", "body", "main", "article") or id(tag) in protected:
             continue
         ident = " ".join(tag.get("class", []) or []) + " " + (tag.get("id") or "")
         if ident.strip() and CHROME_HINT.search(ident):
@@ -543,6 +551,20 @@ def description_from_paragraphs(root) -> str | None:
     for p in root.find_all(["p", "div"]):
         if p.name == "div" and p.find(["p", "div"]):
             continue        # only leaf blocks, so we don't grab whole sections
+        text = clean_text(p.get_text(" "))
+        if useful_description(text) and len(text) >= 70:
+            return text
+    return None
+
+
+def description_after_title(page_html: str) -> str | None:
+    """Fallback: the first real paragraph after the page's <h1>, read from the
+    untouched page (in case the clean-up removed the block it was in)."""
+    soup = BeautifulSoup(page_html, "lxml")
+    title = soup.find("h1")
+    if not title:
+        return None
+    for p in title.find_all_next("p", limit=40):
         text = clean_text(p.get_text(" "))
         if useful_description(text) and len(text) >= 70:
             return text
@@ -587,7 +609,7 @@ def extract_details(page_html: str, url: str = "") -> dict:
         if support:
             res["support"] = support
     if "description" not in res:
-        desc = description_from_paragraphs(root) or meta_desc
+        desc = description_from_paragraphs(root) or description_after_title(page_html) or meta_desc
         if desc:
             res["description"] = desc
     if res.get("description"):
@@ -661,6 +683,8 @@ def save_cache(cache: dict) -> None:
 def needs_fetch(entry: dict | None, gig_date: str, today: date) -> bool:
     if not entry or not entry.get("checked"):
         return True
+    if entry.get("v", 1) < PARSER_VERSION:      # read with an older version of this script
+        return True
     try:
         checked = date.fromisoformat(entry["checked"])
         gig = date.fromisoformat(gig_date)
@@ -731,7 +755,7 @@ def run(limit: int = MAX_FETCHES) -> int:
             if i:
                 time.sleep(PER_HOST_DELAY)
             page, err = fetch_page(session, url)
-            entry = {"checked": today.isoformat()}
+            entry = {"checked": today.isoformat(), "v": PARSER_VERSION}
             if page:
                 try:
                     entry.update(extract_details(page, url))

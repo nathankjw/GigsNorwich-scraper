@@ -47,11 +47,78 @@ LONDON = ZoneInfo("Europe/London")
 WEEKDAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 MONTHS_ABBR = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 GA_ID = "G-DVR3H0T1TK"
+
+# ── Pieces of the main site's Blogger theme, so the gig pages look the same ──
+# (logo = the Header widget image; menu = the Main Menu link list; sidebar =
+# the visible "About Us" and "Promote Your Gig" widgets.) Update here if the
+# Blogger theme changes.
+LOGO = ("https://blogger.googleusercontent.com/img/a/AVvXsEi44GMYH4QmY7PfKiuHDRO21lFpG_-Yf1VbOOEQGdKfEub"
+        "TRufP2D_yAi_SKZWkKHrN0vUQlQzIRbRhYEMouTACpXqcW_rnbYfudnqCgXEsw0HR-zN5VYEbAEG1HgPzHLb6RGRhlf3lUDW"
+        "V-ts29C5dimV-cVnh0PZqHbNc4k4n60IbFYuIHTHQ0roJ8pQ=s950")
+MENU = [("Home", ""), ("Venues", "p/music-venues-in-our-city.html"), ("About Us", "p/aboutus.html"),
+        ("Advertisements", "p/advertise.html"), ("List Your Event", "p/list-your-gig.html")]
+BOTTOM_NAV = [("fa-home", "Home", ""), ("fa-map-marker-alt", "Venues", "p/music-venues-in-our-city.html"),
+              ("fa-search", "Search", "#searchInput"), ("fa-bullhorn", "Ads", "p/advertise.html"),
+              ("fa-info-circle", "About Us", "p/aboutus.html")]
+TEAM_PHOTOS = [
+    ("Nathan", "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj50-D7KcvkWMvOC1BK3FxYGLm2zvP2y_paEv2C"
+               "PE4T0Pu8FL3a7sdIupY4JD2X7oiFtqNvm-JDgr-AeJGaPHLYyd7uuyl-Y5h5dViEupdGY7IpCpV_XwOZ7kmIDjszbWRjDvaX1vd"
+               "rKEEPtnY1_gZdk_MuVAdgVj3bK1YbByVJgPkoSYiYv49WKdlB3kQ/s320/NW.webp"),
+    ("Trish", "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcGdC2ZCX8ZHBzLsdwDdpVVcanHLojdjKrDef5"
+              "GLkVI2RIgSYMWoXfU1I76r1AMO_7wsdYXKavtrTNTdnKXy28zZPchO_9lLg4Dc-HOv6tf0lepKNZCkAUuzQOnmAZODB2FOCPl"
+              "f9R9d239w9Nvks-3CBSh-m1EOnfw3YBIDKt4ZCivUvOvntOgZbMK9U/s320/TD.webp"),
+]
+ADVERTISE_FORM = ("https://docs.google.com/forms/d/e/1FAIpQLSewJwaNZmXlq1Q2b7zS7HK0mOzwpFNkPXeN0aCtPpUuuAmKnw/"
+                  "viewform?usp=sharing&ouid=104642703046795432590")
+STAR = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">'
+        '<path d="M12 2l2.9 6.6L22 9.3l-5 4.9 1.2 7.1L12 17.8l-6.2 3.5L7 14.2 2 9.3l7.1-.7z"/></svg>')
+
+
+def site_link(home_url: str, path: str) -> str:
+    """A page on the main (Blogger) site: "" -> home, "p/x.html", "#searchInput"."""
+    return path if path.startswith("http") else home_url.rstrip("/") + "/" + path
+
+
+def header_html(home_url: str) -> str:
+    menu = "".join(f'<li><a href="{esc(site_link(home_url, p))}">{esc(t)}</a></li>' for t, p in MENU)
+    return f"""<header class="site-header">
+  <a class="logo" href="{esc(home_url)}"><img src="{LOGO}" alt="Norwich Gigs - live music in Norwich" width="950" height="497"></a>
+</header>
+<nav class="menu-bar" aria-label="Main menu"><ul>{menu}</ul></nav>"""
+
+
+def sidebar_html(home_url: str) -> str:
+    photos = "".join(f'<img src="{esc(src)}" alt="{esc(name)}" loading="lazy">' for name, src in TEAM_PHOTOS)
+    perks = "".join(f"<li>{STAR}{esc(t)}</li>" for t in
+                    ("Large monthly reach", "Engaged target audience", "Website exposure", "Social media posts"))
+    return f"""<aside class="sidebar">
+  <div class="widget about-widget">
+    <span class="badge">About Us</span>
+    <p>Norwich Gig List is a social enterprise highlighting the fantastic music talent across the fine city -
+    every event and venue, all weighted the same.</p>
+    <div class="thumbs">{photos}</div>
+    <a class="cta" href="{esc(site_link(home_url, 'p/aboutus.html'))}">Meet the team</a>
+  </div>
+  <div class="widget promote-widget">
+    <span class="badge tilt-right">Promote Your Gig</span>
+    <p class="sub">Get featured in Norwich's best music guide!</p>
+    <div class="perks"><h3>Why advertise with us?</h3><ul>{perks}</ul></div>
+    <a class="cta block" href="{esc(ADVERTISE_FORM)}" rel="noopener">Book Featured Advert</a>
+  </div>
+</aside>"""
+
+
+def bottom_nav_html(home_url: str, index_href: str) -> str:
+    items = []
+    for icon, label, path in BOTTOM_NAV:
+        items.append(f'<a href="{esc(site_link(home_url, path))}"><i class="fas {icon}"></i><span>{esc(label)}</span></a>')
+    return f'<nav class="bottom-nav" aria-label="Quick navigation">{"".join(items)}</nav>'
+
 CANCELLED_RE = re.compile(r"postponed|cancel+ed|rescheduled", re.I)
 
 HEAD_LINKS = """<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Lexend+Exa:wght@400;600;700&amp;family=Prompt:wght@400;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">"""
 
 GA = f"""<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
@@ -255,17 +322,22 @@ def page_shell(*, title: str, description: str, canonical: str, css: str, body: 
 {GA}
 </head>
 <body>
-<header class="topbar">
-  <a class="brand" href="{esc(home_url)}">Norwich<span>Gigs</span></a>
-  <nav><a href="{esc(index_href)}">All gigs</a><a href="{esc(home_url)}">Search &amp; calendar</a></nav>
-</header>
+{header_html(home_url)}
+<div class="layout">
+<div class="main-col">
+<p class="crumbs"><a href="{esc(home_url)}">Home</a> <i class="fas fa-chevron-right"></i> <a href="{esc(index_href)}">All gigs</a></p>
 {body}
+</div>
+{sidebar_html(home_url)}
+</div>
 <footer class="site-footer">
   <p>Gig details come from venues and promoters and can change. Please check with the venue before you go.
   Some ticket links are affiliate links.</p>
-  <p><a href="{esc(home_url)}">norwichgigs.com</a> · <a href="https://instagram.com/gigsnorwich" rel="noopener">Instagram</a>
-  · <a href="mailto:norwichgigs@gmail.com">norwichgigs@gmail.com</a></p>
+  <p>Copyright &copy; {date.today().year} <a href="{esc(home_url)}">Norwich Gigs</a> ·
+  <a href="https://instagram.com/gigsnorwich" rel="noopener">Instagram</a> ·
+  <a href="mailto:norwichgigs@gmail.com">norwichgigs@gmail.com</a></p>
 </footer>
+{bottom_nav_html(home_url, index_href)}
 </body>
 </html>
 """
@@ -436,8 +508,8 @@ def not_found_page(home_url: str, css_text: str) -> str:
     return f"""<!DOCTYPE html><html lang="en-GB"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"><title>Gig not found | Norwich Gigs</title>
 <meta name="robots" content="noindex">{HEAD_LINKS}<style>{css_text}</style></head><body>
-<header class="topbar"><a class="brand" href="{esc(home_url)}">Norwich<span>Gigs</span></a></header>
-<main class="listing"><h1>That gig isn't here any more</h1>
+{header_html(home_url)}
+<main class="listing card"><h1>That gig isn't here any more</h1>
 <p class="lede">It may have already happened, or its details changed.
 <a href="{esc(home_url)}">See all upcoming gigs in Norwich</a>.</p></main></body></html>"""
 
