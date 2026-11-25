@@ -77,7 +77,7 @@
   },
   "GIG_PAGES": {
     "_note": "site_url = where the gig pages live. link_from_home = make home page cards open the gig page (ticket button still goes straight to tickets). Only switch it on once site_url works.",
-    "site_url": "https://gigs.norwichgigs.com",
+    "site_url": "https://www.norwichgigs.com",
     "home_url": "https://www.norwichgigs.com/",
     "link_from_home": true,
     "past_days": 30
