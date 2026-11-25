@@ -1,10 +1,5 @@
 [
  {
-  "name": "Acid Reign",
-  "date": "2026-11-19",
-  "price": "£19.43"
- },
- {
   "name": "ADTR UK and Mantra",
   "date": "2027-02-12",
   "price": "£16.50"
@@ -165,34 +160,14 @@
   "price": "£44.24–£110.88"
  },
  {
-  "name": "Getdown Services",
-  "date": "2026-11-23",
-  "price": "£24.42"
- },
- {
   "name": "Girl Group",
   "date": "2027-01-27",
   "price": "£14.30"
  },
  {
-  "name": "Good Health Good Wealth",
-  "date": "2026-11-22",
-  "price": "£16.50"
- },
- {
-  "name": "Hail The Sun",
-  "date": "2026-11-15",
-  "price": "£22.20"
- },
- {
   "name": "Hammer To Fall",
   "date": "2027-03-12",
   "price": "£9"
- },
- {
-  "name": "Hang Massive",
-  "date": "2026-11-19",
-  "price": "£24.98–£38.85"
  },
  {
   "name": "Henge",
@@ -215,19 +190,9 @@
   "price": "£22.20"
  },
  {
-  "name": "Kid Kapichi",
-  "date": "2026-11-15",
-  "price": "£26.09"
- },
- {
   "name": "Laurence Jones",
   "date": "2027-03-13",
   "price": "£21.65"
- },
- {
-  "name": "Little Angels",
-  "date": "2026-11-16",
-  "price": "£50.63"
  },
  {
   "name": "London Calling Play The Clash",
@@ -248,11 +213,6 @@
   "name": "Maquina",
   "date": "2027-02-21",
   "price": "£16.50"
- },
- {
-  "name": "Martin Harley",
-  "date": "2026-11-18",
-  "price": "£22.20"
  },
  {
   "name": "Martin Stephenson & The Daintees",
@@ -305,11 +265,6 @@
   "price": "£13.20"
  },
  {
-  "name": "Portrayal Of Guilt",
-  "date": "2026-11-21",
-  "price": "£16.50"
- },
- {
   "name": "Propaganda",
   "date": "2026-12-05",
   "price": "£6.60"
@@ -318,21 +273,6 @@
   "name": "R.E.M By Stipe - The Definitive Tribute",
   "date": "2027-01-16",
   "price": "£19.25"
- },
- {
-  "name": "Reverend & The Makers",
-  "date": "2026-11-24",
-  "price": "£27.75"
- },
- {
-  "name": "Ricky Warwick & The Fighting Hearts",
-  "date": "2026-11-20",
-  "price": "£24.98"
- },
- {
-  "name": "Round Midnight presents corto.alto",
-  "date": "2026-11-24",
-  "price": "£25.53"
  },
  {
   "name": "Rowena Wise",
@@ -363,11 +303,6 @@
   "name": "Simulation Muse + Sucker Love",
   "date": "2027-01-30",
   "price": "£17.60"
- },
- {
-  "name": "Skids + Theatre of Hate",
-  "date": "2026-11-21",
-  "price": "£33.60"
  },
  {
   "name": "Sleeper",
@@ -415,11 +350,6 @@
   "price": "£36.40–£112"
  },
  {
-  "name": "The Commoners",
-  "date": "2026-11-17",
-  "price": "£25.53"
- },
- {
   "name": "The Devout",
   "date": "2027-02-13",
   "price": "£19.98–£22.20"
@@ -443,11 +373,6 @@
   "name": "The Gig List Book - The Waterfront",
   "date": "2027-01-03",
   "price": "£19.42"
- },
- {
-  "name": "The High Points",
-  "date": "2026-11-20",
-  "price": "£16.50"
  },
  {
   "name": "The Hunna",
@@ -498,11 +423,6 @@
   "name": "The Specials Ltd",
   "date": "2027-03-20",
   "price": "£27.75"
- },
- {
-  "name": "The Stone Foundation",
-  "date": "2026-11-20",
-  "price": "£29.97"
  },
  {
   "name": "The Temperance Movement",
@@ -768,5 +688,85 @@
   "name": "Zebrahead",
   "date": "2027-02-22",
   "price": "£27.75"
+ },
+ {
+  "name": "Battle Of The Bands",
+  "date": "2027-01-26",
+  "price": "£5–£9"
+ },
+ {
+  "name": "Black Flag",
+  "date": "2027-05-26",
+  "price": "£29.97"
+ },
+ {
+  "name": "China Crisis",
+  "date": "2027-06-18",
+  "price": "£36.40"
+ },
+ {
+  "name": "Foxymop - A Tribute to Pearl Jam",
+  "date": "2027-10-02",
+  "price": "£16.50"
+ },
+ {
+  "name": "heavy wild",
+  "date": "2027-03-05",
+  "price": "£11"
+ },
+ {
+  "name": "Jamie Lenman",
+  "date": "2027-02-18",
+  "price": "£24.98"
+ },
+ {
+  "name": "Jonny Morgan & The Moral Support",
+  "date": "2027-05-08",
+  "price": "£16.50"
+ },
+ {
+  "name": "Marla Kether",
+  "date": "2027-01-26",
+  "price": "£15.40"
+ },
+ {
+  "name": "Rock N Roll Circus - Blossoms",
+  "date": "2027-08-20",
+  "price": "£33–£108.90"
+ },
+ {
+  "name": "Rock N Roll Circus - Kaiser Chiefs",
+  "date": "2027-08-21",
+  "price": "£33–£112.75"
+ },
+ {
+  "name": "Rock N Roll Circus - Rag 'N' Boneman",
+  "date": "2027-08-19",
+  "price": "£30.25–£108.90"
+ },
+ {
+  "name": "Rock N Roll Circus - The Darkness",
+  "date": "2027-08-22",
+  "price": "£33–£112.75"
+ },
+ {
+  "name": "Sandhouse",
+  "date": "2027-01-27",
+  "price": "£11"
+ },
+ {
+  "name": "Skinny Living",
+  "date": "2027-01-27",
+  "price": "£22.20"
+ },
+ {
+  "name": "The Blow Monkeys",
+  "date": "2027-04-29",
+  "price": "£27.75"
+ },
+ {
+  "name": "The Kairos",
+  "date": "2027-03-26",
+  "price": "£16.50"
  }
 ]
