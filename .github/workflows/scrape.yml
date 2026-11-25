@@ -40,6 +40,13 @@ jobs:
           if [ -f scraped_data/changes_latest.md ]; then
             cat scraped_data/changes_latest.md >> "$GITHUB_STEP_SUMMARY"
           fi
+      # Visits each gig's own page for start/door times, age limit, a short
+      # description and support acts (cached, so most pages aren't re-fetched).
+      # Allowed to fail: a problem here must never stop the main listings.
+      - name: Fetch extra gig details from event pages
+        continue-on-error: true
+        timeout-minutes: 15
+        run: python3 event_details.py
       - name: Convert the CSV to JSON for the blog widget
         run: python3 csv_to_json.py
       - name: Split upcoming gigs into Instagram pages of 11
