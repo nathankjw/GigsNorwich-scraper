@@ -228,51 +228,188 @@ body, input, button, select, textarea,
     transform: translateY(-2px);
 }
 
-/* ===== View toggle (Compact / Detailed) =====
-   Sits under the search box. Hidden on phones, where the card layout is
-   always used because four table columns don't fit. */
-.view-toggle {
-    display: inline-flex;
-    align-items: center;
+/* ===== Date quick filters (All / Tonight / Weekend / Pick a date) ===== */
+.quick-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
     margin-top: 20px;
-    border: 3px solid var(--brand-green);
-    border-radius: 50px;
-    background: #fff;
-    overflow: hidden;
 }
 
-.view-btn {
+.qf-btn {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 10px 22px;
-    border: none;
-    background: transparent;
+    padding: 9px 18px;
+    border: 3px solid var(--brand-green);
+    border-radius: 50px;
+    background: #fff;
     color: var(--brand-green);
     font-weight: 700;
     font-size: 15px;
     cursor: pointer;
     transition: background 0.2s ease, color 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 
-.view-btn:hover {
-    background: rgba(46, 139, 61, 0.1);
+/* Hover tints only on devices with a real pointer, so they don't stick after a tap on phones. */
+@media (hover: hover) {
+    .qf-btn:hover:not(:disabled) {
+        background: rgba(37, 110, 36, 0.1);
+    }
+    .cal-day.has-gigs:hover {
+        background: var(--brand-green);
+        color: #fff;
+    }
+    .cal-day.has-gigs:hover::after {
+        background: #fff;
+    }
 }
 
-.view-btn[aria-pressed="true"] {
+.qf-btn[aria-pressed="true"],
+.qf-btn[aria-pressed="true"]:hover {
     background: var(--brand-green);
     color: #fff;
 }
 
-.view-btn:focus-visible {
+.qf-btn:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.qf-btn:focus-visible {
     outline: 3px solid var(--brand-black);
-    outline-offset: -3px;
+    outline-offset: 2px;
 }
 
 @media (max-width: 480px) {
-    .view-toggle {
-        display: none;
+    .quick-filters {
+        gap: 6px;
     }
+    .qf-btn {
+        flex: 1 1 auto;
+        justify-content: center;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+/* ===== Calendar panel ===== */
+.cal-panel {
+    margin-top: 14px;
+    max-width: 420px;
+    padding: 14px;
+    border: 3px solid var(--brand-green);
+    border-radius: 20px;
+    background: #fff;
+}
+
+.cal-panel[hidden] {
+    display: none;
+}
+
+.cal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cal-title {
+    font-weight: 800;
+    font-size: 17px;
+    color: var(--brand-black);
+}
+
+.cal-nav {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: var(--brand-green);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cal-nav:disabled {
+    background: #e2e2e2;
+    color: #aaa;
+    cursor: default;
+}
+
+.cal-weekdays,
+.cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+}
+
+.cal-weekdays span {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #888;
+    padding-bottom: 4px;
+}
+
+.cal-day {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    min-height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    color: #c4c4c4;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: default;
+}
+
+.cal-day.has-gigs {
+    background: #e8f2e8;
+    color: var(--brand-green);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+/* Little dot under days that have gigs */
+.cal-day.has-gigs::after {
+    content: '';
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    margin-left: -2.5px;
+    border-radius: 50%;
+    background: var(--brand-green);
+}
+
+.cal-day.is-today {
+    box-shadow: inset 0 0 0 2px var(--brand-black);
+}
+
+.cal-day.is-selected,
+.cal-day.is-selected:hover {
+    background: var(--brand-black);
+    color: var(--brand-yellow);
+}
+
+.cal-day.is-selected::after,
+.cal-day.is-selected:hover::after {
+    background: var(--brand-yellow);
+}
+
+.cal-day:focus-visible {
+    outline: 3px solid var(--brand-black);
+    outline-offset: 1px;
+}
+
+.cal-legend {
+    margin-top: 10px !important;
+    font-size: 12px;
+    color: #777;
 }
 
 .counters {
@@ -623,12 +760,10 @@ body, input, button, select, textarea,
 }
 
 /* ===== Detailed view =====
-   Poster-forward cards instead of table rows. The .view-detailed class is
-   put on .events-table-container by the script at the bottom of the page:
-     - on phones (<= 480px) it is ALWAYS on, because four table columns
-       don't fit (this is the original mobile design, unchanged);
-     - on larger screens it is on when the visitor picks "Detailed" with
-       the Compact / Detailed toggle under the search box.
+   Poster-forward cards instead of table rows. This is the only view: the
+   .view-detailed class is written straight into the HTML on
+   .events-table-container, so the cards are drawn from the first paint
+   (no flash of the wide table, no viewport jump on phones).
 
    Each card: a square poster thumbnail on the left, then date, venue,
    artist and the action buttons stacked one-per-line to its right. Date
@@ -713,6 +848,11 @@ body, input, button, select, textarea,
    has to live on the card itself because the cells are transparent. */
 .view-detailed .events-table tbody tr:not(.month-divider):hover {
     background: var(--brand-green);
+}
+
+/* Cards with a ticket link open it when clicked anywhere. */
+.view-detailed .events-table tbody tr.is-clickable {
+    cursor: pointer;
 }
 
 .view-detailed .events-table tbody tr:not(.month-divider) td {
@@ -1027,15 +1167,32 @@ img {
                 <input type="text" id="searchInput" class="search-box" placeholder="Search by date, venue, or artist..." autocomplete="off">
             </div>
 
-            <div class="view-toggle" role="group" aria-label="Choose how events are displayed">
-                <button type="button" class="view-btn" data-view="compact" aria-pressed="true">
-                    <i class="fas fa-list"></i> Compact
+            <div class="quick-filters" role="group" aria-label="Filter gigs by date">
+                <button type="button" class="qf-btn" data-filter="all" aria-pressed="true">All dates</button>
+                <button type="button" class="qf-btn" data-filter="tonight" aria-pressed="false">
+                    <i class="fas fa-moon"></i> Tonight
                 </button>
-                <button type="button" class="view-btn" data-view="detailed" aria-pressed="false">
-                    <i class="fas fa-th-large"></i> Detailed
+                <button type="button" class="qf-btn" data-filter="weekend" aria-pressed="false">
+                    <i class="fas fa-glass-cheers"></i> This weekend
+                </button>
+                <button type="button" class="qf-btn" data-filter="calendar" id="calToggle" aria-pressed="false" aria-expanded="false" aria-controls="calPanel">
+                    <i class="fas fa-calendar-alt"></i> <span id="calToggleLabel">Pick a date</span>
                 </button>
             </div>
-            
+
+            <div class="cal-panel" id="calPanel" hidden>
+                <div class="cal-head">
+                    <button type="button" class="cal-nav" id="calPrev" aria-label="Previous month"><i class="fas fa-chevron-left"></i></button>
+                    <span class="cal-title" id="calTitle" aria-live="polite"></span>
+                    <button type="button" class="cal-nav" id="calNext" aria-label="Next month"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="cal-weekdays" aria-hidden="true">
+                    <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+                </div>
+                <div class="cal-grid" id="calGrid"></div>
+                <p class="cal-legend">Days in green have gigs. Tap one to see them.</p>
+            </div>
+
             <div class="counters">
                 <div class="counter" id="eventCounter">
                     <i class="fas fa-calendar-alt"></i> Events: %%EVENT_COUNT%%
@@ -1055,7 +1212,9 @@ img {
             <div style="font-size: 16px; margin-top: 10px; opacity: 0.7;">Try a different search term!</div>
         </div>
         
-        <div class="events-table-container" id="eventsTableContainer">
+        <!-- view-detailed is set here in the HTML (not by script) so the poster
+             cards are the very first thing the browser draws. -->
+        <div class="events-table-container view-detailed" id="eventsTableContainer">
             
             <table class="events-table" id="eventsTable">
                <thead>
@@ -1363,7 +1522,7 @@ function updateCounters() {
     venueCounter.innerHTML = `<i class="fas fa-map-marker-alt"></i> Venues: ${countUniqueVenues()}`;
     visibleCounter.innerHTML = `<i class="fas fa-eye"></i> Showing: ${visibleRows.length}`;
 
-    if (visibleRows.length === 0 && searchInput.value.trim() !== '') {
+    if (visibleRows.length === 0 && (searchInput.value.trim() !== '' || dateFilter)) {
         noResults.style.display = 'block';
         document.querySelector('.events-table-container').style.display = 'none';
     } else {
@@ -1372,40 +1531,65 @@ function updateCounters() {
     }
 }
 
-function highlightText(text, term) {
-    if (!term) return text;
-    return text.replace(new RegExp(`(${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'), '<span class="highlight">$1</span>');
+// Highlighting works on the text inside each cell only, so links inside the
+// cell (the Spotify / SoundCloud icons) are left in place.
+const HIGHLIGHT_CELLS = ['.date-cell', '.venue-cell', '.event-cell'];
+
+function clearHighlights(cell) {
+    cell.querySelectorAll('span.highlight').forEach(span => {
+        span.replaceWith(document.createTextNode(span.textContent));
+    });
+    cell.normalize();
 }
 
-function removeHighlights() {
-    rows.forEach(row => {
-        row.querySelector('.date-cell').innerHTML = row.querySelector('.date-cell').textContent;
-        row.querySelector('.venue-cell').innerHTML = row.querySelector('.venue-cell').textContent;
-        row.querySelector('.event-cell').innerHTML = row.querySelector('.event-cell').textContent;
+function highlightCell(cell, term) {
+    if (!term) return;
+    const walker = document.createTreeWalker(cell, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+        const text = node.nodeValue;
+        const lower = text.toLowerCase();
+        let idx = lower.indexOf(term);
+        if (idx < 0) return;
+        const frag = document.createDocumentFragment();
+        let last = 0;
+        while (idx >= 0) {
+            frag.append(text.slice(last, idx));
+            const span = document.createElement('span');
+            span.className = 'highlight';
+            span.textContent = text.slice(idx, idx + term.length);
+            frag.append(span);
+            last = idx + term.length;
+            idx = lower.indexOf(term, last);
+        }
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
     });
 }
 
+// Date filter: null = all dates, otherwise a Set of ISO dates (yyyy-mm-dd)
+// chosen with the Tonight / This weekend / calendar buttons.
+let dateFilter = null;
+
 function performSearch() {
     const term = searchInput.value.toLowerCase().trim();
-    removeHighlights();
     rows.forEach(row => {
+        HIGHLIGHT_CELLS.forEach(sel => clearHighlights(row.querySelector(sel)));
         if (row.classList.contains('past-event')) return;
         const dateText = row.querySelector('.date-cell').textContent.toLowerCase();
         const venueText = row.querySelector('.venue-cell').textContent.toLowerCase();
         const eventText = row.querySelector('.event-cell').textContent.toLowerCase();
         const priceText = row.querySelector('.price-cell').textContent.toLowerCase();
-        const matches = !term ||
+        const textMatch = !term ||
             dateText.includes(term) ||
             venueText.includes(term) ||
             eventText.includes(term) ||
             priceText.includes(term);
-        if (matches) {
+        const dateMatch = !dateFilter || dateFilter.has(row.dataset.isoDate);
+        if (textMatch && dateMatch) {
             row.classList.remove('hidden');
-            if (term) {
-                row.querySelector('.date-cell').innerHTML = highlightText(row.querySelector('.date-cell').textContent, term);
-                row.querySelector('.venue-cell').innerHTML = highlightText(row.querySelector('.venue-cell').textContent, term);
-                row.querySelector('.event-cell').innerHTML = highlightText(row.querySelector('.event-cell').textContent, term);
-            }
+            if (term) HIGHLIGHT_CELLS.forEach(sel => highlightCell(row.querySelector(sel), term));
         } else {
             row.classList.add('hidden');
         }
@@ -1414,8 +1598,176 @@ function performSearch() {
     updateCounters();
 }
 
-// Rows are no longer clickable/selectable; only the ticket and
-// add-to-calendar buttons inside each row do anything.
+// ===== Date filters: Tonight / This weekend / Pick a date =====
+const qfButtons = Array.from(document.querySelectorAll('.qf-btn'));
+const calToggle = document.getElementById('calToggle');
+const calToggleLabel = document.getElementById('calToggleLabel');
+const calPanel = document.getElementById('calPanel');
+const calGrid = document.getElementById('calGrid');
+const calTitle = document.getElementById('calTitle');
+const calPrev = document.getElementById('calPrev');
+const calNext = document.getElementById('calNext');
+const WEEKDAY_NAMES = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const WEEKDAY_SHORT = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
+let activeFilter = 'all';   // 'all' | 'tonight' | 'weekend' | 'calendar'
+let selectedIso = null;     // date picked on the calendar
+let calMonth = null;        // first day of the month on show
+
+function isoOf(d) {
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+function startOfToday() {
+    const t = new Date();
+    t.setHours(0, 0, 0, 0);
+    return t;
+}
+
+function addDays(d, n) {
+    return new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+}
+
+function ordinalSuffix(n) {
+    if (n % 100 >= 11 && n % 100 <= 13) return 'th';
+    return { 1: 'st', 2: 'nd', 3: 'rd' }[n % 10] || 'th';
+}
+
+// How many upcoming gigs are on each date.
+function gigCountsByDate() {
+    const counts = {};
+    rows.forEach(row => {
+        if (row.classList.contains('past-event')) return;
+        const iso = row.dataset.isoDate;
+        if (iso) counts[iso] = (counts[iso] || 0) + 1;
+    });
+    return counts;
+}
+
+// Friday to Sunday of this week. On a Saturday or Sunday it's the rest of
+// the current weekend.
+function weekendDates() {
+    const today = startOfToday();
+    const dow = today.getDay(); // 0 = Sunday
+    const offsets = dow === 0 ? [0] : dow === 6 ? [0, 1] : [5 - dow, 6 - dow, 7 - dow];
+    return offsets.map(n => isoOf(addDays(today, n)));
+}
+
+function applyDateFilter(filter, dates) {
+    activeFilter = filter;
+    dateFilter = dates ? new Set(dates) : null;
+    qfButtons.forEach(btn => {
+        btn.setAttribute('aria-pressed', btn.dataset.filter === filter ? 'true' : 'false');
+    });
+    if (filter !== 'calendar') {
+        selectedIso = null;
+        calToggleLabel.textContent = 'Pick a date';
+    }
+    performSearch();
+}
+
+function openCalendar(open) {
+    calPanel.hidden = !open;
+    calToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) renderCalendar();
+}
+
+function monthBounds() {
+    const today = startOfToday();
+    const min = new Date(today.getFullYear(), today.getMonth(), 1);
+    const dates = Object.keys(gigCountsByDate()).sort();
+    let max = min;
+    if (dates.length) {
+        const [y, m] = dates[dates.length - 1].split('-').map(Number);
+        max = new Date(y, m - 1, 1);
+        if (max < min) max = min;
+    }
+    return { min, max };
+}
+
+function renderCalendar() {
+    const counts = gigCountsByDate();
+    const today = startOfToday();
+    const todayIso = isoOf(today);
+    const { min, max } = monthBounds();
+    if (!calMonth || calMonth < min) calMonth = min;
+    if (calMonth > max) calMonth = max;
+
+    const y = calMonth.getFullYear();
+    const m = calMonth.getMonth();
+    calTitle.textContent = `${MONTH_NAMES[m]} ${y}`;
+    calPrev.disabled = calMonth <= min;
+    calNext.disabled = calMonth >= max;
+
+    const lead = (new Date(y, m, 1).getDay() + 6) % 7; // weeks start on Monday
+    const daysInMonth = new Date(y, m + 1, 0).getDate();
+    let html = '';
+    for (let i = 0; i < lead; i++) html += '<span class="cal-day" aria-hidden="true"></span>';
+    for (let d = 1; d <= daysInMonth; d++) {
+        const date = new Date(y, m, d);
+        const iso = isoOf(date);
+        const n = date < today ? 0 : (counts[iso] || 0);
+        const classes = ['cal-day'];
+        if (n) classes.push('has-gigs');
+        if (iso === todayIso) classes.push('is-today');
+        if (iso === selectedIso) classes.push('is-selected');
+        const label = `${WEEKDAY_NAMES[date.getDay()]} ${d} ${MONTH_NAMES[m]}, ` +
+            (n ? `${n} gig${n === 1 ? '' : 's'}` : 'no gigs');
+        html += `<button type="button" class="${classes.join(' ')}" data-iso="${iso}"` +
+            `${n ? '' : ' disabled'} aria-label="${label}"` +
+            `${iso === selectedIso ? ' aria-pressed="true"' : ''}>${d}</button>`;
+    }
+    calGrid.innerHTML = html;
+}
+
+// Grey out Tonight / This weekend when there's nothing on.
+function refreshQuickFilters() {
+    const counts = gigCountsByDate();
+    const tonightBtn = qfButtons.find(b => b.dataset.filter === 'tonight');
+    const weekendBtn = qfButtons.find(b => b.dataset.filter === 'weekend');
+    if (tonightBtn) tonightBtn.disabled = !counts[isoOf(startOfToday())];
+    if (weekendBtn) weekendBtn.disabled = !weekendDates().some(iso => counts[iso]);
+    if (!calPanel.hidden) renderCalendar();
+}
+
+qfButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter;
+        if (filter === 'calendar') {
+            openCalendar(calPanel.hidden);
+            return;
+        }
+        openCalendar(false);
+        if (filter === 'tonight') applyDateFilter('tonight', [isoOf(startOfToday())]);
+        else if (filter === 'weekend') applyDateFilter('weekend', weekendDates());
+        else applyDateFilter('all', null);
+    });
+});
+
+calPrev.addEventListener('click', () => {
+    calMonth = new Date(calMonth.getFullYear(), calMonth.getMonth() - 1, 1);
+    renderCalendar();
+});
+
+calNext.addEventListener('click', () => {
+    calMonth = new Date(calMonth.getFullYear(), calMonth.getMonth() + 1, 1);
+    renderCalendar();
+});
+
+calGrid.addEventListener('click', e => {
+    const day = e.target.closest('.cal-day[data-iso]');
+    if (!day || day.disabled) return;
+    selectedIso = day.dataset.iso;
+    const [y, m, d] = selectedIso.split('-').map(Number);
+    const date = new Date(y, m - 1, d);
+    calToggleLabel.textContent = `${WEEKDAY_SHORT[date.getDay()]} ${d}${ordinalSuffix(d)} ${MONTH_NAMES_SHORT[m - 1]}`;
+    applyDateFilter('calendar', [selectedIso]);
+    openCalendar(false);
+});
+
+// The whole card is clickable and opens the ticket link. Clicks on the
+// calendar button, Spotify/SoundCloud icons or the ticket button itself are
+// left alone so they still do their own thing.
 rows.forEach(row => {
     const calendarBtn = row.querySelector('.calendar-btn');
     if (calendarBtn) {
@@ -1425,6 +1777,18 @@ rows.forEach(row => {
             flashCalendarButton(calendarBtn);
         });
     }
+
+    const ticketLink = row.querySelector('.ticket-btn');
+    if (!ticketLink || !ticketLink.getAttribute('href')) return;
+    row.classList.add('is-clickable');
+    row.addEventListener('click', e => {
+        if (e.target.closest('a, button')) return;
+        // Don't jump away if someone is just selecting text on the card.
+        const selection = window.getSelection ? window.getSelection().toString() : '';
+        if (selection) return;
+        // Clicking the real link keeps the GA ticket_click tracking below.
+        ticketLink.click();
+    });
 });
 
 searchInput.addEventListener('input', performSearch);
@@ -1432,6 +1796,7 @@ searchInput.addEventListener('keyup', performSearch);
 
 filterPastEvents();
 updateCounters();
+refreshQuickFilters();
 
 // GA4: log each ticket-button click with gig details before the browser
 // follows the link. transport_type: 'beacon' makes sure the hit is sent
@@ -1458,52 +1823,20 @@ setTimeout(() => {
 
 const now = new Date();
 const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+// At midnight: hide gigs that have just passed and refresh the date filters.
+// (A page left open on "Tonight" moves on to the new day.)
+function midnightRefresh() {
+    filterPastEvents();
+    if (activeFilter === 'tonight') applyDateFilter('tonight', [isoOf(startOfToday())]);
+    else if (activeFilter === 'weekend') applyDateFilter('weekend', weekendDates());
+    else performSearch();
+    refreshQuickFilters();
+}
 setTimeout(() => {
-    filterPastEvents(); updateCounters();
-    setInterval(() => { filterPastEvents(); updateCounters(); }, 86400000);
+    midnightRefresh();
+    setInterval(midnightRefresh, 86400000);
 }, tomorrow - now);
 } // end initEventsWidget
-
-// ===== Compact / Detailed view toggle =====
-// Compact = the original table. Detailed = poster cards (the mobile design).
-// Phones (<= 480px) always get Detailed, so the toggle is hidden there.
-// The visitor's choice is remembered for next time where the browser allows it.
-(function initViewToggle() {
-    const container = document.getElementById('eventsTableContainer');
-    const buttons = document.querySelectorAll('.view-btn');
-    if (!container || !buttons.length) return;
-
-    const STORAGE_KEY = 'norwichgigs-view';
-    const phoneQuery = window.matchMedia('(max-width: 480px)');
-    let preferred = 'compact';
-
-    try {
-        const saved = localStorage.getItem(STORAGE_KEY);
-        if (saved === 'compact' || saved === 'detailed') preferred = saved;
-    } catch (e) { /* storage unavailable — fall back to Compact */ }
-
-    function applyView() {
-        const detailed = phoneQuery.matches || preferred === 'detailed';
-        container.classList.toggle('view-detailed', detailed);
-        buttons.forEach(btn => {
-            const isActive = btn.dataset.view === (detailed ? 'detailed' : 'compact');
-            btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
-        });
-    }
-
-    buttons.forEach(btn => {
-        btn.addEventListener('click', () => {
-            preferred = btn.dataset.view;
-            try { localStorage.setItem(STORAGE_KEY, preferred); } catch (e) {}
-            applyView();
-        });
-    });
-
-    if (phoneQuery.addEventListener) phoneQuery.addEventListener('change', applyView);
-    else if (phoneQuery.addListener) phoneQuery.addListener(applyView);
-
-    applyView();
-})();
 
 // ===== SEO: keep the title and main heading in step with the current month =====
 // (The static text in the HTML is a fallback for crawlers that don't run scripts.)
@@ -1545,7 +1878,7 @@ initEventsWidget();
 
     <section class="about-section" aria-labelledby="aboutHeading">
         <h2 id="aboutHeading">Live music and gigs in Norwich</h2>
-        <p>Norwich Gigs is a guide to live music in Norwich, bringing upcoming gigs from venues across the city into one searchable list. Search by artist, date or venue, switch between the compact list and the detailed poster view, and add any gig straight to your calendar.</p>
+        <p>Norwich Gigs is a guide to live music in Norwich, bringing upcoming gigs from venues across the city into one searchable list. Search by artist, date or venue, see what's on tonight or this weekend, browse the gig calendar, tap any gig to go straight to its tickets, and add any gig straight to your calendar.</p>
         <p>Venues we list include
             <a href="https://www.ueaticketbookings.co.uk/adrian-flux-waterfront/" rel="noopener">Adrian Flux Waterfront</a>,
             <a href="https://www.ueaticketbookings.co.uk/uea-lcr/" rel="noopener">UEA LCR</a>,
