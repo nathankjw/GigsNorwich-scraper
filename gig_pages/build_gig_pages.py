@@ -43,6 +43,9 @@ EVENTS_JSON = ROOT / "scraped_data" / "norwich_gigs.json"
 SITE_PAGES = ROOT / "site_pages"      # the site's other pages (About Us, Venues...), edit these
 CONFIG = ROOT / "blogger" / "site_config.json"
 CSS = HERE / "style.css"
+FONTS_CSS = HERE / "fonts.css"
+FONTS_DIR = HERE / "assets" / "fonts"
+PAGE_CSS = ""  # style sheet put inside every page (set in main) - saves a request before first paint
 DIST = HERE / "dist"
 
 LONDON = ZoneInfo("Europe/London")
@@ -85,7 +88,7 @@ def site_link(home_url: str, path: str) -> str:
 def header_html(home_url: str) -> str:
     menu = "".join(f'<li><a href="{esc(site_link(home_url, p))}">{esc(t)}</a></li>' for t, p in MENU)
     return f"""<header class="site-header">
-  <a class="logo" href="{esc(home_url)}"><img src="{LOGO_BASE}=s240-rw" srcset="{LOGO_BASE}=s240-rw 1x, {LOGO_BASE}=s480-rw 2x" alt="Norwich Gigs - live music in Norwich" width="480" height="251"></a>
+  <a class="logo" href="{esc(home_url)}"><img src="{LOGO_BASE}=s240-rw" srcset="{LOGO_BASE}=s240-rw 1x, {LOGO_BASE}=s360-rw 1.5x, {LOGO_BASE}=s480-rw 2x" alt="Norwich Gigs - live music in Norwich" width="480" height="251"></a>
 </header>
 <nav class="menu-bar" aria-label="Main menu"><ul>{menu}</ul></nav>"""
 
@@ -119,14 +122,13 @@ def bottom_nav_html(home_url: str, index_href: str) -> str:
 
 CANCELLED_RE = re.compile(r"postponed|cancel+ed|rescheduled", re.I)
 
+# Fonts and icons are served from this site (assets/fonts, see fonts.css), not
+# Google Fonts / cdnjs: fewer connections and ~250 KB less to download.
 HEAD_LINKS = """<link rel="icon" href="/favicon.ico" sizes="48x48">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Lexend+Exa:wght@400;600;700&amp;family=Prompt:wght@400;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
 <link rel="preconnect" href="https://blogger.googleusercontent.com">
 <link rel="preconnect" href="https://wsrv.nl">"""
+# Lines in the home page template that loaded fonts from elsewhere.
+THIRD_PARTY_FONT_RE = re.compile(r"fonts\.googleapis\.com|fonts\.gstatic\.com|font-awesome")
 
 GA = """<script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
@@ -335,7 +337,7 @@ def page_shell(*, title: str, description: str, canonical: str, body: str,
 <meta property="og:url" content="{esc(canonical)}">
 {og_img}
 {HEAD_LINKS}
-<link rel="stylesheet" href="{esc(css)}">
+{f"<style>{PAGE_CSS}</style>" if PAGE_CSS else f'<link rel="stylesheet" href="{esc(css)}">'}
 {extra_head}
 {GA if analytics else ""}
 </head>
@@ -541,8 +543,7 @@ def home_page(cfg: dict, events: list, today: date, *, site_url: str, home_url: 
     # The template carries its own font/icon links; the page head already has them.
     body = "\n".join(line for line in body.splitlines()
                      if not (line.strip().startswith(("<link", "<noscript><link"))
-                             and (line.strip() in HEAD_LINKS
-                                  or "fonts.googleapis.com/css2?family=Plus+Jakarta" in line)))
+                             and (line.strip() in HEAD_LINKS or THIRD_PARTY_FONT_RE.search(line))))
     return page_shell(title=meta["title"], description=meta["description"], canonical=f"{site_url}/",
                       body=f'<div class="home-card">{body}</div>', og_image=LOGO,
                       home_url=home_url, crumbs=False, analytics=False, bottom_nav=False)
@@ -638,8 +639,12 @@ def main() -> int:
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "assets").mkdir(parents=True)
-    css_text = CSS.read_text(encoding="utf-8")
+    global PAGE_CSS
+    css_text = (FONTS_CSS.read_text(encoding="utf-8") if FONTS_CSS.exists() else "") + CSS.read_text(encoding="utf-8")
     (DIST / "assets" / "style.css").write_text(css_text, encoding="utf-8")
+    PAGE_CSS = css_text
+    if FONTS_DIR.exists():
+        shutil.copytree(FONTS_DIR, DIST / "assets" / "fonts", dirs_exist_ok=True)
     if (HERE / "favicon.ico").exists():  # the little icon in browser tabs and Google results
         shutil.copyfile(HERE / "favicon.ico", DIST / "favicon.ico")
 
