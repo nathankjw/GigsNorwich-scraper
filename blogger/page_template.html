@@ -34,7 +34,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://blogger.googleusercontent.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- Icons load without holding up the first paint of the page. -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+<link rel="preconnect" href="https://wsrv.nl">
     <style>
 :root {
     --brand-green: #256e24;
@@ -1205,7 +1208,7 @@ img {
         
             <div class="month-container">
         
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVnyoDJzTZlhkLQguEzDlwwr0JYx9R2qHMd9VtfxFuzEhsCkCDlk1WgihszRz0zYSn3TUUKdymt6kint6nep1Bek-TPH3GpgkaygAlgU4YxIbxNOieS5oAHHs1ZiICKg-o2qCeHWLgb2o2QAEGtQn_NTNDMvU60xTXHOKFdtpq1q5sCw8tPLnsHaQOyh4/s1400/11.jpg" alt="Norwich Gigs - live music listings for Norwich" class="month-image" width="1199" height="957" fetchpriority="high">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVnyoDJzTZlhkLQguEzDlwwr0JYx9R2qHMd9VtfxFuzEhsCkCDlk1WgihszRz0zYSn3TUUKdymt6kint6nep1Bek-TPH3GpgkaygAlgU4YxIbxNOieS5oAHHs1ZiICKg-o2qCeHWLgb2o2QAEGtQn_NTNDMvU60xTXHOKFdtpq1q5sCw8tPLnsHaQOyh4/s800/11.jpg" alt="Norwich Gigs - live music listings for Norwich" class="month-image" width="1400" height="300" fetchpriority="high">
    
   
    </div>
@@ -1291,7 +1294,7 @@ img {
         </div>
     </div>
 
-    <img alt="Norwich Gigs live music event calendar" loading="lazy" border="0" width="0" data-original-height="957" data-original-width="1199" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcjiPKn1djBqX0g-yCLuUQUfRnqHA9vqkq15ipjMieE0oBXxJr5YYRl252BWWPaqLrd6uUNYxsoP1tKyOa2zatE-cgv51q98IahAkrHS7ECaXh61x26gkEPs6f3yTK1_QU625vk9_yqh4jeLlwwEDi6WfwjJU-JUKg9phDgtFH_GVj1tmzr7AW_bYFV4o/s1400/9.jpg"/>
+    <img alt="Norwich Gigs live music event calendar" loading="lazy" border="0" width="0" data-original-height="957" data-original-width="1199" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcjiPKn1djBqX0g-yCLuUQUfRnqHA9vqkq15ipjMieE0oBXxJr5YYRl252BWWPaqLrd6uUNYxsoP1tKyOa2zatE-cgv51q98IahAkrHS7ECaXh61x26gkEPs6f3yTK1_QU625vk9_yqh4jeLlwwEDi6WfwjJU-JUKg9phDgtFH_GVj1tmzr7AW_bYFV4o/s800/9.jpg"/>
 
     %%EVENTS_JSONLD%%
     <script>
@@ -1936,6 +1939,12 @@ document.getElementById('eventsTableBody').addEventListener('error', function(e)
     const venue = cell.parentElement.querySelector('.venue-cell')?.textContent.trim() || '';
     const logo = VENUE_LOGOS[venue] || '';
 
+    // Resized copy failed: try the venue's original image once.
+    if (img.dataset.orig && !img.dataset.triedOrig) {
+        img.dataset.triedOrig = '1';
+        img.src = img.dataset.orig;
+        return;
+    }
     if (img.dataset.fallback !== 'logo' && logo) {
         img.dataset.fallback = 'logo';
         img.classList.add('is-logo');

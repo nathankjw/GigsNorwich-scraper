@@ -22,6 +22,7 @@ import json
 import re
 import sys
 import unicodedata
+from urllib.parse import quote
 from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -124,6 +125,22 @@ def gig_key(ev: dict) -> tuple:
     return (ev.get("date", ""), ev.get("venue", ""), ev.get("event_name", ""), ev.get("url", ""))
 
 
+def poster_url(src: str, size: int) -> str:
+    """A small square copy of a venue's poster, made by wsrv.nl (a free image
+    resize/cache service), instead of the full-size original - some venues'
+    posters are 2500px / 6 MB. The page falls back to the original URL if the
+    resized one fails (see data-orig in the templates)."""
+    if not src or not src.startswith("http"):
+        return src
+    return (f"https://wsrv.nl/?url={quote(src, safe='')}&w={size}&h={size}"
+            f"&fit=cover&a=attention&output=webp&q=78")
+
+
+def blogger_img(src: str, width: int) -> str:
+    """Blogger-hosted images can be asked for at a smaller width (/s1400/ -> /s800/)."""
+    return re.sub(r"/s\d{3,4}/", f"/s{width}/", src or "")
+
+
 def ticket_url(ev: dict, cfg: dict) -> str:
     venue = ev.get("venue", "")
     url = cfg["VENUE_LINKS"].get(venue) or ev.get("url") or "#"
@@ -162,8 +179,8 @@ def row_html(ev: dict, cfg: dict, gig_page: str = "") -> str:
                   else '<td class="price-cell price-unknown">Check website</td>')
     logo = cfg["VENUE_LOGOS"].get(venue, "")
     if ev.get("image"):
-        poster = (f'<td class="poster-cell"><img class="event-poster" src="{esc(ev["image"])}" '
-                  f'alt="" loading="lazy"></td>')
+        poster = (f'<td class="poster-cell"><img class="event-poster" src="{esc(poster_url(ev["image"], 288))}" '
+                  f'data-orig="{esc(ev["image"])}" alt="" loading="lazy" width="96" height="96"></td>')
     elif logo:
         poster = (f'<td class="poster-cell"><img class="event-poster is-logo" data-fallback="logo" '
                   f'src="{esc(logo)}" alt="" loading="lazy"></td>')
@@ -192,10 +209,11 @@ def divider_html(y: int, m: int, today: date, cfg: dict) -> str:
     if (y, m) == (today.year, today.month):  # no banner for the current month
         return ('<tr class="month-divider" data-suppress-banner="true" style="display:none;">'
                 '<td colspan="6"></td></tr>')
-    img = cfg["MONTH_DIVIDER_IMAGES"].get(str(m))
+    img = (cfg["MONTH_DIVIDER_IMAGES"].get(str(m)) or "").strip()
     if img:
+        img = blogger_img(img, 800)
         return ('<tr class="month-divider"><td colspan="6" style="padding:0;background:transparent;'
-                'border-radius:15px;overflow:hidden;"><img src="%s" alt="%s %d" style="display:block;'
+                'border-radius:15px;overflow:hidden;"><img src="%s" alt="%s %d" width="1400" height="300" style="display:block;'
                 'width:100%%;height:auto;border-radius:15px;" loading="lazy"></td></tr>'
                 % (esc(img), MONTHS[m - 1], y))
     return f'<tr class="month-divider"><td colspan="6">{MONTHS_SHORT[m - 1]} {y}</td></tr>'

@@ -35,7 +35,8 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT / "blogger"))
 from build_blogger_page import (  # noqa: E402  (shared with the home page build)
-    MONTHS, assign_gig_slugs, build_home, clean_name, gig_key, offer, ordinal, ticket_url,
+    MONTHS, assign_gig_slugs, build_home, clean_name, gig_key, offer, ordinal, poster_url,
+    ticket_url,
 )
 
 EVENTS_JSON = ROOT / "scraped_data" / "norwich_gigs.json"
@@ -55,7 +56,7 @@ GA_ID = "G-DVR3H0T1TK"
 # Blogger theme changes.
 LOGO = ("https://blogger.googleusercontent.com/img/a/AVvXsEi44GMYH4QmY7PfKiuHDRO21lFpG_-Yf1VbOOEQGdKfEub"
         "TRufP2D_yAi_SKZWkKHrN0vUQlQzIRbRhYEMouTACpXqcW_rnbYfudnqCgXEsw0HR-zN5VYEbAEG1HgPzHLb6RGRhlf3lUDW"
-        "V-ts29C5dimV-cVnh0PZqHbNc4k4n60IbFYuIHTHQ0roJ8pQ=s950")
+        "V-ts29C5dimV-cVnh0PZqHbNc4k4n60IbFYuIHTHQ0roJ8pQ=s480")
 MENU = [("Home", ""), ("Venues", "p/music-venues-in-our-city.html"), ("About Us", "p/aboutus.html"),
         ("Advertisements", "p/advertise.html"), ("List Your Event", "p/list-your-gig.html")]
 BOTTOM_NAV = [("fa-home", "Home", ""), ("fa-map-marker-alt", "Venues", "p/music-venues-in-our-city.html"),
@@ -83,7 +84,7 @@ def site_link(home_url: str, path: str) -> str:
 def header_html(home_url: str) -> str:
     menu = "".join(f'<li><a href="{esc(site_link(home_url, p))}">{esc(t)}</a></li>' for t, p in MENU)
     return f"""<header class="site-header">
-  <a class="logo" href="{esc(home_url)}"><img src="{LOGO}" alt="Norwich Gigs - live music in Norwich" width="950" height="497"></a>
+  <a class="logo" href="{esc(home_url)}"><img src="{LOGO}" alt="Norwich Gigs - live music in Norwich" width="480" height="251"></a>
 </header>
 <nav class="menu-bar" aria-label="Main menu"><ul>{menu}</ul></nav>"""
 
@@ -119,8 +120,11 @@ CANCELLED_RE = re.compile(r"postponed|cancel+ed|rescheduled", re.I)
 
 HEAD_LINKS = """<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Lexend+Exa:wght@400;600;700&amp;family=Prompt:wght@400;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">"""
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Lexend+Exa:wght@400;600;700&amp;family=Prompt:wght@400;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+<link rel="preconnect" href="https://blogger.googleusercontent.com">
+<link rel="preconnect" href="https://wsrv.nl">"""
 
 GA = f"""<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}
@@ -329,10 +333,10 @@ def page_shell(*, title: str, description: str, canonical: str, body: str,
 <body>
 {header_html(home_url)}
 <div class="layout">
-<div class="main-col">
+<main class="main-col">
 {crumbs_html(home_url, index_href) if crumbs else ""}
 {body}
-</div>
+</main>
 {sidebar_html(home_url)}
 </div>
 <footer class="site-footer">
@@ -357,8 +361,9 @@ def mini_card(ev: dict, cfg: dict, href: str) -> str:
     name, _, _ = clean_name(ev.get("event_name", ""))
     src, is_logo = poster_src(ev, cfg)
     logo = cfg["VENUE_LOGOS"].get(ev.get("venue", ""), "")
-    img = (f'<img src="{esc(src)}" alt="" loading="lazy"{" class=is-logo" if is_logo else ""} '
-           f'data-logo="{esc(logo if not is_logo else "")}">'
+    shown = src if is_logo else poster_url(src, 160)
+    img = (f'<img src="{esc(shown)}" alt="" loading="lazy" width="60" height="60"{" class=is-logo" if is_logo else ""} '
+           f'data-orig="{esc("" if is_logo else src)}" data-logo="{esc(logo if not is_logo else "")}">'
            if src else '<i class="fas fa-music"></i>')
     return (f'<a class="mini-card" href="{esc(href)}"><span class="mini-poster">{img}</span>'
             f'<span class="mini-text"><span class="mini-date">{esc(short_date(parse_date(ev["date"])))}'
@@ -391,8 +396,9 @@ def gig_page(ev: dict, cfg: dict, *, slug: str, site_url: str, home_url: str, to
 
     src, is_logo = poster_src(ev, cfg)
     logo = cfg["VENUE_LOGOS"].get(ev.get("venue", ""), "")
-    poster = (f'<img src="{esc(src)}" alt="Poster for {esc(name)}"{" class=is-logo" if is_logo else ""} '
-              f'data-logo="{esc(logo if not is_logo else "")}" fetchpriority="high">'
+    poster = (f'<img src="{esc(src if is_logo else poster_url(src, 900))}" alt="Poster for {esc(name)}"'
+              f'{" class=is-logo" if is_logo else ""} width="450" height="450" '
+              f'data-orig="{esc("" if is_logo else src)}" data-logo="{esc(logo if not is_logo else "")}" fetchpriority="high">'
               if src else '<i class="fas fa-music"></i>')
 
     buttons = []
@@ -428,7 +434,7 @@ def gig_page(ev: dict, cfg: dict, *, slug: str, site_url: str, home_url: str, to
         cards = "".join(mini_card(e, cfg, f"/gigs/{slug_of(e)}/") for e in items)
         return f'<section class="related"><h2>{esc(title)}</h2><div class="mini-grid">{cards}</div></section>'
 
-    body = f"""<main class="gig">
+    body = f"""<div class="gig">
 {past_banner}
 <div class="gig-top">
   <div class="poster{' no-image' if not src else ''}">{poster}</div>
@@ -444,11 +450,14 @@ def gig_page(ev: dict, cfg: dict, *, slug: str, site_url: str, home_url: str, to
 {about}
 {related(f"More at {venue}", same_venue)}
 {related(f"Also on {WEEKDAYS[d.weekday()]} {ordinal(d.day)} {MONTHS[d.month - 1]}", same_night)}
-</main>
+</div>
 <script>
 // Poster didn't load (venue moved or blocked it): try the venue logo, then a music note.
 document.querySelectorAll('img[data-logo]').forEach(function (img) {{
   function fallback() {{
+    if (img.dataset.orig && !img.dataset.triedOrig) {{
+      img.dataset.triedOrig = '1'; img.src = img.dataset.orig; return;
+    }}
     if (img.dataset.logo && !img.dataset.tried) {{
       img.dataset.tried = '1'; img.classList.add('is-logo'); img.src = img.dataset.logo;
     }} else {{
@@ -482,7 +491,7 @@ document.querySelectorAll('[data-ga]').forEach(function (a) {{
     ld = json.dumps(music_event_ld(ev, cfg, page_url, tickets), ensure_ascii=False,
                     separators=(",", ":")).replace("</", "<\\/")
     page = page_shell(title=title, description=description[:300], canonical=page_url,
-                      body=body, og_image=src or "",
+                      body=body, og_image=(src if is_logo else poster_url(src, 1200)) if src else "",
                       extra_head=f'<script type="application/ld+json">{ld}</script>',
                       noindex=is_past, home_url=home_url)
     return page, build_ics(ev, cfg, page_url, tickets)
@@ -503,10 +512,10 @@ def index_page(upcoming: list, cfg: dict, *, site_url: str, home_url: str, slug_
             f'<span class="li-name">{esc(clean_name(e.get("event_name", ""))[0])}</span>'
             f'<span class="li-venue">{esc(e.get("venue", ""))}</span></a></li>' for e in evs)
         sections.append(f'<section class="month"><h2>{esc(label)}</h2><ul class="gig-list">{rows}</ul></section>')
-    body = (f'<main class="listing"><h1>Upcoming gigs in Norwich</h1>'
+    body = (f'<div class="listing"><h1>Upcoming gigs in Norwich</h1>'
             f'<p class="lede">{len(upcoming)} gigs across the city. For search, the calendar and '
             f'"what\'s on tonight", use the <a href="{esc(home_url)}">home page</a>.</p>'
-            f'{"".join(sections)}</main>')
+            f'{"".join(sections)}</div>')
     return page_shell(title="Upcoming gigs in Norwich | Norwich Gigs",
                       description="Every upcoming live music gig in Norwich, with times, prices and tickets.",
                       canonical=f"{site_url}/gigs/", body=body, home_url=home_url)
@@ -520,6 +529,11 @@ def home_page(cfg: dict, events: list, today: date, *, site_url: str, home_url: 
     if not built:
         return None
     body, meta = built
+    # The template carries its own font/icon links; the page head already has them.
+    body = "\n".join(line for line in body.splitlines()
+                     if not (line.strip().startswith(("<link", "<noscript><link"))
+                             and (line.strip() in HEAD_LINKS
+                                  or "fonts.googleapis.com/css2?family=Plus+Jakarta" in line)))
     return page_shell(title=meta["title"], description=meta["description"], canonical=f"{site_url}/",
                       body=f'<div class="home-card">{body}</div>', og_image=LOGO,
                       home_url=home_url, crumbs=False, analytics=False, bottom_nav=False)
