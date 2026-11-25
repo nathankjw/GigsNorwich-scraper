@@ -124,7 +124,12 @@ CANCELLED_RE = re.compile(r"postponed|cancel+ed|rescheduled", re.I)
 
 # Fonts and icons are served from this site (assets/fonts, see fonts.css), not
 # Google Fonts / cdnjs: fewer connections and ~250 KB less to download.
-HEAD_LINKS = """<link rel="icon" href="/favicon.ico" sizes="48x48">
+HEAD_LINKS = """<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#ffffff">
 <link rel="preconnect" href="https://blogger.googleusercontent.com">
 <link rel="preconnect" href="https://wsrv.nl">"""
 # Lines in the home page template that loaded fonts from elsewhere.
@@ -373,7 +378,7 @@ def mini_card(ev: dict, cfg: dict, href: str) -> str:
     src, is_logo = poster_src(ev, cfg)
     logo = cfg["VENUE_LOGOS"].get(ev.get("venue", ""), "")
     shown = src if is_logo else poster_url(src, 160)
-    img = (f'<img src="{esc(shown)}" alt="" loading="lazy" width="60" height="60"{" class=is-logo" if is_logo else ""} '
+    img = (f'<img src="{esc(shown)}" alt="{esc(name if not is_logo else ev.get("venue", "") + " logo")}" loading="lazy" width="60" height="60"{" class=is-logo" if is_logo else ""} '
            f'data-orig="{esc("" if is_logo else src)}" data-logo="{esc(logo if not is_logo else "")}">'
            if src else '<i class="fas fa-music"></i>')
     return (f'<a class="mini-card" href="{esc(href)}"><span class="mini-poster">{img}</span>'
@@ -645,8 +650,9 @@ def main() -> int:
     PAGE_CSS = css_text
     if FONTS_DIR.exists():
         shutil.copytree(FONTS_DIR, DIST / "assets" / "fonts", dirs_exist_ok=True)
-    if (HERE / "favicon.ico").exists():  # the little icon in browser tabs and Google results
-        shutil.copyfile(HERE / "favicon.ico", DIST / "favicon.ico")
+    # Site icons (browser tabs, Google results, phone home screens) go at the site root.
+    for icon in (HERE / "icons").glob("*"):
+        shutil.copyfile(icon, DIST / icon.name)
 
     by_venue: dict[str, list] = {}
     by_date: dict[str, list] = {}

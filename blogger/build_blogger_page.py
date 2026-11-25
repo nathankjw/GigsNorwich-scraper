@@ -180,10 +180,10 @@ def row_html(ev: dict, cfg: dict, gig_page: str = "") -> str:
     logo = cfg["VENUE_LOGOS"].get(venue, "")
     if ev.get("image"):
         poster = (f'<td class="poster-cell"><img class="event-poster" src="{esc(poster_url(ev["image"], 288))}" '
-                  f'data-orig="{esc(ev["image"])}" alt="" loading="lazy" width="96" height="96"></td>')
+                  f'data-orig="{esc(ev["image"])}" alt="{esc(name)} poster" loading="lazy" width="96" height="96"></td>')
     elif logo:
         poster = (f'<td class="poster-cell"><img class="event-poster is-logo" data-fallback="logo" '
-                  f'src="{esc(poster_url(logo, 288, "inside"))}" data-orig="{esc(logo)}" alt="" '
+                  f'src="{esc(poster_url(logo, 288, "inside"))}" data-orig="{esc(logo)}" alt="{esc(venue)} logo" '
                   f'loading="lazy" width="96" height="96"></td>')
     else:
         poster = '<td class="poster-cell"><i class="fas fa-music"></i></td>'
@@ -318,7 +318,7 @@ def build_home(today: date, cfg: dict, events: list[dict], gig_base: str | None 
         out = out.replace(key, val)
     assert "%%" not in out, "unreplaced placeholder"
 
-    meta = {"title": f"Norwich Gigs {label} - Live Music Events & Concerts Guide",
+    meta = {"title": f"Norwich Gigs {label} - Live Music Events",
             "description": DESCRIPTION, "canonical": SITE,
             "events": len(shown), "venues": len(venues), "jsonld_events": len(ld_events),
             "built_for": today.isoformat()}
