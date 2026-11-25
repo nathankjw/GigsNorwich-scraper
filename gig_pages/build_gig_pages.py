@@ -119,7 +119,8 @@ def bottom_nav_html(home_url: str, index_href: str) -> str:
 
 CANCELLED_RE = re.compile(r"postponed|cancel+ed|rescheduled", re.I)
 
-HEAD_LINKS = """<link rel="preconnect" href="https://fonts.googleapis.com">
+HEAD_LINKS = """<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Lexend+Exa:wght@400;600;700&amp;family=Prompt:wght@400;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
@@ -639,6 +640,8 @@ def main() -> int:
     (DIST / "assets").mkdir(parents=True)
     css_text = CSS.read_text(encoding="utf-8")
     (DIST / "assets" / "style.css").write_text(css_text, encoding="utf-8")
+    if (HERE / "favicon.ico").exists():  # the little icon in browser tabs and Google results
+        shutil.copyfile(HERE / "favicon.ico", DIST / "favicon.ico")
 
     by_venue: dict[str, list] = {}
     by_date: dict[str, list] = {}
