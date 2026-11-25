@@ -21,6 +21,7 @@ import html
 import json
 import re
 import sys
+import unicodedata
 from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -93,6 +94,36 @@ def event_slug(name: str, venue: str) -> str:
     return s
 
 
+def _slug_part(text: str, max_len: int = 60) -> str:
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
+    text = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+    if len(text) > max_len:
+        text = text[:max_len].rsplit("-", 1)[0]
+    return text
+
+
+def assign_gig_slugs(events: list[dict]) -> dict:
+    """Web address slug for every gig: "2026-11-26-parker-barrow-waterfront".
+    Keyed by gig_key(ev). Used by both the home page and the gig pages, so the
+    links always match. Two gigs that would clash get -2, -3 on the end."""
+    slugs, used = {}, set()
+    for ev in sorted(events, key=lambda e: (e.get("date", ""), e.get("venue", ""),
+                                            e.get("event_name", ""), e.get("url", ""))):
+        name, _, _ = clean_name(ev.get("event_name", ""))
+        base = "-".join(p for p in (ev.get("date", ""), _slug_part(name) or "gig",
+                                    _slug_part(ev.get("venue", ""), 30)) if p)
+        slug, n = base, 2
+        while slug in used:
+            slug, n = f"{base}-{n}", n + 1
+        used.add(slug)
+        slugs[gig_key(ev)] = slug
+    return slugs
+
+
+def gig_key(ev: dict) -> tuple:
+    return (ev.get("date", ""), ev.get("venue", ""), ev.get("event_name", ""), ev.get("url", ""))
+
+
 def ticket_url(ev: dict, cfg: dict) -> str:
     venue = ev.get("venue", "")
     url = cfg["VENUE_LINKS"].get(venue) or ev.get("url") or "#"
@@ -122,7 +153,7 @@ def clean_name(raw: str):
     return name, None, False
 
 
-def row_html(ev: dict, cfg: dict) -> str:
+def row_html(ev: dict, cfg: dict, gig_page: str = "") -> str:
     y, m, d = (int(x) for x in ev["date"].split("-"))
     venue = ev.get("venue", "")
     name, sc_url, no_spotify = clean_name(ev.get("event_name", ""))
@@ -141,6 +172,8 @@ def row_html(ev: dict, cfg: dict) -> str:
     sc = (f' <a href="{esc(sc_url)}" class="soundcloud-link" target="_blank" title="Listen on '
           f'SoundCloud"><i class="fab fa-soundcloud"></i></a>') if sc_url else ""
     flag = ' data-no-spotify="1"' if no_spotify else ""
+    if gig_page:
+        flag += f' data-gig-page="{esc(gig_page)}"'
     return (
         f'<tr data-iso-date="{esc(ev["date"])}"{flag}>'
         f'{poster}'
@@ -229,13 +262,20 @@ def main() -> int:
         print("No events in JSON - refusing to build an empty page.", file=sys.stderr)
         return 1
 
+    # Gig pages (gig_pages/build_gig_pages.py): when switched on in
+    # site_config.json, clicking a card opens the gig's own page.
+    gp = cfg.get("GIG_PAGES", {})
+    gig_base = gp.get("site_url", "").rstrip("/") if gp.get("link_from_home") else ""
+    slugs = assign_gig_slugs(events) if gig_base else {}
+
     rows, last = [], None
     for ev in shown:
         y, m, _ = (int(x) for x in ev["date"].split("-"))
         if (y, m) != last:
             rows.append(divider_html(y, m, today, cfg))
             last = (y, m)
-        rows.append(row_html(ev, cfg))
+        gig_page = f"{gig_base}/gigs/{slugs[gig_key(ev)]}/" if gig_base else ""
+        rows.append(row_html(ev, cfg, gig_page))
 
     # Structured data: next 60 days only (keeps the page small), and skip
     # postponed/cancelled gigs, whose listed date would be wrong.

@@ -74,5 +74,12 @@
     "10": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8c-mMrjW32DJs0E6VKTVJPKJMpbKUsWVMON3y7V06xCqNWcCZ-IdGQi9CiTh4zhWAOkl4ZURbBLRIOi5m-e-WjG6UmCN-rcqXG13t0GvAZJb5kek1k6aL_U4-wR5uE8rpmOaaTpFLtcpxalRgkFuE14GNhBzEOQ0aGIu6d5tmJ6MKdeD58CqExlQzAmY/s1400/10.jpg",
     "11": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVnyoDJzTZlhkLQguEzDlwwr0JYx9R2qHMd9VtfxFuzEhsCkCDlk1WgihszRz0zYSn3TUUKdymt6kint6nep1Bek-TPH3GpgkaygAlgU4YxIbxNOieS5oAHHs1ZiICKg-o2qCeHWLgb2o2QAEGtQn_NTNDMvU60xTXHOKFdtpq1q5sCw8tPLnsHaQOyh4/s1400/11.jpg",
     "12": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFQdsDJyNmfYkxw7zj7GlnF8x5kwwfm4tn_lQkye2gn2Tm5vqwbxRxUiTOXEH2CgidvPXd0osOMi-da7PHnfbwerjuhwWyG_mkX6d3xpLAtGkzpoTqnuckiUf8866FqFsym6ub7xA8faZZUrECenbzqKC9LSDRWKTi6cQrS99FycWJuZLwHYQzd91tLow/s1400/12.jpg"
+  },
+  "GIG_PAGES": {
+    "_note": "site_url = where the gig pages live. link_from_home = make home page cards open the gig page (ticket button still goes straight to tickets). Only switch it on once site_url works.",
+    "site_url": "https://gigs.norwichgigs.com",
+    "home_url": "https://www.norwichgigs.com/",
+    "link_from_home": false,
+    "past_days": 30
   }
 }

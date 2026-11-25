@@ -1778,14 +1778,28 @@ rows.forEach(row => {
         });
     }
 
+    // Card click goes to the gig's own page when gig pages are switched on
+    // (data-gig-page, see GIG_PAGES in site_config.json); otherwise to tickets.
+    const gigPage = row.dataset.gigPage;
     const ticketLink = row.querySelector('.ticket-btn');
-    if (!ticketLink || !ticketLink.getAttribute('href')) return;
+    if (!gigPage && (!ticketLink || !ticketLink.getAttribute('href'))) return;
     row.classList.add('is-clickable');
     row.addEventListener('click', e => {
         if (e.target.closest('a, button')) return;
         // Don't jump away if someone is just selecting text on the card.
         const selection = window.getSelection ? window.getSelection().toString() : '';
         if (selection) return;
+        if (gigPage) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'gig_page_click', {
+                    event_label: row.querySelector('.event-cell')?.textContent.replace(/\s+/g, ' ').trim() || '',
+                    venue: row.querySelector('.venue-cell')?.textContent.trim() || '',
+                    transport_type: 'beacon'
+                });
+            }
+            window.location.href = gigPage;
+            return;
+        }
         // Clicking the real link keeps the GA ticket_click tracking below.
         ticketLink.click();
     });
