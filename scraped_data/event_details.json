@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 13:03",
+ "updated": "2026-11-25 13:47",
  "events": {
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=113401": {
    "checked": "2026-11-25",
@@ -38,10 +38,12 @@
    "v": 2
   },
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=131801": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=99801": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://epic-tv.com/events/event/4am-kru-from-the-ground-up-tour-27": {
    "checked": "2026-11-25",
@@ -52,6 +54,7 @@
   },
   "https://epic-tv.com/events/event/a-night-of-sade-in-norwich": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "age": "14+",
    "description": "A spellbinding live-band celebration of one of music’s most distinctive and timeless artists!"
@@ -320,6 +323,7 @@
   },
   "https://epic-tv.com/events/event/sophie-mccartney-queenage-dirtbag": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "age": "16+",
@@ -503,8 +507,10 @@
   },
   "https://norwichartscentre.co.uk/event/bootleg-blondie/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "BOOTLEG BLONDIE is the world’s No.1 official Debbie Harry & Blondie tribute band established in 2001, the only tribute to have performed with two founder members of Blondie, legendary drummer Clem Burke who sadly is no longer with us, and singer songwriter, bass player and…"
   },
   "https://norwichartscentre.co.uk/event/channel-one-sound-system/": {
    "checked": "2026-11-25",
@@ -882,8 +888,10 @@
   },
   "https://norwichartscentre.co.uk/event/tom-robinson-band/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "TRB’s Top 5 début “2-4-6-8 Motorway” became one of the era’s landmark singles and was followed by their “Rising Free” EP featuring Robinson’s LGBT anthem “Sing If You’re Glad To Be Gay”."
   },
   "https://norwichartscentre.co.uk/event/tone-presents-halina-rice/": {
    "checked": "2026-11-25",
@@ -1788,6 +1796,15 @@
    "age": "14+",
    "description": "FLORENCE BLACK [Planet Rock, Best New Band 2022] are a powerhouse Welsh rock trio—Tristan Thomas (vocals/guitar), Jordan Evans (bass), and Perry Davies (drums)—hailing from Merthyr Tydfil, South Wales."
   },
+  "https://www.ueaticketbookings.co.uk/event/foxymop-a-tribute-to-pearl-jam/": {
+   "checked": "2026-11-25",
+   "v": 2,
+   "time": "18:30",
+   "doors": "18:30",
+   "end": "22:00",
+   "age": "14+",
+   "description": "Foxymop are the UK’s most authentic tribute to Rock & Roll Hall of Famers Pearl Jam."
+  },
   "https://www.ueaticketbookings.co.uk/event/g-a-g/": {
    "checked": "2026-11-25",
    "v": 2,
@@ -2069,6 +2086,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/peter-hook-the-light/": {
    "checked": "2026-11-25",
+   "v": 2,
    "doors": "18:30",
    "end": "22:00",
    "age": "14+",
@@ -2414,6 +2432,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-lightning-seeds/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -2434,6 +2453,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-ruts/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -2793,13 +2813,6 @@
    "time": "19:00",
    "end": "23:00",
    "description": "Join The High Points on 21st December for a festive night of live music at Voodoo Daddy’s We’ll be bringing our usual mix of tunes, a few Christmas favourites and some festive twists along the way."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/the-love-buzz/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "Irelands own DIY Scuzz-Pop threesome The Love Buzz are best known for their high energy shows and hypnotic melodies. It’s a sound that blends punk, indie, and power pop."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/the-rattlebacks/": {
    "checked": "2026-11-25",

@@ -264,17 +264,6 @@
     ]
   },
   {
-    "venue": "Voodoos",
-    "event_name": "The Love Buzz + A Pile Fabric Primer",
-    "date": "2026-11-25",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/the-love-buzz/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMjUvMTAvMTcvNS84NTEvUmFja011bHRpcGFydDIwMjYwNzI1LTU4LXVxbjR2My5qcGciXV0?ar=16:9&fit=crop",
-    "price": "",
-    "time": "19:00",
-    "end": "22:00",
-    "description": "Irelands own DIY Scuzz-Pop threesome The Love Buzz are best known for their high energy shows and hypnotic melodies. It’s a sound that blends punk, indie, and power pop."
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Delay the drowning + Niche + godkill",
     "date": "2026-11-25",
@@ -2257,7 +2246,7 @@
     "date": "2027-01-26",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/marla-kether/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzMvMTcvMzgvNy8xNjUvUmFja011bHRpcGFydDIwMjYxMTAzLTU4LTFhdzFheTAuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£14",
+    "price": "£15.40",
     "time": "19:00",
     "end": "22:00",
     "description": "Born in London to Congolese parents, Marla Kether is a bassist, producer and DJ."
@@ -2317,7 +2306,7 @@
     "date": "2027-01-27",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/sandhouse/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzExLzkvMTUvMTIvNjg4L1JhY2tNdWx0aXBhcnQyMDI2MTExMS01OC0xZGN3NzU1LmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": "£10",
+    "price": "£11",
     "time": "19:00",
     "end": "22:00",
     "description": "Consisting of Anna Sutherland and Caspar Holloway, Sandhouse carve out a sound that folds together grunge guitars, bleary trip-hop production, warped psychedelia and nocturnal alt-pop."
@@ -3424,7 +3413,7 @@
     "date": "2027-03-05",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/heavy-wild/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzMvMTQvNDAvMjkvNDcwL1JhY2tNdWx0aXBhcnQyMDI2MTEwMy02MS0xZDlpamcxLmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": "£10",
+    "price": "£11",
     "time": "19:00",
     "end": "22:00",
     "description": "London lo-fi rockers heavy wild return with blistering new EP ‘paradise forever’ - their first release via new label home Submarine Cat."
@@ -4779,7 +4768,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2023/02/Bootleg-BlondieDebbie-Harris-stage-crop-2-2023-63f78b403defb-800x450-c-default.jpg",
     "price": "£18–£20.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "BOOTLEG BLONDIE is the world’s No.1 official Debbie Harry & Blondie tribute band established in 2001, the only tribute to have performed with two founder members of Blondie, legendary drummer Clem Burke who sadly is no longer with us, and singer songwriter, bass player and…"
   },
   {
     "venue": "Maddermarket",
@@ -4797,7 +4787,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/TRB-Norwich-Square-6af735e307288-800x450-c-default.jpg",
     "price": "£27.50–£31",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "TRB’s Top 5 début “2-4-6-8 Motorway” became one of the era’s landmark singles and was followed by their “Rising Free” EP featuring Robinson’s LGBT anthem “Sing If You’re Glad To Be Gay”."
   },
   {
     "venue": "Maddermarket",
@@ -4829,6 +4820,19 @@
     "doors": "18:30",
     "age": "16+",
     "description": "Plus Special Guests Doors 6:30pm VENUE PRESALE FOR EPIC STUDIOS LOYALTY CLUB MEMBERS AT 10AM ON THURSDAY 29TH OCTOBER 2026."
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "Foxymop – A Tribute to Pearl Jam",
+    "date": "2027-10-02",
+    "url": "https://www.ueaticketbookings.co.uk/event/foxymop-a-tribute-to-pearl-jam/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Foxymop-2027-Digital-Graphics_1080x1080-1-1-Square_Waterfront-500x500.jpg.webp",
+    "price": "£16.50",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Foxymop are the UK’s most authentic tribute to Rock & Roll Hall of Famers Pearl Jam."
   },
   {
     "venue": "Waterfront",
