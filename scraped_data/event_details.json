@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 11:35",
+ "updated": "2026-11-25 12:10",
  "events": {
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=113401": {
    "checked": "2026-11-25"
@@ -31,11 +31,20 @@
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=131801": {
    "checked": "2026-11-25"
   },
+  "https://booking.maddermarket.co.uk/EventAvailability?EventId=99801": {
+   "checked": "2026-11-25"
+  },
   "https://epic-tv.com/events/event/4am-kru-from-the-ground-up-tour-27": {
    "checked": "2026-11-25",
    "time": "19:00",
    "doors": "19:00",
    "description": "SJM Concerts & Wild Combination Present 4am Kru Plus Support"
+  },
+  "https://epic-tv.com/events/event/a-night-of-sade-in-norwich": {
+   "checked": "2026-11-25",
+   "time": "19:00",
+   "age": "14+",
+   "description": "A spellbinding live-band celebration of one of music’s most distinctive and timeless artists!"
   },
   "https://epic-tv.com/events/event/absolute-bowie": {
    "checked": "2026-11-25",
@@ -265,6 +274,13 @@
    "age": "18+",
    "description": "What’s better than a rave? A DAY RAVE! Norwich, it’s time to gather the girls, grab your glowsticks, and get ready to be home with your bra off by 6pm - because comedian Sophie McCartney is bringing her comedy day rave to Epic Studios."
   },
+  "https://epic-tv.com/events/event/sophie-mccartney-queenage-dirtbag": {
+   "checked": "2026-11-25",
+   "time": "18:30",
+   "doors": "18:30",
+   "age": "16+",
+   "description": "Plus Special Guests Doors 6:30pm VENUE PRESALE FOR EPIC STUDIOS LOYALTY CLUB MEMBERS AT 10AM ON THURSDAY 29TH OCTOBER 2026."
+  },
   "https://epic-tv.com/events/event/swiftogeddon-the-reputation-special": {
    "checked": "2026-11-25",
    "time": "20:00",
@@ -388,32 +404,27 @@
   "https://norwichartscentre.co.uk/event/an-evening-with-the-magic-numbers/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:00",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:00"
   },
   "https://norwichartscentre.co.uk/event/beans-on-toast/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:00",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:00"
   },
   "https://norwichartscentre.co.uk/event/ben-tom-waters/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/billy-lubach/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/bootleg-blondie/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/channel-one-sound-system/": {
    "checked": "2026-11-25",
@@ -425,110 +436,92 @@
   "https://norwichartscentre.co.uk/event/corella/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC SUPPORTERS Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/daoiri-farrell/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/eliza-carthy-the-restitution/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/first-time-flyers/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/flook/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/form-presents-gans/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/hayden-thorpe-performs-the-songs-of-wild-beasts/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporter Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/ibibio-sound-machine/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/jazz-sabbath/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/joan-as-police-woman/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/john-otway-wild-willy-barrett/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/kezia-gill-solo-acoustic/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/konkolo-orchestra/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/laetitia-sadier-stereolab/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/liqueur-a-tribute-to-the-cure/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/norwich-jazz-festival-emma-rawicz/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/norwich-jazz-festival-fergus-mccreadie/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/norwich-jazz-festival-knats/": {
    "checked": "2026-11-25",
    "time": "20:00",
    "doors": "19:30",
-   "description": "NAC supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s.",
    "support": [
     "er £15 under 26"
    ]
@@ -536,26 +529,22 @@
   "https://norwichartscentre.co.uk/event/norwich-jazz-festival-red-snapper/": {
    "checked": "2026-11-25",
    "time": "19:30",
-   "doors": "19:00",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:00"
   },
   "https://norwichartscentre.co.uk/event/personal-trainer/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/phoebe-troup-album-launch/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/pigeon/": {
    "checked": "2026-11-25",
    "time": "20:00",
    "doors": "19:30",
-   "description": "NAC supporters Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s.",
    "support": [
     "er £17 conc"
    ]
@@ -563,182 +552,158 @@
   "https://norwichartscentre.co.uk/event/pony-up-presents-black-doldrums/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/pony-up-presents-do-nothing/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/pony-up-presents-heartworms/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/pony-up-presents-knitting/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/pony-up-presents-the-new-cut/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/rework-christmas-presents-bag-of-cans/": {
    "checked": "2026-11-25",
    "time": "19:30",
-   "doors": "19:00",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:00"
   },
   "https://norwichartscentre.co.uk/event/round-midnight-presents-ancient-infinity-orchestra/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporter Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/round-midnight-presents-caoilfhionn-rose/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/round-midnight-presents-laura-misch/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/round-midnight-presents-matt-carmichael/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/seth-lakeman/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/synth-east-electronic-cabaret/": {
    "checked": "2026-11-25",
    "time": "11:00",
-   "doors": "11:00",
-   "description": "NAC supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "11:00"
   },
   "https://norwichartscentre.co.uk/event/synth-east-factory-floor-immersion/": {
    "checked": "2026-11-25",
+   "error": "ConnectionError",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporter Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/tara-clerkin-trio/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/the-allergies-live/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:00",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:00"
   },
   "https://norwichartscentre.co.uk/event/the-anna-mudeka-band/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/the-bones-of-jr-jones/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/the-cain-pit/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/the-curlews-call-an-evening-with-david-gray-and-mary-colwell/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/the-electric-swing-circus/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:00",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:00"
   },
   "https://norwichartscentre.co.uk/event/the-howlers/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/the-pink-stones/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/the-unthanks-in-winter-at-epic-studios/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:00",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:00"
   },
   "https://norwichartscentre.co.uk/event/these-wicked-rivers/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:00",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:00"
   },
   "https://norwichartscentre.co.uk/event/tom-moore-quartet/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:00",
-   "description": "NAC supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:00"
+  },
+  "https://norwichartscentre.co.uk/event/tom-robinson-band/": {
+   "checked": "2026-11-25",
+   "time": "20:00",
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/tone-presents-halina-rice/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/tone-presents-jordan-smart/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/tone-presents-mercy-girl/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/transmission-the-sound-of-joy-division/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/warrington-runcorn-new-town-development-plan/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/we-are-closed-friday-3-april/": {
    "checked": "2026-11-25",
@@ -747,26 +712,22 @@
   "https://norwichartscentre.co.uk/event/willie-j-healey/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/winter-gathering-loris-ensemble-bore-joysey-lydia-cass-maple-ward/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC SUPPORTERS Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/zwa-presents-dennis-bovell-x-rebel-lion-sound-system/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC SUpporters Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://norwichartscentre.co.uk/event/zwa-presents-ni-maxine/": {
    "checked": "2026-11-25",
    "time": "20:00",
-   "doors": "19:30",
-   "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s."
+   "doors": "19:30"
   },
   "https://ticketlab.app/event/39955-GRLDEM-Presents-Feel-the-Bass-tickets#/": {
    "checked": "2026-11-25",
@@ -1006,132 +967,101 @@
    ]
   },
   "https://www.norfolkgigguide.com/band-details/ADTR+-+A+Day+to+Remember+UK": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - ADTR - A Day to Remember UK"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Beautiful+Dangerous": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Beautiful Dangerous"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Black+Dog++Music": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Black Dog Music"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Bootleg+Boss": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Bootleg Boss"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Chemistry+-+A+Tribute+to+Rush": {
    "checked": "2026-11-25",
    "time": "20:30",
-   "end": "23:00",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Chemistry - A Tribute to Rush"
+   "end": "23:00"
   },
   "https://www.norfolkgigguide.com/band-details/Counterfeit+Brits": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Counterfeit Brits"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Damage": {
    "checked": "2026-11-25",
    "time": "20:30",
-   "end": "23:00",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Damage"
+   "end": "23:00"
   },
   "https://www.norfolkgigguide.com/band-details/Decades+Apart": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Decades Apart"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Dirty+Havana": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Dirty Havana"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Future+Radio-Sounds+of+Norwich": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Future Radio-Sounds of Norwich"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Henry+Cluney%27s+XSLF+%2B+The+Punktures+%2B+Beef+%26+Onion": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - henry cluney's xslf the punktures beef & onion"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Hook+-farewell+show": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Hook -farewell show"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Mosh+Spice": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Mosh Spice"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Motorheadache": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Motorheadache"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/NIRVANHER+with+HELL+IS+IN+CHAINS": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - NIRVANHER with HELL IS IN CHAINS"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Norfolk Blues Society at the Brickmakers"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Open mic night with Peter Turrell"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Open+Mic+with+Peter+T": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Open Mic with Peter T"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Power+Promotions+Present...++%40the+Brickmaker": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Power Promotions Present... @the Brickmaker"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Punk+Up+City+2+at+B2": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Punk Up City 2 at B2"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/RATTLESNAKES+-+REGIONAL+ONE+-+CHAOS+PRINCIPAL": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - RATTLESNAKES - REGIONAL ONE - CHAOS PRINCIPAL"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Ska+Souls": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Ska Souls"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Skatopia": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Skatopia"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Southbound": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Southbound"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/TBA%2C+URIDIUM%2C+BLOODSHOT%2C+ATARKA%2C+GOAT+MONSOON%2C+PSY": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - TBA, URIDIUM, BLOODSHOT, ATARKA, GOAT MONSOON, PSY"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/The+Blue+Lion+Band": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - The Blue Lion Band"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/The+Pogue+Traders": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - The Pogue Traders"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/The+Psychedelic+Circus": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - The Psychedelic Circus"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Thin+Lizzish": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Thin Lizzish"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Wiggy+Stardust+and+the+Ciders+from+Jars": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Wiggy Stardust and the Ciders from Jars"
+   "checked": "2026-11-25"
   },
   "https://www.norfolkgigguide.com/band-details/Xmas+Rox+Off": {
-   "checked": "2026-11-25",
-   "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Xmas Rox Off"
+   "checked": "2026-11-25"
   },
   "https://www.norwich.gov.uk/thehalls/country-night-nashville": {
    "checked": "2026-11-25",
@@ -1762,6 +1692,13 @@
     "Wood Burnt Red"
    ]
   },
+  "https://www.ueaticketbookings.co.uk/event/peter-hook-the-light/": {
+   "checked": "2026-11-25",
+   "doors": "18:30",
+   "end": "22:00",
+   "age": "14+",
+   "description": "PETER HOOK & THE LIGHT have announced a UK and Ireland tour for November and December 2027 which will see the band play both Joy Division studio albums, Unknown Pleasures and Closer, in their entirety."
+  },
   "https://www.ueaticketbookings.co.uk/event/pleasureinc/": {
    "checked": "2026-11-25",
    "time": "19:00",
@@ -2067,6 +2004,14 @@
     "Juliet's Not Dead"
    ]
   },
+  "https://www.ueaticketbookings.co.uk/event/the-lightning-seeds/": {
+   "checked": "2026-11-25",
+   "time": "19:30",
+   "doors": "19:30",
+   "end": "23:00",
+   "age": "14+",
+   "description": "ACCESSIBILITY AREA IS AT CAPACITY. Apologies for any disappointment caused."
+  },
   "https://www.ueaticketbookings.co.uk/event/the-lilacs/": {
    "checked": "2026-11-25",
    "time": "19:30",
@@ -2077,6 +2022,14 @@
    "support": [
     "The Covasettes"
    ]
+  },
+  "https://www.ueaticketbookings.co.uk/event/the-ruts/": {
+   "checked": "2026-11-25",
+   "time": "18:30",
+   "doors": "18:30",
+   "end": "22:00",
+   "age": "14+",
+   "description": "In 1977, The Ruts emerged from London with a sound unlike anybody else around them – the raw urgency of punk colliding with reggae, dub and rock, driven by formidable musicianship and a fierce sense of purpose."
   },
   "https://www.ueaticketbookings.co.uk/event/the-smyths/": {
    "checked": "2026-11-25",
