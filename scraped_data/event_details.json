@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 16:45",
+ "updated": "2026-11-25 22:22",
  "events": {
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=113401": {
    "checked": "2026-11-25",
@@ -1230,6 +1230,14 @@
    "end": "03:00",
    "age": "18+",
    "description": "A big team of selectors, for the biggest ‘house’ party of the year. We’ve made sure we have a heavy-weight team behind the decks for you: ASH C, no introduction needed, multi genre badman."
+  },
+  "https://www.fatsoma.com/e/rna2glkb/captain-wallop-presents-wallopverse": {
+   "checked": "2026-11-25",
+   "v": 2,
+   "time": "23:00",
+   "end": "03:00",
+   "age": "18+",
+   "description": "Captain Wallop presents Wallopverse When Here, Party Good! Captain Wallop Arty Lily Ann Bring ID"
   },
   "https://www.fatsoma.com/e/z9wd2hpt/voigtmann": {
    "checked": "2026-11-25",
