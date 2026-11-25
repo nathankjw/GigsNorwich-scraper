@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 12:10",
+ "updated": "2026-11-25 12:27",
  "events": {
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=113401": {
    "checked": "2026-11-25"
@@ -748,6 +748,12 @@
    "time": "19:00",
    "end": "23:00",
    "description": "BLAND - Bizarro’ Variety Presents: Bradley Taylor, Maxine Meixner, Abbie Neale, & Squat Lobster Thursday, November 12, 2026 7:00 PM 11:00 PM Google Calendar ICS"
+  },
+  "https://www.deadwaxnorwich.pub/whats-on/dead-wax-90s-nye-house-party": {
+   "checked": "2026-11-25",
+   "time": "19:00",
+   "end": "02:00",
+   "description": "DEAD WAX 90s nye house party Thursday, December 31, 2026 7:00 PM Friday, January 1, 2027 2:00 AM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/delay-the-drowning-niche-godkill": {
    "checked": "2026-11-25",
@@ -2294,6 +2300,12 @@
    "time": "19:00",
    "end": "22:00",
    "description": "Ormella heads out on her debut UK tour. The London songwriter makes ethereal indie folk that runs darker than it first lets on: close, narrative songs carried by a deeply emotive voice."
+  },
+  "https://www.voodoodaddysshowroom.co.uk/event/pentire-2/": {
+   "checked": "2026-11-25",
+   "time": "19:00",
+   "end": "22:00",
+   "description": "Herefordshire indie four-piece Pentire tell beautifully crafted stories of student life, asmall-town upbringing, and the innocence of youth."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/perrl-presents-chuck-ragan-plus-special-guests/": {
    "checked": "2026-11-25",

@@ -1926,6 +1926,17 @@
     "description": "Price From: £30 First release | £35 Second release | £40 Final release"
   },
   {
+    "venue": "Dead Wax",
+    "event_name": "DEAD WAX 90s nye house party",
+    "date": "2026-12-31",
+    "url": "https://www.deadwaxnorwich.pub/whats-on/dead-wax-90s-nye-house-party",
+    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795609407950-Q6G4XA55XB5NSSGOYTAD/90sNYE_a3.jpg",
+    "price": "",
+    "time": "19:00",
+    "end": "02:00",
+    "description": "DEAD WAX 90s nye house party Thursday, December 31, 2026 7:00 PM Friday, January 1, 2027 2:00 AM Google Calendar ICS"
+  },
+  {
     "venue": "Brickmakers",
     "event_name": "Wiggy Stardust and the Ciders from Jars",
     "date": "2026-12-31",
@@ -3347,6 +3358,17 @@
     "end": "22:30",
     "age": "14+",
     "description": "Nouvelle Vague, the renowned bossa nova project founded by Marc Collin and the late Olivier Libaux in 2003, are returning to the UK in style in Spring 2027 to celebrate the release of their seventh album, A Date with Depeche Mode."
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "Pentire",
+    "date": "2027-03-07",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/pentire-2/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzExLzUzLzI0Lzg3Mi9SYWNrTXVsdGlwYXJ0MjAyNjExMjQtNTctcjZibTBmLmpwZyJdXQ?ar=16:9&fit=crop",
+    "price": "£16",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "Herefordshire indie four-piece Pentire tell beautifully crafted stories of student life, asmall-town upbringing, and the innocence of youth."
   },
   {
     "venue": "Epic",
