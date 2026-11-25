@@ -3,6 +3,8 @@
 Every daily run now also builds the home page with the gig rows and Event
 structured data written into the HTML, then pushes it to Blogger.
 
+    event_details.py   (visits each gig's page: times, age, short description, support
+                        acts -> scraped_data/event_details.json, merged in by csv_to_json.py)
     scraped_data/norwich_gigs.json
         -> blogger/build_blogger_page.py   (uses page_template.html + site_config.json)
         -> blogger/dist/page_body.html + page_meta.json
@@ -11,7 +13,7 @@ structured data written into the HTML, then pushes it to Blogger.
 Run locally: `python3 blogger/build_blogger_page.py` (add `--today 2026-10-22` to test a date).
 
 ## What changed in the page
-- Rows, month banners, counters and the `<h1>` are in the HTML. The page script no longer fetches GitHub; it only does search, Compact/Detailed view, calendar buttons, Spotify icons, hiding past gigs.
+- Rows, month banners, counters and the `<h1>` are in the HTML. The page script no longer fetches GitHub; it only does search, clickable gig cards (detailed view only), calendar buttons, Spotify icons, hiding past gigs.
 - Ticket links (the old `fixTicketUrls`) and `MusicEvent` JSON-LD are generated here, so the visible list and the markup can't disagree. JSON-LD covers the next 60 days (`JSONLD_DAYS`) and skips postponed/cancelled gigs.
 - The `<!DOCTYPE>/<head>/<title>/<meta>/canonical/OG` block is gone from the body (Google ignores it there).
 
