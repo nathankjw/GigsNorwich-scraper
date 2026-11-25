@@ -106,8 +106,12 @@ h1, h2, h3 { font-family: var(--heading); }
     border: var(--outline);
     border-radius: 40px;
     box-shadow: var(--shadow);
-    padding: 14px 14px 24px;
+    padding: 14px 40px 28px;    /* same inset as the old Blogger home page */
     overflow: hidden;
+}
+/* One gig per row on the home page, as on the old site. */
+.home-card .view-detailed .events-table tbody {
+    grid-template-columns: 1fr !important;
 }
 @media (max-width: 768px) {
     .home-card { border: none; box-shadow: none; border-radius: 0; padding: 0; overflow: visible; }
@@ -471,5 +475,19 @@ h1, h2, h3 { font-family: var(--heading); }
     nav.bottom-nav { display: flex !important; }
     nav.bottom-nav a, nav.bottom-nav a:link, nav.bottom-nav a:visited { color: #fff !important; }
     nav.bottom-nav a:hover, nav.bottom-nav a:active { color: var(--yellow) !important; }
+}
+
+/* Pure white page everywhere (copied pages set a cream background). */
+html, body { background: #fff !important; }
+
+/* The site footer, whatever a copied page says about "footer" (some style
+   every <footer> as a black box with light text). */
+footer.site-footer {
+    background: transparent !important;
+    color: #000 !important;
+    text-align: left !important;
+    padding: 14px 20px 30px !important;
+    font-size: 12px !important;
+    margin: 20px auto 0 !important;
 }
 

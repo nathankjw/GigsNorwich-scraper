@@ -1131,6 +1131,64 @@ img {
 }
       
 
+/* ===== Compact search area =====
+   Smaller search box, date buttons and counters, so the gigs start higher
+   up the screen. (Overrides the sizes set further up.) */
+.search-container {
+    padding: 18px 22px 8px;
+}
+.search-label {
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+    gap: 8px;
+}
+.search-box {
+    padding: 11px 18px 11px 46px;
+    font-size: 16px;            /* 16px stops iPhones zooming in on tap */
+    border-width: 3px;
+}
+.search-icon {
+    left: 18px;
+    font-size: 16px;
+}
+.quick-filters {
+    margin-top: 12px;
+    gap: 6px;
+}
+.qf-btn {
+    padding: 5px 13px;
+    border-width: 2px;
+    font-size: 13px;
+    gap: 6px;
+}
+.cal-panel {
+    margin-top: 10px;
+}
+.counters {
+    margin-top: 12px;
+    gap: 6px;
+}
+.counter {
+    flex: 0 1 auto;
+    padding: 4px 12px;
+    border-width: 2px;
+    font-size: 11.5px;
+}
+@media (max-width: 768px) {
+    .search-container { padding: 14px 14px 6px; }
+    .search-box { padding: 10px 14px 10px 42px; }
+    .counters { justify-content: flex-start; }
+    .counter { flex: 0 1 auto; font-size: 11px; padding: 4px 10px; }
+}
+@media (max-width: 480px) {
+    /* All four date buttons on one line; on very narrow phones the row
+       scrolls sideways instead of wrapping. */
+    .quick-filters { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 5px; }
+    .quick-filters::-webkit-scrollbar { display: none; }
+    .qf-btn { flex: 0 0 auto; padding: 4px 9px; font-size: 12px; white-space: nowrap; }
+    .qf-btn i { display: none; }
+}
+
     </style>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DVR3H0T1TK"></script>
@@ -1191,7 +1249,6 @@ img {
                     <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
                 </div>
                 <div class="cal-grid" id="calGrid"></div>
-                <p class="cal-legend">Days in green have gigs. Tap one to see them.</p>
             </div>
 
             <div class="counters">
