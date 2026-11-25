@@ -248,46 +248,6 @@
     "price": ""
   },
   {
-    "venue": "Epic",
-    "event_name": "Round Midnight presents corto.alto",
-    "date": "2026-11-24",
-    "url": "https://epic-tv.com/events/event/round-midnight-presents-cortoalto",
-    "image": "",
-    "price": "£25.53"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "corto.alto @ EPIC Studios",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/cortoalto-at-epic-studios/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/corto.alto-Studio-@Broadscope-Studios-by-Michal-Augustini-604-6a01c7151ec4d-scaled-800x450-c-default.jpg",
-    "price": "£22–£25"
-  },
-  {
-    "venue": "Arts Centre",
-    "event_name": "PONY UP presents COWBOYY",
-    "date": "2026-11-24",
-    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-cowboyy/",
-    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Photo-30-03-2026-15-01-15-6a8ec5871a875-scaled-800x450-c-default.jpg",
-    "price": "£10–£12"
-  },
-  {
-    "venue": "Waterfront",
-    "event_name": "Reverend & The Makers",
-    "date": "2026-11-24",
-    "url": "https://www.ueaticketbookings.co.uk/event/reverend-and-the-makers/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/18687-500x500.jpg.webp",
-    "price": "£27.75"
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "Parviz + Wiffeney",
-    "date": "2026-11-24",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/parviz-wiffeney/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMjYvMjEvMi81MC85MzcvUmFja011bHRpcGFydDIwMjYwNjI2LTU3LTE3N2p5dzIucG5nIl1d?ar=16:9&fit=crop",
-    "price": ""
-  },
-  {
     "venue": "LCR",
     "event_name": "The Boys Are Back Again – East 17",
     "date": "2026-11-25",
@@ -982,6 +942,14 @@
     "url": "https://www.fatsoma.com/e/bfbqe1v4/a-m-c-grassroots-energy-norwich",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzYvMjQvOS8xMC8yMC84NjQvUmFja011bHRpcGFydDIwMjYwNjI0LTU1LTF2bDYyZzcucG5nIl1d",
     "price": "£10"
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "NUA Presents Your Home is a Banana Peel",
+    "date": "2026-12-11",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1795551556669-IMG_3764.webp?alt=media&token=164f92ba-df3d-4486-958c-b3bc5607bb6b",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
@@ -2008,6 +1976,14 @@
     "price": ""
   },
   {
+    "venue": "Gonzos",
+    "event_name": "Globex Corp (Tim Reaper & Dwarde)",
+    "date": "2027-02-12",
+    "url": "https://www.fatsoma.com/e/cujnqdye/globex-corp-tim-reaper-dwarde",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzE2LzUzLzIvODI2L1JhY2tNdWx0aXBhcnQyMDI2MTEyNC01Ny04dmtkODEucG5nIl1d",
+    "price": "£5–£10"
+  },
+  {
     "venue": "Maddermarket",
     "event_name": "Forever Clapton - Unplugged",
     "date": "2027-02-12",
@@ -2350,6 +2326,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/keo/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Keo-Socials-1080-x-1080-500x500.jpg.webp",
     "price": "£30.53"
+  },
+  {
+    "venue": "Gonzos",
+    "event_name": "Reeshy - All Night Long Tour",
+    "date": "2027-02-27",
+    "url": "https://www.fatsoma.com/e/ifh1l05u/reeshy-all-night-long-tour",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzE3LzI4LzMvNTkxL1JhY2tNdWx0aXBhcnQyMDI2MTEyNC01Ny0xNTVmZWEuanBnIl1d",
+    "price": "£5–£10"
   },
   {
     "venue": "Epic",
@@ -2973,7 +2957,7 @@
     "date": "2027-04-21",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-bureau-de-change-supports-tba/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzIxLzExLzI5LzUzLzQ2My9SYWNrTXVsdGlwYXJ0MjAyNjExMjEtNjAtMXYyOXFsZS5qcGciXV0?ar=16:9&fit=crop",
-    "price": ""
+    "price": "£11"
   },
   {
     "venue": "Holloway",
@@ -3014,6 +2998,14 @@
     "url": "https://www.ueaticketbookings.co.uk/event/999/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/999-SQ.png.webp",
     "price": "£24.42"
+  },
+  {
+    "venue": "Epic",
+    "event_name": "Oas-is",
+    "date": "2027-04-24",
+    "url": "https://epic-tv.com/events/event/oas-is",
+    "image": "",
+    "price": ""
   },
   {
     "venue": "Arts Centre",
