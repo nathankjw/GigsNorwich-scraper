@@ -57,10 +57,12 @@ GA_ID = "G-DVR3H0T1TK"
 # (logo = the Header widget image; menu = the Main Menu link list; sidebar =
 # the visible "About Us" and "Promote Your Gig" widgets.) Update here if the
 # Blogger theme changes.
-LOGO = ("https://blogger.googleusercontent.com/img/a/AVvXsEi44GMYH4QmY7PfKiuHDRO21lFpG_-Yf1VbOOEQGdKfEub"
-        "TRufP2D_yAi_SKZWkKHrN0vUQlQzIRbRhYEMouTACpXqcW_rnbYfudnqCgXEsw0HR-zN5VYEbAEG1HgPzHLb6RGRhlf3lUDW"
-        "V-ts29C5dimV-cVnh0PZqHbNc4k4n60IbFYuIHTHQ0roJ8pQ=s480")
-LOGO_BASE = LOGO.rsplit("=", 1)[0]
+# The site logo, kept in gig_pages/assets (copied to /assets/ on the site).
+LOGO = "/assets/norwichgigs-logo.png"   # full size, used for social media previews
+LOGO_IMG = ('<img src="/assets/norwichgigs-logo-240.webp" '
+            'srcset="/assets/norwichgigs-logo-240.webp 240w, /assets/norwichgigs-logo-360.webp 360w, '
+            '/assets/norwichgigs-logo-480.webp 480w" sizes="(max-width: 980px) 155px, 262px" '
+            'alt="Norwich Gigs - live music in Norwich" width="480" height="220">')
 MENU = [("Home", ""), ("Venues", "p/music-venues-in-our-city.html"), ("About Us", "p/aboutus.html"),
         ("Advertisements", "p/advertise.html"), ("List Your Event", "p/list-your-gig.html")]
 BOTTOM_NAV = [("fa-home", "Home", ""), ("fa-map-marker-alt", "Venues", "p/music-venues-in-our-city.html"),
@@ -88,7 +90,7 @@ def site_link(home_url: str, path: str) -> str:
 def header_html(home_url: str) -> str:
     menu = "".join(f'<li><a href="{esc(site_link(home_url, p))}">{esc(t)}</a></li>' for t, p in MENU)
     return f"""<header class="site-header">
-  <a class="logo" href="{esc(home_url)}"><img src="{LOGO_BASE}=s240-rw" srcset="{LOGO_BASE}=s240-rw 1x, {LOGO_BASE}=s360-rw 1.5x, {LOGO_BASE}=s480-rw 2x" alt="Norwich Gigs - live music in Norwich" width="480" height="251"></a>
+  <a class="logo" href="{esc(home_url)}">{LOGO_IMG}</a>
 </header>
 <nav class="menu-bar" aria-label="Main menu"><ul>{menu}</ul></nav>"""
 
@@ -124,7 +126,12 @@ CANCELLED_RE = re.compile(r"postponed|cancel+ed|rescheduled", re.I)
 
 # Fonts and icons are served from this site (assets/fonts, see fonts.css), not
 # Google Fonts / cdnjs: fewer connections and ~250 KB less to download.
-HEAD_LINKS = """<link rel="icon" href="/favicon.ico" sizes="48x48">
+HEAD_LINKS = """<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#ffffff">
 <link rel="preconnect" href="https://blogger.googleusercontent.com">
 <link rel="preconnect" href="https://wsrv.nl">"""
 # Lines in the home page template that loaded fonts from elsewhere.
@@ -545,7 +552,7 @@ def home_page(cfg: dict, events: list, today: date, *, site_url: str, home_url: 
                      if not (line.strip().startswith(("<link", "<noscript><link"))
                              and (line.strip() in HEAD_LINKS or THIRD_PARTY_FONT_RE.search(line))))
     return page_shell(title=meta["title"], description=meta["description"], canonical=f"{site_url}/",
-                      body=f'<div class="home-card">{body}</div>', og_image=LOGO,
+                      body=f'<div class="home-card">{body}</div>', og_image=site_url + LOGO,
                       home_url=home_url, crumbs=False, analytics=False, bottom_nav=False)
 
 
@@ -645,8 +652,11 @@ def main() -> int:
     PAGE_CSS = css_text
     if FONTS_DIR.exists():
         shutil.copytree(FONTS_DIR, DIST / "assets" / "fonts", dirs_exist_ok=True)
-    if (HERE / "favicon.ico").exists():  # the little icon in browser tabs and Google results
-        shutil.copyfile(HERE / "favicon.ico", DIST / "favicon.ico")
+    # Site icons (browser tabs, Google results, phone home screens) go at the site root.
+    for asset in (HERE / "assets").glob("norwichgigs-logo*"):
+        shutil.copyfile(asset, DIST / "assets" / asset.name)
+    for icon in (HERE / "icons").glob("*"):
+        shutil.copyfile(icon, DIST / icon.name)
 
     by_venue: dict[str, list] = {}
     by_date: dict[str, list] = {}
