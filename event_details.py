@@ -76,6 +76,16 @@ HEADERS = {
     "Accept-Language": "en-GB,en;q=0.9",
 }
 
+# Sites whose text isn't a write-up of the gig itself (Norfolk Gig Guide
+# pages are band profiles, not the Brickmakers gig), so no description is
+# taken from them. Times / age / support are still read.
+NO_DESCRIPTION_HOSTS = ("norfolkgigguide.com",)
+
+# Sites whose hidden Event data (JSON-LD) carries the wrong description, so
+# the write-up on the page itself is used first. Norwich Arts Centre's has
+# their "NAC Supporters - save £1.50..." membership blurb.
+PAGE_TEXT_FIRST_HOSTS = ("norwichartscentre.co.uk",)
+
 # Links that aren't a single gig's page (venue home / listings pages, social
 # media). Venue listing links from blogger/site_config.json are added at run time.
 SKIP_HOSTS = ("instagram.com", "facebook.com", "tiktok.com", "x.com", "twitter.com")
@@ -352,7 +362,10 @@ BOILERPLATE_RE = re.compile(
     r"cookie|javascript|newsletter|sign\s*up|subscribe|privacy|terms\s*(?:&|and)\s*conditions|"
     r"all\s+rights\s+reserved|©|book\s+tickets\s+online|tickets?\s+(?:are\s+)?(?:now\s+)?(?:on\s+sale|available)\s+(?:from|at|online)|"
     r"please\s+note|refund|booking\s+fee|box\s+office|follow\s+us|share\s+this|"
-    r"click\s+here|add\s+to\s+(?:basket|cart|calendar)",
+    r"click\s+here|add\s+to\s+(?:basket|cart|calendar)|"
+    # membership / offer blurbs
+    r"per\s+ticket|join\s+(?:us\s+)?today|support\s+us|supporters?\b|members?\s+(?:save|get)|"
+    r"\bsave\s+(?:between|up\s+to|£)|\d+\s*%\s+off|under\s+2[0-9]s|gift\s+vouchers?",
     re.I)
 SENTENCE_SPLIT = re.compile(r"(?<=[.!?])[\"”’']?\s+(?=[A-Z0-9\"“‘'(])")
 
@@ -364,7 +377,7 @@ def clean_text(s: str) -> str:
 
 
 def useful_description(s: str) -> bool:
-    if len(s) < 50 or BOILERPLATE_RE.search(s[:160]):
+    if len(s) < 50 or BOILERPLATE_RE.search(s[:200]):
         return False
     letters = sum(c.isalpha() for c in s)
     if letters < len(s) * 0.6:            # mostly numbers / dates / prices
@@ -547,11 +560,18 @@ def description_from_meta(soup) -> str | None:
     return None
 
 
-def extract_details(page_html: str) -> dict:
+def _host_in(url: str, hosts) -> bool:
+    netloc = urlparse(url or "").netloc.lower()
+    return any(netloc == h or netloc.endswith("." + h) for h in hosts)
+
+
+def extract_details(page_html: str, url: str = "") -> dict:
     """Everything we can find on one gig page. Missing fields are left out."""
     soup = BeautifulSoup(page_html, "lxml")
     res = details_from_jsonld(soup)
     meta_desc = description_from_meta(soup)
+    if _host_in(url, PAGE_TEXT_FIRST_HOSTS):
+        res.pop("description", None)      # filled from the page text below
 
     root = main_content(soup)
     lines = page_lines(root)
@@ -572,6 +592,8 @@ def extract_details(page_html: str) -> dict:
             res["description"] = desc
     if res.get("description"):
         res["description"] = shorten_description(res["description"])
+    if _host_in(url, NO_DESCRIPTION_HOSTS):
+        res.pop("description", None)
     return {k: res[k] for k in FIELDS if res.get(k)}
 
 
@@ -606,6 +628,27 @@ def load_cache() -> dict:
         return data.get("events", {}) if isinstance(data, dict) else {}
     except Exception:
         return {}
+
+
+def clean_cache(cache: dict) -> dict:
+    """Apply today's rules to details saved on earlier runs: drop descriptions
+    from sites we no longer take them from, and drop any that now count as
+    boilerplate - those pages are re-fetched this run to look again."""
+    cleared = 0
+    for url, entry in cache.items():
+        desc = entry.get("description")
+        if not desc:
+            continue
+        if _host_in(url, NO_DESCRIPTION_HOSTS):
+            entry.pop("description")
+            cleared += 1
+        elif not useful_description(desc):
+            entry.pop("description")
+            entry["checked"] = ""          # forces a re-fetch
+            cleared += 1
+    if cleared:
+        print(f"🧹  Cleared {cleared} saved description(s) that no longer pass the checks")
+    return cache
 
 
 def save_cache(cache: dict) -> None:
@@ -656,7 +699,7 @@ def run(limit: int = MAX_FETCHES) -> int:
     with open(EVENTS_CSV, newline="", encoding="utf-8") as f:
         events = list(csv.DictReader(f))
     skip = load_skip_urls()
-    cache = load_cache()
+    cache = clean_cache(load_cache())
 
     # Upcoming gigs with their own page; one entry per link (several gigs can
     # share a link, e.g. a multi-day festival), keeping the nearest date.
@@ -691,7 +734,7 @@ def run(limit: int = MAX_FETCHES) -> int:
             entry = {"checked": today.isoformat()}
             if page:
                 try:
-                    entry.update(extract_details(page))
+                    entry.update(extract_details(page, url))
                 except Exception as e:      # a bad page must never stop the run
                     err = f"parse error: {e}"
             if err:
@@ -752,7 +795,7 @@ def main() -> int:
         if err:
             print(f"Couldn't fetch: {err}")
             return 1
-        print(json.dumps(extract_details(page), ensure_ascii=False, indent=2))
+        print(json.dumps(extract_details(page, args.url), ensure_ascii=False, indent=2))
         return 0
     return run(args.limit)
 
