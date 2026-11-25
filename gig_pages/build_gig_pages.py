@@ -57,6 +57,7 @@ GA_ID = "G-DVR3H0T1TK"
 LOGO = ("https://blogger.googleusercontent.com/img/a/AVvXsEi44GMYH4QmY7PfKiuHDRO21lFpG_-Yf1VbOOEQGdKfEub"
         "TRufP2D_yAi_SKZWkKHrN0vUQlQzIRbRhYEMouTACpXqcW_rnbYfudnqCgXEsw0HR-zN5VYEbAEG1HgPzHLb6RGRhlf3lUDW"
         "V-ts29C5dimV-cVnh0PZqHbNc4k4n60IbFYuIHTHQ0roJ8pQ=s480")
+LOGO_BASE = LOGO.rsplit("=", 1)[0]
 MENU = [("Home", ""), ("Venues", "p/music-venues-in-our-city.html"), ("About Us", "p/aboutus.html"),
         ("Advertisements", "p/advertise.html"), ("List Your Event", "p/list-your-gig.html")]
 BOTTOM_NAV = [("fa-home", "Home", ""), ("fa-map-marker-alt", "Venues", "p/music-venues-in-our-city.html"),
@@ -84,7 +85,7 @@ def site_link(home_url: str, path: str) -> str:
 def header_html(home_url: str) -> str:
     menu = "".join(f'<li><a href="{esc(site_link(home_url, p))}">{esc(t)}</a></li>' for t, p in MENU)
     return f"""<header class="site-header">
-  <a class="logo" href="{esc(home_url)}"><img src="{LOGO}" alt="Norwich Gigs - live music in Norwich" width="480" height="251"></a>
+  <a class="logo" href="{esc(home_url)}"><img src="{LOGO_BASE}=s240-rw" srcset="{LOGO_BASE}=s240-rw 1x, {LOGO_BASE}=s480-rw 2x" alt="Norwich Gigs - live music in Norwich" width="480" height="251"></a>
 </header>
 <nav class="menu-bar" aria-label="Main menu"><ul>{menu}</ul></nav>"""
 
@@ -126,9 +127,16 @@ HEAD_LINKS = """<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://blogger.googleusercontent.com">
 <link rel="preconnect" href="https://wsrv.nl">"""
 
-GA = f"""<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}
-gtag('js',new Date());gtag('config','{GA_ID}');</script>"""
+GA = """<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','%GA_ID%');
+// The analytics script itself waits until the page has finished loading, so it
+// doesn't compete with the posters and fonts. Anything recorded before then is queued.
+window.addEventListener('load',function(){setTimeout(function(){
+  var s=document.createElement('script');s.async=true;
+  s.src='https://www.googletagmanager.com/gtag/js?id=%GA_ID%';document.head.appendChild(s);
+},1000);});
+</script>""".replace("%GA_ID%", GA_ID)
 
 
 def esc(s) -> str:

@@ -125,7 +125,7 @@ def gig_key(ev: dict) -> tuple:
     return (ev.get("date", ""), ev.get("venue", ""), ev.get("event_name", ""), ev.get("url", ""))
 
 
-def poster_url(src: str, size: int) -> str:
+def poster_url(src: str, size: int, fit: str = "cover") -> str:
     """A small square copy of a venue's poster, made by wsrv.nl (a free image
     resize/cache service), instead of the full-size original - some venues'
     posters are 2500px / 6 MB. The page falls back to the original URL if the
@@ -133,12 +133,12 @@ def poster_url(src: str, size: int) -> str:
     if not src or not src.startswith("http"):
         return src
     return (f"https://wsrv.nl/?url={quote(src, safe='')}&w={size}&h={size}"
-            f"&fit=cover&a=attention&output=webp&q=78")
+            f"&fit={fit}" + ("&a=attention" if fit == "cover" else "") + "&output=webp&q=70")
 
 
 def blogger_img(src: str, width: int) -> str:
-    """Blogger-hosted images can be asked for at a smaller width (/s1400/ -> /s800/)."""
-    return re.sub(r"/s\d{3,4}/", f"/s{width}/", src or "")
+    """Blogger-hosted images can be asked for at any width, as WebP (/s1400/ -> /s700-rw/)."""
+    return re.sub(r"/s\d{3,4}(-rw)?/", f"/s{width}-rw/", src or "")
 
 
 def ticket_url(ev: dict, cfg: dict) -> str:
@@ -183,7 +183,8 @@ def row_html(ev: dict, cfg: dict, gig_page: str = "") -> str:
                   f'data-orig="{esc(ev["image"])}" alt="" loading="lazy" width="96" height="96"></td>')
     elif logo:
         poster = (f'<td class="poster-cell"><img class="event-poster is-logo" data-fallback="logo" '
-                  f'src="{esc(logo)}" alt="" loading="lazy"></td>')
+                  f'src="{esc(poster_url(logo, 288, "inside"))}" data-orig="{esc(logo)}" alt="" '
+                  f'loading="lazy" width="96" height="96"></td>')
     else:
         poster = '<td class="poster-cell"><i class="fas fa-music"></i></td>'
     sc = (f' <a href="{esc(sc_url)}" class="soundcloud-link" target="_blank" title="Listen on '
@@ -211,7 +212,7 @@ def divider_html(y: int, m: int, today: date, cfg: dict) -> str:
                 '<td colspan="6"></td></tr>')
     img = (cfg["MONTH_DIVIDER_IMAGES"].get(str(m)) or "").strip()
     if img:
-        img = blogger_img(img, 800)
+        img = blogger_img(img, 700)
         return ('<tr class="month-divider"><td colspan="6" style="padding:0;background:transparent;'
                 'border-radius:15px;overflow:hidden;"><img src="%s" alt="%s %d" width="1400" height="300" style="display:block;'
                 'width:100%%;height:auto;border-radius:15px;" loading="lazy"></td></tr>'
