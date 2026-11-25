@@ -14,6 +14,8 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    outputs:
+      gig_pages: ${{ steps.gig_pages_upload.outcome }}
     steps:
       - name: Check out the repository
         uses: actions/checkout@v4
@@ -63,6 +65,20 @@ jobs:
         with:
           commit_message: "Automated daily scrape"
           file_pattern: scraped_data
+      # One page per gig for gigs.norwichgigs.com (see gig_pages/README.md).
+      # Built here, published by the deploy-gig-pages job below. Allowed to
+      # fail, so a problem with the gig pages never stops the main listings.
+      - name: Build the gig pages
+        id: gig_pages_build
+        continue-on-error: true
+        run: python3 gig_pages/build_gig_pages.py
+      - name: Package the gig pages for GitHub Pages
+        id: gig_pages_upload
+        if: steps.gig_pages_build.outcome == 'success'
+        continue-on-error: true
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: gig_pages/dist
       # The steps below rebuild the home page with the gig rows baked into the
       # HTML (so Google sees them without running JavaScript) and push it to Blogger.
       # They run after the data is saved, so a Blogger problem can't lose a scrape.
@@ -77,3 +93,22 @@ jobs:
           BLOGGER_PAGE_ID: ${{ secrets.BLOGGER_PAGE_ID }}
           BLOGGER_KIND: posts
         run: python3 blogger/publish_to_blogger.py
+
+  # Publishes the gig pages to GitHub Pages. Needs Settings -> Pages -> Source
+  # set to "GitHub Actions" (one-off; see gig_pages/README.md). Until then this
+  # job fails on its own without affecting the scrape or the Blogger page.
+  deploy-gig-pages:
+    needs: scrape
+    if: ${{ always() && needs.scrape.outputs.gig_pages == 'success' }}
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
