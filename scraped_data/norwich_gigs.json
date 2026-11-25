@@ -253,7 +253,15 @@
     "date": "2026-11-25",
     "url": "https://www.ueaticketbookings.co.uk/event/the-boys-are-back-again-east-17/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/Boys-Are-Back-Again-Norwich-1080x1080-1-500x500.jpg.webp",
-    "price": "£36.40–£112"
+    "price": "£36.40–£112",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "ACCESSIBILITY AREA FULL. We are also unable to issue any further companion tickets. Apologies for any disappointment caused.",
+    "support": [
+      "Blazin’ Squad"
+    ]
   },
   {
     "venue": "Voodoos",
@@ -261,7 +269,10 @@
     "date": "2026-11-25",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-love-buzz/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMjUvMTAvMTcvNS84NTEvUmFja011bHRpcGFydDIwMjYwNzI1LTU4LXVxbjR2My5qcGciXV0?ar=16:9&fit=crop",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "Irelands own DIY Scuzz-Pop threesome The Love Buzz are best known for their high energy shows and hypnotic melodies. It’s a sound that blends punk, indie, and power pop."
   },
   {
     "venue": "Dead Wax",
@@ -269,7 +280,10 @@
     "date": "2026-11-25",
     "url": "https://www.deadwaxnorwich.pub/whats-on/delay-the-drowning-niche-godkill",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793041775182-YSD2CJEN2HQCG48KJM1I/DTD+poster+A4+%284%29.png",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "end": "23:00",
+    "description": "Delay the drowning + Niche + godkill Wednesday, November 25, 2026 7:00 PM 11:00 PM Google Calendar ICS"
   },
   {
     "venue": "Brickmakers",
@@ -277,7 +291,8 @@
     "date": "2026-11-25",
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Norfolk Blues Society at the Brickmakers"
   },
   {
     "venue": "Holloway",
@@ -293,7 +308,10 @@
     "date": "2026-11-26",
     "url": "https://epic-tv.com/events/event/the-ogretones",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "age": "All ages",
+    "description": "Everybody agrees, the Shrek soundtracks are the best film soundtracks of all time, right? The Ogretones certainly think so!"
   },
   {
     "venue": "Waterfront",
@@ -301,7 +319,15 @@
     "date": "2026-11-26",
     "url": "https://www.ueaticketbookings.co.uk/event/parker-barrow/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/31354-500x500.jpg.webp",
-    "price": "£22.20"
+    "price": "£22.20",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Nashville-based Southern Rock Revivalists Parker Barrow roar back to the UK with their Hold The Mash Tour",
+    "support": [
+      "Wood Burnt Red"
+    ]
   },
   {
     "venue": "Voodoos",
@@ -309,7 +335,11 @@
     "date": "2026-11-26",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/ihs-indie-film-showcase-norwich-2/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzUvMTYvMi8xNi82NTIvUmFja011bHRpcGFydDIwMjYxMDA1LTY2LTFtYzl6OXcucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£8–£13"
+    "price": "£8–£13",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "21:00",
+    "description": "Join us for another evening of incredible short indie horror films in Norwich! The Independent Horror Society has been dedicated to supporting grassroots horror cinema for over 10 years, and we're so proud to have 2,300+ committed horror fans and filmmakers in our ranks."
   },
   {
     "venue": "Brickmakers",
@@ -317,7 +347,8 @@
     "date": "2026-11-26",
     "url": "https://www.norfolkgigguide.com/band-details/Hook+-farewell+show",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Hook -farewell show"
   },
   {
     "venue": "Brickmakers",
@@ -325,7 +356,8 @@
     "date": "2026-11-26",
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Open mic night with Peter Turrell"
   },
   {
     "venue": "Last Pub",
@@ -341,7 +373,10 @@
     "date": "2026-11-27",
     "url": "https://www.tickettailor.com/events/lethalchupresents/2447332?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAVhkrpleHRuA2FlbQExAHBkb2YCZmRpZBZRIHCQbfwpVLOFiDhyvK9l95KbOKgNc3J0YwZhcHBfaWQPMTI0MDI0NTc0Mjg3NDE0AAGnTbgG2ntesOuWywoirywSCbSJkPR_HXFMQgAGULaZqVEE6NToGXoRiUqOt9E_aem_x05fmcPR8GXW37npQkhOow",
     "image": "",
-    "price": "£8.93"
+    "price": "£8.93",
+    "time": "19:00",
+    "end": "22:30",
+    "description": "Umarells Umarells, from Manchester, arrange pieces of post-hardcore, shoegaze, Midwest emo, and '00s indie-psych into songs shot through wit"
   },
   {
     "venue": "Space",
@@ -349,7 +384,10 @@
     "date": "2026-11-27",
     "url": "https://www.spacestudiosnorwich.com/event-details-registration/all-things-jungle-x-central-rhythms-w-webbo-nulify-blindfold",
     "image": "",
-    "price": "£5.13"
+    "price": "£5.13",
+    "time": "23:00",
+    "end": "03:00",
+    "description": "Central Rhythms is taking on a jungle special with All Things Jungle for one night only! 50 Free tickets available now!"
   },
   {
     "venue": "Gonzos",
@@ -357,7 +395,11 @@
     "date": "2026-11-27",
     "url": "https://www.fatsoma.com/e/od97ouwg/soul-mass-transit-system-all-night-long",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzgvMTkvMTcvNTcvMTAvMzQ3L1JhY2tNdWx0aXBhcnQyMDI2MDgxOS01OS14bG50aHcucG5nIl1d",
-    "price": "£7–£12"
+    "price": "£7–£12",
+    "time": "23:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "You know we had to give this one a re-run, SMTS back in the cage for an all night long session."
   },
   {
     "venue": "Holloway",
@@ -373,7 +415,11 @@
     "date": "2026-11-27",
     "url": "https://epic-tv.com/events/event/martin-kemp-back-to-the-80s",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "doors": "19:30",
+    "age": "18+",
+    "description": "Martin Kemp trades his bass for the decks once again as he returns to Norwich for the fourth year running, due to huge public demand, with the UK’s biggest 80s party – brought to you by Magic Disco."
   },
   {
     "venue": "Maddermarket",
@@ -389,7 +435,10 @@
     "date": "2026-11-27",
     "url": "https://norwichartscentre.co.uk/event/an-evening-with-the-magic-numbers/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/TMN-Cobbled-street-x-4-res--6a1d49c518d0a-scaled-800x450-c-default.jpg",
-    "price": "£27–£30.50"
+    "price": "£27–£30.50",
+    "time": "20:00",
+    "doors": "19:00",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -397,7 +446,11 @@
     "date": "2026-11-27",
     "url": "https://www.ueaticketbookings.co.uk/event/drum-bass-classics/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/DnB-Classics-Norwich-27nov26-v1-1x1-1-500x500.png.webp",
-    "price": "£16.50–£19.80"
+    "price": "£16.50–£19.80",
+    "time": "23:00",
+    "doors": "23:00",
+    "age": "18+",
+    "description": "Dillinja + DJ Hazard + Distorted Minds + Flat-T b2b DirtyDJ + MCs: IC3 + Nutcracka + Funsta + Mikey Blitz"
   },
   {
     "venue": "Waterfront",
@@ -405,7 +458,12 @@
     "date": "2026-11-27",
     "url": "https://www.ueaticketbookings.co.uk/event/london-calling-play-the-clash/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/London-Calling-SQ-1080-x-1080-Norwich-500x500.jpg.webp",
-    "price": "£24.98"
+    "price": "£24.98",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "London Calling play The Clash are widely referred to as “ the only tribute band that matters “. Now that The Clash are no more London Calling are the finest celebration of one of the best groups of all time."
   },
   {
     "venue": "Waterfront",
@@ -413,7 +471,12 @@
     "date": "2026-11-27",
     "url": "https://www.ueaticketbookings.co.uk/event/discharge/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Dianas-WF-AND-LCR-MASTERS-USE-THESE-7-500x500.jpg.webp",
-    "price": "£24.42"
+    "price": "£24.42",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "Formed in the late Seventies UK Hardcore Punk legends Discharge changed the face of punk and indeed extreme music itself and stumbled upon a sound that was so ugly, it was beautiful; so horrifying, it was irresistible, and it ushered in a whole new wave of gnarlier, nastier UK…"
   },
   {
     "venue": "LCR",
@@ -421,7 +484,15 @@
     "date": "2026-11-27",
     "url": "https://www.ueaticketbookings.co.uk/event/avatar/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Lauras-WF-LCR-IG-Template-2026-05-22T120058.929.jpg.webp",
-    "price": "£37.52"
+    "price": "£37.52",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Strange times call for a strange band. With a life long commitment to the misfit arts, Avatar delves deep into the collective subconscious.",
+    "support": [
+      "NECKBREAKKER"
+    ]
   },
   {
     "venue": "Dead Wax",
@@ -429,7 +500,10 @@
     "date": "2026-11-27",
     "url": "https://www.deadwaxnorwich.pub/whats-on/pocket-sam-russo-self-torque-hello-pedro",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795023158882-PBW650JTC0QKT6980IQF/POCKET_DW_A4_Poster.jpg",
-    "price": "£10"
+    "price": "£10",
+    "time": "19:00",
+    "end": "23:00",
+    "description": "Pocket + Sam Russo + Self Torque + Hello Pedro Friday, November 27, 2026 7:00 PM 11:00 PM Google Calendar ICS"
   },
   {
     "venue": "Brickmakers",
@@ -437,7 +511,8 @@
     "date": "2026-11-27",
     "url": "https://www.norfolkgigguide.com/band-details/Future+Radio-Sounds+of+Norwich",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Future Radio-Sounds of Norwich"
   },
   {
     "venue": "Brickmakers",
@@ -445,7 +520,8 @@
     "date": "2026-11-27",
     "url": "https://www.norfolkgigguide.com/band-details/Decades+Apart",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Decades Apart"
   },
   {
     "venue": "Last Pub",
@@ -461,7 +537,12 @@
     "date": "2026-11-28",
     "url": "https://ticketlab.app/event/39955-GRLDEM-Presents-Feel-the-Bass-tickets#/",
     "image": "",
-    "price": "£6"
+    "price": "£6",
+    "time": "19:00",
+    "doors": "18:45",
+    "end": "03:00",
+    "age": "18+",
+    "description": "The grl.dem crew are back for our last night in 2026 @ Space Studios SAT 28 Nov 7pm-3am Playing an eclectic mix of filthy underground bass, and going hard ‘til 3am Nine DJs, two floors of music."
   },
   {
     "venue": "Gonzos",
@@ -469,7 +550,15 @@
     "date": "2026-11-28",
     "url": "https://www.fatsoma.com/e/qleyqdip/storm-mollison",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEwLzgvMjEvNDgvNDYvUmFja011bHRpcGFydDIwMjYxMDEwLTYxLTE5bjFrdzYucG5nIl1d",
-    "price": "£3–£7"
+    "price": "£3–£7",
+    "time": "23:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "Continuing to her trajectory in the world of electronic music, we're excited to announce Rinse resident Storm Mollison will be making her Norwich debut in the cage!",
+    "support": [
+      "L U",
+      "George James"
+    ]
   },
   {
     "venue": "Holloway",
@@ -485,7 +574,11 @@
     "date": "2026-11-28",
     "url": "https://epic-tv.com/events/event/groove-armada-dj-set-support",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "doors": "19:30",
+    "age": "18+",
+    "description": "Groove Armada have consistently and uncompromisingly followed their own musical vision for three decades."
   },
   {
     "venue": "Arts Centre",
@@ -493,7 +586,10 @@
     "date": "2026-11-28",
     "url": "https://norwichartscentre.co.uk/event/these-wicked-rivers/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/These-Wicked-Rivers-web-69c2c2a6f250e-800x450-c-default.jpg",
-    "price": "£21–£24"
+    "price": "£21–£24",
+    "time": "20:00",
+    "doors": "19:00",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -501,7 +597,14 @@
     "date": "2026-11-28",
     "url": "https://www.ueaticketbookings.co.uk/event/g-a-g/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/GAG_Nov28_Square-500x500.png.webp",
-    "price": "£2.20–£5.50"
+    "price": "£2.20–£5.50",
+    "time": "23:00",
+    "doors": "23:00",
+    "age": "18+",
+    "description": "A brand new party, just for you. Spinning all of your favourite tracks, all night long.",
+    "support": [
+      "AmSorry2"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -509,7 +612,16 @@
     "date": "2026-11-28",
     "url": "https://www.ueaticketbookings.co.uk/event/atlasi/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Dianas-WF-AND-LCR-MASTERS-USE-THESE-28-500x500.jpg.webp",
-    "price": "£12.10"
+    "price": "£12.10",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Atlas&i emerged from the UK alternative rock scene in 2010, releasing their debut album ‘In Desolate Times’ on famed independent record label, Small Town Records.",
+    "support": [
+      "Halfway North",
+      "Mices"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -517,7 +629,15 @@
     "date": "2026-11-28",
     "url": "https://www.ueaticketbookings.co.uk/event/uncle-acid-and-the-deadbeats/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Lauras-WF-LCR-IG-Template-81.jpg.webp",
-    "price": "£25.53"
+    "price": "£25.53",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "The brainchild of Kevin Starrs, Uncle Acid & The Deadbeats have been making extraordinary music since 2009.",
+    "support": [
+      "The Wytches"
+    ]
   },
   {
     "venue": "Voodoos",
@@ -525,7 +645,10 @@
     "date": "2026-11-28",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/magnolia-adams-farewell-show-the-scuttlers-troilus/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvNC8xNC82LzU1LzQ2Ny9SYWNrTXVsdGlwYXJ0MjAyNjA5MDQtNTYtOTdrd3gyLmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": "£9"
+    "price": "£9",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "Intricate and innovative seven piece frenetic art-punk band MAGNOLIA formed in Norwich in 2022 and have made a name for themselves in both the Norwich music scene at Voodoo Daddy’s and The Windmill in London."
   },
   {
     "venue": "Dead Wax",
@@ -533,7 +656,10 @@
     "date": "2026-11-28",
     "url": "https://www.deadwaxnorwich.pub/whats-on/star-children",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795023506649-30DSK9B2DIZ5TIJTXIH3/star+children+november.jpeg",
-    "price": ""
+    "price": "",
+    "time": "20:00",
+    "end": "01:00",
+    "description": "Star Children Invites: Darby + Tadi the great Saturday, November 28, 2026 8:00 PM Sunday, November 29, 2026 1:00 AM Google Calendar ICS"
   },
   {
     "venue": "Brickmakers",
@@ -541,7 +667,8 @@
     "date": "2026-11-28",
     "url": "https://www.norfolkgigguide.com/band-details/Punk+Up+City+2+at+B2",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Punk Up City 2 at B2"
   },
   {
     "venue": "Brickmakers",
@@ -549,7 +676,8 @@
     "date": "2026-11-28",
     "url": "https://www.norfolkgigguide.com/band-details/Thin+Lizzish",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Thin Lizzish"
   },
   {
     "venue": "The Halls",
@@ -557,7 +685,9 @@
     "date": "2026-11-28",
     "url": "https://www.norwich.gov.uk/thehalls/rb-orchestra-live",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-07/r%20n%20b%20orchestra.jpg?h=59e0779f&itok=XuME08mI",
-    "price": ""
+    "price": "",
+    "time": "18:00",
+    "description": "Experience the ultimate celebration of R&B - brought to life like you’ve never heard before."
   },
   {
     "venue": "Hangar",
@@ -565,7 +695,11 @@
     "date": "2026-11-28",
     "url": "https://fixr.co/event/norwich-dj-luck-mc-neat-garage-brunch-day-party-in-tickets-734094727",
     "image": "https://fixr-cdn.fixr.co/images/event/2026-11/f892f16e65784d71a75331d01777486d.jpg",
-    "price": "£10"
+    "price": "£10",
+    "time": "12:00",
+    "end": "20:30",
+    "age": "18+",
+    "description": "DJ Luck & MC Neat 🔥 Garage Brunch Day Party (Indoor & Heated) 👉Saturday 28th November 📍The Hangar, St Mary's Works NR3 1QA 👉12PM - 8:30PM 🎟Tickets from £10 DJ Luck & MC Neat are coming to Norwich as part of our winter series!"
   },
   {
     "venue": "HMV",
@@ -581,7 +715,9 @@
     "date": "2026-11-29",
     "url": "https://epic-tv.com/events/event/wilder-fight-night",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "12:00",
+    "doors": "12:00"
   },
   {
     "venue": "LCR",
@@ -589,7 +725,16 @@
     "date": "2026-11-29",
     "url": "https://www.ueaticketbookings.co.uk/event/the-snuts/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/31656-500x500.jpg.webp",
-    "price": "£36.40"
+    "price": "£36.40",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "The Snuts today announce their fourth studio album Joy In Short Moments, out 23 October via Happy Artist Records in partnership with Virgin Music Group, and share new single ‘Defibrillator’ – out now.",
+    "support": [
+      "The Kairos",
+      "The Rooks"
+    ]
   },
   {
     "venue": "Voodoos",
@@ -597,7 +742,10 @@
     "date": "2026-11-29",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/birdwitch-forlorn/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMTUvMTIvMjIvNDgvODQwL1JhY2tNdWx0aXBhcnQyMDI2MDcxNS02NC0xeHg0c2E2LnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": "£12"
+    "price": "£12",
+    "time": "19:00",
+    "end": "22:30",
+    "description": "Hailing from Norwich, UK, Birdwitch are a self-described 'Dream Violence' band formed in early 2023. Blending elements of doom, sludge, post-metal and prog (amongst other influences)."
   },
   {
     "venue": "Dead Wax",
@@ -605,7 +753,9 @@
     "date": "2026-11-29",
     "url": "https://www.deadwaxnorwich.pub/whats-on/raqoiqjzzydoju4sf5t1c43yswlvws",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795024343742-PGQN1VR0UXGA60YNIJVL/BIGTIME+generic.jpg",
-    "price": "Free"
+    "price": "Free",
+    "time": "19:00",
+    "end": "22:00"
   },
   {
     "venue": "Waterfront",
@@ -613,7 +763,15 @@
     "date": "2026-11-30",
     "url": "https://www.ueaticketbookings.co.uk/event/the-temperance-movement/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/TTM-SQ-1-1-500x500.jpg.webp",
-    "price": "£33.60"
+    "price": "£33.60",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "ACCESSIBILITY AREA IS FULL. Apologies for any disappointment caused. Please contact boxoffice@uea.ac.uk with any further queries.",
+    "support": [
+      "Davey Horne"
+    ]
   },
   {
     "venue": "Revolucion de Cuba",
@@ -621,7 +779,8 @@
     "date": "2026-11-30",
     "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
     "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
-    "price": "£5–£7"
+    "price": "£5–£7",
+    "description": "19:00 - 19:45 Beginners £5 - Perfect if you are brand new to salsa or have only done a few lessons!"
   },
   {
     "venue": "Last Pub",
@@ -637,7 +796,10 @@
     "date": "2026-12-01",
     "url": "https://norwichartscentre.co.uk/event/tom-moore-quartet/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/TMQ-Promo-sept-26-6ac4bc0af0663-scaled-800x450-c-default.jpg",
-    "price": "£12–£14"
+    "price": "£12–£14",
+    "time": "20:00",
+    "doors": "19:00",
+    "description": "NAC supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Holloway",
@@ -653,7 +815,15 @@
     "date": "2026-12-02",
     "url": "https://www.ueaticketbookings.co.uk/event/sevendust/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Sevendust-support-sq.jpg.webp",
-    "price": "£33.60"
+    "price": "£33.60",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Maya Angelou once stated, “People will forget what you said, people will forget what you did, but people will never forget how you made them feel.”",
+    "support": [
+      "Overgrown"
+    ]
   },
   {
     "venue": "Voodoos",
@@ -661,7 +831,12 @@
     "date": "2026-12-02",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/uea-burlesque-society/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzMvMTEvMzIvMzIvNTA1L1JhY2tNdWx0aXBhcnQyMDI2MTEwMy02My02cjFqdWguanBnIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "18+",
+    "description": "Last Christmas we gave you our hearts, and this year we’re ready to do it all over again. As winter settles, ⁠Jack Frost may be nipping at the air, but he’s certainly not nipping at our showbabes cozily clad in stockings and scarves!"
   },
   {
     "venue": "Epic",
@@ -669,7 +844,11 @@
     "date": "2026-12-03",
     "url": "https://epic-tv.com/events/event/the-wildhearts",
     "image": "",
-    "price": "£33.60"
+    "price": "£33.60",
+    "time": "19:30",
+    "doors": "19:30",
+    "age": "All ages",
+    "description": "Plus Support Doors 7:30pm For three decades, The Wildhearts have remained at the forefront of the UK rock scene; through incendiary, festival-topping live shows and fast-lane frolics, they have cemented their reputation as one of the finest, most prolific, most notorious…"
   },
   {
     "venue": "Arts Centre",
@@ -677,7 +856,10 @@
     "date": "2026-12-03",
     "url": "https://norwichartscentre.co.uk/event/the-allergies-live/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-17.07.35-69b838df62cac-800x450-c-default.png",
-    "price": "£21–£24"
+    "price": "£21–£24",
+    "time": "20:00",
+    "doors": "19:00",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -685,7 +867,12 @@
     "date": "2026-12-03",
     "url": "https://www.ueaticketbookings.co.uk/event/the-alehouse-sessions/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/The-Alehouse-Sessions-norwich-1080x1080-1-500x500.jpg.webp",
-    "price": "£23.31"
+    "price": "£23.31",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "ACCESSIBILITY AREA FULL – please contact boxoffice@uea.ac.uk with any further queries."
   },
   {
     "venue": "Voodoos",
@@ -693,7 +880,10 @@
     "date": "2026-12-03",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/ormella/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzgvMTcvMTEvNS81Ny83MDEvUmFja011bHRpcGFydDIwMjYwODE3LTUzLTFnNXluNHUucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£16"
+    "price": "£16",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "Ormella heads out on her debut UK tour. The London songwriter makes ethereal indie folk that runs darker than it first lets on: close, narrative songs carried by a deeply emotive voice."
   },
   {
     "venue": "Brickmakers",
@@ -701,7 +891,8 @@
     "date": "2026-12-03",
     "url": "https://www.norfolkgigguide.com/band-details/The+Blue+Lion+Band",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - The Blue Lion Band"
   },
   {
     "venue": "Gonzos",
@@ -709,7 +900,11 @@
     "date": "2026-12-04",
     "url": "https://www.fatsoma.com/e/9f8w3u2r/turner-connie",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzE1LzE2LzU3LzM3LzgwNy9SYWNrTXVsdGlwYXJ0MjAyNjExMTUtNTctMXMwb2k4aS5wbmciXV0",
-    "price": "£5"
+    "price": "£5",
+    "time": "23:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "A festive love-in, think posh and becks behind the decks, two local legends running things in the booth, the missing piece of the puzzle - Turner and Connie playing all night long!"
   },
   {
     "venue": "Holloway",
@@ -725,7 +920,10 @@
     "date": "2026-12-04",
     "url": "https://norwichartscentre.co.uk/event/beans-on-toast/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Screenshot-2026-06-30-at-09.35.29-6a437fd7e8779-800x450-c-default.png",
-    "price": "£20–£23"
+    "price": "£20–£23",
+    "time": "20:00",
+    "doors": "19:00",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -733,7 +931,16 @@
     "date": "2026-12-04",
     "url": "https://www.ueaticketbookings.co.uk/event/dr-feelgood/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Dr-Feelgood_Square-500x500.png.webp",
-    "price": "£28.86"
+    "price": "£28.86",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "We are thrilled to welcome British Rhythm ‘n’ Blues legends Dr. Feelgood along with very special guests Eddie & The Hot Rods.",
+    "support": [
+      "Eddie",
+      "The Hot Rods"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -741,7 +948,12 @@
     "date": "2026-12-04",
     "url": "https://www.ueaticketbookings.co.uk/event/macbusted/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/MacBusted-Norwich-1080x1080-1-500x500.jpg.webp",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Experience the ultimate pop-rock tribute with MacBusted, the one-of-a-kind 5-piece tribute to UK bands McFly and Busted."
   },
   {
     "venue": "LCR",
@@ -749,7 +961,16 @@
     "date": "2026-12-04",
     "url": "https://www.ueaticketbookings.co.uk/event/the-hunna/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/31862-500x500.jpg.webp",
-    "price": "£33.60"
+    "price": "£33.60",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "After over a decade of music and touring, The Hunna announce their final tour. 2026 will be the final chance to see the band in action and the band themselves are extremely excited to share one last big party with their ever dedicated fan base.",
+    "support": [
+      "morningstar",
+      "Sick Joy"
+    ]
   },
   {
     "venue": "Voodoos",
@@ -757,7 +978,10 @@
     "date": "2026-12-04",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/myopia-a-different-kitchen-crying-in-colour/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzgvMTkvMTAvMTEvMjAvMjE4L1JhY2tNdWx0aXBhcnQyMDI2MDgxOS01OS0xZGJiYWF3LmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": "£6"
+    "price": "£6",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "From heavy, Muse-inspired electronic sounds, to emotionally-charged rock epics, to a brand new, genre-defying montage of vibrations, Myopia’s music has evolved quickly and constantly over the years as the band now bring a certain style of music making, and obsessive passion that…"
   },
   {
     "venue": "Brickmakers",
@@ -765,7 +989,8 @@
     "date": "2026-12-04",
     "url": "https://www.norfolkgigguide.com/band-details/NIRVANHER+with+HELL+IS+IN+CHAINS",
     "image": "",
-    "price": "£16.50"
+    "price": "£16.50",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - NIRVANHER with HELL IS IN CHAINS"
   },
   {
     "venue": "Gonzos",
@@ -773,7 +998,16 @@
     "date": "2026-12-05",
     "url": "https://www.fatsoma.com/e/8l08hndq/t-i-the-residency-clipz",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzE4LzE0LzIzLzI1LzIxMC9SYWNrTXVsdGlwYXJ0MjAyNjExMTgtNjMtMWVvbzc0LnBuZyJdXQ",
-    "price": "£7–£12"
+    "price": "£7–£12",
+    "time": "23:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "The final chapter in what has been an immense run of parties this year with local hero T>I!! You know we had to go big for this one and here we go as we invite one of the biggest DJs in the scene to join us - CLIPZ!",
+    "support": [
+      "Limited",
+      "ASH C",
+      "Avire"
+    ]
   },
   {
     "venue": "Arts Centre",
@@ -781,7 +1015,10 @@
     "date": "2026-12-05",
     "url": "https://norwichartscentre.co.uk/event/the-electric-swing-circus/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/ESC1-MAIN-cropped-1-698debe1eae0f-800x450-c-default.jpg",
-    "price": "£17–£19.50"
+    "price": "£17–£19.50",
+    "time": "20:00",
+    "doors": "19:00",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -789,7 +1026,11 @@
     "date": "2026-12-05",
     "url": "https://www.ueaticketbookings.co.uk/event/propaganda-2/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-40-500x500.png.webp",
-    "price": "£6.60"
+    "price": "£6.60",
+    "time": "23:00",
+    "doors": "23:00",
+    "age": "18+",
+    "description": "we’re throwing a massive indie rave with only the hardest sleaze club bangers from justice, charli xcx, wolf alice, gossip, crystal castles and many more."
   },
   {
     "venue": "Waterfront",
@@ -797,7 +1038,15 @@
     "date": "2026-12-05",
     "url": "https://www.ueaticketbookings.co.uk/event/the-bon-jovi-experience-motley-crue-tribute-motley-crude/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2025/12/BONJOVIMOTLEYsquare-500x500.png.webp",
-    "price": "£24.98"
+    "price": "£24.98",
+    "time": "18:00",
+    "doors": "18:00",
+    "end": "22:00",
+    "age": "14+",
+    "description": "The Bon Jovi Experience are the world’s first and finest tribute to the great Bon Jovi and are the world’s ONLY tribute to have been requested by and to have performed live on stage with Jon Bon Jovi himself they are also the only tribute to have been featured on the official…",
+    "support": [
+      "on a 1 hour set in support"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -805,7 +1054,16 @@
     "date": "2026-12-05",
     "url": "https://www.ueaticketbookings.co.uk/event/the-entitled-sons/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/The-Entitled-Sons-SQ-NORWICH-supports-500x500.png.webp",
-    "price": "£17.60"
+    "price": "£17.60",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "The Entitled Sons are one of the UK’s most exciting emerging rock bands.",
+    "support": [
+      "The Heretics",
+      "Grace Calver"
+    ]
   },
   {
     "venue": "LCR",
@@ -813,7 +1071,15 @@
     "date": "2026-12-05",
     "url": "https://www.ueaticketbookings.co.uk/event/ash/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/ASH-SQ-SUPPORT.png.webp",
-    "price": "£33"
+    "price": "£33",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "ASH announce 30th anniversary edition of seminal debut album 1977 alongside extensive UK and international tour dates.",
+    "support": [
+      "Dead Raze"
+    ]
   },
   {
     "venue": "Voodoos",
@@ -821,7 +1087,10 @@
     "date": "2026-12-05",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/dad-manners/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzMvMjIvMTEvMjMvNTEvMzIvUmFja011bHRpcGFydDIwMjYwMzIyLTU3LWszeXd2bC5qcGciXV0?ar=16:9&fit=crop",
-    "price": "£15"
+    "price": "£15",
+    "time": "20:00",
+    "end": "22:30",
+    "description": "Dad Manners is a tribute to one of the biggest 2Tone bands to come out of the early 1980’s, Bad Manners, which had a number of hits such as \"Nee Nee Na Na Na Na Nu Nu\", \"My Girl Lollipop\", \"Lip Up Fatty\", \"Can Can\", \"Special Brew\", \"Walking in the Sunshine\" and \"That'll Do…"
   },
   {
     "venue": "Brickmakers",
@@ -829,7 +1098,8 @@
     "date": "2026-12-05",
     "url": "https://www.norfolkgigguide.com/band-details/Henry+Cluney%27s+XSLF+%2B+The+Punktures+%2B+Beef+%26+Onion",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - henry cluney's xslf the punktures beef & onion"
   },
   {
     "venue": "Brickmakers",
@@ -837,7 +1107,8 @@
     "date": "2026-12-05",
     "url": "https://www.norfolkgigguide.com/band-details/Dirty+Havana",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Dirty Havana"
   },
   {
     "venue": "Hangar",
@@ -845,7 +1116,10 @@
     "date": "2026-12-05",
     "url": "https://fixr.co/event/norwich-mj-cole-daylight-disco-end-of-summer-day-p-tickets-108678374",
     "image": "https://fixr-cdn.fixr.co/images/event/2026-10/2d386dbbe26d4a6785871274693d086e.jpeg",
-    "price": "£10"
+    "price": "£10",
+    "time": "12:00",
+    "end": "20:30",
+    "description": "Pat Sharp's Fun House Xmas Special 🎄🔥 Indoors & Heated - We have a top of the range heading system and the Hangar roof will be brought over."
   },
   {
     "venue": "Waterfront",
@@ -853,7 +1127,12 @@
     "date": "2026-12-06",
     "url": "https://www.ueaticketbookings.co.uk/event/the-fell/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/The-Fell_thefell_squareG-500x500.png.webp",
-    "price": "£27.75"
+    "price": "£27.75",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "The Fell is a modern rock powerhouse supergroup fronted by dynamic vocalist Toby Rand (Juke Cartel, Rockstar: Supernova), featuring legendary bassist Billy Sheehan (Mr."
   },
   {
     "venue": "Brickmakers",
@@ -861,7 +1140,8 @@
     "date": "2026-12-06",
     "url": "https://www.norfolkgigguide.com/band-details/Southbound",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Southbound"
   },
   {
     "venue": "Maddermarket",
@@ -877,7 +1157,13 @@
     "date": "2026-12-09",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/essa-j-felix-present-the-fifth-foundation-ryan-skillit-amy-nomvula/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzE1LzEyLzE1LzI5LzY0OS9SYWNrTXVsdGlwYXJ0MjAyNjEwMTUtNjEtMWM3amk5dS5qcGciXV0?ar=16:9&fit=crop",
-    "price": "£5–£25"
+    "price": "£5–£25",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "The Fifth Foundation bring their explosive live experience to Norwich, mixing timeless soul, jazz, funk and rap sounds.",
+    "support": [
+      "From"
+    ]
   },
   {
     "venue": "Brickmakers",
@@ -885,7 +1171,8 @@
     "date": "2026-12-09",
     "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Black Dog Music"
   },
   {
     "venue": "Holloway",
@@ -901,7 +1188,13 @@
     "date": "2026-12-10",
     "url": "https://epic-tv.com/events/event/artful-dodger",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "age": "16+",
+    "description": "+ Support from Peche Artful Dodger is established as the most commercially successful UK Garage act to have emerged fromthe scene to date.",
+    "support": [
+      "Peche"
+    ]
   },
   {
     "venue": "Arts Centre",
@@ -909,7 +1202,10 @@
     "date": "2026-12-10",
     "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-ancient-infinity-orchestra/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Ancient-Infinity-Orchestra-web-6a5f8e0c75efc-800x450-c-default.jpg",
-    "price": "£21–£23"
+    "price": "£21–£23",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporter Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -917,7 +1213,15 @@
     "date": "2026-12-10",
     "url": "https://www.ueaticketbookings.co.uk/event/sumo-cyco/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/SumoCyco_Square-500x500.png.webp",
-    "price": "£19.80"
+    "price": "£19.80",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Sumo Cyco is a genre-smashing rock band from Ontario, Canada, fusing heavy riffs, punk energy, and pop hooks with a wildly cinematic DIY flair.",
+    "support": [
+      "Hyro The Hero"
+    ]
   },
   {
     "venue": "Voodoos",
@@ -925,7 +1229,10 @@
     "date": "2026-12-10",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/unsigned-live-2/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMS8xMC85LzI5Lzg3NS9SYWNrTXVsdGlwYXJ0MjAyNjA5MDEtNTQtNzRnMGdhLmpwZWciXV0?ar=16:9&fit=crop",
-    "price": "£6–£8"
+    "price": "£6–£8",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "UNSIGNED// LIVE is back and bigger than ever. Due to overwhelming popularity from the last event, Music Production Society are back showcasing all our incredibly talented members."
   },
   {
     "venue": "Brickmakers",
@@ -933,7 +1240,8 @@
     "date": "2026-12-10",
     "url": "https://www.norfolkgigguide.com/band-details/Open+Mic+with+Peter+T",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Open Mic with Peter T"
   },
   {
     "venue": "Gonzos",
@@ -941,7 +1249,11 @@
     "date": "2026-12-11",
     "url": "https://www.fatsoma.com/e/bfbqe1v4/a-m-c-grassroots-energy-norwich",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzYvMjQvOS8xMC8yMC84NjQvUmFja011bHRpcGFydDIwMjYwNjI0LTU1LTF2bDYyZzcucG5nIl1d",
-    "price": "£10"
+    "price": "£10",
+    "time": "23:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "A.M.C Grassroots Energy: NorwichTouchbase proudly bring A.M.C + Phantom to Norwich, Gonzo's Two room as part of the Grassroots Energy tour, supporting small independent venues and promoters across the U.K.Support from: Origin Events Takeover (TN) + JC1."
   },
   {
     "venue": "Holloway",
@@ -957,7 +1269,10 @@
     "date": "2026-12-11",
     "url": "https://norwichartscentre.co.uk/event/zwa-presents-ni-maxine/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/NI_MAXINE_ARTWORKALT_2000px-6acfa05c00b6a-800x450-c-default.jpg",
-    "price": "£15–£15.50"
+    "price": "£15–£15.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -965,7 +1280,11 @@
     "date": "2026-12-11",
     "url": "https://www.ueaticketbookings.co.uk/event/chains-on-velvet/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/CoV-Dec-26-square-500x500.jpg.webp",
-    "price": "£4.40–£5.50"
+    "price": "£4.40–£5.50",
+    "time": "23:00",
+    "doors": "23:00",
+    "age": "18+",
+    "description": "Free entry (18+) for those attending Wednesday 13 + The Birthday Massacre gig (entry before midnight)"
   },
   {
     "venue": "Waterfront",
@@ -973,7 +1292,15 @@
     "date": "2026-12-11",
     "url": "https://www.ueaticketbookings.co.uk/event/wednesday-13-the-birthday-massacre/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Wed-13-Bday-Mass.-SQ-500x500.png.webp",
-    "price": "£27.75"
+    "price": "£27.75",
+    "time": "17:30",
+    "doors": "17:30",
+    "end": "22:00",
+    "age": "13+",
+    "description": "The Birthday Massacre are a six-piece from Toronto who have spent 25 years building one of the most distinctive sounds in dark alternative music — synth-driven and guitar-heavy, melodic and dissonant, equal parts nostalgia and dread.",
+    "support": [
+      "Killus"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -981,7 +1308,12 @@
     "date": "2026-12-11",
     "url": "https://www.ueaticketbookings.co.uk/event/zz-toppd-the-uks-no-1-tribute-to-zz-top/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Dianas-WF-AND-LCR-MASTERS-USE-THESE-3-500x500.jpg.webp",
-    "price": "£16.50"
+    "price": "£16.50",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "This two hour plus show features all the greatest hits and more from the bands 50+ year career. Complete with beards, costume changes and the famous furry, spinning guitars, this is a show you don’t want to miss."
   },
   {
     "venue": "Voodoos",
@@ -989,7 +1321,10 @@
     "date": "2026-12-11",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/mama-oh-no/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzkvMTgvMzUvMzgvOTgxL1JhY2tNdWx0aXBhcnQyMDI2MTEwOS01Ny11a2gzNXMuanBnIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "Mama Oh No are a family 4-piece from Norfolk, England. Taking inspiration from Old Soul, Blues, and surf music, the band delivers their own unique blend of swampy guitar, clanging bass, fuzz and spring reverb."
   },
   {
     "venue": "Dead Wax",
@@ -997,7 +1332,10 @@
     "date": "2026-12-11",
     "url": "https://www.deadwaxnorwich.pub/whats-on/bland-bizarro-variety-presents-bradley-taylor-maxine-meixner-abbie-neale-squat-lobster",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788446636366-FJQQURVPK5MRXCF99CHD/bland+nov.jpeg",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "end": "23:00",
+    "description": "BLAND - Bizarro’ Variety Presents: Bradley Taylor, Maxine Meixner, Abbie Neale, & Squat Lobster Thursday, November 12, 2026 7:00 PM 11:00 PM Google Calendar ICS"
   },
   {
     "venue": "Brickmakers",
@@ -1005,7 +1343,8 @@
     "date": "2026-12-11",
     "url": "https://www.norfolkgigguide.com/band-details/The+Pogue+Traders",
     "image": "",
-    "price": "£22.20"
+    "price": "£22.20",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - The Pogue Traders"
   },
   {
     "venue": "Revolucion de Cuba",
@@ -1013,7 +1352,8 @@
     "date": "2026-12-11",
     "url": "https://www.revoluciondecuba.com/events/norwich/12946/mambo-kings",
     "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
-    "price": ""
+    "price": "",
+    "description": "A combo of the best Latin musicians in the UK. Every performance is a high-energy spectacle performing live in Revolucion de Cuba Norwich - we hope you're ready to dance!"
   },
   {
     "venue": "Gonzos",
@@ -1021,7 +1361,15 @@
     "date": "2026-12-12",
     "url": "https://www.fatsoma.com/e/gnwpq6jj/system-olympia",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI4LzE1LzE3LzI0LzIyMC9SYWNrTXVsdGlwYXJ0MjAyNjEwMjgtNTktMTlpeDZtYS5wbmciXV0",
-    "price": "£3–£7"
+    "price": "£3–£7",
+    "time": "23:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "We're excited to welcome one of our favourite producers and performing artists to the club for an evening of the good stuff - System Olympia joins us in the basement for an hot, sweaty evening in the cage!",
+    "support": [
+      "Anna B",
+      "pat2cool"
+    ]
   },
   {
     "venue": "Epic",
@@ -1029,7 +1377,10 @@
     "date": "2026-12-12",
     "url": "https://epic-tv.com/events/event/heart-club-classics-the-christmas-bash-with-toby-anstis",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "age": "18+",
+    "description": "Toby Anstis is one of the UK's most recognisable presenters and DJs, with decades of experience across radio, television and live events."
   },
   {
     "venue": "Arts Centre",
@@ -1037,7 +1388,10 @@
     "date": "2026-12-12",
     "url": "https://norwichartscentre.co.uk/event/zwa-presents-dennis-bovell-x-rebel-lion-sound-system/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Dennis1-6acfa47ea988f-800x450-c-default.jpg",
-    "price": "£21–£24"
+    "price": "£21–£24",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC SUpporters Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -1045,7 +1399,11 @@
     "date": "2026-12-12",
     "url": "https://www.ueaticketbookings.co.uk/event/meltdown-presents-jingle-bell-rock/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/JingleBellRock-02-500x500.png.webp",
-    "price": "£5–£7"
+    "price": "£5–£7",
+    "time": "23:00",
+    "doors": "23:00",
+    "age": "18+",
+    "description": "HO HO HO! This December Jingle Bell Rock lands at the Waterfront for a festive night of bangers that will rock your thick, woollen socks off!"
   },
   {
     "venue": "Waterfront",
@@ -1053,7 +1411,16 @@
     "date": "2026-12-12",
     "url": "https://www.ueaticketbookings.co.uk/event/sham-69-50th-anniversary/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Sham-69-SQ-500x500.jpg.webp",
-    "price": "£35.84"
+    "price": "£35.84",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Sham 69 are an English punk rock band that formed in Hersham in Surrey in 1975. They changed their musical direction after seeing the Sex Pistols play live in early 1976.",
+    "support": [
+      "Knock Off",
+      "The Meffs"
+    ]
   },
   {
     "venue": "LCR",
@@ -1061,7 +1428,12 @@
     "date": "2026-12-12",
     "url": "https://www.ueaticketbookings.co.uk/event/belle-sebastian/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Belle-Sebastian-2026-Full-Tour-1080x1080-1-500x500.jpg.webp",
-    "price": "£50.85"
+    "price": "£50.85",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Performing 'If You're Feeling Sinister' followed by a second set of favourites"
   },
   {
     "venue": "Voodoos",
@@ -1069,7 +1441,11 @@
     "date": "2026-12-12",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/candy-cane-cabaret/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzYvOC8xMC8zOC84MjkvUmFja011bHRpcGFydDIwMjYxMDA2LTU4LTFvcnV2bmYuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£10"
+    "price": "£10",
+    "time": "19:30",
+    "end": "22:30",
+    "age": "18+",
+    "description": "Snapdragon Cabaret presents ’Candy Cane Cabaret’: a mint to be cabaret show filled with drag, comedy, and burlesque."
   },
   {
     "venue": "Dead Wax",
@@ -1077,7 +1453,10 @@
     "date": "2026-12-12",
     "url": "https://www.deadwaxnorwich.pub/whats-on/punk-rock-stars-in-their-eyes",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795025212480-OOE166WSB5ERJOG4TIIQ/punkrockstars_A3EDIT.jpg",
-    "price": "£5"
+    "price": "£5",
+    "time": "17:00",
+    "end": "23:00",
+    "description": "Punk rock stars in their eyes 2026 Saturday, December 12, 2026 5:00 PM 11:00 PM Google Calendar ICS"
   },
   {
     "venue": "Brickmakers",
@@ -1085,7 +1464,8 @@
     "date": "2026-12-12",
     "url": "https://www.norfolkgigguide.com/band-details/RATTLESNAKES+-+REGIONAL+ONE+-+CHAOS+PRINCIPAL",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - RATTLESNAKES - REGIONAL ONE - CHAOS PRINCIPAL"
   },
   {
     "venue": "Brickmakers",
@@ -1093,7 +1473,8 @@
     "date": "2026-12-12",
     "url": "https://www.norfolkgigguide.com/band-details/Skatopia",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Skatopia"
   },
   {
     "venue": "Hangar",
@@ -1101,7 +1482,8 @@
     "date": "2026-12-12",
     "url": "https://fixr.co/event/bank-holiday-fiesta-w-the-cuban-brothers-sunday-30-tickets-727244475",
     "image": "https://fixr-cdn.fixr.co/images/event/2026-06/df5bb64196a04047a3c2d41cc1633046.jpeg",
-    "price": "£10"
+    "price": "£10",
+    "description": "Join us this Bank Holiday Sunday for the ultimate Fiesta with The Cuban Brothers! 🇨🇺🎉 After last years sold out show, The Cuban Brothers return this August for another Bank Holiday special."
   },
   {
     "venue": "Voodoos",
@@ -1109,7 +1491,10 @@
     "date": "2026-12-13",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/annotations-of-an-autopsy/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTIvMTkvNDAvMzUvMzQwL1JhY2tNdWx0aXBhcnQyMDI2MDkxMi02NC00em9zYzYuanBnIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "Returning from a lengthy hiatus, Annotations Of An Autopsy is bringing back their brand of disgusting death metal starting with a home town show."
   },
   {
     "venue": "Epic",
@@ -1117,7 +1502,10 @@
     "date": "2026-12-14",
     "url": "https://epic-tv.com/events/event/the-unthanks-in-winter",
     "image": "",
-    "price": "£39.20"
+    "price": "£39.20",
+    "time": "19:30",
+    "doors": "19:30",
+    "description": "The Unthanks In Winter This is a ‘Norwich Arts Centre presents’ event at EPIC Studios, 112-114 Magdalen St, Norwich NR3 1JD Doors: 19:30 Start time: 20:00 Described as ‘the gold standard’ of all winter records alongside Frost and Fire by The Watersons in a five star review from…"
   },
   {
     "venue": "Arts Centre",
@@ -1125,7 +1513,10 @@
     "date": "2026-12-14",
     "url": "https://norwichartscentre.co.uk/event/the-unthanks-in-winter-at-epic-studios/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/The-Unthanks-In-Winter-Photo-2-_-COLOUR-_-RGB-16x9-6a2fd7592b2e4-scaled-800x450-c-default.jpg",
-    "price": "£35–£39.50"
+    "price": "£35–£39.50",
+    "time": "20:00",
+    "doors": "19:00",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Arts Centre",
@@ -1133,7 +1524,10 @@
     "date": "2026-12-16",
     "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-laura-misch/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-22-at-14.28.49-6ab282961471a-800x450-c-default.png",
-    "price": "£26–£29.50"
+    "price": "£26–£29.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Brickmakers",
@@ -1141,7 +1535,16 @@
     "date": "2026-12-16",
     "url": "https://www.norfolkgigguide.com/band-details/The+Psychedelic+Circus",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - The Psychedelic Circus"
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "Lunavaria + Esoterica + Tee Martin",
+    "date": "2026-12-17",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1795605807147-073D30CF-1F99-427B-9F50-0A20B05DF2F2.jpeg?alt=media&token=89357ce5-52b2-4203-a31a-dcf43444fa84",
+    "price": "Free"
   },
   {
     "venue": "Epic",
@@ -1149,7 +1552,10 @@
     "date": "2026-12-17",
     "url": "https://epic-tv.com/events/event/massaoke-christmas",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "age": "All ages",
+    "description": "The Ultimate Festive Live Band Sing-Along MASSAOKE CHRISTMAS returns to Epic Studios and it’s guaranteed to be Christmassiest thing you'll do this year."
   },
   {
     "venue": "Arts Centre",
@@ -1157,7 +1563,10 @@
     "date": "2026-12-17",
     "url": "https://norwichartscentre.co.uk/event/tone-presents-jordan-smart/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/DSC08599-6a79b0785ca43-scaled-800x450-c-default.jpg",
-    "price": "£10–£12"
+    "price": "£10–£12",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Voodoos",
@@ -1165,7 +1574,10 @@
     "date": "2026-12-17",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-boom-cabaret/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzcvOS81MC8yNi8zMjcvUmFja011bHRpcGFydDIwMjYxMDA3LTYxLWN4cGlvLmpwZWciXV0?ar=16:9&fit=crop",
-    "price": "£20"
+    "price": "£20",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "The Boom Cabaret lands in Norwich this December with a sensational Drag & Burlesque show guaranteed to blow your mind! This international boutique production stars elite cabaret talent from across the UK and Europe."
   },
   {
     "venue": "Dead Wax",
@@ -1173,7 +1585,10 @@
     "date": "2026-12-17",
     "url": "https://www.deadwaxnorwich.pub/whats-on/wwetybmsb5te2ccpkzf7fy2fjr8dxe",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795026224536-EZAIHA8JON2L02RILZJ6/dream_june2.png",
-    "price": "Free"
+    "price": "Free",
+    "time": "21:00",
+    "end": "01:00",
+    "description": "dreamcast Thursday, December 17, 2026 9:00 PM Friday, December 18, 2026 1:00 AM Google Calendar ICS"
   },
   {
     "venue": "The Halls",
@@ -1181,7 +1596,9 @@
     "date": "2026-12-17",
     "url": "https://www.norwich.gov.uk/thehalls/evening-dickens-christmas-carol",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-09/Dickens.jpg?itok=nBiLDE4k",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "description": "In October 1859, Charles Dickens gave a reading of his festive classic “A Christmas Carol” at St Andrew’s Hall, to great acclaim."
   },
   {
     "venue": "Gonzos",
@@ -1189,7 +1606,11 @@
     "date": "2026-12-18",
     "url": "https://www.fatsoma.com/e/3y8joozg/resident-rave",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI5LzE3LzIzLzU3Lzg4Mi9SYWNrTXVsdGlwYXJ0MjAyNjEwMjktNTUtMWZiMjg5di5wbmciXV0",
-    "price": "£3–£7"
+    "price": "£3–£7",
+    "time": "23:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "It's that time of year, any excuse to get the family together under the disco ball for a big ol celebration. We have invited the Pêche boys down and they extended the invite to their pals HB & Harrison Knight, who both make their debut at the club!"
   },
   {
     "venue": "Epic",
@@ -1197,7 +1618,11 @@
     "date": "2026-12-18",
     "url": "https://epic-tv.com/events/event/too-much-too-young-a-night-of-2-tone-ska-and-beyond",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:15",
+    "doors": "20:00",
+    "age": "14+",
+    "description": "'Too Much Too Young' tells the story of one of the most influential musical movements in British pop culture that became a timeless and iconic symbol."
   },
   {
     "venue": "Arts Centre",
@@ -1205,7 +1630,10 @@
     "date": "2026-12-18",
     "url": "https://norwichartscentre.co.uk/event/the-anna-mudeka-band/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Screenshot-2026-08-21-at-10.13.54-6a8816daa7aeb-800x450-c-default.png",
-    "price": "£16–£18.50"
+    "price": "£16–£18.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -1213,7 +1641,12 @@
     "date": "2026-12-18",
     "url": "https://www.ueaticketbookings.co.uk/event/the-9075-the-worlds-first-tribute-to-the-1975/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/The9075-Norwich-Square-500x500.png.webp",
-    "price": "£19.80"
+    "price": "£19.80",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "23:00",
+    "age": "14+",
+    "description": "NORWICH! Due to popular demand The 9075 – The World’s First Tribute To The 1975 is heading back to the fine city for an extra special ‘Fan Voted Setlist’ show on Friday 18 th December with very special guests TBA."
   },
   {
     "venue": "Waterfront",
@@ -1221,7 +1654,12 @@
     "date": "2026-12-18",
     "url": "https://www.ueaticketbookings.co.uk/event/the-900/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/The-900_Square-500x500.png.webp",
-    "price": "£17.60"
+    "price": "£17.60",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "The 900 are the UK’s first and only Tony Hawk’s Pro Skater cover band. Formed by their mutual understanding that no other soundtrack could ever top THPS, The 900 gives you a reason for your back to hurt in the morning."
   },
   {
     "venue": "Voodoos",
@@ -1229,7 +1667,10 @@
     "date": "2026-12-18",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/pilot-the-dune-master-charger-erronaut/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMTQvMTAvNTkvNDgvMjkvUmFja011bHRpcGFydDIwMjYwNjE0LTU5LTE4ams0b2QuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£10"
+    "price": "£10",
+    "time": "19:00",
+    "end": "22:30",
+    "description": "PILOT THE DUNE Formed in 2020 and hailing from the city of Norwich comes the explosive stoner rock quartet PILOT THE DUNE."
   },
   {
     "venue": "Dead Wax",
@@ -1237,7 +1678,10 @@
     "date": "2026-12-18",
     "url": "https://www.deadwaxnorwich.pub/whats-on/qi0aahbv8pgv422767q94lbajjiwb1",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795026814992-Z6HO5NSRCXECUX0LVUJ8/Screenshot+2026-11-18+at+18.31.14.png",
-    "price": ""
+    "price": "",
+    "time": "21:00",
+    "end": "01:00",
+    "description": "a KLUBHAUS CHRISTMAS Friday, December 18, 2026 9:00 PM Saturday, December 19, 2026 1:00 AM Google Calendar ICS"
   },
   {
     "venue": "Brickmakers",
@@ -1245,7 +1689,8 @@
     "date": "2026-12-18",
     "url": "https://www.norfolkgigguide.com/band-details/Counterfeit+Brits",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Counterfeit Brits"
   },
   {
     "venue": "The Halls",
@@ -1253,7 +1698,9 @@
     "date": "2026-12-18",
     "url": "https://www.norwich.gov.uk/thehalls/country-night-nashville",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-05/Nashville.png?h=5fb92bf9&itok=LUvCb6bK",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "description": "Direct from the Royal Albert Hall, A Country Night in Nashville brings the buzz of a downtown honky-tonk to life, capturing the spirit of country music at its finest."
   },
   {
     "venue": "Revolucion de Cuba",
@@ -1261,7 +1708,8 @@
     "date": "2026-12-18",
     "url": "https://www.revoluciondecuba.com/events/norwich/12931/tuto-tribe",
     "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
-    "price": ""
+    "price": "",
+    "description": "We’re turning up the heat with a special live edition featuring the electric Tuto Tribe. From 7PM, the band brings high-energy Latin rhythms, feel-good soul, and the perfect party atmosphere to kick off your weekend at Revolución de Cuba."
   },
   {
     "venue": "Gonzos",
@@ -1269,7 +1717,11 @@
     "date": "2026-12-19",
     "url": "https://www.fatsoma.com/e/4rtxgsl0/9trane-only-child",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzE1LzE3LzIvNTAvMjEyL1JhY2tNdWx0aXBhcnQyMDI2MTExNS02My0xaDBlNjBiLnBuZyJdXQ",
-    "price": "£3–£7"
+    "price": "£3–£7",
+    "time": "23:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "Two heavyweights in their own right, 9Trane recently relocated to Oz but he is back in the basement for one night only. Only Child is a legend in these parts and we're buzzing to have him back in the club to kick off the festive celebrations!"
   },
   {
     "venue": "Holloway",
@@ -1285,7 +1737,10 @@
     "date": "2026-12-19",
     "url": "https://norwichartscentre.co.uk/event/rework-christmas-presents-bag-of-cans/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-15-at-13.29.56-6aa93a4a6acba-800x450-c-default.png",
-    "price": "£13–£15"
+    "price": "£13–£15",
+    "time": "19:30",
+    "doors": "19:00",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -1293,7 +1748,16 @@
     "date": "2026-12-19",
     "url": "https://www.ueaticketbookings.co.uk/event/faintest-idea/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Lauras-WF-LCR-IG-Template-49-500x500.png.webp",
-    "price": "£22.20"
+    "price": "£22.20",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Faintest Idea invite you for their annual festive ska punk knees up in the Fine City on December 19th, joined by Grail Guard and Babs Romance!",
+    "support": [
+      "Grail Guard",
+      "Babs Romance"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -1301,7 +1765,12 @@
     "date": "2026-12-19",
     "url": "https://www.ueaticketbookings.co.uk/event/pleasureinc/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/POTY-SQ-Sebbuku.png.webp",
-    "price": "£13.20"
+    "price": "£13.20",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "23:00",
+    "age": "14+",
+    "description": "PleasureInc. are back with Party of the Year 3. Live music, DJs and a fat sack full of Xmas delights."
   },
   {
     "venue": "LCR",
@@ -1309,7 +1778,12 @@
     "date": "2026-12-19",
     "url": "https://www.ueaticketbookings.co.uk/event/day-fever/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Day-Fever-SQ-Sleigh-Fever-500x500.png.webp",
-    "price": "£13.20"
+    "price": "£13.20",
+    "time": "15:00",
+    "doors": "15:00",
+    "end": "20:00",
+    "age": "18+",
+    "description": "The countries biggest day time disco returns to The LCR UEA for a big Christmas knees up."
   },
   {
     "venue": "Voodoos",
@@ -1317,7 +1791,10 @@
     "date": "2026-12-19",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/tripl3-b-the-troubl3makers-xmas-party-dj-dubious-dj-tritt-ethobeat/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMzAvMTYvMTAvMTcvNDc2L1JhY2tNdWx0aXBhcnQyMDI2MDkzMC02My13ZjhlNWsucG5nIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "This is gonna be anything but a silent night!Following their SOLD OUT launch at Voodoos in January and a summer playing UK festivals including Latitude and Boomtown, Tripl3 B and The Trouble3makers are back on home turf with a big, baubles out Christmas party…bringing more…"
   },
   {
     "venue": "Dead Wax",
@@ -1325,7 +1802,10 @@
     "date": "2026-12-19",
     "url": "https://www.deadwaxnorwich.pub/whats-on/nivmsenb9umrx1cevv9qjdxe10ccc9",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795023657198-J89V44CL2NKQ6SNMQUG6/star+children+december.jpeg",
-    "price": ""
+    "price": "",
+    "time": "20:00",
+    "end": "01:00",
+    "description": "star children invites: love break Saturday, December 19, 2026 8:00 PM Sunday, December 20, 2026 1:00 AM Google Calendar ICS"
   },
   {
     "venue": "Brickmakers",
@@ -1333,7 +1813,8 @@
     "date": "2026-12-19",
     "url": "https://www.norfolkgigguide.com/band-details/Xmas+Rox+Off",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Xmas Rox Off"
   },
   {
     "venue": "Gonzos",
@@ -1341,7 +1822,11 @@
     "date": "2026-12-20",
     "url": "https://www.fatsoma.com/e/9kl2h394/t-was-the-last-dance-before-christmas-day-party",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzIwLzExLzQzLzU3LzYyL1JhY2tNdWx0aXBhcnQyMDI2MTEyMC02MS0xaXp0OGp6LnBuZyJdXQ",
-    "price": "£3–£7"
+    "price": "£3–£7",
+    "time": "16:00",
+    "end": "22:00",
+    "age": "18+",
+    "description": "T'was the last dance before christmas and all through the building, nothing was silent, not even a room, all four floors were moving and shaking full of Decks balloons, 6 of our finest residents ready, all USB's plugged and loaded!"
   },
   {
     "venue": "Holloway",
@@ -1357,7 +1842,10 @@
     "date": "2026-12-20",
     "url": "https://www.deadwaxnorwich.pub/whats-on/festive-cat-life-drawing-class",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795027245773-LEBEZ7N3GCRFKSG2S602/draw+some+paws.jpg",
-    "price": ""
+    "price": "",
+    "time": "15:00",
+    "end": "16:00",
+    "description": "Festive Cat Life Drawing workshop Sunday, December 20, 2026 3:00 PM 4:00 PM Google Calendar ICS"
   },
   {
     "venue": "Ribs of Beef",
@@ -1373,7 +1861,10 @@
     "date": "2026-12-21",
     "url": "https://epic-tv.com/events/event/the-santa-show",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "15:30",
+    "age": "All ages",
+    "description": "It’s time to head on down to the North Pole for a Christmas show like no other!"
   },
   {
     "venue": "Voodoos",
@@ -1381,7 +1872,10 @@
     "date": "2026-12-21",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-high-points-christmas-show/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzIzLzEwLzIwLzIvMTAyL1JhY2tNdWx0aXBhcnQyMDI2MTEyMy02My1laDdwYWUuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£15"
+    "price": "£15",
+    "time": "19:00",
+    "end": "23:00",
+    "description": "Join The High Points on 21st December for a festive night of live music at Voodoo Daddy’s We’ll be bringing our usual mix of tunes, a few Christmas favourites and some festive twists along the way."
   },
   {
     "venue": "Dead Wax",
@@ -1389,7 +1883,10 @@
     "date": "2026-12-21",
     "url": "https://www.deadwaxnorwich.pub/whats-on/m7gwtclwcndfadx4d25ymbzesgbllb",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795027600552-DRGK2B15STH7DKLOB6MW/RHYME_MONTHLY+%281%29.jpg",
-    "price": "Free"
+    "price": "Free",
+    "time": "19:30",
+    "end": "22:30",
+    "description": "Rhyme against the machine Monday, December 21, 2026 7:30 PM 10:30 PM Google Calendar ICS"
   },
   {
     "venue": "Dead Wax",
@@ -1397,7 +1894,10 @@
     "date": "2026-12-22",
     "url": "https://www.deadwaxnorwich.pub/whats-on/ben-wegg-lydia-cass",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791823274345-7LAPYY3VYZQICUA3KEUH/IMG_9936.jpeg",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "end": "23:00",
+    "description": "Ben Wegg + Lydia Cass Tuesday, December 22, 2026 7:30 PM 11:00 PM Google Calendar ICS"
   },
   {
     "venue": "Brickmakers",
@@ -1405,7 +1905,8 @@
     "date": "2026-12-24",
     "url": "https://www.norfolkgigguide.com/band-details/Beautiful+Dangerous",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Beautiful Dangerous"
   },
   {
     "venue": "Brickmakers",
@@ -1413,7 +1914,8 @@
     "date": "2026-12-27",
     "url": "https://www.norfolkgigguide.com/band-details/TBA%2C+URIDIUM%2C+BLOODSHOT%2C+ATARKA%2C+GOAT+MONSOON%2C+PSY",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - TBA, URIDIUM, BLOODSHOT, ATARKA, GOAT MONSOON, PSY"
   },
   {
     "venue": "Brickmakers",
@@ -1421,7 +1923,8 @@
     "date": "2026-12-28",
     "url": "https://www.norfolkgigguide.com/band-details/Ska+Souls",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Ska Souls"
   },
   {
     "venue": "Gonzos",
@@ -1429,7 +1932,11 @@
     "date": "2026-12-31",
     "url": "https://www.fatsoma.com/e/qou6tsr5/nye-house-party-two-room-basement",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzUvOC81OC8xNS83NjMvUmFja011bHRpcGFydDIwMjYxMTA1LTU3LTFuZG90Nm4ucG5nIl1d",
-    "price": "£10–£20"
+    "price": "£10–£20",
+    "time": "21:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "A big team of selectors, for the biggest ‘house’ party of the year. We’ve made sure we have a heavy-weight team behind the decks for you: ASH C, no introduction needed, multi genre badman."
   },
   {
     "venue": "Gonzos",
@@ -1437,7 +1944,11 @@
     "date": "2026-12-31",
     "url": "https://www.fatsoma.com/e/oyq3ii63/nye-special-tea-room-lounge-voodoo-daddy-s",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzUvOC81OC8zOS81NzEvUmFja011bHRpcGFydDIwMjYxMTA1LTU3LTFkaXRweXMucG5nIl1d",
-    "price": "£10–£300"
+    "price": "£10–£300",
+    "time": "21:00",
+    "end": "04:00",
+    "age": "18+",
+    "description": "It's NYE across the building, we have three rooms with three very different vibes, come and dance in Tea Room under the disco ball and special balloon installation from Deck, party in The Lounge with Joshua Roberts & Friends to feel good house bangers, and keep it dark and dingy…"
   },
   {
     "venue": "Arts Centre",
@@ -1445,7 +1956,11 @@
     "date": "2026-12-31",
     "url": "https://norwichartscentre.co.uk/event/channel-one-sound-system/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2025/07/Channel-One-25-crop-6877ba2e1e105-800x450-c-default.png",
-    "price": "£30–£40"
+    "price": "£30–£40",
+    "time": "20:00",
+    "end": "01:00",
+    "age": "18+",
+    "description": "Price From: £30 First release | £35 Second release | £40 Final release"
   },
   {
     "venue": "Brickmakers",
@@ -1453,7 +1968,8 @@
     "date": "2026-12-31",
     "url": "https://www.norfolkgigguide.com/band-details/Wiggy+Stardust+and+the+Ciders+from+Jars",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Wiggy Stardust and the Ciders from Jars"
   },
   {
     "venue": "Brickmakers",
@@ -1461,7 +1977,8 @@
     "date": "2027-01-03",
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Norfolk Blues Society at the Brickmakers"
   },
   {
     "venue": "Arts Centre",
@@ -1469,7 +1986,8 @@
     "date": "2027-01-04",
     "url": "https://norwichartscentre.co.uk/event/we-are-closed-friday-3-april/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2022/06/We-are-closed-2022-62a8665c70827-800x450-c-default.jpg",
-    "price": ""
+    "price": "",
+    "time": "11:34"
   },
   {
     "venue": "Arts Centre",
@@ -1477,7 +1995,10 @@
     "date": "2027-01-08",
     "url": "https://norwichartscentre.co.uk/event/john-otway-wild-willy-barrett/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-29-at-15.03.17-6abbc52a8cf39-800x450-c-default.png",
-    "price": "£20–£23"
+    "price": "£20–£23",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Arts Centre",
@@ -1485,7 +2006,10 @@
     "date": "2027-01-09",
     "url": "https://norwichartscentre.co.uk/event/phoebe-troup-album-launch/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/PT-Album-Launch-2-6aec5d1f1ab35-800x450-c-default.jpg",
-    "price": "£10–£12"
+    "price": "£10–£12",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "The Halls",
@@ -1493,7 +2017,9 @@
     "date": "2027-01-09",
     "url": "https://www.norwich.gov.uk/thehalls/music-luther-vandross-candlelight-concert",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-10/Luther-Vandross.jpg?h=3031d7b2&itok=EkwUOSwf",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "description": "Join us for a heartfelt evening honouring the timeless music of Luther Vandross, as a gifted vocalist and an incredible live band bring his greatest hits to life in a stunning candlelit setting"
   },
   {
     "venue": "Waterfront",
@@ -1501,7 +2027,12 @@
     "date": "2027-01-10",
     "url": "https://www.ueaticketbookings.co.uk/event/matt-embree-vinnie-caruana/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/EMBREE-CARUANA-SQ-500x500.png.webp",
-    "price": "£22"
+    "price": "£22",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "Matt Embree is an American singer, songwriter, guitarist, and producer best known as the frontman of RX Bandits. He is also a member of The Sound of Animals Fighting, where he performs as “The Walrus,” and has toured with Dispatch since 2016."
   },
   {
     "venue": "Arts Centre",
@@ -1509,7 +2040,10 @@
     "date": "2027-01-14",
     "url": "https://norwichartscentre.co.uk/event/the-pink-stones/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Band-promo-1-6a82e18485692-scaled-800x450-c-default.jpg",
-    "price": "£15–£17.50"
+    "price": "£15–£17.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Brickmakers",
@@ -1517,7 +2051,8 @@
     "date": "2027-01-14",
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Open mic night with Peter Turrell"
   },
   {
     "venue": "Arts Centre",
@@ -1525,7 +2060,10 @@
     "date": "2027-01-15",
     "url": "https://norwichartscentre.co.uk/event/winter-gathering-loris-ensemble-bore-joysey-lydia-cass-maple-ward/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Website-image-winter-gathering-15.10.39-6adf6d8dad92d-scaled-800x450-c-default.jpg",
-    "price": "£10–£12"
+    "price": "£10–£12",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC SUPPORTERS Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -1533,7 +2071,12 @@
     "date": "2027-01-16",
     "url": "https://www.ueaticketbookings.co.uk/event/r-e-m-by-stipe-the-definitive-tribute/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/REM-by-Stipe-SQ.jpg.webp",
-    "price": "£19.25"
+    "price": "£19.25",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "R.E.M. formed in 1980, in Athens, Georgia and by the mid-nineties earned the tagline ‘the biggest band on the planet’ from the music press."
   },
   {
     "venue": "Voodoos",
@@ -1541,7 +2084,10 @@
     "date": "2027-01-16",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/grooving-in-green-the-glass-house-museum-velocette/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzIvMTUvMzYvMjUvOTQyL1JhY2tNdWx0aXBhcnQyMDI2MTEwMi02Mi0xcDI0MG4zLnBuZyJdXQ?ar=16:9&fit=crop",
-    "price": "£12"
+    "price": "£12",
+    "time": "18:30",
+    "end": "22:00",
+    "description": "OFF BEAT PROMOTIONS presents an evening of gothic rock & post-punk featuring three of the UKs top contempory acts... GROOVING IN GREEN - is a Brighton-based gothic rock band known for blending darkwave atmospheres with post-punk energy and modern alternative influences."
   },
   {
     "venue": "Arts Centre",
@@ -1549,7 +2095,10 @@
     "date": "2027-01-19",
     "url": "https://norwichartscentre.co.uk/event/kezia-gill-solo-acoustic/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/KEZIA-GILL-FB-EVENT-NORWICH-6af5e4a6e31aa-800x450-c-default.jpg",
-    "price": "£26–£29.50"
+    "price": "£26–£29.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Arts Centre",
@@ -1557,7 +2106,10 @@
     "date": "2027-01-21",
     "url": "https://norwichartscentre.co.uk/event/billy-lubach/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Press6-6afc1d6513951-scaled-800x450-c-default.jpg",
-    "price": "£10–£12"
+    "price": "£10–£12",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Voodoos",
@@ -1565,7 +2117,10 @@
     "date": "2027-01-21",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/perrl-presents-chuck-ragan-plus-special-guests/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMjMvMTcvMjMvMTgvNjA1L1JhY2tNdWx0aXBhcnQyMDI2MDYyMy02Ni1qY2p1ZTAucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£25"
+    "price": "£25",
+    "time": "19:00",
+    "end": "22:30",
+    "description": "People discover Chuck Ragan in different ways. Some people know Ragan from the pioneering punk act Hot Water Music he’s co-fronted for the past three decades."
   },
   {
     "venue": "Gonzos",
@@ -1573,7 +2128,14 @@
     "date": "2027-01-22",
     "url": "https://www.fatsoma.com/e/4d4n7x0f/eats-everything",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzE4LzE0LzExLzQwLzEwMy9SYWNrTXVsdGlwYXJ0MjAyNjExMTgtNTktajc1ZjRuLnBuZyJdXQ",
-    "price": "£10–£15"
+    "price": "£10–£15",
+    "time": "23:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "He's back, the yearly party with one of the best to do it - Eats Everything! Support - L U Bring ID",
+    "support": [
+      "L U"
+    ]
   },
   {
     "venue": "Arts Centre",
@@ -1581,7 +2143,10 @@
     "date": "2027-01-22",
     "url": "https://norwichartscentre.co.uk/event/laetitia-sadier-stereolab/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Laetitia-sadier-Press-Photo-10-6ada1b29271af-800x450-c-default.png",
-    "price": "£16"
+    "price": "£16",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "LCR",
@@ -1589,7 +2154,16 @@
     "date": "2027-01-22",
     "url": "https://www.ueaticketbookings.co.uk/event/alestorm/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Alestorm-2027-full-tour-1x1-1-500x500.jpg.webp",
-    "price": "£36.40"
+    "price": "£36.40",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "ACCESSIBILTY AREA IS FULL. PLEASE CONTACT BOXOFFICE@UEA.AC.UK IF YOU HAVE ANY FURTHER QUERIES.",
+    "support": [
+      "Battle Beast",
+      "Wizardthrone"
+    ]
   },
   {
     "venue": "Holloway",
@@ -1613,7 +2187,10 @@
     "date": "2027-01-24",
     "url": "https://epic-tv.com/events/event/little-lifts-fitness-festival-w-tribe-collective",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "09:30",
+    "end": "14:45",
+    "description": "Join us and the amazing Amy Bobbins from Tribe Collective for the return of the Little Lifts Fitness Festival!"
   },
   {
     "venue": "Holloway",
@@ -1629,7 +2206,10 @@
     "date": "2027-01-25",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/tummyache/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEzLzEyLzEzLzcvODkvUmFja011bHRpcGFydDIwMjYxMDEzLTYzLTFkZzE0bTMuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£12"
+    "price": "£12",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "Tummyache is a fiercely independent, DIY-driven band rooted in community, care, and creative freedom. Together they approach music as a shared space rather than a product —prioritising connection, inclusivity, and honest expression over commercial goals."
   },
   {
     "venue": "Epic",
@@ -1637,7 +2217,11 @@
     "date": "2027-01-26",
     "url": "https://epic-tv.com/events/event/sleemo-ivw-2027",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "doors": "19:30",
+    "age": "14+",
+    "description": "EPIC STUDIOS PRESENTS: AS PART OF INDEPENDENT VENUE WEEK 2027 SLEEMO + $EBBUKU + BIRDWITCH"
   },
   {
     "venue": "Arts Centre",
@@ -1645,7 +2229,10 @@
     "date": "2027-01-26",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-the-new-cut/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/The-New-Cut-IVW-6ab692e2de14e-800x450-c-default.jpg",
-    "price": "£10–£11"
+    "price": "£10–£11",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Voodoos",
@@ -1653,7 +2240,10 @@
     "date": "2027-01-26",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/marla-kether/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzMvMTcvMzgvNy8xNjUvUmFja011bHRpcGFydDIwMjYxMTAzLTU4LTFhdzFheTAuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£14"
+    "price": "£14",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "Born in London to Congolese parents, Marla Kether is a bassist, producer and DJ."
   },
   {
     "venue": "Epic",
@@ -1661,7 +2251,13 @@
     "date": "2027-01-27",
     "url": "https://epic-tv.com/events/event/girl-group-ivw-2027",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "age": "All ages",
+    "description": "Consider the girl group. A divine feminine moment in pop culture: whether the riot grrrls of the ’90s, a sleek, honey-voiced R&B trio, or a glam and campy, dancing quintet.",
+    "support": [
+      "s TBA"
+    ]
   },
   {
     "venue": "Arts Centre",
@@ -1669,7 +2265,10 @@
     "date": "2027-01-27",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-heartworms/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Heartworms-6afc99c9f2075-800x450-c-default.jpg",
-    "price": "£17–£19.50"
+    "price": "£17–£19.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -1677,7 +2276,12 @@
     "date": "2027-01-27",
     "url": "https://www.ueaticketbookings.co.uk/event/skinny-living/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/SkinnyLiving_Poster_RGB_SQ-500x500.png.webp",
-    "price": "£22.20"
+    "price": "£22.20",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Skinny Living’s story is one of struggle, troubling situations and relentless hard graft. It’s also one of synchronicity, chance meetings, and the unflinching belief that their glorious indie soul music will reach the audience it deserves."
   },
   {
     "venue": "Voodoos",
@@ -1685,7 +2289,10 @@
     "date": "2027-01-27",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/girl-group/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMi8xOC80My8zOC81OTUvUmFja011bHRpcGFydDIwMjYwNzAyLTU3LTFlcDR4N2cucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£14.30"
+    "price": "£14.30",
+    "time": "19:00",
+    "end": "22:30",
+    "description": "Consider the girl group. A divine feminine moment in pop culture: whether the riot grrrls of the ’90s, a sleek, honey-voiced R&B trio, or a glam and campy, dancing quintet."
   },
   {
     "venue": "Voodoos",
@@ -1693,7 +2300,10 @@
     "date": "2027-01-27",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/sandhouse/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzExLzkvMTUvMTIvNjg4L1JhY2tNdWx0aXBhcnQyMDI2MTExMS01OC0xZGN3NzU1LmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": "£10"
+    "price": "£10",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "Consisting of Anna Sutherland and Caspar Holloway, Sandhouse carve out a sound that folds together grunge guitars, bleary trip-hop production, warped psychedelia and nocturnal alt-pop."
   },
   {
     "venue": "Brickmakers",
@@ -1701,7 +2311,8 @@
     "date": "2027-01-27",
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Norfolk Blues Society at the Brickmakers"
   },
   {
     "venue": "Holloway",
@@ -1717,7 +2328,12 @@
     "date": "2027-01-28",
     "url": "https://www.ueaticketbookings.co.uk/event/slap-rash/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Lauras-WF-LCR-IG-Template-61-1-500x500.png.webp",
-    "price": "£12.10"
+    "price": "£12.10",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Manchester-based, Somerset-born sibling duo SLAP RASH deliver an unrelenting live assault of frantic noise rock."
   },
   {
     "venue": "LCR",
@@ -1725,7 +2341,12 @@
     "date": "2027-01-28",
     "url": "https://www.ueaticketbookings.co.uk/event/fat-dog/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DP-WF-LCR-12-500x500.jpg.webp",
-    "price": "£27.75"
+    "price": "£27.75",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "The second album by South London seven-piece Fat Dog is titled Cancel Me (I’m Tired) . After releasing their debut album WOOF. in 2024 and becoming one of the UK’s most exciting breakthrough bands in the process, they have a good reason to be tired."
   },
   {
     "venue": "Brickmakers",
@@ -1733,7 +2354,8 @@
     "date": "2027-01-28",
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Open mic night with Peter Turrell"
   },
   {
     "venue": "Gonzos",
@@ -1741,7 +2363,14 @@
     "date": "2027-01-29",
     "url": "https://www.fatsoma.com/e/z9wd2hpt/voigtmann",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzE5LzkvNTgvMjcvNDkxL1JhY2tNdWx0aXBhcnQyMDI2MTExOS01OS1oaGM2NmYucG5nIl1d",
-    "price": "£8–£12"
+    "price": "£8–£12",
+    "time": "23:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "It's only right that we invited Voigtmann back to the club, a true master and a gentleman, one of our fave parties of 2026 gets a reload.",
+    "support": [
+      "Lily Ann"
+    ]
   },
   {
     "venue": "Holloway",
@@ -1757,7 +2386,10 @@
     "date": "2027-01-29",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-do-nothing/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Do-Nothing-IVW-logo-6acdfe833b6d9-scaled-800x450-c-default.jpg",
-    "price": "£16–£18.50"
+    "price": "£16–£18.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Voodoos",
@@ -1765,7 +2397,10 @@
     "date": "2027-01-29",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/martial-arts-goodbye/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI3LzExLzE0LzU0LzExOC9SYWNrTXVsdGlwYXJ0MjAyNjEwMjctNTQtMXJzdm1vdy5qcGciXV0?ar=16:9&fit=crop",
-    "price": "£13.20"
+    "price": "£13.20",
+    "time": "18:30",
+    "end": "22:00",
+    "description": "Gigs can be a semi-religious experience, Martial Arts shows are transcendent affairs, with their dual frontmen Jim Marson and Matty Pearce often down on the floor with the crowd."
   },
   {
     "venue": "Brickmakers",
@@ -1773,7 +2408,10 @@
     "date": "2027-01-29",
     "url": "https://www.norfolkgigguide.com/band-details/Chemistry+-+A+Tribute+to+Rush",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "20:30",
+    "end": "23:00",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Chemistry - A Tribute to Rush"
   },
   {
     "venue": "Holloway",
@@ -1789,7 +2427,13 @@
     "date": "2027-01-30",
     "url": "https://norwichartscentre.co.uk/event/pigeon/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/Pigeon-with-IVW-logo-6ad637fddc66d-800x450-c-default.jpg",
-    "price": "£17–£19.50"
+    "price": "£17–£19.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC supporters Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s.",
+    "support": [
+      "er £17 conc"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -1797,7 +2441,12 @@
     "date": "2027-01-30",
     "url": "https://www.ueaticketbookings.co.uk/event/simulation-muse-sucker-love/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Simulation-Muse_Square-500x500.png",
-    "price": "£17.60"
+    "price": "£17.60",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Simulation Muse and Sucker Love are among the top tribute acts you’ll catch in the UK today."
   },
   {
     "venue": "Waterfront",
@@ -1805,7 +2454,12 @@
     "date": "2027-01-30",
     "url": "https://www.ueaticketbookings.co.uk/event/noasis/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Noasis-Norwich-SQ-500x500.png.webp",
-    "price": "£18.15"
+    "price": "£18.15",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Following many sold out dates across the country NOASIS return to NORWICH on Saturday 31st January for one giant party and a celebration of one of the greatest bands this country has ever produced."
   },
   {
     "venue": "Waterfront",
@@ -1813,7 +2467,12 @@
     "date": "2027-02-01",
     "url": "https://www.ueaticketbookings.co.uk/event/the-cheap-thrills/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Lauras-WF-LCR-IG-Template-47-500x500.png.webp",
-    "price": "£15.40"
+    "price": "£15.40",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "The Cheap Thrills are an English indie rock band from Liverpool, England."
   },
   {
     "venue": "Epic",
@@ -1821,7 +2480,10 @@
     "date": "2027-02-02",
     "url": "https://epic-tv.com/events/event/tangerine-dream-level-tour-2027",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "age": "14+",
+    "description": "Tangerine Dream are an electronic music group founded in 1967 by Edgar Froese in Berlin."
   },
   {
     "venue": "Arts Centre",
@@ -1829,7 +2491,10 @@
     "date": "2027-02-03",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-knitting/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-13.20.27-6aa14f11abba2-800x450-c-default.png",
-    "price": "£9–£10.50"
+    "price": "£9–£10.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "LCR",
@@ -1837,7 +2502,12 @@
     "date": "2027-02-03",
     "url": "https://www.ueaticketbookings.co.uk/event/black-stone-cherry/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2025/12/Dianas-WF-AND-LCR-MASTERS-USE-THESE-43-500x500.jpg.webp",
-    "price": "£44.24"
+    "price": "£44.24",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "ACCESSIBILITY AREA IS FULL. We have also reached capacity on companion tickets and are unable to distribute any more. We apologise for any inconvenience caused."
   },
   {
     "venue": "Epic",
@@ -1845,7 +2515,10 @@
     "date": "2027-02-04",
     "url": "https://epic-tv.com/events/event/robben-ford",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "age": "14+",
+    "description": "Legendary guitarist Robben Ford returns to the UK in January & February 2027!"
   },
   {
     "venue": "Waterfront",
@@ -1853,7 +2526,15 @@
     "date": "2027-02-04",
     "url": "https://www.ueaticketbookings.co.uk/event/split-dogs/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/SPLOT-DOGS-SQ-500x500.png.webp",
-    "price": "£18.15"
+    "price": "£18.15",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "In 2025 Split Dogs played 90 shows across the UK and Europe, to audiences of over 30,000 people. This included sold-out UK headline dates, a sold-out European headline run, and 22 festival appearances.",
+    "support": [
+      "Bruise Control"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -1861,7 +2542,12 @@
     "date": "2027-02-04",
     "url": "https://www.ueaticketbookings.co.uk/event/nubiyan-twist/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Nubiyan-Twist-SQ-500x500.png.webp",
-    "price": "£28.60"
+    "price": "£28.60",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Expect ultra-tight musicianship and unstoppable energy as Nubiyan Twist bring their electrifying blend of jazz, afrobeat, soul, hip-hop and dance music to the stage with a brand new line-up and live show for 2027."
   },
   {
     "venue": "Epic",
@@ -1869,7 +2555,16 @@
     "date": "2027-02-05",
     "url": "https://epic-tv.com/events/event/shy-fx",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "20:00",
+    "doors": "20:00",
+    "age": "18+",
+    "description": "+ Rage + TN + H2LOW Doors 8pm Andre “Shy FX” Williams has quietly been one of the most influential British producers of the last 25 years.",
+    "support": [
+      "Rage",
+      "TN",
+      "H2LOW"
+    ]
   },
   {
     "venue": "Arts Centre",
@@ -1877,7 +2572,10 @@
     "date": "2027-02-05",
     "url": "https://norwichartscentre.co.uk/event/tone-presents-mercy-girl/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Copia-di-Mercy-Girl-Press-Pic-1-crop-6aabea8d152a7-800x450-c-default.jpg",
-    "price": "£13–£15"
+    "price": "£13–£15",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Arts Centre",
@@ -1885,7 +2583,10 @@
     "date": "2027-02-06",
     "url": "https://norwichartscentre.co.uk/event/transmission-the-sound-of-joy-division/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-14.58.45-6aec9a258bbe2-800x450-c-default.png",
-    "price": "£17–£18"
+    "price": "£17–£18",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -1893,7 +2594,15 @@
     "date": "2027-02-06",
     "url": "https://www.ueaticketbookings.co.uk/event/bywater-call/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Bywater-Call-1080-x-1080-Norwich-500x500.jpg.webp",
-    "price": "£28.86"
+    "price": "£28.86",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "Toronto’s Bywater Call are a powerhouse seven-piece Southern soul and roots rock band fronted by the extraordinary voice of Meghan Parnell.",
+    "support": [
+      "Laura Evans"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -1901,7 +2610,12 @@
     "date": "2027-02-07",
     "url": "https://www.ueaticketbookings.co.uk/event/admt/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/ADMT-WATERFRONT-1080X1080-500x500.jpg.webp",
-    "price": "£33.60"
+    "price": "£33.60",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "If you are looking for proof of the redemptive and transportive power of song, look no further than ADMT."
   },
   {
     "venue": "Waterfront",
@@ -1909,7 +2623,12 @@
     "date": "2027-02-07",
     "url": "https://www.ueaticketbookings.co.uk/event/jonah-matranga-onelinedrawing/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Jonah-Matranga-SQ-500x500.jpg.webp",
-    "price": "£16.50"
+    "price": "£16.50",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "Jonah Matranga, the enigmatic singer and creative force of nature from Far, onelinedrawing, New End Original, Gratitude, Camorra, I Is Another, and more (who has also been featured on tracks by Deftones, Thursday, Fort Minor and more), is coming to the UK with a full band for…"
   },
   {
     "venue": "Waterfront",
@@ -1917,7 +2636,12 @@
     "date": "2027-02-08",
     "url": "https://www.ueaticketbookings.co.uk/event/esprit-dair/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/imresizer-resize-Esprit-DAir-Tour-Square-500x500.jpg.webp",
-    "price": "£22.20–£27.75"
+    "price": "£22.20–£27.75",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "ACCESSIBLITY AREA IS FULL. Please contact venue with any further queries at boxoffice@uea.ac.uk"
   },
   {
     "venue": "Holloway",
@@ -1933,7 +2657,10 @@
     "date": "2027-02-09",
     "url": "https://norwichartscentre.co.uk/event/eliza-carthy-the-restitution/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-13.14.07-6aa14d947d8e8-800x450-c-default.png",
-    "price": "£23–£26"
+    "price": "£23–£26",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Epic",
@@ -1941,7 +2668,11 @@
     "date": "2027-02-10",
     "url": "https://epic-tv.com/events/event/malevolence-united-kingdom-of-chaos-27",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "doors": "19:00",
+    "age": "14+",
+    "description": "Plus Special Guests Doors 7pm MALEVOLENCE have never waited for permission. From the underground to festival main stages, they’ve built their reputation on sheer force of will, crushing live shows, and an unshakable foundation of heavy riffs and harder work."
   },
   {
     "venue": "Epic",
@@ -1949,7 +2680,10 @@
     "date": "2027-02-11",
     "url": "https://epic-tv.com/events/event/4am-kru-from-the-ground-up-tour-27",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "doors": "19:00",
+    "description": "SJM Concerts & Wild Combination Present 4am Kru Plus Support"
   },
   {
     "venue": "Arts Centre",
@@ -1957,7 +2691,10 @@
     "date": "2027-02-11",
     "url": "https://norwichartscentre.co.uk/event/ben-tom-waters/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Ben-and-Tom-colour-6af1f49dadda8-scaled-800x450-c-default.jpg",
-    "price": "£31–£35"
+    "price": "£31–£35",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Voodoos",
@@ -1965,7 +2702,16 @@
     "date": "2027-02-11",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/wonk-unit-project-mork-gourds/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI2LzEwLzM2LzQxLzIzMC9SYWNrTXVsdGlwYXJ0MjAyNjEwMjYtNjQtMWV6dXh1Zy5qcGciXV0?ar=16:9&fit=crop",
-    "price": "£12"
+    "price": "£12",
+    "time": "19:30",
+    "end": "22:00",
+    "description": "Ideal Surreal are pleased to present the worlds shortest retirement, feat; Wonk UnitProject MorkGourds We at Ideal Towers announced our retirement on Monday 6th July....",
+    "support": [
+      "ing are Norwich punk legends Project Mork",
+      "quirky",
+      "punky",
+      "Ideal Surreal debutants Gourds"
+    ]
   },
   {
     "venue": "Brickmakers",
@@ -1973,7 +2719,8 @@
     "date": "2027-02-11",
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Open mic night with Peter Turrell"
   },
   {
     "venue": "Gonzos",
@@ -1981,7 +2728,15 @@
     "date": "2027-02-12",
     "url": "https://www.fatsoma.com/e/cujnqdye/globex-corp-tim-reaper-dwarde",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzE2LzUzLzIvODI2L1JhY2tNdWx0aXBhcnQyMDI2MTEyNC01Ny04dmtkODEucG5nIl1d",
-    "price": "£5–£10"
+    "price": "£5–£10",
+    "time": "23:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "From The Simpsons inspired releases, to the formation of live performances by one dnb's deadliest duo's - Globex Corp (Tim Reaper & Dwarde).",
+    "support": [
+      "Caesar Harpoon",
+      "The Mariner of Danu"
+    ]
   },
   {
     "venue": "Maddermarket",
@@ -1997,7 +2752,17 @@
     "date": "2027-02-12",
     "url": "https://www.ueaticketbookings.co.uk/event/ingested/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Ingested-SQ-500x500.png.webp",
-    "price": "£25.53"
+    "price": "£25.53",
+    "time": "18:00",
+    "doors": "18:00",
+    "end": "22:00",
+    "age": "14+",
+    "description": "For nearly two decades, Manchester’s Ingested have stood as one of the UK’s most uncompromising forces in extreme metal.",
+    "support": [
+      "Psycroptic",
+      "Netherwalker",
+      "Tracheotomy"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -2005,7 +2770,12 @@
     "date": "2027-02-12",
     "url": "https://www.ueaticketbookings.co.uk/event/big-wett/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/BIgWett_Poster-SQ-500x500.png.webp",
-    "price": "£15.40"
+    "price": "£15.40",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "16+",
+    "description": "BIG WETT is the name on everyone’s lips. The enigmatic electro-pop sensation is taking the Australian dance music scene by storm with her 90s inspired dance beats, explicit lyrics, and her thumping live show."
   },
   {
     "venue": "Brickmakers",
@@ -2013,7 +2783,8 @@
     "date": "2027-02-12",
     "url": "https://www.norfolkgigguide.com/band-details/ADTR+-+A+Day+to+Remember+UK",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - ADTR - A Day to Remember UK"
   },
   {
     "venue": "Epic",
@@ -2021,7 +2792,11 @@
     "date": "2027-02-13",
     "url": "https://epic-tv.com/events/event/sophie-mccartney-back-in-the-day-rave",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "12:00",
+    "doors": "12:00",
+    "age": "18+",
+    "description": "What’s better than a rave? A DAY RAVE! Norwich, it’s time to gather the girls, grab your glowsticks, and get ready to be home with your bra off by 6pm - because comedian Sophie McCartney is bringing her comedy day rave to Epic Studios."
   },
   {
     "venue": "Maddermarket",
@@ -2037,7 +2812,15 @@
     "date": "2027-02-13",
     "url": "https://www.ueaticketbookings.co.uk/event/the-karma-effect/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/imresizer-TheKarmaEffect-02-500x500.jpg.webp",
-    "price": "£19.79"
+    "price": "£19.79",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Hi guys, we still can’t quite believe that we have just had our first UK #1 Rock album and our second UK Top 40 in just two years and we are so, so, grateful.",
+    "support": [
+      "Juliet's Not Dead"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -2045,7 +2828,12 @@
     "date": "2027-02-13",
     "url": "https://www.ueaticketbookings.co.uk/event/the-devout/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/The-Devout-Norwich-SQ-500x500.png.webp",
-    "price": "£19.98–£22.20"
+    "price": "£19.98–£22.20",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "The UK’s best loved Depeche Mode Tribute Act, THE DEVOUT have brought the Depeche Mode experience to another level visually, aurally and musically."
   },
   {
     "venue": "Brickmakers",
@@ -2053,7 +2841,10 @@
     "date": "2027-02-13",
     "url": "https://www.norfolkgigguide.com/band-details/Damage",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "20:30",
+    "end": "23:00",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Damage"
   },
   {
     "venue": "Holloway",
@@ -2069,7 +2860,10 @@
     "date": "2027-02-14",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/big-truck/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMS8xMC81OC8zMi82MDAvUmFja011bHRpcGFydDIwMjYwOTAxLTY3LW9ydGlpMC5qcGciXV0?ar=16:9&fit=crop",
-    "price": "£16.50"
+    "price": "£16.50",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "Big Truck is the sound of Laurie Vincent stepping into a different light. Known for the raw intensity of SOFT PLAY, here he trades abrasion for atmosphere - crafting songs that move between indie-pop melody, cinematic sweep, and offbeat charm."
   },
   {
     "venue": "Arts Centre",
@@ -2077,7 +2871,10 @@
     "date": "2027-02-16",
     "url": "https://norwichartscentre.co.uk/event/hayden-thorpe-performs-the-songs-of-wild-beasts/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Screenshot-2026-07-07-at-11.09.45-6a4cd0915807c-800x450-c-default.png",
-    "price": "£26–£28.50"
+    "price": "£26–£28.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporter Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Arts Centre",
@@ -2085,7 +2882,10 @@
     "date": "2027-02-17",
     "url": "https://norwichartscentre.co.uk/event/corella/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Screenshot-2026-09-25-at-14.28.18-6ab676ffb560c-800x450-c-default.png",
-    "price": "£23–£26"
+    "price": "£23–£26",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC SUPPORTERS Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "LCR",
@@ -2093,7 +2893,16 @@
     "date": "2027-02-17",
     "url": "https://www.ueaticketbookings.co.uk/event/basement/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Basement-Socials-SQ-500x500.jpg.webp",
-    "price": "£36.40"
+    "price": "£36.40",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Wired is a hard reset for Basement. It marks the British band’s first album in eight years, a reunion with their original label Run For Cover Records, and a return to making music with the unbridled passion and creative intuition that’s always animated their best material.",
+    "support": [
+      "Fleshwater",
+      "Béton Armé"
+    ]
   },
   {
     "venue": "Epic",
@@ -2101,7 +2910,10 @@
     "date": "2027-02-18",
     "url": "https://epic-tv.com/events/event/maisie-adam-whatsherface",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "18:30",
+    "age": "15+",
+    "description": "Straight off the back of Taskmaster, A League Of Their Own, and Last One Laughing, Maisie Adam is back with her brand new show, Whatsherface."
   },
   {
     "venue": "Arts Centre",
@@ -2109,7 +2921,10 @@
     "date": "2027-02-18",
     "url": "https://norwichartscentre.co.uk/event/the-bones-of-jr-jones/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/Screenshot-2026-05-22-at-15.48.41-6a106cfac9ca1-800x450-c-default.png",
-    "price": "£18–£20.50"
+    "price": "£18–£20.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2117,7 +2932,16 @@
     "date": "2027-02-18",
     "url": "https://www.ueaticketbookings.co.uk/event/as-everything-unfolds/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-resize-AEU_Square-500x500.jpg.webp",
-    "price": "£22.20"
+    "price": "£22.20",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Depth. An infinity loop of layers that unravel over time, reserved for the most observant of eyes – for those who long to dig beneath the surface.",
+    "support": [
+      "PAVÉ",
+      "Sunborn"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -2125,7 +2949,12 @@
     "date": "2027-02-18",
     "url": "https://www.ueaticketbookings.co.uk/event/jamie-lenman/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/JamieLenman_SQ-500x500.png.webp",
-    "price": "£24.98"
+    "price": "£24.98",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Jamie Lenman appeared on the UK underground scene in the early 2000s as the singer, songwriter and guitarist for cult heroes Reuben, who toured relentlessly for eight years and delivered three critically acclaimed albums which are still shifting units today."
   },
   {
     "venue": "Epic",
@@ -2133,7 +2962,11 @@
     "date": "2027-02-19",
     "url": "https://epic-tv.com/events/event/elvana-elvis-fronted-nirvana",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "doors": "19:00",
+    "age": "14+",
+    "description": "Plus Special Guests Doors 7pm ELVANA - THE WORLD'S FINEST ELVIS FRONTED TRIBUTE TO NIRVANA! From somewhere deep in the bowels of Disgraceland, the King of Rock & Roll steps out of the afterlife, plugs in, and takes the mic for the band that changed the ’90s forever."
   },
   {
     "venue": "Waterfront",
@@ -2141,7 +2974,12 @@
     "date": "2027-02-19",
     "url": "https://www.ueaticketbookings.co.uk/event/beux-gris-gris-the-apocalypse/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-Beaux-Gris-and-the-Apocalypse-Digital_Square-500x500.jpg.webp",
-    "price": "£24.98"
+    "price": "£24.98",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "Beaux Gris Gris & The Apocalypse (pronounced bo \\ gree-gree) are a California-based roots rock (blending Blues Rock Americana, Country, and Soul) band created and led by Louisiana-born-and-raised musician Greta Valenti (Well Hung Heart) and UK British Blues Hall of Fame…"
   },
   {
     "venue": "LCR",
@@ -2149,7 +2987,15 @@
     "date": "2027-02-19",
     "url": "https://www.ueaticketbookings.co.uk/event/south-arcade/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/SA-SQ-500x500.jpg.webp",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "ACCESSIBILITY AREA IS FULL – please contact boxoffice@uea.ac.uk with any further questions.",
+    "support": [
+      "Mouth Culture"
+    ]
   },
   {
     "venue": "Brickmakers",
@@ -2157,7 +3003,8 @@
     "date": "2027-02-19",
     "url": "https://www.norfolkgigguide.com/band-details/Power+Promotions+Present...++%40the+Brickmaker",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Power Promotions Present... @the Brickmaker"
   },
   {
     "venue": "Epic",
@@ -2165,7 +3012,10 @@
     "date": "2027-02-20",
     "url": "https://epic-tv.com/events/event/absolute-bowie",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "age": "14+",
+    "description": "Now in their 14th year of touring, the UKs 'Best Tribute Band' and 'Best Bowie' act, would like to come and meet you and they might just blow your mind"
   },
   {
     "venue": "Arts Centre",
@@ -2173,7 +3023,10 @@
     "date": "2027-02-20",
     "url": "https://norwichartscentre.co.uk/event/synth-east-factory-floor-immersion/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-15.32.10-6ae9fe82375c7-800x450-c-default.png",
-    "price": "£26–£29.50"
+    "price": "£26–£29.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporter Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Voodoos",
@@ -2181,7 +3034,10 @@
     "date": "2027-02-20",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/green-shuck-presents-monkeyfist-triple-b-dub-sweat-and-beers/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzEwLzQwLzUwLzUyNy9SYWNrTXVsdGlwYXJ0MjAyNjExMjQtNTktbHBuYmc2LmpwZWciXV0?ar=16:9&fit=crop",
-    "price": "£10"
+    "price": "£10",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "With members hailing from South-East London and Bristol, MonkeyFist are a collective of musical collaborators and friends steadfastly refusing to be pigeonholed by genre labels."
   },
   {
     "venue": "Arts Centre",
@@ -2189,7 +3045,10 @@
     "date": "2027-02-21",
     "url": "https://norwichartscentre.co.uk/event/synth-east-electronic-cabaret/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-15.32.10-6ae9fe82375c7-800x450-c-default.png",
-    "price": "£8.50–£10"
+    "price": "£8.50–£10",
+    "time": "11:00",
+    "doors": "11:00",
+    "description": "NAC supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2197,7 +3056,12 @@
     "date": "2027-02-21",
     "url": "https://www.ueaticketbookings.co.uk/event/ben-poole/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Ben-Poole-Digital_Square-1-500x500.png.webp",
-    "price": "£17.60"
+    "price": "£17.60",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "Ben Poole is an internationally applauded, award-winning blues, rock and soul guitarist, singer and songwriter hailing from the United Kingdom."
   },
   {
     "venue": "Voodoos",
@@ -2205,7 +3069,10 @@
     "date": "2027-02-21",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/maquina/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTYvMTEvMTUvNi82NDQvUmFja011bHRpcGFydDIwMjYwOTE2LTU1LXo1NWZoZC5qcGciXV0?ar=16:9&fit=crop",
-    "price": "£16.50"
+    "price": "£16.50",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "MAQUINA. are a Lisbon-based trio and one of the most active Portuguese bands on the European circuit. The current lineup features Halison Peres (drums and vocals), João Cavalheiro (guitar) and José Rego (bass)."
   },
   {
     "venue": "Waterfront",
@@ -2213,7 +3080,12 @@
     "date": "2027-02-22",
     "url": "https://www.ueaticketbookings.co.uk/event/scarlet-rebels/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DP-WF-LCR-8.jpg.webp",
-    "price": "£22.20"
+    "price": "£22.20",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Welsh rock band Scarlet Rebels have announced their first headline tour in three years, with the 2027 UK run kicking off on 11 February."
   },
   {
     "venue": "Waterfront",
@@ -2221,7 +3093,16 @@
     "date": "2027-02-22",
     "url": "https://www.ueaticketbookings.co.uk/event/zebrahead/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/ZEBRAHEAD-SQ-NORWICH.png.webp",
-    "price": "£27.75"
+    "price": "£27.75",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Formed during the Orange County punk explosion, the Southern CA-based outfit zebrahead is still going strong as they turn the page to a new chapter of the band’s long career.",
+    "support": [
+      "Millie Manders",
+      "The Shut Up"
+    ]
   },
   {
     "venue": "Arts Centre",
@@ -2229,7 +3110,10 @@
     "date": "2027-02-23",
     "url": "https://norwichartscentre.co.uk/event/joan-as-police-woman/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/Joan-As-Police-Woman-Real-Life--69ca8f711cc04-scaled-800x450-c-default.jpg",
-    "price": "£29–£32.50"
+    "price": "£29–£32.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2237,7 +3121,12 @@
     "date": "2027-02-23",
     "url": "https://www.ueaticketbookings.co.uk/event/florence-black/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Florence-Black-SQ-500x500.png.webp",
-    "price": "£31.08"
+    "price": "£31.08",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "FLORENCE BLACK [Planet Rock, Best New Band 2022] are a powerhouse Welsh rock trio—Tristan Thomas (vocals/guitar), Jordan Evans (bass), and Perry Davies (drums)—hailing from Merthyr Tydfil, South Wales."
   },
   {
     "venue": "Dead Wax",
@@ -2245,7 +3134,10 @@
     "date": "2027-02-24",
     "url": "https://www.deadwaxnorwich.pub/whats-on/flashbang-a-play-by-james-lewis",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795437303871-OUHCNEJ0SV8XYNZE3PQN/DM+Poster+Touring+Poster+1.png",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "end": "23:00",
+    "description": "Flashbang: A play by james lewis Wednesday, February 24, 2027 7:30 PM 11:00 PM Google Calendar ICS"
   },
   {
     "venue": "Brickmakers",
@@ -2253,7 +3145,8 @@
     "date": "2027-02-24",
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Norfolk Blues Society at the Brickmakers"
   },
   {
     "venue": "Arts Centre",
@@ -2261,7 +3154,10 @@
     "date": "2027-02-25",
     "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-caoilfhionn-rose/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/7-Caoilfhionn-Rose-Press-Shot-Wide-Credit-Rich-Williams-WEB-RES-6acdef1009b04-800x450-c-default.webp",
-    "price": "£16–£18.50"
+    "price": "£16–£18.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2269,7 +3165,12 @@
     "date": "2027-02-25",
     "url": "https://www.ueaticketbookings.co.uk/event/mallory-knox/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/DP-WF-LCR-16-500x500.jpg.webp",
-    "price": "£33.60"
+    "price": "£33.60",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Mikey Chapman is back at the heart of Mallory Knox."
   },
   {
     "venue": "Voodoos",
@@ -2277,7 +3178,10 @@
     "date": "2027-02-25",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/dog-unit/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTYvOS8yMi8yOS85MjIvUmFja011bHRpcGFydDIwMjYwOTE2LTYwLWVvejNoNy5qcGciXV0?ar=16:9&fit=crop",
-    "price": "£11"
+    "price": "£11",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "Dog Unit and their unique sound — instrumental music that leans just as heavily on the tune-first, purist pop qualities of Burt Bacharach or The Strokes as much as it does the groove and ambiance of their post-rock forebears like Tortoise or Stereolab — has been championed from…"
   },
   {
     "venue": "Dead Wax",
@@ -2285,7 +3189,10 @@
     "date": "2027-02-25",
     "url": "https://www.deadwaxnorwich.pub/whats-on/flashbang-a-play-by-james-lewis-1",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795437422578-NPDHVM3U3F6Y96S3L1WX/DM+Poster+Touring+Poster+1.png",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "end": "23:00",
+    "description": "flashbang: a play by james lewis Thursday, February 25, 2027 7:30 PM 11:00 PM Google Calendar ICS"
   },
   {
     "venue": "Brickmakers",
@@ -2293,7 +3200,8 @@
     "date": "2027-02-25",
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Open mic night with Peter Turrell"
   },
   {
     "venue": "Holloway",
@@ -2309,7 +3217,10 @@
     "date": "2027-02-26",
     "url": "https://epic-tv.com/events/event/the-rasmus-support",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "age": "14+",
+    "description": "Following from an extremely successful 2025 and a very busy 2026, 6x Platinum and 8x Gold-certified, record-breaking Finnish rock outfit The Rasmus are thrilled to announce an extensive headline European and UK tour in 2027, with Skarlett Riot as special guest on all the UK…"
   },
   {
     "venue": "Waterfront",
@@ -2317,7 +3228,14 @@
     "date": "2027-02-26",
     "url": "https://www.ueaticketbookings.co.uk/event/dick-dom-dnb-rave/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/DicknDom_2027-SQ-500x500.png.webp",
-    "price": "£16.50"
+    "price": "£16.50",
+    "time": "22:30",
+    "doors": "22:30",
+    "age": "18+",
+    "description": "As DJs, Dick & Dom have taken their unique raves to tens of thousands of people across the UK.",
+    "support": [
+      "DJ Jake Hallam"
+    ]
   },
   {
     "venue": "LCR",
@@ -2325,7 +3243,12 @@
     "date": "2027-02-26",
     "url": "https://www.ueaticketbookings.co.uk/event/keo/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Keo-Socials-1080-x-1080-500x500.jpg.webp",
-    "price": "£30.53"
+    "price": "£30.53",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Led by brothers Finn (vocals, guitar) and Conor Keogh (bass) and completed by drummer Oli Spackman and guitarist Jimmy Lanwern – Keo’s origins trace back to Plymouth, Portugal, Ireland and the US – with the Keogh brothers spending their youth touring much of the UK, Ireland and…"
   },
   {
     "venue": "Gonzos",
@@ -2333,7 +3256,11 @@
     "date": "2027-02-27",
     "url": "https://www.fatsoma.com/e/ifh1l05u/reeshy-all-night-long-tour",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzE3LzI4LzMvNTkxL1JhY2tNdWx0aXBhcnQyMDI2MTEyNC01Ny0xNTVmZWEuanBnIl1d",
-    "price": "£5–£10"
+    "price": "£5–£10",
+    "time": "23:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "A long awaited welcome for Reeshy!!"
   },
   {
     "venue": "Epic",
@@ -2341,7 +3268,10 @@
     "date": "2027-02-27",
     "url": "https://epic-tv.com/events/event/rob-lamberti-presents-perfectly-george",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "age": "All ages",
+    "description": "Featuring the incredible voice of Rob Lamberti, this show has wowed audiences around the country and Europe and lifted them to their feet, in a dynamic show that tactfully and appropriately celebrates the career of one of the most gifted performers of a generation."
   },
   {
     "venue": "Waterfront",
@@ -2349,7 +3279,12 @@
     "date": "2027-02-27",
     "url": "https://www.ueaticketbookings.co.uk/event/the-doors-alive/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Doors-Alive-2027-Norwich-1x1-UEA-500x500.jpg.webp",
-    "price": "£23.87"
+    "price": "£23.87",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "“To call The Doors Alive merely a tribute act would be a huge disservice to what is the closest thing possible to experiencing a Doors concert without the aid of a flux capacitor and 1.21 gigawatts."
   },
   {
     "venue": "Brickmakers",
@@ -2357,7 +3292,8 @@
     "date": "2027-02-27",
     "url": "https://www.norfolkgigguide.com/band-details/Bootleg+Boss",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Bootleg Boss"
   },
   {
     "venue": "Holloway",
@@ -2373,7 +3309,10 @@
     "date": "2027-02-28",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/citizen-smith-lassie/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzcvOS81NC8yMS83NTcvUmFja011bHRpcGFydDIwMjYxMDA3LTYxLTEyYzhycGQucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£10"
+    "price": "£10",
+    "time": "17:00",
+    "end": "21:00",
+    "description": "Lassie are Emily Winng (UK) and Camille Dávila (USA), together they bring dark Lynchian psychedelic-folk laced with tribal-punk, filtered through lilting melodies and hard-hitting harmonies."
   },
   {
     "venue": "Waterfront",
@@ -2381,7 +3320,12 @@
     "date": "2027-03-02",
     "url": "https://www.ueaticketbookings.co.uk/event/mad-caddies/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/imresizer-resize-MadCaddies-02-500x500.jpg.webp",
-    "price": "£31.36"
+    "price": "£31.36",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Born on the California Central Coast and raised on punk rock, sun, and beach nights, the Mad Caddies have been mixing ska, punk, reggae, and pure sunshine for over twenty years – without ever feeling like a nostalgia act."
   },
   {
     "venue": "Epic",
@@ -2389,7 +3333,10 @@
     "date": "2027-03-04",
     "url": "https://epic-tv.com/events/event/queenz-battle-of-the-divas",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "doors": "19:30",
+    "description": "Doors 7:30pm WHITNEY. BEYONCÉ. GAGA. BRITNEY. TINA. CHER. THE SPICE GIRLS. CÉLINE… AND SO MANY MORE."
   },
   {
     "venue": "Waterfront",
@@ -2397,7 +3344,12 @@
     "date": "2027-03-04",
     "url": "https://www.ueaticketbookings.co.uk/event/family-stereo/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/SQUARE-2-500x500.png.webp",
-    "price": "£13.20"
+    "price": "£13.20",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Family Stereo is the indie-folk project of London based singer-songwriter Blake Watt, established in 2018."
   },
   {
     "venue": "Voodoos",
@@ -2405,7 +3357,10 @@
     "date": "2027-03-04",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/castle/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzUvMTcvMjgvNTAvODM1L1JhY2tNdWx0aXBhcnQyMDI2MTAwNS03MS1rcTF1NHMuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£14"
+    "price": "£14",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "CASTLE is an American heavy/doom metal band formed in 2009 in San Francisco, California."
   },
   {
     "venue": "Epic",
@@ -2413,7 +3368,11 @@
     "date": "2027-03-05",
     "url": "https://epic-tv.com/events/event/bay-city-rollers",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "doors": "19:30",
+    "age": "All ages",
+    "description": "Doors 7:30pm Bay City Rollers are one of the most iconic pop bands of the 70s and became a global sensation with hits like Bye Bye Baby, Saturday Night and Shang-A-Lang."
   },
   {
     "venue": "Arts Centre",
@@ -2421,7 +3380,10 @@
     "date": "2027-03-05",
     "url": "https://norwichartscentre.co.uk/event/tara-clerkin-trio/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/TCT-WEB-Press-Shot-2026-credit-Peter-Eason-Daniels-6aec9f8167b86-800x450-c-default.jpg",
-    "price": "£17–£18"
+    "price": "£17–£18",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2429,7 +3391,12 @@
     "date": "2027-03-05",
     "url": "https://www.ueaticketbookings.co.uk/event/the-blockheads/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/The-Blockheads_Square-500x500.png.webp",
-    "price": "£31.08"
+    "price": "£31.08",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "“Starting out as the band behind Ian Dury, the Blockheads are a legendary outfit that has grown in stature from the early days of the Stiff tour in 1977, right up to the present day."
   },
   {
     "venue": "Voodoos",
@@ -2437,7 +3404,10 @@
     "date": "2027-03-05",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/heavy-wild/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzMvMTQvNDAvMjkvNDcwL1JhY2tNdWx0aXBhcnQyMDI2MTEwMy02MS0xZDlpamcxLmpwZyJdXQ?ar=16:9&fit=crop",
-    "price": "£10"
+    "price": "£10",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "London lo-fi rockers heavy wild return with blistering new EP ‘paradise forever’ - their first release via new label home Submarine Cat."
   },
   {
     "venue": "Waterfront",
@@ -2445,7 +3415,12 @@
     "date": "2027-03-07",
     "url": "https://www.ueaticketbookings.co.uk/event/nouvelle-vague/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/NouvelleVague-03-500x500.png.webp",
-    "price": "£36.40"
+    "price": "£36.40",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "Nouvelle Vague, the renowned bossa nova project founded by Marc Collin and the late Olivier Libaux in 2003, are returning to the UK in style in Spring 2027 to celebrate the release of their seventh album, A Date with Depeche Mode."
   },
   {
     "venue": "Epic",
@@ -2453,7 +3428,11 @@
     "date": "2027-03-10",
     "url": "https://epic-tv.com/events/event/an-evening-with-nik-kershaw-musings-and-lyrics",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "doors": "19:00",
+    "age": "All ages",
+    "description": "An intimate evening of songs, stories and silliness in the company of Nik Kershaw."
   },
   {
     "venue": "Arts Centre",
@@ -2461,7 +3440,10 @@
     "date": "2027-03-10",
     "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-matt-carmichael/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Matt-BNW-1-photo-by-Camille-Lemoine-6a71bef8b415d-scaled-800x450-c-default.jpg",
-    "price": "£16–£18.50"
+    "price": "£16–£18.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Brickmakers",
@@ -2469,7 +3451,8 @@
     "date": "2027-03-10",
     "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Black Dog Music"
   },
   {
     "venue": "Waterfront",
@@ -2477,7 +3460,16 @@
     "date": "2027-03-11",
     "url": "https://www.ueaticketbookings.co.uk/event/the-view/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/The-View-SQ-supports.png.webp",
-    "price": "£33.60"
+    "price": "£33.60",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "The View are a Scottish indie rock band that formed in Dundee in 2005. They incorporate various styles such as punk, pop, alternative rock, and folk in their music.",
+    "support": [
+      "The Rosadocs",
+      "Pastel"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -2485,7 +3477,15 @@
     "date": "2027-03-11",
     "url": "https://www.ueaticketbookings.co.uk/event/happydaze/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/imresizer-resize-Happydaze_Square_-Norwich-500x500.jpg.webp",
-    "price": "£13.20"
+    "price": "£13.20",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Get ready to dive headfirst into the infectious energy of Scotland’s own happydaze as they prepare to drop their new material and the ‘A Brand New Day’ headline run.",
+    "support": [
+      "KIDPUNK"
+    ]
   },
   {
     "venue": "LCR",
@@ -2493,7 +3493,15 @@
     "date": "2027-03-11",
     "url": "https://www.ueaticketbookings.co.uk/event/the-fratellis/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/The-Fratellis-2027-Costello-Music-Norwich3-002-500x500.jpg.webp",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "In the autumn of 2006, Scottish indie-rockers The Fratellis burst onto the scene with their blistering debut album, ‘Costello Music’.",
+    "support": [
+      "The Gulps"
+    ]
   },
   {
     "venue": "Brickmakers",
@@ -2501,7 +3509,8 @@
     "date": "2027-03-11",
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Open mic night with Peter Turrell"
   },
   {
     "venue": "Epic",
@@ -2509,7 +3518,12 @@
     "date": "2027-03-12",
     "url": "https://epic-tv.com/events/event/swiftogeddon-the-reputation-special",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "20:00",
+    "doors": "20:00",
+    "end": "01:00",
+    "age": "18+",
+    "description": "Swiftogeddon - The Reputation Special Doors: 8pm Runtime: 8pm-1am BABY LET THE GAMES BEGIN The club night that worships at the altar of Taylor Swift proudly presents a series of Reputation-themed specials celebrating 10 years since the release of the iconic record."
   },
   {
     "venue": "Waterfront",
@@ -2517,7 +3531,12 @@
     "date": "2027-03-12",
     "url": "https://www.ueaticketbookings.co.uk/event/opus-kink/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/OPUS-KINK-1X1-500x500.png.webp",
-    "price": "£18.15"
+    "price": "£18.15",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "With their ever-mutating brand of jazz-and-country-laced punk, Opus Kink have always cut a singular figure in a saturated landscape."
   },
   {
     "venue": "Voodoos",
@@ -2525,7 +3544,10 @@
     "date": "2027-03-12",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/rowena-wise/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTYvOS8yMi81Ni80OS9SYWNrTXVsdGlwYXJ0MjAyNjA5MTYtNjItMWh0aDhvZy5qcGciXV0?ar=16:9&fit=crop",
-    "price": "£13.20"
+    "price": "£13.20",
+    "time": "18:30",
+    "end": "22:00",
+    "description": "Rowena Wise is a Naarm/Melbourne-based singer-songwriter whose work balances beauty and mess with rare emotional precision, drawing from 60s folk storytelling while grounded in indie rock, garage pop and alt-folk."
   },
   {
     "venue": "Arts Centre",
@@ -2533,7 +3555,10 @@
     "date": "2027-03-13",
     "url": "https://norwichartscentre.co.uk/event/the-howlers/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/Howlers-web-6a0f174dd752e-800x450-c-default.jpg",
-    "price": "£16–£18.50"
+    "price": "£16–£18.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2541,7 +3566,15 @@
     "date": "2027-03-13",
     "url": "https://www.ueaticketbookings.co.uk/event/laurence-jones/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/LaurenceJones-Square-500x500.png.webp",
-    "price": "£21.65"
+    "price": "£21.65",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Award winning blues-rock artist Laurence Jones comes to The Adrian Flux Waterfront Studio, Norwich with his debut solo acoustic ‘On My Own’ tour, returning to his roots: pure blues !",
+    "support": [
+      "Amy Eftekhari"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -2549,7 +3582,12 @@
     "date": "2027-03-13",
     "url": "https://www.ueaticketbookings.co.uk/event/just-radiohead/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/just-radiohead-sq.jpg.webp",
-    "price": "£22.20"
+    "price": "£22.20",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "‘30th Anniversary of OK Computer’ - The UK’s Premiere Radiohead Tribute Band"
   },
   {
     "venue": "Waterfront",
@@ -2557,7 +3595,12 @@
     "date": "2027-03-14",
     "url": "https://www.ueaticketbookings.co.uk/event/dan-croll/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-500x500.png.webp",
-    "price": "£17.60"
+    "price": "£17.60",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "With over 100 million streams to date, British singer, songwriter, and multi\u0002instrumentalist (piano, trumpet, guitar, bass, drums, and organ among them) Dan Croll gained early recognition."
   },
   {
     "venue": "Epic",
@@ -2565,7 +3608,9 @@
     "date": "2027-03-16",
     "url": "https://epic-tv.com/events/event/david-cross-fake-joy-world-tour",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "description": "David Cross is an acclaimed comedian, actor, writer, and producer"
   },
   {
     "venue": "Arts Centre",
@@ -2573,7 +3618,10 @@
     "date": "2027-03-16",
     "url": "https://norwichartscentre.co.uk/event/seth-lakeman/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Seth-Lakeman-2026-c-Dom-Moore-1-6af32b083f8be-scaled-e1794321220636-800x450-c-default.jpg",
-    "price": "£26–£29.50"
+    "price": "£26–£29.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2581,7 +3629,15 @@
     "date": "2027-03-17",
     "url": "https://www.ueaticketbookings.co.uk/event/sofy/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/sofy-0-sq-500x500.png.webp",
-    "price": "£16.50"
+    "price": "£16.50",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Taking the tension of trip-hop, the immediacy of Britpop and the edge of garage rock, she has built a sound that feels unmistakably her own.",
+    "support": [
+      "Beattie"
+    ]
   },
   {
     "venue": "Epic",
@@ -2589,7 +3645,10 @@
     "date": "2027-03-18",
     "url": "https://epic-tv.com/events/event/uk-pink-floyd-experience",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "age": "All ages",
+    "description": "In 2027, the UK Pink Floyd Experience celebrates 50 years of Pink Floyd’s iconic album Animals with a landmark tour."
   },
   {
     "venue": "Waterfront",
@@ -2597,7 +3656,12 @@
     "date": "2027-03-19",
     "url": "https://www.ueaticketbookings.co.uk/event/sleep-broken/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/34463-500x500.png.webp",
-    "price": "£18.70"
+    "price": "£18.70",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Emerging in early 2025, Sleep Broken have rapidly taken the world of tribute bands by storm, captivating audiences across the UK with an immersive and authentic experience."
   },
   {
     "venue": "The Halls",
@@ -2605,7 +3669,9 @@
     "date": "2027-03-19",
     "url": "https://www.norwich.gov.uk/thehalls/fleetwood-mac-songbook-ultimate-tribute-fleetwood-mac",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-09/Horizontal%20Website%20Hero%20Banner%20-%20The%20FM%20Songbook%20-%20V1.png?h=e85cf720&itok=7htkZb5c",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "description": "“Witnessing The FM Songbook live in action, is like capturing a little sprinkling of stardust”. Kelly Scanlon, Far Out Magazine"
   },
   {
     "venue": "Epic",
@@ -2613,7 +3679,11 @@
     "date": "2027-03-20",
     "url": "https://epic-tv.com/events/event/buzzcocks-50th-anniversary",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "doors": "19:30",
+    "age": "All ages",
+    "description": "Plus Support Doors 7:30pm Formed in Manchester in 1976, Buzzcocks’ influence on punk and independent music cannot be overstated."
   },
   {
     "venue": "Arts Centre",
@@ -2621,7 +3691,10 @@
     "date": "2027-03-20",
     "url": "https://norwichartscentre.co.uk/event/konkolo-orchestra/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/KONKOLO_ORCHESTRA_credits_Dylan_Moore-6acdf93f59da6-scaled-800x450-c-default.jpg",
-    "price": "£14–£16"
+    "price": "£14–£16",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2629,7 +3702,12 @@
     "date": "2027-03-20",
     "url": "https://www.ueaticketbookings.co.uk/event/the-specials-ltd/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/18122-002-500x500.jpg.webp",
-    "price": "£27.75"
+    "price": "£27.75",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Celebrating The Specials’ classic first single ‘GANGSTERS’ with a live set from The Specials Ltd., the world’s most authentic and original tribute to 2-Tone Records Legends, The Specials."
   },
   {
     "venue": "LCR",
@@ -2637,7 +3715,12 @@
     "date": "2027-03-20",
     "url": "https://www.ueaticketbookings.co.uk/event/indiepalooza-festival/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/WF-AND-LCR-MASTERS-USE-THESE-2-500x500.png.webp",
-    "price": "£33"
+    "price": "£33",
+    "time": "17:00",
+    "doors": "17:00",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Kopycat Killers v Scam Fender v Subarctic Monkeys v Oasis96 v Kasabiaint v Kaiser Cheats"
   },
   {
     "venue": "Waterfront",
@@ -2645,7 +3728,12 @@
     "date": "2027-03-21",
     "url": "https://www.ueaticketbookings.co.uk/event/henge/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-Henge-Poster-A3-500x500.jpg.webp",
-    "price": "£22.20"
+    "price": "£22.20",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "Attention Humans! This is HENGE. We are not from this world. We bring you music from distant planets. We offer this gift for the edification of humankind… so that eventually your species may put an end to war and set up new homes in space."
   },
   {
     "venue": "Voodoos",
@@ -2653,7 +3741,10 @@
     "date": "2027-03-23",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/toria-wooff/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTYvMTEvMzAvNTkvNjcxL1JhY2tNdWx0aXBhcnQyMDI2MDkxNi02Ni1wcnp5N3MuanBnIl1d?ar=16:9&fit=crop",
-    "price": "£13.20"
+    "price": "£13.20",
+    "time": "19:00",
+    "end": "22:00",
+    "description": "Following her acclaimed self-titled debut album, championed by the likes of Uncut, Clash, Shindig, Record Collector, BBC Radio 6 and Radio X, Toria Wooff (Tor-ee-a Woo-f) enters a darker and more assured chapter with her second album, Aleister."
   },
   {
     "venue": "Epic",
@@ -2661,7 +3752,10 @@
     "date": "2027-03-24",
     "url": "https://epic-tv.com/events/event/rachel-parris-the-rachel-parris-songbook-date-venue-change",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "age": "16+",
+    "description": "The BAFTA-nominated comedian is back on the road, bringing some of her favourite songs from the last fifteen years of her comedy career, alongside brand new standup."
   },
   {
     "venue": "Arts Centre",
@@ -2669,7 +3763,10 @@
     "date": "2027-03-24",
     "url": "https://norwichartscentre.co.uk/event/form-presents-gans/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/GANS-crop-6ada16f73319f-800x450-c-default.jpg",
-    "price": "£19"
+    "price": "£19",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Brickmakers",
@@ -2677,7 +3774,8 @@
     "date": "2027-03-24",
     "url": "https://www.norfolkgigguide.com/band-details/The+Psychedelic+Circus",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - The Psychedelic Circus"
   },
   {
     "venue": "Brickmakers",
@@ -2685,7 +3783,8 @@
     "date": "2027-03-25",
     "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Open mic night with Peter Turrell"
   },
   {
     "venue": "Holloway",
@@ -2701,7 +3800,10 @@
     "date": "2027-03-26",
     "url": "https://norwichartscentre.co.uk/event/liqueur-a-tribute-to-the-cure/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/fullbandlive-6ae07c24bfb5a-scaled-800x450-c-default.jpg",
-    "price": "£18–£20.50"
+    "price": "£18–£20.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2709,7 +3811,12 @@
     "date": "2027-03-26",
     "url": "https://www.ueaticketbookings.co.uk/event/the-kairos/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/DP-WF-LCR-19.jpg.webp",
-    "price": "£16.50"
+    "price": "£16.50",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Back in 2017, tucked away in the North West of the country, 4 lads from the different regions of Liverpool decided what they were going to do to fill their time."
   },
   {
     "venue": "Epic",
@@ -2717,7 +3824,11 @@
     "date": "2027-03-27",
     "url": "https://epic-tv.com/events/event/gok-wan-isolation-nation",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "16:00",
+    "end": "21:00",
+    "age": "18+",
+    "description": "Gok Wan comes to Norwich with his highly anticipated Isolation Nation party!"
   },
   {
     "venue": "Gonzos",
@@ -2725,7 +3836,16 @@
     "date": "2027-03-28",
     "url": "https://www.fatsoma.com/e/49i06zhu/fabio-grooverider-up-close-personal-easter-sunday-day-rave",
     "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzIwLzExLzM0LzMzLzEyNC9SYWNrTXVsdGlwYXJ0MjAyNjExMjAtNjMtMTNlbXpyZy5wbmciXV0",
-    "price": "£10–£15"
+    "price": "£10–£15",
+    "time": "15:00",
+    "end": "21:00",
+    "age": "18+",
+    "description": "It was only right that we invited the legendary Fabio & Grooverider to the basement for an extended set. Join us on Easter Sunday for a heavyweight session.",
+    "support": [
+      "Bissi",
+      "Webbo",
+      "ShiftR"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -2733,7 +3853,12 @@
     "date": "2027-03-31",
     "url": "https://www.ueaticketbookings.co.uk/event/dinosaur-pile-up/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DPU_UKTour_2027_1x1-500x500.png.webp",
-    "price": "£22.20"
+    "price": "£22.20",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "DINOSAUR PILE-UP ANNOUNCE MARCH 2027 UK HEADLINE TOUR FOLLOWING A SOLD-OUT YEAR OF INTERNATIONAL RUNS AND MASSIVE FESTIVAL SLOTS, THE BRITISH GRUNGE-ROCK TRIO RETURN FOR THEIR BIGGEST UK HEADLINE DATES YET"
   },
   {
     "venue": "Brickmakers",
@@ -2741,7 +3866,8 @@
     "date": "2027-03-31",
     "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Norfolk Blues Society at the Brickmakers"
   },
   {
     "venue": "Epic",
@@ -2749,7 +3875,10 @@
     "date": "2027-04-01",
     "url": "https://epic-tv.com/events/event/letz-zep-greatest-hits-show",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "age": "14+",
+    "description": "Letz Zep are internationally recognised as the Number One tribute to Led Zeppelin, and Baby they ain't foolin'"
   },
   {
     "venue": "Waterfront",
@@ -2757,7 +3886,15 @@
     "date": "2027-04-01",
     "url": "https://www.ueaticketbookings.co.uk/event/the-lilacs/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Lilacs-Tour-Support-Socials-SQ-500x500.jpg.webp",
-    "price": "£19.80"
+    "price": "£19.80",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Northern lads The Lilacs are a high-energy indie band from Wigan.",
+    "support": [
+      "The Covasettes"
+    ]
   },
   {
     "venue": "Epic",
@@ -2765,7 +3902,10 @@
     "date": "2027-04-02",
     "url": "https://epic-tv.com/events/event/rhythm-of-the-90s",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "age": "18+",
+    "description": "Rhythm of the 90s are the UK's no 1. LIVE 90s dance anthems band, delivering an electrifying fusion of nostalgia, energy, and world-class musicianship."
   },
   {
     "venue": "LCR",
@@ -2773,7 +3913,15 @@
     "date": "2027-04-02",
     "url": "https://www.ueaticketbookings.co.uk/event/sleeper/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Sleeper-2027-Norwich-1080x1080-1-500x500.jpg.webp",
-    "price": "£44.24"
+    "price": "£44.24",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Sleeper have announced their biggest UK tour since reforming, with the band set to take their forthcoming sixth studio album, End of the World, on the road across the UK in March and April 2027, with South London four-piece Turin Brakes joining them as special guests.",
+    "support": [
+      "Turin Brakes"
+    ]
   },
   {
     "venue": "The Halls",
@@ -2781,7 +3929,10 @@
     "date": "2027-04-02",
     "url": "https://www.norwich.gov.uk/thehalls/let-music-play-celebration-barry-white",
     "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-10/Barry%20White%201630x1051%20.png?itok=8Hd1jMKk",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "end": "22:30",
+    "description": "The only UK touring show dedicated to the maestro and legend, Barry White."
   },
   {
     "venue": "Waterfront",
@@ -2789,7 +3940,12 @@
     "date": "2027-04-03",
     "url": "https://www.ueaticketbookings.co.uk/event/nirvana-tribute/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Nirvana-Tribute-SQ.png.webp",
-    "price": "£22.20"
+    "price": "£22.20",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "NIRVANA TRIBUTE are the world renowned, #1 international touring tribute to NIRVANA & Kurt Cobain."
   },
   {
     "venue": "Arts Centre",
@@ -2797,7 +3953,10 @@
     "date": "2027-04-06",
     "url": "https://norwichartscentre.co.uk/event/jazz-sabbath/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2025/12/Jazz-Sabbath-WEB-photo-Jason-Gilchrist-693ae8ab620ee-800x450-c-default.jpg",
-    "price": "£28.50–£34"
+    "price": "£28.50–£34",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Arts Centre",
@@ -2805,7 +3964,10 @@
     "date": "2027-04-07",
     "url": "https://norwichartscentre.co.uk/event/daoiri-farrell/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Daoiri-Farrell-_2_photo-credit-Eddie-Cavanagh-6ab1398132c31-scaled-800x450-c-default.jpg",
-    "price": "£16–£18.50"
+    "price": "£16–£18.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2813,7 +3975,12 @@
     "date": "2027-04-08",
     "url": "https://www.ueaticketbookings.co.uk/event/basht/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Lauras-WF-LCR-IG-Template-67-500x500.png.webp",
-    "price": "£19.80"
+    "price": "£19.80",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Basht. is a five-piece rock band from Dublin, Ireland. The band comprises frontman Jack Leavey (vocals), Sam Duffy (guitar), Rossa Healy (guitar), Louis Christle (bass), and Luke O’Neill (drums)."
   },
   {
     "venue": "Waterfront",
@@ -2821,7 +3988,12 @@
     "date": "2027-04-09",
     "url": "https://www.ueaticketbookings.co.uk/event/martin-stephenson-the-daintees/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/MSTD-SQ-1080-x-1080-Norwich-500x500.jpg.webp",
-    "price": "£27.75"
+    "price": "£27.75",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "Martin Stephenson & The Daintees hail from the North East of England. Their debut single ‘ Roll On Summertime ‘ was released in 1982 on Kitchenware Records (home of Prefab Sprout, The Kane Gang, Hurrah!)."
   },
   {
     "venue": "Voodoos",
@@ -2829,7 +4001,10 @@
     "date": "2027-04-09",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/vic-allen/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzIvMTMvMjYvNS8zNDQvUmFja011bHRpcGFydDIwMjYxMDAyLTYwLXpuNjhxbC5qcGciXV0?ar=16:9&fit=crop",
-    "price": "£15"
+    "price": "£15",
+    "time": "18:00",
+    "end": "21:00",
+    "description": "Launching her highly-anticipated second album, which was fan-funded in just 6 days, Vic Allen takes \"The Bright Side\" on the road this April."
   },
   {
     "venue": "Brickmakers",
@@ -2837,7 +4012,8 @@
     "date": "2027-04-09",
     "url": "https://www.norfolkgigguide.com/band-details/Motorheadache",
     "image": "",
-    "price": "£17.60"
+    "price": "£17.60",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Motorheadache"
   },
   {
     "venue": "LCR",
@@ -2845,7 +4021,15 @@
     "date": "2027-04-12",
     "url": "https://www.ueaticketbookings.co.uk/event/gabrielle/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Gabrielle__socials_new-dates-solus_1080-x-10803-1-500x500.jpg.webp",
-    "price": "£44.24–£110.88"
+    "price": "£44.24–£110.88",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "ACCESSIBILITY AREA IS FULL – please contact boxoffice@uea.ac.uk with any further queries.",
+    "support": [
+      "Damage"
+    ]
   },
   {
     "venue": "Arts Centre",
@@ -2853,7 +4037,10 @@
     "date": "2027-04-14",
     "url": "https://norwichartscentre.co.uk/event/flook/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Flook-by-Eddie-Kavanagh-scaled-6ab12c3b922ca-800x450-c-default.jpg",
-    "price": "£20–£23"
+    "price": "£20–£23",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Arts Centre",
@@ -2861,7 +4048,10 @@
     "date": "2027-04-15",
     "url": "https://norwichartscentre.co.uk/event/willie-j-healey/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-15.18.45-6ad626ca6a7aa-800x450-c-default.png",
-    "price": "£19–£21.50"
+    "price": "£19–£21.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2869,7 +4059,17 @@
     "date": "2027-04-15",
     "url": "https://www.ueaticketbookings.co.uk/event/uk-subs/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/UK-Subs-Norwich-Sq-500x500.jpg.webp",
-    "price": "£35.84"
+    "price": "£35.84",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "The U.K. SUBS, after 50 fun-packed, furious, fast-paced FAN-tastic years, are officially calling it a day, in order to pass the torch over to the hundreds of younger punk bands who they’ve hopefully inspired for half a century!",
+    "support": [
+      "Peter",
+      "The Test Tube Babies",
+      "Knock Off"
+    ]
   },
   {
     "venue": "Maddermarket",
@@ -2885,7 +4085,10 @@
     "date": "2027-04-16",
     "url": "https://norwichartscentre.co.uk/event/the-cain-pit/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/514372878_724945413609173_4385502089203534910_n-6a59fc0da8651-scaled-800x450-c-default.jpg",
-    "price": "£13–£15"
+    "price": "£13–£15",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2893,7 +4096,12 @@
     "date": "2027-04-16",
     "url": "https://www.ueaticketbookings.co.uk/event/slomosa/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/SLOMOSA-SQ-500x500.png.webp",
-    "price": "£24.98"
+    "price": "£24.98",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Slomosa is a Norwegian rock band from Bergen, Norway, established in 2016. Their sound is inspired by stoner rock and the desert rock scene."
   },
   {
     "venue": "Maddermarket",
@@ -2909,7 +4117,10 @@
     "date": "2027-04-17",
     "url": "https://norwichartscentre.co.uk/event/tone-presents-halina-rice/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Halina-Rice-live-HERE-at-Outernet-London-UK-7430-6ad61b65545d9-scaled-800x450-c-default.jpg",
-    "price": "£21–£24"
+    "price": "£21–£24",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2917,7 +4128,12 @@
     "date": "2027-04-17",
     "url": "https://www.ueaticketbookings.co.uk/event/nontaines-d-c/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/nontaines-DC-SQ-500x500.png.webp",
-    "price": "£11–£16.50"
+    "price": "£11–£16.50",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "The world’s first and best Fontaines D.C. tribute Nontaines D.C. Return to the fine city for the most faithful recreation of a full headline set from the Irish Post-Punk heroes."
   },
   {
     "venue": "Waterfront",
@@ -2925,7 +4141,12 @@
     "date": "2027-04-17",
     "url": "https://www.ueaticketbookings.co.uk/event/dave-finnegans-the-commitments/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Dave-Finnegan-the-commitments-SQ-NORWICH-500x500.png.webp",
-    "price": "£22.20"
+    "price": "£22.20",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:00",
+    "age": "14+",
+    "description": "After packing out The Waterfront two years running, we welcome back Dave’s band playing all the greats that made the film The Commitments such a huge success to this day."
   },
   {
     "venue": "Arts Centre",
@@ -2933,7 +4154,10 @@
     "date": "2027-04-20",
     "url": "https://norwichartscentre.co.uk/event/the-curlews-call-an-evening-with-david-gray-and-mary-colwell/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/The-Curlews-6ae32a7f3a074-800x450-c-default.jpg",
-    "price": "£26–£29.50"
+    "price": "£26–£29.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Dead Wax",
@@ -2941,7 +4165,10 @@
     "date": "2027-04-20",
     "url": "https://www.deadwaxnorwich.pub/whats-on/phaseshifter-x-dead-wax-presents-rhododendron-kulk",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795525831293-8PJT4L44TRDT29FCMDXJ/WhatsApp+Image+2026-11-24+at+11.40.15.jpeg",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "end": "23:00",
+    "description": "Phaseshifter x Dead Wax present: Rhododendron + Kulk Tuesday, April 20, 2027 7:30 PM 11:00 PM Google Calendar ICS"
   },
   {
     "venue": "Epic",
@@ -2949,7 +4176,11 @@
     "date": "2027-04-21",
     "url": "https://epic-tv.com/events/event/scott-bennett-stuff",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "18:30",
+    "doors": "18:30",
+    "age": "16+",
+    "description": "+ Special Guests Doors 6:30pm Start 7:30pm As heard on BBC Radio 4! As a society we love stuff, it’s a statement about who we are and who we want to be."
   },
   {
     "venue": "Voodoos",
@@ -2957,7 +4188,10 @@
     "date": "2027-04-21",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-bureau-de-change-supports-tba/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzIxLzExLzI5LzUzLzQ2My9SYWNrTXVsdGlwYXJ0MjAyNjExMjEtNjAtMXYyOXFsZS5qcGciXV0?ar=16:9&fit=crop",
-    "price": "£11"
+    "price": "£11",
+    "time": "18:00",
+    "end": "21:00",
+    "description": "“Irresistible punk noise… Simply unavoidable in terms of early star power in the making and real potential” Still Listening Too damn right!"
   },
   {
     "venue": "Holloway",
@@ -2973,7 +4207,11 @@
     "date": "2027-04-23",
     "url": "https://epic-tv.com/events/event/prince-tribute-endorphinmachine-feat-jolan-greatest-hits-show",
     "image": "",
-    "price": "£23.87"
+    "price": "£23.87",
+    "time": "19:30",
+    "doors": "19:30",
+    "age": "14+",
+    "description": "\"Prince Tribute Endorphinmachine have been smashing out tight funky Prince jams since 2005"
   },
   {
     "venue": "Arts Centre",
@@ -2981,7 +4219,10 @@
     "date": "2027-04-23",
     "url": "https://norwichartscentre.co.uk/event/first-time-flyers/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/FTF-NORWICH-FB-EVENT-6ab0f0b8d4b5d-800x450-c-default.jpg",
-    "price": "£23–£26"
+    "price": "£23–£26",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -2989,7 +4230,12 @@
     "date": "2027-04-23",
     "url": "https://www.ueaticketbookings.co.uk/event/moving-pictures-a-tribute-to-rush/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/M-Pictures-2027-Norwich-1x1-UEA-500x500.jpg.webp",
-    "price": "£23.87"
+    "price": "£23.87",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "These guys (and girl) are one of the hardest working tributes on the planet, touring the UK, Europe, Brazil and Canada including Lakeside Park for Neil Peart’s family and Massey Hall, Toronto for RUSHfest Canada."
   },
   {
     "venue": "Waterfront",
@@ -2997,7 +4243,15 @@
     "date": "2027-04-23",
     "url": "https://www.ueaticketbookings.co.uk/event/999/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/999-SQ.png.webp",
-    "price": "£24.42"
+    "price": "£24.42",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "A veteran act on the London punk scene, 999 have outlived most of their peers among the bands that rose to fame during punk’s first major splash in 1977.",
+    "support": [
+      "Desperate Measures"
+    ]
   },
   {
     "venue": "Epic",
@@ -3005,7 +4259,10 @@
     "date": "2027-04-24",
     "url": "https://epic-tv.com/events/event/oas-is",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "age": "All ages",
+    "description": "The ONLY tribute to tour with the official video show. Oas-is – Definitely (Not) Maybe the UK’s Best & Most Authentic Oasis Tribute Band!"
   },
   {
     "venue": "Arts Centre",
@@ -3013,7 +4270,10 @@
     "date": "2027-04-24",
     "url": "https://norwichartscentre.co.uk/event/ibibio-sound-machine/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-08-26-at-15.51.34-6a8efd7c32ee6-800x450-c-default.png",
-    "price": "£26–£29.50"
+    "price": "£26–£29.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -3021,7 +4281,12 @@
     "date": "2027-04-24",
     "url": "https://www.ueaticketbookings.co.uk/event/downloaded/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Downloaded-Norwich-square-500x500.jpg.webp",
-    "price": "£19.80"
+    "price": "£19.80",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "LOVE Download Festival?… but could do without the wellies. Downloaded could be the gig for you! ‘ Downloaded ’ is a high-energy tribute band celebrating Download Festival, with a setlist packed full of crowd favourite songs from the festival’s biggest acts."
   },
   {
     "venue": "LCR",
@@ -3029,7 +4294,12 @@
     "date": "2027-04-24",
     "url": "https://www.ueaticketbookings.co.uk/event/cody-pennington-country-show/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Cody-Pennington-Norwich-Square-500x500.jpeg.webp",
-    "price": "£22.76–£26.09"
+    "price": "£22.76–£26.09",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Get your boots ready! Nashville’s own Cody Pennington is bringing his country show to a venue near you!"
   },
   {
     "venue": "Waterfront",
@@ -3037,7 +4307,12 @@
     "date": "2027-04-29",
     "url": "https://www.ueaticketbookings.co.uk/event/the-blow-monkeys/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/TBM-40th-1x1-V1-500x500.jpg.webp",
-    "price": "£27.75"
+    "price": "£27.75",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "The Blow Monkeys are unique with a career spanning over 40 years. Always making new music, always stretching their own musical boundaries."
   },
   {
     "venue": "Waterfront",
@@ -3045,7 +4320,12 @@
     "date": "2027-04-30",
     "url": "https://www.ueaticketbookings.co.uk/event/extc/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/EXTC_Square-500x500.png.webp",
-    "price": "£28.86"
+    "price": "£28.86",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "XTC’s legendary drummer, Terry Chambers, is back on the road with his band EXTC (named and approved by XTC frontman, Andy Partridge)."
   },
   {
     "venue": "Holloway",
@@ -3061,7 +4341,12 @@
     "date": "2027-05-03",
     "url": "https://www.ueaticketbookings.co.uk/event/the-wedding-present/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/TWP-SQUARE-NORWICH-500x500.png.webp",
-    "price": "£33.60"
+    "price": "£33.60",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "The Wedding Present have had eighteen UK Top 40 hit singles… not bad for a band that has, from its inception, stubbornly refused to play the record industry’s game."
   },
   {
     "venue": "LCR",
@@ -3069,7 +4354,12 @@
     "date": "2027-05-05",
     "url": "https://www.ueaticketbookings.co.uk/event/chvrches/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Image-500x500.jpeg.webp",
-    "price": "£39.20"
+    "price": "£39.20",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Accessible area is at full capacity, no more space or chairs available."
   },
   {
     "venue": "Epic",
@@ -3077,7 +4367,10 @@
     "date": "2027-05-07",
     "url": "https://epic-tv.com/events/event/an-acoustic-evening-with-ward-thomas",
     "image": "",
-    "price": ""
+    "price": "",
+    "doors": "19:00",
+    "age": "14+",
+    "description": "Country-pop duo Ward Thomas have announced a series of intimate and stripped-back live shows for Spring 2027."
   },
   {
     "venue": "Arts Centre",
@@ -3085,7 +4378,10 @@
     "date": "2027-05-07",
     "url": "https://norwichartscentre.co.uk/event/warrington-runcorn-new-town-development-plan/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/portrait-2026.jpg-6a917af662b5a-800x450-c-default.webp",
-    "price": "£17–£19.50"
+    "price": "£17–£19.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -3093,7 +4389,12 @@
     "date": "2027-05-08",
     "url": "https://www.ueaticketbookings.co.uk/event/jonny-morgan-the-moral-support/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/DP-WF-LCR-17.jpg.webp",
-    "price": "£16.50"
+    "price": "£16.50",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Despite being fairly new kids on the block, Jonny Morgan & The Moral Support have been years in the making. What began with Morgan’s solo singer-songwriter career has evolved into a full-throttle roots-rock band that oozes vintage vibes, Stones-esque swagger and authenticity."
   },
   {
     "venue": "Epic",
@@ -3101,7 +4402,10 @@
     "date": "2027-05-14",
     "url": "https://epic-tv.com/events/event/emo-fest",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "18:00",
+    "age": "14+",
+    "description": "DUE TO HUGE DEMAND! The Emo Festival is coming BACK to Norwich! The greatest tribute night to the music that was never just a phase…"
   },
   {
     "venue": "Epic",
@@ -3109,7 +4413,11 @@
     "date": "2027-05-15",
     "url": "https://epic-tv.com/events/event/the-eminem-experience-may-2027",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "doors": "19:00",
+    "age": "14+",
+    "description": "Doors 7pm The Eminem Experience in Norwich - an explosive live tribute to one of hip-hop’s most iconic artists!"
   },
   {
     "venue": "Waterfront",
@@ -3117,7 +4425,12 @@
     "date": "2027-05-15",
     "url": "https://www.ueaticketbookings.co.uk/event/moments-of-pleasure-the-music-of-kate-bush/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Moments-Of-Pleasure-1080-x-1080-Norwich-500x500.jpg.webp",
-    "price": "£22.40"
+    "price": "£22.40",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Moments of Pleasure: The Ultimate Tribute to Kate Bush. Featuring the astounding vocal performance of Katy Smith, Moments of Pleasure are widely hailed as one of the UK’s top 10 tribute acts."
   },
   {
     "venue": "Waterfront",
@@ -3125,7 +4438,12 @@
     "date": "2027-05-15",
     "url": "https://www.ueaticketbookings.co.uk/event/ultimate-coldplay/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Ultimate-Coldplay-Waterfront-Norwich-Square-2026-500x500.jpg.webp",
-    "price": "£22.20"
+    "price": "£22.20",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Since launching in 2017, Ultimate Coldplay have been widely recognised as being the world’s most accurate Coldplay tribute."
   },
   {
     "venue": "Epic",
@@ -3133,7 +4451,10 @@
     "date": "2027-05-16",
     "url": "https://epic-tv.com/events/event/lindisfarne",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "age": "18+",
+    "description": "Epic Studios is delighted to welcome to Norwich the legendary 70’s folk-rock pioneers LINDISFARNE, with a classic five-piece line-up of long-time members."
   },
   {
     "venue": "Arts Centre",
@@ -3141,7 +4462,10 @@
     "date": "2027-05-16",
     "url": "https://norwichartscentre.co.uk/event/norwich-jazz-festival-red-snapper/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Red-Snapper-with-logo-6ac4c0fc2e760-e1791298823526-800x450-c-default.jpg",
-    "price": "£20–£23"
+    "price": "£20–£23",
+    "time": "19:30",
+    "doors": "19:00",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Arts Centre",
@@ -3149,7 +4473,10 @@
     "date": "2027-05-18",
     "url": "https://norwichartscentre.co.uk/event/norwich-jazz-festival-emma-rawicz/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Emma-Rawicz-with-logo-6ac4c10aa586a-e1791298985335-800x450-c-default.jpg",
-    "price": "£21–£24"
+    "price": "£21–£24",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC Supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Epic",
@@ -3157,7 +4484,11 @@
     "date": "2027-05-20",
     "url": "https://epic-tv.com/events/event/thomas-green",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:30",
+    "doors": "19:30",
+    "age": "16+",
+    "description": "One of Australia's best exports, Thomas Green storms back onto the stage to electrify audiences with a brand new hour, following his sell-out debut tour."
   },
   {
     "venue": "Arts Centre",
@@ -3165,7 +4496,10 @@
     "date": "2027-05-20",
     "url": "https://norwichartscentre.co.uk/event/norwich-jazz-festival-fergus-mccreadie/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Fergus-McCreadie-with-logo-6ac4c0ebacc87-e1791298887382-800x450-c-default.jpg",
-    "price": "£17–£19.50"
+    "price": "£17–£19.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Epic",
@@ -3173,7 +4507,10 @@
     "date": "2027-05-21",
     "url": "https://epic-tv.com/events/event/the-tumbling-paddies",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "age": "All ages",
+    "description": "One of Ireland’s most popular music acts, The Tumbling Paddies are now coming to England"
   },
   {
     "venue": "Arts Centre",
@@ -3181,7 +4518,13 @@
     "date": "2027-05-21",
     "url": "https://norwichartscentre.co.uk/event/norwich-jazz-festival-knats/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Knats-with-logo-6ac4bfdb53e43-e1791298947908-800x450-c-default.jpg",
-    "price": "£15"
+    "price": "£15",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "NAC supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s.",
+    "support": [
+      "er £15 under 26"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -3189,7 +4532,12 @@
     "date": "2027-05-21",
     "url": "https://www.ueaticketbookings.co.uk/event/bruce-foxton/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-33-500x500.png",
-    "price": "£36.40"
+    "price": "£36.40",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "The Jam released their debut single ‘In The City’ in 1977 on Polydor Records. Over the next five years The Jam became one of the most important groups that the UK has ever produced with #1 singles such as ‘Start!’, ‘Going Underground’, ‘Town Called Malice’ and ‘Beat Surrender’."
   },
   {
     "venue": "Brickmakers",
@@ -3197,7 +4545,8 @@
     "date": "2027-05-21",
     "url": "https://www.norfolkgigguide.com/band-details/Mosh+Spice",
     "image": "",
-    "price": ""
+    "price": "",
+    "description": "Norfolk and Norwich Music & Entertainment - Norfolk and Norwich band - Mosh Spice"
   },
   {
     "venue": "Epic",
@@ -3205,7 +4554,10 @@
     "date": "2027-05-22",
     "url": "https://epic-tv.com/events/event/deirdre-okane-all-the-rage",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "age": "16+",
+    "description": "Deirdre O’Kane grabs the zeitgeist once again with a brand new show in a world that feels decidedly off kilter."
   },
   {
     "venue": "Epic",
@@ -3213,7 +4565,11 @@
     "date": "2027-05-23",
     "url": "https://epic-tv.com/events/event/the-makings-of-a-murderer-fatal-mistake",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "doors": "19:00",
+    "age": "16+",
+    "description": "Doors 7pm Show start 7:30pm THE MAKINGS OF A MURDERER: FATAL MISTAKE with Donal MacIntyre They planned the murder. They covered their tracks."
   },
   {
     "venue": "Waterfront",
@@ -3221,7 +4577,12 @@
     "date": "2027-05-26",
     "url": "https://www.ueaticketbookings.co.uk/event/black-flag/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/BlackFlag_Norwich_Sq-500x500.png.webp",
-    "price": "£29.97"
+    "price": "£29.97",
+    "time": "19:30",
+    "doors": "19:30",
+    "end": "23:00",
+    "age": "14+",
+    "description": "Formed in Southern California in 1976, BLACK FLAG emerged as one of the most uncompromising and influential bands in American Hardcore."
   },
   {
     "venue": "Epic",
@@ -3229,7 +4590,11 @@
     "date": "2027-05-28",
     "url": "https://epic-tv.com/events/event/tom-meighan-the-original-voice-of-kasabian",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "doors": "19:00",
+    "age": "All ages",
+    "description": "The singer who fronted Kasabian through their biggest triumphs from 1997 to 2020 is hitting the road."
   },
   {
     "venue": "Epic",
@@ -3237,7 +4602,10 @@
     "date": "2027-05-29",
     "url": "https://epic-tv.com/events/event/cream-classics-norwich",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "14:00",
+    "age": "18+",
+    "description": "Join us in May as we bring most iconic clubbing brand that has influenced dance culture"
   },
   {
     "venue": "Waterfront",
@@ -3245,7 +4613,15 @@
     "date": "2027-05-29",
     "url": "https://www.ueaticketbookings.co.uk/event/the-smyths/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/The-Smyths-Norwich-SQ-500x500.jpg.webp",
-    "price": "£22.20"
+    "price": "£22.20",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "The world’s premier tribute to The Smiths, The Smyths, have announced their extensive UK and international tour for 2027: “The Strangeways Tour”.",
+    "support": [
+      "Billy Blagg"
+    ]
   },
   {
     "venue": "Voodoos",
@@ -3253,7 +4629,10 @@
     "date": "2027-05-29",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/the-rattlebacks/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzE5LzE1LzkvNy80NDUvUmFja011bHRpcGFydDIwMjYxMDE5LTU5LTFtMnk4cGYuanBnIl1d?ar=16:9&fit=crop",
-    "price": ""
+    "price": "",
+    "time": "17:30",
+    "end": "21:00",
+    "description": "Formed in 2021 and hailing from Brighton, England, the unrelenting quintet are stuffed to the gills with passion, belief, and seemingly boundless ability."
   },
   {
     "venue": "Arts Centre",
@@ -3261,7 +4640,10 @@
     "date": "2027-05-30",
     "url": "https://norwichartscentre.co.uk/event/personal-trainer/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-16-at-11.27.12-6afae8a85b94f-800x450-c-default.png",
-    "price": "£18.50–£21"
+    "price": "£18.50–£21",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Arts Centre",
@@ -3269,7 +4651,10 @@
     "date": "2027-06-05",
     "url": "https://norwichartscentre.co.uk/event/pony-up-presents-black-doldrums/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Horiz-1-6aedf27e9fc83-scaled-800x450-c-default.jpg",
-    "price": "£15–£17.50"
+    "price": "£15–£17.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Waterfront",
@@ -3277,7 +4662,12 @@
     "date": "2027-06-05",
     "url": "https://www.ueaticketbookings.co.uk/event/when-waterfront-was-young/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/WWWY27_Square-500x500.png.webp",
-    "price": "£27.75"
+    "price": "£27.75",
+    "time": "15:00",
+    "doors": "15:00",
+    "end": "23:00",
+    "age": "14+",
+    "description": "FEATURING FULL LIVE SETS FROM: PARAMORE GB + DOOKIE - GREEN DAY TRIBUTE + GWEN WITHOUT A DOUBT - NO DOUBT/GWEN STEFANI TRIBUTE + BRING ME THE HORIZON UK + ME YOU AT SIX + BOWLING FOR WHO + A DAY TO REMEMBER UK+ SIMPLE PLAN UK + WHEEZED - WEEZER TRIBUTE"
   },
   {
     "venue": "LCR",
@@ -3285,7 +4675,12 @@
     "date": "2027-06-05",
     "url": "https://www.ueaticketbookings.co.uk/event/professor-green/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Prof-Green-2027-Tour-Artwork-1080x1080-1-500x500.jpg.webp",
-    "price": "£32.75"
+    "price": "£32.75",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Multi-platinum rapper Professor Green brings his Live and At Your Service tour to Norwich on Saturday 5th June 2027."
   },
   {
     "venue": "Epic",
@@ -3293,7 +4688,10 @@
     "date": "2027-06-11",
     "url": "https://epic-tv.com/events/event/the-beat-ft-ranking-jr",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "19:00",
+    "age": "All ages",
+    "description": "The band crossed over fluidly between soul, reggae, pop and punk, and from these disparate pieces they created an infectious dance rhythm"
   },
   {
     "venue": "Waterfront",
@@ -3301,7 +4699,12 @@
     "date": "2027-06-11",
     "url": "https://www.ueaticketbookings.co.uk/event/nic-cage-against-the-machine/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/270611-Core.-Presents-Nic-Cage-Against-The-Machine-Adrian-Flux-Waterfront-Studio-Norwich-Event-Image-500x500.jpg.webp",
-    "price": "£18.15"
+    "price": "£18.15",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:00",
+    "age": "14+",
+    "description": "“I’m not familiar with that musical institution.” – actual Nicolas Cage ~ The Guardian"
   },
   {
     "venue": "Epic",
@@ -3309,7 +4712,11 @@
     "date": "2027-06-12",
     "url": "https://epic-tv.com/events/event/man-in-the-mirror-a-tribute-to-michael-jackson-2027",
     "image": "",
-    "price": ""
+    "price": "",
+    "time": "18:45",
+    "doors": "18:45",
+    "age": "All ages",
+    "description": "Join us for a Thriller of an evening, as we celebrate the legendary music of the KING OF POP."
   },
   {
     "venue": "Waterfront",
@@ -3317,7 +4724,12 @@
     "date": "2027-06-18",
     "url": "https://www.ueaticketbookings.co.uk/event/china-crisis/",
     "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/China-Crisis_The-Waterfront_Square-1-500x500.jpg.webp",
-    "price": "£36.40"
+    "price": "£36.40",
+    "time": "18:30",
+    "doors": "18:30",
+    "end": "22:00",
+    "age": "14+",
+    "description": "Formed in 1979 by Gary Daly and Eddie Lundon in Liverpool, China Crisis achieved significant success in the 1980s."
   },
   {
     "venue": "Maddermarket",
@@ -3341,7 +4753,10 @@
     "date": "2027-07-23",
     "url": "https://norwichartscentre.co.uk/event/bootleg-blondie/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2023/02/Bootleg-BlondieDebbie-Harris-stage-crop-2-2023-63f78b403defb-800x450-c-default.jpg",
-    "price": "£18–£20.50"
+    "price": "£18–£20.50",
+    "time": "20:00",
+    "doors": "19:30",
+    "description": "nac supporters Save between £1.50-£3.50+ per ticket and 10% off the NAC bar. Visit our 'Support Us' page to join today. FREE for under 26s."
   },
   {
     "venue": "Maddermarket",
