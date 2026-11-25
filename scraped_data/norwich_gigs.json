@@ -434,7 +434,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/TMN-Cobbled-street-x-4-res--6a1d49c518d0a-scaled-800x450-c-default.jpg",
     "price": "£27–£30.50",
     "time": "20:00",
-    "doors": "19:00"
+    "doors": "19:00",
+    "description": "The Magic Numbers are an UK-based four piece comprising two pairs of siblings (Romeo and Michele Stodart, Sean and Angela Gannon) who are known for their unique harmonies, melodic hooks, songwriting craftsmanship and timeless sound."
   },
   {
     "venue": "Waterfront",
@@ -582,7 +583,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/These-Wicked-Rivers-web-69c2c2a6f250e-800x450-c-default.jpg",
     "price": "£21–£24",
     "time": "20:00",
-    "doors": "19:00"
+    "doors": "19:00",
+    "description": "Established in 2014, These Wicked Rivers are Derby’s entry to the new wave of rock and roll that is sweeping across the United Kingdom."
   },
   {
     "venue": "Waterfront",
@@ -789,7 +791,11 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/TMQ-Promo-sept-26-6ac4bc0af0663-scaled-800x450-c-default.jpg",
     "price": "£12–£14",
     "time": "20:00",
-    "doors": "19:00"
+    "doors": "19:00",
+    "description": "Tom Moore is a violist, guitarist and producer who grew up steeped in the traditional folk music of his native Norfolk. An in-demand collaborator, his playing has been described as “irresistible” (The Independent) and “ingenious” (The Guardian).",
+    "support": [
+      "Bushes"
+    ]
   },
   {
     "venue": "Holloway",
@@ -848,7 +854,14 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-17.07.35-69b838df62cac-800x450-c-default.png",
     "price": "£21–£24",
     "time": "20:00",
-    "doors": "19:00"
+    "doors": "19:00",
+    "end": "21:00",
+    "description": "The duo of DJ Moneyshot and Rackabeat have been delighting dance-floors and lighting up the airwaves since forming The Allergies and releasing their debut album in 2016.",
+    "support": [
+      "LFay",
+      "Chrome",
+      "Illinspired"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -910,7 +923,11 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Screenshot-2026-06-30-at-09.35.29-6a437fd7e8779-800x450-c-default.png",
     "price": "£20–£23",
     "time": "20:00",
-    "doors": "19:00"
+    "doors": "19:00",
+    "description": "Celebrated folk troubadour Beans on Toast heads out on his annual winter tour.",
+    "support": [
+      "Gecko"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -1003,7 +1020,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/ESC1-MAIN-cropped-1-698debe1eae0f-800x450-c-default.jpg",
     "price": "£17–£19.50",
     "time": "20:00",
-    "doors": "19:00"
+    "doors": "19:00",
+    "description": "The Electric Swing Circus is a live 6-piece fusion of saucy 20’s swing and stomping electro beats."
   },
   {
     "venue": "Waterfront",
@@ -1185,7 +1203,9 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Ancient-Infinity-Orchestra-web-6a5f8e0c75efc-800x450-c-default.jpg",
     "price": "£21–£23",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "end": "21:50",
+    "description": "Ancient Infinity Orchestra 8 – 8.45pm Interval Ancient Infinity Orchestra 9.05 – 9.50pm"
   },
   {
     "venue": "Waterfront",
@@ -1250,7 +1270,11 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/NI_MAXINE_ARTWORKALT_2000px-6acfa05c00b6a-800x450-c-default.jpg",
     "price": "£15–£15.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "This event is part of ZWA, a series of music & spoken word events taking place across three days and two Norwich venues.",
+    "support": [
+      "TADI THE GREAT"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -1367,7 +1391,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Dennis1-6acfa47ea988f-800x450-c-default.jpg",
     "price": "£21–£24",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "This event is part of ZWA, a series of music & spoken word events taking place across three days and two Norwich venues."
   },
   {
     "venue": "Waterfront",
@@ -1489,7 +1514,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/The-Unthanks-In-Winter-Photo-2-_-COLOUR-_-RGB-16x9-6a2fd7592b2e4-scaled-800x450-c-default.jpg",
     "price": "£35–£39.50",
     "time": "20:00",
-    "doors": "19:00"
+    "doors": "19:00",
+    "description": "This is a ‘Norwich Arts Centre presents’ event at EPIC Studios, 112-114 Magdalen St, Norwich NR3 1JD"
   },
   {
     "venue": "Arts Centre",
@@ -1499,7 +1525,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-22-at-14.28.49-6ab282961471a-800x450-c-default.png",
     "price": "£26–£29.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Laura Misch is a London-born saxophonist, singer-songwriter, producer, and field recordist known for her immersive electro-acoustic soundscapes that bridge ambient electronic music, jazz, and field recordings."
   },
   {
     "venue": "Brickmakers",
@@ -1536,7 +1563,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/DSC08599-6a79b0785ca43-scaled-800x450-c-default.jpg",
     "price": "£10–£12",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Above the Street is the striking debut solo album from Jordan Smart, widely known for his work with Mammal Hands (ACT Records), Vega Trails (Gondwana Records) and Sunda Arc, yet here revealing a markedly different and deeply personal side of his artistry."
   },
   {
     "venue": "Voodoos",
@@ -1602,7 +1630,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Screenshot-2026-08-21-at-10.13.54-6a8816daa7aeb-800x450-c-default.png",
     "price": "£16–£18.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "After 10 years, The Anna Mudeka Band are coming back together for one very special, one-off performance — celebrating the life and legacy of acclaimed music producer John Vigar."
   },
   {
     "venue": "Waterfront",
@@ -1707,7 +1736,9 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-15-at-13.29.56-6aa93a4a6acba-800x450-c-default.png",
     "price": "£13–£15",
     "time": "19:30",
-    "doors": "19:00"
+    "doors": "19:00",
+    "end": "19:50",
+    "description": "ReWork Christmas presents Bag of Cans + Jo Millett + Lottie Gray + Norwich Contemporary Choir"
   },
   {
     "venue": "Waterfront",
@@ -1923,7 +1954,7 @@
     "time": "20:00",
     "end": "01:00",
     "age": "18+",
-    "description": "Price From: £30 First release | £35 Second release | £40 Final release"
+    "description": "The legendary Channel One Sound System bring their heavyweight bass and roots back to Norwich on New Year’s Eve!"
   },
   {
     "venue": "Dead Wax",
@@ -1959,7 +1990,9 @@
     "url": "https://norwichartscentre.co.uk/event/we-are-closed-friday-3-april/",
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2022/06/We-are-closed-2022-62a8665c70827-800x450-c-default.jpg",
     "price": "",
-    "time": "11:34"
+    "time": "13:01",
+    "end": "01:00",
+    "description": "Other than opening 7.30pm – 1am for Channel One Sound System on Thursday 31 December, Norwich Arts Centre will be closed between 23 December and 4 January for the Christmas/New Year break."
   },
   {
     "venue": "Arts Centre",
@@ -1969,7 +2002,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-29-at-15.03.17-6abbc52a8cf39-800x450-c-default.png",
     "price": "£20–£23",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "On the road again celebrating 50 the years since their hit single Really Free entered the charts, this magnetic bond still holds."
   },
   {
     "venue": "Arts Centre",
@@ -1979,7 +2013,12 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/PT-Album-Launch-2-6aec5d1f1ab35-800x450-c-default.jpg",
     "price": "£10–£12",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Join Phoebe Troup, her five-piece band and special guests to celebrate the release of Glued into the room.",
+    "support": [
+      "Trout",
+      "Milvain"
+    ]
   },
   {
     "venue": "The Halls",
@@ -2012,7 +2051,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Band-promo-1-6a82e18485692-scaled-800x450-c-default.jpg",
     "price": "£15–£17.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "The Pink Stones are an Athens, Georgia band led by singer-songwriter and guitarist Hunter Pinkston. Their sound sits somewhere between cosmic country, Southern rock, Americana, folk, soul and psychedelic rock."
   },
   {
     "venue": "Brickmakers",
@@ -2030,7 +2070,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Website-image-winter-gathering-15.10.39-6adf6d8dad92d-scaled-800x450-c-default.jpg",
     "price": "£10–£12",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Gather round for Winter Gathering, a celebration of the best in local and indie folk music."
   },
   {
     "venue": "Waterfront",
@@ -2064,7 +2105,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/KEZIA-GILL-FB-EVENT-NORWICH-6af5e4a6e31aa-800x450-c-default.jpg",
     "price": "£26–£29.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Kezia Gill is an award-winning British singer-songwriter with a distinctive blend of country, Americana, Irish folk and blues influences."
   },
   {
     "venue": "Arts Centre",
@@ -2074,7 +2116,11 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Press6-6afc1d6513951-scaled-800x450-c-default.jpg",
     "price": "£10–£12",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Billy Lubach is a Norwich based composer multi-instrumentalist and songwriter. He performs with a cast of classically trained and session musicians who give voice to his complex and intricate arrangements.",
+    "support": [
+      "Murmurations"
+    ]
   },
   {
     "venue": "Voodoos",
@@ -2110,7 +2156,11 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Laetitia-sadier-Press-Photo-10-6ada1b29271af-800x450-c-default.png",
     "price": "£16",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Drug Store Skateboarding Presents: Laetitia Sadier (StereoLab/Warp/Drag City) + Guests: Ralph of London (UK/France) + Alex Irvine (Indie Pop)",
+    "support": [
+      "Ralph of London"
+    ]
   },
   {
     "venue": "LCR",
@@ -2195,7 +2245,11 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/The-New-Cut-IVW-6ab692e2de14e-800x450-c-default.jpg",
     "price": "£10–£11",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "A four-piece post-punk band, The New Cut combine the energy of classic groups like The Fall, Wire, and The Monochrome Set with modern themes and contexts.",
+    "support": [
+      "Morton Betts"
+    ]
   },
   {
     "venue": "Voodoos",
@@ -2230,7 +2284,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Heartworms-6afc99c9f2075-800x450-c-default.jpg",
     "price": "£17–£19.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Heartworms is the musical project of South London artist Jojo Orme. One of the most distinctive emerging acts in the British alternative scene."
   },
   {
     "venue": "Waterfront",
@@ -2348,7 +2403,11 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Do-Nothing-IVW-logo-6acdfe833b6d9-scaled-800x450-c-default.jpg",
     "price": "£16–£18.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Do Nothing are a Nottingham band known for angular guitar lines, wiry rhythms, offbeat lyrics and the charismatic, deadpan delivery of frontman Chris Bailey.",
+    "support": [
+      "Voka Gentle"
+    ]
   },
   {
     "venue": "Voodoos",
@@ -2388,6 +2447,7 @@
     "price": "£17–£19.50",
     "time": "20:00",
     "doors": "19:30",
+    "description": "Cosmic exploration. Spiritual transformation. Unbridled spontaneity. These are the guiding principles of Pigeon, a psychedelic five-piece rooted in the English seaside town of Margate, yet making music that transcends borders.",
     "support": [
       "er £17 conc"
     ]
@@ -2450,7 +2510,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-13.20.27-6aa14f11abba2-800x450-c-default.png",
     "price": "£9–£10.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "knitting is the guitar-driven indie rock band of Mischa Dempsey, Sarah Harris, and Andy Mulcair. Emerging from Montreal’s DIY scene, filtering lyrical introspection through a warping, slacker-rock lens."
   },
   {
     "venue": "LCR",
@@ -2530,7 +2591,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Copia-di-Mercy-Girl-Press-Pic-1-crop-6aabea8d152a7-800x450-c-default.jpg",
     "price": "£13–£15",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Formed in 2024 by members Daisy Miles, Davey Purdie, Craig Harkness and Kylie MacNaughton, the Glasgow based electronic outfit explore themes of love, despair and the uncertainty of the human experience."
   },
   {
     "venue": "Arts Centre",
@@ -2540,7 +2602,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-14.58.45-6aec9a258bbe2-800x450-c-default.png",
     "price": "£17–£18",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Devoted to recreating the atmosphere of a live Joy Division gig, Transmission emulate the sound of one of the most inventive, evocative and influential groups of their era."
   },
   {
     "venue": "Waterfront",
@@ -2613,7 +2676,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-13.14.07-6aa14d947d8e8-800x450-c-default.png",
     "price": "£23–£26",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Eliza Carthy returns with Frenemies, a new album created with her long-standing band, The Restitution."
   },
   {
     "venue": "Epic",
@@ -2646,7 +2710,11 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Ben-and-Tom-colour-6af1f49dadda8-scaled-800x450-c-default.jpg",
     "price": "£31–£35",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "In January–March 2027, Ben & Tom Waters bring their live show to theatres across the UK, joined by special guest percussionist James Larter.",
+    "support": [
+      "James Larter"
+    ]
   },
   {
     "venue": "Voodoos",
@@ -2822,7 +2890,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Screenshot-2026-07-07-at-11.09.45-6a4cd0915807c-800x450-c-default.png",
     "price": "£26–£28.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Hayden Thorpe performs the Wild Beasts songbook for the first time in almost 9 years. Playing entirely solo, the shows will be an exploration of the much-loved collection in their purest form – voice and instrument, as they were written."
   },
   {
     "venue": "Arts Centre",
@@ -2832,7 +2901,11 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Screenshot-2026-09-25-at-14.28.18-6ab676ffb560c-800x450-c-default.png",
     "price": "£23–£26",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "September 18th 2026 saw the release of Corella’s second album A Beautiful World To Lose, and that same day the band embarked on a seven date tour across the UK, debuting songs live from the album to a rabid response from fans.",
+    "support": [
+      "Crystal Tides"
+    ]
   },
   {
     "venue": "LCR",
@@ -2870,7 +2943,11 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/Screenshot-2026-05-22-at-15.48.41-6a106cfac9ca1-800x450-c-default.png",
     "price": "£18–£20.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "The Bones of J.R. Jones is the solo project of singer-songwriter and multi-instrumentalist Jonathon Linaberry from upstate New York.",
+    "support": [
+      "Conchúr White"
+    ]
   },
   {
     "venue": "Waterfront",
@@ -2970,7 +3047,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-15.32.10-6ae9fe82375c7-800x450-c-default.png",
     "price": "£26–£29.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "After a day of synth bleeps and bloops, the venue transforms for the Saturday night gig, featuring former DFA-signed minimalist electronic legends Factory Floor."
   },
   {
     "venue": "Voodoos",
@@ -2991,7 +3069,9 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-15.32.10-6ae9fe82375c7-800x450-c-default.png",
     "price": "£8.50–£10",
     "time": "11:00",
-    "doors": "11:00"
+    "doors": "11:00",
+    "end": "16:00",
+    "description": "Sunday – Electronic Cabaret 11am-4pm Introducing our new Electronic Cabaret performance day, filled with a diverse range of electronic artists to delight the senses and excite your soul."
   },
   {
     "venue": "Waterfront",
@@ -3055,7 +3135,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/Joan-As-Police-Woman-Real-Life--69ca8f711cc04-scaled-800x450-c-default.jpg",
     "price": "£29–£32.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Joan Wasser, known professionally as Joan As Police Woman, is a critically acclaimed New York-based artist. As a singer, songwriter, and multi-instrumentalist she defies easy categorization, crafting her own sound that blends various genres."
   },
   {
     "venue": "Waterfront",
@@ -3097,7 +3178,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/7-Caoilfhionn-Rose-Press-Shot-Wide-Credit-Rich-Williams-WEB-RES-6acdef1009b04-800x450-c-default.webp",
     "price": "£16–£18.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Caoilfhionn Rose (pronounced Keelin) is a Manchester-based singer-songwriter, pianist and producer signed to Gondwana Records."
   },
   {
     "venue": "Waterfront",
@@ -3320,7 +3402,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/TCT-WEB-Press-Shot-2026-credit-Peter-Eason-Daniels-6aec9f8167b86-800x450-c-default.jpg",
     "price": "£17–£18",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Tara Clerkin Trio are Pat Benjamin, Sunny Joe Paradisos and Tara Clerkin, three musicians involved in a number of cult Bristol bands over the years before confidently settling down in triangle formation."
   },
   {
     "venue": "Waterfront",
@@ -3390,7 +3473,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Matt-BNW-1-photo-by-Camille-Lemoine-6a71bef8b415d-scaled-800x450-c-default.jpg",
     "price": "£16–£18.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Scottish saxophonist and composer Matt Carmichael has established himself as one of the most distinctive voices in contemporary jazz, drawing on both jazz and folk influences to create music of startling beauty and nuance."
   },
   {
     "venue": "Brickmakers",
@@ -3502,7 +3586,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/Howlers-web-6a0f174dd752e-800x450-c-default.jpg",
     "price": "£16–£18.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "“The Howlers take you on a hellish ride both emotional and catchy” – ROLLING STONE"
   },
   {
     "venue": "Waterfront",
@@ -3564,7 +3649,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Seth-Lakeman-2026-c-Dom-Moore-1-6af32b083f8be-scaled-e1794321220636-800x450-c-default.jpg",
     "price": "£26–£29.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Westcountry multi-instrumentalist Seth Lakeman was catapulted into the music mainstream when he was nominated for the Mercury Music Prize in 2005 for his album ‘Kitty Jay’."
   },
   {
     "venue": "Waterfront",
@@ -3636,7 +3722,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/KONKOLO_ORCHESTRA_credits_Dylan_Moore-6acdf93f59da6-scaled-800x450-c-default.jpg",
     "price": "£14–£16",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Konkolo Orchestra is a Zürich/Switzerland based project initiated by multi-instrumentalist, producer and composer Alexis Malefakis."
   },
   {
     "venue": "Waterfront",
@@ -3707,7 +3794,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/GANS-crop-6ada16f73319f-800x450-c-default.jpg",
     "price": "£19",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "GANS are a Birmingham-based duo blending post-punk, indie dance, synth-pop and techno, with driving rhythms, jagged riffs and an unpredictable, high-energy live sound."
   },
   {
     "venue": "Brickmakers",
@@ -3741,7 +3829,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/fullbandlive-6ae07c24bfb5a-scaled-800x450-c-default.jpg",
     "price": "£18–£20.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Born from a half‑serious beer‑fuelled joke in 2006, Liqueur quickly evolved from “food‑themed Cure parodies” into a full‑blooded tribute determined to capture the real sound, look and atmosphere of The Cure."
   },
   {
     "venue": "Waterfront",
@@ -3892,7 +3981,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2025/12/Jazz-Sabbath-WEB-photo-Jason-Gilchrist-693ae8ab620ee-800x450-c-default.jpg",
     "price": "£28.50–£34",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Jazz Sabbath is a jazz trio from Great Britain that plays new jazz arrangements of Black Sabbath songs. Although the band presents itself as a jazz trio founded in 1968 and the original authors of the tracks later made famous by Black Sabbath."
   },
   {
     "venue": "Arts Centre",
@@ -3902,7 +3992,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Daoiri-Farrell-_2_photo-credit-Eddie-Cavanagh-6ab1398132c31-scaled-800x450-c-default.jpg",
     "price": "£16–£18.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "He’s ‘the real deal’, said Mark Radcliffe, presenter of the BBC’s ‘Folk Show’ when Dublin’s Daoirí Farrell first appeared on the show back in 2016."
   },
   {
     "venue": "Waterfront",
@@ -3973,7 +4064,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Flook-by-Eddie-Kavanagh-scaled-6ab12c3b922ca-800x450-c-default.jpg",
     "price": "£20–£23",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "After 30 years Flook show no sign of letting up in their brilliance, their dynamism, or their inventive flair."
   },
   {
     "venue": "Arts Centre",
@@ -3983,7 +4075,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-15.18.45-6ad626ca6a7aa-800x450-c-default.png",
     "price": "£19–£21.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Is Willie J Healey your favourite artists’ favourite artist? You better believe it."
   },
   {
     "venue": "Waterfront",
@@ -4019,7 +4112,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/514372878_724945413609173_4385502089203534910_n-6a59fc0da8651-scaled-800x450-c-default.jpg",
     "price": "£13–£15",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Straight outta Norwich, Norfolk (UK), The Cain Pit are the loudest, weirdest thing to crawl out of the English countryside since someone tried to put mustard in tea."
   },
   {
     "venue": "Waterfront",
@@ -4050,7 +4144,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Halina-Rice-live-HERE-at-Outernet-London-UK-7430-6ad61b65545d9-scaled-800x450-c-default.jpg",
     "price": "£21–£24",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Gotobeat is thrilled to present an immersive evening of electronic music and visual art with the acclaimed AV artist Halina Rice."
   },
   {
     "venue": "Waterfront",
@@ -4086,7 +4181,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/The-Curlews-6ae32a7f3a074-800x450-c-default.jpg",
     "price": "£26–£29.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Join musician David Gray and writer and conservationist Mary Colwell MBE at Norwich Arts Centre for an evening of live music and conversation celebrating World Curlew Day and raising funds for Curlew Action."
   },
   {
     "venue": "Dead Wax",
@@ -4150,7 +4246,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/FTF-NORWICH-FB-EVENT-6ab0f0b8d4b5d-800x450-c-default.jpg",
     "price": "£23–£26",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "First Time Flyers are four seasoned artists — Jake Morrell, Poppy Fardell, Tim Prottey-Jones, and Vicki Manser — whose individual journeys span the Grand Ole Opry, the Ryman Auditorium, and London’s West End."
   },
   {
     "venue": "Waterfront",
@@ -4200,7 +4297,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-08-26-at-15.51.34-6a8efd7c32ee6-800x450-c-default.png",
     "price": "£26–£29.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Ibibio Sound Machine are one of the most compelling and forward-thinking bands emerging from the UK scene – a genre-defying afro-futurist collective blending West African rhythms, electronic textures, disco, post-punk and global club energy into a sound that’s as powerful on…"
   },
   {
     "venue": "Waterfront",
@@ -4307,7 +4405,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/portrait-2026.jpg-6a917af662b5a-800x450-c-default.webp",
     "price": "£17–£19.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Beautiful Burnouts presents Warrington Runcorn New Town Development Plan"
   },
   {
     "venue": "Waterfront",
@@ -4390,7 +4489,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Red-Snapper-with-logo-6ac4c0fc2e760-e1791298823526-800x450-c-default.jpg",
     "price": "£20–£23",
     "time": "19:30",
-    "doors": "19:00"
+    "doors": "19:00",
+    "description": "Following the success of their album ‘Barb and Feather’ on Lo Recordings and a full UK Tour in 2025, Red Snapper will return to the live circuit with a brand new album in May 2027."
   },
   {
     "venue": "Arts Centre",
@@ -4400,7 +4500,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Emma-Rawicz-with-logo-6ac4c10aa586a-e1791298985335-800x450-c-default.jpg",
     "price": "£21–£24",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Emma Rawicz has already made a name for herself as a fearless improviser, never afraid to dive into uncharted territory with each new project."
   },
   {
     "venue": "Epic",
@@ -4422,7 +4523,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Fergus-McCreadie-with-logo-6ac4c0ebacc87-e1791298887382-800x450-c-default.jpg",
     "price": "£17–£19.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "With a unique blend of Jazz and Scottish folk inspired by his country’s sublime landscapes, pianist Fergus McCreadie’s music captures the hearts and minds of audiences worldwide, with an appeal that extends far beyond the constraints of genre."
   },
   {
     "venue": "Epic",
@@ -4444,6 +4546,7 @@
     "price": "£15",
     "time": "20:00",
     "doors": "19:30",
+    "description": "Knats are a hard-hitting trio from Newcastle upon Tyne, channelling rock grit, fusion fire and floor-filling grooves into a bold new sound they call “Geordie Jazz”.",
     "support": [
       "er £15 under 26"
     ]
@@ -4563,7 +4666,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-16-at-11.27.12-6afae8a85b94f-800x450-c-default.png",
     "price": "£18.50–£21",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Personal Trainer are an exciting Dutch indie-rock collective from Amsterdam, led by singer, songwriter and guitarist Willem Smit."
   },
   {
     "venue": "Arts Centre",
@@ -4573,7 +4677,8 @@
     "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Horiz-1-6aedf27e9fc83-scaled-800x450-c-default.jpg",
     "price": "£15–£17.50",
     "time": "20:00",
-    "doors": "19:30"
+    "doors": "19:30",
+    "description": "Black Doldrums are a London-based alternative band combining dark psychedelia, shoegaze, gothic rock and post-punk. Released in October 2026, Compulsion is the latest single from the London post-punk trio."
   },
   {
     "venue": "Waterfront",

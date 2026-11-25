@@ -1,32 +1,41 @@
 {
- "updated": "2026-11-25 12:39",
+ "updated": "2026-11-25 13:03",
  "events": {
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=113401": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=118201": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=120201": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=120401": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=120601": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=122401": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=124201": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=125801": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=130001": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=131801": {
    "checked": "2026-11-25"
@@ -36,6 +45,7 @@
   },
   "https://epic-tv.com/events/event/4am-kru-from-the-ground-up-tour-27": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "description": "SJM Concerts & Wild Combination Present 4am Kru Plus Support"
@@ -48,18 +58,21 @@
   },
   "https://epic-tv.com/events/event/absolute-bowie": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "age": "14+",
    "description": "Now in their 14th year of touring, the UKs 'Best Tribute Band' and 'Best Bowie' act, would like to come and meet you and they might just blow your mind"
   },
   "https://epic-tv.com/events/event/an-acoustic-evening-with-ward-thomas": {
    "checked": "2026-11-25",
+   "v": 2,
    "doors": "19:00",
    "age": "14+",
    "description": "Country-pop duo Ward Thomas have announced a series of intimate and stripped-back live shows for Spring 2027."
   },
   "https://epic-tv.com/events/event/an-evening-with-nik-kershaw-musings-and-lyrics": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "age": "All ages",
@@ -67,6 +80,7 @@
   },
   "https://epic-tv.com/events/event/artful-dodger": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "age": "16+",
    "description": "+ Support from Peche Artful Dodger is established as the most commercially successful UK Garage act to have emerged fromthe scene to date.",
@@ -76,6 +90,7 @@
   },
   "https://epic-tv.com/events/event/bay-city-rollers": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "age": "All ages",
@@ -83,6 +98,7 @@
   },
   "https://epic-tv.com/events/event/buzzcocks-50th-anniversary": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "age": "All ages",
@@ -90,23 +106,27 @@
   },
   "https://epic-tv.com/events/event/cream-classics-norwich": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "14:00",
    "age": "18+",
    "description": "Join us in May as we bring most iconic clubbing brand that has influenced dance culture"
   },
   "https://epic-tv.com/events/event/david-cross-fake-joy-world-tour": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "description": "David Cross is an acclaimed comedian, actor, writer, and producer"
   },
   "https://epic-tv.com/events/event/deirdre-okane-all-the-rage": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "age": "16+",
    "description": "Deirdre O’Kane grabs the zeitgeist once again with a brand new show in a world that feels decidedly off kilter."
   },
   "https://epic-tv.com/events/event/elvana-elvis-fronted-nirvana": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "age": "14+",
@@ -114,12 +134,14 @@
   },
   "https://epic-tv.com/events/event/emo-fest": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:00",
    "age": "14+",
    "description": "DUE TO HUGE DEMAND! The Emo Festival is coming BACK to Norwich! The greatest tribute night to the music that was never just a phase…"
   },
   "https://epic-tv.com/events/event/girl-group-ivw-2027": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "age": "All ages",
    "description": "Consider the girl group. A divine feminine moment in pop culture: whether the riot grrrls of the ’90s, a sleek, honey-voiced R&B trio, or a glam and campy, dancing quintet.",
@@ -129,6 +151,7 @@
   },
   "https://epic-tv.com/events/event/gok-wan-isolation-nation": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "16:00",
    "end": "21:00",
    "age": "18+",
@@ -136,6 +159,7 @@
   },
   "https://epic-tv.com/events/event/groove-armada-dj-set-support": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "age": "18+",
@@ -143,36 +167,42 @@
   },
   "https://epic-tv.com/events/event/heart-club-classics-the-christmas-bash-with-toby-anstis": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "age": "18+",
    "description": "Toby Anstis is one of the UK's most recognisable presenters and DJs, with decades of experience across radio, television and live events."
   },
   "https://epic-tv.com/events/event/letz-zep-greatest-hits-show": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "age": "14+",
    "description": "Letz Zep are internationally recognised as the Number One tribute to Led Zeppelin, and Baby they ain't foolin'"
   },
   "https://epic-tv.com/events/event/lindisfarne": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "age": "18+",
    "description": "Epic Studios is delighted to welcome to Norwich the legendary 70’s folk-rock pioneers LINDISFARNE, with a classic five-piece line-up of long-time members."
   },
   "https://epic-tv.com/events/event/little-lifts-fitness-festival-w-tribe-collective": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "09:30",
    "end": "14:45",
    "description": "Join us and the amazing Amy Bobbins from Tribe Collective for the return of the Little Lifts Fitness Festival!"
   },
   "https://epic-tv.com/events/event/maisie-adam-whatsherface": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "age": "15+",
    "description": "Straight off the back of Taskmaster, A League Of Their Own, and Last One Laughing, Maisie Adam is back with her brand new show, Whatsherface."
   },
   "https://epic-tv.com/events/event/malevolence-united-kingdom-of-chaos-27": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "age": "14+",
@@ -180,6 +210,7 @@
   },
   "https://epic-tv.com/events/event/man-in-the-mirror-a-tribute-to-michael-jackson-2027": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:45",
    "doors": "18:45",
    "age": "All ages",
@@ -187,6 +218,7 @@
   },
   "https://epic-tv.com/events/event/martin-kemp-back-to-the-80s": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "age": "18+",
@@ -194,18 +226,21 @@
   },
   "https://epic-tv.com/events/event/massaoke-christmas": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "age": "All ages",
    "description": "The Ultimate Festive Live Band Sing-Along MASSAOKE CHRISTMAS returns to Epic Studios and it’s guaranteed to be Christmassiest thing you'll do this year."
   },
   "https://epic-tv.com/events/event/oas-is": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "age": "All ages",
    "description": "The ONLY tribute to tour with the official video show. Oas-is – Definitely (Not) Maybe the UK’s Best & Most Authentic Oasis Tribute Band!"
   },
   "https://epic-tv.com/events/event/prince-tribute-endorphinmachine-feat-jolan-greatest-hits-show": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "age": "14+",
@@ -213,36 +248,42 @@
   },
   "https://epic-tv.com/events/event/queenz-battle-of-the-divas": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "description": "Doors 7:30pm WHITNEY. BEYONCÉ. GAGA. BRITNEY. TINA. CHER. THE SPICE GIRLS. CÉLINE… AND SO MANY MORE."
   },
   "https://epic-tv.com/events/event/rachel-parris-the-rachel-parris-songbook-date-venue-change": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "age": "16+",
    "description": "The BAFTA-nominated comedian is back on the road, bringing some of her favourite songs from the last fifteen years of her comedy career, alongside brand new standup."
   },
   "https://epic-tv.com/events/event/rhythm-of-the-90s": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "age": "18+",
    "description": "Rhythm of the 90s are the UK's no 1. LIVE 90s dance anthems band, delivering an electrifying fusion of nostalgia, energy, and world-class musicianship."
   },
   "https://epic-tv.com/events/event/rob-lamberti-presents-perfectly-george": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "age": "All ages",
    "description": "Featuring the incredible voice of Rob Lamberti, this show has wowed audiences around the country and Europe and lifted them to their feet, in a dynamic show that tactfully and appropriately celebrates the career of one of the most gifted performers of a generation."
   },
   "https://epic-tv.com/events/event/robben-ford": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "age": "14+",
    "description": "Legendary guitarist Robben Ford returns to the UK in January & February 2027!"
   },
   "https://epic-tv.com/events/event/scott-bennett-stuff": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "age": "16+",
@@ -250,6 +291,7 @@
   },
   "https://epic-tv.com/events/event/shy-fx": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
    "doors": "20:00",
    "age": "18+",
@@ -262,6 +304,7 @@
   },
   "https://epic-tv.com/events/event/sleemo-ivw-2027": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "age": "14+",
@@ -269,6 +312,7 @@
   },
   "https://epic-tv.com/events/event/sophie-mccartney-back-in-the-day-rave": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "12:00",
    "doors": "12:00",
    "age": "18+",
@@ -283,6 +327,7 @@
   },
   "https://epic-tv.com/events/event/swiftogeddon-the-reputation-special": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
    "doors": "20:00",
    "end": "01:00",
@@ -291,18 +336,21 @@
   },
   "https://epic-tv.com/events/event/tangerine-dream-level-tour-2027": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "age": "14+",
    "description": "Tangerine Dream are an electronic music group founded in 1967 by Edgar Froese in Berlin."
   },
   "https://epic-tv.com/events/event/the-beat-ft-ranking-jr": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "age": "All ages",
    "description": "The band crossed over fluidly between soul, reggae, pop and punk, and from these disparate pieces they created an infectious dance rhythm"
   },
   "https://epic-tv.com/events/event/the-eminem-experience-may-2027": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "age": "14+",
@@ -310,6 +358,7 @@
   },
   "https://epic-tv.com/events/event/the-makings-of-a-murderer-fatal-mistake": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "age": "16+",
@@ -317,36 +366,42 @@
   },
   "https://epic-tv.com/events/event/the-ogretones": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "age": "All ages",
    "description": "Everybody agrees, the Shrek soundtracks are the best film soundtracks of all time, right? The Ogretones certainly think so!"
   },
   "https://epic-tv.com/events/event/the-rasmus-support": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "age": "14+",
    "description": "Following from an extremely successful 2025 and a very busy 2026, 6x Platinum and 8x Gold-certified, record-breaking Finnish rock outfit The Rasmus are thrilled to announce an extensive headline European and UK tour in 2027, with Skarlett Riot as special guest on all the UK…"
   },
   "https://epic-tv.com/events/event/the-santa-show": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "15:30",
    "age": "All ages",
    "description": "It’s time to head on down to the North Pole for a Christmas show like no other!"
   },
   "https://epic-tv.com/events/event/the-tumbling-paddies": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "age": "All ages",
    "description": "One of Ireland’s most popular music acts, The Tumbling Paddies are now coming to England"
   },
   "https://epic-tv.com/events/event/the-unthanks-in-winter": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "description": "The Unthanks In Winter This is a ‘Norwich Arts Centre presents’ event at EPIC Studios, 112-114 Magdalen St, Norwich NR3 1JD Doors: 19:30 Start time: 20:00 Described as ‘the gold standard’ of all winter records alongside Frost and Fire by The Watersons in a five star review from…"
   },
   "https://epic-tv.com/events/event/the-wildhearts": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "age": "All ages",
@@ -354,6 +409,7 @@
   },
   "https://epic-tv.com/events/event/thomas-green": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "age": "16+",
@@ -361,6 +417,7 @@
   },
   "https://epic-tv.com/events/event/tom-meighan-the-original-voice-of-kasabian": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "age": "All ages",
@@ -368,6 +425,7 @@
   },
   "https://epic-tv.com/events/event/too-much-too-young-a-night-of-2-tone-ska-and-beyond": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:15",
    "doors": "20:00",
    "age": "14+",
@@ -375,21 +433,25 @@
   },
   "https://epic-tv.com/events/event/uk-pink-floyd-experience": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "age": "All ages",
    "description": "In 2027, the UK Pink Floyd Experience celebrates 50 years of Pink Floyd’s iconic album Animals with a landmark tour."
   },
   "https://epic-tv.com/events/event/wilder-fight-night": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "12:00",
    "doors": "12:00"
   },
   "https://fixr.co/event/bank-holiday-fiesta-w-the-cuban-brothers-sunday-30-tickets-727244475": {
    "checked": "2026-11-25",
+   "v": 2,
    "description": "Join us this Bank Holiday Sunday for the ultimate Fiesta with The Cuban Brothers! 🇨🇺🎉 After last years sold out show, The Cuban Brothers return this August for another Bank Holiday special."
   },
   "https://fixr.co/event/norwich-dj-luck-mc-neat-garage-brunch-day-party-in-tickets-734094727": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "12:00",
    "end": "20:30",
    "age": "18+",
@@ -397,29 +459,47 @@
   },
   "https://fixr.co/event/norwich-mj-cole-daylight-disco-end-of-summer-day-p-tickets-108678374": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "12:00",
    "end": "20:30",
    "description": "Pat Sharp's Fun House Xmas Special 🎄🔥 Indoors & Heated - We have a top of the range heading system and the Hangar roof will be brought over."
   },
   "https://norwichartscentre.co.uk/event/an-evening-with-the-magic-numbers/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:00"
+   "doors": "19:00",
+   "description": "The Magic Numbers are an UK-based four piece comprising two pairs of siblings (Romeo and Michele Stodart, Sean and Angela Gannon) who are known for their unique harmonies, melodic hooks, songwriting craftsmanship and timeless sound."
   },
   "https://norwichartscentre.co.uk/event/beans-on-toast/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:00"
+   "doors": "19:00",
+   "description": "Celebrated folk troubadour Beans on Toast heads out on his annual winter tour.",
+   "support": [
+    "Gecko"
+   ]
   },
   "https://norwichartscentre.co.uk/event/ben-tom-waters/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "In January–March 2027, Ben & Tom Waters bring their live show to theatres across the UK, joined by special guest percussionist James Larter.",
+   "support": [
+    "James Larter"
+   ]
   },
   "https://norwichartscentre.co.uk/event/billy-lubach/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Billy Lubach is a Norwich based composer multi-instrumentalist and songwriter. He performs with a cast of classically trained and session musicians who give voice to his complex and intricate arrangements.",
+   "support": [
+    "Murmurations"
+   ]
   },
   "https://norwichartscentre.co.uk/event/bootleg-blondie/": {
    "checked": "2026-11-25",
@@ -428,252 +508,377 @@
   },
   "https://norwichartscentre.co.uk/event/channel-one-sound-system/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
    "end": "01:00",
    "age": "18+",
-   "description": "Price From: £30 First release | £35 Second release | £40 Final release"
+   "description": "The legendary Channel One Sound System bring their heavyweight bass and roots back to Norwich on New Year’s Eve!"
   },
   "https://norwichartscentre.co.uk/event/corella/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "September 18th 2026 saw the release of Corella’s second album A Beautiful World To Lose, and that same day the band embarked on a seven date tour across the UK, debuting songs live from the album to a rabid response from fans.",
+   "support": [
+    "Crystal Tides"
+   ]
   },
   "https://norwichartscentre.co.uk/event/daoiri-farrell/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "He’s ‘the real deal’, said Mark Radcliffe, presenter of the BBC’s ‘Folk Show’ when Dublin’s Daoirí Farrell first appeared on the show back in 2016."
   },
   "https://norwichartscentre.co.uk/event/eliza-carthy-the-restitution/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Eliza Carthy returns with Frenemies, a new album created with her long-standing band, The Restitution."
   },
   "https://norwichartscentre.co.uk/event/first-time-flyers/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "First Time Flyers are four seasoned artists — Jake Morrell, Poppy Fardell, Tim Prottey-Jones, and Vicki Manser — whose individual journeys span the Grand Ole Opry, the Ryman Auditorium, and London’s West End."
   },
   "https://norwichartscentre.co.uk/event/flook/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "After 30 years Flook show no sign of letting up in their brilliance, their dynamism, or their inventive flair."
   },
   "https://norwichartscentre.co.uk/event/form-presents-gans/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "GANS are a Birmingham-based duo blending post-punk, indie dance, synth-pop and techno, with driving rhythms, jagged riffs and an unpredictable, high-energy live sound."
   },
   "https://norwichartscentre.co.uk/event/hayden-thorpe-performs-the-songs-of-wild-beasts/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Hayden Thorpe performs the Wild Beasts songbook for the first time in almost 9 years. Playing entirely solo, the shows will be an exploration of the much-loved collection in their purest form – voice and instrument, as they were written."
   },
   "https://norwichartscentre.co.uk/event/ibibio-sound-machine/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Ibibio Sound Machine are one of the most compelling and forward-thinking bands emerging from the UK scene – a genre-defying afro-futurist collective blending West African rhythms, electronic textures, disco, post-punk and global club energy into a sound that’s as powerful on…"
   },
   "https://norwichartscentre.co.uk/event/jazz-sabbath/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Jazz Sabbath is a jazz trio from Great Britain that plays new jazz arrangements of Black Sabbath songs. Although the band presents itself as a jazz trio founded in 1968 and the original authors of the tracks later made famous by Black Sabbath."
   },
   "https://norwichartscentre.co.uk/event/joan-as-police-woman/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Joan Wasser, known professionally as Joan As Police Woman, is a critically acclaimed New York-based artist. As a singer, songwriter, and multi-instrumentalist she defies easy categorization, crafting her own sound that blends various genres."
   },
   "https://norwichartscentre.co.uk/event/john-otway-wild-willy-barrett/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "On the road again celebrating 50 the years since their hit single Really Free entered the charts, this magnetic bond still holds."
   },
   "https://norwichartscentre.co.uk/event/kezia-gill-solo-acoustic/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Kezia Gill is an award-winning British singer-songwriter with a distinctive blend of country, Americana, Irish folk and blues influences."
   },
   "https://norwichartscentre.co.uk/event/konkolo-orchestra/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Konkolo Orchestra is a Zürich/Switzerland based project initiated by multi-instrumentalist, producer and composer Alexis Malefakis."
   },
   "https://norwichartscentre.co.uk/event/laetitia-sadier-stereolab/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Drug Store Skateboarding Presents: Laetitia Sadier (StereoLab/Warp/Drag City) + Guests: Ralph of London (UK/France) + Alex Irvine (Indie Pop)",
+   "support": [
+    "Ralph of London"
+   ]
   },
   "https://norwichartscentre.co.uk/event/liqueur-a-tribute-to-the-cure/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Born from a half‑serious beer‑fuelled joke in 2006, Liqueur quickly evolved from “food‑themed Cure parodies” into a full‑blooded tribute determined to capture the real sound, look and atmosphere of The Cure."
   },
   "https://norwichartscentre.co.uk/event/norwich-jazz-festival-emma-rawicz/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Emma Rawicz has already made a name for herself as a fearless improviser, never afraid to dive into uncharted territory with each new project."
   },
   "https://norwichartscentre.co.uk/event/norwich-jazz-festival-fergus-mccreadie/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "With a unique blend of Jazz and Scottish folk inspired by his country’s sublime landscapes, pianist Fergus McCreadie’s music captures the hearts and minds of audiences worldwide, with an appeal that extends far beyond the constraints of genre."
   },
   "https://norwichartscentre.co.uk/event/norwich-jazz-festival-knats/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
    "doors": "19:30",
+   "description": "Knats are a hard-hitting trio from Newcastle upon Tyne, channelling rock grit, fusion fire and floor-filling grooves into a bold new sound they call “Geordie Jazz”.",
    "support": [
     "er £15 under 26"
    ]
   },
   "https://norwichartscentre.co.uk/event/norwich-jazz-festival-red-snapper/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
-   "doors": "19:00"
+   "doors": "19:00",
+   "description": "Following the success of their album ‘Barb and Feather’ on Lo Recordings and a full UK Tour in 2025, Red Snapper will return to the live circuit with a brand new album in May 2027."
   },
   "https://norwichartscentre.co.uk/event/personal-trainer/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Personal Trainer are an exciting Dutch indie-rock collective from Amsterdam, led by singer, songwriter and guitarist Willem Smit."
   },
   "https://norwichartscentre.co.uk/event/phoebe-troup-album-launch/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Join Phoebe Troup, her five-piece band and special guests to celebrate the release of Glued into the room.",
+   "support": [
+    "Trout",
+    "Milvain"
+   ]
   },
   "https://norwichartscentre.co.uk/event/pigeon/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
    "doors": "19:30",
+   "description": "Cosmic exploration. Spiritual transformation. Unbridled spontaneity. These are the guiding principles of Pigeon, a psychedelic five-piece rooted in the English seaside town of Margate, yet making music that transcends borders.",
    "support": [
     "er £17 conc"
    ]
   },
   "https://norwichartscentre.co.uk/event/pony-up-presents-black-doldrums/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Black Doldrums are a London-based alternative band combining dark psychedelia, shoegaze, gothic rock and post-punk. Released in October 2026, Compulsion is the latest single from the London post-punk trio."
   },
   "https://norwichartscentre.co.uk/event/pony-up-presents-do-nothing/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Do Nothing are a Nottingham band known for angular guitar lines, wiry rhythms, offbeat lyrics and the charismatic, deadpan delivery of frontman Chris Bailey.",
+   "support": [
+    "Voka Gentle"
+   ]
   },
   "https://norwichartscentre.co.uk/event/pony-up-presents-heartworms/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Heartworms is the musical project of South London artist Jojo Orme. One of the most distinctive emerging acts in the British alternative scene."
   },
   "https://norwichartscentre.co.uk/event/pony-up-presents-knitting/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "knitting is the guitar-driven indie rock band of Mischa Dempsey, Sarah Harris, and Andy Mulcair. Emerging from Montreal’s DIY scene, filtering lyrical introspection through a warping, slacker-rock lens."
   },
   "https://norwichartscentre.co.uk/event/pony-up-presents-the-new-cut/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "A four-piece post-punk band, The New Cut combine the energy of classic groups like The Fall, Wire, and The Monochrome Set with modern themes and contexts.",
+   "support": [
+    "Morton Betts"
+   ]
   },
   "https://norwichartscentre.co.uk/event/rework-christmas-presents-bag-of-cans/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
-   "doors": "19:00"
+   "doors": "19:00",
+   "end": "19:50",
+   "description": "ReWork Christmas presents Bag of Cans + Jo Millett + Lottie Gray + Norwich Contemporary Choir"
   },
   "https://norwichartscentre.co.uk/event/round-midnight-presents-ancient-infinity-orchestra/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "end": "21:50",
+   "description": "Ancient Infinity Orchestra 8 – 8.45pm Interval Ancient Infinity Orchestra 9.05 – 9.50pm"
   },
   "https://norwichartscentre.co.uk/event/round-midnight-presents-caoilfhionn-rose/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Caoilfhionn Rose (pronounced Keelin) is a Manchester-based singer-songwriter, pianist and producer signed to Gondwana Records."
   },
   "https://norwichartscentre.co.uk/event/round-midnight-presents-laura-misch/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Laura Misch is a London-born saxophonist, singer-songwriter, producer, and field recordist known for her immersive electro-acoustic soundscapes that bridge ambient electronic music, jazz, and field recordings."
   },
   "https://norwichartscentre.co.uk/event/round-midnight-presents-matt-carmichael/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Scottish saxophonist and composer Matt Carmichael has established himself as one of the most distinctive voices in contemporary jazz, drawing on both jazz and folk influences to create music of startling beauty and nuance."
   },
   "https://norwichartscentre.co.uk/event/seth-lakeman/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Westcountry multi-instrumentalist Seth Lakeman was catapulted into the music mainstream when he was nominated for the Mercury Music Prize in 2005 for his album ‘Kitty Jay’."
   },
   "https://norwichartscentre.co.uk/event/synth-east-electronic-cabaret/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "11:00",
-   "doors": "11:00"
+   "doors": "11:00",
+   "end": "16:00",
+   "description": "Sunday – Electronic Cabaret 11am-4pm Introducing our new Electronic Cabaret performance day, filled with a diverse range of electronic artists to delight the senses and excite your soul."
   },
   "https://norwichartscentre.co.uk/event/synth-east-factory-floor-immersion/": {
    "checked": "2026-11-25",
-   "error": "ConnectionError",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "After a day of synth bleeps and bloops, the venue transforms for the Saturday night gig, featuring former DFA-signed minimalist electronic legends Factory Floor."
   },
   "https://norwichartscentre.co.uk/event/tara-clerkin-trio/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Tara Clerkin Trio are Pat Benjamin, Sunny Joe Paradisos and Tara Clerkin, three musicians involved in a number of cult Bristol bands over the years before confidently settling down in triangle formation."
   },
   "https://norwichartscentre.co.uk/event/the-allergies-live/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:00"
+   "doors": "19:00",
+   "end": "21:00",
+   "description": "The duo of DJ Moneyshot and Rackabeat have been delighting dance-floors and lighting up the airwaves since forming The Allergies and releasing their debut album in 2016.",
+   "support": [
+    "LFay",
+    "Chrome",
+    "Illinspired"
+   ]
   },
   "https://norwichartscentre.co.uk/event/the-anna-mudeka-band/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "After 10 years, The Anna Mudeka Band are coming back together for one very special, one-off performance — celebrating the life and legacy of acclaimed music producer John Vigar."
   },
   "https://norwichartscentre.co.uk/event/the-bones-of-jr-jones/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "The Bones of J.R. Jones is the solo project of singer-songwriter and multi-instrumentalist Jonathon Linaberry from upstate New York.",
+   "support": [
+    "Conchúr White"
+   ]
   },
   "https://norwichartscentre.co.uk/event/the-cain-pit/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Straight outta Norwich, Norfolk (UK), The Cain Pit are the loudest, weirdest thing to crawl out of the English countryside since someone tried to put mustard in tea."
   },
   "https://norwichartscentre.co.uk/event/the-curlews-call-an-evening-with-david-gray-and-mary-colwell/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Join musician David Gray and writer and conservationist Mary Colwell MBE at Norwich Arts Centre for an evening of live music and conversation celebrating World Curlew Day and raising funds for Curlew Action."
   },
   "https://norwichartscentre.co.uk/event/the-electric-swing-circus/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:00"
+   "doors": "19:00",
+   "description": "The Electric Swing Circus is a live 6-piece fusion of saucy 20’s swing and stomping electro beats."
   },
   "https://norwichartscentre.co.uk/event/the-howlers/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "“The Howlers take you on a hellish ride both emotional and catchy” – ROLLING STONE"
   },
   "https://norwichartscentre.co.uk/event/the-pink-stones/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "The Pink Stones are an Athens, Georgia band led by singer-songwriter and guitarist Hunter Pinkston. Their sound sits somewhere between cosmic country, Southern rock, Americana, folk, soul and psychedelic rock."
   },
   "https://norwichartscentre.co.uk/event/the-unthanks-in-winter-at-epic-studios/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:00"
+   "doors": "19:00",
+   "description": "This is a ‘Norwich Arts Centre presents’ event at EPIC Studios, 112-114 Magdalen St, Norwich NR3 1JD"
   },
   "https://norwichartscentre.co.uk/event/these-wicked-rivers/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:00"
+   "doors": "19:00",
+   "description": "Established in 2014, These Wicked Rivers are Derby’s entry to the new wave of rock and roll that is sweeping across the United Kingdom."
   },
   "https://norwichartscentre.co.uk/event/tom-moore-quartet/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:00"
+   "doors": "19:00",
+   "description": "Tom Moore is a violist, guitarist and producer who grew up steeped in the traditional folk music of his native Norfolk. An in-demand collaborator, his playing has been described as “irresistible” (The Independent) and “ingenious” (The Guardian).",
+   "support": [
+    "Bushes"
+   ]
   },
   "https://norwichartscentre.co.uk/event/tom-robinson-band/": {
    "checked": "2026-11-25",
@@ -682,55 +887,80 @@
   },
   "https://norwichartscentre.co.uk/event/tone-presents-halina-rice/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Gotobeat is thrilled to present an immersive evening of electronic music and visual art with the acclaimed AV artist Halina Rice."
   },
   "https://norwichartscentre.co.uk/event/tone-presents-jordan-smart/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Above the Street is the striking debut solo album from Jordan Smart, widely known for his work with Mammal Hands (ACT Records), Vega Trails (Gondwana Records) and Sunda Arc, yet here revealing a markedly different and deeply personal side of his artistry."
   },
   "https://norwichartscentre.co.uk/event/tone-presents-mercy-girl/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Formed in 2024 by members Daisy Miles, Davey Purdie, Craig Harkness and Kylie MacNaughton, the Glasgow based electronic outfit explore themes of love, despair and the uncertainty of the human experience."
   },
   "https://norwichartscentre.co.uk/event/transmission-the-sound-of-joy-division/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Devoted to recreating the atmosphere of a live Joy Division gig, Transmission emulate the sound of one of the most inventive, evocative and influential groups of their era."
   },
   "https://norwichartscentre.co.uk/event/warrington-runcorn-new-town-development-plan/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Beautiful Burnouts presents Warrington Runcorn New Town Development Plan"
   },
   "https://norwichartscentre.co.uk/event/we-are-closed-friday-3-april/": {
    "checked": "2026-11-25",
-   "time": "11:34"
+   "v": 2,
+   "time": "13:01",
+   "end": "01:00",
+   "description": "Other than opening 7.30pm – 1am for Channel One Sound System on Thursday 31 December, Norwich Arts Centre will be closed between 23 December and 4 January for the Christmas/New Year break."
   },
   "https://norwichartscentre.co.uk/event/willie-j-healey/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Is Willie J Healey your favourite artists’ favourite artist? You better believe it."
   },
   "https://norwichartscentre.co.uk/event/winter-gathering-loris-ensemble-bore-joysey-lydia-cass-maple-ward/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "Gather round for Winter Gathering, a celebration of the best in local and indie folk music."
   },
   "https://norwichartscentre.co.uk/event/zwa-presents-dennis-bovell-x-rebel-lion-sound-system/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "This event is part of ZWA, a series of music & spoken word events taking place across three days and two Norwich venues."
   },
   "https://norwichartscentre.co.uk/event/zwa-presents-ni-maxine/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
-   "doors": "19:30"
+   "doors": "19:30",
+   "description": "This event is part of ZWA, a series of music & spoken word events taking place across three days and two Norwich venues.",
+   "support": [
+    "TADI THE GREAT"
+   ]
   },
   "https://ticketlab.app/event/39955-GRLDEM-Presents-Feel-the-Bass-tickets#/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "18:45",
    "end": "03:00",
@@ -739,101 +969,118 @@
   },
   "https://www.deadwaxnorwich.pub/whats-on/ben-wegg-lydia-cass": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "end": "23:00",
    "description": "Ben Wegg + Lydia Cass Tuesday, December 22, 2026 7:30 PM 11:00 PM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/bland-bizarro-variety-presents-bradley-taylor-maxine-meixner-abbie-neale-squat-lobster": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "23:00",
    "description": "BLAND - Bizarro’ Variety Presents: Bradley Taylor, Maxine Meixner, Abbie Neale, & Squat Lobster Thursday, November 12, 2026 7:00 PM 11:00 PM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/dead-wax-90s-nye-house-party": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "02:00",
    "description": "DEAD WAX 90s nye house party Thursday, December 31, 2026 7:00 PM Friday, January 1, 2027 2:00 AM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/delay-the-drowning-niche-godkill": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "23:00",
    "description": "Delay the drowning + Niche + godkill Wednesday, November 25, 2026 7:00 PM 11:00 PM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/festive-cat-life-drawing-class": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "15:00",
    "end": "16:00",
    "description": "Festive Cat Life Drawing workshop Sunday, December 20, 2026 3:00 PM 4:00 PM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/flashbang-a-play-by-james-lewis": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "end": "23:00",
    "description": "Flashbang: A play by james lewis Wednesday, February 24, 2027 7:30 PM 11:00 PM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/flashbang-a-play-by-james-lewis-1": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "end": "23:00",
    "description": "flashbang: a play by james lewis Thursday, February 25, 2027 7:30 PM 11:00 PM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/m7gwtclwcndfadx4d25ymbzesgbllb": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "end": "22:30",
    "description": "Rhyme against the machine Monday, December 21, 2026 7:30 PM 10:30 PM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/nivmsenb9umrx1cevv9qjdxe10ccc9": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
    "end": "01:00",
    "description": "star children invites: love break Saturday, December 19, 2026 8:00 PM Sunday, December 20, 2026 1:00 AM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/phaseshifter-x-dead-wax-presents-rhododendron-kulk": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "end": "23:00",
    "description": "Phaseshifter x Dead Wax present: Rhododendron + Kulk Tuesday, April 20, 2027 7:30 PM 11:00 PM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/pocket-sam-russo-self-torque-hello-pedro": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "23:00",
    "description": "Pocket + Sam Russo + Self Torque + Hello Pedro Friday, November 27, 2026 7:00 PM 11:00 PM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/punk-rock-stars-in-their-eyes": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "17:00",
    "end": "23:00",
    "description": "Punk rock stars in their eyes 2026 Saturday, December 12, 2026 5:00 PM 11:00 PM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/qi0aahbv8pgv422767q94lbajjiwb1": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "21:00",
    "end": "01:00",
    "description": "a KLUBHAUS CHRISTMAS Friday, December 18, 2026 9:00 PM Saturday, December 19, 2026 1:00 AM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/raqoiqjzzydoju4sf5t1c43yswlvws": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00"
   },
   "https://www.deadwaxnorwich.pub/whats-on/star-children": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
    "end": "01:00",
    "description": "Star Children Invites: Darby + Tadi the great Saturday, November 28, 2026 8:00 PM Sunday, November 29, 2026 1:00 AM Google Calendar ICS"
   },
   "https://www.deadwaxnorwich.pub/whats-on/wwetybmsb5te2ccpkzf7fy2fjr8dxe": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "21:00",
    "end": "01:00",
    "description": "dreamcast Thursday, December 17, 2026 9:00 PM Friday, December 18, 2026 1:00 AM Google Calendar ICS"
   },
   "https://www.fatsoma.com/e/3y8joozg/resident-rave": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "end": "03:00",
    "age": "18+",
@@ -841,6 +1088,7 @@
   },
   "https://www.fatsoma.com/e/49i06zhu/fabio-grooverider-up-close-personal-easter-sunday-day-rave": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "15:00",
    "end": "21:00",
    "age": "18+",
@@ -853,6 +1101,7 @@
   },
   "https://www.fatsoma.com/e/4d4n7x0f/eats-everything": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "end": "03:00",
    "age": "18+",
@@ -863,6 +1112,7 @@
   },
   "https://www.fatsoma.com/e/4rtxgsl0/9trane-only-child": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "end": "03:00",
    "age": "18+",
@@ -870,6 +1120,7 @@
   },
   "https://www.fatsoma.com/e/8l08hndq/t-i-the-residency-clipz": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "end": "03:00",
    "age": "18+",
@@ -882,6 +1133,7 @@
   },
   "https://www.fatsoma.com/e/9f8w3u2r/turner-connie": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "end": "03:00",
    "age": "18+",
@@ -889,6 +1141,7 @@
   },
   "https://www.fatsoma.com/e/9kl2h394/t-was-the-last-dance-before-christmas-day-party": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "16:00",
    "end": "22:00",
    "age": "18+",
@@ -896,6 +1149,7 @@
   },
   "https://www.fatsoma.com/e/bfbqe1v4/a-m-c-grassroots-energy-norwich": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "end": "03:00",
    "age": "18+",
@@ -903,6 +1157,7 @@
   },
   "https://www.fatsoma.com/e/cujnqdye/globex-corp-tim-reaper-dwarde": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "end": "03:00",
    "age": "18+",
@@ -914,6 +1169,7 @@
   },
   "https://www.fatsoma.com/e/gnwpq6jj/system-olympia": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "end": "03:00",
    "age": "18+",
@@ -925,6 +1181,7 @@
   },
   "https://www.fatsoma.com/e/ifh1l05u/reeshy-all-night-long-tour": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "end": "03:00",
    "age": "18+",
@@ -932,6 +1189,7 @@
   },
   "https://www.fatsoma.com/e/od97ouwg/soul-mass-transit-system-all-night-long": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "end": "03:00",
    "age": "18+",
@@ -939,6 +1197,7 @@
   },
   "https://www.fatsoma.com/e/oyq3ii63/nye-special-tea-room-lounge-voodoo-daddy-s": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "21:00",
    "end": "04:00",
    "age": "18+",
@@ -946,6 +1205,7 @@
   },
   "https://www.fatsoma.com/e/qleyqdip/storm-mollison": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "end": "03:00",
    "age": "18+",
@@ -957,6 +1217,7 @@
   },
   "https://www.fatsoma.com/e/qou6tsr5/nye-house-party-two-room-basement": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "21:00",
    "end": "03:00",
    "age": "18+",
@@ -964,6 +1225,7 @@
   },
   "https://www.fatsoma.com/e/z9wd2hpt/voigtmann": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "end": "03:00",
    "age": "18+",
@@ -973,159 +1235,202 @@
    ]
   },
   "https://www.norfolkgigguide.com/band-details/ADTR+-+A+Day+to+Remember+UK": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Beautiful+Dangerous": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Black+Dog++Music": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Bootleg+Boss": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Chemistry+-+A+Tribute+to+Rush": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:30",
    "end": "23:00"
   },
   "https://www.norfolkgigguide.com/band-details/Counterfeit+Brits": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Damage": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:30",
    "end": "23:00"
   },
   "https://www.norfolkgigguide.com/band-details/Decades+Apart": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Dirty+Havana": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Future+Radio-Sounds+of+Norwich": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Henry+Cluney%27s+XSLF+%2B+The+Punktures+%2B+Beef+%26+Onion": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Hook+-farewell+show": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Mosh+Spice": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Motorheadache": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/NIRVANHER+with+HELL+IS+IN+CHAINS": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Open+Mic+with+Peter+T": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Power+Promotions+Present...++%40the+Brickmaker": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Punk+Up+City+2+at+B2": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/RATTLESNAKES+-+REGIONAL+ONE+-+CHAOS+PRINCIPAL": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Ska+Souls": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Skatopia": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Southbound": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/TBA%2C+URIDIUM%2C+BLOODSHOT%2C+ATARKA%2C+GOAT+MONSOON%2C+PSY": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/The+Blue+Lion+Band": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/The+Pogue+Traders": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/The+Psychedelic+Circus": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Thin+Lizzish": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Wiggy+Stardust+and+the+Ciders+from+Jars": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Xmas+Rox+Off": {
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "v": 2
   },
   "https://www.norwich.gov.uk/thehalls/country-night-nashville": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "description": "Direct from the Royal Albert Hall, A Country Night in Nashville brings the buzz of a downtown honky-tonk to life, capturing the spirit of country music at its finest."
   },
   "https://www.norwich.gov.uk/thehalls/evening-dickens-christmas-carol": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "description": "In October 1859, Charles Dickens gave a reading of his festive classic “A Christmas Carol” at St Andrew’s Hall, to great acclaim."
   },
   "https://www.norwich.gov.uk/thehalls/fleetwood-mac-songbook-ultimate-tribute-fleetwood-mac": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "description": "“Witnessing The FM Songbook live in action, is like capturing a little sprinkling of stardust”. Kelly Scanlon, Far Out Magazine"
   },
   "https://www.norwich.gov.uk/thehalls/let-music-play-celebration-barry-white": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:30",
    "description": "The only UK touring show dedicated to the maestro and legend, Barry White."
   },
   "https://www.norwich.gov.uk/thehalls/music-luther-vandross-candlelight-concert": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "description": "Join us for a heartfelt evening honouring the timeless music of Luther Vandross, as a gifted vocalist and an incredible live band bring his greatest hits to life in a stunning candlelit setting"
   },
   "https://www.norwich.gov.uk/thehalls/rb-orchestra-live": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:00",
    "description": "Experience the ultimate celebration of R&B - brought to life like you’ve never heard before."
   },
   "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich": {
    "checked": "2026-11-25",
+   "v": 2,
    "description": "19:00 - 19:45 Beginners £5 - Perfect if you are brand new to salsa or have only done a few lessons!"
   },
   "https://www.revoluciondecuba.com/events/norwich/12931/tuto-tribe": {
    "checked": "2026-11-25",
+   "v": 2,
    "description": "We’re turning up the heat with a special live edition featuring the electric Tuto Tribe. From 7PM, the band brings high-energy Latin rhythms, feel-good soul, and the perfect party atmosphere to kick off your weekend at Revolución de Cuba."
   },
   "https://www.revoluciondecuba.com/events/norwich/12946/mambo-kings": {
    "checked": "2026-11-25",
+   "v": 2,
    "description": "A combo of the best Latin musicians in the UK. Every performance is a high-energy spectacle performing live in Revolucion de Cuba Norwich - we hope you're ready to dance!"
   },
   "https://www.spacestudiosnorwich.com/event-details-registration/all-things-jungle-x-central-rhythms-w-webbo-nulify-blindfold": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "end": "03:00",
    "description": "Central Rhythms is taking on a jungle special with All Things Jungle for one night only! 50 Free tickets available now!"
   },
   "https://www.tickettailor.com/events/lethalchupresents/2447332?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAVhkrpleHRuA2FlbQExAHBkb2YCZmRpZBZRIHCQbfwpVLOFiDhyvK9l95KbOKgNc3J0YwZhcHBfaWQPMTI0MDI0NTc0Mjg3NDE0AAGnTbgG2ntesOuWywoirywSCbSJkPR_HXFMQgAGULaZqVEE6NToGXoRiUqOt9E_aem_x05fmcPR8GXW37npQkhOow": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:30",
    "description": "Umarells Umarells, from Manchester, arrange pieces of post-hardcore, shoegaze, Midwest emo, and '00s indie-psych into songs shot through wit"
   },
   "https://www.ueaticketbookings.co.uk/event/999/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1137,6 +1442,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/admt/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1145,6 +1451,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/alestorm/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1157,6 +1464,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/as-everything-unfolds/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1169,6 +1477,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/ash/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1180,6 +1489,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/atlasi/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1192,6 +1502,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/avatar/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1203,6 +1514,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/basement/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1215,6 +1527,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/basht/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1223,6 +1536,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/belle-sebastian/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1231,6 +1545,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/ben-poole/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1239,6 +1554,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/beux-gris-gris-the-apocalypse/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1247,6 +1563,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/big-wett/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1255,6 +1572,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/black-flag/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1263,6 +1581,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/black-stone-cherry/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1271,6 +1590,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/bruce-foxton/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1279,6 +1599,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/bywater-call/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1290,6 +1611,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/chains-on-velvet/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "doors": "23:00",
    "age": "18+",
@@ -1297,6 +1619,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/china-crisis/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1305,6 +1628,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/chvrches/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1313,6 +1637,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/cody-pennington-country-show/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1321,6 +1646,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/dan-croll/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1329,6 +1655,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/dave-finnegans-the-commitments/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:00",
@@ -1337,6 +1664,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/day-fever/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "15:00",
    "doors": "15:00",
    "end": "20:00",
@@ -1345,6 +1673,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/dick-dom-dnb-rave/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "22:30",
    "doors": "22:30",
    "age": "18+",
@@ -1355,6 +1684,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/dinosaur-pile-up/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1363,6 +1693,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/discharge/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1371,6 +1702,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/downloaded/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1379,6 +1711,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/dr-feelgood/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1391,6 +1724,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/drum-bass-classics/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "doors": "23:00",
    "age": "18+",
@@ -1398,6 +1732,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/esprit-dair/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1406,6 +1741,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/extc/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1414,6 +1750,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/faintest-idea/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1426,6 +1763,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/family-stereo/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1434,6 +1772,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/fat-dog/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1442,6 +1781,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/florence-black/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1450,6 +1790,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/g-a-g/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "doors": "23:00",
    "age": "18+",
@@ -1460,6 +1801,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/gabrielle/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1471,6 +1813,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/happydaze/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1482,6 +1825,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/henge/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1490,6 +1834,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/indiepalooza-festival/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "17:00",
    "doors": "17:00",
    "end": "23:00",
@@ -1498,6 +1843,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/ingested/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:00",
    "doors": "18:00",
    "end": "22:00",
@@ -1511,6 +1857,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/jamie-lenman/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1519,6 +1866,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/jonah-matranga-onelinedrawing/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1527,6 +1875,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/jonny-morgan-the-moral-support/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1535,6 +1884,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/just-radiohead/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1543,6 +1893,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/keo/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1551,6 +1902,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/laurence-jones/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1562,6 +1914,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/london-calling-play-the-clash/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1570,6 +1923,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/macbusted/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:00",
@@ -1578,6 +1932,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/mad-caddies/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1586,6 +1941,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/mallory-knox/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1594,6 +1950,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/martin-stephenson-the-daintees/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1602,6 +1959,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/matt-embree-vinnie-caruana/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1610,6 +1968,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/meltdown-presents-jingle-bell-rock/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "doors": "23:00",
    "age": "18+",
@@ -1617,6 +1976,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/moments-of-pleasure-the-music-of-kate-bush/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:00",
@@ -1625,6 +1985,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/moving-pictures-a-tribute-to-rush/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1633,6 +1994,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/nic-cage-against-the-machine/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:00",
@@ -1641,6 +2003,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/nirvana-tribute/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1649,6 +2012,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/noasis/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1657,6 +2021,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/nontaines-d-c/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1665,6 +2030,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/nouvelle-vague/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1673,6 +2039,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/nubiyan-twist/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1681,6 +2048,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/opus-kink/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1689,6 +2057,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/parker-barrow/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1707,6 +2076,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/pleasureinc/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "23:00",
@@ -1715,6 +2085,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/professor-green/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1723,6 +2094,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/propaganda-2/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "23:00",
    "doors": "23:00",
    "age": "18+",
@@ -1730,6 +2102,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/r-e-m-by-stipe-the-definitive-tribute/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1738,6 +2111,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/scarlet-rebels/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1746,6 +2120,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/sevendust/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1757,6 +2132,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/sham-69-50th-anniversary/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1769,6 +2145,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/simulation-muse-sucker-love/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1777,6 +2154,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/skinny-living/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1785,6 +2163,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/slap-rash/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1793,6 +2172,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/sleep-broken/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1801,6 +2181,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/sleeper/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1812,6 +2193,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/slomosa/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1820,6 +2202,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/sofy/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1831,6 +2214,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/south-arcade/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1842,6 +2226,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/split-dogs/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1853,6 +2238,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/sumo-cyco/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1864,6 +2250,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-900/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1872,6 +2259,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-9075-the-worlds-first-tribute-to-the-1975/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "23:00",
@@ -1880,6 +2268,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-alehouse-sessions/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1888,6 +2277,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-blockheads/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1896,6 +2286,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-blow-monkeys/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1904,6 +2295,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-bon-jovi-experience-motley-crue-tribute-motley-crude/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:00",
    "doors": "18:00",
    "end": "22:00",
@@ -1915,6 +2307,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-boys-are-back-again-east-17/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1926,6 +2319,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-cheap-thrills/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1934,6 +2328,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-devout/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1942,6 +2337,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-doors-alive/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1950,6 +2346,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-entitled-sons/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -1962,6 +2359,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-fell/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -1970,6 +2368,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-fratellis/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1981,6 +2380,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-hunna/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -1993,6 +2393,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-kairos/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -2001,6 +2402,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-karma-effect/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -2020,6 +2422,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-lilacs/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -2039,6 +2442,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-smyths/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -2050,6 +2454,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-snuts/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -2062,6 +2467,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-specials-ltd/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -2070,6 +2476,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-temperance-movement/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -2081,6 +2488,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-view/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -2093,6 +2501,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/the-wedding-present/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -2101,6 +2510,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/uk-subs/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -2114,6 +2524,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/ultimate-coldplay/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:00",
@@ -2122,6 +2533,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/uncle-acid-and-the-deadbeats/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "22:00",
@@ -2133,6 +2545,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/wednesday-13-the-birthday-massacre/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "17:30",
    "doors": "17:30",
    "end": "22:00",
@@ -2144,6 +2557,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/when-waterfront-was-young/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "15:00",
    "doors": "15:00",
    "end": "23:00",
@@ -2152,6 +2566,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/zebrahead/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "doors": "19:30",
    "end": "23:00",
@@ -2164,6 +2579,7 @@
   },
   "https://www.ueaticketbookings.co.uk/event/zz-toppd-the-uks-no-1-tribute-to-zz-top/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -2172,24 +2588,28 @@
   },
   "https://www.voodoodaddysshowroom.co.uk/event/annotations-of-an-autopsy/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "Returning from a lengthy hiatus, Annotations Of An Autopsy is bringing back their brand of disgusting death metal starting with a home town show."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/big-truck/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "Big Truck is the sound of Laurie Vincent stepping into a different light. Known for the raw intensity of SOFT PLAY, here he trades abrasion for atmosphere - crafting songs that move between indie-pop melody, cinematic sweep, and offbeat charm."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/birdwitch-forlorn/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:30",
    "description": "Hailing from Norwich, UK, Birdwitch are a self-described 'Dream Violence' band formed in early 2023. Blending elements of doom, sludge, post-metal and prog (amongst other influences)."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/candy-cane-cabaret/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "end": "22:30",
    "age": "18+",
@@ -2197,30 +2617,35 @@
   },
   "https://www.voodoodaddysshowroom.co.uk/event/castle/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "CASTLE is an American heavy/doom metal band formed in 2009 in San Francisco, California."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/citizen-smith-lassie/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "17:00",
    "end": "21:00",
    "description": "Lassie are Emily Winng (UK) and Camille Dávila (USA), together they bring dark Lynchian psychedelic-folk laced with tribal-punk, filtered through lilting melodies and hard-hitting harmonies."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/dad-manners/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "20:00",
    "end": "22:30",
    "description": "Dad Manners is a tribute to one of the biggest 2Tone bands to come out of the early 1980’s, Bad Manners, which had a number of hits such as \"Nee Nee Na Na Na Na Nu Nu\", \"My Girl Lollipop\", \"Lip Up Fatty\", \"Can Can\", \"Special Brew\", \"Walking in the Sunshine\" and \"That'll Do…"
   },
   "https://www.voodoodaddysshowroom.co.uk/event/dog-unit/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "Dog Unit and their unique sound — instrumental music that leans just as heavily on the tune-first, purist pop qualities of Burt Bacharach or The Strokes as much as it does the groove and ambiance of their post-rock forebears like Tortoise or Stereolab — has been championed from…"
   },
   "https://www.voodoodaddysshowroom.co.uk/event/essa-j-felix-present-the-fifth-foundation-ryan-skillit-amy-nomvula/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "The Fifth Foundation bring their explosive live experience to Norwich, mixing timeless soul, jazz, funk and rap sounds.",
@@ -2230,30 +2655,35 @@
   },
   "https://www.voodoodaddysshowroom.co.uk/event/girl-group/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:30",
    "description": "Consider the girl group. A divine feminine moment in pop culture: whether the riot grrrls of the ’90s, a sleek, honey-voiced R&B trio, or a glam and campy, dancing quintet."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/green-shuck-presents-monkeyfist-triple-b-dub-sweat-and-beers/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "With members hailing from South-East London and Bristol, MonkeyFist are a collective of musical collaborators and friends steadfastly refusing to be pigeonholed by genre labels."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/grooving-in-green-the-glass-house-museum-velocette/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "end": "22:00",
    "description": "OFF BEAT PROMOTIONS presents an evening of gothic rock & post-punk featuring three of the UKs top contempory acts... GROOVING IN GREEN - is a Brighton-based gothic rock band known for blending darkwave atmospheres with post-punk energy and modern alternative influences."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/heavy-wild/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "London lo-fi rockers heavy wild return with blistering new EP ‘paradise forever’ - their first release via new label home Submarine Cat."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/ihs-indie-film-showcase-norwich-2/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "doors": "18:30",
    "end": "21:00",
@@ -2261,126 +2691,147 @@
   },
   "https://www.voodoodaddysshowroom.co.uk/event/magnolia-adams-farewell-show-the-scuttlers-troilus/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "Intricate and innovative seven piece frenetic art-punk band MAGNOLIA formed in Norwich in 2022 and have made a name for themselves in both the Norwich music scene at Voodoo Daddy’s and The Windmill in London."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/mama-oh-no/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "Mama Oh No are a family 4-piece from Norfolk, England. Taking inspiration from Old Soul, Blues, and surf music, the band delivers their own unique blend of swampy guitar, clanging bass, fuzz and spring reverb."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/maquina/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "MAQUINA. are a Lisbon-based trio and one of the most active Portuguese bands on the European circuit. The current lineup features Halison Peres (drums and vocals), João Cavalheiro (guitar) and José Rego (bass)."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/marla-kether/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "Born in London to Congolese parents, Marla Kether is a bassist, producer and DJ."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/martial-arts-goodbye/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "end": "22:00",
    "description": "Gigs can be a semi-religious experience, Martial Arts shows are transcendent affairs, with their dual frontmen Jim Marson and Matty Pearce often down on the floor with the crowd."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/myopia-a-different-kitchen-crying-in-colour/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "From heavy, Muse-inspired electronic sounds, to emotionally-charged rock epics, to a brand new, genre-defying montage of vibrations, Myopia’s music has evolved quickly and constantly over the years as the band now bring a certain style of music making, and obsessive passion that…"
   },
   "https://www.voodoodaddysshowroom.co.uk/event/ormella/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "Ormella heads out on her debut UK tour. The London songwriter makes ethereal indie folk that runs darker than it first lets on: close, narrative songs carried by a deeply emotive voice."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/pentire-2/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "Herefordshire indie four-piece Pentire tell beautifully crafted stories of student life, asmall-town upbringing, and the innocence of youth."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/perrl-presents-chuck-ragan-plus-special-guests/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:30",
    "description": "People discover Chuck Ragan in different ways. Some people know Ragan from the pioneering punk act Hot Water Music he’s co-fronted for the past three decades."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-bureau-de-change-supports-tba/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:00",
    "end": "21:00",
    "description": "“Irresistible punk noise… Simply unavoidable in terms of early star power in the making and real potential” Still Listening Too damn right!"
   },
   "https://www.voodoodaddysshowroom.co.uk/event/pilot-the-dune-master-charger-erronaut/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:30",
    "description": "PILOT THE DUNE Formed in 2020 and hailing from the city of Norwich comes the explosive stoner rock quartet PILOT THE DUNE."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/rowena-wise/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:30",
    "end": "22:00",
    "description": "Rowena Wise is a Naarm/Melbourne-based singer-songwriter whose work balances beauty and mess with rare emotional precision, drawing from 60s folk storytelling while grounded in indie rock, garage pop and alt-folk."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/sandhouse/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "Consisting of Anna Sutherland and Caspar Holloway, Sandhouse carve out a sound that folds together grunge guitars, bleary trip-hop production, warped psychedelia and nocturnal alt-pop."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/the-boom-cabaret/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "The Boom Cabaret lands in Norwich this December with a sensational Drag & Burlesque show guaranteed to blow your mind! This international boutique production stars elite cabaret talent from across the UK and Europe."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/the-high-points-christmas-show/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "23:00",
    "description": "Join The High Points on 21st December for a festive night of live music at Voodoo Daddy’s We’ll be bringing our usual mix of tunes, a few Christmas favourites and some festive twists along the way."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/the-love-buzz/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "Irelands own DIY Scuzz-Pop threesome The Love Buzz are best known for their high energy shows and hypnotic melodies. It’s a sound that blends punk, indie, and power pop."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/the-rattlebacks/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "17:30",
    "end": "21:00",
    "description": "Formed in 2021 and hailing from Brighton, England, the unrelenting quintet are stuffed to the gills with passion, belief, and seemingly boundless ability."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/toria-wooff/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "Following her acclaimed self-titled debut album, championed by the likes of Uncut, Clash, Shindig, Record Collector, BBC Radio 6 and Radio X, Toria Wooff (Tor-ee-a Woo-f) enters a darker and more assured chapter with her second album, Aleister."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/tripl3-b-the-troubl3makers-xmas-party-dj-dubious-dj-tritt-ethobeat/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "This is gonna be anything but a silent night!Following their SOLD OUT launch at Voodoos in January and a summer playing UK festivals including Latitude and Boomtown, Tripl3 B and The Trouble3makers are back on home turf with a big, baubles out Christmas party…bringing more…"
   },
   "https://www.voodoodaddysshowroom.co.uk/event/tummyache/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "Tummyache is a fiercely independent, DIY-driven band rooted in community, care, and creative freedom. Together they approach music as a shared space rather than a product —prioritising connection, inclusivity, and honest expression over commercial goals."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/uea-burlesque-society/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "doors": "19:00",
    "end": "22:30",
@@ -2389,18 +2840,21 @@
   },
   "https://www.voodoodaddysshowroom.co.uk/event/unsigned-live-2/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:00",
    "end": "22:00",
    "description": "UNSIGNED// LIVE is back and bigger than ever. Due to overwhelming popularity from the last event, Music Production Society are back showcasing all our incredibly talented members."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/vic-allen/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "18:00",
    "end": "21:00",
    "description": "Launching her highly-anticipated second album, which was fan-funded in just 6 days, Vic Allen takes \"The Bright Side\" on the road this April."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/wonk-unit-project-mork-gourds/": {
    "checked": "2026-11-25",
+   "v": 2,
    "time": "19:30",
    "end": "22:00",
    "description": "Ideal Surreal are pleased to present the worlds shortest retirement, feat; Wonk UnitProject MorkGourds We at Ideal Towers announced our retirement on Monday 6th July....",
