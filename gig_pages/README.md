@@ -1,50 +1,70 @@
-# Gig pages (gigs.norwichgigs.com)
+# The Norwich Gigs website (GitHub Pages)
 
-One page per gig, built every day by the workflow and published on GitHub
-Pages. Blogger keeps serving the home page at www.norwichgigs.com.
+The whole site is built every day by the workflow and published on GitHub
+Pages. (The folder is still called `gig_pages` because that's where it
+started.)
 
     scraped_data/norwich_gigs.json  (+ details from event_details.py)
-        -> gig_pages/build_gig_pages.py   (uses style.css + blogger/site_config.json)
-        -> gig_pages/dist/                (not committed; uploaded by the workflow)
-        -> deploy-gig-pages job           (GitHub Pages)
+        -> gig_pages/build_gig_pages.py
+             uses blogger/page_template.html   the home page (search, calendar, gig cards)
+                  gig_pages/style.css          the look (matches the old Blogger theme)
+                  site_pages/                  About Us, Venues, Advertise... (edit these)
+                  blogger/site_config.json     venue names / logos / links, GIG_PAGES settings
+        -> gig_pages/dist/                     (not committed; uploaded by the workflow)
+        -> deploy-gig-pages job                (GitHub Pages)
 
-Each gig page has the poster, date, venue, door / start / end times, age,
-price, support acts, a short excerpt from the venue's write-up (with a link
-back), Get tickets, Add to calendar (.ics), Spotify, more gigs at the same
-venue and on the same night, and MusicEvent structured data for Google.
-Gigs from the last 30 days keep a page marked "already happened" (hidden
-from search engines) so links people shared still work.
+What's in the site:
 
-Addresses look like `/gigs/2026-11-26-parker-barrow-waterfront/` (date, title,
-venue). If a venue renames a gig, its address changes and the old one shows
-the "gig not found" page.
+| Address | What it is |
+|---|---|
+| `/` | Home page: search, Tonight / This weekend / calendar, gig cards |
+| `/gigs/` | Every upcoming gig, by month |
+| `/gigs/2026-11-26-parker-barrow-waterfront/` | One page per gig, plus `gig.ics` for calendars |
+| `/p/aboutus.html` etc. | The pages from `site_pages/p/`, at the same addresses as on Blogger |
+| old post addresses | Forward to the home page (listed in `site_pages/redirects.json`) |
+| `/sitemap.xml`, `/robots.txt`, `/404.html` | For search engines / missing pages |
 
 Build locally: `python3 gig_pages/build_gig_pages.py` (add `--today 2026-11-25`
-to test a date), then open `gig_pages/dist/index.html`.
+to test a date), then serve `gig_pages/dist` (e.g. `python3 -m http.server -d gig_pages/dist`).
 
-## One-off setup
+## Editing pages
 
-1. **Turn on Pages.** Repo -> Settings -> Pages -> Build and deployment ->
-   Source: **GitHub Actions**.
-2. **Run the workflow** (Actions -> Daily Norwich Gigs Scrape -> Run workflow).
-   When it finishes, the `deploy-gig-pages` job shows the address, something
-   like `https://<username>.github.io/<repo>/`. Check a few pages there.
-3. **Point the subdomain at GitHub.** Where norwichgigs.com is registered, add a
-   DNS record: type `CNAME`, name `gigs`, value `<username>.github.io`.
-   This doesn't touch the `www` record, so Blogger carries on as before.
-4. **Add the custom domain.** Settings -> Pages -> Custom domain:
-   `gigs.norwichgigs.com` -> Save. When the DNS check passes, tick
-   **Enforce HTTPS** (can take up to an hour to become available).
-5. **Link the home page to the gig pages.** In `blogger/site_config.json`, set
-   `"link_from_home": true` under `GIG_PAGES`. From the next run, clicking a
-   card on the home page opens its gig page; the ticket button on each card
-   still goes straight to the ticket site.
-6. **Tell Google.** In Search Console, add `https://gigs.norwichgigs.com` as a
-   property and submit `https://gigs.norwichgigs.com/sitemap.xml`.
+- **About Us, Venues, Advertise, List Your Gig, Privacy policy**: edit the files
+  in `site_pages/p/` on GitHub (pencil icon). The first line,
+  `<!-- title: About Us -->`, is the page title. To add a page, add a file the
+  same way; it appears at `/p/<file name>`.
+- **Home page layout / search / calendar**: `blogger/page_template.html`.
+- **Gig page layout, header, menu, sidebar, footer**: `gig_pages/build_gig_pages.py`
+  (the menu links, logo and sidebar text are near the top) and `gig_pages/style.css`.
 
-Settings in `blogger/site_config.json` -> `GIG_PAGES`:
-- `site_url` - the gig pages' address, used for canonical links, the sitemap
-  and the home page links.
-- `home_url` - where "Norwich Gigs" in the top bar goes.
-- `link_from_home` - see step 5.
-- `past_days` - how long a gig's page stays up after the gig.
+## Switching www.norwichgigs.com from Blogger to GitHub
+
+Do this once the site looks right at https://gigs.norwichgigs.com.
+
+1. **Settings in the repo.** In `blogger/site_config.json` under `GIG_PAGES`, set
+   `"site_url": "https://www.norwichgigs.com"`. Commit.
+2. **DNS** (where the domain is registered):
+   - Change the `www` CNAME record from `ghs.google.com` to `<username>.github.io`.
+   - Add four `A` records for the bare domain (`@`, i.e. norwichgigs.com):
+     `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.
+     Remove any other `A` records for `@` (e.g. Blogger's or the registrar's
+     forwarding). GitHub then sends norwichgigs.com on to www.
+3. **GitHub**: Settings -> Pages -> Custom domain: change it to
+   `www.norwichgigs.com` -> Save. Tick **Enforce HTTPS** once it's offered
+   (can take up to an hour).
+4. **Blogger**: Settings -> Publishing -> Custom domain: remove
+   www.norwichgigs.com, so Blogger stops claiming it. Don't delete the blog.
+5. **Run the workflow** (Actions -> Run workflow) and check the site.
+6. **Remove the Blogger steps** from `.github/workflows/scrape.yml`: delete the
+   two steps "Build the home page HTML (events included)" and "Publish the
+   page to Blogger". (Optional, but otherwise they keep updating the old blog
+   and fail once its login expires.)
+7. **Google Search Console**: add/verify `https://www.norwichgigs.com` if it
+   isn't already, and submit `https://www.norwichgigs.com/sitemap.xml`.
+
+**To go back to Blogger** at any point: point the `www` CNAME back to
+`ghs.google.com`, and re-add the custom domain in Blogger's settings. The blog
+is untouched.
+
+Note: after the switch, `gigs.norwichgigs.com` stops working (a GitHub site
+has one address). You can delete its DNS record.

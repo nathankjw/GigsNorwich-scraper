@@ -99,6 +99,23 @@ h1, h2, h3 { font-family: var(--heading); }
     box-shadow: var(--shadow);
 }
 
+/* Home page: the search / calendar / gig cards sit in one outlined card on
+   desktop, and run edge to edge on phones (as on the Blogger theme). */
+.home-card {
+    background: #fff;
+    border: var(--outline);
+    border-radius: 40px;
+    box-shadow: var(--shadow);
+    padding: 14px 14px 24px;
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    .home-card { border: none; box-shadow: none; border-radius: 0; padding: 0; overflow: visible; }
+}
+
+/* Pages copied from Blogger (site_pages/) keep their own styling. */
+.site-page { min-width: 0; }
+
 /* Yellow badge headings, as in the sidebar widgets */
 .badge, .about h2, .related h2 {
     display: inline-block;
@@ -439,3 +456,20 @@ h1, h2, h3 { font-family: var(--heading); }
 @media (max-width: 420px) {
     .btn { flex: 1 1 100%; }
 }
+
+/* ── Guard rails ──
+   Pages copied from Blogger (site_pages/) bring their own CSS, e.g.
+   "a, a:link { color: inherit }" or their old bottom-bar rules. These keep the
+   site's header, menu, sidebar buttons, footer and bottom bar looking right
+   on those pages. */
+.menu-bar a, .menu-bar a:link, .menu-bar a:visited { color: #000 !important; }
+.menu-bar a:hover { color: var(--green-hover) !important; }
+.sidebar .cta, .sidebar .cta:link, .sidebar .cta:visited { color: #fff !important; }
+.site-footer a, .site-footer a:link, .site-footer a:visited { color: var(--green-hover) !important; }
+.crumbs a, .crumbs a:link, .crumbs a:visited { color: #aaa !important; }
+@media (max-width: 880px) {
+    nav.bottom-nav { display: flex !important; }
+    nav.bottom-nav a, nav.bottom-nav a:link, nav.bottom-nav a:visited { color: #fff !important; }
+    nav.bottom-nav a:hover, nav.bottom-nav a:active { color: var(--yellow) !important; }
+}
+

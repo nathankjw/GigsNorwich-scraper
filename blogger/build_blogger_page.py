@@ -245,28 +245,23 @@ def music_event(ev: dict, cfg: dict) -> dict:
     return item
 
 
-def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--today", help="override today's date (YYYY-MM-DD), for testing")
-    args = ap.parse_args()
-    today = (date.fromisoformat(args.today) if args.today
-             else datetime.now(ZoneInfo("Europe/London")).date())
-
-    cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
+def load_events() -> list[dict]:
     events = json.loads(EVENTS_JSON.read_text(encoding="utf-8"))
     events = [e for e in events if re.fullmatch(r"\d{4}-\d{2}-\d{2}", e.get("date", ""))]
     events.sort(key=lambda e: e["date"])
+    return events
+
+
+def build_home(today: date, cfg: dict, events: list[dict], gig_base: str | None = None):
+    """The home page body (search, calendar, gig cards) from page_template.html.
+    gig_base: where gig pages live ("" = this site, "https://..." = elsewhere,
+    None = cards link straight to tickets). Returns (html, meta), or None if
+    there are no events."""
     upcoming = [e for e in events if e["date"] >= today.isoformat()]
     shown = upcoming or events  # same fallback as the page script: all past -> show all
     if not shown:
-        print("No events in JSON - refusing to build an empty page.", file=sys.stderr)
-        return 1
-
-    # Gig pages (gig_pages/build_gig_pages.py): when switched on in
-    # site_config.json, clicking a card opens the gig's own page.
-    gp = cfg.get("GIG_PAGES", {})
-    gig_base = gp.get("site_url", "").rstrip("/") if gp.get("link_from_home") else ""
-    slugs = assign_gig_slugs(events) if gig_base else {}
+        return None
+    slugs = assign_gig_slugs(events) if gig_base is not None else {}
 
     rows, last = [], None
     for ev in shown:
@@ -274,7 +269,7 @@ def main() -> int:
         if (y, m) != last:
             rows.append(divider_html(y, m, today, cfg))
             last = (y, m)
-        gig_page = f"{gig_base}/gigs/{slugs[gig_key(ev)]}/" if gig_base else ""
+        gig_page = f"{gig_base}/gigs/{slugs[gig_key(ev)]}/" if gig_base is not None else ""
         rows.append(row_html(ev, cfg, gig_page))
 
     # Structured data: next 60 days only (keeps the page small), and skip
@@ -306,11 +301,32 @@ def main() -> int:
 
     meta = {"title": f"Norwich Gigs {label} - Live Music Events & Concerts Guide",
             "description": DESCRIPTION, "canonical": SITE,
-            "events": len(shown), "jsonld_events": len(ld_events), "built_for": today.isoformat()}
+            "events": len(shown), "venues": len(venues), "jsonld_events": len(ld_events),
+            "built_for": today.isoformat()}
+    return out, meta
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--today", help="override today's date (YYYY-MM-DD), for testing")
+    args = ap.parse_args()
+    today = (date.fromisoformat(args.today) if args.today
+             else datetime.now(ZoneInfo("Europe/London")).date())
+
+    cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
+    # Gig pages (gig_pages/build_gig_pages.py): when switched on in
+    # site_config.json, clicking a card opens the gig's own page.
+    gp = cfg.get("GIG_PAGES", {})
+    gig_base = gp.get("site_url", "").rstrip("/") if gp.get("link_from_home") else None
+    built = build_home(today, cfg, load_events(), gig_base)
+    if not built:
+        print("No events in JSON - refusing to build an empty page.", file=sys.stderr)
+        return 1
+    out, meta = built
     DIST.mkdir(exist_ok=True)
     (DIST / "page_body.html").write_text(out, encoding="utf-8")
     (DIST / "page_meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Built {len(shown)} events across {len(venues)} venues "
+    print(f"Built {meta['events']} events across {meta['venues']} venues "
           f"({len(out) / 1024:.0f} KB) -> {DIST / 'page_body.html'}")
     return 0
 

@@ -1,0 +1,556 @@
+<!-- title: About Us -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#141414;
+    --paper:#ffffff;
+    --cream:#fbf8f0;
+    --green:#256e24;
+    --green-dark:#0f4d2b;
+    --green-pale:#eaf3e4;
+    --lime:#d3de3d;
+    --yellow:#fef403;
+    --line: rgba(20,20,20,0.14);
+    --radius-pill: 999px;
+    --font: 'Plus Jakarta Sans', sans-serif;
+    --font-display: 'Archivo Black', sans-serif;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--ink);
+    font-family:var(--font);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
+  }
+
+  a{color:inherit;}
+  img{max-width:100%; display:block;}
+
+  .wrap{
+    max-width:1080px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+
+  /* ---------- HERO / COLLAGE HEADLINE ---------- */
+  .hero{
+    padding:0 0 20px;
+    text-align:center;
+  }
+  .collage{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    margin:0 0 20px;
+    padding-top:18px;
+  }
+  .collage-main, .collage-sub{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  .collage-main{
+    gap:6px 8px;
+  }
+  .collage-sub{
+    gap:5px 6px;
+  }
+  .collage span{
+    font-family:var(--font-display);
+    font-weight:400;
+    font-size:clamp(2.6rem, 8vw, 5rem);
+    line-height:0.9;
+    padding:2px 12px;
+    display:inline-block;
+    transform:rotate(var(--r,0deg));
+  }
+  .collage span.c-yellow{ background:var(--yellow); color:var(--ink); }
+  .collage span.c-ink{ background:var(--ink); color:var(--yellow); }
+  .collage span.c-green{ background:var(--green); color:var(--paper); }
+  .collage span.d-green{
+    background:var(--green);
+    color:var(--paper);
+    font-size:clamp(1.1rem, 3vw, 1.7rem);
+    padding:2px 10px;
+  }
+  .collage span.d-yellow{
+    background:var(--yellow);
+    color:var(--ink);
+    font-size:clamp(1.1rem, 3vw, 1.7rem);
+    padding:2px 10px;
+  }
+  .collage-main span:nth-child(1){ --r:-3deg; }
+  .collage-main span:nth-child(2){ --r:2deg; }
+  .collage-sub span:nth-child(1){ --r:-1.5deg; }
+  .collage-sub span:nth-child(2){ --r:2.5deg; }
+  .collage-sub span:nth-child(3){ --r:-2deg; }
+
+  .mission{
+    max-width:600px;
+    margin:0 auto;
+    font-size:1.15rem;
+    font-weight:500;
+  }
+
+  /* ---------- STORY ---------- */
+  .story{
+    background:var(--paper);
+    border:2px solid var(--ink);
+    border-radius:28px;
+    padding:44px clamp(20px,5vw,56px);
+    margin:8px auto 56px;
+    max-width:1080px;
+  }
+  .story-head{
+    display:flex;
+    align-items:baseline;
+    gap:16px;
+    margin-bottom:22px;
+  }
+  .story-head .tag{
+    background:var(--green);
+    color:var(--paper);
+    font-weight:700;
+    font-size:0.8rem;
+    padding:6px 16px;
+    border-radius:var(--radius-pill);
+    white-space:nowrap;
+  }
+  .story-head h2{
+    font-family:var(--font-display);
+    font-weight:400;
+    font-size:1.6rem;
+    margin:0;
+  }
+  .story p{
+    max-width:68ch;
+    margin:0 0 18px;
+    font-size:1rem;
+  }
+  .story p:last-child{margin-bottom:0;}
+
+  .no-fee-badge{
+    margin-top:28px;
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    border:2px solid var(--ink);
+    border-radius:var(--radius-pill);
+    padding:10px 20px;
+    font-weight:700;
+    font-size:0.9rem;
+    background:var(--yellow);
+  }
+  .no-fee-badge svg{width:18px; height:18px; flex-shrink:0;}
+
+  /* ---------- TEAM SECTION ---------- */
+  .team-section{
+    padding-bottom:70px;
+  }
+  .team-heading{
+    text-align:center;
+    margin-bottom:8px;
+  }
+  .team-heading h2{
+    font-family:var(--font-display);
+    font-weight:400;
+    font-size:clamp(1.8rem, 4vw, 2.4rem);
+    margin:0 0 8px;
+  }
+  .team-heading p{
+    margin:0 auto 44px;
+    max-width:520px;
+    text-align:center;
+    color:#444;
+  }
+
+  .team-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:36px;
+  }
+  @media (max-width:760px){
+    .team-grid{grid-template-columns:1fr;}
+  }
+
+  .fact-file{
+    background:var(--paper);
+    border:2px solid var(--ink);
+    border-radius:20px;
+    position:relative;
+    padding:0 0 26px;
+    transform:rotate(var(--tilt, 0deg));
+  }
+  .fact-file:nth-child(1){ --tilt:-1deg; }
+  .fact-file:nth-child(2){ --tilt:1deg; }
+
+  .fact-file .pin{
+    position:absolute;
+    top:-14px;
+    left:50%;
+    transform:translateX(-50%);
+    width:30px;
+    height:30px;
+    background:var(--yellow);
+    border:2px solid var(--ink);
+    border-radius:50%;
+    z-index:3;
+  }
+
+  .fact-file-top{
+    display:flex;
+    gap:0;
+    border-bottom:2px solid var(--ink);
+    border-radius:18px 18px 0 0;
+    overflow:hidden;
+  }
+
+  .photo-slot{
+    width:120px;
+    min-width:120px;
+    aspect-ratio:1/1;
+    border-right:2px solid var(--ink);
+    overflow:hidden;
+  }
+  .photo-slot img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+  }
+
+  .id-block{
+    flex:1;
+    padding:16px 18px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:6px;
+  }
+  .id-block .name{
+    font-family:var(--font-display);
+    font-weight:400;
+    font-size:1.5rem;
+    margin:0;
+  }
+  .id-block .role-badge{
+    display:inline-block;
+    align-self:flex-start;
+    background:var(--green);
+    color:var(--paper);
+    font-size:0.72rem;
+    font-weight:700;
+    padding:4px 12px;
+    border-radius:var(--radius-pill);
+  }
+
+  .fact-body{
+    padding:20px 22px 0;
+  }
+  .fact-row{
+    display:flex;
+    gap:12px;
+    padding:11px 0;
+    border-bottom:1px dashed var(--line);
+    align-items:flex-start;
+  }
+  .fact-row:last-of-type{border-bottom:none;}
+  .fact-row .icon{
+    width:20px;
+    height:20px;
+    flex-shrink:0;
+    margin-top:2px;
+    color:var(--green-dark);
+  }
+  .fact-row .label{
+    font-size:0.68rem;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:#8a8a7a;
+    display:block;
+    margin-bottom:2px;
+  }
+  .fact-row .value{
+    font-size:0.94rem;
+  }
+  .fact-row ul{
+    margin:0;
+    padding-left:0;
+    list-style:none;
+    font-size:0.94rem;
+  }
+  .fact-row ul li{
+    margin-bottom:2px;
+  }
+
+  .favourites{
+    margin:16px 22px 0;
+    background:var(--green-pale);
+    border:2px solid var(--ink);
+    border-radius:14px;
+    padding:14px 18px 6px;
+  }
+  .favourites h4{
+    margin:0 0 10px;
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    font-weight:700;
+    color:var(--green-dark);
+  }
+  .fav-row{
+    display:flex;
+    gap:10px;
+    padding-bottom:10px;
+    font-size:0.9rem;
+  }
+  .fav-row .star{
+    color:var(--green-dark);
+    flex-shrink:0;
+  }
+  .fav-row .fav-label{
+    font-weight:700;
+    margin-right:4px;
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer{
+    background:var(--ink);
+    color:var(--cream);
+    text-align:center;
+    padding:34px 24px;
+    font-size:0.9rem;
+  }
+  footer strong{color:var(--lime);}
+  
+  /* ===== Mobile bottom nav ===== */
+.bottom-nav{
+  display:none;
+}
+
+@media (max-width:480px){
+  .bottom-nav{
+    display:flex;
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:1000;
+    background:var(--ink);
+    border-top:2px solid var(--green);
+    padding-bottom:env(safe-area-inset-bottom, 0px);
+    box-shadow:0 -4px 14px rgba(0,0,0,0.25);
+  }
+
+  .bottom-nav a{
+    flex:1 1 0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:4px;
+    padding:10px 4px;
+    color:#fff !important;
+    text-decoration:none;
+    font-family:var(--font);
+    font-size:11px;
+    font-weight:600;
+    -webkit-tap-highlight-color:transparent;
+  }
+
+  .bottom-nav a i{
+    font-size:20px;
+    transition:transform 0.2s ease;
+  }
+
+  .bottom-nav a:hover,
+  .bottom-nav a:active,
+  .bottom-nav a.active{
+    color:var(--yellow) !important;
+  }
+
+  .bottom-nav a:hover i,
+  .bottom-nav a:active i{
+    transform:translateY(-2px);
+  }
+
+  /* Stops the bar covering the bottom of the page */
+  body{
+    padding-bottom:calc(70px + env(safe-area-inset-bottom, 0px));
+  }
+}
+  
+</style>
+
+
+
+<header class="hero wrap">
+  <div class="collage">
+    <div class="collage-main">
+      <span class="c-yellow">ABOUT</span><span class="c-ink">US:</span>
+    </div>
+    <div class="collage-sub">
+      <span class="d-green">GRASSROOTS.</span><span class="d-yellow">CURRENT.</span><span class="d-green">LOUD!</span>
+    </div>
+  </div>
+  <p class="mission">Norwich Gig List is a social enterprise designed to highlight the fantastic musical talent across the fine city. If you're looking for a laid back acoustic set in a pub or an international pop star on tour, chances are you'll find it here!</p>
+</header>
+
+<section class="team-section wrap">
+  <div class="team-heading">
+    <h2>Meet the team</h2>
+    <p>Two Norwich music lovers who'd rather you never miss a gig ever again.</p>
+  </div>
+
+  <div class="team-grid">
+
+    <!-- NATHAN -->
+    <article class="fact-file">
+      <div class="pin"></div>
+      <div class="fact-file-top">
+        <div class="photo-slot">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj50-D7KcvkWMvOC1BK3FxYGLm2zvP2y_paEv2CPE4T0Pu8FL3a7sdIupY4JD2X7oiFtqNvm-JDgr-AeJGaPHLYyd7uuyl-Y5h5dViEupdGY7IpCpV_XwOZ7kmIDjszbWRjDvaX1vdrKEEPtnY1_gZdk_MuVAdgVj3bK1YbByVJgPkoSYiYv49WKdlB3kQ/s320/NW.webp" alt="Nathan">
+        </div>
+        <div class="id-block">
+          <p class="name">Nathan</p>
+          <span class="role-badge">Creator</span>
+        </div>
+      </div>
+
+      <div class="fact-body">
+        <div class="fact-row">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M8 12a4 4 0 1 1 8 0c0 2-2 3-2 5"/><path d="M12 20h.01"/></svg>
+          <div>
+            <span class="label">What he does</span>
+            <span class="value">Campaigner and event planner</span>
+          </div>
+        </div>
+        <div class="fact-row">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12l18-7-7 18-3-8-8-3z"/></svg>
+          <div>
+            <span class="label">Track record</span>
+            <ul>
+              <li>Big Free Concert @ UEA</li>
+              <li>BHM Live @ Waterfront</li>
+              <li>UEA 60th Anniversary Concert</li>
+            </ul>
+          </div>
+        </div>
+        <div class="fact-row">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v-1M16 4v-1"/></svg>
+          <div>
+            <span class="label">Day job</span>
+            <span class="value">Youth Adviser, and Co-Director of FLOCK @ Norfolk and Norwich Festival</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="favourites">
+        <h4>Favourites</h4>
+        <div class="fav-row">
+          <span class="star">★</span>
+          <div><span class="fav-label">Musicians:</span>Jamiroquai, Nature TV, Disclosure</div>
+        </div>
+        <div class="fav-row">
+          <span class="star">★</span>
+          <div><span class="fav-label">Local acts:</span>Pleasure Inc, Youth Killed It, Oscar Jerome</div>
+        </div>
+        <div class="fav-row">
+          <span class="star">★</span>
+          <div><span class="fav-label">Norwich venue:</span>Waterfront - so much history (especially in the fight to set it up), and always surprised by how varied the lineup is.</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- TRISH -->
+    <article class="fact-file">
+      <div class="pin"></div>
+      <div class="fact-file-top">
+        <div class="photo-slot">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcGdC2ZCX8ZHBzLsdwDdpVVcanHLojdjKrDef5GLkVI2RIgSYMWoXfU1I76r1AMO_7wsdYXKavtrTNTdnKXy28zZPchO_9lLg4Dc-HOv6tf0lepKNZCkAUuzQOnmAZODB2FOCPlf9R9d239w9Nvks-3CBSh-m1EOnfw3YBIDKt4ZCivUvOvntOgZbMK9U/s320/TD.webp" alt="Trish">
+        </div>
+        <div class="id-block">
+          <p class="name">Trish</p>
+          <span class="role-badge">Venue &amp; Artist Outreach Lead</span>
+        </div>
+      </div>
+
+      <div class="fact-body">
+        <div class="fact-row">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M8 12a4 4 0 1 1 8 0c0 2-2 3-2 5"/><path d="M12 20h.01"/></svg>
+          <div>
+            <span class="label">What she does</span>
+            <span class="value">DJ and event co-ordinator</span>
+          </div>
+        </div>
+        <div class="fact-row">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12l18-7-7 18-3-8-8-3z"/></svg>
+          <div>
+            <span class="label">Track record</span>
+            <ul>
+              <li>Planned the NR:UG-Norwich Underground event series</li>
+              <li>Better known as the DJ Cyber T</li>
+            </ul>
+          </div>
+        </div>
+        <div class="fact-row">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v-1M16 4v-1"/></svg>
+          <div>
+            <span class="label">Day job</span>
+            <span class="value">Works in event marketing in the community</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="favourites">
+        <h4>Favourites</h4>
+        <div class="fav-row">
+          <span class="star">★</span>
+          <div><span class="fav-label">Musicians:</span>Bladee, The Death Set (likes them so much she drove to Austria to see them), Tiny Little Houses</div>
+        </div>
+        <div class="fav-row">
+          <span class="star">★</span>
+          <div><span class="fav-label">Local acts:</span>Webbo, Ash C, Spineless</div>
+        </div>
+        <div class="fav-row">
+          <span class="star">★</span>
+          <div><span class="fav-label">Norwich venue:</span>Gonzos - best sound system IMO! Intimate atmosphere, face to face with big names.</div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+<section class="wrap">
+  <div class="story">
+    <div class="story-head">
+    
+      <h2>How it started</h2>
+    </div>
+    
+    <p>The Norwich Gig List started in 2025 as a small personal project - there were so many great events happening in the city, but unless you checked every venue regularly you were bound to miss some! We started with a DIY spreadsheet that logged the biggest venues and slowly expanded, eventually publishing the list in full on our website. Now, when you want to find out what is going on in Norwich, it's as easy as possible for you to know!</p>
+    <p>We are all about the grassroots - every event and venue is weighted and promoted the same! We're also keen to highlight other Norwich creatives, and host a weekly guest photographer for the cover of our Instagram post.</p>
+   
+  
+    <a  style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="700" data-original-height="1800" data-original-width="7200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGk3ECU0TTuQmiffJcZABhyphenhyphenzOWy6DLFYEZZJzRZOBYux3lcDbiqFx60mUj4pCmYpGOmgrA4Ara_t2KkLPPHNU6KcU4mNyYfA2XIojCiB31d7Lbk6v8XkJMqXTY_XVrYpHCyCIjdElAbo9cOum2w0prTP7uN4MnwlOy8Ox63Y36XmFxON0b8mwG24WVyHQ/s600/image1788568290"/></a>
+    
+    
+    <p>Unlike other national services that conglomerate events, there is no fee for your gig to be listed here. We understand how difficult it is for grassroots venues and independent artists to get the attention they deserve - and we're not in the business of making that any more expensive! Our platform is solely supported by advertisers who want to support Norwich's creative scene. We also link directly to the venue websites, instead of acting as a third party booking site. More traffic to the venues' sites means more exposure for them and the fantastic events that they programme!</p>
+
+   
+  </div>
+</section>

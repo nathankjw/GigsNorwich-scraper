@@ -35,10 +35,11 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT / "blogger"))
 from build_blogger_page import (  # noqa: E402  (shared with the home page build)
-    MONTHS, assign_gig_slugs, clean_name, gig_key, offer, ordinal, ticket_url,
+    MONTHS, assign_gig_slugs, build_home, clean_name, gig_key, offer, ordinal, ticket_url,
 )
 
 EVENTS_JSON = ROOT / "scraped_data" / "norwich_gigs.json"
+SITE_PAGES = ROOT / "site_pages"      # the site's other pages (About Us, Venues...), edit these
 CONFIG = ROOT / "blogger" / "site_config.json"
 CSS = HERE / "style.css"
 DIST = HERE / "dist"
@@ -295,9 +296,13 @@ def music_event_ld(ev: dict, cfg: dict, page_url: str, tickets: str) -> dict:
 
 # ── HTML ──────────────────────────────────────────────────────────────────────
 
-def page_shell(*, title: str, description: str, canonical: str, css: str, body: str,
+def page_shell(*, title: str, description: str, canonical: str, body: str,
                og_image: str = "", extra_head: str = "", noindex: bool = False,
-               home_url: str, index_href: str) -> str:
+               home_url: str = "/", index_href: str = "/gigs/", crumbs: bool = True,
+               analytics: bool = True, bottom_nav: bool = True, css: str = "/assets/style.css") -> str:
+    """Every page of the site: logo header, menu bar, main column + sidebar,
+    footer and (on phones) the bottom bar. The home page turns off the parts its
+    own template already has (analytics tag, bottom bar)."""
     og_img = (f'<meta property="og:image" content="{esc(og_image)}">\n'
               f'<meta name="twitter:card" content="summary_large_image">') if og_image else \
         '<meta name="twitter:card" content="summary">'
@@ -319,13 +324,13 @@ def page_shell(*, title: str, description: str, canonical: str, css: str, body: 
 {HEAD_LINKS}
 <link rel="stylesheet" href="{esc(css)}">
 {extra_head}
-{GA}
+{GA if analytics else ""}
 </head>
 <body>
 {header_html(home_url)}
 <div class="layout">
 <div class="main-col">
-<p class="crumbs"><a href="{esc(home_url)}">Home</a> <i class="fas fa-chevron-right"></i> <a href="{esc(index_href)}">All gigs</a></p>
+{crumbs_html(home_url, index_href) if crumbs else ""}
 {body}
 </div>
 {sidebar_html(home_url)}
@@ -337,10 +342,15 @@ def page_shell(*, title: str, description: str, canonical: str, css: str, body: 
   <a href="https://instagram.com/gigsnorwich" rel="noopener">Instagram</a> ·
   <a href="mailto:norwichgigs@gmail.com">norwichgigs@gmail.com</a></p>
 </footer>
-{bottom_nav_html(home_url, index_href)}
+{bottom_nav_html(home_url, index_href) if bottom_nav else ""}
 </body>
 </html>
 """
+
+
+def crumbs_html(home_url: str, index_href: str) -> str:
+    return (f'<p class="crumbs"><a href="{esc(home_url)}">Home</a> <i class="fas fa-chevron-right"></i> '
+            f'<a href="{esc(index_href)}">All gigs</a></p>')
 
 
 def mini_card(ev: dict, cfg: dict, href: str) -> str:
@@ -410,12 +420,12 @@ def gig_page(ev: dict, cfg: dict, *, slug: str, site_url: str, home_url: str, to
     support_html = (f'<p class="support">with {esc(", ".join(support[:-1]) + " and " + support[-1] if len(support) > 1 else support[0])}</p>'
                     if support else "")
     past_banner = ('<p class="past-banner">This gig has already happened. '
-                   '<a href="../../">See what\'s coming up</a></p>') if is_past else ""
+                   '<a href="/gigs/">See what\'s coming up</a></p>') if is_past else ""
 
     def related(title, items):
         if not items:
             return ""
-        cards = "".join(mini_card(e, cfg, f"../{slug_of(e)}/") for e in items)
+        cards = "".join(mini_card(e, cfg, f"/gigs/{slug_of(e)}/") for e in items)
         return f'<section class="related"><h2>{esc(title)}</h2><div class="mini-grid">{cards}</div></section>'
 
     body = f"""<main class="gig">
@@ -472,9 +482,9 @@ document.querySelectorAll('[data-ga]').forEach(function (a) {{
     ld = json.dumps(music_event_ld(ev, cfg, page_url, tickets), ensure_ascii=False,
                     separators=(",", ":")).replace("</", "<\\/")
     page = page_shell(title=title, description=description[:300], canonical=page_url,
-                      css="../../assets/style.css", body=body, og_image=src or "",
+                      body=body, og_image=src or "",
                       extra_head=f'<script type="application/ld+json">{ld}</script>',
-                      noindex=is_past, home_url=home_url, index_href="../../")
+                      noindex=is_past, home_url=home_url)
     return page, build_ics(ev, cfg, page_url, tickets)
 
 
@@ -489,18 +499,77 @@ def index_page(upcoming: list, cfg: dict, *, site_url: str, home_url: str, slug_
     sections = []
     for label, evs in groups:
         rows = "".join(
-            f'<li><a href="gigs/{esc(slug_of(e))}/"><span class="li-date">{esc(short_date(parse_date(e["date"])))}</span>'
+            f'<li><a href="/gigs/{esc(slug_of(e))}/"><span class="li-date">{esc(short_date(parse_date(e["date"])))}</span>'
             f'<span class="li-name">{esc(clean_name(e.get("event_name", ""))[0])}</span>'
             f'<span class="li-venue">{esc(e.get("venue", ""))}</span></a></li>' for e in evs)
         sections.append(f'<section class="month"><h2>{esc(label)}</h2><ul class="gig-list">{rows}</ul></section>')
     body = (f'<main class="listing"><h1>Upcoming gigs in Norwich</h1>'
             f'<p class="lede">{len(upcoming)} gigs across the city. For search, the calendar and '
-            f'"what\'s on tonight", use the <a href="{esc(home_url)}">main Norwich Gigs page</a>.</p>'
+            f'"what\'s on tonight", use the <a href="{esc(home_url)}">home page</a>.</p>'
             f'{"".join(sections)}</main>')
     return page_shell(title="Upcoming gigs in Norwich | Norwich Gigs",
                       description="Every upcoming live music gig in Norwich, with times, prices and tickets.",
-                      canonical=f"{site_url}/", css="assets/style.css", body=body,
-                      home_url=home_url, index_href="./")
+                      canonical=f"{site_url}/gigs/", body=body, home_url=home_url)
+
+
+def home_page(cfg: dict, events: list, today: date, *, site_url: str, home_url: str) -> str | None:
+    """The home page: search, calendar and gig cards from blogger/page_template.html
+    (the same template the Blogger page used), inside the site's header and
+    sidebar. Cards open the gig's own page here."""
+    built = build_home(today, cfg, events, gig_base="")
+    if not built:
+        return None
+    body, meta = built
+    return page_shell(title=meta["title"], description=meta["description"], canonical=f"{site_url}/",
+                      body=f'<div class="home-card">{body}</div>', og_image=LOGO,
+                      home_url=home_url, crumbs=False, analytics=False, bottom_nav=False)
+
+
+def site_pages(home_url: str, site_url: str) -> list[tuple[str, str]]:
+    """Pages kept in site_pages/ (copied from Blogger by import_blogger_backup.py,
+    then edited by hand), each put inside the site's header, menu and sidebar.
+    Returns [(address, html)]. A file starts with <!-- title: Page title -->."""
+    out = []
+    for f in sorted(SITE_PAGES.glob("**/*.html")):
+        rel = "/" + f.relative_to(SITE_PAGES).as_posix()
+        raw = f.read_text(encoding="utf-8")
+        m = re.match(r"\s*<!--\s*title:\s*(.*?)\s*-->", raw)
+        title = m.group(1) if m else f.stem.replace("-", " ").title()
+        body = raw[m.end():] if m else raw
+        d = re.match(r"\s*<!--\s*description:\s*(.*?)\s*-->", body)
+        description = d.group(1) if d else f"{title} - Norwich Gigs, live music in Norwich."
+        body = body[d.end():] if d else body
+        out.append((rel, page_shell(title=f"{title} | Norwich Gigs",
+                                    description=description,
+                                    canonical=f"{site_url}{rel}", body=f'<div class="site-page">{body}</div>',
+                                    home_url=home_url, crumbs=False)))
+    return out
+
+
+def redirect_pages(site_url: str) -> list[tuple[str, str]]:
+    """Old Blogger post addresses (site_pages/redirects.json) forward to their
+    new home, so links people saved or shared still work."""
+    try:
+        redirects = json.loads((SITE_PAGES / "redirects.json").read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        return []
+    out = []
+    for old, new in redirects.items():
+        target = new if new.startswith("http") else f"{site_url}{new}"
+        out.append((old, f"""<!DOCTYPE html><html lang="en-GB"><head><meta charset="utf-8">
+<title>Moved | Norwich Gigs</title><link rel="canonical" href="{esc(target)}">
+<meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url={esc(new)}">
+<script>location.replace({json.dumps(new)});</script></head>
+<body><p>This page has moved: <a href="{esc(new)}">Norwich Gigs</a>.</p></body></html>"""))
+    return out
+
+
+def write_page(address: str, html_text: str) -> None:
+    """/p/aboutus.html -> dist/p/aboutus.html; /gigs/ -> dist/gigs/index.html."""
+    rel = address.lstrip("/")
+    path = DIST / (rel + "index.html" if rel.endswith("/") or not rel else rel)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(html_text, encoding="utf-8")
 
 
 def not_found_page(home_url: str, css_text: str) -> str:
@@ -525,7 +594,7 @@ def main() -> int:
     cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
     gp = cfg.get("GIG_PAGES", {})
     site_url = gp.get("site_url", "https://gigs.norwichgigs.com").rstrip("/")
-    home_url = gp.get("home_url", "https://www.norwichgigs.com/")
+    home_url = "/"   # the whole site is now served from here
     past_days = int(gp.get("past_days", 30))
 
     events = json.loads(EVENTS_JSON.read_text(encoding="utf-8"))
@@ -570,12 +639,21 @@ def main() -> int:
         (out / "index.html").write_text(page, encoding="utf-8")
         (out / "gig.ics").write_text(ics, encoding="utf-8", newline="")
 
-    (DIST / "index.html").write_text(
+    home = home_page(cfg, events, today, site_url=site_url, home_url=home_url)
+    if not home:
+        print("Home page has no gigs - refusing to build.", file=sys.stderr)
+        return 1
+    (DIST / "index.html").write_text(home, encoding="utf-8")
+    (DIST / "gigs" / "index.html").write_text(
         index_page(upcoming, cfg, site_url=site_url, home_url=home_url, slug_of=slug_of), encoding="utf-8")
+    extra_pages = site_pages(home_url, site_url)
+    for address, page in extra_pages + redirect_pages(site_url):
+        write_page(address, page)
     (DIST / "404.html").write_text(not_found_page(home_url, css_text), encoding="utf-8")
     (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {site_url}/sitemap.xml\n",
                                      encoding="utf-8")
-    urls = [f"{site_url}/"] + [f"{site_url}/gigs/{slug_of(e)}/" for e in upcoming]
+    urls = ([f"{site_url}/", f"{site_url}/gigs/"] + [f"{site_url}{a}" for a, _ in extra_pages]
+            + [f"{site_url}/gigs/{slug_of(e)}/" for e in upcoming])
     sitemap = "".join(f"<url><loc>{esc(u)}</loc><lastmod>{today.isoformat()}</lastmod></url>" for u in urls)
     (DIST / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -583,7 +661,7 @@ def main() -> int:
     (DIST / ".nojekyll").write_text("", encoding="utf-8")
 
     with_details = sum(1 for e in upcoming if e.get("time") or e.get("doors") or e.get("description"))
-    print(f"Built {len(shown)} gig page(s) ({len(upcoming)} upcoming, {len(shown) - len(upcoming)} recent past; "
+    print(f"Built the home page, the gig list, {len(extra_pages)} other page(s) and {len(shown)} gig page(s) ({len(upcoming)} upcoming, {len(shown) - len(upcoming)} recent past; "
           f"{with_details} upcoming with extra details) -> {DIST}")
     return 0
 
