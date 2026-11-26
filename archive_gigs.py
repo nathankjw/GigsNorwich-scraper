@@ -20,6 +20,9 @@ scraped_data/gig_archive.json, which is never trimmed:
   * from_sheet: true for gigs that came from Nathan's hand-made Google Sheet
     (Sept 2025 onwards, see import_sheets.py). Gigs only in the sheet have no
     first_seen / last_seen, as the scraper never saw them.
+  * from_instagram: true for gigs read off the weekly "Gig List" Instagram
+    slides, March - September 2025 (the list is kept in
+    scraped_data/sources/instagram_2025.csv). Also no first_seen / last_seen.
 
 Gigs with a date before today are the history; later ones are still upcoming.
 
