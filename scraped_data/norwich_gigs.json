@@ -81,14 +81,6 @@
   },
   {
     "venue": "Dead Wax",
-    "event_name": "(Postponed) Poppy Moore's iPod",
-    "date": "2026-10-22",
-    "url": "https://www.deadwaxnorwich.pub/whats-on/poppy-moores-ipod-2",
-    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791227102781-OSJKCY2KOROCKGDPWWED/Screenshot+2026-10-05+at+20.04.22.png",
-    "price": ""
-  },
-  {
-    "venue": "Dead Wax",
     "event_name": "boiling point",
     "date": "2026-10-23",
     "url": "https://www.deadwaxnorwich.pub/whats-on/t05dsg054ta2k3zzkupbth71o5kr7e",
@@ -248,38 +240,11 @@
     "price": ""
   },
   {
-    "venue": "LCR",
-    "event_name": "The Boys Are Back Again – East 17",
-    "date": "2026-11-25",
-    "url": "https://www.ueaticketbookings.co.uk/event/the-boys-are-back-again-east-17/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/Boys-Are-Back-Again-Norwich-1080x1080-1-500x500.jpg.webp",
-    "price": "£36.40–£112",
-    "time": "18:30",
-    "doors": "18:30",
-    "end": "22:00",
-    "age": "14+",
-    "description": "ACCESSIBILITY AREA FULL. We are also unable to issue any further companion tickets. Apologies for any disappointment caused.",
-    "support": [
-      "Blazin’ Squad"
-    ]
-  },
-  {
     "venue": "Dead Wax",
     "event_name": "Delay the drowning + Niche + godkill",
     "date": "2026-11-25",
     "url": "https://www.deadwaxnorwich.pub/whats-on/delay-the-drowning-niche-godkill",
     "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793041775182-YSD2CJEN2HQCG48KJM1I/DTD+poster+A4+%284%29.png",
-    "price": "",
-    "time": "19:00",
-    "end": "23:00",
-    "description": "Delay the drowning + Niche + godkill Wednesday, November 25, 2026 7:00 PM 11:00 PM Google Calendar ICS"
-  },
-  {
-    "venue": "Brickmakers",
-    "event_name": "Norfolk Blues Society at the Brickmakers",
-    "date": "2026-11-25",
-    "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
-    "image": "",
     "price": ""
   },
   {
@@ -1627,7 +1592,7 @@
     "event_name": "The 9075 – The World’s First Tribute To The 1975",
     "date": "2026-12-18",
     "url": "https://www.ueaticketbookings.co.uk/event/the-9075-the-worlds-first-tribute-to-the-1975/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/The9075-Norwich-Square-500x500.png.webp",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/imresizer-resize-The9075-Square-Norwich-Supports-500x500.jpg.webp",
     "price": "£19.80",
     "time": "19:00",
     "doors": "19:00",
@@ -2872,6 +2837,16 @@
     "description": "Big Truck is the sound of Laurie Vincent stepping into a different light. Known for the raw intensity of SOFT PLAY, here he trades abrasion for atmosphere - crafting songs that move between indie-pop melody, cinematic sweep, and offbeat charm."
   },
   {
+    "venue": "Epic",
+    "event_name": "NSF 2027: Dino Duel",
+    "date": "2027-02-16",
+    "url": "https://epic-tv.com/events/event/nsf-2027-dino-duel",
+    "image": "",
+    "price": "",
+    "time": "10:30",
+    "description": "That’s right, it’s back! One of Norwich Science Festival’s most popular family shows from 2026 makes its return to the city – and it’s not one to miss!"
+  },
+  {
     "venue": "Arts Centre",
     "event_name": "Hayden Thorpe performs the songs of Wild Beasts",
     "date": "2027-02-16",
@@ -3880,7 +3855,7 @@
     "event_name": "Dinosaur Pile-Up",
     "date": "2027-03-31",
     "url": "https://www.ueaticketbookings.co.uk/event/dinosaur-pile-up/",
-    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DPU_UKTour_2027_1x1-500x500.png.webp",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DPU_UKTour_2027_1x1-1-500x500.jpg.webp",
     "price": "£22.20",
     "time": "19:30",
     "doors": "19:30",
@@ -4801,6 +4776,19 @@
     "time": "20:00",
     "doors": "19:30",
     "description": "TRB’s Top 5 début “2-4-6-8 Motorway” became one of the era’s landmark singles and was followed by their “Rising Free” EP featuring Robinson’s LGBT anthem “Sing If You’re Glad To Be Gay”."
+  },
+  {
+    "venue": "Waterfront",
+    "event_name": "96 Bitter Beings feat Deron Miller (CKY)",
+    "date": "2027-09-17",
+    "url": "https://www.ueaticketbookings.co.uk/event/96-bitter-beings-feat-deron-miller-cky/",
+    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/96BB_Digital_SQUARE-500x500.png.webp",
+    "price": "",
+    "time": "19:00",
+    "doors": "19:00",
+    "end": "22:30",
+    "age": "14+",
+    "description": "96 Bitter Beings is an American progressive rock and metal band from Los Angeles, formed in 2016 by vocalist and guitarist Deron Miller…original founder and frontman of West Chester skater rock band CKY Deron Miller, the prolific guitarist, vocalist, and songwriter behind…"
   },
   {
     "venue": "Maddermarket",

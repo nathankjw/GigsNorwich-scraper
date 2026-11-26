@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 23:29",
+ "updated": "2026-11-26 16:20",
  "events": {
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=113401": {
    "checked": "2026-11-25",
@@ -233,6 +233,12 @@
    "time": "19:30",
    "age": "All ages",
    "description": "The Ultimate Festive Live Band Sing-Along MASSAOKE CHRISTMAS returns to Epic Studios and it’s guaranteed to be Christmassiest thing you'll do this year."
+  },
+  "https://epic-tv.com/events/event/nsf-2027-dino-duel": {
+   "checked": "2026-11-26",
+   "v": 2,
+   "time": "10:30",
+   "description": "That’s right, it’s back! One of Norwich Science Festival’s most popular family shows from 2026 makes its return to the city – and it’s not one to miss!"
   },
   "https://epic-tv.com/events/event/oas-is": {
    "checked": "2026-11-25",
@@ -996,13 +1002,6 @@
    "end": "02:00",
    "description": "DEAD WAX 90s nye house party Thursday, December 31, 2026 7:00 PM Friday, January 1, 2027 2:00 AM Google Calendar ICS"
   },
-  "https://www.deadwaxnorwich.pub/whats-on/delay-the-drowning-niche-godkill": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "23:00",
-   "description": "Delay the drowning + Niche + godkill Wednesday, November 25, 2026 7:00 PM 11:00 PM Google Calendar ICS"
-  },
   "https://www.deadwaxnorwich.pub/whats-on/festive-cat-life-drawing-class": {
    "checked": "2026-11-25",
    "v": 2,
@@ -1188,7 +1187,7 @@
    ]
   },
   "https://www.fatsoma.com/e/ifh1l05u/reeshy-all-night-long-tour": {
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "v": 2,
    "time": "23:00",
    "end": "03:00",
@@ -1443,6 +1442,15 @@
    "time": "19:00",
    "end": "22:30",
    "description": "Umarells Umarells, from Manchester, arrange pieces of post-hardcore, shoegaze, Midwest emo, and '00s indie-psych into songs shot through wit"
+  },
+  "https://www.ueaticketbookings.co.uk/event/96-bitter-beings-feat-deron-miller-cky/": {
+   "checked": "2026-11-26",
+   "v": 2,
+   "time": "19:00",
+   "doors": "19:00",
+   "end": "22:30",
+   "age": "14+",
+   "description": "96 Bitter Beings is an American progressive rock and metal band from Los Angeles, formed in 2016 by vocalist and guitarist Deron Miller…original founder and frontman of West Chester skater rock band CKY Deron Miller, the prolific guitarist, vocalist, and songwriter behind…"
   },
   "https://www.ueaticketbookings.co.uk/event/999/": {
    "checked": "2026-11-25",
@@ -2329,18 +2337,6 @@
    "description": "The Bon Jovi Experience are the world’s first and finest tribute to the great Bon Jovi and are the world’s ONLY tribute to have been requested by and to have performed live on stage with Jon Bon Jovi himself they are also the only tribute to have been featured on the official…",
    "support": [
     "on a 1 hour set in support"
-   ]
-  },
-  "https://www.ueaticketbookings.co.uk/event/the-boys-are-back-again-east-17/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "18:30",
-   "doors": "18:30",
-   "end": "22:00",
-   "age": "14+",
-   "description": "ACCESSIBILITY AREA FULL. We are also unable to issue any further companion tickets. Apologies for any disappointment caused.",
-   "support": [
-    "Blazin’ Squad"
    ]
   },
   "https://www.ueaticketbookings.co.uk/event/the-cheap-thrills/": {
