@@ -51,6 +51,8 @@ jobs:
         run: python3 event_details.py
       - name: Convert the CSV to JSON for the blog widget
         run: python3 csv_to_json.py
+      - name: Add today's gigs to the permanent archive
+        run: python3 archive_gigs.py
       - name: Split upcoming gigs into Instagram pages of 11
         run: python3 instagram_pages.py
       - name: Pull latest changes before saving
