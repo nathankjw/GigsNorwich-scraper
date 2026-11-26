@@ -248,25 +248,6 @@
     "price": ""
   },
   {
-    "venue": "Holloway",
-    "event_name": "The Danphes + Decent Wrestlers + Are You Succeed?",
-    "date": "2026-11-26",
-    "url": "https://thehollowaynorwich.com/events",
-    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1791098272999-IMG_3383.jpeg?alt=media&token=442ae0c7-6897-4cbc-a125-58f6ab2bbc66",
-    "price": ""
-  },
-  {
-    "venue": "Epic",
-    "event_name": "The Ogretones",
-    "date": "2026-11-26",
-    "url": "https://epic-tv.com/events/event/the-ogretones",
-    "image": "",
-    "price": "",
-    "time": "19:30",
-    "age": "All ages",
-    "description": "Everybody agrees, the Shrek soundtracks are the best film soundtracks of all time, right? The Ogretones certainly think so!"
-  },
-  {
     "venue": "Waterfront",
     "event_name": "Parker Barrow",
     "date": "2026-11-26",
@@ -281,18 +262,6 @@
     "support": [
       "Wood Burnt Red"
     ]
-  },
-  {
-    "venue": "Voodoos",
-    "event_name": "IHS Indie Film Showcase: Norwich",
-    "date": "2026-11-26",
-    "url": "https://www.voodoodaddysshowroom.co.uk/event/ihs-indie-film-showcase-norwich-2/",
-    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzUvMTYvMi8xNi82NTIvUmFja011bHRpcGFydDIwMjYxMDA1LTY2LTFtYzl6OXcucG5nIl1d?ar=16:9&fit=crop",
-    "price": "£8–£13",
-    "time": "18:30",
-    "doors": "18:30",
-    "end": "21:00",
-    "description": "Join us for another evening of incredible short indie horror films in Norwich! The Independent Horror Society has been dedicated to supporting grassroots horror cinema for over 10 years, and we're so proud to have 2,300+ committed horror fans and filmmakers in our ranks."
   },
   {
     "venue": "Brickmakers",
@@ -1044,7 +1013,7 @@
     "date": "2026-12-05",
     "url": "https://www.voodoodaddysshowroom.co.uk/event/dad-manners/",
     "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzMvMjIvMTEvMjMvNTEvMzIvUmFja011bHRpcGFydDIwMjYwMzIyLTU3LWszeXd2bC5qcGciXV0?ar=16:9&fit=crop",
-    "price": "£15",
+    "price": "",
     "time": "20:00",
     "end": "22:30",
     "description": "Dad Manners is a tribute to one of the biggest 2Tone bands to come out of the early 1980’s, Bad Manners, which had a number of hits such as \"Nee Nee Na Na Na Na Nu Nu\", \"My Girl Lollipop\", \"Lip Up Fatty\", \"Can Can\", \"Special Brew\", \"Walking in the Sunshine\" and \"That'll Do…"
@@ -1104,6 +1073,14 @@
     "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=130001",
     "image": "https://system.spektrix.com/themaddermarkettheatre/files/150da03f-7fca-43a7-b47b-81f3c52cb464.jpeg",
     "price": ""
+  },
+  {
+    "venue": "Holloway",
+    "event_name": "Love From The River + Wicca + Pile Of Fabric Primer",
+    "date": "2026-12-09",
+    "url": "https://thehollowaynorwich.com/events",
+    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1795717402645-IMG_3774.png?alt=media&token=429c2abd-e8ab-42f3-b5ed-99f0fad25e4a",
+    "price": "£5"
   },
   {
     "venue": "Voodoos",
@@ -2759,6 +2736,21 @@
     "price": ""
   },
   {
+    "venue": "Gonzos",
+    "event_name": "Julian Anthony",
+    "date": "2027-02-13",
+    "url": "https://www.fatsoma.com/e/rk2hj4cp/julian-anthony",
+    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzE3LzQzLzE5LzY2MS9SYWNrTXVsdGlwYXJ0MjAyNjExMjQtNjEtMTRkcHowZS5wbmciXV0",
+    "price": "£5–£10",
+    "time": "23:00",
+    "end": "03:00",
+    "age": "18+",
+    "description": "One of the fastest rising stars hailing from The Netherlands finally makes the hop across the North Sea to make his Norwich debut - Julian Anthony!",
+    "support": [
+      "PHREQ"
+    ]
+  },
+  {
     "venue": "Epic",
     "event_name": "Sophie McCartney - Back in the Day Rave",
     "date": "2027-02-13",
@@ -2983,6 +2975,17 @@
     "support": [
       "Mouth Culture"
     ]
+  },
+  {
+    "venue": "Voodoos",
+    "event_name": "The Faith Estate + Ziggarettes, The Speed Of Honey & Her Oscillations",
+    "date": "2027-02-19",
+    "url": "https://www.voodoodaddysshowroom.co.uk/event/the-faith-estate-ziggarettes-the-speed-of-honey-her-oscillations/",
+    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzEyLzEzLzE5LzQzLzU1Ny9SYWNrTXVsdGlwYXJ0MjAyNjExMTItNTctYXFpdnRwLmpwZyJdXQ?ar=16:9&fit=crop",
+    "price": "£7",
+    "time": "18:30",
+    "end": "22:00",
+    "description": "The Faith Estate embark on their biggest tour yet, making the jump to other countries for the first time."
   },
   {
     "venue": "Brickmakers",

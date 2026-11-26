@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 16:20",
+ "updated": "2026-11-26 23:11",
  "events": {
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=113401": {
    "checked": "2026-11-25",
@@ -373,13 +373,6 @@
    "doors": "19:00",
    "age": "16+",
    "description": "Doors 7pm Show start 7:30pm THE MAKINGS OF A MURDERER: FATAL MISTAKE with Donal MacIntyre They planned the murder. They covered their tracks."
-  },
-  "https://epic-tv.com/events/event/the-ogretones": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:30",
-   "age": "All ages",
-   "description": "Everybody agrees, the Shrek soundtracks are the best film soundtracks of all time, right? The Ogretones certainly think so!"
   },
   "https://epic-tv.com/events/event/the-rasmus-support": {
    "checked": "2026-11-25",
@@ -1229,6 +1222,17 @@
    "end": "03:00",
    "age": "18+",
    "description": "A big team of selectors, for the biggest ‘house’ party of the year. We’ve made sure we have a heavy-weight team behind the decks for you: ASH C, no introduction needed, multi genre badman."
+  },
+  "https://www.fatsoma.com/e/rk2hj4cp/julian-anthony": {
+   "checked": "2026-11-26",
+   "v": 2,
+   "time": "23:00",
+   "end": "03:00",
+   "age": "18+",
+   "description": "One of the fastest rising stars hailing from The Netherlands finally makes the hop across the North Sea to make his Norwich debut - Julian Anthony!",
+   "support": [
+    "PHREQ"
+   ]
   },
   "https://www.fatsoma.com/e/rna2glkb/captain-wallop-presents-wallopverse": {
    "checked": "2026-11-25",
@@ -2705,14 +2709,6 @@
    "end": "22:00",
    "description": "London lo-fi rockers heavy wild return with blistering new EP ‘paradise forever’ - their first release via new label home Submarine Cat."
   },
-  "https://www.voodoodaddysshowroom.co.uk/event/ihs-indie-film-showcase-norwich-2/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "18:30",
-   "doors": "18:30",
-   "end": "21:00",
-   "description": "Join us for another evening of incredible short indie horror films in Norwich! The Independent Horror Society has been dedicated to supporting grassroots horror cinema for over 10 years, and we're so proud to have 2,300+ committed horror fans and filmmakers in our ranks."
-  },
   "https://www.voodoodaddysshowroom.co.uk/event/magnolia-adams-farewell-show-the-scuttlers-troilus/": {
    "checked": "2026-11-25",
    "v": 2,
@@ -2810,6 +2806,13 @@
    "time": "19:00",
    "end": "22:00",
    "description": "The Boom Cabaret lands in Norwich this December with a sensational Drag & Burlesque show guaranteed to blow your mind! This international boutique production stars elite cabaret talent from across the UK and Europe."
+  },
+  "https://www.voodoodaddysshowroom.co.uk/event/the-faith-estate-ziggarettes-the-speed-of-honey-her-oscillations/": {
+   "checked": "2026-11-26",
+   "v": 2,
+   "time": "18:30",
+   "end": "22:00",
+   "description": "The Faith Estate embark on their biggest tour yet, making the jump to other countries for the first time."
   },
   "https://www.voodoodaddysshowroom.co.uk/event/the-high-points-christmas-show/": {
    "checked": "2026-11-25",

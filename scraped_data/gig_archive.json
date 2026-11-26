@@ -1,7 +1,7 @@
 {
  "about": "Every gig the Norwich Gigs scraper has seen. Gigs dated before 'updated' have happened. See archive_gigs.py.",
  "updated": "2026-11-26",
- "total_gigs": 1211,
+ "total_gigs": 1214,
  "past_gigs": 779,
  "gigs": [
   {
@@ -14005,6 +14005,22 @@
   },
   {
    "date": "2026-12-09",
+   "venue": "Holloway",
+   "event_name": "Love From The River + Wicca + Pile Of Fabric Primer",
+   "support": "",
+   "time": "",
+   "doors": "",
+   "end": "",
+   "price": "£5",
+   "age": "",
+   "description": "",
+   "url": "https://thehollowaynorwich.com/events",
+   "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1795717402645-IMG_3774.png?alt=media&token=429c2abd-e8ab-42f3-b5ed-99f0fad25e4a",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "date": "2026-12-09",
    "venue": "Voodoos",
    "event_name": "Essa & J-Felix Present: The Fifth Foundation + Ryan Skillit, Amy Nomvula",
    "support": [
@@ -16679,6 +16695,24 @@
   },
   {
    "date": "2027-02-13",
+   "venue": "Gonzos",
+   "event_name": "Julian Anthony",
+   "support": [
+    "PHREQ"
+   ],
+   "time": "23:00",
+   "doors": "",
+   "end": "03:00",
+   "price": "£5–£10",
+   "age": "18+",
+   "description": "One of the fastest rising stars hailing from The Netherlands finally makes the hop across the North Sea to make his Norwich debut - Julian Anthony!",
+   "url": "https://www.fatsoma.com/e/rk2hj4cp/julian-anthony",
+   "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzE3LzQzLzE5LzY2MS9SYWNrTXVsdGlwYXJ0MjAyNjExMjQtNjEtMTRkcHowZS5wbmciXV0",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "date": "2027-02-13",
    "venue": "Maddermarket",
    "event_name": "Women In Rock",
    "support": "",
@@ -16949,6 +16983,22 @@
    "url": "https://www.ueaticketbookings.co.uk/event/south-arcade/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/SA-SQ-500x500.jpg.webp",
    "first_seen": "2026-08-19",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "date": "2027-02-19",
+   "venue": "Voodoos",
+   "event_name": "The Faith Estate + Ziggarettes, The Speed Of Honey & Her Oscillations",
+   "support": "",
+   "time": "18:30",
+   "doors": "",
+   "end": "22:00",
+   "price": "£7",
+   "age": "",
+   "description": "The Faith Estate embark on their biggest tour yet, making the jump to other countries for the first time.",
+   "url": "https://www.voodoodaddysshowroom.co.uk/event/the-faith-estate-ziggarettes-the-speed-of-honey-her-oscillations/",
+   "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzEyLzEzLzE5LzQzLzU1Ny9SYWNrTXVsdGlwYXJ0MjAyNjExMTItNTctYXFpdnRwLmpwZyJdXQ?ar=16:9&fit=crop",
+   "first_seen": "2026-11-26",
    "last_seen": "2026-11-26"
   },
   {
