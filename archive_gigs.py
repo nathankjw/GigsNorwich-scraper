@@ -17,6 +17,10 @@ scraped_data/gig_archive.json, which is never trimmed:
     cancellation or postponement, sometimes a big rename (worth a quick check
     before quoting it)
 
+  * from_sheet: true for gigs that came from Nathan's hand-made Google Sheet
+    (Sept 2025 onwards, see import_sheets.py). Gigs only in the sheet have no
+    first_seen / last_seen, as the scraper never saw them.
+
 Gigs with a date before today are the history; later ones are still upcoming.
 
 Run daily by the workflow, straight after csv_to_json.py:
@@ -67,6 +71,19 @@ def same_gig(a: dict, b: dict, url_counts: dict) -> bool:
     return bool(na and nb and SequenceMatcher(None, na, nb).ratio() >= 0.85)
 
 
+def headliner(name: str) -> tuple[str, str]:
+    """('main act', 'whole name') with any "X presents" prefix removed, e.g.
+    "Round Midnight presents Yetii + Support" -> ('yetii', 'yetiisupport')."""
+    s = re.sub(r"^.*?\bpresents?\b:?\s*", "", (name or "").lower())
+    head = re.split(r"\s(?:\+|with|w/?|&|x|feat\.?|ft\.?|[-–])\s|[,(:]", s)[0]
+    return norm(head), norm(s)
+
+
+def same_headliner(a: dict, b: dict) -> bool:
+    (ha, wa), (hb, wb) = headliner(a.get("event_name")), headliner(b.get("event_name"))
+    return len(ha) >= 4 and len(hb) >= 4 and (wb.startswith(ha) or wa.startswith(hb))
+
+
 class Archive:
     def __init__(self, path: Path = ARCHIVE):
         self.path = path
@@ -101,6 +118,9 @@ class Archive:
                 new += 1
                 continue
             changed = False
+            if "last_seen" not in match:          # a sheet-only gig, now scraped too
+                match["first_seen"] = match["last_seen"] = day
+                changed = True
             later = day >= match["last_seen"]
             for k in FIELDS:
                 v = ev.get(k, "")
@@ -118,17 +138,45 @@ class Archive:
             self.scrape_days[day] = sorted(set(self.scrape_days.get(day, [])) | venues)
         return new, updated
 
+    def add_external(self, record: dict, source_flag: str = "from_sheet") -> str:
+        """Merge one gig from another source (e.g. the old Google Sheet).
+        Doesn't count as a scrape. Scraped details win; the record only fills
+        gaps, and its name is kept in also_listed_as if different.
+        Returns "new", "merged" or "skipped"."""
+        d, venue = record.get("date", ""), (record.get("venue") or "").strip()
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", d) or not venue or not record.get("event_name"):
+            return "skipped"
+        bucket = self._index.setdefault((d, venue), [])
+        match = next((g for g in bucket if same_gig(g, record, {})), None)
+        if match is None:   # looser: same main act, e.g. "Sego" / "Sego + PALM"
+            match = next((g for g in bucket if not g.get(source_flag) and same_headliner(g, record)), None)
+        if match is None:
+            gig = {k: record.get(k, "") for k in FIELDS}
+            gig[source_flag] = True
+            bucket.append(gig)
+            self.gigs.append(gig)
+            return "new"
+        for k in FIELDS:
+            if record.get(k) and not match.get(k):
+                match[k] = record[k]
+        if norm(record["event_name"]) != norm(match["event_name"]):
+            names = match.setdefault("also_listed_as", [])
+            if record["event_name"] not in names:
+                names.append(record["event_name"])
+        match[source_flag] = True
+        return "merged"
+
     def merge_renames(self) -> None:
         """A listing that vanished, replaced on the very next scrape by a new one
         for the same night at the same venue, is the same gig renamed."""
         days = sorted(self.scrape_days)
         next_day = {d: days[i + 1] for i, d in enumerate(days[:-1])}
         for bucket in self._index.values():
-            for old in sorted(bucket, key=lambda g: g["last_seen"]):
+            for old in sorted((g for g in bucket if "last_seen" in g), key=lambda g: g["last_seen"]):
                 if old not in bucket or old["last_seen"] >= old["date"]:
                     continue
                 swap = next_day.get(old["last_seen"])
-                new = [g for g in bucket if g is not old and g["first_seen"] == swap]
+                new = [g for g in bucket if g is not old and g.get("first_seen") == swap]
                 if swap is None or len(new) != 1 or swap > old["date"]:
                     continue
                 new = new[0]
@@ -148,6 +196,8 @@ class Archive:
         while that venue was still being scraped successfully."""
         days = sorted(self.scrape_days)
         for g in self.gigs:
+            if "last_seen" not in g:
+                continue
             later = [d for d in days if g["last_seen"] < d < g["date"]
                      and g["venue"] in self.scrape_days[d]]
             if later:
