@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27 00:03",
+ "updated": "2026-11-27 16:04",
  "events": {
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=113401": {
    "checked": "2026-11-27",
@@ -1558,6 +1558,15 @@
    "age": "14+",
    "description": "Basht. is a five-piece rock band from Dublin, Ireland. The band comprises frontman Jack Leavey (vocals), Sam Duffy (guitar), Rossa Healy (guitar), Louis Christle (bass), and Luke O’Neill (drums)."
   },
+  "https://www.ueaticketbookings.co.uk/event/battle-of-the-bands/": {
+   "checked": "2026-11-27",
+   "v": 2,
+   "time": "19:00",
+   "doors": "19:00",
+   "end": "23:00",
+   "age": "14+",
+   "description": "Sinkhole + Estate + Provisional License + Lunavaria + Big Fat Crocodile + Esoterica + Milly Anna + Yer Blooze"
+  },
   "https://www.ueaticketbookings.co.uk/event/belle-sebastian/": {
    "checked": "2026-11-25",
    "v": 2,
@@ -1667,6 +1676,18 @@
    "end": "22:00",
    "age": "14+",
    "description": "Get your boots ready! Nashville’s own Cody Pennington is bringing his country show to a venue near you!"
+  },
+  "https://www.ueaticketbookings.co.uk/event/dan-byrne/": {
+   "checked": "2026-11-27",
+   "v": 2,
+   "doors": "19:30",
+   "end": "23:00",
+   "age": "14+",
+   "description": "Dan Byrne swept in off the Mersey and announced himself as a solo artist in 2023 with his debut EP, ‘Beginnings’. His powerhouse, soul-inflected vocal and deftly-executed, yet hugely accessible song-craft has quickly marked him out as an artist on the rise.",
+   "support": [
+    "Bobbie Dazzle",
+    "James Bruner"
+   ]
   },
   "https://www.ueaticketbookings.co.uk/event/dan-croll/": {
    "checked": "2026-11-25",
@@ -2597,277 +2618,6 @@
    "end": "22:30",
    "age": "14+",
    "description": "This two hour plus show features all the greatest hits and more from the bands 50+ year career. Complete with beards, costume changes and the famous furry, spinning guitars, this is a show you don’t want to miss."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/annotations-of-an-autopsy/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "Returning from a lengthy hiatus, Annotations Of An Autopsy is bringing back their brand of disgusting death metal starting with a home town show."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/big-truck/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "Big Truck is the sound of Laurie Vincent stepping into a different light. Known for the raw intensity of SOFT PLAY, here he trades abrasion for atmosphere - crafting songs that move between indie-pop melody, cinematic sweep, and offbeat charm."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/birdwitch-forlorn/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:30",
-   "description": "Hailing from Norwich, UK, Birdwitch are a self-described 'Dream Violence' band formed in early 2023. Blending elements of doom, sludge, post-metal and prog (amongst other influences)."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/candy-cane-cabaret/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:30",
-   "end": "22:30",
-   "age": "18+",
-   "description": "Snapdragon Cabaret presents ’Candy Cane Cabaret’: a mint to be cabaret show filled with drag, comedy, and burlesque."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/castle/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "CASTLE is an American heavy/doom metal band formed in 2009 in San Francisco, California."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/citizen-smith-lassie/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "17:00",
-   "end": "21:00",
-   "description": "Lassie are Emily Winng (UK) and Camille Dávila (USA), together they bring dark Lynchian psychedelic-folk laced with tribal-punk, filtered through lilting melodies and hard-hitting harmonies."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/dad-manners/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "20:00",
-   "end": "22:30",
-   "description": "Dad Manners is a tribute to one of the biggest 2Tone bands to come out of the early 1980’s, Bad Manners, which had a number of hits such as \"Nee Nee Na Na Na Na Nu Nu\", \"My Girl Lollipop\", \"Lip Up Fatty\", \"Can Can\", \"Special Brew\", \"Walking in the Sunshine\" and \"That'll Do…"
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/dog-unit/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "Dog Unit and their unique sound — instrumental music that leans just as heavily on the tune-first, purist pop qualities of Burt Bacharach or The Strokes as much as it does the groove and ambiance of their post-rock forebears like Tortoise or Stereolab — has been championed from…"
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/essa-j-felix-present-the-fifth-foundation-ryan-skillit-amy-nomvula/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "The Fifth Foundation bring their explosive live experience to Norwich, mixing timeless soul, jazz, funk and rap sounds.",
-   "support": [
-    "From"
-   ]
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/girl-group/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:30",
-   "description": "Consider the girl group. A divine feminine moment in pop culture: whether the riot grrrls of the ’90s, a sleek, honey-voiced R&B trio, or a glam and campy, dancing quintet."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/green-shuck-presents-monkeyfist-triple-b-dub-sweat-and-beers/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "With members hailing from South-East London and Bristol, MonkeyFist are a collective of musical collaborators and friends steadfastly refusing to be pigeonholed by genre labels."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/grooving-in-green-the-glass-house-museum-velocette/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "18:30",
-   "end": "22:00",
-   "description": "OFF BEAT PROMOTIONS presents an evening of gothic rock & post-punk featuring three of the UKs top contempory acts... GROOVING IN GREEN - is a Brighton-based gothic rock band known for blending darkwave atmospheres with post-punk energy and modern alternative influences."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/heavy-wild/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "London lo-fi rockers heavy wild return with blistering new EP ‘paradise forever’ - their first release via new label home Submarine Cat."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/magnolia-adams-farewell-show-the-scuttlers-troilus/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "Intricate and innovative seven piece frenetic art-punk band MAGNOLIA formed in Norwich in 2022 and have made a name for themselves in both the Norwich music scene at Voodoo Daddy’s and The Windmill in London."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/mama-oh-no/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "Mama Oh No are a family 4-piece from Norfolk, England. Taking inspiration from Old Soul, Blues, and surf music, the band delivers their own unique blend of swampy guitar, clanging bass, fuzz and spring reverb."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/maquina/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "MAQUINA. are a Lisbon-based trio and one of the most active Portuguese bands on the European circuit. The current lineup features Halison Peres (drums and vocals), João Cavalheiro (guitar) and José Rego (bass)."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/marla-kether/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "Born in London to Congolese parents, Marla Kether is a bassist, producer and DJ."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/martial-arts-goodbye/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "18:30",
-   "end": "22:00",
-   "description": "Gigs can be a semi-religious experience, Martial Arts shows are transcendent affairs, with their dual frontmen Jim Marson and Matty Pearce often down on the floor with the crowd."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/myopia-a-different-kitchen-crying-in-colour/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "From heavy, Muse-inspired electronic sounds, to emotionally-charged rock epics, to a brand new, genre-defying montage of vibrations, Myopia’s music has evolved quickly and constantly over the years as the band now bring a certain style of music making, and obsessive passion that…"
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/ormella/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "Ormella heads out on her debut UK tour. The London songwriter makes ethereal indie folk that runs darker than it first lets on: close, narrative songs carried by a deeply emotive voice."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/pentire-2/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "Herefordshire indie four-piece Pentire tell beautifully crafted stories of student life, asmall-town upbringing, and the innocence of youth."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/perrl-presents-chuck-ragan-plus-special-guests/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:30",
-   "description": "People discover Chuck Ragan in different ways. Some people know Ragan from the pioneering punk act Hot Water Music he’s co-fronted for the past three decades."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-bureau-de-change-supports-tba/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "18:00",
-   "end": "21:00",
-   "description": "“Irresistible punk noise… Simply unavoidable in terms of early star power in the making and real potential” Still Listening Too damn right!"
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/pilot-the-dune-master-charger-erronaut/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:30",
-   "description": "PILOT THE DUNE Formed in 2020 and hailing from the city of Norwich comes the explosive stoner rock quartet PILOT THE DUNE."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/rowena-wise/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "18:30",
-   "end": "22:00",
-   "description": "Rowena Wise is a Naarm/Melbourne-based singer-songwriter whose work balances beauty and mess with rare emotional precision, drawing from 60s folk storytelling while grounded in indie rock, garage pop and alt-folk."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/sandhouse/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "Consisting of Anna Sutherland and Caspar Holloway, Sandhouse carve out a sound that folds together grunge guitars, bleary trip-hop production, warped psychedelia and nocturnal alt-pop."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/the-boom-cabaret/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "The Boom Cabaret lands in Norwich this December with a sensational Drag & Burlesque show guaranteed to blow your mind! This international boutique production stars elite cabaret talent from across the UK and Europe."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/the-faith-estate-ziggarettes-the-speed-of-honey-her-oscillations/": {
-   "checked": "2026-11-26",
-   "v": 2,
-   "time": "18:30",
-   "end": "22:00",
-   "description": "The Faith Estate embark on their biggest tour yet, making the jump to other countries for the first time."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/the-high-points-christmas-show/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "23:00",
-   "description": "Join The High Points on 21st December for a festive night of live music at Voodoo Daddy’s We’ll be bringing our usual mix of tunes, a few Christmas favourites and some festive twists along the way."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/the-rattlebacks/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "17:30",
-   "end": "21:00",
-   "description": "Formed in 2021 and hailing from Brighton, England, the unrelenting quintet are stuffed to the gills with passion, belief, and seemingly boundless ability."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/toria-wooff/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "Following her acclaimed self-titled debut album, championed by the likes of Uncut, Clash, Shindig, Record Collector, BBC Radio 6 and Radio X, Toria Wooff (Tor-ee-a Woo-f) enters a darker and more assured chapter with her second album, Aleister."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/tripl3-b-the-troubl3makers-xmas-party-dj-dubious-dj-tritt-ethobeat/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "This is gonna be anything but a silent night!Following their SOLD OUT launch at Voodoos in January and a summer playing UK festivals including Latitude and Boomtown, Tripl3 B and The Trouble3makers are back on home turf with a big, baubles out Christmas party…bringing more…"
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/tummyache/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "Tummyache is a fiercely independent, DIY-driven band rooted in community, care, and creative freedom. Together they approach music as a shared space rather than a product —prioritising connection, inclusivity, and honest expression over commercial goals."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/uea-burlesque-society/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "doors": "19:00",
-   "end": "22:30",
-   "age": "18+",
-   "description": "Last Christmas we gave you our hearts, and this year we’re ready to do it all over again. As winter settles, ⁠Jack Frost may be nipping at the air, but he’s certainly not nipping at our showbabes cozily clad in stockings and scarves!"
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/unsigned-live-2/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:00",
-   "end": "22:00",
-   "description": "UNSIGNED// LIVE is back and bigger than ever. Due to overwhelming popularity from the last event, Music Production Society are back showcasing all our incredibly talented members."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/vic-allen/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "18:00",
-   "end": "21:00",
-   "description": "Launching her highly-anticipated second album, which was fan-funded in just 6 days, Vic Allen takes \"The Bright Side\" on the road this April."
-  },
-  "https://www.voodoodaddysshowroom.co.uk/event/wonk-unit-project-mork-gourds/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:30",
-   "end": "22:00",
-   "description": "Ideal Surreal are pleased to present the worlds shortest retirement, feat; Wonk UnitProject MorkGourds We at Ideal Towers announced our retirement on Monday 6th July....",
-   "support": [
-    "ing are Norwich punk legends Project Mork",
-    "quirky",
-    "punky",
-    "Ideal Surreal debutants Gourds"
-   ]
   }
  }
 }
