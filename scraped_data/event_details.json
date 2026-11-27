@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-26 23:57",
+ "updated": "2026-11-27 00:03",
  "events": {
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=113401": {
-   "checked": "2026-11-25",
+   "checked": "2026-11-27",
    "v": 2
   },
   "https://booking.maddermarket.co.uk/EventAvailability?EventId=118201": {
@@ -1180,7 +1180,7 @@
    ]
   },
   "https://www.fatsoma.com/e/ifh1l05u/reeshy-all-night-long-tour": {
-   "checked": "2026-11-26",
+   "checked": "2026-11-27",
    "v": 2,
    "time": "23:00",
    "end": "03:00",
@@ -1286,7 +1286,7 @@
    "end": "23:00"
   },
   "https://www.norfolkgigguide.com/band-details/Decades+Apart": {
-   "checked": "2026-11-25",
+   "checked": "2026-11-27",
    "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Dirty+Havana": {
@@ -1294,14 +1294,10 @@
    "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Future+Radio-Sounds+of+Norwich": {
-   "checked": "2026-11-25",
+   "checked": "2026-11-27",
    "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Henry+Cluney%27s+XSLF+%2B+The+Punktures+%2B+Beef+%26+Onion": {
-   "checked": "2026-11-25",
-   "v": 2
-  },
-  "https://www.norfolkgigguide.com/band-details/Hook+-farewell+show": {
    "checked": "2026-11-25",
    "v": 2
   },
@@ -1334,7 +1330,7 @@
    "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Punk+Up+City+2+at+B2": {
-   "checked": "2026-11-25",
+   "checked": "2026-11-27",
    "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/RATTLESNAKES+-+REGIONAL+ONE+-+CHAOS+PRINCIPAL": {
@@ -1370,7 +1366,7 @@
    "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Thin+Lizzish": {
-   "checked": "2026-11-25",
+   "checked": "2026-11-27",
    "v": 2
   },
   "https://www.norfolkgigguide.com/band-details/Wiggy+Stardust+and+the+Ciders+from+Jars": {
@@ -1419,7 +1415,7 @@
    "description": "Experience the ultimate celebration of R&B - brought to life like you’ve never heard before."
   },
   "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich": {
-   "checked": "2026-11-25",
+   "checked": "2026-11-27",
    "v": 2,
    "description": "19:00 - 19:45 Beginners £5 - Perfect if you are brand new to salsa or have only done a few lessons!"
   },
@@ -2091,18 +2087,6 @@
    "end": "22:30",
    "age": "14+",
    "description": "With their ever-mutating brand of jazz-and-country-laced punk, Opus Kink have always cut a singular figure in a saturated landscape."
-  },
-  "https://www.ueaticketbookings.co.uk/event/parker-barrow/": {
-   "checked": "2026-11-25",
-   "v": 2,
-   "time": "19:30",
-   "doors": "19:30",
-   "end": "23:00",
-   "age": "14+",
-   "description": "Nashville-based Southern Rock Revivalists Parker Barrow roar back to the UK with their Hold The Mash Tour",
-   "support": [
-    "Wood Burnt Red"
-   ]
   },
   "https://www.ueaticketbookings.co.uk/event/peter-hook-the-light/": {
    "checked": "2026-11-25",

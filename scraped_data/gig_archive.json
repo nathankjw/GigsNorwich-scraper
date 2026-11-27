@@ -1,8 +1,8 @@
 {
  "about": "Every gig the Norwich Gigs scraper has seen. Gigs dated before 'updated' have happened. See archive_gigs.py.",
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "total_gigs": 4063,
- "past_gigs": 3628,
+ "past_gigs": 3635,
  "gigs": [
   {
    "date": "2025-03-09",
@@ -23459,7 +23459,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/big-time-open-mic-2",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791230297455-WZAKGICPYQH12SK5Y0W7/BIGTIMEnov.jpg",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-01-11",
@@ -28521,7 +28521,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/rondell-dj",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793644015641-KFXUE13PIU5YXL5N3XYL/rondel_DEC.jpg",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-03-12",
@@ -31672,7 +31672,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/swt-x-with-teeth-double-headliner-hellga",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793625591301-CYAUFYI2VE9BFVCKP7ZC/SOWT+TEETH+Socials.jpeg",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-04-11",
@@ -34494,7 +34494,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/ems-on-a-mission",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793625628685-C615E9GT8MJSWLTAPU4Z/Screenshot+2026-11-01+at+15.16.50.png",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-05-11",
@@ -34646,7 +34646,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/martin-martin-dj",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793641691258-EB07T5RUEPM2XASRTGM4/Martin+Promo+001+%282%29.jpg",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-05-12",
@@ -38190,7 +38190,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/bim-skala-bim-rebelation",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791230512849-BAS838DP7JJVW6IH0GR4/bim+shala+bim.jpeg",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-06-11",
@@ -40517,7 +40517,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/ad-infinitum-dj",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793546799018-N67XR06HEE8KJUYV7SEM/adinfinitum.jpg",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-07-11",
@@ -40533,7 +40533,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/hemiptera-supports",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791230717089-F7N8UURU4O0CWFSRMY0Q/hemiptera.webp",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-07-11",
@@ -42502,7 +42502,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/the-wameki-police-cops-more-tba",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791824732473-XL3U1VSBNT75I63TQXPQ/THE_WAMEKI_insta+copy.jpg",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-08-11",
@@ -49869,7 +49869,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/phage-records-and-reaper-agency-present-oakenthrone",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788194660933-UU04GHQKG5E75J39TXRK/Oakenthrone+Poster.png",
    "first_seen": "2026-09-01",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-10-12",
@@ -51371,7 +51371,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/t05dsg054ta2k3zzkupbth71o5kr7e",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791821781099-DBTTZ14QNZU9YC1R0ZV1/WhatsApp+Image+2026-10-12+at+10.09.34.jpeg",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -51590,7 +51590,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax-10-dead-wax-turns-one",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791227609559-OHK96GKVR4JIX1SR9EAZ/Freemonthlywax_BIRTHDAYfinal.jpg",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -51834,7 +51834,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/masquerader-nerve-peel-get-fucked",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791228129780-RWEYSHMFGBPI8QD6ULRT/WhatsApp+Image+2026-10-05+at+19.29.01.jpeg",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -52039,7 +52039,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/stormo-believe-in-nothing-pig-vermin",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1784210291596-SA7DW0X320P5P01EZ9VJ/WhatsApp+Image+2026-07-16+at+14.25.25+%281%29.jpeg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -52145,7 +52145,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/qwlen-a-horse-called-war-shelf-life",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791229558112-S2D4H023NQRW9XT530ZT/Qwalen_a3edit.jpg",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -52263,7 +52263,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/dz968yppp4baifx5vzhu0ox775cqo8",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1786994561682-6PIMZ3ZPM46YYR8JUKB6/Screenshot+2026-08-17+at+20.16.44.png",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -52280,7 +52280,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/kv8j00viqh3q6ghmdtsx97rdsosbmu",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791229794909-V4QV252HIMTHK1J4NII5/papahuds_seventiessmashersOCT+%281%29.jpg",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -52432,7 +52432,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/l9c1dlja4c353m9sr8qc06zdxrpon8",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791229903132-BXTLALXJ2JOWRX5AZBNL/chrome_OCT.jpg",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -52449,7 +52449,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/spooky-valentine-2",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793029045702-XLIVM9O2510QPKZZ4MNI/Spooky+Valentine+Halloween+weekend.jpg",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-10-30",
@@ -52770,7 +52770,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/star-children-invites-soul-stew",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791823441855-Z1ADJ4CE7PHYWPYAZBXK/SC_A3_FORPRINT_0011.jpg",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -54255,7 +54255,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/dub-sweat-beers-presents-lionpulse-dub-cavern-dsb-selectas",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795025527267-C3QIYLIKNHZJB9BO8011/Screenshot+2026-11-18+at+18.08.11.png",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-11-12",
@@ -54271,7 +54271,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/girls-gays-theys-ft-glitter-gloom-djs",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1787079682395-OHWVIFYINQ235XX51F1D/Screenshot+2026-08-18+at+19.21.52.png",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-11-12",
@@ -54523,7 +54523,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/the-cain-pit-w-east-town-pirates",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1780401532334-PA6G1NOJGENJG7QN88ZC/Cain+Pit+deadwaxsquare.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -54816,7 +54816,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/free-monthly-wax-sootsprite-suds-reno-dakota",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791827410179-TO4NYZ2TI2CP2JEFTU2F/Freemonthlywax_SOOTSPRITEa3.jpg",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "also_listed_as": [
     "Soot Sprite + Suds"
    ],
@@ -55116,7 +55116,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/rhyme-against-the-machine-5",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792427974327-N81YB8OWPHSX6FMWBL9G/RHYME_MONTHLY+%281%29+%281%29.jpg",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -55375,7 +55375,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/dreamcast-5",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793643670685-5TZCGALW5ELC8BAAHMBW/dreamcast_FIRSTBIRTHDAYcollage.jpg",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -55569,7 +55569,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/bone-machine-a-proper-indie-disco",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795018397541-ER7B6IY9JQGK4R7ENBGH/bonemachine-NOV2.jpg",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-11-20",
@@ -55585,7 +55585,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/chrome-dj-set-1",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795022672788-AAMDTY8RLJR5SU85GMF1/chrome_20thnov.jpg",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-11-20",
@@ -55775,7 +55775,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/dreams-from-83-1",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795019105863-422YYYD7YJNK0FP0AXGA/Screenshot+2026-11-18+at+16.18.10.png",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-11-21",
@@ -56054,7 +56054,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/draw-some-paws-2",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1792345891072-2B92BG9UYSK8BZ1Z9HNW/pet+life+drawing.png",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56297,7 +56297,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/delay-the-drowning-niche-godkill",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1793041775182-YSD2CJEN2HQCG48KJM1I/DTD+poster+A4+%284%29.png",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "also_listed_as": [
     "Delay the drowning + Niche"
    ],
@@ -56461,7 +56461,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/parker-barrow/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/31354-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56478,7 +56478,7 @@
    "url": "https://norwichartscentre.co.uk/event/an-evening-with-the-magic-numbers/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/TMN-Cobbled-street-x-4-res--6a1d49c518d0a-scaled-800x450-c-default.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56495,7 +56495,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Decades+Apart",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56512,7 +56512,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Future+Radio-Sounds+of+Norwich",
    "image": "",
    "first_seen": "2026-09-02",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56529,7 +56529,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/pocket-sam-russo-self-torque-hello-pedro",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795023158882-PBW650JTC0QKT6980IQF/POCKET_DW_A4_Poster.jpg",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "also_listed_as": [
     "Pocket + Sam Russo"
    ],
@@ -56549,7 +56549,7 @@
    "url": "https://epic-tv.com/events/event/martin-kemp-back-to-the-80s",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56566,7 +56566,7 @@
    "url": "https://www.fatsoma.com/e/od97ouwg/soul-mass-transit-system-all-night-long",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzgvMTkvMTcvNTcvMTAvMzQ3L1JhY2tNdWx0aXBhcnQyMDI2MDgxOS01OS14bG50aHcucG5nIl1d",
    "first_seen": "2026-08-21",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "also_listed_as": [
     "Soul Mass Transit System"
    ],
@@ -56603,7 +56603,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1788298335920-IMG_3205.jpeg?alt=media&token=d39eb71d-9802-4c4a-9bb3-b67fbcd39516",
    "first_seen": "2026-09-02",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "also_listed_as": [
     "Charlie Smith + TINY giant"
    ],
@@ -56623,7 +56623,7 @@
    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
    "image": "",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56642,7 +56642,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/avatar/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Lauras-WF-LCR-IG-Template-2026-05-22T120058.929.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56659,7 +56659,7 @@
    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=113401",
    "image": "https://system.spektrix.com/themaddermarkettheatre/files/c58d3ff3-c454-48a6-a541-3816a849827c.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56676,7 +56676,7 @@
    "url": "https://www.spacestudiosnorwich.com/event-details-registration/all-things-jungle-x-central-rhythms-w-webbo-nulify-blindfold",
    "image": "",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56710,7 +56710,7 @@
    "url": "https://www.tickettailor.com/events/lethalchupresents/2447332?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAVhkrpleHRuA2FlbQExAHBkb2YCZmRpZBZRIHCQbfwpVLOFiDhyvK9l95KbOKgNc3J0YwZhcHBfaWQPMTI0MDI0NTc0Mjg3NDE0AAGnTbgG2ntesOuWywoirywSCbSJkPR_HXFMQgAGULaZqVEE6NToGXoRiUqOt9E_aem_x05fmcPR8GXW37npQkhOow",
    "image": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56727,7 +56727,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/discharge/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Dianas-WF-AND-LCR-MASTERS-USE-THESE-7-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56744,7 +56744,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/drum-bass-classics/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/DnB-Classics-Norwich-27nov26-v1-1x1-1-500x500.png.webp",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56761,7 +56761,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/london-calling-play-the-clash/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/London-Calling-SQ-1080-x-1080-Norwich-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-11-28",
@@ -56777,7 +56777,7 @@
    "url": "https://norwichartscentre.co.uk/event/these-wicked-rivers/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/These-Wicked-Rivers-web-69c2c2a6f250e-800x450-c-default.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56794,7 +56794,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Punk+Up+City+2+at+B2",
    "image": "",
    "first_seen": "2026-09-02",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56811,7 +56811,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Thin+Lizzish",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56828,7 +56828,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/star-children",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795023506649-30DSK9B2DIZ5TIJTXIH3/star+children+november.jpeg",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "also_listed_as": [
     "Darby + Tadi the great"
    ],
@@ -56866,7 +56866,7 @@
    "url": "https://epic-tv.com/events/event/groove-armada-dj-set-support",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56886,7 +56886,7 @@
    "url": "https://www.fatsoma.com/e/qleyqdip/storm-mollison",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEwLzgvMjEvNDgvNDYvUmFja011bHRpcGFydDIwMjYxMDEwLTYxLTE5bjFrdzYucG5nIl1d",
    "first_seen": "2026-10-12",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56903,7 +56903,7 @@
    "url": "https://fixr.co/event/norwich-dj-luck-mc-neat-garage-brunch-day-party-in-tickets-734094727",
    "image": "https://fixr-cdn.fixr.co/images/event/2026-11/f892f16e65784d71a75331d01777486d.jpg",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "also_listed_as": [
     "DJ Luck & MC Neat"
    ],
@@ -56923,7 +56923,7 @@
    "url": "",
    "image": "",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "also_listed_as": [
     "A Pile Fabric Primer"
    ],
@@ -56943,7 +56943,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1790708561970-IMG_3356.webp?alt=media&token=951baf0c-fce2-4473-8d2c-1351b2a730e1",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "also_listed_as": [
     "Blanktalk + Dog At The Opera"
    ],
@@ -56963,7 +56963,7 @@
    "url": "https://ticketlab.app/event/39955-GRLDEM-Presents-Feel-the-Bass-tickets#/",
    "image": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56980,7 +56980,7 @@
    "url": "https://www.norwich.gov.uk/thehalls/rb-orchestra-live",
    "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-07/r%20n%20b%20orchestra.jpg?h=59e0779f&itok=XuME08mI",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -56997,7 +56997,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/magnolia-adams-farewell-show-the-scuttlers-troilus/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvNC8xNC82LzU1LzQ2Ny9SYWNrTXVsdGlwYXJ0MjAyNjA5MDQtNTYtOTdrd3gyLmpwZyJdXQ?ar=16:9&fit=crop",
    "first_seen": "2026-09-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "also_listed_as": [
     "Magnolia"
    ],
@@ -57020,7 +57020,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/atlasi/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Dianas-WF-AND-LCR-MASTERS-USE-THESE-28-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57039,7 +57039,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/g-a-g/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/GAG_Nov28_Square-500x500.png.webp",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57058,7 +57058,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/uncle-acid-and-the-deadbeats/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Lauras-WF-LCR-IG-Template-81.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57075,7 +57075,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/raqoiqjzzydoju4sf5t1c43yswlvws",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795024343742-PGQN1VR0UXGA60YNIJVL/BIGTIME+generic.jpg",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57092,7 +57092,7 @@
    "url": "https://epic-tv.com/events/event/wilder-fight-night",
    "image": "",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57112,7 +57112,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-snuts/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/31656-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57129,7 +57129,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/birdwitch-forlorn/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMTUvMTIvMjIvNDgvODQwL1JhY2tNdWx0aXBhcnQyMDI2MDcxNS02NC0xeHg0c2E2LnBuZyJdXQ?ar=16:9&fit=crop",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57146,7 +57146,7 @@
    "url": "https://www.instagram.com/lastpubstanding/?hl=en",
    "image": "",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57163,7 +57163,7 @@
    "url": "https://www.revoluciondecuba.com/events/norwich/12615/strictly-salsa-norwich",
    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-11-30",
@@ -57181,7 +57181,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-temperance-movement/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/TTM-SQ-1-1-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57200,7 +57200,7 @@
    "url": "https://norwichartscentre.co.uk/event/tom-moore-quartet/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/TMQ-Promo-sept-26-6ac4bc0af0663-scaled-800x450-c-default.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57217,7 +57217,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1794591588805-IMG_3708.png?alt=media&token=71a4bc26-a90f-4b53-ae9b-80c0cbe40910",
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-02",
@@ -57233,7 +57233,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/uea-burlesque-society/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzMvMTEvMzIvMzIvNTA1L1JhY2tNdWx0aXBhcnQyMDI2MTEwMy02My02cjFqdWguanBnIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-02",
@@ -57251,7 +57251,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/sevendust/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Sevendust-support-sq.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-03",
@@ -57271,7 +57271,7 @@
    "url": "https://norwichartscentre.co.uk/event/the-allergies-live/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/Screenshot-2026-03-16-at-17.07.35-69b838df62cac-800x450-c-default.png",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-03",
@@ -57287,7 +57287,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/The+Blue+Lion+Band",
    "image": "",
    "first_seen": "2026-08-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-03",
@@ -57303,7 +57303,7 @@
    "url": "https://epic-tv.com/events/event/the-wildhearts",
    "image": "",
    "first_seen": "2026-09-12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-03",
@@ -57319,7 +57319,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/ormella/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzgvMTcvMTEvNS81Ny83MDEvUmFja011bHRpcGFydDIwMjYwODE3LTUzLTFnNXluNHUucG5nIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-03",
@@ -57353,7 +57353,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-alehouse-sessions/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/The-Alehouse-Sessions-norwich-1080x1080-1-500x500.jpg.webp",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-04",
@@ -57371,7 +57371,7 @@
    "url": "https://norwichartscentre.co.uk/event/beans-on-toast/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Screenshot-2026-06-30-at-09.35.29-6a437fd7e8779-800x450-c-default.png",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57388,7 +57388,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/NIRVANHER+with+HELL+IS+IN+CHAINS",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57405,7 +57405,7 @@
    "url": "https://www.fatsoma.com/e/9f8w3u2r/turner-connie",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzE1LzE2LzU3LzM3LzgwNy9SYWNrTXVsdGlwYXJ0MjAyNjExMTUtNTctMXMwb2k4aS5wbmciXV0",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-04",
@@ -57421,7 +57421,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1788183878204-IMG_3202.jpeg?alt=media&token=ae2c1570-f5ff-478e-a9fc-6adf422544f1",
    "first_seen": "2026-09-01",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-04",
@@ -57440,7 +57440,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-hunna/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/31862-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57457,7 +57457,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/myopia-a-different-kitchen-crying-in-colour/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzgvMTkvMTAvMTEvMjAvMjE4L1JhY2tNdWx0aXBhcnQyMDI2MDgxOS01OS0xZGJiYWF3LmpwZyJdXQ?ar=16:9&fit=crop",
    "first_seen": "2026-09-10",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-04",
@@ -57476,7 +57476,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/dr-feelgood/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Dr-Feelgood_Square-500x500.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57493,7 +57493,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/macbusted/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/MacBusted-Norwich-1080x1080-1-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-05",
@@ -57509,7 +57509,7 @@
    "url": "https://norwichartscentre.co.uk/event/the-electric-swing-circus/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/02/ESC1-MAIN-cropped-1-698debe1eae0f-800x450-c-default.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-05",
@@ -57525,7 +57525,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Dirty+Havana",
    "image": "",
    "first_seen": "2026-09-02",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-05",
@@ -57541,7 +57541,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Henry+Cluney%27s+XSLF+%2B+The+Punktures+%2B+Beef+%26+Onion",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57562,7 +57562,7 @@
    "url": "https://www.fatsoma.com/e/8l08hndq/t-i-the-residency-clipz",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzE4LzE0LzIzLzI1LzIxMC9SYWNrTXVsdGlwYXJ0MjAyNjExMTgtNjMtMWVvbzc0LnBuZyJdXQ",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-05",
@@ -57578,7 +57578,7 @@
    "url": "https://fixr.co/event/norwich-mj-cole-daylight-disco-end-of-summer-day-p-tickets-108678374",
    "image": "https://fixr-cdn.fixr.co/images/event/2026-10/2d386dbbe26d4a6785871274693d086e.jpeg",
    "first_seen": "2026-08-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-05",
@@ -57613,7 +57613,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/ash/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/ASH-SQ-SUPPORT.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57630,7 +57630,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/dad-manners/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzMvMjIvMTEvMjMvNTEvMzIvUmFja011bHRpcGFydDIwMjYwMzIyLTU3LWszeXd2bC5qcGciXV0?ar=16:9&fit=crop",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-05",
@@ -57646,7 +57646,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/propaganda-2/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-40-500x500.png.webp",
    "first_seen": "2026-09-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-05",
@@ -57664,7 +57664,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-bon-jovi-experience-motley-crue-tribute-motley-crude/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2025/12/BONJOVIMOTLEYsquare-500x500.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-05",
@@ -57683,7 +57683,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-entitled-sons/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/The-Entitled-Sons-SQ-NORWICH-supports-500x500.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57700,7 +57700,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Southbound",
    "image": "",
    "first_seen": "2026-08-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-06",
@@ -57733,7 +57733,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-fell/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/The-Fell_thefell_squareG-500x500.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57804,7 +57804,7 @@
    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=130001",
    "image": "https://system.spektrix.com/themaddermarkettheatre/files/150da03f-7fca-43a7-b47b-81f3c52cb464.jpeg",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-09",
@@ -57820,7 +57820,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57855,7 +57855,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1795717402645-IMG_3774.png?alt=media&token=429c2abd-e8ab-42f3-b5ed-99f0fad25e4a",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-09",
@@ -57873,7 +57873,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/essa-j-felix-present-the-fifth-foundation-ryan-skillit-amy-nomvula/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzE1LzEyLzE1LzI5LzY0OS9SYWNrTXVsdGlwYXJ0MjAyNjEwMTUtNjEtMWM3amk5dS5qcGciXV0?ar=16:9&fit=crop",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-10",
@@ -57889,7 +57889,7 @@
    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-ancient-infinity-orchestra/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Ancient-Infinity-Orchestra-web-6a5f8e0c75efc-800x450-c-default.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -57906,7 +57906,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Open+Mic+with+Peter+T",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-10",
@@ -57941,7 +57941,7 @@
    "url": "https://epic-tv.com/events/event/artful-dodger",
    "image": "",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-10",
@@ -57974,7 +57974,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1794844861075-IMG_3723.png?alt=media&token=08215046-3894-4af1-9103-41cb5f8d3844",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-10",
@@ -57990,7 +57990,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/unsigned-live-2/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMS8xMC85LzI5Lzg3NS9SYWNrTXVsdGlwYXJ0MjAyNjA5MDEtNTQtNzRnMGdhLmpwZWciXV0?ar=16:9&fit=crop",
    "first_seen": "2026-09-02",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-10",
@@ -58008,7 +58008,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/sumo-cyco/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/SumoCyco_Square-500x500.png.webp",
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-11",
@@ -58026,7 +58026,7 @@
    "url": "https://norwichartscentre.co.uk/event/zwa-presents-ni-maxine/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/NI_MAXINE_ARTWORKALT_2000px-6acfa05c00b6a-800x450-c-default.jpg",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-11",
@@ -58042,7 +58042,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/The+Pogue+Traders",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-11",
@@ -58058,7 +58058,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/bland-bizarro-variety-presents-bradley-taylor-maxine-meixner-abbie-neale-squat-lobster",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1788446636366-FJQQURVPK5MRXCF99CHD/bland+nov.jpeg",
    "first_seen": "2026-09-04",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-11",
@@ -58074,7 +58074,7 @@
    "url": "https://www.fatsoma.com/e/bfbqe1v4/a-m-c-grassroots-energy-norwich",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzYvMjQvOS8xMC8yMC84NjQvUmFja011bHRpcGFydDIwMjYwNjI0LTU1LTF2bDYyZzcucG5nIl1d",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58091,7 +58091,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1795551556669-IMG_3764.webp?alt=media&token=164f92ba-df3d-4486-958c-b3bc5607bb6b",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-11",
@@ -58107,7 +58107,7 @@
    "url": "https://www.revoluciondecuba.com/events/norwich/12946/mambo-kings",
    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
    "first_seen": "2026-08-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-11",
@@ -58123,7 +58123,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/mama-oh-no/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzkvMTgvMzUvMzgvOTgxL1JhY2tNdWx0aXBhcnQyMDI2MTEwOS01Ny11a2gzNXMuanBnIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-11",
@@ -58139,7 +58139,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/chains-on-velvet/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/CoV-Dec-26-square-500x500.jpg.webp",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-11",
@@ -58157,7 +58157,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/wednesday-13-the-birthday-massacre/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Wed-13-Bday-Mass.-SQ-500x500.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-11",
@@ -58173,7 +58173,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/zz-toppd-the-uks-no-1-tribute-to-zz-top/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Dianas-WF-AND-LCR-MASTERS-USE-THESE-3-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58190,7 +58190,7 @@
    "url": "https://norwichartscentre.co.uk/event/zwa-presents-dennis-bovell-x-rebel-lion-sound-system/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Dennis1-6acfa47ea988f-800x450-c-default.jpg",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-12",
@@ -58206,7 +58206,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/RATTLESNAKES+-+REGIONAL+ONE+-+CHAOS+PRINCIPAL",
    "image": "",
    "first_seen": "2026-09-02",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-12",
@@ -58222,7 +58222,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Skatopia",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58239,7 +58239,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/punk-rock-stars-in-their-eyes",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795025212480-OOE166WSB5ERJOG4TIIQ/punkrockstars_A3EDIT.jpg",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-12",
@@ -58255,7 +58255,7 @@
    "url": "https://epic-tv.com/events/event/heart-club-classics-the-christmas-bash-with-toby-anstis",
    "image": "",
    "first_seen": "2026-09-22",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-12",
@@ -58274,7 +58274,7 @@
    "url": "https://www.fatsoma.com/e/gnwpq6jj/system-olympia",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI4LzE1LzE3LzI0LzIyMC9SYWNrTXVsdGlwYXJ0MjAyNjEwMjgtNTktMTlpeDZtYS5wbmciXV0",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-12",
@@ -58290,7 +58290,7 @@
    "url": "https://fixr.co/event/bank-holiday-fiesta-w-the-cuban-brothers-sunday-30-tickets-727244475",
    "image": "https://fixr-cdn.fixr.co/images/event/2026-06/df5bb64196a04047a3c2d41cc1633046.jpeg",
    "first_seen": "2026-08-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-12",
@@ -58306,7 +58306,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/belle-sebastian/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Belle-Sebastian-2026-Full-Tour-1080x1080-1-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58323,7 +58323,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/candy-cane-cabaret/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzYvOC8xMC8zOC84MjkvUmFja011bHRpcGFydDIwMjYxMDA2LTU4LTFvcnV2bmYuanBnIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-12",
@@ -58339,7 +58339,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/meltdown-presents-jingle-bell-rock/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/JingleBellRock-02-500x500.png.webp",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-12",
@@ -58358,7 +58358,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/sham-69-50th-anniversary/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/Sham-69-SQ-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58427,7 +58427,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/annotations-of-an-autopsy/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTIvMTkvNDAvMzUvMzQwL1JhY2tNdWx0aXBhcnQyMDI2MDkxMi02NC00em9zYzYuanBnIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-09-14",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-14",
@@ -58443,7 +58443,7 @@
    "url": "https://norwichartscentre.co.uk/event/the-unthanks-in-winter-at-epic-studios/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/The-Unthanks-In-Winter-Photo-2-_-COLOUR-_-RGB-16x9-6a2fd7592b2e4-scaled-800x450-c-default.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58460,7 +58460,7 @@
    "url": "https://epic-tv.com/events/event/the-unthanks-in-winter",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58477,7 +58477,7 @@
    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-laura-misch/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-22-at-14.28.49-6ab282961471a-800x450-c-default.png",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-16",
@@ -58493,7 +58493,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/The+Psychedelic+Circus",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58527,7 +58527,7 @@
    "url": "https://norwichartscentre.co.uk/event/tone-presents-jordan-smart/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/DSC08599-6a79b0785ca43-scaled-800x450-c-default.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58544,7 +58544,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/wwetybmsb5te2ccpkzf7fy2fjr8dxe",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795026224536-EZAIHA8JON2L02RILZJ6/dream_june2.png",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-17",
@@ -58560,7 +58560,7 @@
    "url": "https://epic-tv.com/events/event/massaoke-christmas",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58577,7 +58577,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1795605807147-073D30CF-1F99-427B-9F50-0A20B05DF2F2.jpeg?alt=media&token=89357ce5-52b2-4203-a31a-dcf43444fa84",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-17",
@@ -58593,7 +58593,7 @@
    "url": "https://www.norwich.gov.uk/thehalls/evening-dickens-christmas-carol",
    "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-09/Dickens.jpg?itok=nBiLDE4k",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-17",
@@ -58609,7 +58609,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/the-boom-cabaret/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzcvOS81MC8yNi8zMjcvUmFja011bHRpcGFydDIwMjYxMDA3LTYxLWN4cGlvLmpwZWciXV0?ar=16:9&fit=crop",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-18",
@@ -58642,7 +58642,7 @@
    "url": "https://norwichartscentre.co.uk/event/the-anna-mudeka-band/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Screenshot-2026-08-21-at-10.13.54-6a8816daa7aeb-800x450-c-default.png",
    "first_seen": "2026-08-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-18",
@@ -58675,7 +58675,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Counterfeit+Brits",
    "image": "",
    "first_seen": "2026-09-02",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-18",
@@ -58691,7 +58691,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/qi0aahbv8pgv422767q94lbajjiwb1",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795026814992-Z6HO5NSRCXECUX0LVUJ8/Screenshot+2026-11-18+at+18.31.14.png",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-18",
@@ -58707,7 +58707,7 @@
    "url": "https://epic-tv.com/events/event/too-much-too-young-a-night-of-2-tone-ska-and-beyond",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58724,7 +58724,7 @@
    "url": "https://www.fatsoma.com/e/3y8joozg/resident-rave",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI5LzE3LzIzLzU3Lzg4Mi9SYWNrTXVsdGlwYXJ0MjAyNjEwMjktNTUtMWZiMjg5di5wbmciXV0",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-18",
@@ -58757,7 +58757,7 @@
    "url": "https://www.revoluciondecuba.com/events/norwich/12931/tuto-tribe",
    "image": "https://www.revoluciondecuba.com/wp-content/themes/decuba/app/img/svg/location-pin.svg",
    "first_seen": "2026-08-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-18",
@@ -58773,7 +58773,7 @@
    "url": "https://www.norwich.gov.uk/thehalls/country-night-nashville",
    "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-05/Nashville.png?h=5fb92bf9&itok=LUvCb6bK",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58790,7 +58790,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/pilot-the-dune-master-charger-erronaut/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMTQvMTAvNTkvNDgvMjkvUmFja011bHRpcGFydDIwMjYwNjE0LTU5LTE4ams0b2QuanBnIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58807,7 +58807,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-900/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/The-900_Square-500x500.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-18",
@@ -58823,7 +58823,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-9075-the-worlds-first-tribute-to-the-1975/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/imresizer-resize-The9075-Square-Norwich-Supports-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-19",
@@ -58839,7 +58839,7 @@
    "url": "https://norwichartscentre.co.uk/event/rework-christmas-presents-bag-of-cans/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-15-at-13.29.56-6aa93a4a6acba-800x450-c-default.png",
    "first_seen": "2026-09-22",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-19",
@@ -58855,7 +58855,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Xmas+Rox+Off",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58872,7 +58872,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/nivmsenb9umrx1cevv9qjdxe10ccc9",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795023657198-J89V44CL2NKQ6SNMQUG6/star+children+december.jpeg",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-19",
@@ -58888,7 +58888,7 @@
    "url": "https://www.fatsoma.com/e/4rtxgsl0/9trane-only-child",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzE1LzE3LzIvNTAvMjEyL1JhY2tNdWx0aXBhcnQyMDI2MTExNS02My0xaDBlNjBiLnBuZyJdXQ",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-19",
@@ -58904,7 +58904,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1795001039492-0E7D0C3C-CD02-4059-AE83-96D07A1E92D5.jpeg?alt=media&token=a3ca8ca9-bcad-4b2d-8163-2cd118a9bc30",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-19",
@@ -58920,7 +58920,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/day-fever/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Day-Fever-SQ-Sleigh-Fever-500x500.png.webp",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-19",
@@ -58936,7 +58936,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/tripl3-b-the-troubl3makers-xmas-party-dj-dubious-dj-tritt-ethobeat/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMzAvMTYvMTAvMTcvNDc2L1JhY2tNdWx0aXBhcnQyMDI2MDkzMC02My13ZjhlNWsucG5nIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-19",
@@ -58955,7 +58955,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/faintest-idea/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Lauras-WF-LCR-IG-Template-49-500x500.png.webp",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-19",
@@ -58971,7 +58971,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/pleasureinc/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/POTY-SQ-Sebbuku.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -58988,7 +58988,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/festive-cat-life-drawing-class",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795027245773-LEBEZ7N3GCRFKSG2S602/draw+some+paws.jpg",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-20",
@@ -59004,7 +59004,7 @@
    "url": "https://www.fatsoma.com/e/9kl2h394/t-was-the-last-dance-before-christmas-day-party",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzIwLzExLzQzLzU3LzYyL1JhY2tNdWx0aXBhcnQyMDI2MTEyMC02MS0xaXp0OGp6LnBuZyJdXQ",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-20",
@@ -59020,7 +59020,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1794217767461-IMG_3654.jpeg?alt=media&token=bb73ac4f-086a-478e-a95d-14bfd2311649",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-20",
@@ -59036,7 +59036,7 @@
    "url": "",
    "image": "",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-21",
@@ -59052,7 +59052,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/m7gwtclwcndfadx4d25ymbzesgbllb",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795027600552-DRGK2B15STH7DKLOB6MW/RHYME_MONTHLY+%281%29.jpg",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-21",
@@ -59068,7 +59068,7 @@
    "url": "https://epic-tv.com/events/event/the-santa-show",
    "image": "",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-21",
@@ -59084,7 +59084,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/the-high-points-christmas-show/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzIzLzEwLzIwLzIvMTAyL1JhY2tNdWx0aXBhcnQyMDI2MTEyMy02My1laDdwYWUuanBnIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-11-23",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-22",
@@ -59100,7 +59100,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/ben-wegg-lydia-cass",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1791823274345-7LAPYY3VYZQICUA3KEUH/IMG_9936.jpeg",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-24",
@@ -59116,7 +59116,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Beautiful+Dangerous",
    "image": "",
    "first_seen": "2026-08-24",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-27",
@@ -59132,7 +59132,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/TBA%2C+URIDIUM%2C+BLOODSHOT%2C+ATARKA%2C+GOAT+MONSOON%2C+PSY",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -59149,7 +59149,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Ska+Souls",
    "image": "",
    "first_seen": "2026-09-02",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-31",
@@ -59165,7 +59165,7 @@
    "url": "https://norwichartscentre.co.uk/event/channel-one-sound-system/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2025/07/Channel-One-25-crop-6877ba2e1e105-800x450-c-default.png",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-31",
@@ -59181,7 +59181,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Wiggy+Stardust+and+the+Ciders+from+Jars",
    "image": "",
    "first_seen": "2026-08-24",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-31",
@@ -59197,7 +59197,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/dead-wax-90s-nye-house-party",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795609407950-Q6G4XA55XB5NSSGOYTAD/90sNYE_a3.jpg",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-31",
@@ -59213,7 +59213,7 @@
    "url": "https://www.fatsoma.com/e/qou6tsr5/nye-house-party-two-room-basement",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzUvOC81OC8xNS83NjMvUmFja011bHRpcGFydDIwMjYxMTA1LTU3LTFuZG90Nm4ucG5nIl1d",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2026-12-31",
@@ -59229,7 +59229,7 @@
    "url": "https://www.fatsoma.com/e/oyq3ii63/nye-special-tea-room-lounge-voodoo-daddy-s",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzUvOC81OC8zOS81NzEvUmFja011bHRpcGFydDIwMjYxMTA1LTU3LTFkaXRweXMucG5nIl1d",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "also_listed_as": [
     "NYE w Josh Roberts & Tim Zee - Tea Room"
    ]
@@ -59248,7 +59248,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-03",
@@ -59281,7 +59281,7 @@
    "url": "https://norwichartscentre.co.uk/event/we-are-closed-friday-3-april/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2022/06/We-are-closed-2022-62a8665c70827-800x450-c-default.jpg",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-08",
@@ -59297,7 +59297,7 @@
    "url": "https://norwichartscentre.co.uk/event/john-otway-wild-willy-barrett/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-29-at-15.03.17-6abbc52a8cf39-800x450-c-default.png",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-09",
@@ -59316,7 +59316,7 @@
    "url": "https://norwichartscentre.co.uk/event/phoebe-troup-album-launch/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/PT-Album-Launch-2-6aec5d1f1ab35-800x450-c-default.jpg",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-09",
@@ -59332,7 +59332,7 @@
    "url": "https://www.norwich.gov.uk/thehalls/music-luther-vandross-candlelight-concert",
    "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-10/Luther-Vandross.jpg?h=3031d7b2&itok=EkwUOSwf",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-10",
@@ -59365,7 +59365,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/matt-embree-vinnie-caruana/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/EMBREE-CARUANA-SQ-500x500.png.webp",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-14",
@@ -59381,7 +59381,7 @@
    "url": "https://norwichartscentre.co.uk/event/the-pink-stones/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Band-promo-1-6a82e18485692-scaled-800x450-c-default.jpg",
    "first_seen": "2026-09-10",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-14",
@@ -59397,7 +59397,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-15",
@@ -59413,7 +59413,7 @@
    "url": "https://norwichartscentre.co.uk/event/winter-gathering-loris-ensemble-bore-joysey-lydia-cass-maple-ward/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Website-image-winter-gathering-15.10.39-6adf6d8dad92d-scaled-800x450-c-default.jpg",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-16",
@@ -59429,7 +59429,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/grooving-in-green-the-glass-house-museum-velocette/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzIvMTUvMzYvMjUvOTQyL1JhY2tNdWx0aXBhcnQyMDI2MTEwMi02Mi0xcDI0MG4zLnBuZyJdXQ?ar=16:9&fit=crop",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-16",
@@ -59445,7 +59445,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/r-e-m-by-stipe-the-definitive-tribute/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/REM-by-Stipe-SQ.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -59462,7 +59462,7 @@
    "url": "https://norwichartscentre.co.uk/event/kezia-gill-solo-acoustic/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/KEZIA-GILL-FB-EVENT-NORWICH-6af5e4a6e31aa-800x450-c-default.jpg",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-21",
@@ -59480,7 +59480,7 @@
    "url": "https://norwichartscentre.co.uk/event/billy-lubach/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Press6-6afc1d6513951-scaled-800x450-c-default.jpg",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-21",
@@ -59496,7 +59496,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/perrl-presents-chuck-ragan-plus-special-guests/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzYvMjMvMTcvMjMvMTgvNjA1L1JhY2tNdWx0aXBhcnQyMDI2MDYyMy02Ni1qY2p1ZTAucG5nIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -59515,7 +59515,7 @@
    "url": "https://norwichartscentre.co.uk/event/laetitia-sadier-stereolab/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Laetitia-sadier-Press-Photo-10-6ada1b29271af-800x450-c-default.png",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-22",
@@ -59533,7 +59533,7 @@
    "url": "https://www.fatsoma.com/e/4d4n7x0f/eats-everything",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzE4LzE0LzExLzQwLzEwMy9SYWNrTXVsdGlwYXJ0MjAyNjExMTgtNTktajc1ZjRuLnBuZyJdXQ",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-22",
@@ -59552,7 +59552,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/alestorm/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Alestorm-2027-full-tour-1x1-1-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -59586,7 +59586,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1792449080287-IMG_3448.jpeg?alt=media&token=6bb6d171-a366-4f1d-81f0-2907eceae1f8",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-23",
@@ -59602,7 +59602,7 @@
    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=125801",
    "image": "https://system.spektrix.com/themaddermarkettheatre/files/9a7a9479-f9d1-49a9-a15f-94375a2b0bb7.jpeg",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-24",
@@ -59618,7 +59618,7 @@
    "url": "https://epic-tv.com/events/event/little-lifts-fitness-festival-w-tribe-collective",
    "image": "",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-25",
@@ -59655,7 +59655,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1789716201019-IMG_3289.jpeg?alt=media&token=44a63c40-9596-44a4-91bf-d28ed83181e5",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-25",
@@ -59688,7 +59688,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/tummyache/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzEzLzEyLzEzLzcvODkvUmFja011bHRpcGFydDIwMjYxMDEzLTYzLTFkZzE0bTMuanBnIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-10-14",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-26",
@@ -59706,7 +59706,7 @@
    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-the-new-cut/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/The-New-Cut-IVW-6ab692e2de14e-800x450-c-default.jpg",
    "first_seen": "2026-09-25",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-26",
@@ -59722,7 +59722,7 @@
    "url": "https://epic-tv.com/events/event/sleemo-ivw-2027",
    "image": "",
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-26",
@@ -59738,7 +59738,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/marla-kether/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzMvMTcvMzgvNy8xNjUvUmFja011bHRpcGFydDIwMjYxMTAzLTU4LTFhdzFheTAuanBnIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-27",
@@ -59754,7 +59754,7 @@
    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-heartworms/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Heartworms-6afc99c9f2075-800x450-c-default.jpg",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-27",
@@ -59770,7 +59770,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-27",
@@ -59788,7 +59788,7 @@
    "url": "https://epic-tv.com/events/event/girl-group-ivw-2027",
    "image": "",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-27",
@@ -59804,7 +59804,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/girl-group/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzcvMi8xOC80My8zOC81OTUvUmFja011bHRpcGFydDIwMjYwNzAyLTU3LTFlcDR4N2cucG5nIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-10-02",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-27",
@@ -59820,7 +59820,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/sandhouse/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzExLzkvMTUvMTIvNjg4L1JhY2tNdWx0aXBhcnQyMDI2MTExMS01OC0xZGN3NzU1LmpwZyJdXQ?ar=16:9&fit=crop",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-27",
@@ -59836,7 +59836,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/skinny-living/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/SkinnyLiving_Poster_RGB_SQ-500x500.png.webp",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-28",
@@ -59852,7 +59852,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-28",
@@ -59885,7 +59885,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1793909561313-IMG_3591.jpeg?alt=media&token=ae2792b5-b721-44b2-aa81-ab63085f3b30",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-28",
@@ -59901,7 +59901,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/fat-dog/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DP-WF-LCR-12-500x500.jpg.webp",
    "first_seen": "2026-09-03",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-28",
@@ -59917,7 +59917,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/slap-rash/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Lauras-WF-LCR-IG-Template-61-1-500x500.png.webp",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-29",
@@ -59935,7 +59935,7 @@
    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-do-nothing/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Do-Nothing-IVW-logo-6acdfe833b6d9-scaled-800x450-c-default.jpg",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-29",
@@ -59951,7 +59951,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Chemistry+-+A+Tribute+to+Rush",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-29",
@@ -59969,7 +59969,7 @@
    "url": "https://www.fatsoma.com/e/z9wd2hpt/voigtmann",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzE5LzkvNTgvMjcvNDkxL1JhY2tNdWx0aXBhcnQyMDI2MTExOS01OS1oaGM2NmYucG5nIl1d",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-29",
@@ -59985,7 +59985,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1792055304339-IMG_3428.jpeg?alt=media&token=084408c0-338f-4d0c-b690-d1b3416a4b08",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-29",
@@ -60001,7 +60001,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/martial-arts-goodbye/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI3LzExLzE0LzU0LzExOC9SYWNrTXVsdGlwYXJ0MjAyNjEwMjctNTQtMXJzdm1vdy5qcGciXV0?ar=16:9&fit=crop",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-30",
@@ -60019,7 +60019,7 @@
    "url": "https://norwichartscentre.co.uk/event/pigeon/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/06/Pigeon-with-IVW-logo-6ad637fddc66d-800x450-c-default.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -60053,7 +60053,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1786637117957-IMG_3091.jpeg?alt=media&token=16caa51e-591d-412a-99e9-c142741638e7",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-01-30",
@@ -60069,7 +60069,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/noasis/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Noasis-Norwich-SQ-500x500.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -60086,7 +60086,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/simulation-muse-sucker-love/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Simulation-Muse_Square-500x500.png",
    "first_seen": "2026-09-03",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-01",
@@ -60102,7 +60102,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-cheap-thrills/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Lauras-WF-LCR-IG-Template-47-500x500.png.webp",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-02",
@@ -60118,7 +60118,7 @@
    "url": "https://epic-tv.com/events/event/tangerine-dream-level-tour-2027",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -60135,7 +60135,7 @@
    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-knitting/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-13.20.27-6aa14f11abba2-800x450-c-default.png",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-03",
@@ -60151,7 +60151,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/black-stone-cherry/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2025/12/Dianas-WF-AND-LCR-MASTERS-USE-THESE-43-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-04",
@@ -60167,7 +60167,7 @@
    "url": "https://epic-tv.com/events/event/robben-ford",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-04",
@@ -60183,7 +60183,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/nubiyan-twist/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Nubiyan-Twist-SQ-500x500.png.webp",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-04",
@@ -60201,7 +60201,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/split-dogs/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/SPLOT-DOGS-SQ-500x500.png.webp",
    "first_seen": "2026-09-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-05",
@@ -60217,7 +60217,7 @@
    "url": "https://norwichartscentre.co.uk/event/tone-presents-mercy-girl/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Copia-di-Mercy-Girl-Press-Pic-1-crop-6aabea8d152a7-800x450-c-default.jpg",
    "first_seen": "2026-09-22",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-05",
@@ -60237,7 +60237,7 @@
    "url": "https://epic-tv.com/events/event/shy-fx",
    "image": "",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-06",
@@ -60253,7 +60253,7 @@
    "url": "https://norwichartscentre.co.uk/event/transmission-the-sound-of-joy-division/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-14.58.45-6aec9a258bbe2-800x450-c-default.png",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-06",
@@ -60271,7 +60271,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/bywater-call/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/Bywater-Call-1080-x-1080-Norwich-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-07",
@@ -60287,7 +60287,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/admt/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/ADMT-WATERFRONT-1080X1080-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-07",
@@ -60303,7 +60303,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/jonah-matranga-onelinedrawing/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Jonah-Matranga-SQ-500x500.jpg.webp",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-08",
@@ -60319,7 +60319,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/esprit-dair/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/imresizer-resize-Esprit-DAir-Tour-Square-500x500.jpg.webp",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-09",
@@ -60335,7 +60335,7 @@
    "url": "https://norwichartscentre.co.uk/event/eliza-carthy-the-restitution/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-13.14.07-6aa14d947d8e8-800x450-c-default.png",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-09",
@@ -60351,7 +60351,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1795016501459-IMG_3733.png?alt=media&token=c7e888a6-9734-45c9-bdd9-95c32d841e0d",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-10",
@@ -60367,7 +60367,7 @@
    "url": "https://epic-tv.com/events/event/malevolence-united-kingdom-of-chaos-27",
    "image": "",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-11",
@@ -60385,7 +60385,7 @@
    "url": "https://norwichartscentre.co.uk/event/ben-tom-waters/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Ben-and-Tom-colour-6af1f49dadda8-scaled-800x450-c-default.jpg",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-11",
@@ -60401,7 +60401,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-11",
@@ -60417,7 +60417,7 @@
    "url": "https://epic-tv.com/events/event/4am-kru-from-the-ground-up-tour-27",
    "image": "",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-11",
@@ -60438,7 +60438,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/wonk-unit-project-mork-gourds/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzI2LzEwLzM2LzQxLzIzMC9SYWNrTXVsdGlwYXJ0MjAyNjEwMjYtNjQtMWV6dXh1Zy5qcGciXV0?ar=16:9&fit=crop",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-12",
@@ -60454,7 +60454,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/ADTR+-+A+Day+to+Remember+UK",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-12",
@@ -60473,7 +60473,7 @@
    "url": "https://www.fatsoma.com/e/cujnqdye/globex-corp-tim-reaper-dwarde",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzE2LzUzLzIvODI2L1JhY2tNdWx0aXBhcnQyMDI2MTEyNC01Ny04dmtkODEucG5nIl1d",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-12",
@@ -60489,7 +60489,7 @@
    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=120201",
    "image": "https://system.spektrix.com/themaddermarkettheatre/files/a430c242-3dc5-44e0-8928-3d8b76bdacb8.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -60506,7 +60506,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/big-wett/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/BIgWett_Poster-SQ-500x500.png.webp",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-12",
@@ -60526,7 +60526,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/ingested/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Ingested-SQ-500x500.png.webp",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-13",
@@ -60542,7 +60542,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Damage",
    "image": "",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-13",
@@ -60558,7 +60558,7 @@
    "url": "https://epic-tv.com/events/event/sophie-mccartney-back-in-the-day-rave",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-13",
@@ -60576,7 +60576,7 @@
    "url": "https://www.fatsoma.com/e/rk2hj4cp/julian-anthony",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzE3LzQzLzE5LzY2MS9SYWNrTXVsdGlwYXJ0MjAyNjExMjQtNjEtMTRkcHowZS5wbmciXV0",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-13",
@@ -60592,7 +60592,7 @@
    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=122401",
    "image": "https://system.spektrix.com/themaddermarkettheatre/files/3364c674-d642-420b-95fe-701b7533e854.jpg",
    "first_seen": "2026-09-11",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-13",
@@ -60608,7 +60608,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-devout/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/The-Devout-Norwich-SQ-500x500.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -60627,7 +60627,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-karma-effect/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/imresizer-TheKarmaEffect-02-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-14",
@@ -60643,7 +60643,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1785586531565-IMG_3007.jpeg?alt=media&token=8fb0def1-704d-4ddc-a4b5-481727f6881e",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "also_listed_as": [
     "Old Saw (Henry Birdsey) + Feld + more!",
     "Old Saw (Henry Birdsey) + supports"
@@ -60664,7 +60664,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/big-truck/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMS8xMC81OC8zMi82MDAvUmFja011bHRpcGFydDIwMjYwOTAxLTY3LW9ydGlpMC5qcGciXV0?ar=16:9&fit=crop",
    "first_seen": "2026-09-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-16",
@@ -60680,7 +60680,7 @@
    "url": "https://norwichartscentre.co.uk/event/hayden-thorpe-performs-the-songs-of-wild-beasts/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/Screenshot-2026-07-07-at-11.09.45-6a4cd0915807c-800x450-c-default.png",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -60697,7 +60697,7 @@
    "url": "https://epic-tv.com/events/event/nsf-2027-dino-duel",
    "image": "",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-17",
@@ -60715,7 +60715,7 @@
    "url": "https://norwichartscentre.co.uk/event/corella/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Screenshot-2026-09-25-at-14.28.18-6ab676ffb560c-800x450-c-default.png",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-17",
@@ -60734,7 +60734,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/basement/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Basement-Socials-SQ-500x500.jpg.webp",
    "first_seen": "2026-08-24",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-18",
@@ -60752,7 +60752,7 @@
    "url": "https://norwichartscentre.co.uk/event/the-bones-of-jr-jones/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/Screenshot-2026-05-22-at-15.48.41-6a106cfac9ca1-800x450-c-default.png",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-18",
@@ -60768,7 +60768,7 @@
    "url": "https://epic-tv.com/events/event/maisie-adam-whatsherface",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-18",
@@ -60787,7 +60787,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/as-everything-unfolds/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-resize-AEU_Square-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-18",
@@ -60803,7 +60803,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/jamie-lenman/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/JamieLenman_SQ-500x500.png.webp",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-19",
@@ -60819,7 +60819,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Power+Promotions+Present...++%40the+Brickmaker",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-19",
@@ -60835,7 +60835,7 @@
    "url": "https://epic-tv.com/events/event/elvana-elvis-fronted-nirvana",
    "image": "",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-19",
@@ -60853,7 +60853,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/south-arcade/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/SA-SQ-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-19",
@@ -60869,7 +60869,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/the-faith-estate-ziggarettes-the-speed-of-honey-her-oscillations/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzEyLzEzLzE5LzQzLzU1Ny9SYWNrTXVsdGlwYXJ0MjAyNjExMTItNTctYXFpdnRwLmpwZyJdXQ?ar=16:9&fit=crop",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-19",
@@ -60885,7 +60885,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/beux-gris-gris-the-apocalypse/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-Beaux-Gris-and-the-Apocalypse-Digital_Square-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-20",
@@ -60901,7 +60901,7 @@
    "url": "https://norwichartscentre.co.uk/event/synth-east-factory-floor-immersion/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-15.32.10-6ae9fe82375c7-800x450-c-default.png",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-20",
@@ -60917,7 +60917,7 @@
    "url": "https://epic-tv.com/events/event/absolute-bowie",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-20",
@@ -60933,7 +60933,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/green-shuck-presents-monkeyfist-triple-b-dub-sweat-and-beers/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzEwLzQwLzUwLzUyNy9SYWNrTXVsdGlwYXJ0MjAyNjExMjQtNTktbHBuYmc2LmpwZWciXV0?ar=16:9&fit=crop",
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-21",
@@ -60949,7 +60949,7 @@
    "url": "https://norwichartscentre.co.uk/event/synth-east-electronic-cabaret/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-15.32.10-6ae9fe82375c7-800x450-c-default.png",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-21",
@@ -60965,7 +60965,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/maquina/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTYvMTEvMTUvNi82NDQvUmFja011bHRpcGFydDIwMjYwOTE2LTU1LXo1NWZoZC5qcGciXV0?ar=16:9&fit=crop",
    "first_seen": "2026-09-21",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-21",
@@ -60981,7 +60981,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/ben-poole/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Ben-Poole-Digital_Square-1-500x500.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-22",
@@ -60997,7 +60997,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/scarlet-rebels/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DP-WF-LCR-8.jpg.webp",
    "first_seen": "2026-09-03",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-22",
@@ -61016,7 +61016,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/zebrahead/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/ZEBRAHEAD-SQ-NORWICH.png.webp",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-23",
@@ -61032,7 +61032,7 @@
    "url": "https://norwichartscentre.co.uk/event/joan-as-police-woman/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/03/Joan-As-Police-Woman-Real-Life--69ca8f711cc04-scaled-800x450-c-default.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-23",
@@ -61048,7 +61048,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/florence-black/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Florence-Black-SQ-500x500.png.webp",
    "first_seen": "2026-08-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-24",
@@ -61064,7 +61064,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-24",
@@ -61080,7 +61080,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/flashbang-a-play-by-james-lewis",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795437303871-OUHCNEJ0SV8XYNZE3PQN/DM+Poster+Touring+Poster+1.png",
    "first_seen": "2026-11-23",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-25",
@@ -61096,7 +61096,7 @@
    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-caoilfhionn-rose/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/7-Caoilfhionn-Rose-Press-Shot-Wide-Credit-Rich-Williams-WEB-RES-6acdef1009b04-800x450-c-default.webp",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-25",
@@ -61112,7 +61112,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-25",
@@ -61128,7 +61128,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/flashbang-a-play-by-james-lewis-1",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795437422578-NPDHVM3U3F6Y96S3L1WX/DM+Poster+Touring+Poster+1.png",
    "first_seen": "2026-11-23",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-25",
@@ -61144,7 +61144,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/dog-unit/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTYvOS8yMi8yOS85MjIvUmFja011bHRpcGFydDIwMjYwOTE2LTYwLWVvejNoNy5qcGciXV0?ar=16:9&fit=crop",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-25",
@@ -61160,7 +61160,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/mallory-knox/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/DP-WF-LCR-16-500x500.jpg.webp",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-26",
@@ -61176,7 +61176,7 @@
    "url": "https://epic-tv.com/events/event/the-rasmus-support",
    "image": "https://epicwebsite20241120.z33.web.core.windows.net/d94515dd-cc90-48a2-935b-580a7f3f7180",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-26",
@@ -61192,7 +61192,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1791388305070-cjipplbu4a106eavwclkkrsjojnl.avif?alt=media&token=b3c4df87-a6b7-4263-87f2-1b0f131f8789",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-26",
@@ -61208,7 +61208,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/keo/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Keo-Socials-1080-x-1080-500x500.jpg.webp",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-26",
@@ -61226,7 +61226,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/dick-dom-dnb-rave/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/DicknDom_2027-SQ-500x500.png.webp",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-27",
@@ -61242,7 +61242,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Bootleg+Boss",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-27",
@@ -61258,7 +61258,7 @@
    "url": "https://epic-tv.com/events/event/rob-lamberti-presents-perfectly-george",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -61275,7 +61275,7 @@
    "url": "https://www.fatsoma.com/e/ifh1l05u/reeshy-all-night-long-tour",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzE3LzI4LzMvNTkxL1JhY2tNdWx0aXBhcnQyMDI2MTEyNC01Ny0xNTVmZWEuanBnIl1d",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-27",
@@ -61291,7 +61291,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-doors-alive/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/Doors-Alive-2027-Norwich-1x1-UEA-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -61308,7 +61308,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1793900039277-IMG_3638.jpeg?alt=media&token=c57263c9-3e28-41e9-897f-bac3723e0c84",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-02-28",
@@ -61324,7 +61324,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/citizen-smith-lassie/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzcvOS81NC8yMS83NTcvUmFja011bHRpcGFydDIwMjYxMDA3LTYxLTEyYzhycGQucG5nIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-02",
@@ -61340,7 +61340,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/mad-caddies/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/imresizer-resize-MadCaddies-02-500x500.jpg.webp",
    "first_seen": "2026-09-05",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-04",
@@ -61356,7 +61356,7 @@
    "url": "https://epic-tv.com/events/event/queenz-battle-of-the-divas",
    "image": "",
    "first_seen": "2026-10-24",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-04",
@@ -61372,7 +61372,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/castle/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzUvMTcvMjgvNTAvODM1L1JhY2tNdWx0aXBhcnQyMDI2MTAwNS03MS1rcTF1NHMuanBnIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-04",
@@ -61388,7 +61388,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/family-stereo/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/SQUARE-2-500x500.png.webp",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-05",
@@ -61404,7 +61404,7 @@
    "url": "https://norwichartscentre.co.uk/event/tara-clerkin-trio/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/TCT-WEB-Press-Shot-2026-credit-Peter-Eason-Daniels-6aec9f8167b86-800x450-c-default.jpg",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-05",
@@ -61420,7 +61420,7 @@
    "url": "https://epic-tv.com/events/event/bay-city-rollers",
    "image": "",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-05",
@@ -61436,7 +61436,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/heavy-wild/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzMvMTQvNDAvMjkvNDcwL1JhY2tNdWx0aXBhcnQyMDI2MTEwMy02MS0xZDlpamcxLmpwZyJdXQ?ar=16:9&fit=crop",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-05",
@@ -61452,7 +61452,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-blockheads/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/The-Blockheads_Square-500x500.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-07",
@@ -61468,7 +61468,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/pentire-2/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzExLzUzLzI0Lzg3Mi9SYWNrTXVsdGlwYXJ0MjAyNjExMjQtNTctcjZibTBmLmpwZyJdXQ?ar=16:9&fit=crop",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-07",
@@ -61484,7 +61484,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/nouvelle-vague/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/NouvelleVague-03-500x500.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-10",
@@ -61500,7 +61500,7 @@
    "url": "https://norwichartscentre.co.uk/event/round-midnight-presents-matt-carmichael/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/Matt-BNW-1-photo-by-Camille-Lemoine-6a71bef8b415d-scaled-800x450-c-default.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "from_sheet": true
   },
   {
@@ -61517,7 +61517,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Black+Dog++Music",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-10",
@@ -61533,7 +61533,7 @@
    "url": "https://epic-tv.com/events/event/an-evening-with-nik-kershaw-musings-and-lyrics",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-11",
@@ -61549,7 +61549,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-11",
@@ -61567,7 +61567,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-fratellis/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/The-Fratellis-2027-Costello-Music-Norwich3-002-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-11",
@@ -61585,7 +61585,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/happydaze/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/imresizer-resize-Happydaze_Square_-Norwich-500x500.jpg.webp",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-11",
@@ -61604,7 +61604,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-view/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/The-View-SQ-supports.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-12",
@@ -61620,7 +61620,7 @@
    "url": "https://epic-tv.com/events/event/swiftogeddon-the-reputation-special",
    "image": "",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-12",
@@ -61636,7 +61636,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/rowena-wise/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTYvOS8yMi81Ni80OS9SYWNrTXVsdGlwYXJ0MjAyNjA5MTYtNjItMWh0aDhvZy5qcGciXV0?ar=16:9&fit=crop",
    "first_seen": "2026-09-17",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-12",
@@ -61652,7 +61652,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/opus-kink/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/OPUS-KINK-1X1-500x500.png.webp",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-13",
@@ -61668,7 +61668,7 @@
    "url": "https://norwichartscentre.co.uk/event/the-howlers/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/05/Howlers-web-6a0f174dd752e-800x450-c-default.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-13",
@@ -61684,7 +61684,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/just-radiohead/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/just-radiohead-sq.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-13",
@@ -61702,7 +61702,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/laurence-jones/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/03/LaurenceJones-Square-500x500.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-14",
@@ -61718,7 +61718,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/dan-croll/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-500x500.png.webp",
    "first_seen": "2026-09-22",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-16",
@@ -61734,7 +61734,7 @@
    "url": "https://norwichartscentre.co.uk/event/seth-lakeman/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Seth-Lakeman-2026-c-Dom-Moore-1-6af32b083f8be-scaled-e1794321220636-800x450-c-default.jpg",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-16",
@@ -61750,7 +61750,7 @@
    "url": "https://epic-tv.com/events/event/david-cross-fake-joy-world-tour",
    "image": "",
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-17",
@@ -61768,7 +61768,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/sofy/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/sofy-0-sq-500x500.png.webp",
    "first_seen": "2026-08-26",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-18",
@@ -61784,7 +61784,7 @@
    "url": "https://epic-tv.com/events/event/uk-pink-floyd-experience",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-19",
@@ -61800,7 +61800,7 @@
    "url": "https://www.fatsoma.com/e/rna2glkb/captain-wallop-presents-wallopverse",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzI0LzE2LzI2LzMzLzY5MS9SYWNrTXVsdGlwYXJ0MjAyNjExMjQtNjMtMXlwMXdpai5wbmciXV0",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-19",
@@ -61816,7 +61816,7 @@
    "url": "https://www.norwich.gov.uk/thehalls/fleetwood-mac-songbook-ultimate-tribute-fleetwood-mac",
    "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-09/Horizontal%20Website%20Hero%20Banner%20-%20The%20FM%20Songbook%20-%20V1.png?h=e85cf720&itok=7htkZb5c",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-19",
@@ -61832,7 +61832,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/sleep-broken/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/34463-500x500.png.webp",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-20",
@@ -61848,7 +61848,7 @@
    "url": "https://norwichartscentre.co.uk/event/konkolo-orchestra/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/KONKOLO_ORCHESTRA_credits_Dylan_Moore-6acdf93f59da6-scaled-800x450-c-default.jpg",
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-20",
@@ -61864,7 +61864,7 @@
    "url": "https://epic-tv.com/events/event/buzzcocks-50th-anniversary",
    "image": "",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-20",
@@ -61880,7 +61880,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/indiepalooza-festival/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/02/WF-AND-LCR-MASTERS-USE-THESE-2-500x500.png.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-20",
@@ -61896,7 +61896,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-specials-ltd/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/18122-002-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-21",
@@ -61912,7 +61912,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/henge/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/06/imresizer-Henge-Poster-A3-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-23",
@@ -61928,7 +61928,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/toria-wooff/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzkvMTYvMTEvMzAvNTkvNjcxL1JhY2tNdWx0aXBhcnQyMDI2MDkxNi02Ni1wcnp5N3MuanBnIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-24",
@@ -61944,7 +61944,7 @@
    "url": "https://norwichartscentre.co.uk/event/form-presents-gans/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/GANS-crop-6ada16f73319f-800x450-c-default.jpg",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-24",
@@ -61960,7 +61960,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/The+Psychedelic+Circus",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-24",
@@ -61976,7 +61976,7 @@
    "url": "https://epic-tv.com/events/event/rachel-parris-the-rachel-parris-songbook-date-venue-change",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-25",
@@ -61992,7 +61992,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Open++mic++night+with+Peter+Turrell",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-26",
@@ -62008,7 +62008,7 @@
    "url": "https://norwichartscentre.co.uk/event/liqueur-a-tribute-to-the-cure/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/fullbandlive-6ae07c24bfb5a-scaled-800x450-c-default.jpg",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-26",
@@ -62024,7 +62024,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1789658610792-IMG_3285.jpeg?alt=media&token=55b50da7-8c4d-4e54-af8f-1390d52fe866",
    "first_seen": "2026-09-18",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-26",
@@ -62040,7 +62040,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-kairos/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/DP-WF-LCR-19.jpg.webp",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-27",
@@ -62056,7 +62056,7 @@
    "url": "https://epic-tv.com/events/event/gok-wan-isolation-nation",
    "image": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-28",
@@ -62076,7 +62076,7 @@
    "url": "https://www.fatsoma.com/e/49i06zhu/fabio-grooverider-up-close-personal-easter-sunday-day-rave",
    "image": "https://cdn2.fatsoma.com/media/W1siZiIsInB1YmxpYy8yMDI2LzExLzIwLzExLzM0LzMzLzEyNC9SYWNrTXVsdGlwYXJ0MjAyNjExMjAtNjMtMTNlbXpyZy5wbmciXV0",
    "first_seen": "2026-11-23",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-31",
@@ -62092,7 +62092,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Norfolk+Blues+Society+at+the+Brickmakers",
    "image": "",
    "first_seen": "2026-09-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-03-31",
@@ -62108,7 +62108,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/dinosaur-pile-up/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/DPU_UKTour_2027_1x1-1-500x500.jpg.webp",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-01",
@@ -62124,7 +62124,7 @@
    "url": "https://epic-tv.com/events/event/letz-zep-greatest-hits-show",
    "image": "",
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-01",
@@ -62142,7 +62142,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-lilacs/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/Lilacs-Tour-Support-Socials-SQ-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-02",
@@ -62158,7 +62158,7 @@
    "url": "https://epic-tv.com/events/event/rhythm-of-the-90s",
    "image": "",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-02",
@@ -62176,7 +62176,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/sleeper/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Sleeper-2027-Norwich-1080x1080-1-500x500.jpg.webp",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-02",
@@ -62192,7 +62192,7 @@
    "url": "https://www.norwich.gov.uk/thehalls/let-music-play-celebration-barry-white",
    "image": "https://www.norwich.gov.uk/sites/default/files/styles/large_3_2_768x512/public/2026-10/Barry%20White%201630x1051%20.png?itok=8Hd1jMKk",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-03",
@@ -62208,7 +62208,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/nirvana-tribute/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Nirvana-Tribute-SQ.png.webp",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-06",
@@ -62224,7 +62224,7 @@
    "url": "https://norwichartscentre.co.uk/event/jazz-sabbath/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2025/12/Jazz-Sabbath-WEB-photo-Jason-Gilchrist-693ae8ab620ee-800x450-c-default.jpg",
    "first_seen": "2026-09-03",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-07",
@@ -62240,7 +62240,7 @@
    "url": "https://norwichartscentre.co.uk/event/daoiri-farrell/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Daoiri-Farrell-_2_photo-credit-Eddie-Cavanagh-6ab1398132c31-scaled-800x450-c-default.jpg",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-08",
@@ -62256,7 +62256,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/basht/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Lauras-WF-LCR-IG-Template-67-500x500.png.webp",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-09",
@@ -62272,7 +62272,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Motorheadache",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-09",
@@ -62288,7 +62288,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/vic-allen/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzIvMTMvMjYvNS8zNDQvUmFja011bHRpcGFydDIwMjYxMDAyLTYwLXpuNjhxbC5qcGciXV0?ar=16:9&fit=crop",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-09",
@@ -62304,7 +62304,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/martin-stephenson-the-daintees/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/04/MSTD-SQ-1080-x-1080-Norwich-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-12",
@@ -62322,7 +62322,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/gabrielle/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/Gabrielle__socials_new-dates-solus_1080-x-10803-1-500x500.jpg.webp",
    "first_seen": "2026-08-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-14",
@@ -62338,7 +62338,7 @@
    "url": "https://norwichartscentre.co.uk/event/flook/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Flook-by-Eddie-Kavanagh-scaled-6ab12c3b922ca-800x450-c-default.jpg",
    "first_seen": "2026-09-25",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-15",
@@ -62354,7 +62354,7 @@
    "url": "https://norwichartscentre.co.uk/event/willie-j-healey/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Screenshot-2026-10-19-at-15.18.45-6ad626ca6a7aa-800x450-c-default.png",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-15",
@@ -62374,7 +62374,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/uk-subs/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/07/UK-Subs-Norwich-Sq-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-16",
@@ -62390,7 +62390,7 @@
    "url": "https://norwichartscentre.co.uk/event/the-cain-pit/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/07/514372878_724945413609173_4385502089203534910_n-6a59fc0da8651-scaled-800x450-c-default.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-16",
@@ -62406,7 +62406,7 @@
    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=118201",
    "image": "https://system.spektrix.com/themaddermarkettheatre/files/d10ed3ca-3c77-4b99-8934-16b476a45733.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-16",
@@ -62422,7 +62422,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/slomosa/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/SLOMOSA-SQ-500x500.png.webp",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-17",
@@ -62438,7 +62438,7 @@
    "url": "https://norwichartscentre.co.uk/event/tone-presents-halina-rice/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Halina-Rice-live-HERE-at-Outernet-London-UK-7430-6ad61b65545d9-scaled-800x450-c-default.jpg",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-17",
@@ -62454,7 +62454,7 @@
    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=120401",
    "image": "https://system.spektrix.com/themaddermarkettheatre/files/54680c6a-6ba4-46cb-97af-4d2807c3a38b.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-17",
@@ -62470,7 +62470,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/dave-finnegans-the-commitments/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Dave-Finnegan-the-commitments-SQ-NORWICH-500x500.png.webp",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-17",
@@ -62486,7 +62486,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/nontaines-d-c/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/nontaines-DC-SQ-500x500.png.webp",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-20",
@@ -62502,7 +62502,7 @@
    "url": "https://norwichartscentre.co.uk/event/the-curlews-call-an-evening-with-david-gray-and-mary-colwell/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/The-Curlews-6ae32a7f3a074-800x450-c-default.jpg",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-20",
@@ -62518,7 +62518,7 @@
    "url": "https://www.deadwaxnorwich.pub/whats-on/phaseshifter-x-dead-wax-presents-rhododendron-kulk",
    "image": "https://images.squarespace-cdn.com/content/v1/683f1ade55ec750b3b22e273/1795525831293-8PJT4L44TRDT29FCMDXJ/WhatsApp+Image+2026-11-24+at+11.40.15.jpeg",
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-21",
@@ -62534,7 +62534,7 @@
    "url": "https://epic-tv.com/events/event/scott-bennett-stuff",
    "image": "",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-21",
@@ -62550,7 +62550,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/pica-pica-pica-pica-presents-bureau-de-change-supports-tba/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzExLzIxLzExLzI5LzUzLzQ2My9SYWNrTXVsdGlwYXJ0MjAyNjExMjEtNjAtMXYyOXFsZS5qcGciXV0?ar=16:9&fit=crop",
    "first_seen": "2026-11-23",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-23",
@@ -62566,7 +62566,7 @@
    "url": "https://norwichartscentre.co.uk/event/first-time-flyers/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/FTF-NORWICH-FB-EVENT-6ab0f0b8d4b5d-800x450-c-default.jpg",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-23",
@@ -62582,7 +62582,7 @@
    "url": "https://epic-tv.com/events/event/prince-tribute-endorphinmachine-feat-jolan-greatest-hits-show",
    "image": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-23",
@@ -62598,7 +62598,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1793894369938-IMG_3637.jpeg?alt=media&token=566916f3-cd83-465d-b3f6-9178b399069b",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-23",
@@ -62616,7 +62616,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/999/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/999-SQ.png.webp",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-23",
@@ -62632,7 +62632,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/moving-pictures-a-tribute-to-rush/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/M-Pictures-2027-Norwich-1x1-UEA-500x500.jpg.webp",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-24",
@@ -62648,7 +62648,7 @@
    "url": "https://norwichartscentre.co.uk/event/ibibio-sound-machine/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/09/Screenshot-2026-08-26-at-15.51.34-6a8efd7c32ee6-800x450-c-default.png",
    "first_seen": "2026-09-03",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-24",
@@ -62664,7 +62664,7 @@
    "url": "https://epic-tv.com/events/event/oas-is",
    "image": "",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-24",
@@ -62680,7 +62680,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/cody-pennington-country-show/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Cody-Pennington-Norwich-Square-500x500.jpeg.webp",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-24",
@@ -62696,7 +62696,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/downloaded/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/05/Downloaded-Norwich-square-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-29",
@@ -62712,7 +62712,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-blow-monkeys/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/TBM-40th-1x1-V1-500x500.jpg.webp",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-04-30",
@@ -62728,7 +62728,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/extc/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/EXTC_Square-500x500.png.webp",
    "first_seen": "2026-08-26",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-01",
@@ -62778,7 +62778,7 @@
    "url": "https://thehollowaynorwich.com/events",
    "image": "https://firebasestorage.googleapis.com/v0/b/the-holloway.firebasestorage.app/o/events%2F1795513573180-IMG_3751.jpeg?alt=media&token=2f9674dd-e7c6-4cfc-95a9-1f7bc75602ed",
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-03",
@@ -62794,7 +62794,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-wedding-present/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/TWP-SQUARE-NORWICH-500x500.png.webp",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-05",
@@ -62810,7 +62810,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/chvrches/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Image-500x500.jpeg.webp",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-06",
@@ -62843,7 +62843,7 @@
    "url": "https://norwichartscentre.co.uk/event/warrington-runcorn-new-town-development-plan/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/08/portrait-2026.jpg-6a917af662b5a-800x450-c-default.webp",
    "first_seen": "2026-09-01",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-07",
@@ -62859,7 +62859,7 @@
    "url": "https://epic-tv.com/events/event/an-acoustic-evening-with-ward-thomas",
    "image": "",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-08",
@@ -62875,7 +62875,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/jonny-morgan-the-moral-support/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/DP-WF-LCR-17.jpg.webp",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-14",
@@ -62891,7 +62891,7 @@
    "url": "https://epic-tv.com/events/event/emo-fest",
    "image": "",
    "first_seen": "2026-09-21",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-15",
@@ -62907,7 +62907,7 @@
    "url": "https://epic-tv.com/events/event/the-eminem-experience-may-2027",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-15",
@@ -62940,7 +62940,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/moments-of-pleasure-the-music-of-kate-bush/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Moments-Of-Pleasure-1080-x-1080-Norwich-500x500.jpg.webp",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-15",
@@ -62956,7 +62956,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/ultimate-coldplay/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Ultimate-Coldplay-Waterfront-Norwich-Square-2026-500x500.jpg.webp",
    "first_seen": "2026-09-15",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-16",
@@ -62972,7 +62972,7 @@
    "url": "https://norwichartscentre.co.uk/event/norwich-jazz-festival-red-snapper/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Red-Snapper-with-logo-6ac4c0fc2e760-e1791298823526-800x450-c-default.jpg",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-16",
@@ -62988,7 +62988,7 @@
    "url": "https://epic-tv.com/events/event/lindisfarne",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-18",
@@ -63004,7 +63004,7 @@
    "url": "https://norwichartscentre.co.uk/event/norwich-jazz-festival-emma-rawicz/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Emma-Rawicz-with-logo-6ac4c10aa586a-e1791298985335-800x450-c-default.jpg",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-20",
@@ -63020,7 +63020,7 @@
    "url": "https://norwichartscentre.co.uk/event/norwich-jazz-festival-fergus-mccreadie/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Fergus-McCreadie-with-logo-6ac4c0ebacc87-e1791298887382-800x450-c-default.jpg",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-20",
@@ -63036,7 +63036,7 @@
    "url": "https://epic-tv.com/events/event/thomas-green",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-21",
@@ -63054,7 +63054,7 @@
    "url": "https://norwichartscentre.co.uk/event/norwich-jazz-festival-knats/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/10/Knats-with-logo-6ac4bfdb53e43-e1791298947908-800x450-c-default.jpg",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-21",
@@ -63070,7 +63070,7 @@
    "url": "https://www.norfolkgigguide.com/band-details/Mosh+Spice",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-21",
@@ -63086,7 +63086,7 @@
    "url": "https://epic-tv.com/events/event/the-tumbling-paddies",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-21",
@@ -63102,7 +63102,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/bruce-foxton/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/Lauras-WF-LCR-IG-Template-33-500x500.png",
    "first_seen": "2026-09-21",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-22",
@@ -63118,7 +63118,7 @@
    "url": "https://epic-tv.com/events/event/deirdre-okane-all-the-rage",
    "image": "",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-23",
@@ -63134,7 +63134,7 @@
    "url": "https://epic-tv.com/events/event/the-makings-of-a-murderer-fatal-mistake",
    "image": "",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-26",
@@ -63150,7 +63150,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/black-flag/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/BlackFlag_Norwich_Sq-500x500.png.webp",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-27",
@@ -63183,7 +63183,7 @@
    "url": "https://epic-tv.com/events/event/tom-meighan-the-original-voice-of-kasabian",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-29",
@@ -63199,7 +63199,7 @@
    "url": "https://epic-tv.com/events/event/cream-classics-norwich",
    "image": "",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-29",
@@ -63215,7 +63215,7 @@
    "url": "https://www.voodoodaddysshowroom.co.uk/event/the-rattlebacks/",
    "image": "https://fatsoma.imgix.net/W1siZiIsInB1YmxpYy8yMDI2LzEwLzE5LzE1LzkvNy80NDUvUmFja011bHRpcGFydDIwMjYxMDE5LTU5LTFtMnk4cGYuanBnIl1d?ar=16:9&fit=crop",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-29",
@@ -63233,7 +63233,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-smyths/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/08/The-Smyths-Norwich-SQ-500x500.jpg.webp",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-05-30",
@@ -63249,7 +63249,7 @@
    "url": "https://norwichartscentre.co.uk/event/personal-trainer/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Screenshot-2026-11-16-at-11.27.12-6afae8a85b94f-800x450-c-default.png",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-06-05",
@@ -63265,7 +63265,7 @@
    "url": "https://norwichartscentre.co.uk/event/pony-up-presents-black-doldrums/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/Horiz-1-6aedf27e9fc83-scaled-800x450-c-default.jpg",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-06-05",
@@ -63281,7 +63281,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/professor-green/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Prof-Green-2027-Tour-Artwork-1080x1080-1-500x500.jpg.webp",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-06-05",
@@ -63297,7 +63297,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/when-waterfront-was-young/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/WWWY27_Square-500x500.png.webp",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-06-11",
@@ -63313,7 +63313,7 @@
    "url": "https://epic-tv.com/events/event/the-beat-ft-ranking-jr",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-06-11",
@@ -63329,7 +63329,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/nic-cage-against-the-machine/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/270611-Core.-Presents-Nic-Cage-Against-The-Machine-Adrian-Flux-Waterfront-Studio-Norwich-Event-Image-500x500.jpg.webp",
    "first_seen": "2026-09-28",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-06-12",
@@ -63345,7 +63345,7 @@
    "url": "https://epic-tv.com/events/event/man-in-the-mirror-a-tribute-to-michael-jackson-2027",
    "image": "",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-06-18",
@@ -63361,7 +63361,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/china-crisis/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/China-Crisis_The-Waterfront_Square-1-500x500.jpg.webp",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-06-25",
@@ -63394,7 +63394,7 @@
    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=124201",
    "image": "https://system.spektrix.com/themaddermarkettheatre/files/5dc622ad-f4f4-4b60-ab8c-65461f373ab7.jpg",
    "first_seen": "2026-09-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-07-10",
@@ -63410,7 +63410,7 @@
    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=120601",
    "image": "https://system.spektrix.com/themaddermarkettheatre/files/5fa692d6-9cbc-44a9-898a-127ccbea2ba2.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-07-23",
@@ -63426,7 +63426,7 @@
    "url": "https://norwichartscentre.co.uk/event/bootleg-blondie/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2023/02/Bootleg-BlondieDebbie-Harris-stage-crop-2-2023-63f78b403defb-800x450-c-default.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-08-07",
@@ -63442,7 +63442,7 @@
    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=131801",
    "image": "https://system.spektrix.com/themaddermarkettheatre/files/4d702727-5ea6-4eb7-8951-bde1e874c06a.jpg",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-08-08",
@@ -63458,7 +63458,7 @@
    "url": "https://norwichartscentre.co.uk/event/tom-robinson-band/",
    "image": "https://norwichartscentre.co.uk/wp-content/uploads/2026/11/TRB-Norwich-Square-6af735e307288-800x450-c-default.jpg",
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-08-20",
@@ -63491,7 +63491,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/96-bitter-beings-feat-deron-miller-cky/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/96BB_Digital_SQUARE-500x500.png.webp",
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-09-19",
@@ -63507,7 +63507,7 @@
    "url": "https://booking.maddermarket.co.uk/EventAvailability?EventId=99801",
    "image": "https://system.spektrix.com/themaddermarkettheatre/files/885550b0-7ee4-4a16-afe9-c2de879121a0.jpg",
    "first_seen": "2026-08-19",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-09-25",
@@ -63523,7 +63523,7 @@
    "url": "https://epic-tv.com/events/event/a-night-of-sade-in-norwich",
    "image": "",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-09-26",
@@ -63539,7 +63539,7 @@
    "url": "https://epic-tv.com/events/event/sophie-mccartney-queenage-dirtbag",
    "image": "",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-10-02",
@@ -63555,7 +63555,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/foxymop-a-tribute-to-pearl-jam/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/11/Foxymop-2027-Digital-Graphics_1080x1080-1-1-Square_Waterfront-500x500.jpg.webp",
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-10-29",
@@ -63571,7 +63571,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-ruts/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/09/The-Ruts-1080-x-1080-500x500.jpg.webp",
    "first_seen": "2026-09-21",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-11-02",
@@ -63604,7 +63604,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/the-lightning-seeds/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/LightningSeeds_National_socials_x3_V4_1080-x-1080-500x500.jpg.webp",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   {
    "date": "2027-12-04",
@@ -63620,7 +63620,7 @@
    "url": "https://www.ueaticketbookings.co.uk/event/peter-hook-the-light/",
    "image": "https://www.ueaticketbookings.co.uk/wp-content/uploads/2026/10/Peter-Hook-Light-2027-Norwich_1x1_Grey-500x500.png.webp",
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   }
  ],
  "scrape_days": {
@@ -65517,6 +65517,25 @@
    "Waterfront"
   ],
   "2026-11-26": [
+   "Arts Centre",
+   "Brickmakers",
+   "Dead Wax",
+   "Epic",
+   "Gonzos",
+   "HMV",
+   "Hangar",
+   "Holloway",
+   "LCR",
+   "Last Pub",
+   "Maddermarket",
+   "Revolucion de Cuba",
+   "Ribs of Beef",
+   "Space",
+   "The Halls",
+   "Voodoos",
+   "Waterfront"
+  ],
+  "2026-11-27": [
    "Arts Centre",
    "Brickmakers",
    "Dead Wax",
