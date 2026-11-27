@@ -35,8 +35,8 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT / "blogger"))
 from build_blogger_page import (  # noqa: E402  (shared with the home page build)
-    MONTHS, assign_gig_slugs, build_home, clean_name, gig_key, offer, ordinal, poster_url,
-    ticket_url,
+    MONTHS, assign_gig_slugs, blogger_img, build_home, clean_name, gig_key, offer, ordinal,
+    poster_url, ticket_url,
 )
 
 EVENTS_JSON = ROOT / "scraped_data" / "norwich_gigs.json"
@@ -545,141 +545,221 @@ ARCHIVE_JSON = ROOT / "scraped_data" / "gig_archive.json"
 ARCHIVE_VENUE_NAMES = {"The Reindeer": "Reindeer", "The LCR": "LCR", "Epic Studios": "Epic"}
 
 
-def archive_data(today: date, gig_pages: dict) -> tuple[list, dict]:
+def _event_filter():
+    """The scraper's own keyword filter (quiz, bingo, cinema, karaoke, comedy,
+    phone numbers...), so the archive leaves out exactly what the home page
+    does - including old gigs from before a keyword was added, and gigs from
+    the hand-made sheet. Returns None if the scraper can't be imported."""
+    try:
+        sys.path.insert(0, str(ROOT))
+        from scrape_headless import should_filter_event
+        return should_filter_event
+    except Exception as exc:  # never let this stop the site build
+        print(f"Archive: couldn't load the scraper's keyword filter ({exc}) - not filtering", file=sys.stderr)
+        return None
+
+
+def archive_data(today: date, gig_pages: dict, cfg: dict) -> tuple[list, dict]:
     """Past gigs from scraped_data/gig_archive.json for the archive page, newest
-    first, as compact rows [date, venue, name, support, price, gig page or ""].
-    Gigs that vanished from listings before their date (probably cancelled)
-    are left out."""
+    first, as compact rows [date, venue, name, support, price, gig page, poster].
+    Left out: gigs that vanished from listings before their date (probably
+    cancelled) and anything the scraper's keyword filter would drop."""
     if not ARCHIVE_JSON.exists():
         return [], {}
     gigs = json.loads(ARCHIVE_JSON.read_text(encoding="utf-8")).get("gigs", [])
-    rows = []
+    keep_out = _event_filter()
+
+    def text(v):   # support can be a list of acts
+        return ", ".join(map(str, v)) if isinstance(v, list) else str(v or "").strip()
+
+    rows, filtered = [], 0
     for g in gigs:
         if g.get("date", "") >= today.isoformat() or g.get("removed_early"):
+            continue
+        if keep_out and any(keep_out(n) for n in [g.get("event_name", ""), *g.get("also_listed_as", [])]):
+            filtered += 1
             continue
         name = clean_name(g.get("event_name", ""))[0].strip()
         if not name:
             continue
         venue = ARCHIVE_VENUE_NAMES.get(g.get("venue", ""), g.get("venue", ""))
-        def text(v):   # support can be a list of acts
-            return ", ".join(map(str, v)) if isinstance(v, list) else str(v or "").strip()
+        img = g.get("image") or ""
         rows.append([g["date"], venue, name, text(g.get("support")), text(g.get("price")),
-                     gig_pages.get(gig_key(g), "")])
+                     gig_pages.get(gig_key(g), ""), poster_url(img, 288) if img.startswith("http") else ""])
     rows.sort(key=lambda r: (r[0], r[1].lower(), r[2].lower()), reverse=True)
     venues: dict[str, int] = {}
     for r in rows:
         venues[r[1]] = venues.get(r[1], 0) + 1
-    stats = {"total": len(rows), "venues": venues,
+    stats = {"total": len(rows), "venues": venues, "filtered": filtered,
              "first": rows[-1][0] if rows else "", "last": rows[0][0] if rows else ""}
     return rows, stats
 
 
-def archive_page(stats: dict, *, site_url: str, home_url: str, data_url: str) -> str:
-    first = parse_date(stats["first"]) if stats.get("first") else None
-    since = f"{MONTHS[first.month - 1]} {first.year}" if first else ""
+def archive_page(stats: dict, cfg: dict, home_css: str, *, site_url: str, home_url: str, data_url: str) -> str:
+    """The archive, built from the home page's own pieces: its search box,
+    filter pills, counters and poster cards (same CSS, same markup), so it
+    looks like the home page's gig list."""
+    first = parse_date(stats["first"])
+    since = f"{MONTHS[first.month - 1]} {first.year}"
     top = sorted(stats["venues"].items(), key=lambda kv: -kv[1])
-    years = [str(y) for y in range(int(stats["last"][:4]), int(stats["first"][:4]) - 1, -1)] if first else []
+    years = [str(y) for y in range(int(stats["last"][:4]), first.year - 1, -1)]
     venue_opts = "".join(f'<option value="{esc(v)}">{esc(v)} ({n})</option>'
                          for v, n in sorted(stats["venues"].items(), key=lambda kv: kv[0].lower()))
-    year_opts = "".join(f'<option value="{y}">{y}</option>' for y in years)
-    chips = "".join(f'<button type="button" class="arch-chip" data-venue="{esc(v)}">{esc(v)} <b>{n}</b></button>'
-                    for v, n in top[:8])
-    body = f"""<div class="listing archive">
-<h1>Norwich gig archive</h1>
-<p class="lede">Every gig we've listed since {esc(since)}: <strong>{stats['total']:,} gigs</strong> at
-<strong>{len(stats['venues'])} venues</strong>. Search for a band, a venue or a night you remember.</p>
-<form class="arch-controls" role="search" onsubmit="return false">
-  <label class="arch-search"><i class="fas fa-search" aria-hidden="true"></i>
-    <input type="search" id="archQ" placeholder="Search bands, venues..." autocomplete="off" aria-label="Search the archive"></label>
-  <select id="archVenue" aria-label="Venue"><option value="">All venues</option>{venue_opts}</select>
-  <select id="archYear" aria-label="Year"><option value="">All years</option>{year_opts}</select>
-  <select id="archSort" aria-label="Order"><option value="new">Newest first</option><option value="old">Oldest first</option></select>
-</form>
-<div class="arch-chips" aria-label="Busiest venues">{chips}</div>
-<p class="arch-count" id="archCount" aria-live="polite">Loading the archive...</p>
-<div id="archResults"></div>
-<button type="button" class="arch-more" id="archMore" hidden>Show more</button>
-<noscript><p>The archive search needs JavaScript. The <a href="{esc(data_url)}">full list</a> is also available as data.</p></noscript>
+    year_btns = "".join(f'<button type="button" class="qf-btn" data-year="{y}" aria-pressed="false">{y}</button>'
+                        for y in years)
+    months = {int(k): blogger_img(v, 700) for k, v in cfg.get("MONTH_DIVIDER_IMAGES", {}).items() if v}
+    logos = {v: poster_url(u, 288, "inside") for v, u in cfg.get("VENUE_LOGOS", {}).items() if u}
+    body = f"""{home_css}
+<style>
+/* Archive extras, in the home page's style */
+.archive-intro h1 {{ font-family: 'Lexend Exa', sans-serif; font-size: clamp(22px, 3vw, 30px); letter-spacing: -0.05em; margin: 4px 0 6px; text-align: center; }}
+.archive-intro p {{ text-align: center; margin: 0 0 4px; color: #444; }}
+.arch-venue {{ appearance: auto; font-family: inherit; width: 100%; max-width: 340px; cursor: pointer; }}
+.arch-row2 {{ margin-top: 6px !important; }}
+@media (max-width: 480px) {{ .arch-venue {{ max-width: none; }} }}
+.arch-sub {{ display: block; font-size: 13px; font-weight: 500; opacity: .75; margin-top: 2px; }}
+.arch-more {{ display: block; margin: 18px auto 4px; padding: 10px 26px; font-size: 15px; }}
+.arch-empty {{ text-align: center; padding: 30px 10px; font-weight: 600; }}
+</style>
+<div class="archive-intro">
+  <h1>Norwich gig archive</h1>
+  <p>Every gig we've listed since {esc(since)}. Search for a band, a venue or a night you remember.</p>
 </div>
+<div class="search-container">
+  <label for="archQ" class="search-label"><i class="fas fa-magic"></i> Search the archive:</label>
+  <div class="search-wrapper">
+    <i class="fas fa-search search-icon"></i>
+    <input type="text" id="archQ" class="search-box" placeholder="Search by artist, venue or month..." autocomplete="off">
+  </div>
+  <div class="quick-filters" role="group" aria-label="Filter the archive">
+    <button type="button" class="qf-btn" data-year="" aria-pressed="true">All years</button>{year_btns}
+    <button type="button" class="qf-btn" id="archSort" aria-pressed="false"><i class="fas fa-clock"></i> <span>Oldest first</span></button>
+  </div>
+  <div class="quick-filters arch-row2">
+    <select class="qf-btn arch-venue" id="archVenue" aria-label="Venue"><option value="">All venues</option>{venue_opts}</select>
+  </div>
+  <div class="counters">
+    <div class="counter"><i class="fas fa-calendar-alt"></i> Gigs: {stats['total']:,}</div>
+    <div class="counter"><i class="fas fa-map-marker-alt"></i> Venues: {len(stats['venues'])}</div>
+    <div class="counter"><i class="fas fa-eye"></i> Showing: <span id="archShowing">…</span></div>
+  </div>
+</div>
+<div class="events-table-container view-detailed">
+  <table class="events-table">
+    <thead><tr><th>Date</th><th>Venue</th><th>Artist/Event</th><th>Price</th><th></th></tr></thead>
+    <tbody id="archBody"></tbody>
+  </table>
+</div>
+<p class="arch-empty" id="archEmpty" hidden>No gigs found - try fewer words, another year or all venues.</p>
+<button type="button" class="qf-btn arch-more" id="archMore" hidden>Show more</button>
+<noscript><p>The archive search needs JavaScript. The <a href="{esc(data_url)}">full list</a> is also available as data.</p></noscript>
 <script>
 (function () {{
-  var MONTHS = {json.dumps(MONTHS)};
-  var DAYS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-  var PAGE = 100, rows = [], shown = 0, hits = [];
+  var MONTHS = {json.dumps(MONTHS)}, BANNERS = {json.dumps(months)}, LOGOS = {json.dumps(logos)};
+  var PAGE = 60, rows = [], hits = [], shown = 0, lastMonth = '', yearSel = '', oldest = false;
   var q = document.getElementById('archQ'), venue = document.getElementById('archVenue'),
-      year = document.getElementById('archYear'), sort = document.getElementById('archSort'),
-      out = document.getElementById('archResults'), count = document.getElementById('archCount'),
-      more = document.getElementById('archMore');
+      body = document.getElementById('archBody'), showing = document.getElementById('archShowing'),
+      more = document.getElementById('archMore'), empty = document.getElementById('archEmpty'),
+      sortBtn = document.getElementById('archSort');
   function fold(s) {{ return (s || '').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, ''); }}
   function el(tag, cls, text) {{ var e = document.createElement(tag); if (cls) e.className = cls;
     if (text != null) e.textContent = text; return e; }}
-  function label(iso) {{ var p = iso.split('-'), d = new Date(+p[0], +p[1] - 1, +p[2]);
-    return DAYS[d.getDay()] + ' ' + (+p[2]) + ' ' + MONTHS[+p[1] - 1].slice(0, 3); }}
+  function ord(n) {{ var s = ['th','st','nd','rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }}
+  function dateLabel(iso) {{ var p = iso.split('-'); return ord(+p[2]) + ' ' + MONTHS[+p[1] - 1].slice(0, 3) + ' ' + p[0]; }}
   function run(keepUrl) {{
-    var words = fold(q.value).split(/\\s+/).filter(Boolean), v = venue.value, y = year.value;
+    var words = fold(q.value).split(/\\s+/).filter(Boolean), v = venue.value;
     hits = rows.filter(function (r) {{
       if (v && r[1] !== v) return false;
-      if (y && r[0].slice(0, 4) !== y) return false;
+      if (yearSel && r[0].slice(0, 4) !== yearSel) return false;
       return words.every(function (w) {{ return r._t.indexOf(w) !== -1; }});
     }});
-    if (sort.value === 'old') hits.reverse();
-    out.textContent = ''; shown = 0; render();
-    count.textContent = hits.length ? hits.length.toLocaleString('en-GB') + (hits.length === 1 ? ' gig' : ' gigs')
-      + (words.length || v || y ? ' found' : ' in the archive') : 'No gigs found - try fewer words or another venue.';
+    if (oldest) hits.reverse();
+    body.textContent = ''; shown = 0; lastMonth = ''; render();
+    showing.textContent = hits.length.toLocaleString('en-GB');
+    empty.hidden = hits.length > 0;
     if (!keepUrl) {{
       var p = new URLSearchParams();
-      if (q.value.trim()) p.set('q', q.value.trim()); if (v) p.set('venue', v); if (y) p.set('year', y);
-      if (sort.value === 'old') p.set('sort', 'old');
+      if (q.value.trim()) p.set('q', q.value.trim()); if (v) p.set('venue', v); if (yearSel) p.set('year', yearSel);
+      if (oldest) p.set('sort', 'old');
       var s = p.toString(); history.replaceState(null, '', location.pathname + (s ? '?' + s : ''));
     }}
   }}
-  function render() {{
-    var end = Math.min(shown + PAGE, hits.length), lastMonth = out.getAttribute('data-month') || '', list = out.lastElementChild;
-    for (var i = shown; i < end; i++) {{
-      var r = hits[i], m = r[0].slice(0, 7);
-      if (m !== lastMonth) {{
-        lastMonth = m;
-        var sec = el('section', 'month');
-        sec.appendChild(el('h2', null, MONTHS[+m.slice(5) - 1] + ' ' + m.slice(0, 4)));
-        list = el('ul', 'gig-list arch-list'); sec.appendChild(list); out.appendChild(sec);
-      }} else if (list && list.tagName !== 'UL') {{ list = list.querySelector('ul'); }}
-      var li = el('li'), row = el(r[5] ? 'a' : 'div', 'arch-row');
-      if (r[5]) row.href = r[5];
-      row.appendChild(el('span', 'li-date', label(r[0])));
-      var mid = el('span', 'li-name', r[2]);
-      if (r[3]) mid.appendChild(el('span', 'arch-sub', 'with ' + r[3]));
-      row.appendChild(mid);
-      var right = el('span', 'li-venue', r[1]);
-      if (r[4]) right.appendChild(el('span', 'arch-sub', r[4]));
-      row.appendChild(right); li.appendChild(row); list.appendChild(li);
+  function banner(m) {{
+    var tr = el('tr', 'month-divider'), td = el('td'); td.colSpan = 6;
+    var y = m.slice(0, 4), mo = +m.slice(5), src = BANNERS[mo];
+    td.style.cssText = 'padding:0;background:transparent;border-radius:15px;overflow:hidden;position:relative;';
+    if (src) {{
+      var img = el('img'); img.src = src; img.alt = MONTHS[mo - 1] + ' ' + y; img.loading = 'lazy';
+      img.width = 1400; img.height = 300; img.style.cssText = 'display:block;width:100%;height:auto;border-radius:15px;';
+      td.appendChild(img);
+      var tag = el('span', null, y);
+      tag.style.cssText = "position:absolute;right:12px;bottom:10px;background:#fef403;color:#000;font:700 14px 'Archivo Black',sans-serif;padding:3px 12px;border:2px solid #000;border-radius:30px;";
+      td.appendChild(tag);
+    }} else {{
+      var h = el('div', null, MONTHS[mo - 1] + ' ' + y);
+      h.style.cssText = "background:#000;color:#fff;text-align:center;padding:12px;border-radius:15px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;";
+      td.appendChild(h);
     }}
-    out.setAttribute('data-month', lastMonth);
-    shown = end; more.hidden = shown >= hits.length;
+    tr.appendChild(td); return tr;
+  }}
+  function card(r) {{
+    var tr = el('tr'), pc = el('td', 'poster-cell'), src = r[6] || LOGOS[r[1]] || '';
+    if (src) {{
+      var img = el('img', 'event-poster' + (r[6] ? '' : ' is-logo'));
+      img.src = src; img.alt = r[6] ? r[2] + ' poster' : r[1] + ' logo'; img.loading = 'lazy'; img.width = 96; img.height = 96;
+      img.onerror = function () {{
+        if (r[6] && LOGOS[r[1]] && img.src !== LOGOS[r[1]]) {{ img.className = 'event-poster is-logo'; img.src = LOGOS[r[1]]; }}
+        else {{ pc.textContent = ''; pc.appendChild(el('i', 'fas fa-music')); }}
+      }};
+      pc.appendChild(img);
+    }} else pc.appendChild(el('i', 'fas fa-music'));
+    tr.appendChild(pc);
+    tr.appendChild(el('td', 'date-cell', dateLabel(r[0])));
+    tr.appendChild(el('td', 'venue-cell', r[1]));
+    var ev = el('td', 'event-cell', r[2]);
+    if (r[3]) ev.appendChild(el('span', 'arch-sub', 'with ' + r[3]));
+    tr.appendChild(ev);
+    if (r[4]) tr.appendChild(el('td', 'price-cell', r[4]));
+    if (r[5]) {{ tr.className = 'is-clickable'; tr.addEventListener('click', function () {{ location.href = r[5]; }}); }}
+    return tr;
+  }}
+  function render() {{
+    var end = Math.min(shown + PAGE, hits.length), frag = document.createDocumentFragment();
+    for (var i = shown; i < end; i++) {{
+      var m = hits[i][0].slice(0, 7);
+      if (m !== lastMonth) {{ lastMonth = m; frag.appendChild(banner(m)); }}
+      frag.appendChild(card(hits[i]));
+    }}
+    body.appendChild(frag); shown = end; more.hidden = shown >= hits.length;
     if (!more.hidden) more.textContent = 'Show more (' + (hits.length - shown).toLocaleString('en-GB') + ' left)';
   }}
   var timer;
   q.addEventListener('input', function () {{ clearTimeout(timer); timer = setTimeout(function () {{ run(); }}, 150); }});
-  [venue, year, sort].forEach(function (s) {{ s.addEventListener('change', function () {{ run(); }}); }});
+  venue.addEventListener('change', function () {{ run(); }});
   more.addEventListener('click', render);
-  document.querySelectorAll('.arch-chip').forEach(function (b) {{
-    b.addEventListener('click', function () {{ venue.value = venue.value === b.dataset.venue ? '' : b.dataset.venue; run(); }});
-  }});
+  function setYear(y) {{ yearSel = y; document.querySelectorAll('[data-year]').forEach(function (b) {{
+    b.setAttribute('aria-pressed', String(b.getAttribute('data-year') === y)); }}); }}
+  document.querySelectorAll('[data-year]').forEach(function (b) {{
+    b.addEventListener('click', function () {{ setYear(b.getAttribute('data-year')); run(); }}); }});
+  function setSort(o) {{ oldest = o; sortBtn.setAttribute('aria-pressed', String(o));
+    sortBtn.querySelector('span').textContent = o ? 'Newest first' : 'Oldest first'; }}
+  sortBtn.addEventListener('click', function () {{ setSort(!oldest); run(); }});
   var p = new URLSearchParams(location.search);
-  q.value = p.get('q') || ''; venue.value = p.get('venue') || ''; year.value = p.get('year') || '';
-  sort.value = p.get('sort') === 'old' ? 'old' : 'new';
+  q.value = p.get('q') || ''; venue.value = p.get('venue') || ''; setYear(p.get('year') || ''); setSort(p.get('sort') === 'old');
   fetch({json.dumps(data_url)}).then(function (r) {{ return r.json(); }}).then(function (data) {{
     rows = data.gigs;
-    rows.forEach(function (r) {{ r._t = fold(r[2] + ' ' + r[3] + ' ' + r[1] + ' ' + label(r[0]) + ' '
-      + MONTHS[+r[0].slice(5, 7) - 1] + ' ' + r[0].slice(0, 4)); }});
+    rows.forEach(function (r) {{ r._t = fold(r[2] + ' ' + r[3] + ' ' + r[1] + ' ' + dateLabel(r[0]) + ' ' + MONTHS[+r[0].slice(5, 7) - 1]); }});
     run(true);
-  }}).catch(function () {{ count.textContent = "Sorry - the archive didn't load. Please refresh the page."; }});
+  }}).catch(function () {{ showing.textContent = '0'; empty.hidden = false;
+    empty.textContent = "Sorry - the archive didn't load. Please refresh the page."; }});
 }})();
 </script>"""
     return page_shell(title="Norwich gig archive - every gig since " + since + " | Norwich Gigs",
                       description=f"Search {stats['total']:,} past gigs in Norwich since {since}, "
                                   f"at {len(stats['venues'])} venues including "
                                   + ", ".join(v for v, _ in top[:4]) + ".",
-                      canonical=f"{site_url}/archive/", body=body, home_url=home_url, crumbs=False)
+                      canonical=f"{site_url}/archive/", body=f'<div class="home-card">{body}</div>',
+                      home_url=home_url, crumbs=False)
 
 
 def home_page(cfg: dict, events: list, today: date, *, site_url: str, home_url: str) -> str | None:
@@ -831,14 +911,18 @@ def main() -> int:
         index_page(upcoming, cfg, site_url=site_url, home_url=home_url, slug_of=slug_of), encoding="utf-8")
     # The archive: every past gig in scraped_data/gig_archive.json, searchable.
     gig_page_of = {gig_key(e): f"/gigs/{slug_of(e)}/" for e in shown}
-    arch_rows, arch_stats = archive_data(today, gig_page_of)
+    arch_rows, arch_stats = archive_data(today, gig_page_of, cfg)
+    # The home page's own card / search styles (inside its body), reused by the archive.
+    home_css = "\n".join(re.findall(r"<style>.*?</style>", home.split("<body", 1)[-1], re.S))
     if arch_rows:
         (DIST / "archive").mkdir(parents=True, exist_ok=True)
         (DIST / "archive" / "gigs.json").write_text(
-            json.dumps({"updated": today.isoformat(), "fields": ["date", "venue", "name", "support", "price", "page"],
+            json.dumps({"updated": today.isoformat(),
+                        "fields": ["date", "venue", "name", "support", "price", "page", "poster"],
                         "gigs": arch_rows}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         (DIST / "archive" / "index.html").write_text(
-            archive_page(arch_stats, site_url=site_url, home_url=home_url, data_url="/archive/gigs.json"),
+            archive_page(arch_stats, cfg, home_css, site_url=site_url, home_url=home_url,
+                         data_url="/archive/gigs.json"),
             encoding="utf-8")
     extra_pages = site_pages(home_url, site_url)
     for address, page in extra_pages + redirect_pages(site_url):
@@ -855,7 +939,7 @@ def main() -> int:
     (DIST / ".nojekyll").write_text("", encoding="utf-8")
 
     with_details = sum(1 for e in upcoming if e.get("time") or e.get("doors") or e.get("description"))
-    print(f"Archive page: {len(arch_rows)} past gigs")
+    print(f"Archive page: {len(arch_rows)} past gigs ({arch_stats.get('filtered', 0)} left out by the keyword filter)")
     print(f"Built the home page, the gig list, {len(extra_pages)} other page(s) and {len(shown)} gig page(s) ({len(upcoming)} upcoming, {len(shown) - len(upcoming)} recent past; "
           f"{with_details} upcoming with extra details) -> {DIST}")
     return 0
